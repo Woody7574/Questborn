@@ -1,0 +1,101 @@
+plugins {
+    id 'java'
+}
+
+group = 'ua.woody'
+version = '1.1.0'
+
+allprojects {
+    repositories {
+        mavenCentral()
+        maven { url = "https://jitpack.io" }
+
+        // Paper API
+        maven {
+            name = "papermc-repo"
+            url = "https://repo.papermc.io/repository/maven-public/"
+        }
+
+        // EngineHub (WorldEdit + WorldGuard)
+        maven { url = "https://maven.enginehub.org/repo/" }
+
+        // Sonatype
+        maven {
+            name = "sonatype"
+            url = "https://oss.sonatype.org/content/groups/public/"
+        }
+
+        // bStats репозиторій
+        maven { url = "https://repo.codemc.org/repository/maven-public/" }
+    }
+}
+
+def targetJavaVersion = 21
+
+java {
+    def javaVersion = JavaVersion.toVersion(targetJavaVersion)
+    sourceCompatibility = javaVersion
+    targetCompatibility = javaVersion
+    if (JavaVersion.current() < javaVersion) {
+        toolchain.languageVersion = JavaLanguageVersion.of(targetJavaVersion)
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    if (targetJavaVersion >= 10 || JavaVersion.current().isJava10Compatible()) {
+        options.release.set(targetJavaVersion)
+    }
+}
+
+// ✅ ТВОЇ залежності плагіна (root)
+dependencies {
+    // Paper API
+    compileOnly "io.papermc.paper:paper-api:1.21-R0.1-SNAPSHOT"
+
+    // Vault
+    compileOnly "com.github.MilkBowl:VaultAPI:1.7"
+
+    // WorldEdit (обов'язковий для WG)
+    compileOnly "com.sk89q.worldedit:worldedit-bukkit:7.2.17"
+
+    // WorldGuard API
+    compileOnly "com.sk89q.worldguard:worldguard-bukkit:7.0.10"
+
+    // bStats Metrics
+    implementation "org.bstats:bstats-bukkit:3.0.2"
+}
+
+// ✅ тільки для root-проєкту (бо тут є plugin.yml)
+processResources {
+    def props = [version: version]
+    inputs.properties props
+    filteringCharset 'UTF-8'
+    filesMatching('plugin.yml') {
+        expand props
+    }
+}
+
+// ✅ застосувати Java 21/encoding до сабпроєктів
+subprojects {
+    apply plugin: 'java'
+
+    group = rootProject.group
+    version = rootProject.version
+
+    java {
+        def javaVersion = JavaVersion.toVersion(targetJavaVersion)
+        sourceCompatibility = javaVersion
+        targetCompatibility = javaVersion
+        if (JavaVersion.current() < javaVersion) {
+            toolchain.languageVersion = JavaLanguageVersion.of(targetJavaVersion)
+        }
+    }
+
+    tasks.withType(JavaCompile).configureEach {
+        options.encoding = 'UTF-8'
+        if (targetJavaVersion >= 10 || JavaVersion.current().isJava10Compatible()) {
+            options.release.set(targetJavaVersion)
+        }
+    }
+}

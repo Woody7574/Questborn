@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group = 'ua.woody'
+version = '1.0.1'
+
+repositories {
+    mavenCentral()
+    maven { url = "https://repo.papermc.io/repository/maven-public/" }
+}
+
+dependencies {
+    // Paper/Bukkit API потрібен аддону для Player, Material і т.д.
+    compileOnly "io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT" // або твоя версія
+
+    // компіляція проти класів Questborn (в jar аддона вони НЕ запакуються)
+    compileOnly project(':')
+}
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(21)
+}
