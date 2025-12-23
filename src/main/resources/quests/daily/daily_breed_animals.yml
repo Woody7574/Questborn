@@ -1,0 +1,25 @@
+id: "daily_breed_animals"
+name: "<#55aaff>Breed Animals"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Breed Animals."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+160 coins"
+  - "<#ffe08a>+80 XP"
+
+objective:
+  type: "breed-animals"
+  amount: 5
+  target-entities:
+    - COW
+
+rewards:
+  money: 160
+  xp: 80
+
+quest-effects:
+  activate: "objective_breed_animals"
+  complete: "quest_complete_success"

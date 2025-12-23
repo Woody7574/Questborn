@@ -1,0 +1,25 @@
+id: "daily_entity_ride"
+name: "<#55aaff>Entity Ride"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Entity Ride."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+180 coins"
+  - "<#ffe08a>+80 XP"
+
+objective:
+  type: "entity-ride"
+  distance: 250
+  target-entities:
+    - HORSE
+
+rewards:
+  money: 180
+  xp: 80
+
+quest-effects:
+  activate: "objective_entity_ride"
+  complete: "quest_complete_success"

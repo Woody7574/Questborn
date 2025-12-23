@@ -1,0 +1,29 @@
+id: "seasonal_spring_bone_meal"
+name: "<#55aaff>Quick Growth"
+
+description:
+  - "<#cccccc>Help plants grow faster."
+  - "<#cccccc>Use bone meal on crops."
+  - "<#cccccc>Use it 30 times."
+
+rewards-description:
+  - "<#a7ff99>+800 coins"
+  - "<#ffe08a>+650 XP"
+
+objective:
+  type: "bone-meal-use"
+  amount: 30
+  target-materials:
+    - BONE_MEAL
+
+rewards:
+  money:
+    amount: 800
+    silent: false
+  xp:
+    points: 650
+    silent: false
+
+quest-effects:
+  activate: "objective_bone_meal_use"
+  complete: "quest_complete_success"

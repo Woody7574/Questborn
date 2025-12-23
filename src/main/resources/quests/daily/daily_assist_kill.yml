@@ -1,0 +1,23 @@
+id: "daily_assist_kill"
+name: "<#55aaff>Assist Kill"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Assist Kill."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+160 coins"
+  - "<#ffe08a>+70 XP"
+
+objective:
+  type: "assist-kill"
+  min-damage: 5
+
+rewards:
+  money: 160
+  xp: 70
+
+quest-effects:
+  activate: "objective_assist_kill"
+  complete: "quest_complete_success"

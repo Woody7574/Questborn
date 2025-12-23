@@ -1,0 +1,28 @@
+id: "daily_wear_armor"
+name: "<#55aaff>Wear Armor"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Wear Armor."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+180 coins"
+  - "<#ffe08a>+60 XP"
+
+objective:
+  type: "wear-armor"
+  amount: 4
+  target-materials:
+    - DIAMOND_HELMET
+    - DIAMOND_CHESTPLATE
+    - DIAMOND_LEGGINGS
+    - DIAMOND_BOOTS
+
+rewards:
+  money: 180
+  xp: 60
+
+quest-effects:
+  activate: "objective_wear_armor"
+  complete: "quest_complete_success"

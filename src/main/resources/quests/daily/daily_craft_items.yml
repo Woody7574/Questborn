@@ -1,0 +1,25 @@
+id: "daily_craft_items"
+name: "<#55aaff>Craft Items"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Craft Items."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+180 coins"
+  - "<#ffe08a>+60 XP"
+
+objective:
+  type: "craft-items"
+  amount: 5
+  target-materials:
+    - BREAD
+
+rewards:
+  money: 180
+  xp: 60
+
+quest-effects:
+  activate: "objective_item_craft"
+  complete: "quest_complete_success"

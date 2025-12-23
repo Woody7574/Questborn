@@ -1,0 +1,31 @@
+id: "seasonal_autumn_night_watch"
+name: "<#55aaff>Night Watch"
+
+description:
+  - "<#cccccc>Autumn nights feel eerie."
+  - "<#cccccc>Keep the area safe."
+  - "<#cccccc>Defeat 40 mobs."
+
+rewards-description:
+  - "<#a7ff99>+1200 coins"
+  - "<#ffe08a>+850 XP"
+
+objective:
+  type: "kill-mobs"
+  amount: 40
+  target-entities:
+    - ZOMBIE
+    - SKELETON
+    - PHANTOM
+
+rewards:
+  money:
+    amount: 1200
+    silent: false
+  xp:
+    points: 850
+    silent: false
+
+quest-effects:
+  activate: "objective_kill_entity"
+  complete: "quest_complete_success"

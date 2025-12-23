@@ -1,0 +1,23 @@
+id: "daily_fall_distance"
+name: "<#55aaff>Fall Distance"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Fall Distance."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+150 coins"
+  - "<#ffe08a>+60 XP"
+
+objective:
+  type: "fall-distance"
+  min-distance: 15
+
+rewards:
+  money: 150
+  xp: 60
+
+quest-effects:
+  activate: "objective_fall_distance"
+  complete: "quest_complete_success"

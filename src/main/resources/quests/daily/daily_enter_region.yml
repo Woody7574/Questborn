@@ -1,0 +1,23 @@
+id: "daily_enter_region"
+name: "<#55aaff>Enter Region"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Enter Region."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+170 coins"
+  - "<#ffe08a>+70 XP"
+
+objective:
+  type: "enter-region"
+  region: "spawn"
+
+rewards:
+  money: 170
+  xp: 70
+
+quest-effects:
+  activate: "objective_enter_region"
+  complete: "quest_complete_success"

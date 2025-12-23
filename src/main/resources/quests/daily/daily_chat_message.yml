@@ -1,0 +1,24 @@
+id: "daily_chat_message"
+name: "<#55aaff>Chat Message"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Chat Message."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+190 coins"
+  - "<#ffe08a>+60 XP"
+
+objective:
+  type: "chat-message"
+  message: "hello"
+  amount: 1
+
+rewards:
+  money: 190
+  xp: 60
+
+quest-effects:
+  activate: "objective_chat_message"
+  complete: "quest_complete_success"

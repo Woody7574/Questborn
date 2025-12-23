@@ -1,0 +1,26 @@
+id: "daily_open_container"
+name: "<#55aaff>Open Container"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Open Container."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+180 coins"
+  - "<#ffe08a>+70 XP"
+
+objective:
+  type: "open-container"
+  amount: 3
+  containers:
+    - CHEST
+    - BARREL
+
+rewards:
+  money: 180
+  xp: 70
+
+quest-effects:
+  activate: "objective_open_container"
+  complete: "quest_complete_success"

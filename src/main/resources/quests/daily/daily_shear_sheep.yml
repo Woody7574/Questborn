@@ -1,0 +1,25 @@
+id: "daily_shear_sheep"
+name: "<#55aaff>Shear Sheep"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Shear Sheep."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+200 coins"
+  - "<#ffe08a>+100 XP"
+
+objective:
+  type: "shear-sheep"
+  amount: 3
+  target-entities:
+    - SHEEP
+
+rewards:
+  money: 200
+  xp: 100
+
+quest-effects:
+  activate: "objective_shear_sheep"
+  complete: "quest_complete_success"

@@ -1,0 +1,28 @@
+id: "example_test_command"
+name: "<#55aaff>Example: Execute Command"
+
+description:
+  - "<#cccccc>Testing command objective."
+  - "<#cccccc>Run a simple command."
+  - "<#cccccc>Use: /spawn."
+
+rewards-description:
+  - "<#a7ff99>+10 coins"
+  - "<#ffe08a>+5 XP"
+
+objective:
+  type: "execute-command"
+  amount: 1
+  command: "spawn"
+
+rewards:
+  money:
+    amount: 10
+    silent: false
+  xp:
+    points: 5
+    silent: false
+
+quest-effects:
+  activate: "objective_execute_command"
+  complete: "quest_complete_success"

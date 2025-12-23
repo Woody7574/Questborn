@@ -1,0 +1,28 @@
+id: "daily_bone_meal_use"
+name: "<#55aaff>Bone Meal Use"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Bone Meal Use."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+190 coins"
+  - "<#ffe08a>+100 XP"
+
+objective:
+  type: "bone-meal-use"
+  amount: 16
+  target-materials:
+    - OAK_SAPLING
+    - BIRCH_SAPLING
+    - ACACIA_SAPLING
+    - SPRUCE_SAPLING
+
+rewards:
+  money: 190
+  xp: 100
+
+quest-effects:
+  activate: "objective_bone_meal_use"
+  complete: "quest_complete_success"

@@ -1,0 +1,25 @@
+id: "daily_cook_items"
+name: "<#55aaff>Cook Items"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Cook Items."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+170 coins"
+  - "<#ffe08a>+100 XP"
+
+objective:
+  type: "cook-items"
+  amount: 5
+  target-materials:
+    - COOKED_BEEF
+
+rewards:
+  money: 170
+  xp: 100
+
+quest-effects:
+  activate: "objective_item_cook"
+  complete: "quest_complete_success"

@@ -1,0 +1,25 @@
+id: "daily_tame_animal"
+name: "<#55aaff>Tame Animal"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Tame Animal."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+150 coins"
+  - "<#ffe08a>+70 XP"
+
+objective:
+  type: "tame-animal"
+  amount: 5
+  target-entities:
+    - WOLF
+
+rewards:
+  money: 150
+  xp: 70
+
+quest-effects:
+  activate: "objective_tame_animal"
+  complete: "quest_complete_success"

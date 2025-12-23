@@ -1,0 +1,29 @@
+id: "example_test_break"
+name: "<#55aaff>Example: Break Blocks"
+
+description:
+  - "<#cccccc>Testing block breaking."
+  - "<#cccccc>Mine a few blocks."
+  - "<#cccccc>Break 10 stone."
+
+rewards-description:
+  - "<#a7ff99>+10 coins"
+  - "<#ffe08a>+5 XP"
+
+objective:
+  type: "break-blocks"
+  amount: 10
+  target-materials:
+    - STONE
+
+rewards:
+  money:
+    amount: 10
+    silent: false
+  xp:
+    points: 5
+    silent: false
+
+quest-effects:
+  activate: "objective_block_break"
+  complete: "quest_complete_success"

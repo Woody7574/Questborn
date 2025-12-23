@@ -1,0 +1,23 @@
+id: "daily_travel_distance"
+name: "<#55aaff>Travel Distance"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Travel Distance."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+200 coins"
+  - "<#ffe08a>+70 XP"
+
+objective:
+  type: "travel-distance"
+  distance: 1000
+
+rewards:
+  money: 200
+  xp: 70
+
+quest-effects:
+  activate: "objective_travel_distance"
+  complete: "quest_complete_success"

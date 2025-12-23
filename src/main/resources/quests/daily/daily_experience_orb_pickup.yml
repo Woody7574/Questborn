@@ -1,0 +1,23 @@
+id: "daily_experience_orb_pickup"
+name: "<#55aaff>Experience Orb Pickup"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Experience Orb Pickup."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+200 coins"
+  - "<#ffe08a>+100 XP"
+
+objective:
+  type: "experience-orb-pickup"
+  amount: 50
+
+rewards:
+  money: 200
+  xp: 100
+
+quest-effects:
+  activate: "objective_experience_orb_pickup"
+  complete: "quest_complete_success"

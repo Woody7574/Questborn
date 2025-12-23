@@ -1,0 +1,28 @@
+id: "onetime_welcome_command"
+name: "<#55aaff>First Step"
+
+description:
+  - "<#cccccc>Learn the server basics."
+  - "<#cccccc>Use the main teleport command."
+  - "<#cccccc>Run: /spawn."
+
+rewards-description:
+  - "<#a7ff99>+250 coins"
+  - "<#ffe08a>+150 XP"
+
+objective:
+  type: "execute-command"
+  amount: 1
+  command: "spawn"
+
+rewards:
+  money:
+    amount: 250
+    silent: false
+  xp:
+    points: 150
+    silent: false
+
+quest-effects:
+  activate: "objective_execute_command"
+  complete: "quest_complete_success"

@@ -1,0 +1,23 @@
+id: "daily_conduit_activate"
+name: "<#55aaff>Conduit Activate"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Conduit Activate."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+150 coins"
+  - "<#ffe08a>+80 XP"
+
+objective:
+  type: "conduit-activate"
+  amount: 1
+
+rewards:
+  money: 150
+  xp: 80
+
+quest-effects:
+  activate: "objective_conduit_activate"
+  complete: "quest_complete_success"

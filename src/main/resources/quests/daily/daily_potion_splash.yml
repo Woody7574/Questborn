@@ -1,0 +1,25 @@
+id: "daily_potion_splash"
+name: "<#55aaff>Potion Splash"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Potion Splash."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+170 coins"
+  - "<#ffe08a>+70 XP"
+
+objective:
+  type: "potion-splash"
+  amount: 1
+  target-materials:
+    - SPLASH_POTION:POISON
+
+rewards:
+  money: 170
+  xp: 70
+
+quest-effects:
+  activate: "objective_potion_splash"
+  complete: "quest_complete_success"

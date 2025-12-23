@@ -1,0 +1,23 @@
+id: "daily_sleep_in_bed"
+name: "<#55aaff>Sleep In Bed"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Sleep In Bed."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+160 coins"
+  - "<#ffe08a>+70 XP"
+
+objective:
+  type: "sleep-in-bed"
+  amount: 1
+
+rewards:
+  money: 160
+  xp: 70
+
+quest-effects:
+  activate: "objective_sleep_in_bed"
+  complete: "quest_complete_success"

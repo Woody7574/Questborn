@@ -1,0 +1,29 @@
+id: "onetime_first_enchant"
+name: "<#55aaff>First Enchant"
+
+description:
+  - "<#cccccc>Power up your gear."
+  - "<#cccccc>Enchant something useful."
+  - "<#cccccc>Enchant 1 book."
+
+rewards-description:
+  - "<#a7ff99>+700 coins"
+  - "<#ffe08a>+500 XP"
+
+objective:
+  type: "enchant-item"
+  amount: 1
+  target-materials:
+    - BOOK
+
+rewards:
+  money:
+    amount: 700
+    silent: false
+  xp:
+    points: 500
+    silent: false
+
+quest-effects:
+  activate: "objective_item_enchant"
+  complete: "quest_complete_success"

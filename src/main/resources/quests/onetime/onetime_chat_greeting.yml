@@ -1,0 +1,28 @@
+id: "onetime_chat_greeting"
+name: "<#55aaff>Say Hello"
+
+description:
+  - "<#cccccc>Introduce yourself to others."
+  - "<#cccccc>Send a friendly message."
+  - "<#cccccc>Type: Hello, Questborn!"
+
+rewards-description:
+  - "<#a7ff99>+220 coins"
+  - "<#ffe08a>+120 XP"
+
+objective:
+  type: "chat-message"
+  amount: 1
+  message: "Hello, Questborn!"
+
+rewards:
+  money:
+    amount: 220
+    silent: false
+  xp:
+    points: 120
+    silent: false
+
+quest-effects:
+  activate: "objective_chat_message"
+  complete: "quest_complete_success"

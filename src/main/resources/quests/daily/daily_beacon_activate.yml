@@ -1,0 +1,23 @@
+id: "daily_beacon_activate"
+name: "<#55aaff>Beacon Activate"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Beacon Activate."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+170 coins"
+  - "<#ffe08a>+80 XP"
+
+objective:
+  type: "beacon-activate"
+  amount: 1
+
+rewards:
+  money: 170
+  xp: 80
+
+quest-effects:
+  activate: "objective_beacon_activate"
+  complete: "quest_complete_success"

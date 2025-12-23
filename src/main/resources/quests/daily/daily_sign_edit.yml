@@ -1,0 +1,24 @@
+id: "daily_sign_edit"
+name: "<#55aaff>Sign Edit"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Sign Edit."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+150 coins"
+  - "<#ffe08a>+60 XP"
+
+objective:
+  type: "sign-edit"
+  amount: 1
+  message: "Fortune!"
+
+rewards:
+  money: 150
+  xp: 60
+
+quest-effects:
+  activate: "objective_sign_edit"
+  complete: "quest_complete_success"

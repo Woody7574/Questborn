@@ -1,0 +1,23 @@
+id: "daily_fishing_bobber_hook"
+name: "<#55aaff>Fishing Bobber Hook"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Fishing Bobber Hook."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+190 coins"
+  - "<#ffe08a>+100 XP"
+
+objective:
+  type: "fishing-bobber-hook"
+  amount: 10
+
+rewards:
+  money: 190
+  xp: 100
+
+quest-effects:
+  activate: "objective_fishing_bobber_hook"
+  complete: "quest_complete_success"

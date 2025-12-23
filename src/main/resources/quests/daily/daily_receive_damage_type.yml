@@ -1,0 +1,24 @@
+id: "daily_receive_damage_type"
+name: "<#55aaff>Receive Damage Type"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Receive Damage Type."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+190 coins"
+  - "<#ffe08a>+90 XP"
+
+objective:
+  type: "receive-damage-type"
+  amount: 20
+  cause: LAVA
+
+rewards:
+  money: 190
+  xp: 90
+
+quest-effects:
+  activate: "objective_receive_damage_type"
+  complete: "quest_complete_success"

@@ -1,0 +1,23 @@
+id: "daily_minecart_travel"
+name: "<#55aaff>Minecart Travel"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Minecart Travel."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+170 coins"
+  - "<#ffe08a>+60 XP"
+
+objective:
+  type: "minecart-travel"
+  amount: 500
+
+rewards:
+  money: 170
+  xp: 60
+
+quest-effects:
+  activate: "objective_minecart_travel"
+  complete: "quest_complete_success"

@@ -1,0 +1,29 @@
+id: "seasonal_autumn_compost_help"
+name: "<#55aaff>Compost Helper"
+
+description:
+  - "<#cccccc>Clean up fallen leaves."
+  - "<#cccccc>Use the composter often."
+  - "<#cccccc>Interact 40 times."
+
+rewards-description:
+  - "<#a7ff99>+850 coins"
+  - "<#ffe08a>+650 XP"
+
+objective:
+  type: "interact-block"
+  amount: 40
+  target-materials:
+    - COMPOSTER
+
+rewards:
+  money:
+    amount: 850
+    silent: false
+  xp:
+    points: 650
+    silent: false
+
+quest-effects:
+  activate: "objective_interact_block"
+  complete: "quest_complete_success"

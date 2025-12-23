@@ -1,0 +1,29 @@
+id: "seasonal_autumn_waypoint_forest"
+name: "<#55aaff>Forest Marker"
+
+description:
+  - "<#cccccc>Reach the autumn marker."
+  - "<#cccccc>Return with a report."
+  - "<#cccccc>Reach the coordinates."
+
+rewards-description:
+  - "<#a7ff99>+900 coins"
+  - "<#ffe08a>+650 XP"
+
+objective:
+  type: "reach-location"
+  x: -250
+  y: 80
+  z: -900
+
+rewards:
+  money:
+    amount: 900
+    silent: false
+  xp:
+    points: 650
+    silent: false
+
+quest-effects:
+  activate: "objective_reach_location"
+  complete: "quest_complete_success"

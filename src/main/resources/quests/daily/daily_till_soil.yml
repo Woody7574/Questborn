@@ -1,0 +1,25 @@
+id: "daily_till_soil"
+name: "<#55aaff>Till Soil"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Till Soil."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+180 coins"
+  - "<#ffe08a>+100 XP"
+
+objective:
+  type: "till-soil"
+  amount: 16
+  target-materials:
+    - GRASS_BLOCK
+
+rewards:
+  money: 180
+  xp: 100
+
+quest-effects:
+  activate: "objective_till_soil"
+  complete: "quest_complete_success"

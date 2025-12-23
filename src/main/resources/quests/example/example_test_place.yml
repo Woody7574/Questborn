@@ -1,0 +1,29 @@
+id: "example_test_place"
+name: "<#55aaff>Example: Place Blocks"
+
+description:
+  - "<#cccccc>Testing block placing."
+  - "<#cccccc>Build a small platform."
+  - "<#cccccc>Place 10 dirt."
+
+rewards-description:
+  - "<#a7ff99>+10 coins"
+  - "<#ffe08a>+5 XP"
+
+objective:
+  type: "place-blocks"
+  amount: 10
+  target-materials:
+    - DIRT
+
+rewards:
+  money:
+    amount: 10
+    silent: false
+  xp:
+    points: 5
+    silent: false
+
+quest-effects:
+  activate: "objective_block_place"
+  complete: "quest_complete_success"

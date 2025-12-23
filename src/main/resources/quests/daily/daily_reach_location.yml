@@ -1,0 +1,25 @@
+id: "daily_reach_location"
+name: "<#55aaff>Reach Location"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Reach Location."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+180 coins"
+  - "<#ffe08a>+80 XP"
+
+objective:
+  type: "reach-location"
+  x: 100
+  y: 64
+  z: -250
+
+rewards:
+  money: 180
+  xp: 80
+
+quest-effects:
+  activate: "objective_reach_location"
+  complete: "quest_complete_success"

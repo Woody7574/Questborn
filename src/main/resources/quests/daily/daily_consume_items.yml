@@ -1,0 +1,25 @@
+id: "daily_consume_items"
+name: "<#55aaff>Consume Items"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Consume Items."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+160 coins"
+  - "<#ffe08a>+90 XP"
+
+objective:
+  type: "consume-items"
+  amount: 5
+  target-materials:
+    - GOLDEN_APPLE
+
+rewards:
+  money: 160
+  xp: 90
+
+quest-effects:
+  activate: "objective_consume_item"
+  complete: "quest_complete_success"

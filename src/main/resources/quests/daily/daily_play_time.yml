@@ -1,0 +1,24 @@
+id: "daily_play_time"
+name: "<#55aaff>Play Time"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Play Time."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+150 coins"
+  - "<#ffe08a>+100 XP"
+
+objective:
+  type: "play-time"
+  time: 30
+  time-unit: minutes
+
+rewards:
+  money: 150
+  xp: 100
+
+quest-effects:
+  activate: "objective_play_time"
+  complete: "quest_complete_success"

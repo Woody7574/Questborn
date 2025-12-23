@@ -1,0 +1,23 @@
+id: "daily_throw_egg"
+name: "<#55aaff>Throw Egg"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Throw Egg."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+170 coins"
+  - "<#ffe08a>+90 XP"
+
+objective:
+  type: "throw-egg"
+  amount: 8
+
+rewards:
+  money: 170
+  xp: 90
+
+quest-effects:
+  activate: "objective_throw_egg"
+  complete: "quest_complete_success"

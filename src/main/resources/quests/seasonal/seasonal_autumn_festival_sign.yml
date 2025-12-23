@@ -1,0 +1,28 @@
+id: "seasonal_autumn_festival_sign"
+name: "<#55aaff>Festival Notice"
+
+description:
+  - "<#cccccc>Announce the harvest event."
+  - "<#cccccc>Write it on a sign."
+  - "<#cccccc>Text: Autumn Festival."
+
+rewards-description:
+  - "<#a7ff99>+750 coins"
+  - "<#ffe08a>+600 XP"
+
+objective:
+  type: "sign-edit"
+  amount: 1
+  message: "Autumn Festival"
+
+rewards:
+  money:
+    amount: 750
+    silent: false
+  xp:
+    points: 600
+    silent: false
+
+quest-effects:
+  activate: "objective_sign_edit"
+  complete: "quest_complete_success"

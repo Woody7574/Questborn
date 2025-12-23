@@ -1,0 +1,26 @@
+id: "daily_item_rename"
+name: "<#55aaff>Item Rename"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Item Rename."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+190 coins"
+  - "<#ffe08a>+60 XP"
+
+objective:
+  type: "item-rename"
+  amount: 1
+  target-materials:
+    - DIAMOND_SWORD
+  message: "Blade of Fortune"
+
+rewards:
+  money: 190
+  xp: 60
+
+quest-effects:
+  activate: "objective_item_rename"
+  complete: "quest_complete_success"

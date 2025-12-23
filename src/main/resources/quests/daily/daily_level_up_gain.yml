@@ -1,0 +1,23 @@
+id: "daily_level_up_gain"
+name: "<#55aaff>Level Up Gain"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Level Up Gain."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+200 coins"
+  - "<#ffe08a>+80 XP"
+
+objective:
+  type: "level-up-gain"
+  amount: 5
+
+rewards:
+  money: 200
+  xp: 80
+
+quest-effects:
+  activate: "objective_level_up_gain"
+  complete: "quest_complete_success"

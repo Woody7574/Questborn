@@ -1,0 +1,25 @@
+id: "daily_kill_mobs"
+name: "<#55aaff>Kill Mobs"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Kill Mobs."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+170 coins"
+  - "<#ffe08a>+100 XP"
+
+objective:
+  type: "kill-mobs"
+  amount: 5
+  target-entities:
+    - ZOMBIE
+
+rewards:
+  money: 170
+  xp: 100
+
+quest-effects:
+  activate: "objective_kill_entity"
+  complete: "quest_complete_success"

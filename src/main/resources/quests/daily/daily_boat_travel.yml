@@ -1,0 +1,23 @@
+id: "daily_boat_travel"
+name: "<#55aaff>Boat Travel"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Boat Travel."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+180 coins"
+  - "<#ffe08a>+90 XP"
+
+objective:
+  type: "boat-travel"
+  amount: 500
+
+rewards:
+  money: 180
+  xp: 90
+
+quest-effects:
+  activate: "objective_boat_travel"
+  complete: "quest_complete_success"

@@ -1,0 +1,25 @@
+id: "daily_fill_fuel"
+name: "<#55aaff>Fill Fuel"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Fill Fuel."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+170 coins"
+  - "<#ffe08a>+80 XP"
+
+objective:
+  type: "fill-fuel"
+  amount: 5
+  target-materials:
+    - COAL
+
+rewards:
+  money: 170
+  xp: 80
+
+quest-effects:
+  activate: "objective_fill_fuel"
+  complete: "quest_complete_success"

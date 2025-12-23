@@ -1,0 +1,26 @@
+id: "daily_hold_item"
+name: "<#55aaff>Hold Item"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Hold Item."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+150 coins"
+  - "<#ffe08a>+70 XP"
+
+objective:
+  type: "hold-item"
+  time: 30
+  time-unit: seconds
+  target-materials:
+    - COMPASS
+
+rewards:
+  money: 150
+  xp: 70
+
+quest-effects:
+  activate: "objective_hold_item"
+  complete: "quest_complete_success"

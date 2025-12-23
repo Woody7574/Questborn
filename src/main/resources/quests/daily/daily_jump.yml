@@ -1,0 +1,23 @@
+id: "daily_jump"
+name: "<#55aaff>Jump"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Jump."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+160 coins"
+  - "<#ffe08a>+90 XP"
+
+objective:
+  type: "jump"
+  jumps: 25
+
+rewards:
+  money: 160
+  xp: 90
+
+quest-effects:
+  activate: "objective_jump"
+  complete: "quest_complete_success"

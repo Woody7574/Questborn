@@ -1,0 +1,25 @@
+id: "daily_wax_off"
+name: "<#55aaff>Wax Off"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Wax Off."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+160 coins"
+  - "<#ffe08a>+90 XP"
+
+objective:
+  type: "wax-off"
+  amount: 16
+  target-materials:
+    - WAXED_COPPER_BLOCK
+
+rewards:
+  money: 160
+  xp: 90
+
+quest-effects:
+  activate: "objective_wax_off"
+  complete: "quest_complete_success"

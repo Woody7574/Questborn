@@ -1,0 +1,29 @@
+id: "onetime_smelt_iron"
+name: "<#55aaff>Forge Order"
+
+description:
+  - "<#cccccc>The smith needs metal."
+  - "<#cccccc>Keep the furnace running."
+  - "<#cccccc>Smelt 32 iron ingots."
+
+rewards-description:
+  - "<#a7ff99>+520 coins"
+  - "<#ffe08a>+360 XP"
+
+objective:
+  type: "smelt-items"
+  amount: 32
+  target-materials:
+    - IRON_INGOT
+
+rewards:
+  money:
+    amount: 520
+    silent: false
+  xp:
+    points: 360
+    silent: false
+
+quest-effects:
+  activate: "objective_item_smelt"
+  complete: "quest_complete_success"

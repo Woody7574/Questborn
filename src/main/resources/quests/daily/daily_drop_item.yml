@@ -1,0 +1,25 @@
+id: "daily_drop_item"
+name: "<#55aaff>Drop Item"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Drop Item."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+160 coins"
+  - "<#ffe08a>+100 XP"
+
+objective:
+  type: "drop-item"
+  amount: 5
+  target-materials:
+    - ROTTEN_FLESH
+
+rewards:
+  money: 160
+  xp: 100
+
+quest-effects:
+  activate: "objective_drop_item"
+  complete: "quest_complete_success"

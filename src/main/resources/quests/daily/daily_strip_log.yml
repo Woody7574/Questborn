@@ -1,0 +1,25 @@
+id: "daily_strip_log"
+name: "<#55aaff>Strip Log"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Strip Log."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+190 coins"
+  - "<#ffe08a>+100 XP"
+
+objective:
+  type: "strip-log"
+  amount: 16
+  target-materials:
+    - OAK_LOG
+
+rewards:
+  money: 190
+  xp: 100
+
+quest-effects:
+  activate: "objective_strip_log"
+  complete: "quest_complete_success"

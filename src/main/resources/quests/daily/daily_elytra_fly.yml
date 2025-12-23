@@ -1,0 +1,23 @@
+id: "daily_elytra_fly"
+name: "<#55aaff>Elytra Fly"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Elytra Fly."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+180 coins"
+  - "<#ffe08a>+70 XP"
+
+objective:
+  type: "elytra-fly"
+  amount: 1500
+
+rewards:
+  money: 180
+  xp: 70
+
+quest-effects:
+  activate: "objective_elytra_fly"
+  complete: "quest_complete_success"

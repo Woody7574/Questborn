@@ -1,0 +1,28 @@
+id: "seasonal_autumn_market_command"
+name: "<#55aaff>Market Visit"
+
+description:
+  - "<#cccccc>Visit the seasonal market."
+  - "<#cccccc>Use the market command."
+  - "<#cccccc>Run: /market."
+
+rewards-description:
+  - "<#a7ff99>+700 coins"
+  - "<#ffe08a>+550 XP"
+
+objective:
+  type: "execute-command"
+  amount: 1
+  command: "market"
+
+rewards:
+  money:
+    amount: 700
+    silent: false
+  xp:
+    points: 550
+    silent: false
+
+quest-effects:
+  activate: "objective_execute_command"
+  complete: "quest_complete_success"

@@ -1,0 +1,29 @@
+id: "onetime_craft_torches"
+name: "<#55aaff>Light Up"
+
+description:
+  - "<#cccccc>The mines are too dark."
+  - "<#cccccc>Craft supplies for safety."
+  - "<#cccccc>Craft 128 torches."
+
+rewards-description:
+  - "<#a7ff99>+450 coins"
+  - "<#ffe08a>+320 XP"
+
+objective:
+  type: "craft-items"
+  amount: 128
+  target-materials:
+    - TORCH
+
+rewards:
+  money:
+    amount: 450
+    silent: false
+  xp:
+    points: 320
+    silent: false
+
+quest-effects:
+  activate: "objective_item_craft"
+  complete: "quest_complete_success"

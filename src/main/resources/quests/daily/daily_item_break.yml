@@ -1,0 +1,25 @@
+id: "daily_item_break"
+name: "<#55aaff>Item Break"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Item Break."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+180 coins"
+  - "<#ffe08a>+100 XP"
+
+objective:
+  type: "item-break"
+  amount: 5
+  target-materials:
+    - IRON_PICKAXE
+
+rewards:
+  money: 180
+  xp: 100
+
+quest-effects:
+  activate: "objective_item_break"
+  complete: "quest_complete_success"

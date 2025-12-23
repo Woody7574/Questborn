@@ -1,0 +1,25 @@
+id: "daily_smelt_items"
+name: "<#55aaff>Smelt Items"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Smelt Items."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+170 coins"
+  - "<#ffe08a>+80 XP"
+
+objective:
+  type: "smelt-items"
+  amount: 5
+  target-materials:
+    - IRON_INGOT
+
+rewards:
+  money: 170
+  xp: 80
+
+quest-effects:
+  activate: "objective_item_smelt"
+  complete: "quest_complete_success"

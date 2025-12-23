@@ -1,0 +1,23 @@
+id: "daily_level_up_reach"
+name: "<#55aaff>Level Up Reach"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Level Up Reach."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+150 coins"
+  - "<#ffe08a>+90 XP"
+
+objective:
+  type: "level-up-reach"
+  amount: 30
+
+rewards:
+  money: 150
+  xp: 90
+
+quest-effects:
+  activate: "objective_level_up_reach"
+  complete: "quest_complete_success"

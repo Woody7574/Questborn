@@ -1,0 +1,25 @@
+id: "daily_milk_cow"
+name: "<#55aaff>Milk Cow"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Milk Cow."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+160 coins"
+  - "<#ffe08a>+100 XP"
+
+objective:
+  type: "milk-cow"
+  amount: 3
+  target-entities:
+    - COW
+
+rewards:
+  money: 160
+  xp: 100
+
+quest-effects:
+  activate: "objective_milk_cow"
+  complete: "quest_complete_success"

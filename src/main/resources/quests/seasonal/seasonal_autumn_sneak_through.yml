@@ -1,0 +1,27 @@
+id: "seasonal_autumn_sneak_through"
+name: "<#55aaff>Silent Leaves"
+
+description:
+  - "<#cccccc>Move quietly in the woods."
+  - "<#cccccc>Practice stealth travel."
+  - "<#cccccc>Crouch 120 times."
+
+rewards-description:
+  - "<#a7ff99>+1000 coins"
+  - "<#ffe08a>+750 XP"
+
+objective:
+  type: "crouch"
+  crouches: 120
+
+rewards:
+  money:
+    amount: 1000
+    silent: false
+  xp:
+    points: 750
+    silent: false
+
+quest-effects:
+  activate: "objective_crouch"
+  complete: "quest_complete_success"

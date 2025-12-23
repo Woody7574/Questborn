@@ -1,0 +1,23 @@
+id: "daily_deal_damage"
+name: "<#55aaff>Deal Damage"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Deal Damage."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+200 coins"
+  - "<#ffe08a>+80 XP"
+
+objective:
+  type: "deal-damage"
+  amount: 200
+
+rewards:
+  money: 200
+  xp: 80
+
+quest-effects:
+  activate: "objective_deal_damage"
+  complete: "quest_complete_success"

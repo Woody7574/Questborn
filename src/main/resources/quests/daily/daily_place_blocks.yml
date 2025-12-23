@@ -1,0 +1,25 @@
+id: "daily_place_blocks"
+name: "<#55aaff>Place Blocks"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Place Blocks."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+190 coins"
+  - "<#ffe08a>+80 XP"
+
+objective:
+  type: "place-blocks"
+  amount: 16
+  target-materials:
+    - OAK_LOG
+
+rewards:
+  money: 190
+  xp: 80
+
+quest-effects:
+  activate: "objective_block_place"
+  complete: "quest_complete_success"

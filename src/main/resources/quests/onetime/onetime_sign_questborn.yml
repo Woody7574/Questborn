@@ -1,0 +1,28 @@
+id: "onetime_sign_questborn"
+name: "<#55aaff>Town Notice"
+
+description:
+  - "<#cccccc>Help the town with a sign."
+  - "<#cccccc>Write the server word on it."
+  - "<#cccccc>Text: Questborn."
+
+rewards-description:
+  - "<#a7ff99>+300 coins"
+  - "<#ffe08a>+180 XP"
+
+objective:
+  type: "sign-edit"
+  amount: 1
+  message: "Questborn"
+
+rewards:
+  money:
+    amount: 300
+    silent: false
+  xp:
+    points: 180
+    silent: false
+
+quest-effects:
+  activate: "objective_sign_edit"
+  complete: "quest_complete_success"

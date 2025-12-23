@@ -1,0 +1,24 @@
+id: "daily_kill_players"
+name: "<#55aaff>Kill Players"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Kill Players."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+180 coins"
+  - "<#ffe08a>+60 XP"
+
+objective:
+  type: "kill-players"
+  amount: 2
+  weapon: DIAMOND_SWORD
+
+rewards:
+  money: 180
+  xp: 60
+
+quest-effects:
+  activate: "objective_player_kill"
+  complete: "quest_complete_success"

@@ -1,0 +1,23 @@
+id: "daily_leave_region"
+name: "<#55aaff>Leave Region"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Leave Region."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+190 coins"
+  - "<#ffe08a>+70 XP"
+
+objective:
+  type: "leave-region"
+  region: "spawn"
+
+rewards:
+  money: 190
+  xp: 70
+
+quest-effects:
+  activate: "objective_leave_region"
+  complete: "quest_complete_success"

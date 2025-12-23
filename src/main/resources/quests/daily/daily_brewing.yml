@@ -1,0 +1,25 @@
+id: "daily_brewing"
+name: "<#55aaff>Brewing"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Brewing."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+170 coins"
+  - "<#ffe08a>+90 XP"
+
+objective:
+  type: "brewing"
+  amount: 1
+  target-materials:
+    - POTION:HEALING
+
+rewards:
+  money: 170
+  xp: 90
+
+quest-effects:
+  activate: "objective_brewing"
+  complete: "quest_complete_success"

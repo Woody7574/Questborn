@@ -1,0 +1,25 @@
+id: "daily_fish_catch"
+name: "<#55aaff>Fish Catch"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Fish Catch."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+180 coins"
+  - "<#ffe08a>+90 XP"
+
+objective:
+  type: "fish-catch"
+  amount: 3
+  target-materials:
+    - COD
+
+rewards:
+  money: 180
+  xp: 90
+
+quest-effects:
+  activate: "objective_item_fish"
+  complete: "quest_complete_success"

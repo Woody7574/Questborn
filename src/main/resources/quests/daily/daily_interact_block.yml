@@ -1,0 +1,25 @@
+id: "daily_interact_block"
+name: "<#55aaff>Interact Block"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Interact Block."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+160 coins"
+  - "<#ffe08a>+80 XP"
+
+objective:
+  type: "interact-block"
+  amount: 16
+  target-materials:
+    - OAK_LOG
+
+rewards:
+  money: 160
+  xp: 80
+
+quest-effects:
+  activate: "objective_interact_block"
+  complete: "quest_complete_success"

@@ -1,0 +1,23 @@
+id: "daily_crouch"
+name: "<#55aaff>Crouch"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Crouch."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+190 coins"
+  - "<#ffe08a>+70 XP"
+
+objective:
+  type: "crouch"
+  crouches: 15
+
+rewards:
+  money: 190
+  xp: 70
+
+quest-effects:
+  activate: "objective_crouch"
+  complete: "quest_complete_success"

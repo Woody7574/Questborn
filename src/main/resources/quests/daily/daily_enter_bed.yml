@@ -1,0 +1,23 @@
+id: "daily_enter_bed"
+name: "<#55aaff>Enter Bed"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Enter Bed."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+160 coins"
+  - "<#ffe08a>+60 XP"
+
+objective:
+  type: "enter-bed"
+  amount: 1
+
+rewards:
+  money: 160
+  xp: 60
+
+quest-effects:
+  activate: "objective_enter_bed"
+  complete: "quest_complete_success"

@@ -1,0 +1,25 @@
+id: "daily_enchant_item"
+name: "<#55aaff>Enchant Item"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Enchant Item."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+200 coins"
+  - "<#ffe08a>+90 XP"
+
+objective:
+  type: "enchant-item"
+  amount: 1
+  target-materials:
+    - DIAMOND_SWORD
+
+rewards:
+  money: 200
+  xp: 90
+
+quest-effects:
+  activate: "objective_item_enchant"
+  complete: "quest_complete_success"

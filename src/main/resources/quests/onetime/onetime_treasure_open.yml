@@ -1,0 +1,30 @@
+id: "onetime_treasure_open"
+name: "<#55aaff>Old Chest"
+
+description:
+  - "<#cccccc>Explore and search for loot."
+  - "<#cccccc>Open containers in ruins."
+  - "<#cccccc>Open 15 containers."
+
+rewards-description:
+  - "<#a7ff99>+400 coins"
+  - "<#ffe08a>+280 XP"
+
+objective:
+  type: "open-container"
+  amount: 15
+  containers:
+    - CHEST
+    - BARREL
+
+rewards:
+  money:
+    amount: 400
+    silent: false
+  xp:
+    points: 280
+    silent: false
+
+quest-effects:
+  activate: "objective_open_container"
+  complete: "quest_complete_success"

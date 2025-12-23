@@ -1,0 +1,27 @@
+id: "seasonal_spring_camping_trip"
+name: "<#55aaff>Spring Trail"
+
+description:
+  - "<#cccccc>Go beyond the meadows."
+  - "<#cccccc>Scout a new route."
+  - "<#cccccc>Travel 3500 blocks."
+
+rewards-description:
+  - "<#a7ff99>+900 coins"
+  - "<#ffe08a>+700 XP"
+
+objective:
+  type: "travel-distance"
+  distance: 3500
+
+rewards:
+  money:
+    amount: 900
+    silent: false
+  xp:
+    points: 700
+    silent: false
+
+quest-effects:
+  activate: "objective_travel_distance"
+  complete: "quest_complete_success"

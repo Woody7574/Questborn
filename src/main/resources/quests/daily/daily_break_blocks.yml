@@ -1,0 +1,25 @@
+id: "daily_break_blocks"
+name: "<#55aaff>Break Blocks"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Break Blocks."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+150 coins"
+  - "<#ffe08a>+70 XP"
+
+objective:
+  type: "break-blocks"
+  amount: 16
+  target-materials:
+    - OAK_LOG
+
+rewards:
+  money: 150
+  xp: 70
+
+quest-effects:
+  activate: "objective_block_break"
+  complete: "quest_complete_success"

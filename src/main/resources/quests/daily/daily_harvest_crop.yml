@@ -1,0 +1,25 @@
+id: "daily_harvest_crop"
+name: "<#55aaff>Harvest Crop"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Harvest Crop."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+200 coins"
+  - "<#ffe08a>+60 XP"
+
+objective:
+  type: "harvest-crop"
+  amount: 16
+  target-materials:
+    - WHEAT
+
+rewards:
+  money: 200
+  xp: 60
+
+quest-effects:
+  activate: "objective_harvest_crop"
+  complete: "quest_complete_success"

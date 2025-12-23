@@ -1,0 +1,23 @@
+id: "daily_join_server"
+name: "<#55aaff>Join Server"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Join Server."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+150 coins"
+  - "<#ffe08a>+80 XP"
+
+objective:
+  type: "join-server"
+  amount: 1
+
+rewards:
+  money: 150
+  xp: 80
+
+quest-effects:
+  activate: "objective_join_server"
+  complete: "quest_complete_success"

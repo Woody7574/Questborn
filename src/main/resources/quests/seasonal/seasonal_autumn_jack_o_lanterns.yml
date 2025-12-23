@@ -1,0 +1,29 @@
+id: "seasonal_autumn_jack_o_lanterns"
+name: "<#55aaff>Lantern Night"
+
+description:
+  - "<#cccccc>Light up autumn streets."
+  - "<#cccccc>Craft spooky lanterns."
+  - "<#cccccc>Craft 32 jack o'lanterns."
+
+rewards-description:
+  - "<#a7ff99>+1100 coins"
+  - "<#ffe08a>+800 XP"
+
+objective:
+  type: "craft-items"
+  amount: 32
+  target-materials:
+    - JACK_O_LANTERN
+
+rewards:
+  money:
+    amount: 1100
+    silent: false
+  xp:
+    points: 800
+    silent: false
+
+quest-effects:
+  activate: "objective_item_craft"
+  complete: "quest_complete_success"

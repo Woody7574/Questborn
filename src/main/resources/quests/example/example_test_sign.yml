@@ -1,0 +1,28 @@
+id: "example_test_sign"
+name: "<#55aaff>Example: Sign Edit"
+
+description:
+  - "<#cccccc>Testing sign text objective."
+  - "<#cccccc>Write exact text."
+  - "<#cccccc>Text: Questborn."
+
+rewards-description:
+  - "<#a7ff99>+10 coins"
+  - "<#ffe08a>+5 XP"
+
+objective:
+  type: "sign-edit"
+  amount: 1
+  message: "Questborn"
+
+rewards:
+  money:
+    amount: 10
+    silent: false
+  xp:
+    points: 5
+    silent: false
+
+quest-effects:
+  activate: "objective_sign_edit"
+  complete: "quest_complete_success"

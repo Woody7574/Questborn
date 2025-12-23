@@ -1,0 +1,27 @@
+id: "onetime_long_walk"
+name: "<#55aaff>Long Walk"
+
+description:
+  - "<#cccccc>Travel beyond the spawn area."
+  - "<#cccccc>Discover new places."
+  - "<#cccccc>Travel 3000 blocks."
+
+rewards-description:
+  - "<#a7ff99>+480 coins"
+  - "<#ffe08a>+300 XP"
+
+objective:
+  type: "travel-distance"
+  distance: 3000
+
+rewards:
+  money:
+    amount: 480
+    silent: false
+  xp:
+    points: 300
+    silent: false
+
+quest-effects:
+  activate: "objective_travel_distance"
+  complete: "quest_complete_success"

@@ -1,0 +1,29 @@
+id: "seasonal_autumn_pumpkin_collect"
+name: "<#55aaff>Pumpkin Harvest"
+
+description:
+  - "<#cccccc>Harvest festival is coming."
+  - "<#cccccc>Collect pumpkins for decor."
+  - "<#cccccc>Collect 64 pumpkins."
+
+rewards-description:
+  - "<#a7ff99>+900 coins"
+  - "<#ffe08a>+700 XP"
+
+objective:
+  type: "collect-items"
+  amount: 64
+  target-materials:
+    - PUMPKIN
+
+rewards:
+  money:
+    amount: 900
+    silent: false
+  xp:
+    points: 700
+    silent: false
+
+quest-effects:
+  activate: "objective_collect_item"
+  complete: "quest_complete_success"

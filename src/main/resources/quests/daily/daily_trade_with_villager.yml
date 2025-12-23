@@ -1,0 +1,27 @@
+id: "daily_trade_with_villager"
+name: "<#55aaff>Trade With Villager"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Trade With Villager."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+190 coins"
+  - "<#ffe08a>+60 XP"
+
+objective:
+  type: "trade-with-villager"
+  amount: 1
+  target-entities:
+    - VILLAGER
+  target-materials:
+    - EMERALD
+
+rewards:
+  money: 190
+  xp: 60
+
+quest-effects:
+  activate: "objective_trade_with_villager"
+  complete: "quest_complete_success"

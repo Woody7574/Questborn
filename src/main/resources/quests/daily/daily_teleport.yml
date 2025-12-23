@@ -1,0 +1,24 @@
+id: "daily_teleport"
+name: "<#55aaff>Teleport"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Teleport."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+160 coins"
+  - "<#ffe08a>+80 XP"
+
+objective:
+  type: "teleport"
+  amount: 1
+  cause: NETHER_PORTAL
+
+rewards:
+  money: 160
+  xp: 80
+
+quest-effects:
+  activate: "objective_teleport"
+  complete: "quest_complete_success"

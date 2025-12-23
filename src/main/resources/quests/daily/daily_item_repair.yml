@@ -1,0 +1,25 @@
+id: "daily_item_repair"
+name: "<#55aaff>Item Repair"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Item Repair."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+200 coins"
+  - "<#ffe08a>+70 XP"
+
+objective:
+  type: "item-repair"
+  amount: 5
+  target-materials:
+    - DIAMOND_PICKAXE
+
+rewards:
+  money: 200
+  xp: 70
+
+quest-effects:
+  activate: "objective_item_repair"
+  complete: "quest_complete_success"

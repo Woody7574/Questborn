@@ -1,0 +1,29 @@
+id: "onetime_reach_outpost"
+name: "<#55aaff>Scout Outpost"
+
+description:
+  - "<#cccccc>Find the marked outpost."
+  - "<#cccccc>Prove you can navigate."
+  - "<#cccccc>Reach the waypoint."
+
+rewards-description:
+  - "<#a7ff99>+350 coins"
+  - "<#ffe08a>+250 XP"
+
+objective:
+  type: "reach-location"
+  x: 250
+  y: 80
+  z: 250
+
+rewards:
+  money:
+    amount: 350
+    silent: false
+  xp:
+    points: 250
+    silent: false
+
+quest-effects:
+  activate: "objective_reach_location"
+  complete: "quest_complete_success"

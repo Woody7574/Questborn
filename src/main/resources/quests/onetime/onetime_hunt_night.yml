@@ -1,0 +1,31 @@
+id: "onetime_hunt_night"
+name: "<#55aaff>Night Patrol"
+
+description:
+  - "<#cccccc>Protect the roads at night."
+  - "<#cccccc>Clear nearby threats."
+  - "<#cccccc>Defeat 25 mobs."
+
+rewards-description:
+  - "<#a7ff99>+600 coins"
+  - "<#ffe08a>+420 XP"
+
+objective:
+  type: "kill-mobs"
+  amount: 25
+  target-entities:
+    - ZOMBIE
+    - SKELETON
+    - SPIDER
+
+rewards:
+  money:
+    amount: 600
+    silent: false
+  xp:
+    points: 420
+    silent: false
+
+quest-effects:
+  activate: "objective_kill_entity"
+  complete: "quest_complete_success"

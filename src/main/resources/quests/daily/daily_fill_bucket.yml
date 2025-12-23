@@ -1,0 +1,25 @@
+id: "daily_fill_bucket"
+name: "<#55aaff>Fill Bucket"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Fill Bucket."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+160 coins"
+  - "<#ffe08a>+70 XP"
+
+objective:
+  type: "fill-bucket"
+  amount: 1
+  target-materials:
+    - WATER
+
+rewards:
+  money: 160
+  xp: 70
+
+quest-effects:
+  activate: "objective_fill_bucket"
+  complete: "quest_complete_success"

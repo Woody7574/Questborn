@@ -1,0 +1,29 @@
+id: "seasonal_autumn_cleanup"
+name: "<#55aaff>Cleanup Duty"
+
+description:
+  - "<#cccccc>Clear useless leftovers."
+  - "<#cccccc>Drop rotten flesh away."
+  - "<#cccccc>Drop 64 rotten flesh."
+
+rewards-description:
+  - "<#a7ff99>+800 coins"
+  - "<#ffe08a>+650 XP"
+
+objective:
+  type: "drop-item"
+  amount: 64
+  target-materials:
+    - ROTTEN_FLESH
+
+rewards:
+  money:
+    amount: 800
+    silent: false
+  xp:
+    points: 650
+    silent: false
+
+quest-effects:
+  activate: "objective_drop_item"
+  complete: "quest_complete_success"

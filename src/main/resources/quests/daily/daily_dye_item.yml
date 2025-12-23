@@ -1,0 +1,25 @@
+id: "daily_dye_item"
+name: "<#55aaff>Dye Item"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Dye Item."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+170 coins"
+  - "<#ffe08a>+60 XP"
+
+objective:
+  type: "dye-item"
+  amount: 5
+  target-materials:
+    - LEATHER_CHESTPLATE
+
+rewards:
+  money: 170
+  xp: 60
+
+quest-effects:
+  activate: "objective_dye_item"
+  complete: "quest_complete_success"

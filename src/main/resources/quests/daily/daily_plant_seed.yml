@@ -1,0 +1,25 @@
+id: "daily_plant_seed"
+name: "<#55aaff>Plant Seed"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Plant Seed."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+200 coins"
+  - "<#ffe08a>+90 XP"
+
+objective:
+  type: "plant-seed"
+  amount: 8
+  target-materials:
+    - WHEAT_SEEDS
+
+rewards:
+  money: 200
+  xp: 90
+
+quest-effects:
+  activate: "objective_plant_seed"
+  complete: "quest_complete_success"

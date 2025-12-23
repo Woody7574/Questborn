@@ -1,0 +1,23 @@
+id: "daily_take_damage"
+name: "<#55aaff>Take Damage"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Take Damage."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+200 coins"
+  - "<#ffe08a>+60 XP"
+
+objective:
+  type: "take-damage"
+  amount: 100
+
+rewards:
+  money: 200
+  xp: 60
+
+quest-effects:
+  activate: "objective_take_damage"
+  complete: "quest_complete_success"

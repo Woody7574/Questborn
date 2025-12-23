@@ -1,0 +1,24 @@
+id: "daily_book_edit"
+name: "<#55aaff>Book Edit"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Book Edit."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+200 coins"
+  - "<#ffe08a>+60 XP"
+
+objective:
+  type: "book-edit"
+  amount: 1
+  message: "Questborn Guide"
+
+rewards:
+  money: 200
+  xp: 60
+
+quest-effects:
+  activate: "objective_book_edit"
+  complete: "quest_complete_success"

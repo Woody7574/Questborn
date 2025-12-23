@@ -1,0 +1,29 @@
+id: "seasonal_spring_breeder"
+name: "<#55aaff>Spring Breeder"
+
+description:
+  - "<#cccccc>New life fills the farm."
+  - "<#cccccc>Breed animals for supplies."
+  - "<#cccccc>Breed 10 cows."
+
+rewards-description:
+  - "<#a7ff99>+1050 coins"
+  - "<#ffe08a>+800 XP"
+
+objective:
+  type: "breed-animals"
+  amount: 10
+  target-entities:
+    - COW
+
+rewards:
+  money:
+    amount: 1050
+    silent: false
+  xp:
+    points: 800
+    silent: false
+
+quest-effects:
+  activate: "objective_breed_animals"
+  complete: "quest_complete_success"

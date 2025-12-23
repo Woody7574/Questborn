@@ -1,0 +1,24 @@
+id: "daily_change_dimension"
+name: "<#55aaff>Change Dimension"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Change Dimension."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+180 coins"
+  - "<#ffe08a>+100 XP"
+
+objective:
+  type: "change-dimension"
+  dimension: NETHER
+  amount: 1
+
+rewards:
+  money: 180
+  xp: 100
+
+quest-effects:
+  activate: "objective_change_dimension"
+  complete: "quest_complete_success"

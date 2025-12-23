@@ -1,0 +1,23 @@
+id: "daily_sprint_distance"
+name: "<#55aaff>Sprint Distance"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Sprint Distance."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+180 coins"
+  - "<#ffe08a>+90 XP"
+
+objective:
+  type: "sprint-distance"
+  distance: 300
+
+rewards:
+  money: 180
+  xp: 90
+
+quest-effects:
+  activate: "objective_sprint_distance"
+  complete: "quest_complete_success"

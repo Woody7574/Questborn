@@ -1,0 +1,29 @@
+id: "example_test_kill"
+name: "<#55aaff>Example: Kill Mobs"
+
+description:
+  - "<#cccccc>Testing mob kill tracking."
+  - "<#cccccc>Defeat easy targets."
+  - "<#cccccc>Kill 5 zombies."
+
+rewards-description:
+  - "<#a7ff99>+15 coins"
+  - "<#ffe08a>+10 XP"
+
+objective:
+  type: "kill-mobs"
+  amount: 5
+  target-entities:
+    - ZOMBIE
+
+rewards:
+  money:
+    amount: 15
+    silent: false
+  xp:
+    points: 10
+    silent: false
+
+quest-effects:
+  activate: "objective_kill_entity"
+  complete: "quest_complete_success"

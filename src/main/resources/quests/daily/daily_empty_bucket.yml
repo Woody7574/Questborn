@@ -1,0 +1,25 @@
+id: "daily_empty_bucket"
+name: "<#55aaff>Empty Bucket"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Empty Bucket."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+190 coins"
+  - "<#ffe08a>+80 XP"
+
+objective:
+  type: "empty-bucket"
+  amount: 1
+  target-materials:
+    - WATER
+
+rewards:
+  money: 190
+  xp: 80
+
+quest-effects:
+  activate: "objective_empty_bucket"
+  complete: "quest_complete_success"

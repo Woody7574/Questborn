@@ -1,0 +1,24 @@
+id: "daily_execute_command"
+name: "<#55aaff>Execute Command"
+
+description:
+  - "<#cccccc>Daily task from the guild."
+  - "<#cccccc>Complete: Execute Command."
+  - "<#cccccc>Check the objective below."
+
+rewards-description:
+  - "<#a7ff99>+190 coins"
+  - "<#ffe08a>+90 XP"
+
+objective:
+  type: "execute-command"
+  command: "spawn"
+  amount: 1
+
+rewards:
+  money: 190
+  xp: 90
+
+quest-effects:
+  activate: "objective_execute_command"
+  complete: "quest_complete_success"
