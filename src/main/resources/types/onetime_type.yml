@@ -1,0 +1,15 @@
+id: onetime
+display-name: "<#ffb3b3>★ One-time Quests"
+folder: "quests/onetime"
+lore:
+  - "<#cccccc>One-time quests can be completed only once."
+  - "<#cccccc>After finishing, they won’t appear again,"
+  - "<#cccccc>so choose carefully."
+  - ""
+  - "<#cccccc>Available quests: <#ffe999>{count}"
+  - ""
+  - "<#7dd3ff>Click to view"
+slot: 23
+material: "SHULKER_SPAWN_EGG"
+cooldown-seconds: 0
+enabled: true

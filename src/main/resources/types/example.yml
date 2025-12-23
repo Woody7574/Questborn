@@ -1,0 +1,17 @@
+id: example
+display-name: "<#ff69b4>🧪 Quest Examples"
+folder: "quests/example"
+lore:
+  - "<#cccccc>Quest Examples are test quests."
+  - "<#cccccc>Use them to check menus, progress,"
+  - "<#cccccc>and reward payouts."
+  - ""
+  - "<#cccccc>Available quests: <#ffe999>{count}"
+  - ""
+  - "<#7dd3ff>Click to view"
+slot: 4
+material: "SLIME_SPAWN_EGG"
+# If necessary, remove the comment
+# custom-model-data: 1001
+cooldown-seconds: 3600
+enabled: false

@@ -1,0 +1,15 @@
+id: daily
+folder: "quests/daily"
+display-name: "<#fffb99>☀ Daily Quests"
+lore:
+  - "<#cccccc>Daily quests refresh every 24 hours."
+  - "<#cccccc>Complete quick tasks to earn"
+  - "<#cccccc>steady rewards and keep your streak."
+  - ""
+  - "<#cccccc>Available quests: <#ffe999>{count}"
+  - ""
+  - "<#7dd3ff>Click to view"
+material: "CREEPER_SPAWN_EGG"
+slot: 19
+cooldown-seconds: 86400
+enabled: true

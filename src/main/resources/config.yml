@@ -1,0 +1,57 @@
+# ------------------------------
+#   LANGUAGE
+# ------------------------------
+# Available: "en_us", "uk_ua", "de_de", "es_es", "ru_ru"
+language: "en_us"
+
+# ------------------------------
+#   UPDATE CHECK
+# ------------------------------
+update-check:
+  enabled: true          # Check for updates on plugin startup
+  notify-console: true   # Show update message in console if a new version is found
+
+
+# ------------------------------
+#   QUEST ACTIVATION
+# ------------------------------
+activation:
+  # BLOCK   - don't allow a new quest while another one is active
+  # REPLACE - automatically cancel the old quest and activate the new one
+  # CHANGE  - ask for confirmation before replacing
+  conflict-mode: "CHANGE"
+
+# ------------------------------
+#   ACTION BAR
+# ------------------------------
+actionbar:
+  # ON_PROGRESS_CHANGE - show only when progress changes
+  # STATIC             - show continuously
+  mode: "ON_PROGRESS_CHANGE"
+  update-interval-ticks: 40
+
+gui:
+  fill:
+    enabled: true
+    material: "BROWN_STAINED_GLASS_PANE"
+    slots: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 26, 27, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+  details:
+    lore-format:
+      blocks: "<#a8ff80> ▪ {value}"                 # {value} = localized block name
+      entities: "<#8280ff> ▪ {value}"               # {raw} = EntityType name, {value} = localized name
+      items: "<#b3ff66> ▪ {value}"                  # {value} = localized item name
+      location: "<#ffa666> ➤ <#ffb580>{value}"      # {value} = X:150 / Y:70 / Z:-20
+      fluids: "<#55aaff> ▪ {value}"                 # Used for fluids
+      cause: "<#ff7777> ▪ {value}"                  # Teleport reason / damage reason (depending on objective)
+      time: "<#cc66ff> ▪ {value}"                   # e.g. PLAY_TIME, HOLD_ITEM
+      default: "<#44ff44> ▪ {value}"                # Fallback format
+
+# ------------------------------
+#   SOUNDS
+# ------------------------------
+sounds:
+  # Menu click sound
+  gui-click:
+    sound: "UI_BUTTON_CLICK"
+    volume: 0.4
+    pitch: 1.1

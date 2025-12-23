@@ -1,0 +1,15 @@
+id: weekly
+display-name: "<#99ffd4>🧭 Weekly Quests"
+folder: "quests/weekly"
+lore:
+  - "<#cccccc>Weekly quests refresh every 7 days."
+  - "<#cccccc>Complete longer, harder tasks"
+  - "<#cccccc>to earn better rewards."
+  - ""
+  - "<#cccccc>Available quests: <#ffe999>{count}"
+  - ""
+  - "<#7dd3ff>Click to view"
+slot: 21
+material: "DROWNED_SPAWN_EGG"
+cooldown-seconds: 604800
+enabled: true

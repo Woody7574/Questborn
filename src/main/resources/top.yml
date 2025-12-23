@@ -1,0 +1,25 @@
+size: 100
+
+gui-item:
+  material: "JUNGLE_HANGING_SIGN"
+  slot: 40
+  display-name: "<#ffe380>🏆 Top Players"
+  lore:
+    - "<#cccccc>Top-100 players"
+    - "<#cccccc>by quests completed"
+
+stats-item:
+  material: "PLAYER_HEAD"
+  display-name: "<#6966ff>📊 Your Stats"
+  lore:
+    - "<#cccccc>{type}: <#ffe999>{count}"
+    - ""
+    - "<#cccccc>Total: <#ffd37a>{total}"
+
+player-item:
+  material: "PLAYER_HEAD"
+  display-name: "<#ffe380>#{position} <#ffffff>{player}"
+  lore:
+    - "<#cccccc>Completed: <#ffd37a>{count}"
+
+enabled: true

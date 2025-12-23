@@ -1,0 +1,15 @@
+id: seasonal
+display-name: "<#ddaaff>❄ Seasonal Quests"
+folder: "quests/seasonal"
+lore:
+  - "<#cccccc>Seasonal quests are available for a limited time."
+  - "<#cccccc>Complete them before the season ends"
+  - "<#cccccc>to claim unique rewards."
+  - ""
+  - "<#cccccc>Available quests: <#ffe999>{count}"
+  - ""
+  - "<#7dd3ff>Click to view"
+slot: 25
+material: "ALLAY_SPAWN_EGG"
+cooldown-seconds: 2592000
+enabled: true

@@ -1,0 +1,72 @@
+name: Questborn
+main: ua.woody.questborn.QuestbornPlugin
+version: 1.1.0
+api-version: '1.21'
+author: Woody
+description: Universal quest system.
+softdepend: [Vault, WorldGuard, WorldEdit]
+
+commands:
+  quest:
+    description: Main command for Questborn.
+    aliases: [quests, q]
+    usage: "/quest"
+    permission: quest.use
+
+permissions:
+  # ========================
+  # BASIC USER PERMISSIONS
+  # ========================
+  quest.use:
+    description: Allows using quest menus and normal quest features.
+    default: true
+
+  quest.antiabuse.bypass:
+    description: Allows bypassing anti-abuse protections.
+    default: op
+
+  # ========================
+  # ADMIN ROOT PERMISSION
+  # ========================
+  quest.admin:
+    description: Grants access to ALL Questborn commands.
+    default: op
+    children:
+      quest.command.reload: true
+      quest.command.reset: true
+      quest.command.effect: true
+      quest.command.activate: true
+      quest.command.deactivate: true
+      quest.command.open: true
+      quest.command.finish: true
+
+  # ========================
+  # INDIVIDUAL COMMAND PERMISSIONS
+  # ========================
+  quest.command.reload:
+    description: Allows reloading the plugin.
+    default: op
+
+  quest.command.reset:
+    description: Allows resetting quest progress or cooldown.
+    default: op
+
+  quest.command.effect:
+    description: Allows previewing/playing quest effect presets.
+    default: op
+
+  quest.command.activate:
+    description: Allows activating quests for players.
+    default: op
+
+  quest.command.deactivate:
+    description: Allows deactivating active quests for players.
+    default: op
+
+  quest.command.open:
+    description: Allows opening Questborn menus for any player.
+    default: op
+
+  quest.command.finish:
+    description: Allows force completing quests for players.
+    default: op
