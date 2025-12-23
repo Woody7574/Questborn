@@ -1,0 +1,27 @@
+id: "weekly_berserker"
+name: "<#55aaff>Berserker"
+
+description:
+  - "<#cccccc>Train your combat power."
+  - "<#cccccc>Hit hard, keep pressure."
+  - "<#cccccc>Deal 1500 total damage."
+
+rewards-description:
+  - "<#a7ff99>+1700 coins"
+  - "<#ffe08a>+1100 XP"
+
+objective:
+  type: "deal-damage"
+  amount: 1500
+
+rewards:
+  money:
+    amount: 1700
+    silent: false
+  xp:
+    points: 1100
+    silent: false
+
+quest-effects:
+  activate: "objective_deal_damage"
+  complete: "quest_complete_success"

@@ -1,0 +1,29 @@
+id: "seasonal_summer_grill_time"
+name: "<#55aaff>Grill Time"
+
+description:
+  - "<#cccccc>Feed your team well."
+  - "<#cccccc>Cook a big portion."
+  - "<#cccccc>Cook 96 chicken."
+
+rewards-description:
+  - "<#a7ff99>+1000 coins"
+  - "<#ffe08a>+800 XP"
+
+objective:
+  type: "cook-items"
+  amount: 96
+  target-materials:
+    - CHICKEN
+
+rewards:
+  money:
+    amount: 1000
+    silent: false
+  xp:
+    points: 800
+    silent: false
+
+quest-effects:
+  activate: "objective_item_cook"
+  complete: "quest_complete_success"

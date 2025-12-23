@@ -1,0 +1,29 @@
+id: "weekly_smelting_shift"
+name: "<#55aaff>Smelting Shift"
+
+description:
+  - "<#cccccc>Forge needs fresh metal."
+  - "<#cccccc>Keep the furnaces running."
+  - "<#cccccc>Smelt 64 iron ingots."
+
+rewards-description:
+  - "<#a7ff99>+1400 coins"
+  - "<#ffe08a>+900 XP"
+
+objective:
+  type: "smelt-items"
+  amount: 64
+  target-materials:
+    - IRON_INGOT
+
+rewards:
+  money:
+    amount: 1400
+    silent: false
+  xp:
+    points: 900
+    silent: false
+
+quest-effects:
+  activate: "objective_item_smelt"
+  complete: "quest_complete_success"

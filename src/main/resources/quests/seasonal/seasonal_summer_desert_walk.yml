@@ -1,0 +1,27 @@
+id: "seasonal_summer_desert_walk"
+name: "<#55aaff>Heat Walk"
+
+description:
+  - "<#cccccc>Cross the hot lands."
+  - "<#cccccc>Prove your endurance."
+  - "<#cccccc>Travel 4500 blocks."
+
+rewards-description:
+  - "<#a7ff99>+1100 coins"
+  - "<#ffe08a>+750 XP"
+
+objective:
+  type: "travel-distance"
+  distance: 4500
+
+rewards:
+  money:
+    amount: 1100
+    silent: false
+  xp:
+    points: 750
+    silent: false
+
+quest-effects:
+  activate: "objective_travel_distance"
+  complete: "quest_complete_success"

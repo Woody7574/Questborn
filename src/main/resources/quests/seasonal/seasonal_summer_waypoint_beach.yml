@@ -1,0 +1,29 @@
+id: "seasonal_summer_waypoint_beach"
+name: "<#55aaff>Beach Waypoint"
+
+description:
+  - "<#cccccc>Reach the summer marker."
+  - "<#cccccc>Bring back a report."
+  - "<#cccccc>Reach the coordinates."
+
+rewards-description:
+  - "<#a7ff99>+850 coins"
+  - "<#ffe08a>+650 XP"
+
+objective:
+  type: "reach-location"
+  x: 900
+  y: 70
+  z: 120
+
+rewards:
+  money:
+    amount: 850
+    silent: false
+  xp:
+    points: 650
+    silent: false
+
+quest-effects:
+  activate: "objective_reach_location"
+  complete: "quest_complete_success"

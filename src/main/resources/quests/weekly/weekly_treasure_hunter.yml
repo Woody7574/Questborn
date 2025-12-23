@@ -1,0 +1,30 @@
+id: "weekly_treasure_hunter"
+name: "<#55aaff>Treasure Hunter"
+
+description:
+  - "<#cccccc>Search old ruins and camps."
+  - "<#cccccc>Open containers and explore."
+  - "<#cccccc>Open 50 containers."
+
+rewards-description:
+  - "<#a7ff99>+1600 coins"
+  - "<#ffe08a>+1000 XP"
+
+objective:
+  type: "open-container"
+  amount: 50
+  containers:
+    - CHEST
+    - BARREL
+
+rewards:
+  money:
+    amount: 1600
+    silent: false
+  xp:
+    points: 1000
+    silent: false
+
+quest-effects:
+  activate: "objective_open_container"
+  complete: "quest_complete_success"

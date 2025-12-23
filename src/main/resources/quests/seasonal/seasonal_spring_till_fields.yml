@@ -1,0 +1,30 @@
+id: "seasonal_spring_till_fields"
+name: "<#55aaff>Fresh Soil"
+
+description:
+  - "<#cccccc>Prepare farmland for crops."
+  - "<#cccccc>Turn dirt into good soil."
+  - "<#cccccc>Till 96 blocks."
+
+rewards-description:
+  - "<#a7ff99>+900 coins"
+  - "<#ffe08a>+700 XP"
+
+objective:
+  type: "till-soil"
+  amount: 96
+  target-materials:
+    - DIRT
+    - GRASS_BLOCK
+
+rewards:
+  money:
+    amount: 900
+    silent: false
+  xp:
+    points: 700
+    silent: false
+
+quest-effects:
+  activate: "objective_till_soil"
+  complete: "quest_complete_success"

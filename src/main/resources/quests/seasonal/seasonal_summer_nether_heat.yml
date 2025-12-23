@@ -1,0 +1,28 @@
+id: "seasonal_summer_nether_heat"
+name: "<#55aaff>Into the Heat"
+
+description:
+  - "<#cccccc>Summer heat fits the Nether."
+  - "<#cccccc>Step into the hot dimension."
+  - "<#cccccc>Go to NETHER once."
+
+rewards-description:
+  - "<#a7ff99>+1000 coins"
+  - "<#ffe08a>+700 XP"
+
+objective:
+  type: "change-dimension"
+  amount: 1
+  dimension: NETHER
+
+rewards:
+  money:
+    amount: 1000
+    silent: false
+  xp:
+    points: 700
+    silent: false
+
+quest-effects:
+  activate: "objective_change_dimension"
+  complete: "quest_complete_success"

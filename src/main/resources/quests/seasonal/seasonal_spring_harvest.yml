@@ -1,0 +1,29 @@
+id: "seasonal_spring_harvest"
+name: "<#55aaff>Spring Harvest"
+
+description:
+  - "<#cccccc>Gather fresh produce."
+  - "<#cccccc>Fill storage for villagers."
+  - "<#cccccc>Harvest 128 wheat."
+
+rewards-description:
+  - "<#a7ff99>+1000 coins"
+  - "<#ffe08a>+750 XP"
+
+objective:
+  type: "harvest-crop"
+  amount: 128
+  target-materials:
+    - WHEAT
+
+rewards:
+  money:
+    amount: 1000
+    silent: false
+  xp:
+    points: 750
+    silent: false
+
+quest-effects:
+  activate: "objective_harvest_crop"
+  complete: "quest_complete_success"

@@ -1,0 +1,27 @@
+id: "seasonal_winter_supply_run"
+name: "<#55aaff>Supply Run"
+
+description:
+  - "<#cccccc>Deliver aid across the snow."
+  - "<#cccccc>Travel to help the outpost."
+  - "<#cccccc>Travel 4000 blocks."
+
+rewards-description:
+  - "<#a7ff99>+1000 coins"
+  - "<#ffe08a>+750 XP"
+
+objective:
+  type: "travel-distance"
+  distance: 4000
+
+rewards:
+  money:
+    amount: 1000
+    silent: false
+  xp:
+    points: 750
+    silent: false
+
+quest-effects:
+  activate: "objective_travel_distance"
+  complete: "quest_complete_success"

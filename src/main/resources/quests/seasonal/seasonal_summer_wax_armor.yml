@@ -1,0 +1,29 @@
+id: "seasonal_summer_wax_armor"
+name: "<#55aaff>Shiny Copper"
+
+description:
+  - "<#cccccc>Make copper look new."
+  - "<#cccccc>Apply wax to blocks."
+  - "<#cccccc>Wax 48 copper blocks."
+
+rewards-description:
+  - "<#a7ff99>+900 coins"
+  - "<#ffe08a>+650 XP"
+
+objective:
+  type: "wax-on"
+  amount: 48
+  target-materials:
+    - COPPER_BLOCK
+
+rewards:
+  money:
+    amount: 900
+    silent: false
+  xp:
+    points: 650
+    silent: false
+
+quest-effects:
+  activate: "objective_wax_on"
+  complete: "quest_complete_success"

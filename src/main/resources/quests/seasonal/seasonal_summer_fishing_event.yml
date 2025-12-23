@@ -1,0 +1,27 @@
+id: "seasonal_summer_fishing_event"
+name: "<#55aaff>Fishing Event"
+
+description:
+  - "<#cccccc>Summer is for fishing."
+  - "<#cccccc>Wait for the bobber hook."
+  - "<#cccccc>Hook 25 times."
+
+rewards-description:
+  - "<#a7ff99>+950 coins"
+  - "<#ffe08a>+750 XP"
+
+objective:
+  type: "fishing-bobber-hook"
+  amount: 25
+
+rewards:
+  money:
+    amount: 950
+    silent: false
+  xp:
+    points: 750
+    silent: false
+
+quest-effects:
+  activate: "objective_fishing_bobber_hook"
+  complete: "quest_complete_success"

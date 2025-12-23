@@ -1,0 +1,29 @@
+id: "weekly_elixir_taster"
+name: "<#55aaff>Elixir Taster"
+
+description:
+  - "<#cccccc>Test potions for the guild."
+  - "<#cccccc>Drink and report the result."
+  - "<#cccccc>Drink 5 potions."
+
+rewards-description:
+  - "<#a7ff99>+1250 coins"
+  - "<#ffe08a>+850 XP"
+
+objective:
+  type: "potion-drink"
+  amount: 5
+  target-materials:
+    - "POTION:REGENERATION"
+
+rewards:
+  money:
+    amount: 1250
+    silent: false
+  xp:
+    points: 850
+    silent: false
+
+quest-effects:
+  activate: "objective_potion_drink"
+  complete: "quest_complete_success"

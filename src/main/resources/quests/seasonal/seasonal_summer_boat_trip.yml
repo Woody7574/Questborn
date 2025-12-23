@@ -1,0 +1,27 @@
+id: "seasonal_summer_boat_trip"
+name: "<#55aaff>Summer Boat Trip"
+
+description:
+  - "<#cccccc>Enjoy the open waters."
+  - "<#cccccc>Travel by boat for a while."
+  - "<#cccccc>Boat travel 1500 blocks."
+
+rewards-description:
+  - "<#a7ff99>+900 coins"
+  - "<#ffe08a>+700 XP"
+
+objective:
+  type: "boat-travel"
+  amount: 1500
+
+rewards:
+  money:
+    amount: 900
+    silent: false
+  xp:
+    points: 700
+    silent: false
+
+quest-effects:
+  activate: "objective_boat_travel"
+  complete: "quest_complete_success"

@@ -1,0 +1,39 @@
+id: "seasonal_winter_chest_raider"
+name: "<#55aaff>Frozen Cache"
+
+description:
+  - "<#cccccc>Old loot is hidden in snow."
+  - "<#cccccc>Search barrels and chests."
+  - "<#cccccc>Open 25 containers."
+
+rewards-description:
+  - "<#a7ff99>+900 coins"
+  - "<#ffe08a>+700 XP"
+  - "<#7dd3ff>+2 diamonds"
+
+objective:
+  type: "open-container"
+  amount: 25
+  containers:
+    - CHEST
+    - BARREL
+
+rewards:
+  money:
+    amount: 900
+    silent: false
+  xp:
+    points: 700
+    silent: false
+  items:
+    silent: false
+    list:
+      - material: DIAMOND
+        amount: 2
+        name: "<#7dd3ff>Winter Gem"
+        lore:
+          - "<#cccccc>Found in frozen caches."
+
+quest-effects:
+  activate: "objective_open_container"
+  complete: "quest_complete_success"

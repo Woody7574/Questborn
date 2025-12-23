@@ -1,0 +1,27 @@
+id: "seasonal_summer_elytra_sky"
+name: "<#55aaff>Sky Glider"
+
+description:
+  - "<#cccccc>Clear skies are perfect."
+  - "<#cccccc>Fly with elytra."
+  - "<#cccccc>Fly 6000 blocks."
+
+rewards-description:
+  - "<#a7ff99>+1200 coins"
+  - "<#ffe08a>+850 XP"
+
+objective:
+  type: "elytra-fly"
+  amount: 6000
+
+rewards:
+  money:
+    amount: 1200
+    silent: false
+  xp:
+    points: 850
+    silent: false
+
+quest-effects:
+  activate: "objective_elytra_fly"
+  complete: "quest_complete_success"

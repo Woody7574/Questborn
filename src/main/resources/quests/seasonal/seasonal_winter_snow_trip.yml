@@ -1,0 +1,29 @@
+id: "seasonal_winter_snow_trip"
+name: "<#55aaff>Snowy Waypoint"
+
+description:
+  - "<#cccccc>Reach the winter marker."
+  - "<#cccccc>Bring news from the trail."
+  - "<#cccccc>Reach the coordinates."
+
+rewards-description:
+  - "<#a7ff99>+800 coins"
+  - "<#ffe08a>+650 XP"
+
+objective:
+  type: "reach-location"
+  x: -600
+  y: 100
+  z: 600
+
+rewards:
+  money:
+    amount: 800
+    silent: false
+  xp:
+    points: 650
+    silent: false
+
+quest-effects:
+  activate: "objective_reach_location"
+  complete: "quest_complete_success"

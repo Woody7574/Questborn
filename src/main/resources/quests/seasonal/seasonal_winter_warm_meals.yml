@@ -1,0 +1,29 @@
+id: "seasonal_winter_warm_meals"
+name: "<#55aaff>Warm Meals"
+
+description:
+  - "<#cccccc>Everyone needs hot food."
+  - "<#cccccc>Cook supplies for the week."
+  - "<#cccccc>Cook 64 beef."
+
+rewards-description:
+  - "<#a7ff99>+850 coins"
+  - "<#ffe08a>+650 XP"
+
+objective:
+  type: "cook-items"
+  amount: 64
+  target-materials:
+    - BEEF
+
+rewards:
+  money:
+    amount: 850
+    silent: false
+  xp:
+    points: 650
+    silent: false
+
+quest-effects:
+  activate: "objective_item_cook"
+  complete: "quest_complete_success"

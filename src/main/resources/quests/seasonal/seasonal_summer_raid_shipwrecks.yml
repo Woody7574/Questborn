@@ -1,0 +1,39 @@
+id: "seasonal_summer_raid_shipwrecks"
+name: "<#55aaff>Shipwreck Loot"
+
+description:
+  - "<#cccccc>Search the coastline."
+  - "<#cccccc>Open wreck containers."
+  - "<#cccccc>Open 30 containers."
+
+rewards-description:
+  - "<#a7ff99>+1250 coins"
+  - "<#ffe08a>+850 XP"
+  - "<#7dd3ff>+4 emeralds"
+
+objective:
+  type: "open-container"
+  amount: 30
+  containers:
+    - CHEST
+    - BARREL
+
+rewards:
+  money:
+    amount: 1250
+    silent: false
+  xp:
+    points: 850
+    silent: false
+  items:
+    silent: false
+    list:
+      - material: EMERALD
+        amount: 4
+        name: "<#7dd3ff>Sea Trade"
+        lore:
+          - "<#cccccc>Recovered from shipwrecks."
+
+quest-effects:
+  activate: "objective_open_container"
+  complete: "quest_complete_success"

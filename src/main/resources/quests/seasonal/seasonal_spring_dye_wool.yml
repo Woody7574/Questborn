@@ -1,0 +1,29 @@
+id: "seasonal_spring_dye_wool"
+name: "<#55aaff>Spring Colors"
+
+description:
+  - "<#cccccc>Add color to your build."
+  - "<#cccccc>Dye wool into bright tones."
+  - "<#cccccc>Dye 64 white wool."
+
+rewards-description:
+  - "<#a7ff99>+850 coins"
+  - "<#ffe08a>+700 XP"
+
+objective:
+  type: "dye-item"
+  amount: 64
+  target-materials:
+    - WHITE_WOOL
+
+rewards:
+  money:
+    amount: 850
+    silent: false
+  xp:
+    points: 700
+    silent: false
+
+quest-effects:
+  activate: "objective_dye_item"
+  complete: "quest_complete_success"

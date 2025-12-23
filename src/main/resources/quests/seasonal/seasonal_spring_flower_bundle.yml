@@ -1,0 +1,29 @@
+id: "seasonal_spring_flower_bundle"
+name: "<#55aaff>Flower Bundle"
+
+description:
+  - "<#cccccc>Decorate the town square."
+  - "<#cccccc>Collect spring flowers."
+  - "<#cccccc>Collect 64 poppies."
+
+rewards-description:
+  - "<#a7ff99>+750 coins"
+  - "<#ffe08a>+650 XP"
+
+objective:
+  type: "collect-items"
+  amount: 64
+  target-materials:
+    - POPPY
+
+rewards:
+  money:
+    amount: 750
+    silent: false
+  xp:
+    points: 650
+    silent: false
+
+quest-effects:
+  activate: "objective_collect_item"
+  complete: "quest_complete_success"

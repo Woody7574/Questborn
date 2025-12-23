@@ -1,0 +1,29 @@
+id: "seasonal_winter_torch_stock"
+name: "<#55aaff>Long Nights"
+
+description:
+  - "<#cccccc>Days are shorter now."
+  - "<#cccccc>Craft light for explorers."
+  - "<#cccccc>Craft 256 torches."
+
+rewards-description:
+  - "<#a7ff99>+950 coins"
+  - "<#ffe08a>+850 XP"
+
+objective:
+  type: "craft-items"
+  amount: 256
+  target-materials:
+    - TORCH
+
+rewards:
+  money:
+    amount: 950
+    silent: false
+  xp:
+    points: 850
+    silent: false
+
+quest-effects:
+  activate: "objective_item_craft"
+  complete: "quest_complete_success"

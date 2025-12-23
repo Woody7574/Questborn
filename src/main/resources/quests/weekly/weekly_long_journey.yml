@@ -1,0 +1,27 @@
+id: "weekly_long_journey"
+name: "<#55aaff>Long Journey"
+
+description:
+  - "<#cccccc>Scout new lands this week."
+  - "<#cccccc>Map the routes for the team."
+  - "<#cccccc>Travel 5000 blocks."
+
+rewards-description:
+  - "<#a7ff99>+1300 coins"
+  - "<#ffe08a>+1000 XP"
+
+objective:
+  type: "travel-distance"
+  distance: 5000
+
+rewards:
+  money:
+    amount: 1300
+    silent: false
+  xp:
+    points: 1000
+    silent: false
+
+quest-effects:
+  activate: "objective_travel_distance"
+  complete: "quest_complete_success"

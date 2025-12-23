@@ -1,0 +1,29 @@
+id: "seasonal_winter_hot_drink"
+name: "<#55aaff>Fireproof Tonic"
+
+description:
+  - "<#cccccc>Winter trips can be risky."
+  - "<#cccccc>Prepare for lava caves."
+  - "<#cccccc>Drink 2 potions."
+
+rewards-description:
+  - "<#a7ff99>+700 coins"
+  - "<#ffe08a>+600 XP"
+
+objective:
+  type: "potion-drink"
+  amount: 2
+  target-materials:
+    - "POTION:FIRE_RESISTANCE"
+
+rewards:
+  money:
+    amount: 700
+    silent: false
+  xp:
+    points: 600
+    silent: false
+
+quest-effects:
+  activate: "objective_potion_drink"
+  complete: "quest_complete_success"

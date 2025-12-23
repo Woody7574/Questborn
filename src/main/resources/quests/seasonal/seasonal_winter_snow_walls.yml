@@ -1,0 +1,29 @@
+id: "seasonal_winter_snow_walls"
+name: "<#55aaff>Snow Walls"
+
+description:
+  - "<#cccccc>The camp needs warm shelter."
+  - "<#cccccc>Build a quick snow barrier."
+  - "<#cccccc>Place 128 snow blocks."
+
+rewards-description:
+  - "<#a7ff99>+900 coins"
+  - "<#ffe08a>+700 XP"
+
+objective:
+  type: "place-blocks"
+  amount: 128
+  target-materials:
+    - SNOW_BLOCK
+
+rewards:
+  money:
+    amount: 900
+    silent: false
+  xp:
+    points: 700
+    silent: false
+
+quest-effects:
+  activate: "objective_block_place"
+  complete: "quest_complete_success"

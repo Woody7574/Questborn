@@ -1,0 +1,30 @@
+id: "seasonal_spring_open_stashes"
+name: "<#55aaff>Hidden Stashes"
+
+description:
+  - "<#cccccc>Explore forgotten corners."
+  - "<#cccccc>Check barrels and chests."
+  - "<#cccccc>Open 20 containers."
+
+rewards-description:
+  - "<#a7ff99>+950 coins"
+  - "<#ffe08a>+700 XP"
+
+objective:
+  type: "open-container"
+  amount: 20
+  containers:
+    - CHEST
+    - BARREL
+
+rewards:
+  money:
+    amount: 950
+    silent: false
+  xp:
+    points: 700
+    silent: false
+
+quest-effects:
+  activate: "objective_open_container"
+  complete: "quest_complete_success"

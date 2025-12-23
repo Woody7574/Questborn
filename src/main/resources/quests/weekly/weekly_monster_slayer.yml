@@ -1,0 +1,31 @@
+id: "weekly_monster_slayer"
+name: "<#55aaff>Monster Slayer"
+
+description:
+  - "<#cccccc>The roads are getting dangerous."
+  - "<#cccccc>Clear the area for travelers."
+  - "<#cccccc>Defeat 60 hostile mobs."
+
+rewards-description:
+  - "<#a7ff99>+1500 coins"
+  - "<#ffe08a>+1100 XP"
+
+objective:
+  type: "kill-mobs"
+  amount: 60
+  target-entities:
+    - ZOMBIE
+    - SKELETON
+    - SPIDER
+
+rewards:
+  money:
+    amount: 1500
+    silent: false
+  xp:
+    points: 1100
+    silent: false
+
+quest-effects:
+  activate: "objective_kill_entity"
+  complete: "quest_complete_success"

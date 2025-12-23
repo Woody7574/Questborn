@@ -1,0 +1,28 @@
+id: "weekly_regular_adventurer"
+name: "<#55aaff>Regular Adventurer"
+
+description:
+  - "<#cccccc>Stay active all week."
+  - "<#cccccc>Every minute matters."
+  - "<#cccccc>Play for 240 minutes."
+
+rewards-description:
+  - "<#a7ff99>+1000 coins"
+  - "<#ffe08a>+1200 XP"
+
+objective:
+  type: "play-time"
+  time: 240
+  time-unit: minutes
+
+rewards:
+  money:
+    amount: 1000
+    silent: false
+  xp:
+    points: 1200
+    silent: false
+
+quest-effects:
+  activate: "objective_play_time"
+  complete: "quest_complete_success"

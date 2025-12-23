@@ -1,0 +1,29 @@
+id: "seasonal_spring_first_seeds"
+name: "<#55aaff>First Seeds"
+
+description:
+  - "<#cccccc>Spring is finally here."
+  - "<#cccccc>Start a new farm patch."
+  - "<#cccccc>Plant 64 seeds."
+
+rewards-description:
+  - "<#a7ff99>+850 coins"
+  - "<#ffe08a>+650 XP"
+
+objective:
+  type: "plant-seed"
+  amount: 64
+  target-materials:
+    - WHEAT_SEEDS
+
+rewards:
+  money:
+    amount: 850
+    silent: false
+  xp:
+    points: 650
+    silent: false
+
+quest-effects:
+  activate: "objective_plant_seed"
+  complete: "quest_complete_success"

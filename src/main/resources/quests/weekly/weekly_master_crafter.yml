@@ -1,0 +1,29 @@
+id: "weekly_master_crafter"
+name: "<#55aaff>Master Crafter"
+
+description:
+  - "<#cccccc>The camp needs supplies."
+  - "<#cccccc>Craft food for the week."
+  - "<#cccccc>Craft 64 bread."
+
+rewards-description:
+  - "<#a7ff99>+1100 coins"
+  - "<#ffe08a>+950 XP"
+
+objective:
+  type: "craft-items"
+  amount: 64
+  target-materials:
+    - BREAD
+
+rewards:
+  money:
+    amount: 1100
+    silent: false
+  xp:
+    points: 950
+    silent: false
+
+quest-effects:
+  activate: "objective_item_craft"
+  complete: "quest_complete_success"

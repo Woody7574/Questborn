@@ -1,0 +1,29 @@
+id: "seasonal_winter_armor_up"
+name: "<#55aaff>Armor Up"
+
+description:
+  - "<#cccccc>Winter storms hit hard."
+  - "<#cccccc>Wear proper protection."
+  - "<#cccccc>Equip iron chestplate."
+
+rewards-description:
+  - "<#a7ff99>+650 coins"
+  - "<#ffe08a>+600 XP"
+
+objective:
+  type: "wear-armor"
+  amount: 1
+  target-materials:
+    - IRON_CHESTPLATE
+
+rewards:
+  money:
+    amount: 650
+    silent: false
+  xp:
+    points: 600
+    silent: false
+
+quest-effects:
+  activate: "objective_wear_armor"
+  complete: "quest_complete_success"

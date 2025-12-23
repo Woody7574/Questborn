@@ -1,0 +1,31 @@
+id: "seasonal_winter_frost_hunt"
+name: "<#55aaff>Frost Hunt"
+
+description:
+  - "<#cccccc>Cold nights bring danger."
+  - "<#cccccc>Protect the nearby paths."
+  - "<#cccccc>Defeat 30 mobs."
+
+rewards-description:
+  - "<#a7ff99>+1100 coins"
+  - "<#ffe08a>+800 XP"
+
+objective:
+  type: "kill-mobs"
+  amount: 30
+  target-entities:
+    - ZOMBIE
+    - SKELETON
+    - STRAY
+
+rewards:
+  money:
+    amount: 1100
+    silent: false
+  xp:
+    points: 800
+    silent: false
+
+quest-effects:
+  activate: "objective_kill_entity"
+  complete: "quest_complete_success"

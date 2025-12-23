@@ -1,0 +1,30 @@
+id: "weekly_quarry_master"
+name: "<#55aaff>Quarry Master"
+
+description:
+  - "<#cccccc>A big build needs stone."
+  - "<#cccccc>Prepare materials for the week."
+  - "<#cccccc>Break 512 blocks."
+
+rewards-description:
+  - "<#a7ff99>+1200 coins"
+  - "<#ffe08a>+900 XP"
+
+objective:
+  type: "break-blocks"
+  amount: 512
+  target-materials:
+    - STONE
+    - DEEPSLATE
+
+rewards:
+  money:
+    amount: 1200
+    silent: false
+  xp:
+    points: 900
+    silent: false
+
+quest-effects:
+  activate: "objective_block_break"
+  complete: "quest_complete_success"

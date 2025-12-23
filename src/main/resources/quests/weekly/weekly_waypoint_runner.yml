@@ -1,0 +1,29 @@
+id: "weekly_waypoint_runner"
+name: "<#55aaff>Waypoint Runner"
+
+description:
+  - "<#cccccc>Visit the marked waypoint."
+  - "<#cccccc>Prove you can navigate."
+  - "<#cccccc>Reach the coordinates."
+
+rewards-description:
+  - "<#a7ff99>+900 coins"
+  - "<#ffe08a>+800 XP"
+
+objective:
+  type: "reach-location"
+  x: 500
+  y: 80
+  z: -500
+
+rewards:
+  money:
+    amount: 900
+    silent: false
+  xp:
+    points: 800
+    silent: false
+
+quest-effects:
+  activate: "objective_reach_location"
+  complete: "quest_complete_success"
