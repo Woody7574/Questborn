@@ -1,0 +1,51 @@
+id: builder_chain_05_light_design
+name: <#fde68a>🏮 Light Design
+icon-material: LANTERN
+slot: 30
+page: 1
+require-quests:
+- builder_chain_04_storage_master
+description:
+- <#cccccc>Lighting is half the atmosphere.
+- <#cccccc>Craft torches and lanterns.
+- <#cccccc>Make the space safe and beautiful.
+rewards-description:
+- <#a7ff99>+320 coins
+- <#ffe08a>+120 XP
+- <#7dd3ff>+Lanterns
+quest-path:
+  stage-1:
+    objective:
+      type: ITEM_CRAFT
+      amount: 24
+      target-materials:
+      - TORCH
+  stage-2:
+    objective:
+      type: ITEM_CRAFT
+      amount: 6
+      target-materials:
+      - LANTERN
+rewards:
+  money:
+    amount: 320
+    silent: false
+  xp:
+    points: 120
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: LANTERN
+      amount: 6
+      name: <#7dd3ff>Master's Lanterns
+      lore:
+      - <#cccccc>They highlight the details.
+  effects:
+    silent: false
+    list:
+    - NIGHT_VISION:0:120
+quest-effects:
+  activate: quest_activate_start
+  stage-change: quest_stage_change
+  complete: quest_complete_success

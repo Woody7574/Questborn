@@ -1,0 +1,38 @@
+id: starter_chain_02_workbench
+name: <#a7f3d0>🧰 Workstation
+icon-material: CRAFTING_TABLE
+slot: 19
+page: 1
+require-quests:
+- starter_chain_01_wood_call
+description:
+- <#cccccc>Without a workbench, you can't do anything serious.
+- <#cccccc>Craft a crafting table.
+- <#cccccc>Now you can start building!
+rewards-description:
+- <#a7ff99>+170 coins
+- <#ffe08a>+70 XP
+- <#7dd3ff>+Torches
+objective:
+  type: ITEM_CRAFT
+  amount: 1
+  target-materials:
+  - CRAFTING_TABLE
+rewards:
+  money:
+    amount: 170
+    silent: false
+  xp:
+    points: 70
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: TORCH
+      amount: 24
+      name: <#7dd3ff>Road Light
+      lore:
+      - <#cccccc>Don't give darkness a chance.
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

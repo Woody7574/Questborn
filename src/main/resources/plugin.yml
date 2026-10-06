@@ -1,0 +1,88 @@
+name: Questborn
+main: ua.woody.questborn.QuestbornPlugin
+version: 2.0.4
+api-version: '1.16'
+folia-supported: true
+author: Woody
+description: Universal quest system.
+softdepend: [Citizens, FancyNpcs, PlaceholderAPI, Vault, WorldGuard, WorldEdit, SkinsRestorer, ItemsAdder, CraftEngine]
+libraries:
+  - com.h2database:h2:2.1.214
+  - org.mongodb:mongodb-driver-sync:4.11.1
+  - org.mongodb:mongodb-driver-core:4.11.1
+  - org.mongodb:bson:4.11.1
+  - org.postgresql:postgresql:42.7.3
+
+commands:
+  quest:
+    description: Main command for Questborn.
+    aliases: [quests, q]
+    usage: "/quest"
+    permission: questborn.use
+
+permissions:
+  # ========================
+  # BASIC USER PERMISSIONS
+  # ========================
+  questborn.use:
+    description: Allows using quest menus and normal quest features.
+    default: true
+  questborn.command.details:
+    description: Allows the player to view the details of the active quest
+    default: true
+
+  questborn.antiabuse.bypass:
+    description: Allows bypassing anti-abuse protections.
+    default: op
+
+  # ========================
+  # ADMIN ROOT PERMISSION
+  # ========================
+  questborn.admin:
+    description: Grants access to ALL Questborn commands.
+    default: op
+    children:
+      questborn.command.reload: true
+      questborn.command.reset: true
+      questborn.command.effect: true
+      questborn.command.activate: true
+      questborn.command.details: true
+      questborn.command.deactivate: true
+      questborn.command.open: true
+      questborn.command.finish: true
+      questborn.command.npc: true
+
+  # ========================
+  # INDIVIDUAL COMMAND PERMISSIONS
+  # ========================
+  questborn.command.reload:
+    description: Allows reloading the plugin.
+    default: op
+
+  questborn.command.reset:
+    description: Allows resetting quest progress or cooldown.
+    default: op
+
+  questborn.command.effect:
+    description: Allows previewing/playing quest effect presets.
+    default: op
+
+  questborn.command.activate:
+    description: Allows activating quests for players.
+    default: op
+
+  questborn.command.deactivate:
+    description: Allows deactivating active quests for players.
+    default: op
+
+  questborn.command.open:
+    description: Allows opening Questborn menus for any player.
+    default: op
+
+  questborn.command.finish:
+    description: Allows force completing quests for players.
+    default: op
+
+  questborn.command.npc:
+    description: Allows linking/unlinking NPCs to quest types.
+    default: op

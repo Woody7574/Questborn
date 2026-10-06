@@ -1,0 +1,45 @@
+id: "global_stone"
+page: 2
+
+name: "<#a8dbd4>🧱 Castle Restoration"
+description:
+  - "<#cccccc>The old fortress needs"
+  - "<#cccccc>urgent repairs! Bring"
+  - "<#cccccc>stone to reinforce the walls."
+
+icon-material: STONE
+slot: 23
+
+max-participants: 0
+personal-limit: 1000
+reward-step: 100
+
+quest-path:
+  stage-1:
+    required-materials:
+    - STONE:20000
+
+rewards-description:
+  - " <#a8dbd4>+ 1x Emerald | $50 | 50 EXP <#777777>(per 100)"
+  - " <#f0c589>+ 1x Diamond Pickaxe | $1500 | 1000 EXP <#777777>(final)"
+
+rewards:
+  money: 1500
+  xp: 1000
+  items:
+    silent: false
+    list:
+      - material: DIAMOND_PICKAXE
+        amount: 1
+  step-rewards:
+    money: 50
+    xp: 50
+    items:
+      silent: false
+      list:
+        - material: EMERALD
+          amount: 1
+
+quest-effects:
+  activate: quest_activate_important
+  complete: global_contribution_max

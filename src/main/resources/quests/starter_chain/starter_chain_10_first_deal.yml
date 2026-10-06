@@ -1,0 +1,44 @@
+id: starter_chain_10_first_deal
+name: <#34d399>💼 The First Deal
+icon-material: EMERALD
+slot: 23
+page: 1
+require-quests:
+- starter_chain_09_patrol
+description:
+- <#cccccc>Money loves movement, and movement loves trade.
+- <#cccccc>Make a few trades with a villager.
+- <#cccccc>The best rate is yours.
+rewards-description:
+- <#a7ff99>+650 coins
+- <#ffe08a>+220 XP
+- <#7dd3ff>+Emeralds
+objective:
+  type: VILLAGER_SELL_ITEM
+  amount: 48
+  target-materials:
+  - PAPER
+  target-entities:
+  - VILLAGER
+rewards:
+  money:
+    amount: 650
+    silent: false
+  xp:
+    points: 220
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: EMERALD
+      amount: 6
+      name: <#7dd3ff>Trading Emeralds
+      lore:
+      - <#cccccc>For your next offers.
+  effects:
+    silent: false
+    list:
+    - SPEED:0:90
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

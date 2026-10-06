@@ -1,0 +1,469 @@
+prefix: <#e9c46a><bold>Questborn</bold> <#8a8a8a>• <reset>
+hud:
+  actionbar:
+    complete-message: <#99ff9d>Quest {quest_name} <#99ff9d>completed!
+commands:
+  no-permission: '{prefix}<#e07a5f>You do not have permission for this action.'
+  finish-global:
+    not-global: '{prefix}<#e07a5f>Quest <#ffffff>{quest} <#e07a5f>is not a global
+      quest.'
+    not-active: '{prefix}<#cccccc>Global quest <#ffffff>{quest} <#cccccc>is not active
+      or already finished.'
+    success: '{prefix}<#97e673>Global quest <#ffffff>{quest} <#97e673>has been forcefully
+      completed!'
+  reset-global:
+    not-global: '{prefix}<#e07a5f>Quest <#ffffff>{quest} <#e07a5f>is not a global
+      quest.'
+    success: '{prefix}<#97e673>Global quest <#ffffff>{quest} <#97e673>has been completely
+      reset. Global progress wiped and online players'' cooldowns reset.'
+  npc-only: '{prefix}<#cccccc>This command is not available.'
+  reload:
+    done: '{prefix}<#97e673>All plugin configurations successfully reloaded!'
+  help:
+    header: <#7dd3ff><strikethrough>----</strikethrough><#ffffff> Questborn Command
+      Help <#7dd3ff><strikethrough>----</strikethrough>
+    footer: <#7dd3ff>Page {page} of {total_pages} <#a3a3a3>({total_results} commands)
+    hover-no-perm: <#a7ff99>Click to insert into chat
+    hover-with-perm: '<#a7ff99>Click to insert into chat
+
+      <#ffcc66>Permission: <#ffffff>{permission}'
+  effect:
+    list-header: <#7dd3ff><strikethrough>----</strikethrough><#ffffff> Available Effects
+      <#7dd3ff><strikethrough>----</strikethrough>
+    list-footer: <#7dd3ff>Page {page} of {total_pages} <#a3a3a3>({total_results} effects)
+    no-effects: '{prefix}<#cccccc>No effects available.'
+    not-found: '{prefix}<#e07a5f>Effect <#ffffff>{effect}<#e07a5f> not found.'
+    success-self: '{prefix}<#97e673>Played effect <#ffffff>{effect}<#97e673> on yourself.'
+    success-other: '{prefix}<#97e673>Played effect <#ffffff>{effect}<#97e673> on player
+      <#ffffff>{player}<#97e673>.'
+    received: '{prefix}<#97e673>Played effect <#ffffff>{effect}<#97e673> on you.'
+  npc:
+    usage-header: <#7dd3ff><strikethrough>----</strikethrough> <#ffffff>NPC Commands
+      <#7dd3ff><strikethrough>----</strikethrough>
+    help:
+      dialogue: '  <#97e673>/quest npc dialogue <#a3a3a3><npcId> <dialogueId> <#888888>-
+        Link dialogue to NPC'
+      displayname: '  <#97e673>/quest npc displayname <#a3a3a3><npcId> <name> <#888888>-
+        Set NPC display name'
+      gui-title: '  <#97e673>/quest npc gui-title <#a3a3a3><npcId> <title> <#888888>-
+        Set NPC GUI title'
+      indicator: '  <#97e673>/quest npc indicator <#a3a3a3><npcId> <offset> <#888888>-
+        Indicator height offset'
+      info: '  <#97e673>/quest npc info <#a3a3a3>[npcId] <#888888>- View NPC info'
+      link: '  <#97e673>/quest npc link <#a3a3a3><category> <type> <id> <#888888>-
+        Link quest to NPC'
+      remove: '  <#97e673>/quest npc remove <#a3a3a3><npcId> <#888888>- Remove NPC
+        from config'
+      unlink: '  <#97e673>/quest npc unlink <#a3a3a3><category> <type> <id> <#888888>-
+        Unlink quest from NPC'
+      voice: '  <#97e673>/quest npc voice <#a3a3a3><npcId> <voice> <#888888>- Set
+        NPC voice'
+    list-header: <#7dd3ff>&m----<#ffffff> Configured NPCs <#7dd3ff>&m----
+    list-empty: '{prefix}<#cccccc>No NPCs configured.'
+    list-item: '{prefix}<#97e673>- <#ffffff>{npc}'
+    remove-success: '{prefix}<#97e673>Successfully removed NPC configuration for <#ffffff>{npc}'
+    gui-title-set: '{prefix}<#97e673>Set GUI title for NPC <#ffffff>{npc}<#97e673>
+      to <#ffffff>{title}'
+    displayname-set: '{prefix}<#97e673>Display name for NPC <#ffffff>{npc}<#97e673>
+      set to: <#ffffff>{name}'
+    displayname-removed: '{prefix}<#97e673>Display name removed for NPC <#ffffff>{npc}'
+    info:
+      header: '<#7dd3ff>&m----<#ffffff> NPC Info: {npc} <#7dd3ff>&m----'
+      title: '{prefix}<#cccccc>GUI Title: <#ffffff>{title}'
+      dialogue: '{prefix}<#cccccc>Dialogue: <#ffffff>{dialogue}'
+      indicator: '{prefix}<#cccccc>Indicator Offset: <#ffffff>{offset}'
+    dialogue-removed: '{prefix}<#97e673>Removed dialogue from NPC <#ffffff>{npc}'
+    dialogue-not-found: '{prefix}<#e07a5f>Dialogue not found: <#ffffff>{dialogue}'
+    dialogue-set: '{prefix}<#97e673>Set dialogue for NPC <#ffffff>{npc}<#97e673> to
+      <#ffffff>{dialogue}'
+    indicator-set: '{prefix}<#97e673>NPC <#ffffff>{npc}<#97e673> indicator offset
+      set to <#ffffff>{offset}'
+    voice-set: '{prefix}<#97e673>Set typing voice for NPC <#ffffff>{npc}<#97e673>
+      to <#ffffff>{voice}'
+    voice-removed: '{prefix}<#97e673>Removed typing voice from NPC <#ffffff>{npc}'
+    console-must-specify-id: '{prefix}<#e07a5f>Console must specify NPC ID.'
+    not-looking-at-npc: '{prefix}<#e07a5f>Could not identify NPC. Please look at an
+      NPC or provide ID.'
+    link-pending: '{prefix}<#97e673>Please right-click an NPC to bind it.'
+    unlink-pending: '{prefix}<#e07a5f>Please right-click an NPC to unbind it.'
+    bind-success: '{prefix}<#97e673>Successfully bound <#ffffff>{target}<#97e673>'
+    unbind-success: '{prefix}<#e07a5f>Successfully unbound <#ffffff>{target}<#e07a5f>
+      from NPC <#ffffff>{npc}'
+  activate:
+    success: '{prefix}<#97e673>Quest <#ffffff>{quest}<#97e673> activated for player
+      <#ffffff>{player}.'
+    fail: '{prefix}<#e07a5f>Failed to activate quest <#ffffff>{quest}<#e07a5f>.'
+  details:
+    no-active-quest: '{prefix}<#cccccc>You have no active quest.'
+  deactivate:
+    no-active: '{prefix}<#cccccc>The player has no active quest.'
+    success: '{prefix}<#97e673>Active quest for <#ffffff>{player}<#97e673> deactivated.'
+  finish:
+    no-active: '{prefix}<#cccccc>The player has no active quest.'
+    success: '{prefix}<#97e673>Quest for <#ffffff>{player}<#97e673> completed.'
+    stage:
+      success: '{prefix}<#97e673>Stage of the quest for <#ffffff>{player}<#97e673>
+        force-completed.'
+      no-stages: '{prefix}<#cccccc>This quest has no stages or the stage could not
+        be completed.'
+  open:
+    opened: '{prefix}<#97e673>Menu <#ffffff>{menu}<#97e673> opened for player <#ffffff>{player}.'
+  reset:
+    cooldown-success: '{prefix}<#97e673>Cooldown for quest <#ffffff>{quest}<#97e673>
+      reset for player <#ffffff>{player}<#97e673>.'
+    history-success: '{prefix}<#97e673>Completion history for quest <#ffffff>{quest}<#97e673>
+      reset for player <#ffffff>{player}<#97e673>.'
+    reward-success: '{prefix}<#97e673>Reward status for quest <#ffffff>{quest}<#97e673>
+      reset for player <#ffffff>{player}<#97e673>.'
+    rotation-success: '{prefix}<#97e673>Rotation data for type <#ffffff>{type}<#97e673>
+      reset for player <#ffffff>{player}<#97e673>.'
+    quest-success: '{prefix}<#97e673>Full data for quest <#ffffff>{quest}<#97e673>
+      reset for player <#ffffff>{player}<#97e673>.'
+    type-success: '{prefix}<#97e673>All data for quest type <#ffffff>{type}<#97e673>
+      reset for player <#ffffff>{player}<#97e673>.'
+    top-success: '{prefix}<#97e673>Top data for type <#ffffff>{type}<#97e673> reset for player <#ffffff>{player}<#97e673>.'
+    top-success-all: '{prefix}<#97e673>Top reset complete! Modified <#ffffff>{count}<#97e673> players.'
+    top-start: '{prefix}<#97e673>Starting top reset for type <#ffffff>{type}<#97e673>...'
+
+  errors:
+    console-specify-player: '{prefix}<#e07a5f>Console must specify a player.'
+    quest-wrong-type: '{prefix}<#e07a5f>Quest <#ffffff>{quest}<#e07a5f> does not belong
+      to type <#ffffff>{type}<#e07a5f>.'
+    unknown-command: '{prefix}<#e07a5f>Unknown command. Type /quest help'
+    invalid-syntax: '{prefix}<#e07a5f>Invalid syntax! Usage: <#97e673>{command} <#a3a3a3>{syntax}'
+    quest-not-found: '{prefix}<#e07a5f>Quest <#ffffff>{quest}<#e07a5f> does not exist.'
+    player-not-found: '{prefix}<#e07a5f>Player with name <#ffffff>{player}<#e07a5f>
+      was not found!'
+    top-reset-error: '{prefix}<#e07a5f>Error resetting top: {error}'
+
+  global:
+    usage-header: <#7dd3ff><strikethrough>----</strikethrough> <#ffffff>Global Quests
+      <#7dd3ff><strikethrough>----</strikethrough>
+    help:
+      finish: '  <#97e673>/quest finish global <#a3a3a3><questId> <#888888>- Force
+        complete global quest'
+      reset: '  <#97e673>/quest reset global <#a3a3a3><questId> <#888888>- Reset global
+        quest progress'
+      top: '  <#97e673>/quest top <#a3a3a3>[questId] <#888888>- Global quest leaderboard'
+gui:
+  type:
+    locked-message: <#ff5555>You do not meet the requirements for this quest type.
+  quest_details:
+    info:
+      your-contribution: <#ffe999>Your Contribution
+      progress:
+        title: <#ffe999>Progress
+        bar: '{bar} <#cccccc>{percent}%'
+        value: <#cccccc>({current} / {target})
+      required-items: '<#cccccc>Required items:'
+      min-participants: '<#5bcbb5>👥 <#cccccc>Minimum participants: <#ffe999>{min}'
+      awaiting-transfer: <#ffe999>❖ Turn in resources
+      items-transferred: <#99ffd4>✓ Resources turned in
+    status:
+      cooldown: '<#ff9999>Cooldown: <#ffffff>{time}'
+      awaiting-transfer: <#ffe999>❖ Turn in resources
+      locked: <#ff5555>Locked
+    required_items: '<#cccccc>Required items:'
+    transfer:
+      required-items: '<#cccccc>Required items:'
+      transfer-not-active:
+        title: <#cccccc>Quest not active
+        lore:
+        - <#cccccc>Activate the quest first
+        - <#cccccc>to turn in resources
+      transfer-already-transferred:
+        title: <#cccccc>Resources already turned in
+        lore:
+        - <#cccccc>You have already turned in the resources
+      transfer-locked:
+        title: <#cccccc>Turn in resources
+        lore:
+        - <#cccccc>Resource turn in locked
+    objective_title: '&eObjective Details'
+    rewards_title: '&eRewards'
+  quest_list:
+    global-progress: <#ad99ff>Global Progress
+    global-participants: '<#cccccc>Participants: <#ffffff>{current} / {max}'
+    global-participants-no-max: '<#cccccc>Participants: <#ffffff>{current}'
+    global-participants-min: '<#cccccc>Participants: <#ffffff>{current} / {max} <#888888>(Min.
+      {min})'
+    global-participants-no-max-min: '<#cccccc>Participants: <#ffffff>{current} <#888888>(Min.
+      {min})'
+    global-contribution: '<#cccccc>Your Contribution: <#ffffff>{current} / {max}'
+    global-contribution-no-max: '<#cccccc>Your Contribution: <#ffffff>{current}'
+    rewards-header: '<#ffe999>Rewards:'
+    status:
+      tracked-suffix: ' &8| &bTracked'
+      completed-onetime: '<#99ffd4>Status: <#cccccc>Completed (one-time)'
+      active: '<#99ffd4>Status: <#a7ff99>Active'
+      waiting-participants: '<#99ffd4>Status: <#cccccc>Waiting for participants <#777777>({current}/{min})'
+      cooldown: '<#ff9999>Status: <#cccccc>Cooldown &7({time})'
+      rotation-cooldown: '<#ff9999>Status: <#cccccc>Until Next Rotation &7({time})'
+      available: '<#99ffd4>Status: <#cccccc>Available'
+      reward-pending: '<#99ffd4>Status: <#a7ff99>Reward pending'
+      locked: '<#ff9999>Status: <#cccccc>Locked'
+    chain:
+      required-quests: '<#cccccc>Required quests:'
+    cooldown-time: '<#ff9999>Cooldown: <#cccccc>{time}'
+    rotation-cooldown-time: '<#ff9999>Until Next Rotation: <#cccccc>{time}'
+    open-details: <#a7ff99>Left-click <#cccccc>- details / activate
+    activate-quest-quick: <#a7ff99>Swap (F) <#cccccc>- Activate quest
+    activate-quest-quick-replace: <#ffaa00>Swap (F) <#cccccc>- Replace active quest
+    cancel-quest-quick: <#ff6666>Drop (Q) <#cccccc>- Cancel quest
+    claim-reward: <#a7ff99>Right-click <#cccccc>- claim reward
+    track-quest: <#99ccff>Right-click <#cccccc>- track quest
+    stages: '<#cccccc>Stages: <#ffffff>{count}'
+    stage: <#cccccc>Stage {current}/{total}
+  delivery:
+    items-dropped: '{prefix}<#ff9999>Your inventory was full; items were dropped on
+      the ground.'
+quests:
+  objectives:
+    header: <#ffe999>Objective Details
+    none: <#777777>No detailed description
+    npc-interact: '<#cccccc>Talk to:'
+    give-item-to-npc: '<#cccccc>Give item:'
+    block_break: '<#cccccc>Break blocks:'
+    block_place: '<#cccccc>Place blocks:'
+    item_craft: '<#cccccc>Craft item:'
+    item_smelt: '<#cccccc>Smelt:'
+    item_cook: '<#cccccc>Cook:'
+    item_fish: '<#cccccc>Catch fish:'
+    item_enchant: '<#cccccc>Enchant:'
+    consume_item: '<#cccccc>Consume item:'
+    brewing: '<#cccccc>Brew potion:'
+    use_item: '<#cccccc>Use item:'
+    kill: '<#cccccc>Kill mobs:'
+    damage: '<#cccccc>Deal damage: <#ffe999>{amount}'
+    take-damage: '<#cccccc>Take damage: <#ffe999>{amount}'
+    travel: <#cccccc>Travel <#ffe999>{blocks} <#cccccc>blocks
+    location: '<#cccccc>Reach coordinates:'
+    reach-biome: '<#cccccc>Reach biome: <#ffe999>{biome} <#cccccc>{amount} times'
+    enter-region: '<#cccccc>Enter region: <#ffe999>{region}'
+    leave-region: '<#cccccc>Leave region: <#ffe999>{region}'
+    chat: '<#cccccc>Send message: <#ffe999>{text}'
+    command: '<#cccccc>Execute command: <#ffe999>{cmd}'
+    level-up-reach: <#cccccc>Reach level <#ffe999>{levels}
+    level-up-gain: <#cccccc>Gain <#ffe999>{levels} <#cccccc>levels
+    interact-block: '<#cccccc>Interact with block:'
+    interact-entity: '<#cccccc>Interact with entity:'
+    fill-bucket: '<#cccccc>Fill bucket:'
+    empty-bucket: '<#cccccc>Empty bucket:'
+    till-soil: '<#cccccc>Till soil:'
+    plant-seed: '<#cccccc>Plant seed:'
+    harvest-crop: '<#cccccc>Harvest crop:'
+    bone-meal-use: '<#cccccc>Use bone meal:'
+    strip-log: '<#cccccc>Strip log:'
+    wax-off: '<#cccccc>Remove wax:'
+    wax-on: '<#cccccc>Apply wax:'
+    item-repair: '<#cccccc>Repair item:'
+    item-rename: '<#cccccc>Rename item:'
+    new-name: '<#cccccc>New name: <#ffe999>{name}'
+    item-break: '<#cccccc>Break tool:'
+    dye-item: '<#cccccc>Dye item:'
+    fill-fuel: '<#cccccc>Refuel:'
+    burn-fuel: '<#cccccc>Burn fuel:'
+    villager-sell-item: '<#cccccc>Sell to villager:'
+    villager-buy-item: '<#cccccc>Buy from villager:'
+    enchant-table-use: '<#cccccc>Use enchantment table:'
+    anvil-use: '<#cccccc>Use anvil:'
+    tame-animal: '<#cccccc>Tame animal:'
+    breed-animals: '<#cccccc>Breed animals:'
+    milk-cow: '<#cccccc>Milk cow:'
+    shear-sheep: '<#cccccc>Shear sheep:'
+    entity-ride: '<#cccccc>Ride entity:'
+    throw-egg: '<#cccccc>Throw egg:'
+    experience-orb-pickup: '<#cccccc>Collect experience: <#ffe999>{amount}'
+    player-kill: '<#cccccc>Kill players: <#ffe999>{amount}'
+    assist-kill: '<#cccccc>Assist kills: <#ffe999>{amount}'
+    min-damage: '<#cccccc>Minimum damage: <#ffe999>{damage}'
+    sleep-in-bed: '<#cccccc>Sleep in bed: <#ffe999>{amount} <#cccccc>times'
+    enter-bed: '<#cccccc>Enter bed: <#ffe999>{amount}'
+    change-dimension: '<#cccccc>Change dimension:'
+    dimension: '<#cccccc>Dimension: <#ffe999>{dimension}'
+    fall-distance: '<#cccccc>Fly in fall: <#ffe999>{blocks} <#cccccc>blocks'
+    min-height: '<#cccccc>Min. height: <#ffe999>{height}'
+    boat-travel: <#cccccc>Travel <#ffe999>{blocks} blocks <#cccccc>by boat
+    minecart-travel: <#cccccc>Travel <#ffe999>{blocks} <#cccccc>blocks by minecart
+    elytra-fly: <#cccccc>Fly <#ffe999>{amount} blocks with elytra
+    jump: '<#cccccc>Jump: <#ffe999>{jumps} <#cccccc>times'
+    crouch: '<#cccccc>Crouch: <#ffe999>{crouches} <#cccccc>times'
+    sprint-distance: '<#cccccc>Sprint: <#ffe999>{blocks} <#cccccc>blocks'
+    crouch-distance: '<#cccccc>Sneak: <#ffe999>{blocks} <#cccccc>blocks'
+    swim-distance: '<#cccccc>Swim: <#ffe999>{blocks} <#cccccc>blocks'
+    potion-splash: '<#cccccc>Splash potion:'
+    potion-drink: '<#cccccc>Drink potion:'
+    beacon-activate: '<#cccccc>Activate beacon: <#ffe999>{amount} <#cccccc>times'
+    conduit-activate: '<#cccccc>Activate conduit: <#ffe999>{amount} <#cccccc>times'
+    join-server: '<#cccccc>Join server: <#ffe999>{amount} <#cccccc>times'
+    play-time: '<#cccccc>Play time: <#ffe999>{time}'
+    hold-item: '<#cccccc>Hold item:'
+    hold-time: '<#cccccc>Hold for: <#ffe999>{time}'
+    drop-item: <#cccccc>Drop item
+    open-container: <#cccccc>Open container <#ffe999>{amount} <#cccccc>times
+    container-type: '<#cccccc>Container type: <#ffe999>{type}'
+    sign:
+      edit: '<#cccccc>Edit sign: <#ffe999>{amount} <#cccccc>times'
+      message: '<#cccccc>Must write: <#ffe999>{message}'
+    book:
+      edit: '<#cccccc>Edit book: <#ffe999>{amount} <#cccccc>times'
+      message: '<#cccccc>Must write: <#ffe999>{message}'
+    receive-damage-type: '<#cccccc>Receive damage: <#ffe999>{damage}'
+    damage-cause:
+      any: <#cccccc>From <#ffe999>anything
+      contact: <#cccccc>From <#ffe999>contact
+      entity_attack: <#cccccc>From <#ffe999>entity attack
+      projectile: <#cccccc>From <#ffe999>projectile
+      suffocation: <#cccccc>From <#ffe999>suffocation
+      fall: <#cccccc>From <#ffe999>fall
+      fire: <#cccccc>From <#ffe999>fire
+      fire_tick: <#cccccc>From <#ffe999>fire tick
+      lava: <#cccccc>From <#ffe999>lava
+      drowning: <#cccccc>From <#ffe999>drowning
+      block_explosion: <#cccccc>From <#ffe999>block explosion
+      entity_explosion: <#cccccc>From <#ffe999>entity explosion
+      void: <#cccccc>From <#ffe999>void
+      lightning: <#cccccc>From <#ffe999>lightning
+      suicide: <#cccccc>From <#ffe999>suicide
+      starvation: <#cccccc>From <#ffe999>starvation
+      poison: <#cccccc>From <#ffe999>poison
+      magic: <#cccccc>From <#ffe999>magic
+      wither: <#cccccc>From <#ffe999>wither
+      falling_block: <#cccccc>From <#ffe999>falling block
+      thorns: <#cccccc>From <#ffe999>thorns
+      dragon_breath: <#cccccc>From <#ffe999>dragon breath
+      fly_into_wall: <#cccccc>From <#ffe999>flying into wall
+      hot_floor: <#cccccc>From <#ffe999>hot floor
+      cramming: <#cccccc>From <#ffe999>cramming
+      dryout: <#cccccc>From <#ffe999>drying out
+      freeze: <#cccccc>From <#ffe999>freezing
+      sonic_boom: <#cccccc>From <#ffe999>sonic boom
+      unknown: <#cccccc>From <#ffe999>unknown
+    wear-armor: '<#cccccc>Wear armor:'
+  global:
+    not_enough_participants: '<#ffdd66>⚠ <#cccccc>Global quest <#ffe999>{quest} <#cccccc>requires
+      at least <#ffe999>{min} <#cccccc>participants <#cccccc>(current: <#ffe999>{current}<#cccccc>)!'
+    cancel_blocked_contributed: <#ffdd66>⚠ <#cccccc>You have already made a contribution
+      to this global quest and cannot cancel it!
+    rejoin_cooldown: <#cc4444>❌ <#cccccc>Please wait <#ffe999>{time} <#cccccc>before
+      re-activating this global quest!
+    max_contribution: <#97e673>✨ Great job! <#cccccc>You have reached your maximum
+      personal contribution in the global quest <#ffe699>{quest}<#cccccc>. Thank you
+      for your help!
+    personal:
+      join: '<#5bcbb5>+ <#cccccc>You joined quest <#ffe999>{quest}'
+      join-waiting: '<#5bcbb5>+ <#cccccc>You joined the queue to activate quest <#ffe999>{quest} <#888888>(Still need: <#ffe999>{remaining}<#888888>)'
+      leave: '<#e07a5f>- <#cccccc>You left the participation in quest <#ffe999>{quest}<#cccccc>!'
+      leave-waiting: '<#e07a5f>- <#cccccc>You left the queue to activate quest <#ffe999>{quest}<#cccccc>!'
+    broadcast:
+      join: <#5bcbb5>+ <#cccccc>Player <#ffe999>{player} <#cccccc>joined global quest
+        <#ffe999>{quest}
+      join-waiting: '<#5bcbb5>+ <#cccccc>Player <#ffe999>{player} <#cccccc>joined
+        global quest <#ffe999>{quest} <#888888>(Remaining: <#ffe999>{remaining}<#888888>)'
+      leave: <#e07a5f>- <#cccccc>Player <#ffe999>{player} <#cccccc>left global quest
+        <#ffe999>{quest}
+      start:
+      - ' '
+      - <#5bcbb5>⚡ Global quest <#ffe999>{quest} <#5bcbb5>has been activated!
+      - ' '
+      header:
+      - ' '
+      - <#e8b830>Global quest completed!
+      - '  <#c0c0c0>“{quest}<#c0c0c0>”'
+      - ' '
+      - '<#fcd244>⭐ Top heroes:'
+      top-entry: ' <#fcd244>{rank}. <#cccccc>{player} <#888888>- <#fcd244>{contribution}
+        <#888888>({percent}%)'
+      footer:
+      - ' '
+      - '<#5bcbb5>👥 <#cccccc>Total participants: <#5bcbb5>{participants}'
+      - '<#78d169>⏳ <#cccccc>Time taken: <#78d169>{time}'
+      your-contribution: '<#b894e6>⭐ <#cccccc>Your personal contribution: <#b894e6>{amount}'
+      time-unknown: unknown
+  background:
+    complete: '{prefix}<#97e673>Quest <#ffffff>{quest} <#97e673>completed in background!'
+    stage_complete: '{prefix}<#97e673>Stage <#ffffff>{stage} <#97e673>of quest <#ffffff>{quest}
+      <#97e673>completed in background!'
+  activate:
+    success:
+    - <#a7ff99>You have activated quest {quest}
+    - ''
+    - '{objective_details}'
+    - ''
+    - '{clickable_details}'
+  chain:
+    auto-activated: <#a7ff99>Quest <#ffffff>{quest} automatically started
+  reward:
+    waiting-gui: '{prefix}<#97e673>Your quest reward is waiting!'
+    waiting-npc: '{prefix}<#97e673>Claim the reward from <#ffffff>{npc}<#97e673>!'
+  stage:
+    complete: '{quest} <#ffcc80>Stage &f{stage} <#ffcc80>completed!'
+    new:
+    - '<#98b37d>In the next stage you need to:'
+    - ''
+    - '{objective_details}'
+    - ''
+    - '{clickable_details}'
+  transfer:
+    success: '{prefix}<#97e673>Resources successfully turned in!'
+  types:
+    general:
+      unknown: Unknown
+    blocks:
+      any: Any block
+      unknown: Unknown block
+    entities:
+      any: Any entity
+      unknown: Unknown entity
+    fluids:
+      any: Any fluid
+      unknown: Unknown fluid
+    items:
+      any: Any item
+      any_fuel: Any fuel
+      unknown: Unknown item
+    villagers:
+      any: Any villager
+      unknown: Unknown villager
+chat:
+  clickable: <#e6c18a>[More Information]
+  hover: <#cccccc>Click to view quest details
+rewards:
+  money:
+    invalid: '{prefix}<#e07a5f>Invalid money reward amount.'
+    added: <#e9c46a>+ <#ffffff>{amount} <#e9c46a> coins
+  items:
+    received: <#97e673>You received items as a quest reward!
+    dropped: <#e07a5f>Some items did not fit in your inventory and were dropped nearby!
+  xp:
+    levels: <#7dd3ff>+ <#ffffff>{amount} <#7dd3ff> experience levels
+    points: <#7dd3ff>+ <#ffffff>{amount} <#7dd3ff> experience points
+    invalid: '{prefix}<#e07a5f>Invalid experience reward amount.'
+  attribute:
+    added: <#f4a261>Attribute <#ffffff>{attribute} <#f4a261> increased by <#ffffff>{value}
+  effect:
+    added: <#b19cd9>Received effect <#ffffff>{effect} <#b19cd9>level <#ffffff>{amplifier}
+      <#b19cd9>for <#ffffff>{duration}
+system:
+  time:
+    year: y
+    years: y
+    month: mo
+    months: mo
+    day: d
+    days: d
+    hour: h
+    hours: h
+    minute: m
+    minutes: m
+    second: s
+    seconds: s
+    format:
+      year-month: '{y}{y_unit} {m}{m_unit}'
+      month-day: '{m}{m_unit} {d}{d_unit}'
+      day-hour: '{d}{d_unit} {h}{h_unit}'
+      hour-minute: '{h}{h_unit} {min}{min_unit}'
+      minute-second: '{min}{min_unit} {s}{s_unit}'
+      only-second: '{s}{s_unit}'
+  update:
+    available: <#99ffd4>A new version of Questborn is available!

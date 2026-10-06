@@ -1,0 +1,61 @@
+id: weekly_night_patrol
+name: <#f87171>⚔ Night Watch Duty
+icon-material: SHIELD
+
+rotation-pool: "rare"
+
+description:
+- <#cccccc>Nights grow darker — enemies grow bolder.
+- <#cccccc>Clear the outskirts and prove you're battle-ready.
+- <#cccccc>After the raid — get some rest.
+- ""
+- "<#93c5fd>⭐ <#cccccc>Rarity: <#bfdbfe>Rare"
+rewards-description:
+- <#a7ff99>+1400 coins
+- <#ffe08a>+520 XP
+- <#7dd3ff>+Sentinel's Shield
+quest-path:
+  stage-1:
+    objective:
+      type: KILL_ENTITY
+      amount: 40
+      target-entities:
+      - ZOMBIE
+      - SKELETON
+      - CREEPER
+  stage-2:
+    objective:
+      type: DEAL_DAMAGE
+      amount: 1200
+  stage-3:
+    objective:
+      type: ENTER_BED
+      amount: 2
+rewards:
+  money:
+    amount: 1400
+    silent: false
+  xp:
+    points: 520
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: SHIELD
+      amount: 1
+      name: <#7dd3ff>Sentinel's Shield
+      lore:
+      - <#cccccc>A symbol of the settlement's protection.
+      enchantments:
+      - unbreaking:3
+      flags:
+      - HIDE_ENCHANTS
+  effects:
+    silent: false
+    list:
+    - REGENERATION:0:25
+quest-effects:
+  activate: quest_activate_start
+  stage-change: quest_stage_change
+  complete: quest_complete_success
+

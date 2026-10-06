@@ -1,0 +1,29 @@
+# ==============================================================================
+# Questborn - Quest Type: Сезонні Пригоди (Seasonal Adventures)
+# ==============================================================================
+id: seasonal
+folder: quests/seasonal
+
+display-name: "<#bfa0d8>🌟 Сезонні Пригоди"
+gui-type-title: "&0🌟 Сезонні Пригоди - ({page}/{total})"
+gui-quest-title: "&0{quest}"
+gui-transfer-title: "&0{quest}"
+
+material: TOTEM_OF_UNDYING
+slot: 31
+
+engine: DEFAULT
+cooldown-seconds: 0
+
+lore:
+  - "<#d4dadf>Головні віхи та подвиги поточного сезону."
+  - "<#9aa5b1>Монументальні досягнення без обмежень часу,"
+  - "<#9aa5b1>доступні для виконання один раз за сезон."
+  - "<#bfa0d8>Здобудь вічну славу та унікальні трофеї!"
+  - ""
+  - "<#bfa0d8>Сезонний прогрес:"
+  - " <#98c379>✔ <#edf1f5>{completed}/{total} <#9aa5b1>виконано"
+  - ""
+  - "<#7ba2b8>▸ Натисніть, щоб відкрити"
+
+enabled: true

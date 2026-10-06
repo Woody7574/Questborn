@@ -1,0 +1,32 @@
+id: daily_torch_runner
+name: <#fbbf24>🕯 Light for the Miners
+icon-material: TORCH
+
+rotation-pool: "common"
+
+description:
+- <#cccccc>The mines are dark — danger grows.
+- <#cccccc>Provide visibility in the tunnels.
+- <#cccccc>Craft <#fbbf24>32 torches.
+- ""
+- "<#86efac>⭐ <#cccccc>Rarity: <#bbf7d0>Common"
+rewards-description:
+- <#a7ff99>+120 coins
+- <#ffe08a>+55 XP
+- <#7dd3ff>+2 Lanterns
+objective:
+  type: ITEM_CRAFT
+  amount: 32
+  target-materials:
+  - TORCH
+rewards:
+  money: 120
+  xp: 55
+  items:
+    list:
+    - material: LANTERN
+      amount: 2
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success
+

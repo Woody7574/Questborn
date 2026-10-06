@@ -1,0 +1,40 @@
+id: starter_chain_06_good_night
+name: <#a3e635>🛏 A Quiet Rest
+icon-material: RED_BED
+slot: 21
+page: 1
+require-quests:
+- starter_chain_05_tools_of_path
+description:
+- <#cccccc>A true hero knows the value of rest.
+- <#cccccc>Sleep in a bed to reset nighttime risks.
+- <#cccccc>Tomorrow brings new tasks.
+rewards-description:
+- <#a7ff99>+200 coins
+- <#ffe08a>+70 XP
+- <#7dd3ff>+Warm food
+objective:
+  type: SLEEP_IN_BED
+  amount: 1
+rewards:
+  money:
+    amount: 200
+    silent: false
+  xp:
+    points: 70
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: COOKED_BEEF
+      amount: 8
+      name: <#7dd3ff>Warm Meal
+      lore:
+      - <#cccccc>Recover your strength faster.
+  effects:
+    silent: false
+    list:
+    - REGENERATION:0:10
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

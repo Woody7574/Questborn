@@ -1,0 +1,39 @@
+id: starter_chain_03_stone_age
+name: <#c4b5fd>🪨 The Stone Age
+icon-material: STONE_PICKAXE
+slot: 28
+page: 1
+require-quests:
+- starter_chain_02_workbench
+description:
+- <#cccccc>Time to move from wood to stone.
+- <#cccccc>Mine stone for tools.
+- <#cccccc>Durability matters.
+rewards-description:
+- <#a7ff99>+190 coins
+- <#ffe08a>+80 XP
+- <#7dd3ff>+Stone blocks
+objective:
+  type: BLOCK_BREAK
+  amount: 48
+  target-materials:
+  - STONE
+  - DEEPSLATE
+rewards:
+  money:
+    amount: 190
+    silent: false
+  xp:
+    points: 80
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: COBBLESTONE
+      amount: 64
+      name: <#7dd3ff>Stone Stockpile
+      lore:
+      - <#cccccc>Useful for a furnace and building.
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

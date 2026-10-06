@@ -1,0 +1,40 @@
+id: builder_chain_03_wall_lines
+name: <#38bdf8>🧱 Wall Lines
+icon-material: OAK_PLANKS
+slot: 28
+page: 1
+require-quests:
+- builder_chain_02_strip_style
+description:
+- <#cccccc>Clean lines make a build look neat.
+- <#cccccc>Place plenty of planks into the structure.
+- <#cccccc>Don't skimp on symmetry.
+rewards-description:
+- <#a7ff99>+260 coins
+- <#ffe08a>+100 XP
+- <#7dd3ff>+Chests
+objective:
+  type: BLOCK_PLACE
+  amount: 128
+  target-materials:
+  - OAK_PLANKS
+  - SPRUCE_PLANKS
+  - BIRCH_PLANKS
+rewards:
+  money:
+    amount: 260
+    silent: false
+  xp:
+    points: 100
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: CHEST
+      amount: 2
+      name: <#7dd3ff>Material Chests
+      lore:
+      - <#cccccc>Keep everything within reach.
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

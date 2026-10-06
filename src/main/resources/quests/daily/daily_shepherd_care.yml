@@ -1,0 +1,32 @@
+id: daily_shepherd_care
+name: <#fef08a>🐑 Flock Care
+icon-material: SHEARS
+
+rotation-pool: "common"
+
+description:
+- <#cccccc>Weavers are waiting for fresh wool.
+- <#cccccc>Don't hurt the animals — work carefully.
+- <#cccccc>Shear <#fef08a>8 sheep.
+- ""
+- "<#86efac>⭐ <#cccccc>Rarity: <#bbf7d0>Common"
+rewards-description:
+- <#a7ff99>+160 coins
+- <#ffe08a>+75 XP
+- <#7dd3ff>+8 White Wool
+objective:
+  type: SHEAR_SHEEP
+  amount: 8
+  target-entities:
+  - SHEEP
+rewards:
+  money: 160
+  xp: 75
+  items:
+    list:
+    - material: WHITE_WOOL
+      amount: 8
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success
+

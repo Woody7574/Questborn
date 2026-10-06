@@ -1,0 +1,53 @@
+# Unique ID of the quest. Should be same as file name.
+id: "global_fishing"
+
+# Link to the quest type category
+type: global
+
+name: "<#8ab8d9>🎣 Great Fishing"
+description:
+  - "<#cccccc>Warm days are time to relax"
+  - "<#cccccc>near the water. Grab a fishing rod"
+  - "<#cccccc>and catch fish for the whole server!"
+
+icon-material: COD
+slot: 24
+
+# Global Settings
+max-participants: 20     # Only the first 20 fishers can participate
+personal-limit: 100      # 1 player can catch max 100 fish
+reward-step: 25          # Reward for every 25 fish caught
+
+# Objectives
+objective:
+  type: "ITEM_FISH"
+  amount: 1000
+  target-materials:
+    - COD
+
+# Rewards Displayed in GUI
+rewards-description:
+  - " <#a2d9a2>+ 2x Emerald | $60 | 50 EXP <#777777>(per 25)"
+  - " <#a6d6d6>+ 1x Ender Chest | $1000 | 1000 EXP <#777777>(final)"
+
+# Rewards (Includes guaranteed rewards and step-rewards)
+rewards:
+  money: 1000
+  xp: 1000
+  items:
+    silent: false
+    list:
+      - material: ENDER_CHEST
+        amount: 1
+  step-rewards:
+    money: 60
+    xp: 50
+    items:
+      silent: false
+      list:
+        - material: EMERALD
+          amount: 2
+
+quest-effects:
+  activate: quest_activate_important
+  complete: global_contribution_max

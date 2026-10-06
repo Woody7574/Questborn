@@ -1,0 +1,3013 @@
+locale:
+  items:
+    "abandoned_camp_map": Abandoned Camp Map
+    "abandoned_campsite_map": Abandoned Campsite Map
+    "acacia_boat": Акация қайық
+    "acacia_chest_boat": Сандықты акация қайық
+    "allay_spawn_egg": Тымпи тұқымы
+    "amethyst_shard": Аметист сынығы
+    "ancient_city_map": Ancient City Map
+    "angler_pottery_shard": «Балықшы» құмыра сынығы
+    "angler_pottery_sherd": «Балықшы» құмыра сынығы
+    "apple": Алма
+    "archer_pottery_shard": «Мерген» құмыра сынығы
+    "archer_pottery_sherd": «Мерген» құмыра сынығы
+    "armadillo_scute": Кіреукей қалқаншасы
+    "armadillo_spawn_egg": Кіреукей тұқымы
+    "armor_stand": Сауыт ілгіш
+    "arms_up_pottery_shard": «Қол көтер» құмыра сынығы
+    "arms_up_pottery_sherd": «Қол көтер» құмыра сынығы
+    "arrow": Оқ
+    "axolotl_bucket": Шелектегі аксолотль
+    "axolotl_spawn_egg": Аксолотль тұқымы
+    "baked_potato": Піскен картоп
+    "bamboo_chest_raft": Сандықты бамбук сал
+    "bamboo_raft": Бамбук сал
+    "bat_spawn_egg": Жарқанат тұқымы
+    "bee_spawn_egg": Ара тұқымы
+    "beef": Шикі сиыр еті
+    "beetroot": Қызылша
+    "beetroot_seeds": Қызылша дәні
+    "beetroot_soup": Қызылша көжесі
+    "birch_boat": Қайың қайық
+    "birch_chest_boat": Сандықты қайың қайық
+    "black_bundle": Қара дорба
+    "black_cushion": Black Cushion
+    "black_dye": Қара бояу
+    "black_harness": Қара жүген
+    "blade_pottery_shard": «Қылыш» құмыра сынығы
+    "blade_pottery_sherd": «Қылыш» құмыра сынығы
+    "blaze_powder": Лаулақ ұнтағы
+    "blaze_rod": Лаулақ сырығы
+    "blaze_spawn_egg": Лаулақ тұқымы
+    "blue_bundle": Көк дорба
+    "blue_cushion": Blue Cushion
+    "blue_dye": Көк бояу
+    "blue_egg": Көк жұмыртқа
+    "blue_harness": Көк жүген
+    "bogged_spawn_egg": Малтыққан тұқымы
+    "bolt_armor_trim_smithing_template": Темірші үлгісі
+    "bone": Сүйек
+    "bone_meal": Сүйек ұны
+    "book": Кітап
+    "bordure_indented_banner_pattern": «Ирек әдіп» байрақ үлгісі
+    "bow": Садақ
+    "bowl": Тостаған
+    "bread": Нан
+    "breeze_rod": Уілдек сырығы
+    "breeze_spawn_egg": Уілдек тұқымы
+    "brewer_pottery_shard": «Демдеуші» құмыра сынығы
+    "brewer_pottery_sherd": «Демдеуші» құмыра сынығы
+    "brewing_stand": Демдегіш
+    "brick": Кірпіш
+    "brown_bundle": Қоңыр дорба
+    "brown_cushion": Brown Cushion
+    "brown_dye": Қоңыр бояу
+    "brown_egg": Қоңыр жұмыртқа
+    "brown_harness": Қоңыр жүген
+    "brush": Қылқалам
+    "bucket": Шелек
+    "bundle": Дорба
+    "bundle_empty_description": Ішіне алпыс төрт зат сыяды
+    "buried_ancient_city_map": Buried Ancient City Map
+    "buried_mineshaft_map": Buried Mineshaft Map
+    "buried_treasure_map": Buried Treasure Map
+    "buried_trial_chambers_map": Buried Trial Chambers Map
+    "burn_pottery_shard": «Жалын» құмыра сынығы
+    "burn_pottery_sherd": «Жалын» құмыра сынығы
+    "camel_husk_spawn_egg": Түйе мәйітінің тұқымы
+    "camel_spawn_egg": Түйе тұқымы
+    "carrot": Сәбіз
+    "carrot_on_a_stick": Қармақтағы сәбіз
+    "cat_spawn_egg": Мысық тұқымы
+    "cauldron": Қазан
+    "cave_spider_spawn_egg": Үңгір өрмекшісінің тұқымы
+    "chainmail_boots": Аймауыт етік
+    "chainmail_chestplate": Аймауыт кеудеше
+    "chainmail_helmet": Аймауыт дулыға
+    "chainmail_leggings": Аймауыт шалбар
+    "charcoal": Ағаш көмір
+    "cherry_boat": Шие қайық
+    "cherry_chest_boat": Сандықты шие қайық
+    "chest_minecart": Сандықты арба
+    "chicken": Шикі тауық еті
+    "chicken_spawn_egg": Тауық тұқымы
+    "chorus_fruit": Хорус жемісі
+    "clay_ball": Кесек саз
+    "clock": Сағат
+    "coal": Көмір
+    "coast_armor_trim_smithing_template": Темірші үлгісі
+    "cocoa_beans": Какао бұршағы
+    "cod": Шикі сетінек
+    "cod_bucket": Шелектегі сетінек
+    "cod_spawn_egg": Сетінек тұқымы
+    "command_block_minecart": Пәрмен блокті арба
+    "compass": Тұсбағар
+    "cooked_beef": Cтейк
+    "cooked_chicken": Піскен тауық еті
+    "cooked_cod": Піскен сетінек
+    "cooked_mutton": Піскен қой еті
+    "cooked_porkchop": Піскен шошқа еті
+    "cooked_rabbit": Піскен қоян еті
+    "cooked_salmon": Піскен албырт
+    "cookie": Піспенан
+    "copper_axe": Мыс балта
+    "copper_boots": Мыс етік
+    "copper_chestplate": Мыс кеудеше
+    "copper_golem_spawn_egg": Мыс голем тұқымы
+    "copper_helmet": Мыс дулыға
+    "copper_hoe": Мыс кетпен
+    "copper_horse_armor": Мыс атсауыт
+    "copper_ingot": Мыс құйма
+    "copper_leggings": Мыс шалбар
+    "copper_nautilus_armor": Мыс наутилус сауыты
+    "copper_nugget": Мыс кесегі
+    "copper_pickaxe": Мыс қайла
+    "copper_shovel": Мыс күрек
+    "copper_spear": Мыс найза
+    "copper_sword": Мыс қылыш
+    "cow_spawn_egg": Сиыр тұқымы
+    "creaking_spawn_egg": Қытыр тұқымы
+    "creeper_banner_pattern": Байрақ үлгісі
+    "creeper_spawn_egg": Крипер тұқымы
+    "crossbow": Арбалет
+    "crossbow_projectile": "Ату жарағы:"
+    "cyan_bundle": Көкзеңгір дорба
+    "cyan_cushion": Cyan Cushion
+    "cyan_dye": Көкзеңгір бояу
+    "cyan_harness": Көкзеңгір жүген
+    "danger_pottery_shard": «Қауіп» құмыра сынығы
+    "danger_pottery_sherd": «Қауіп» құмыра сынығы
+    "dark_oak_boat": Қара емен қайық
+    "dark_oak_chest_boat": Сандықты қара емен қайық
+    "debug_stick": Күй келтіру таяғы
+    "desert_pyramid_map": Desert Pyramid Map
+    "desert_village_map": Desert Village Map
+    "diamond": Алмас
+    "diamond_axe": Алмас балта
+    "diamond_boots": Алмас етік
+    "diamond_chestplate": Алмас кеудеше
+    "diamond_helmet": Алмас дулыға
+    "diamond_hoe": Алмас кетпен
+    "diamond_horse_armor": Алмас атсауыт
+    "diamond_leggings": Алмас шалбар
+    "diamond_nautilus_armor": Алмас наутилус сауыты
+    "diamond_pickaxe": Алмас қайла
+    "diamond_shovel": Алмас күрек
+    "diamond_spear": Алмас найза
+    "diamond_sword": Алмас қылыш
+    "disc_fragment_5": Күйтабақ сынығы
+    "dolphin_spawn_egg": Дельфин тұқымы
+    "donkey_spawn_egg": Есек тұқымы
+    "dragon_breath": Айдаһар заһары
+    "dried_kelp": Кепкен ламинария
+    "drowned_spawn_egg": Батқан тұқымы
+    "dune_armor_trim_smithing_template": Темірші үлгісі
+    "echo_shard": Жаңғырық сынығы
+    "egg": Жұмыртқа
+    "elder_guardian_spawn_egg": Ежелгі қорғаушы тұқымы
+    "elytra": Элитра
+    "emerald": Замартас
+    "enchanted_book": Дуалы кітап
+    "enchanted_golden_apple": Дуалы алтын алма
+    "end_crystal": Енд кристалы
+    "ender_dragon_spawn_egg": Ендер айдаһар тұқымы
+    "ender_eye": Ендер көзі
+    "ender_pearl": Ендер інжуі
+    "enderman_spawn_egg": Ендермен тұқымы
+    "endermite_spawn_egg": Ендермит тұқымы
+    "evoker_spawn_egg": Жадыгөй тұқымы
+    "experience_bottle": Дуалы құты
+    "explorer_pottery_shard": «Зерттеуші» құмыра сынығы
+    "explorer_pottery_sherd": «Зерттеуші» құмыра сынығы
+    "eye_armor_trim_smithing_template": Темірші үлгісі
+    "feather": Қауырсын
+    "fermented_spider_eye": Ашыған өрмекші көзі
+    "field_masoned_banner_pattern": «Кірпіш» байрақ үлгісі
+    "filled_map": Карта
+    "fire_charge": Отшар
+    "firework_rocket": Отшашу
+    "firework_star": Отшашу жұлдызы
+    "firework_star_black": Қара
+    "firework_star_blue": Көк
+    "firework_star_brown": Қоңыр
+    "firework_star_custom_color": Баптаулы
+    "firework_star_cyan": Көкзеңгір
+    "firework_star_gray": Сұр
+    "firework_star_green": Жасыл
+    "firework_star_light_blue": Көгілдір
+    "firework_star_light_gray": Боз
+    "firework_star_lime": Көкжасыл
+    "firework_star_magenta": Қызылкүрең
+    "firework_star_orange": Сарғыш
+    "firework_star_pink": Қызғылт
+    "firework_star_purple": Күлгін
+    "firework_star_red": Қызыл
+    "firework_star_shape_burst": Шашу
+    "firework_star_shape_creeper": Крипер пішінді
+    "firework_star_shape_large_ball": Үлкен шар
+    "firework_star_shape_small_ball": Шағын шар
+    "firework_star_shape_star": Жұлдыз пішінді
+    "firework_star_white": Ақ
+    "firework_star_yellow": Сары
+    "fishing_rod": Қармақ
+    "flint": Шақпақтас
+    "flint_and_steel": Шақпақ
+    "flow_armor_trim_smithing_template": Темірші үлгісі
+    "flow_banner_pattern": Байрақ үлгісі
+    "flow_pottery_sherd": «Ағыс» құмыра сынығы
+    "flower_banner_pattern": Байрақ үлгісі
+    "flower_pot": Гүл құмырасы
+    "fox_spawn_egg": Түлкі тұқымы
+    "friend_pottery_shard": «Дос» құмыра сынығы
+    "friend_pottery_sherd": «Дос» құмыра сынығы
+    "frog_spawn_egg": Бақа тұқымы
+    "furnace_minecart": Пешті арба
+    "ghast_spawn_egg": Гәст тұқымы
+    "ghast_tear": Гәсттің көз жасы
+    "glass_bottle": Құты
+    "glistering_melon_slice": Жарқырауық қарбыз тілімі
+    "globe_banner_pattern": Байрақ үлгісі
+    "glow_berries": Жарқырауық жидек
+    "glow_ink_sac": Жарқырауық сия
+    "glow_item_frame": Жарқырауық жақтау
+    "glow_squid_spawn_egg": Жарқырауық сегізаяқ тұқымы
+    "glowstone_dust": Жарықтас ұнтағы
+    "goat_horn": Керней
+    "goat_spawn_egg": Ешкі тұқымы
+    "gold_ingot": Алтын құйма
+    "gold_nugget": Алтын кесек
+    "golden_apple": Алтын алма
+    "golden_axe": Алтын балта
+    "golden_boots": Алтын етік
+    "golden_carrot": Алтын сәбіз
+    "golden_chestplate": Алтын кеудеше
+    "golden_helmet": Алтын дулыға
+    "golden_hoe": Алтын кетпен
+    "golden_horse_armor": Алтын атсауыт
+    "golden_leggings": Алтын шалбар
+    "golden_nautilus_armor": Алтын наутилус сауыты
+    "golden_pickaxe": Алтын қайла
+    "golden_shovel": Алтын күрек
+    "golden_spear": Алтын найза
+    "golden_sword": Алтын қылыш
+    "gray_bundle": Сұр дорба
+    "gray_cushion": Gray Cushion
+    "gray_dye": Сұр бояу
+    "gray_harness": Сұр жүген
+    "green_bundle": Жасыл дорба
+    "green_cushion": Green Cushion
+    "green_dye": Жасыл бояу
+    "green_harness": Жасыл жүген
+    "guardian_spawn_egg": Қорғаушы тұқымы
+    "gunpowder": Дәрі
+    "guster_banner_pattern": Байрақ үлгісі
+    "guster_pottery_sherd": «Құйын» құмыра сынығы
+    "happy_ghast_spawn_egg": Бақытты гәст тұқымы
+    "harness": Жүген
+    "heart_of_the_sea": Теңіз жүрегі
+    "heart_pottery_shard": «Жүрек» құмыра сынығы
+    "heart_pottery_sherd": «Жүрек» құмыра сынығы
+    "heartbreak_pottery_shard": «Жаралы жүрек» құмыра сынығы
+    "heartbreak_pottery_sherd": «Жаралы жүрек» құмыра сынығы
+    "hoglin_spawn_egg": Хоглин тұқымы
+    "honey_bottle": Құты бал
+    "honeycomb": Кәрез
+    "hopper_minecart": Құйғышты арба
+    "horse_spawn_egg": Ат тұқымы
+    "host_armor_trim_smithing_template": Темірші үлгісі
+    "howl_pottery_shard": «Ұлу» құмыра сынығы
+    "howl_pottery_sherd": «Ұлу» құмыра сынығы
+    "husk_spawn_egg": Мәйіт тұқымы
+    "ink_sac": Сия
+    "iron_axe": Темір балта
+    "iron_boots": Темір етік
+    "iron_chestplate": Темір кеудеше
+    "iron_golem_spawn_egg": Темір голем тұқымы
+    "iron_helmet": Темір дулыға
+    "iron_hoe": Темір кетпен
+    "iron_horse_armor": Темір атсауыт
+    "iron_ingot": Темір құйма
+    "iron_leggings": Темір шалбар
+    "iron_nautilus_armor": Темір наутилус сауыты
+    "iron_nugget": Темір кесек
+    "iron_pickaxe": Темір қайла
+    "iron_shovel": Темір күрек
+    "iron_spear": Темір найза
+    "iron_sword": Темір қылыш
+    "item_frame": Жақтау
+    "jungle_boat": Джунгли қайығы
+    "jungle_chest_boat": Сандықты джунгли қайығы
+    "jungle_explorer_map": Jungle Explorer Map
+    "jungle_pyramid_map": Jungle Pyramid Map
+    "knowledge_book": Білім кітабы
+    "lapis_lazuli": Лазурит
+    "lava_bucket": Шелек лава
+    "lead": Бау
+    "leather": Тері
+    "leather_boots": Тері етік
+    "leather_chestplate": Тері күрте
+    "leather_helmet": Тері қалпақ
+    "leather_horse_armor": Тері атсауыт
+    "leather_leggings": Тері шалбар
+    "light_blue_bundle": Көгілдір дорба
+    "light_blue_cushion": Light Blue Cushion
+    "light_blue_dye": Көгілдір бояу
+    "light_blue_harness": Көгілдір жүген
+    "light_gray_bundle": Боз дорба
+    "light_gray_cushion": Light Gray Cushion
+    "light_gray_dye": Боз бояу
+    "light_gray_harness": Боз жүген
+    "lime_bundle": Көкжасыл дорба
+    "lime_cushion": Lime Cushion
+    "lime_dye": Көкжасыл бояу
+    "lime_harness": Көкжасыл жүген
+    "lingering_potion": Тұнба ішірткі
+    "lingering_potion_awkward": Шалағай тұнба ішірткі
+    "lingering_potion_fire_resistance": Отқа төздірер тұнба ішірткі
+    "lingering_potion_harming": Зарарлы тұнба ішірткі
+    "lingering_potion_healing": Шипалы тұнба ішірткі
+    "lingering_potion_infested": Жұқпалы тұнба ішірткі
+    "lingering_potion_invisibility": Көрінбестік тұнба ішірткі
+    "lingering_potion_leaping": Секіртер тұнба ішірткі
+    "lingering_potion_levitation": Самғауық тұнба ішірткі
+    "lingering_potion_luck": Сәтті тұнба ішірткі
+    "lingering_potion_mundane": Қарапайым тұнба ішірткі
+    "lingering_potion_night_vision": Түнде көру тұнба ішірткісі
+    "lingering_potion_oozing": Тұтқыр тұнба ішірткі
+    "lingering_potion_poison": Улы тұнба ішірткі
+    "lingering_potion_regeneration": Сауықтырар тұнба ішірткі
+    "lingering_potion_slow_falling": Баяу түсірер тұнба ішірткі
+    "lingering_potion_slowness": Баяулатар тұнба ішірткі
+    "lingering_potion_strength": Күшейтер тұнба ішірткі
+    "lingering_potion_swiftness": Шапшаңдатар тұнба ішірткі
+    "lingering_potion_thick": Қою тұнба ішірткі
+    "lingering_potion_turtle_master": Тасбақа бегінің тұнба ішірткісі
+    "lingering_potion_water": Тұнба құтыдағы су
+    "lingering_potion_water_breathing": Суда дем берер тұнба ішірткі
+    "lingering_potion_weakness": Әлсіретер тұнба ішірткі
+    "lingering_potion_weaving": Өрмекті тұнба ішірткі
+    "lingering_potion_wind_charged": Желді тұнба ішірткі
+    "llama_spawn_egg": Лама тұқымы
+    "lodestone_compass": Тасбағар
+    "mace": Күрзі
+    "magenta_bundle": Қызылкүрең дорба
+    "magenta_cushion": Magenta Cushion
+    "magenta_dye": Қызылүрең бояу
+    "magenta_harness": Қызылкүрең жүген
+    "magma_cream": Магма ұйындысы
+    "magma_cube_spawn_egg": Магма кубының тұқымы
+    "mangrove_boat": Мангр қайығы
+    "mangrove_chest_boat": Сандықты мангр қайығы
+    "map": Таза карта
+    "melon_seeds": Қарбыз дәні
+    "melon_slice": Қарбыз тілімі
+    "milk_bucket": Шелек сүт
+    "minecart": Арба
+    "miner_pottery_shard": «Кенші» құмыра сынығы
+    "miner_pottery_sherd": «Кенші» құмыра сынығы
+    "mineshaft_map": Mineshaft Map
+    "mojang_banner_pattern": Байрақ үлгісі
+    "mooshroom_spawn_egg": Мушрум тұқымы
+    "mourner_pottery_shard": «Жоқтаушы» құмыра сынығы
+    "mourner_pottery_sherd": «Жоқтаушы» құмыра сынығы
+    "mule_spawn_egg": Қашыр тұқымы
+    "mushroom_stew": Саңырауқұлақ көжесі
+    "music_disc_11": Күйтабақ
+    "music_disc_13": Күйтабақ
+    "music_disc_5": Күйтабақ
+    "music_disc_blocks": Күйтабақ
+    "music_disc_bounce": Music Disc
+    "music_disc_cat": Күйтабақ
+    "music_disc_chirp": Күйтабақ
+    "music_disc_creator": Күйтабақ
+    "music_disc_creator_music_box": Күйтабақ
+    "music_disc_far": Күйтабақ
+    "music_disc_lava_chicken": Күйтабақ
+    "music_disc_mall": Күйтабақ
+    "music_disc_mellohi": Күйтабақ
+    "music_disc_otherside": Күйтабақ
+    "music_disc_pigstep": Күйтабақ
+    "music_disc_precipice": Күйтабақ
+    "music_disc_relic": Күйтабақ
+    "music_disc_stal": Күйтабақ
+    "music_disc_strad": Күйтабақ
+    "music_disc_tears": Күйтабақ
+    "music_disc_wait": Күйтабақ
+    "music_disc_ward": Күйтабақ
+    "mutton": Шикі қой еті
+    "name_tag": Таңба
+    "nautilus_shell": Наутилус бақалшағы
+    "nautilus_spawn_egg": Наутилус тұқымы
+    "nether_brick": Незер кірпіші
+    "nether_star": Незер жұлдызы
+    "nether_wart": Незер безі
+    "netherite_axe": Незерит балта
+    "netherite_boots": Незерит етік
+    "netherite_chestplate": Незерит кеудеше
+    "netherite_helmet": Незерит дулыға
+    "netherite_hoe": Незерит кетпен
+    "netherite_horse_armor": Незерит атсауыт
+    "netherite_ingot": Незерит құйма
+    "netherite_leggings": Незерит шалбар
+    "netherite_nautilus_armor": Незерит наутилус сауыты
+    "netherite_pickaxe": Незерит қайла
+    "netherite_scrap": Незерит сынығы
+    "netherite_shovel": Незерит күрек
+    "netherite_spear": Незерит найза
+    "netherite_sword": Незерит қылыш
+    "netherite_upgrade_smithing_template": Темірші үлгісі
+    "oak_boat": Емен қайық
+    "oak_chest_boat": Сандықты емен қайық
+    "ocean_explorer_map": Ocean Explorer Map
+    "ocean_monument_map": Ocean Monument Map
+    "ocelot_spawn_egg": Оцелот тұқымы
+    "ominous_bottle": Қатерлі құты
+    "ominous_trial_key": Қатерлі сынақ кілті
+    "orange_bundle": Сарғыш дорба
+    "orange_cushion": Orange Cushion
+    "orange_dye": Сарғыш бояу
+    "orange_harness": Сарғыш жүген
+    "painting": Сурет
+    "pale_oak_boat": Қу емен қайық
+    "pale_oak_chest_boat": Сандықты қу емен қайық
+    "panda_spawn_egg": Панда тұқымы
+    "paper": Қағаз
+    "parched_spawn_egg": Кебір тұқымы
+    "parrot_spawn_egg": Тоты тұқымы
+    "phantom_membrane": Фантом жарғағы
+    "phantom_spawn_egg": Фантом тұқымы
+    "pig_spawn_egg": Шошқа тұқымы
+    "piglin_banner_pattern": Байрақ үлгісі
+    "piglin_brute_spawn_egg": Қатыгез пиглин тұқымы
+    "piglin_spawn_egg": Пиглин тұқымы
+    "pillager_spawn_egg": Тонаушы тұқымы
+    "pink_bundle": Қызғылт дорба
+    "pink_cushion": Pink Cushion
+    "pink_dye": Қызғылт бояу
+    "pink_harness": Қызғылт жүген
+    "pitcher_plant": Құмангүл
+    "pitcher_pod": Құмангүл бұршаққыны
+    "plains_village_map": Plains Village Map
+    "plenty_pottery_shard": «Береке» құмыра сынығы
+    "plenty_pottery_sherd": «Береке» құмыра сынығы
+    "poisonous_potato": Улы картоп
+    "polar_bear_spawn_egg": Ақ аю тұқымы
+    "poplar_boat": Poplar Boat
+    "poplar_chest_boat": Poplar Boat with Chest
+    "popped_chorus_fruit": Піскен хорус жемісі
+    "porkchop": Шикі шошқа еті
+    "potato": Картоп
+    "potion": Ішірткі
+    "potion_awkward": Шалағай ішірткі
+    "potion_fire_resistance": Отқа төздірер ішірткі
+    "potion_harming": Зарарлы ішірткі
+    "potion_healing": Шипалы ішірткі
+    "potion_infested": Жұқпалы ішірткі
+    "potion_invisibility": Көрінбестік ішірткі
+    "potion_leaping": Секіртер ішірткі
+    "potion_levitation": Самғауық ішірткі
+    "potion_luck": Сәтті ішірткі
+    "potion_mundane": Қарапайым ішірткі
+    "potion_night_vision": Түнде көру ішірткісі
+    "potion_oozing": Тұтқыр ішірткі
+    "potion_poison": Улы ішірткі
+    "potion_regeneration": Сауықтырар ішірткісі
+    "potion_slow_falling": Құлатпас ішірткі
+    "potion_slowness": Баяулатар ішірткі
+    "potion_strength": Күшейтер ішірткі
+    "potion_swiftness": Шапшаңдатар ішірткі
+    "potion_thick": Қою ішірткі
+    "potion_turtle_master": Тасбақа бегінің ішірткісі
+    "potion_water": Құты су
+    "potion_water_breathing": Суда дем берер ішірткі
+    "potion_weakness": Әлсіретер ішірткі
+    "potion_weaving": Өрмекті ішірткі
+    "potion_wind_charged": Желді ішірткі
+    "pottery_shard_archer": «Мерген» құмыра сынығы
+    "pottery_shard_arms_up": «Қол көтер» құмыра сынығы
+    "pottery_shard_prize": «Марапат» құмыра сынығы
+    "pottery_shard_skull": «Бас сүйек» құмыра сынығы
+    "powder_snow_bucket": Шелектегі күпсек қар
+    "prismarine_crystals": Призмарин кристалы
+    "prismarine_shard": Призмарин сынығы
+    "prize_pottery_shard": «Марапат» құмыра сынығы
+    "prize_pottery_sherd": «Марапат» құмыра сынығы
+    "pufferfish": Тікенқұрсақ
+    "pufferfish_bucket": Шелектегі тікенқұрсақ
+    "pufferfish_spawn_egg": Тікенқұрсақ тұқымы
+    "pumpkin_pie": Асқабақ бәліші
+    "pumpkin_seeds": Асқабақ дәні
+    "purple_bundle": Күлгін дорба
+    "purple_cushion": Purple Cushion
+    "purple_dye": Күлгін бояу
+    "purple_harness": Күлгін жүген
+    "quartz": Незер шынытасы
+    "rabbit": Шикі қоян еті
+    "rabbit_foot": Қоян аяғы
+    "rabbit_hide": Қоян терісі
+    "rabbit_spawn_egg": Қоян тұқымы
+    "rabbit_stew": Қоян көжесі
+    "raiser_armor_trim_smithing_template": Темірші үлгісі
+    "ravager_spawn_egg": Зіл тұқымы
+    "raw_copper": Шикі мыс
+    "raw_gold": Шикі алтын
+    "raw_iron": Шикі темір
+    "recovery_compass": Түсбағар
+    "red_bundle": Қызыл дорба
+    "red_cushion": Red Cushion
+    "red_dye": Қызыл бояу
+    "red_harness": Қызыл жүген
+    "redstone": Редстоун ұнтағы
+    "resin_brick": Шайыр кірпіш
+    "resin_clump": Ұйысқан шайыр
+    "rib_armor_trim_smithing_template": Темірші үлгісі
+    "rotten_flesh": Шірік ет
+    "saddle": Ер
+    "salmon": Шикі албырт
+    "salmon_bucket": Шелектегі албырт
+    "salmon_spawn_egg": Албырт тұқымы
+    "savanna_village_map": Savanna Village Map
+    "scrape_pottery_sherd": «Сүргі» құмыра сынығы
+    "scute": Қалқанша
+    "sentry_armor_trim_smithing_template": Темірші үлгісі
+    "shaper_armor_trim_smithing_template": Темірші үлгісі
+    "sheaf_pottery_shard": «Байлам» құмыра сынығы
+    "sheaf_pottery_sherd": «Байлам» құмыра сынығы
+    "shears": Қайшы
+    "sheep_spawn_egg": Қой тұқымы
+    "shelter_pottery_shard": «Баспана» құмыра сынығы
+    "shelter_pottery_sherd": «Баспана» құмыра сынығы
+    "shield": Қалқан
+    "shield_black": Қара қалқан
+    "shield_blue": Көк қалқан
+    "shield_brown": Қоңыр қалқан
+    "shield_cyan": Көкзеңгір қалқан
+    "shield_gray": Сұр қалқан
+    "shield_green": Жасыл қалқан
+    "shield_light_blue": Көгілдір қалқан
+    "shield_light_gray": Боз қалқан
+    "shield_lime": Көкжасыл қалқан
+    "shield_magenta": Қызылкүрең қалқан
+    "shield_orange": Сарғыш қалқан
+    "shield_pink": Қызғылт қалқан
+    "shield_purple": Күлгін қалқан
+    "shield_red": Қызыл қалқан
+    "shield_white": Ақ қалқан
+    "shield_yellow": Сары қалқан
+    "shulker_shell": Шалкер сауыты
+    "shulker_spawn_egg": Шалкер тұқымы
+    "sign": Маңдайша
+    "silence_armor_trim_smithing_template": Темірші үлгісі
+    "silverfish_spawn_egg": Күмісбалық тұқымы
+    "skeleton_horse_spawn_egg": Қаңқа ат тұқымы
+    "skeleton_spawn_egg": Қаңқа тұқымы
+    "skull_banner_pattern": Байрақ үлгісі
+    "skull_pottery_shard": «Бас сүйек» құмыра сынығы
+    "skull_pottery_sherd": «Бас сүйек» құмыра сынығы
+    "slime_ball": Кесек шырыш
+    "slime_spawn_egg": Шырыш тұқымы
+    "smithing_template": Темірші үлгісі
+    "sniffer_spawn_egg": Тіміскі тұқымы
+    "snort_pottery_shard": «Пысыл» құмыра сынығы
+    "snort_pottery_sherd": «Пысыл» құмыра сынығы
+    "snout_armor_trim_smithing_template": Темірші үлгісі
+    "snow_golem_spawn_egg": Қар голем тұқымы
+    "snowball": Кесек қар
+    "snowy_village_map": Snowy Village Map
+    "spectral_arrow": Спектрлік оқ
+    "spider_eye": Өрмекші көзі
+    "spider_spawn_egg": Өрмекші тұқымы
+    "spire_armor_trim_smithing_template": Темірші үлгісі
+    "splash_potion": Шашпа ішірткі
+    "splash_potion_awkward": Шалағай шашпа ішірткі
+    "splash_potion_fire_resistance": Отқа төздірер шашпа ішірткі
+    "splash_potion_harming": Зарарлы шашпа ішірткі
+    "splash_potion_healing": Шипалы шашпа ішірткі
+    "splash_potion_infested": Жұқпалы шашпа ішірткі
+    "splash_potion_invisibility": Көрінбестік шашпа ішірткі
+    "splash_potion_leaping": Секіртер шашпа ішірткі
+    "splash_potion_levitation": Самғауық шашпа ішірткі
+    "splash_potion_luck": Сәтті шашпа ішірткі
+    "splash_potion_mundane": Қарапайым шашпа ішірткі
+    "splash_potion_night_vision": Түнде көру шашпа ішірткісі
+    "splash_potion_oozing": Тұтқыр шашпа ішірткі
+    "splash_potion_poison": Улы шашпа ішірткі
+    "splash_potion_regeneration": Сауықтырар шашпа ішірткі
+    "splash_potion_slow_falling": Құлатпас шашпа ішірткі
+    "splash_potion_slowness": Баяулатар шашпа ішірткі
+    "splash_potion_strength": Күшейтер шашпа ішірткі
+    "splash_potion_swiftness": Шапшаңдатар шашпа ішірткі
+    "splash_potion_thick": Қою шашпа ішірткі
+    "splash_potion_turtle_master": Тасбақа бегінің шашпа ішірткісі
+    "splash_potion_water": Шашпа құтыдағы су
+    "splash_potion_water_breathing": Суда дем берер шашпа ішірткі
+    "splash_potion_weakness": Әлсіретер шашпа ішірткі
+    "splash_potion_weaving": Өрмекті шашпа ішірткі
+    "splash_potion_wind_charged": Желді шашпа ішірткі
+    "spruce_boat": Шырша қайық
+    "spruce_chest_boat": Сандықты шырша қайық
+    "spyglass": Дүрбі
+    "squid_spawn_egg": Сегізаяқ тұқымы
+    "stick": Таяқ
+    "stone_axe": Тас балта
+    "stone_hoe": Тас кетпен
+    "stone_pickaxe": Тас қайла
+    "stone_shovel": Тас күрек
+    "stone_spear": Тас найза
+    "stone_sword": Тас қылыш
+    "straw_bed": Straw Bed
+    "stray_spawn_egg": Адасқан тұқымы
+    "strider_spawn_egg": Отаяқ тұқымы
+    "string": Жіп
+    "sugar": Қант
+    "sulfur_cube_bucket": Bucket of Sulfur Cube
+    "sulfur_cube_spawn_egg": Sulfur Cube Spawn Egg
+    "suspicious_stew": Оғаш көже
+    "swamp_explorer_map": Swamp Explorer Map
+    "swamp_hut_map": Swamp Hut Map
+    "sweet_berries": Тәтті жидек
+    "tadpole_bucket": Шелектегі итшабақ
+    "tadpole_spawn_egg": Итшабақ тұқымы
+    "taiga_village_map": Taiga Village Map
+    "tide_armor_trim_smithing_template": Темірші үлгісі
+    "tipped_arrow": Жебелі оқ
+    "tipped_arrow_awkward": Жебелі оқ
+    "tipped_arrow_fire_resistance": Отқа төздірер оқ
+    "tipped_arrow_harming": Зарарлы оқ
+    "tipped_arrow_healing": Ем оғы
+    "tipped_arrow_infested": Жұқпалану оғы
+    "tipped_arrow_invisibility": Көрінбестік оқ
+    "tipped_arrow_leaping": Секіртер оқ
+    "tipped_arrow_levitation": Самғауық оқ
+    "tipped_arrow_luck": Сәтті оқ
+    "tipped_arrow_mundane": Жебелі оқ
+    "tipped_arrow_night_vision": Түнде көру оғы
+    "tipped_arrow_oozing": Таму оғы
+    "tipped_arrow_poison": Улы оқ
+    "tipped_arrow_regeneration": Айықтырар оқ
+    "tipped_arrow_slow_falling": Баяу түсірер оқ
+    "tipped_arrow_slowness": Баяулатар оқ
+    "tipped_arrow_strength": Күшейтер оқ
+    "tipped_arrow_swiftness": Шапшаңдатар оқ
+    "tipped_arrow_thick": Жебелі оқ
+    "tipped_arrow_turtle_master": Тасбақа бегінің оғы
+    "tipped_arrow_water": Шашпа оқ
+    "tipped_arrow_water_breathing": Суда дем алу оғы
+    "tipped_arrow_weakness": Әлсіздік оғы
+    "tipped_arrow_weaving": Тоқу оғы
+    "tipped_arrow_wind_charged": Желдену оғы
+    "tnt_minecart": Динамитті арба
+    "torchflower_seeds": Шырақгүл дәні
+    "totem_of_undying": Өлімсіздік тотемі
+    "trader_llama_spawn_egg": Саудагер ламасының тұқымы
+    "trial_explorer_map": Trial Explorer Map
+    "trial_key": Сынақ кілті
+    "trident": Айыр
+    "tropical_fish": Тропик балығы
+    "tropical_fish_bucket": Шелектегі тропик балығы
+    "tropical_fish_spawn_egg": Тропик балығының тұқымы
+    "turtle_helmet": Тасбақа сауыты
+    "turtle_scute": Тасбақа қалқаншасы
+    "turtle_spawn_egg": Тасбақа тұқымы
+    "vex_armor_trim_smithing_template": Темірші үлгісі
+    "vex_spawn_egg": Зиянкес тұқымы
+    "villager_spawn_egg": Шаруа тұқымы
+    "vindicator_spawn_egg": Өшпенді тұқымы
+    "wandering_trader_spawn_egg": Кезбе саудагер тұқымы
+    "ward_armor_trim_smithing_template": Темірші үлгісі
+    "warden_spawn_egg": Сақшы тұқымы
+    "warm_ocean_ruins_map": Warm Ocean Ruins Map
+    "warped_fungus_on_a_stick": Қармақтағы теріс арамқұлақ
+    "water_bucket": Шелек су
+    "wayfinder_armor_trim_smithing_template": Темірші үлгісі
+    "wheat": Бидай
+    "wheat_seeds": Бидай дәні
+    "white_bundle": Ақ дорба
+    "white_cushion": White Cushion
+    "white_dye": Ақ бояу
+    "white_harness": Ақ жүген
+    "wild_armor_trim_smithing_template": Темірші үлгісі
+    "wind_charge": Желшар
+    "witch_spawn_egg": Мыстан тұқымы
+    "wither_skeleton_spawn_egg": Уизер қаңқа тұқымы
+    "wither_spawn_egg": Уизер тұқымы
+    "wolf_armor": Қасқыр сауыты
+    "wolf_spawn_egg": Қасқыр тұқымы
+    "wooden_axe": Ағаш балта
+    "wooden_hoe": Ағаш кетпен
+    "wooden_pickaxe": Ағаш қайла
+    "wooden_shovel": Ағаш күрек
+    "wooden_spear": Ағаш найза
+    "wooden_sword": Ағаш қылыш
+    "woodland_explorer_map": Woodland Explorer Map
+    "woodland_mansion_map": Woodland Mansion Map
+    "writable_book": Кітап пен қауырсын
+    "written_book": Аяқталған кітап
+    "yellow_bundle": Сары дорба
+    "yellow_cushion": Yellow Cushion
+    "yellow_dye": Сары бояу
+    "yellow_harness": Сары жүген
+    "zoglin_spawn_egg": Зоглин тұқымы
+    "zombie_horse_spawn_egg": Зомби ат тұқымы
+    "zombie_nautilus_spawn_egg": Зомби наутилус тұқымы
+    "zombie_spawn_egg": Зомби тұқымы
+    "zombie_villager_spawn_egg": Зомби шаруа тұқымы
+    "zombified_piglin_spawn_egg": Зомби пиглин тұқымы
+  blocks:
+    "acacia_button": Акация түйме
+    "acacia_door": Акация есік
+    "acacia_fence": Акация шарбақ
+    "acacia_fence_gate": Акация қақпа
+    "acacia_hanging_sign": Аспалы акация маңдайша
+    "acacia_leaves": Акация жапырағы
+    "acacia_log": Акация діңгегі
+    "acacia_planks": Акация тақтай
+    "acacia_pressure_plate": Акация басқыш
+    "acacia_sapling": Акация көшеті
+    "acacia_shelf": Акация сөре
+    "acacia_sign": Акация маңдайша
+    "acacia_slab": Акация тақта
+    "acacia_stairs": Акация тепкішек
+    "acacia_trapdoor": Акация қақпақ
+    "acacia_wall_hanging_sign": Дуалдағы аспалы акация маңдайша
+    "acacia_wall_sign": Дуалдағы акация маңдайша
+    "acacia_wood": Акация ағашы
+    "activator_rail": Белсендіргіш теміржол
+    "air": Ауа
+    "allium": Жуа
+    "amethyst_block": Аметист блок
+    "amethyst_cluster": Аметист кластері
+    "ancient_debris": Ежелгі қалдық
+    "andesite": Андезит
+    "andesite_slab": Андезит тақта
+    "andesite_stairs": Андезит тепкішек
+    "andesite_wall": Андезит дуал
+    "anvil": Төс
+    "attached_melon_stem": Жабысқан қарбыз сабағы
+    "attached_pumpkin_stem": Жабысқан асқабақ сабағы
+    "azalea": Азалия
+    "azalea_leaves": Азалия жапырағы
+    "azure_bluet": Хаустония
+    "bamboo": Бамбук
+    "bamboo_block": Бамбук блогі
+    "bamboo_button": Бамбук түйме
+    "bamboo_door": Бамбук есік
+    "bamboo_fence": Бамбук шарбақ
+    "bamboo_fence_gate": Бамбук қақпа
+    "bamboo_hanging_sign": Аспалы бамбук маңдайша
+    "bamboo_mosaic": Бамбук мозаика
+    "bamboo_mosaic_slab": Бамбук мозаика тақта
+    "bamboo_mosaic_stairs": Бамбук мозаика тепкішек
+    "bamboo_planks": Бамбук тақтай
+    "bamboo_pressure_plate": Бамбук басқыш
+    "bamboo_sapling": Бамбук өскіні
+    "bamboo_shelf": Бамбук сөре
+    "bamboo_sign": Бамбук маңдайша
+    "bamboo_slab": Бамбук тақта
+    "bamboo_stairs": Бамбук тепкішек
+    "bamboo_trapdoor": Бамбук қақпақ
+    "bamboo_wall_hanging_sign": Дуалдағы аспалы бамбук маңдайша
+    "bamboo_wall_sign": Дуалдағы бамбук маңдайша
+    "banner_base_black": Қара түсті
+    "banner_base_blue": Көк түсті
+    "banner_base_brown": Қоңыр түсті
+    "banner_base_cyan": Көкзеңгір түсті
+    "banner_base_gray": Сұр түсті
+    "banner_base_green": Жасыл түсті
+    "banner_base_light_blue": Көгілдір түсті
+    "banner_base_light_gray": Боз түсті
+    "banner_base_lime": Көкжасыл түсті
+    "banner_base_magenta": Қызылкүрең түсті
+    "banner_base_orange": Сарғыш түсті
+    "banner_base_pink": Қызғылт түсті
+    "banner_base_purple": Күлгін түсті
+    "banner_base_red": Қызыл түсті
+    "banner_base_white": Ақ түсті
+    "banner_base_yellow": Сары түсті
+    "banner_border_black": Қара әдіп
+    "banner_border_blue": Көк әдіп
+    "banner_border_brown": Қоңыр әдіп
+    "banner_border_cyan": Көкзеңгір әдіп
+    "banner_border_gray": Сұр әдіп
+    "banner_border_green": Жасыл әдіп
+    "banner_border_light_blue": Көгілдір әдіп
+    "banner_border_light_gray": Боз әдіп
+    "banner_border_lime": Көкжасыл әдіп
+    "banner_border_magenta": Қызылкүрең әдіп
+    "banner_border_orange": Сарғыш әдіп
+    "banner_border_pink": Қызғылт әдіп
+    "banner_border_purple": Күлгін әдіп
+    "banner_border_red": Қызыл әдіп
+    "banner_border_white": Ақ әдіп
+    "banner_border_yellow": Сары әдіп
+    "banner_bricks_black": Қара кірпіш
+    "banner_bricks_blue": Көк кірпіш
+    "banner_bricks_brown": Қоңыр кірпіш
+    "banner_bricks_cyan": Көкзеңгір кірпіш
+    "banner_bricks_gray": Сұр кірпіш
+    "banner_bricks_green": Жасыл кірпіш
+    "banner_bricks_light_blue": Көгілдір кірпіш
+    "banner_bricks_light_gray": Боз кірпіш
+    "banner_bricks_lime": Көкжасыл кірпіш
+    "banner_bricks_magenta": Қызылкүрең кірпіш
+    "banner_bricks_orange": Сарғыш кірпіш
+    "banner_bricks_pink": Қызғылт кірпіш
+    "banner_bricks_purple": Күлгін кірпіш
+    "banner_bricks_red": Қызыл кірпіш
+    "banner_bricks_white": Ақ кірпіш
+    "banner_bricks_yellow": Сары кірпіш
+    "banner_circle_black": Қара шеңбер
+    "banner_circle_blue": Көк шеңбер
+    "banner_circle_brown": Қоңыр шеңбер
+    "banner_circle_cyan": Көкзеңгір шеңбер
+    "banner_circle_gray": Сұр шеңбер
+    "banner_circle_green": Жасыл шеңбер
+    "banner_circle_light_blue": Көгілдір шеңбер
+    "banner_circle_light_gray": Боз шеңбер
+    "banner_circle_lime": Көкжасыл шеңбер
+    "banner_circle_magenta": Қызылкүрең шеңбер
+    "banner_circle_orange": Сарғыш шеңбер
+    "banner_circle_pink": Қызғылт шеңбер
+    "banner_circle_purple": Күлгін шеңбер
+    "banner_circle_red": Қызыл шеңбер
+    "banner_circle_white": Ақ шеңбер
+    "banner_circle_yellow": Сары шеңбер
+    "banner_creeper_black": Қара крипер
+    "banner_creeper_blue": Көк крипер
+    "banner_creeper_brown": Қоңыр крипер
+    "banner_creeper_cyan": Көкзеңгір крипер
+    "banner_creeper_gray": Сұр крипер
+    "banner_creeper_green": Жасыл крипер
+    "banner_creeper_light_blue": Көгілдір крипер
+    "banner_creeper_light_gray": Боз крипер
+    "banner_creeper_lime": Көкжасыл крипер
+    "banner_creeper_magenta": Қызылкүрең крипер
+    "banner_creeper_orange": Сарғыш крипер
+    "banner_creeper_pink": Қызғылт крипер
+    "banner_creeper_purple": Күлгін крипер
+    "banner_creeper_red": Қызыл крипер
+    "banner_creeper_white": Ақ крипер
+    "banner_creeper_yellow": Сары крипер
+    "banner_cross_black": Қара айқыш
+    "banner_cross_blue": Көк айқыш
+    "banner_cross_brown": Қоңыр айқыш
+    "banner_cross_cyan": Көкзеңгір айқыш
+    "banner_cross_gray": Сұр айқыш
+    "banner_cross_green": Жасыл айқыш
+    "banner_cross_light_blue": Көгілдір айқыш
+    "banner_cross_light_gray": Боз айқыш
+    "banner_cross_lime": Көкжасыл айқыш
+    "banner_cross_magenta": Қызылкүрең айқыш
+    "banner_cross_orange": Сарғыш айқыш
+    "banner_cross_pink": Қызғылт айқыш
+    "banner_cross_purple": Күлгін айқыш
+    "banner_cross_red": Қызыл айқыш
+    "banner_cross_white": Ақ айқыш
+    "banner_cross_yellow": Сары айқыш
+    "banner_curly_border_black": Қара ирек әдіп
+    "banner_curly_border_blue": Көк ирек әдіп
+    "banner_curly_border_brown": Қоңыр ирек әдіп
+    "banner_curly_border_cyan": Көкзеңгір ирек әдіп
+    "banner_curly_border_gray": Сұр ирек әдіп
+    "banner_curly_border_green": Жасыл ирек әдіп
+    "banner_curly_border_light_blue": Көгілдір ирек әдіп
+    "banner_curly_border_light_gray": Боз ирек әдіп
+    "banner_curly_border_lime": Көкжасыл ирек әдіп
+    "banner_curly_border_magenta": Қызылкүрең ирек әдіп
+    "banner_curly_border_orange": Сарғыш ирек әдіп
+    "banner_curly_border_pink": Қызғылт ирек әдіп
+    "banner_curly_border_purple": Күлгін ирек әдіп
+    "banner_curly_border_red": Қызыл ирек әдіп
+    "banner_curly_border_white": Ақ ирек әдіп
+    "banner_curly_border_yellow": Сары ирек әдіп
+    "banner_diagonal_left_black": Қара сол жақ қиыс
+    "banner_diagonal_left_blue": Көк сол жақ қиыс
+    "banner_diagonal_left_brown": Қоңыр сол жақ қиыс
+    "banner_diagonal_left_cyan": Көкзеңгір сол жақ қиыс
+    "banner_diagonal_left_gray": Сұр сол жақ қиыс
+    "banner_diagonal_left_green": Жасыл сол жақ қиыс
+    "banner_diagonal_left_light_blue": Көгілдір сол жақ қиыс
+    "banner_diagonal_left_light_gray": Боз сол жақ қиыс
+    "banner_diagonal_left_lime": Көкжасыл сол жақ қиыс
+    "banner_diagonal_left_magenta": Қызылкүрең сол жақ қиыс
+    "banner_diagonal_left_orange": Сарғыш сол жақ қиыс
+    "banner_diagonal_left_pink": Қызғылт сол жақ қиыс
+    "banner_diagonal_left_purple": Күлгін сол жақ қиыс
+    "banner_diagonal_left_red": Қызыл сол жақ қиыс
+    "banner_diagonal_left_white": Ақ сол жақ қиыс
+    "banner_diagonal_left_yellow": Сары сол жақ қиыс
+    "banner_diagonal_right_black": Қара қиыс
+    "banner_diagonal_right_blue": Көк қиыс
+    "banner_diagonal_right_brown": Қоңыр қиыс
+    "banner_diagonal_right_cyan": Көкзеңгір қиыс
+    "banner_diagonal_right_gray": Сұр қиыс
+    "banner_diagonal_right_green": Жасыл қиыс
+    "banner_diagonal_right_light_blue": Көгілдір қиыс
+    "banner_diagonal_right_light_gray": Боз қиыс
+    "banner_diagonal_right_lime": Көкжасыл қиыс
+    "banner_diagonal_right_magenta": Қызылкүрең қиыс
+    "banner_diagonal_right_orange": Сарғыш қиыс
+    "banner_diagonal_right_pink": Қызғылт қиыс
+    "banner_diagonal_right_purple": Күлгін қиыс
+    "banner_diagonal_right_red": Қызыл қиыс
+    "banner_diagonal_right_white": Ақ қиыс
+    "banner_diagonal_right_yellow": Сары қиыс
+    "banner_diagonal_up_left_black": Қара теріс қиыс
+    "banner_diagonal_up_left_blue": Көк теріс қиыс
+    "banner_diagonal_up_left_brown": Қоңыр теріс қиыс
+    "banner_diagonal_up_left_cyan": Көкзеңгір теріс қиыс
+    "banner_diagonal_up_left_gray": Сұр теріс қиыс
+    "banner_diagonal_up_left_green": Жасыл теріс қиыс
+    "banner_diagonal_up_left_light_blue": Көгілдір теріс қиыс
+    "banner_diagonal_up_left_light_gray": Боз теріс қиыс
+    "banner_diagonal_up_left_lime": Көкжасыл теріс қиыс
+    "banner_diagonal_up_left_magenta": Қызылкүрең теріс қиыс
+    "banner_diagonal_up_left_orange": Сарғыш теріс қиыс
+    "banner_diagonal_up_left_pink": Қызғылт теріс қиыс
+    "banner_diagonal_up_left_purple": Күлгін теріс қиыс
+    "banner_diagonal_up_left_red": Қызыл теріс қиыс
+    "banner_diagonal_up_left_white": Ақ теріс қиыс
+    "banner_diagonal_up_left_yellow": Сары теріс қиыс
+    "banner_diagonal_up_right_black": Қара теріс сол жақ қиыс
+    "banner_diagonal_up_right_blue": Көк теріс сол жақ қиыс
+    "banner_diagonal_up_right_brown": Қоңыр теріс сол жақ қиыс
+    "banner_diagonal_up_right_cyan": Көкзеңгір теріс сол жақ қиыс
+    "banner_diagonal_up_right_gray": Сұр теріс сол жақ қиыс
+    "banner_diagonal_up_right_green": Жасыл теріс сол жақ қиыс
+    "banner_diagonal_up_right_light_blue": Көгілдір теріс сол жақ қиыс
+    "banner_diagonal_up_right_light_gray": Боз теріс сол жақ қиыс
+    "banner_diagonal_up_right_lime": Көкжасыл теріс сол жақ қиыс
+    "banner_diagonal_up_right_magenta": Қызылкүрең теріс сол жақ қиыс
+    "banner_diagonal_up_right_orange": Сарғыш теріс сол жақ қиыс
+    "banner_diagonal_up_right_pink": Қызғылт теріс сол жақ қиыс
+    "banner_diagonal_up_right_purple": Күлгін теріс сол жақ қиыс
+    "banner_diagonal_up_right_red": Қызыл теріс сол жақ қиыс
+    "banner_diagonal_up_right_white": Ақ теріс сол жақ қиыс
+    "banner_diagonal_up_right_yellow": Сары теріс сол жақ қиыс
+    "banner_flow_black": Қара ағыс
+    "banner_flow_blue": Көк ағыс
+    "banner_flow_brown": Қоңыр ағыс
+    "banner_flow_cyan": Көкзеңгір ағыс
+    "banner_flow_gray": Сұр ағыс
+    "banner_flow_green": Жасыл ағыс
+    "banner_flow_light_blue": Көгілдір ағыс
+    "banner_flow_light_gray": Боз ағыс
+    "banner_flow_lime": Көкжасыл ағыс
+    "banner_flow_magenta": Қызылкүрең ағыс
+    "banner_flow_orange": Сарғыш ағыс
+    "banner_flow_pink": Қызғылт ағыс
+    "banner_flow_purple": Күлгін ағыс
+    "banner_flow_red": Қызыл ағыс
+    "banner_flow_white": Ақ ағыс
+    "banner_flow_yellow": Сары ағыс
+    "banner_flower_black": Қара гүл
+    "banner_flower_blue": Көк гүл
+    "banner_flower_brown": Қоңыр гүл
+    "banner_flower_cyan": Көкзеңгір гүл
+    "banner_flower_gray": Сұр гүл
+    "banner_flower_green": Жасыл гүл
+    "banner_flower_light_blue": Көгілдір гүл
+    "banner_flower_light_gray": Боз гүл
+    "banner_flower_lime": Көкжасыл гүл
+    "banner_flower_magenta": Қызылкүрең гүл
+    "banner_flower_orange": Сарғыш гүл
+    "banner_flower_pink": Қызғылт гүл
+    "banner_flower_purple": Күлгін гүл
+    "banner_flower_red": Қызыл гүл
+    "banner_flower_white": Ақ гүл
+    "banner_flower_yellow": Сары гүл
+    "banner_globe_black": Қара глобус
+    "banner_globe_blue": Көк глобус
+    "banner_globe_brown": Қоңыр глобус
+    "banner_globe_cyan": Көкзеңгір глобус
+    "banner_globe_gray": Сұр глобус
+    "banner_globe_green": Жасыл глобус
+    "banner_globe_light_blue": Көгілдір глобус
+    "banner_globe_light_gray": Боз глобус
+    "banner_globe_lime": Көкжасыл глобус
+    "banner_globe_magenta": Қызылкүрең глобус
+    "banner_globe_orange": Сарғыш глобус
+    "banner_globe_pink": Қызғылт глобус
+    "banner_globe_purple": Күлгін глобус
+    "banner_globe_red": Қызыл глобус
+    "banner_globe_white": Ақ глобус
+    "banner_globe_yellow": Сары глобус
+    "banner_gradient_black": Қара градиент
+    "banner_gradient_blue": Көк градиент
+    "banner_gradient_brown": Қоңыр градиент
+    "banner_gradient_cyan": Көкзеңгір градиент
+    "banner_gradient_gray": Сұр градиент
+    "banner_gradient_green": Жасыл градиент
+    "banner_gradient_light_blue": Көгілдір градиент
+    "banner_gradient_light_gray": Боз градиент
+    "banner_gradient_lime": Көкжасыл градиент
+    "banner_gradient_magenta": Қызылкүрең градиент
+    "banner_gradient_orange": Сарғыш градиент
+    "banner_gradient_pink": Қызғылт градиент
+    "banner_gradient_purple": Күлгін градиент
+    "banner_gradient_red": Қызыл градиент
+    "banner_gradient_up_black": Қара теріс градиент
+    "banner_gradient_up_blue": Көк теріс градиент
+    "banner_gradient_up_brown": Қоңыр теріс градиент
+    "banner_gradient_up_cyan": Көкзеңгір теріс градиент
+    "banner_gradient_up_gray": Сұр теріс градиент
+    "banner_gradient_up_green": Жасыл теріс градиент
+    "banner_gradient_up_light_blue": Көгілдір теріс градиент
+    "banner_gradient_up_light_gray": Көгілдір теріс градиент
+    "banner_gradient_up_lime": Көкжасыл теріс градиент
+    "banner_gradient_up_magenta": Қызылкүрең теріс градиент
+    "banner_gradient_up_orange": Сарғыш теріс градиент
+    "banner_gradient_up_pink": Қызғылт теріс градиент
+    "banner_gradient_up_purple": Күлгін теріс градиент
+    "banner_gradient_up_red": Қызыл теріс градиент
+    "banner_gradient_up_white": Ақ теріс градиент
+    "banner_gradient_up_yellow": Сары теріс градиент
+    "banner_gradient_white": Ақ градиент
+    "banner_gradient_yellow": Сары градиент
+    "banner_guster_black": Қара құйын
+    "banner_guster_blue": Көк құйын
+    "banner_guster_brown": Қоңыр құйын
+    "banner_guster_cyan": Көкзеңгір құйын
+    "banner_guster_gray": Сұр құйын
+    "banner_guster_green": Жасыл құйын
+    "banner_guster_light_blue": Көгілдір құйын
+    "banner_guster_light_gray": Боз құйын
+    "banner_guster_lime": Көкжасыл құйын
+    "banner_guster_magenta": Қызылкүрең құйын
+    "banner_guster_orange": Сарғыш құйын
+    "banner_guster_pink": Қызғылт құйын
+    "banner_guster_purple": Күлгін құйын
+    "banner_guster_red": Қызыл құйын
+    "banner_guster_white": Ақ құйын
+    "banner_guster_yellow": Сары құйын
+    "banner_half_horizontal_black": Қара жоғарғы жақ
+    "banner_half_horizontal_blue": Көк жоғарғы жақ
+    "banner_half_horizontal_bottom_black": Қара төменгі жақ
+    "banner_half_horizontal_bottom_blue": Көк төменгі жақ
+    "banner_half_horizontal_bottom_brown": Қоңыр төменгі жақ
+    "banner_half_horizontal_bottom_cyan": Көкзеңгір төменгі жақ
+    "banner_half_horizontal_bottom_gray": Сұр төменгі жақ
+    "banner_half_horizontal_bottom_green": Жасыл төменгі жақ
+    "banner_half_horizontal_bottom_light_blue": Көгілдір төменгі жақ
+    "banner_half_horizontal_bottom_light_gray": Боз төменгі жақ
+    "banner_half_horizontal_bottom_lime": Көкжасыл төменгі жақ
+    "banner_half_horizontal_bottom_magenta": Қызылкүрең төменгі жақ
+    "banner_half_horizontal_bottom_orange": Сарғыш төменгі жақ
+    "banner_half_horizontal_bottom_pink": Қызғылт төменгі жақ
+    "banner_half_horizontal_bottom_purple": Күлгін төменгі жақ
+    "banner_half_horizontal_bottom_red": Қызыл төменгі жақ
+    "banner_half_horizontal_bottom_white": Ақ төменгі жақ
+    "banner_half_horizontal_bottom_yellow": Сары төменгі жақ
+    "banner_half_horizontal_brown": Қоңыр жоғарғы жақ
+    "banner_half_horizontal_cyan": Көкзеңгір жоғарғы жақ
+    "banner_half_horizontal_gray": Сұр жоғарғы жақ
+    "banner_half_horizontal_green": Жасыл жоғарғы жақ
+    "banner_half_horizontal_light_blue": Көгілдір жоғарғы жақ
+    "banner_half_horizontal_light_gray": Боз жоғарғы жақ
+    "banner_half_horizontal_lime": Көкжасыл жоғарғы жақ
+    "banner_half_horizontal_magenta": Қызылкүрең жоғарғы жақ
+    "banner_half_horizontal_orange": Сарғыш жоғарғы жақ
+    "banner_half_horizontal_pink": Қызғылт жоғарғы жақ
+    "banner_half_horizontal_purple": Күлгін жоғарғы жақ
+    "banner_half_horizontal_red": Қызыл жоғарғы жақ
+    "banner_half_horizontal_white": Ақ жоғарғы жақ
+    "banner_half_horizontal_yellow": Сары жоғарғы жақ
+    "banner_half_vertical_black": Қара сол жақ
+    "banner_half_vertical_blue": Көк сол жақ
+    "banner_half_vertical_brown": Қоңыр сол жақ
+    "banner_half_vertical_cyan": Көкзеңгір сол жақ
+    "banner_half_vertical_gray": Сұр сол жақ
+    "banner_half_vertical_green": Жасыл сол жақ
+    "banner_half_vertical_light_blue": Көгілдір сол жақ
+    "banner_half_vertical_light_gray": Боз сол жақ
+    "banner_half_vertical_lime": Көкжасыл сол жақ
+    "banner_half_vertical_magenta": Қызылкүрең сол жақ
+    "banner_half_vertical_orange": Сарғыш сол жақ
+    "banner_half_vertical_pink": Қызғылт сол жақ
+    "banner_half_vertical_purple": Күлгін сол жақ
+    "banner_half_vertical_red": Қызыл сол жақ
+    "banner_half_vertical_right_black": Қара оң жақ
+    "banner_half_vertical_right_blue": Көк оң жақ
+    "banner_half_vertical_right_brown": Қоңыр оң жақ
+    "banner_half_vertical_right_cyan": Көкзеңгір оң жақ
+    "banner_half_vertical_right_gray": Сұр оң жақ
+    "banner_half_vertical_right_green": Жасыл оң жақ
+    "banner_half_vertical_right_light_blue": Көгілдір оң жақ
+    "banner_half_vertical_right_light_gray": Боз оң жақ
+    "banner_half_vertical_right_lime": Көкжасыл оң жақ
+    "banner_half_vertical_right_magenta": Қызылкүрең оң жақ
+    "banner_half_vertical_right_orange": Сарғыш оң жақ
+    "banner_half_vertical_right_pink": Қызғылт оң жақ
+    "banner_half_vertical_right_purple": Күлгін оң жақ
+    "banner_half_vertical_right_red": Қызыл оң жақ
+    "banner_half_vertical_right_white": Ақ оң жақ
+    "banner_half_vertical_right_yellow": Сары оң жақ
+    "banner_half_vertical_white": Ақ сол жақ
+    "banner_half_vertical_yellow": Сары сол жақ
+    "banner_mojang_black": Қара бірдеңе
+    "banner_mojang_blue": Көк бірдеңе
+    "banner_mojang_brown": Қоңыр бірдеңе
+    "banner_mojang_cyan": Көкзеңгір бірдеңе
+    "banner_mojang_gray": Сұр бірдеңе
+    "banner_mojang_green": Жасыл бірдеңе
+    "banner_mojang_light_blue": Көгілдір бірдеңе
+    "banner_mojang_light_gray": Боз бірдеңе
+    "banner_mojang_lime": Көкжасыл бірдеңе
+    "banner_mojang_magenta": Қызылкүрең бірдеңе
+    "banner_mojang_orange": Сарғыш бірдеңе
+    "banner_mojang_pink": Қызғылт бірдеңе
+    "banner_mojang_purple": Күлгін бірдеңе
+    "banner_mojang_red": Қызыл бірдеңе
+    "banner_mojang_white": Ақ бірдеңе
+    "banner_mojang_yellow": Сары бірдеңе
+    "banner_piglin_black": Қара тұмсық
+    "banner_piglin_blue": Көк тұмсық
+    "banner_piglin_brown": Қоңыр тұмсық
+    "banner_piglin_cyan": Көкзеңгір тұмсық
+    "banner_piglin_gray": Сұр тұмсық
+    "banner_piglin_green": Жасыл тұмсық
+    "banner_piglin_light_blue": Көгілдір тұмсық
+    "banner_piglin_light_gray": Боз тұмсық
+    "banner_piglin_lime": Көкжасыл тұмсық
+    "banner_piglin_magenta": Қызылкүрең тұмсық
+    "banner_piglin_orange": Сарғыш тұмсық
+    "banner_piglin_pink": Қызғылт тұмсық
+    "banner_piglin_purple": Күлгін тұмсық
+    "banner_piglin_red": Қызыл тұмсық
+    "banner_piglin_white": Ақ тұмсық
+    "banner_piglin_yellow": Сары тұмсық
+    "banner_rhombus_black": Қара қиықша
+    "banner_rhombus_blue": Көк қиықша
+    "banner_rhombus_brown": Қоңыр қиықша
+    "banner_rhombus_cyan": Көкзеңгір қиықша
+    "banner_rhombus_gray": Сұр қиықша
+    "banner_rhombus_green": Жасыл қиықша
+    "banner_rhombus_light_blue": Көгілдір қиықша
+    "banner_rhombus_light_gray": Боз қиықша
+    "banner_rhombus_lime": Көкжасыл қиықша
+    "banner_rhombus_magenta": Қызылкүрең қиықша
+    "banner_rhombus_orange": Сарғыш қиықша
+    "banner_rhombus_pink": Қызғылт қиықша
+    "banner_rhombus_purple": Күлгін қиықша
+    "banner_rhombus_red": Қызыл қиықша
+    "banner_rhombus_white": Ақ қиықша
+    "banner_rhombus_yellow": Сары қиықша
+    "banner_skull_black": Қара бас сүйек
+    "banner_skull_blue": Көк бас сүйек
+    "banner_skull_brown": Қоңыр бас сүйек
+    "banner_skull_cyan": Көкзеңгір бас сүйек
+    "banner_skull_gray": Сұр бас сүйек
+    "banner_skull_green": Жасыл бас сүйек
+    "banner_skull_light_blue": Көгілдір бас сүйек
+    "banner_skull_light_gray": Боз бас сүйек
+    "banner_skull_lime": Көкжасыл бас сүйек
+    "banner_skull_magenta": Қызылкүрең бас сүйек
+    "banner_skull_orange": Сарғыш бас сүйек
+    "banner_skull_pink": Қызғылт бас сүйек
+    "banner_skull_purple": Күлгін бас сүйек
+    "banner_skull_red": Қызыл бас сүйек
+    "banner_skull_white": Ақ бас сүйек
+    "banner_skull_yellow": Сары бас сүйек
+    "banner_small_stripes_black": Қара жолақ
+    "banner_small_stripes_blue": Көк жолақ
+    "banner_small_stripes_brown": Қоңыр жолақ
+    "banner_small_stripes_cyan": Көкзеңгір жолақ
+    "banner_small_stripes_gray": Сұр жолақ
+    "banner_small_stripes_green": Жасыл жолақ
+    "banner_small_stripes_light_blue": Көгілдір жолақ
+    "banner_small_stripes_light_gray": Боз жолақ
+    "banner_small_stripes_lime": Көкжасыл жолақ
+    "banner_small_stripes_magenta": Қызылкүрең жолақ
+    "banner_small_stripes_orange": Сарғыш жолақ
+    "banner_small_stripes_pink": Қызғылт жолақ
+    "banner_small_stripes_purple": Күлгін жолақ
+    "banner_small_stripes_red": Қызыл жолақ
+    "banner_small_stripes_white": Ақ жолақ
+    "banner_small_stripes_yellow": Сары жолақ
+    "banner_square_bottom_left_black": Қара сол жақ асты
+    "banner_square_bottom_left_blue": Көк сол жақ асты
+    "banner_square_bottom_left_brown": Қоңыр сол жақ асты
+    "banner_square_bottom_left_cyan": Көкзеңгір сол жақ асты
+    "banner_square_bottom_left_gray": Сұр сол жақ асты
+    "banner_square_bottom_left_green": Жасыл сол жақ асты
+    "banner_square_bottom_left_light_blue": Көгілдір сол жақ асты
+    "banner_square_bottom_left_light_gray": Боз сол жақ асты
+    "banner_square_bottom_left_lime": Көкжасыл сол жақ асты
+    "banner_square_bottom_left_magenta": Қызылкүрең сол жақ асты
+    "banner_square_bottom_left_orange": Сарғыш сол жақ асты
+    "banner_square_bottom_left_pink": Қызғылт сол жақ асты
+    "banner_square_bottom_left_purple": Күлгін сол жақ асты
+    "banner_square_bottom_left_red": Қызыл сол жақ асты
+    "banner_square_bottom_left_white": Ақ сол жақ асты
+    "banner_square_bottom_left_yellow": Сары сол жақ асты
+    "banner_square_bottom_right_black": Қара оң жақ асты
+    "banner_square_bottom_right_blue": Көк оң жақ асты
+    "banner_square_bottom_right_brown": Қоңыр оң жақ асты
+    "banner_square_bottom_right_cyan": Көкзеңгір оң жақ асты
+    "banner_square_bottom_right_gray": Сұр оң жақ асты
+    "banner_square_bottom_right_green": Жасыл оң жақ асты
+    "banner_square_bottom_right_light_blue": Көгілдір оң жақ асты
+    "banner_square_bottom_right_light_gray": Боз оң жақ асты
+    "banner_square_bottom_right_lime": Көкжасыл оң жақ асты
+    "banner_square_bottom_right_magenta": Қызылкүрең оң жақ асты
+    "banner_square_bottom_right_orange": Сарғыш оң жақ асты
+    "banner_square_bottom_right_pink": Қызғылт оң жақ асты
+    "banner_square_bottom_right_purple": Күлгін оң жақ асты
+    "banner_square_bottom_right_red": Қызыл оң жақ асты
+    "banner_square_bottom_right_white": Ақ оң жақ асты
+    "banner_square_bottom_right_yellow": Сары оң жақ асты
+    "banner_square_top_left_black": Қара сол жақ үсті
+    "banner_square_top_left_blue": Көк сол жақ үсті
+    "banner_square_top_left_brown": Қоңыр сол жақ үсті
+    "banner_square_top_left_cyan": Көкзеңгір сол жақ үсті
+    "banner_square_top_left_gray": Сұр сол жақ үсті
+    "banner_square_top_left_green": Жасыл сол жақ үсті
+    "banner_square_top_left_light_blue": Көгілдір сол жақ үсті
+    "banner_square_top_left_light_gray": Боз сол жақ үсті
+    "banner_square_top_left_lime": Көкжасыл сол жақ үсті
+    "banner_square_top_left_magenta": Қызылкүрең сол жақ үсті
+    "banner_square_top_left_orange": Сарғыш сол жақ үсті
+    "banner_square_top_left_pink": Қызғылт сол жақ үсті
+    "banner_square_top_left_purple": Күлгін сол жақ үсті
+    "banner_square_top_left_red": Қызыл сол жақ үсті
+    "banner_square_top_left_white": Ақ сол жақ үсті
+    "banner_square_top_left_yellow": Сары сол жақ үсті
+    "banner_square_top_right_black": Қара оң жақ үсті
+    "banner_square_top_right_blue": Көк оң жақ үсті
+    "banner_square_top_right_brown": Қоңыр оң жақ үсті
+    "banner_square_top_right_cyan": Көкзеңгір оң жақ үсті
+    "banner_square_top_right_gray": Сұр оң жақ үсті
+    "banner_square_top_right_green": Жасыл оң жақ үсті
+    "banner_square_top_right_light_blue": Көгілдір оң жақ үсті
+    "banner_square_top_right_light_gray": Боз оң жақ үсті
+    "banner_square_top_right_lime": Көкжасыл оң жақ үсті
+    "banner_square_top_right_magenta": Қызылкүрең оң жақ үсті
+    "banner_square_top_right_orange": Сарғыш оң жақ үсті
+    "banner_square_top_right_pink": Қызғылт оң жақ үсті
+    "banner_square_top_right_purple": Күлгін оң жақ үсті
+    "banner_square_top_right_red": Қызыл оң жақ үсті
+    "banner_square_top_right_white": Ақ оң жақ үсті
+    "banner_square_top_right_yellow": Сары оң жақ үсті
+    "banner_straight_cross_black": Қара кірес
+    "banner_straight_cross_blue": Көк кірес
+    "banner_straight_cross_brown": Қоңыр кірес
+    "banner_straight_cross_cyan": Көкзеңгір кірес
+    "banner_straight_cross_gray": Сұр кірес
+    "banner_straight_cross_green": Жасыл кірес
+    "banner_straight_cross_light_blue": Көгілдір кірес
+    "banner_straight_cross_light_gray": Боз кірес
+    "banner_straight_cross_lime": Көкжасыл кірес
+    "banner_straight_cross_magenta": Қызылкүрең кірес
+    "banner_straight_cross_orange": Сарғыш кірес
+    "banner_straight_cross_pink": Қызғылт кірес
+    "banner_straight_cross_purple": Күлгін кірес
+    "banner_straight_cross_red": Қызыл кірес
+    "banner_straight_cross_white": Ақ кірес
+    "banner_straight_cross_yellow": Сары кірес
+    "banner_stripe_bottom_black": Қара асты
+    "banner_stripe_bottom_blue": Көк асты
+    "banner_stripe_bottom_brown": Қоңыр асты
+    "banner_stripe_bottom_cyan": Көкзеңгір асты
+    "banner_stripe_bottom_gray": Сұр асты
+    "banner_stripe_bottom_green": Жасыл асты
+    "banner_stripe_bottom_light_blue": Көгілдір асты
+    "banner_stripe_bottom_light_gray": Боз асты
+    "banner_stripe_bottom_lime": Көкжасыл асты
+    "banner_stripe_bottom_magenta": Қызылкүрең асты
+    "banner_stripe_bottom_orange": Сарғыш асты
+    "banner_stripe_bottom_pink": Қызғылт асты
+    "banner_stripe_bottom_purple": Күлгін асты
+    "banner_stripe_bottom_red": Қызыл асты
+    "banner_stripe_bottom_white": Ақ асты
+    "banner_stripe_bottom_yellow": Сары асты
+    "banner_stripe_center_black": Қара тілкем
+    "banner_stripe_center_blue": Көк тілкем
+    "banner_stripe_center_brown": Қоңыр тілкем
+    "banner_stripe_center_cyan": Көкзеңгір тілкем
+    "banner_stripe_center_gray": Сұр тілкем
+    "banner_stripe_center_green": Жасыл тілкем
+    "banner_stripe_center_light_blue": Көгілдір тілкем
+    "banner_stripe_center_light_gray": Боз тілкем
+    "banner_stripe_center_lime": Көкжасыл тілкем
+    "banner_stripe_center_magenta": Қызылкүрең тілкем
+    "banner_stripe_center_orange": Сарғыш тілкем
+    "banner_stripe_center_pink": Қызғылт тілкем
+    "banner_stripe_center_purple": Күлгін тілкем
+    "banner_stripe_center_red": Қызыл тілкем
+    "banner_stripe_center_white": Ақ тілкем
+    "banner_stripe_center_yellow": Сары тілкем
+    "banner_stripe_downleft_black": Қара теріс қияс
+    "banner_stripe_downleft_blue": Көк теріс қияс
+    "banner_stripe_downleft_brown": Қоңыр теріс қияс
+    "banner_stripe_downleft_cyan": Көкзеңгір теріс қияс
+    "banner_stripe_downleft_gray": Сұр теріс қияс
+    "banner_stripe_downleft_green": Жасыл теріс қияс
+    "banner_stripe_downleft_light_blue": Көгілдір теріс қияс
+    "banner_stripe_downleft_light_gray": Боз теріс қияс
+    "banner_stripe_downleft_lime": Көкжасыл теріс қияс
+    "banner_stripe_downleft_magenta": Қызылкүрең теріс қияс
+    "banner_stripe_downleft_orange": Сарғыш теріс қияс
+    "banner_stripe_downleft_pink": Қызғылт теріс қияс
+    "banner_stripe_downleft_purple": Күлгін теріс қияс
+    "banner_stripe_downleft_red": Қызыл теріс қияс
+    "banner_stripe_downleft_white": Ақ теріс қияс
+    "banner_stripe_downleft_yellow": Сары теріс қияс
+    "banner_stripe_downright_black": Қара қияс
+    "banner_stripe_downright_blue": Көк қияс
+    "banner_stripe_downright_brown": Қоңыр қияс
+    "banner_stripe_downright_cyan": Көкзеңгір қияс
+    "banner_stripe_downright_gray": Сұр қияс
+    "banner_stripe_downright_green": Жасыл қияс
+    "banner_stripe_downright_light_blue": Көгілдір қияс
+    "banner_stripe_downright_light_gray": Боз қияс
+    "banner_stripe_downright_lime": Көкжасыл қияс
+    "banner_stripe_downright_magenta": Қызылкүрең қияс
+    "banner_stripe_downright_orange": Сарғыш қияс
+    "banner_stripe_downright_pink": Қызғылт қияс
+    "banner_stripe_downright_purple": Күлгін қияс
+    "banner_stripe_downright_red": Қызыл қияс
+    "banner_stripe_downright_white": Ақ қияс
+    "banner_stripe_downright_yellow": Сары қияс
+    "banner_stripe_left_black": Қара сол жақ тілкем
+    "banner_stripe_left_blue": Көк сол жақ тілкем
+    "banner_stripe_left_brown": Қоңыр сол жақ тілкем
+    "banner_stripe_left_cyan": Көкзеңгір сол жақ тілкем
+    "banner_stripe_left_gray": Сұр сол жақ тілкем
+    "banner_stripe_left_green": Жасыл сол жақ тілкем
+    "banner_stripe_left_light_blue": Көгілдір сол жақ тілкем
+    "banner_stripe_left_light_gray": Боз сол жақ тілкем
+    "banner_stripe_left_lime": Көкжасыл сол жақ тілкем
+    "banner_stripe_left_magenta": Қызылкүрең оң жақ тілкем
+    "banner_stripe_left_orange": Сарғыш сол жақ тілкем
+    "banner_stripe_left_pink": Қызғылт сол жақ тілкем
+    "banner_stripe_left_purple": Күлгін сол жақ тілкем
+    "banner_stripe_left_red": Қызыл сол жақ тілкем
+    "banner_stripe_left_white": Ақ сол жақ тілкем
+    "banner_stripe_left_yellow": Сары сол жақ тілкем
+    "banner_stripe_middle_black": Қара белдеу
+    "banner_stripe_middle_blue": Көк белдеу
+    "banner_stripe_middle_brown": Қоңыр белдеу
+    "banner_stripe_middle_cyan": Көкзеңгір белдеу
+    "banner_stripe_middle_gray": Сұр белдеу
+    "banner_stripe_middle_green": Жасыл белдеу
+    "banner_stripe_middle_light_blue": Көгілдір белдеу
+    "banner_stripe_middle_light_gray": Боз белдеу
+    "banner_stripe_middle_lime": Көкжасыл белдеу
+    "banner_stripe_middle_magenta": Қызылкүрең белдеу
+    "banner_stripe_middle_orange": Сарғыш белдеу
+    "banner_stripe_middle_pink": Қызғылт белдеу
+    "banner_stripe_middle_purple": Күлгін белдеу
+    "banner_stripe_middle_red": Қызыл белдеу
+    "banner_stripe_middle_white": Ақ белдеу
+    "banner_stripe_middle_yellow": Сары белдеу
+    "banner_stripe_right_black": Қара оң жақ тілкем
+    "banner_stripe_right_blue": Көк оң жақ тілкем
+    "banner_stripe_right_brown": Қоңыр оң жақ тілкем
+    "banner_stripe_right_cyan": Көкзеңгір оң жақ тілкем
+    "banner_stripe_right_gray": Сұр оң жақ тілкем
+    "banner_stripe_right_green": Жасыл оң жақ тілкем
+    "banner_stripe_right_light_blue": Көгілдір оң жақ тілкем
+    "banner_stripe_right_light_gray": Боз оң жақ тілкем
+    "banner_stripe_right_lime": Көкжасыл оң жақ тілкем
+    "banner_stripe_right_magenta": Қызылкүрең сол жақ тілкем
+    "banner_stripe_right_orange": Сарғыш оң жақ тілкем
+    "banner_stripe_right_pink": Қызғылт оң жақ тілкем
+    "banner_stripe_right_purple": Күлгін оң жақ тілкем
+    "banner_stripe_right_red": Қызыл оң жақ тілкем
+    "banner_stripe_right_white": Ақ оң жақ тілкем
+    "banner_stripe_right_yellow": Сары оң жақ тілкем
+    "banner_stripe_top_black": Қара үсті
+    "banner_stripe_top_blue": Көк үсті
+    "banner_stripe_top_brown": Қоңыр үсті
+    "banner_stripe_top_cyan": Көкзеңгір үсті
+    "banner_stripe_top_gray": Сұр үсті
+    "banner_stripe_top_green": Жасыл үсті
+    "banner_stripe_top_light_blue": Көгілдір үсті
+    "banner_stripe_top_light_gray": Боз үсті
+    "banner_stripe_top_lime": Көкжасыл үсті
+    "banner_stripe_top_magenta": Қызылкүрең үсті
+    "banner_stripe_top_orange": Сарғыш үсті
+    "banner_stripe_top_pink": Қызғылт үсті
+    "banner_stripe_top_purple": Күлгін үсті
+    "banner_stripe_top_red": Қызыл үсті
+    "banner_stripe_top_white": Ақ үсті
+    "banner_stripe_top_yellow": Сары үсті
+    "banner_triangle_bottom_black": Қара үшкіл
+    "banner_triangle_bottom_blue": Көк үшкіл
+    "banner_triangle_bottom_brown": Қоңыр үшкіл
+    "banner_triangle_bottom_cyan": Көкзеңгір үшкіл
+    "banner_triangle_bottom_gray": Сұр үшкіл
+    "banner_triangle_bottom_green": Жасыл үшкіл
+    "banner_triangle_bottom_light_blue": Көгілдір үшкіл
+    "banner_triangle_bottom_light_gray": Боз үшкіл
+    "banner_triangle_bottom_lime": Көкжасыл үшкіл
+    "banner_triangle_bottom_magenta": Қызылкүрең үшкіл
+    "banner_triangle_bottom_orange": Сарғыш үшкіл
+    "banner_triangle_bottom_pink": Қызғылт үшкіл
+    "banner_triangle_bottom_purple": Күлгін үшкіл
+    "banner_triangle_bottom_red": Қызыл үшкіл
+    "banner_triangle_bottom_white": Ақ үшкіл
+    "banner_triangle_bottom_yellow": Сары үшкіл
+    "banner_triangle_top_black": Қара теріс үшкіл
+    "banner_triangle_top_blue": Көк теріс үшкіл
+    "banner_triangle_top_brown": Қоңыр теріс үшкіл
+    "banner_triangle_top_cyan": Көкзеңгір теріс үшкіл
+    "banner_triangle_top_gray": Сұр теріс үшкіл
+    "banner_triangle_top_green": Жасыл теріс үшкіл
+    "banner_triangle_top_light_blue": Көгілдір теріс үшкіл
+    "banner_triangle_top_light_gray": Боз теріс үшкіл
+    "banner_triangle_top_lime": Көкжасыл теріс үшкіл
+    "banner_triangle_top_magenta": Қызылкүрең теріс үшкіл
+    "banner_triangle_top_orange": Сарғыш теріс үшкіл
+    "banner_triangle_top_pink": Қызғылт теріс үшкіл
+    "banner_triangle_top_purple": Күлгін теріс үшкіл
+    "banner_triangle_top_red": Қызыл теріс үшкіл
+    "banner_triangle_top_white": Ақ теріс үшкіл
+    "banner_triangle_top_yellow": Сары теріс үшкіл
+    "banner_triangles_bottom_black": Қара кертік асты
+    "banner_triangles_bottom_blue": Көк кертік асты
+    "banner_triangles_bottom_brown": Қоңыр кертік асты
+    "banner_triangles_bottom_cyan": Көкзеңгір кертік асты
+    "banner_triangles_bottom_gray": Сұр кертік асты
+    "banner_triangles_bottom_green": Жасыл кертік асты
+    "banner_triangles_bottom_light_blue": Көгілдір кертік асты
+    "banner_triangles_bottom_light_gray": Боз кертік асты
+    "banner_triangles_bottom_lime": Көкжасыл кертік асты
+    "banner_triangles_bottom_magenta": Қызылкүрең кертік асты
+    "banner_triangles_bottom_orange": Сарғыш кертік асты
+    "banner_triangles_bottom_pink": Қызғылт кертік асты
+    "banner_triangles_bottom_purple": Күлгін кертік асты
+    "banner_triangles_bottom_red": Қызыл кертік асты
+    "banner_triangles_bottom_white": Ақ кертік асты
+    "banner_triangles_bottom_yellow": Сары кертік асты
+    "banner_triangles_top_black": Қара кертік үсті
+    "banner_triangles_top_blue": Көк кертік үсті
+    "banner_triangles_top_brown": Қоңыр кертік үсті
+    "banner_triangles_top_cyan": Көкзеңгір кертік үсті
+    "banner_triangles_top_gray": Сұр кертік үсті
+    "banner_triangles_top_green": Жасыл кертік үсті
+    "banner_triangles_top_light_blue": Көгілдір кертік үсті
+    "banner_triangles_top_light_gray": Боз кертік үсті
+    "banner_triangles_top_lime": Көкжасыл кертік үсті
+    "banner_triangles_top_magenta": Қызылкүрең кертік үсті
+    "banner_triangles_top_orange": Сарғыш кертік үсті
+    "banner_triangles_top_pink": Қызғылт кертік үсті
+    "banner_triangles_top_purple": Күлгін кертік үсті
+    "banner_triangles_top_red": Қызыл кертік үсті
+    "banner_triangles_top_white": Ақ кертік үсті
+    "banner_triangles_top_yellow": Сары кертік үсті
+    "barrel": Бөшке
+    "barrier": Тосқауыл
+    "basalt": Базальт
+    "beacon": Шамшырақ
+    "bedrock": Бедрок
+    "bee_nest": Ара ұясы
+    "beehive": Омарта
+    "beetroots": Қызылша
+    "bell": Қоңырау
+    "big_dripleaf": Үлкен тамшыжапырақ
+    "big_dripleaf_stem": Үлкен тамшыжапырақ сабағы
+    "birch_button": Қайың түйме
+    "birch_door": Қайың есік
+    "birch_fence": Қайың шарбақ
+    "birch_fence_gate": Қайың қақпа
+    "birch_hanging_sign": Аспалы қайың маңдайша
+    "birch_leaves": Қайың жапырағы
+    "birch_log": Қайың діңгегі
+    "birch_planks": Қайың тақтай
+    "birch_pressure_plate": Қайың басқыш
+    "birch_sapling": Қайың көшеті
+    "birch_shelf": Қайың сөре
+    "birch_sign": Қайың маңдайша
+    "birch_slab": Қайың тақта
+    "birch_stairs": Қайың тепкішек
+    "birch_trapdoor": Қайың қақпақ
+    "birch_wall_hanging_sign": Дуалдағы аспалы қайың маңдайша
+    "birch_wall_sign": Дуалдағы қайың маңдайша
+    "birch_wood": Қайың ағашы
+    "black_banner": Қара байрақ
+    "black_bed": Қара төсек
+    "black_candle": Қара майшам
+    "black_candle_cake": Қара майшамды торт
+    "black_carpet": Қара кілем
+    "black_concrete": Қара бетон
+    "black_concrete_powder": Қара құрғақ бетон
+    "black_concrete_slab": Black Concrete Slab
+    "black_concrete_stairs": Black Concrete Stairs
+    "black_glazed_terracotta": Қара зерлі қыш
+    "black_shulker_box": Қара шалкер жәшігі
+    "black_stained_glass": Қара шыны
+    "black_stained_glass_pane": Қара әйнек
+    "black_terracotta": Қара қыш
+    "black_wool": Қара жүн
+    "black_wool_slab": Black Wool Slab
+    "black_wool_stairs": Black Wool Stairs
+    "blackstone": Қаратас
+    "blackstone_slab": Қаратас тақта
+    "blackstone_stairs": Қаратас тепкішек
+    "blackstone_wall": Қаратас дуал
+    "blast_furnace": Балқытқыш
+    "blue_banner": Көк байрақ
+    "blue_bed": Көк төсек
+    "blue_candle": Көк майшам
+    "blue_candle_cake": Көк майшамды торт
+    "blue_carpet": Көк кілем
+    "blue_concrete": Көк бетон
+    "blue_concrete_powder": Көк құрғақ бетон
+    "blue_concrete_slab": Blue Concrete Slab
+    "blue_concrete_stairs": Blue Concrete Stairs
+    "blue_glazed_terracotta": Көк зерлі қыш
+    "blue_ice": Көк мұз
+    "blue_orchid": Көк сүйсін
+    "blue_shulker_box": Көк шалкер жәшігі
+    "blue_stained_glass": Көк шыны
+    "blue_stained_glass_pane": Көк әйнек
+    "blue_terracotta": Көк қыш
+    "blue_wool": Көк жүн
+    "blue_wool_slab": Blue Wool Slab
+    "blue_wool_stairs": Blue Wool Stairs
+    "bone_block": Сүйек блогі
+    "bookshelf": Кітап сөресі
+    "brain_coral": Ми маржан
+    "brain_coral_block": Ми маржан блогі
+    "brain_coral_fan": Желпуіш ми маржан
+    "brain_coral_wall_fan": Дуалдағы желпуіш ми маржаны
+    "brewing_stand": Демдегіш
+    "brick_slab": Кірпіш тақта
+    "brick_stairs": Кірпіш тепкішек
+    "brick_wall": Кірпіш дуал
+    "bricks": Кірпіш
+    "brown_banner": Қоңыр байрақ
+    "brown_bed": Қоңыр төсек
+    "brown_candle": Қоңыр майшам
+    "brown_candle_cake": Қоңыр майшамды торт
+    "brown_carpet": Қоңыр кілем
+    "brown_concrete": Қоңыр бетон
+    "brown_concrete_powder": Қоңыр құрғақ бетон
+    "brown_concrete_slab": Brown Concrete Slab
+    "brown_concrete_stairs": Brown Concrete Stairs
+    "brown_glazed_terracotta": Қоңыр зерлі қыш
+    "brown_mushroom": Қоңыр саңырауқұлақ
+    "brown_mushroom_block": Қоңыр саңырауқұлақ блогі
+    "brown_shulker_box": Қоңыр шалкер жәшігі
+    "brown_stained_glass": Қоңыр шыны
+    "brown_stained_glass_pane": Қоңыр әйнек
+    "brown_terracotta": Қоңыр қыш
+    "brown_wool": Қоңыр жүн
+    "brown_wool_slab": Brown Wool Slab
+    "brown_wool_stairs": Brown Wool Stairs
+    "bubble_column": Көпіршік бағанасы
+    "bubble_coral": Көпіршік маржан
+    "bubble_coral_block": Көпіршік маржан блогі
+    "bubble_coral_fan": Желпуіш көпіршік маржан
+    "bubble_coral_wall_fan": Дуалдағы желпуіш көпіршік маржаны
+    "budding_amethyst": Бүршіктенгіш аметист
+    "bush": Бұта
+    "cactus": Кактус
+    "cactus_flower": Кактус гүлі
+    "cake": Торт
+    "calcite": Кальцит
+    "calibrated_sculk_sensor": Теңшелген сезгір скалк
+    "campfire": Ошақ
+    "candle": Майшам
+    "candle_cake": Майшамды торт
+    "carrots": Сәбіз
+    "cartography_table": Карташы үстелі
+    "carved_pumpkin": Ойылған асқабақ
+    "cauldron": Қазан
+    "cave_air": Үңгір ауасы
+    "cave_vines": Үңгір шырмауығы
+    "cave_vines_plant": Үңгір шырмауығының сабағы
+    "chain": Шынжыр
+    "chain_command_block": Тізбектік пәрмен блогі
+    "cherry_button": Шие түйме
+    "cherry_door": Шие есік
+    "cherry_fence": Шие шарбақ
+    "cherry_fence_gate": Шие қақпа
+    "cherry_hanging_sign": Аспалы шие маңдайша
+    "cherry_leaves": Шие жапырағы
+    "cherry_log": Шие діңгегі
+    "cherry_planks": Шие тақтай
+    "cherry_pressure_plate": Шие басқыш
+    "cherry_sapling": Шие көшеті
+    "cherry_shelf": Шие сөре
+    "cherry_sign": Шие маңдайша
+    "cherry_slab": Шие тақта
+    "cherry_stairs": Шие тепкішек
+    "cherry_trapdoor": Шие қақпақ
+    "cherry_wall_hanging_sign": Дуалдағы аспалы шие маңдайшасы
+    "cherry_wall_sign": Дуалдағы шие маңдайшасы
+    "cherry_wood": Шие ағашы
+    "chest": Сандық
+    "chipped_anvil": Шытынақ төс
+    "chiseled_bookshelf": Оюлы кітап сөресі
+    "chiseled_cinnabar": Chiseled Cinnabar
+    "chiseled_copper": Оюлы мыс
+    "chiseled_deepslate": Оюлы қатпартас
+    "chiseled_nether_bricks": Оюлы Незер кірпіші
+    "chiseled_polished_blackstone": Оюлы жылтыр қаратас
+    "chiseled_quartz_block": Оюлы шынытас блок
+    "chiseled_red_sandstone": Оюлы қызыл құмтас
+    "chiseled_resin_bricks": Оюлы шайыр кірпіш
+    "chiseled_sandstone": Оюлы құмтас
+    "chiseled_stone_bricks": Оюлы тас кірпіш
+    "chiseled_sulfur": Chiseled Sulfur
+    "chiseled_tuff": Оюлы туф
+    "chiseled_tuff_bricks": Оюлы туф кірпіш
+    "chorus_flower": Хорус гүлі
+    "chorus_plant": Хорус
+    "cinnabar": Cinnabar
+    "cinnabar_brick_slab": Cinnabar Brick Slab
+    "cinnabar_brick_stairs": Cinnabar Brick Stairs
+    "cinnabar_brick_wall": Cinnabar Brick Wall
+    "cinnabar_bricks": Cinnabar Bricks
+    "cinnabar_slab": Cinnabar Slab
+    "cinnabar_stairs": Cinnabar Stairs
+    "cinnabar_wall": Cinnabar Wall
+    "clay": Саз
+    "closed_eyeblossom": Жабық гүлжанар
+    "coal_block": Көмір блок
+    "coal_ore": Көмір кені
+    "coarse_dirt": Тастақ
+    "cobbled_deepslate": Жұмыр қатпартас
+    "cobbled_deepslate_slab": Жұмыр қатпартас тақта
+    "cobbled_deepslate_stairs": Жұмыр қатпартас тепкішек
+    "cobbled_deepslate_wall": Жұмыр қатпартас дуал
+    "cobblestone": Жұмыртас
+    "cobblestone_slab": Жұмыртас тақта
+    "cobblestone_stairs": Жұмыртас тепкішек
+    "cobblestone_wall": Жұмыртас дуал
+    "cobweb": Өрмек
+    "cocoa": Какао
+    "command_block": Пәрмен блогі
+    "comparator": Редстоун салыстырғыш
+    "composter": Қордаша
+    "conduit": Арна
+    "copper_bars": Мыс шыбық
+    "copper_block": Мыс блок
+    "copper_bulb": Мыс шам
+    "copper_chain": Мыс шынжыр
+    "copper_chest": Мыс сандық
+    "copper_door": Мыс есік
+    "copper_golem_statue": Мыс големінің мүсіні
+    "copper_grate": Мыс тор
+    "copper_lantern": Мыс шам
+    "copper_ore": Мыс кені
+    "copper_torch": Мыс шырақ
+    "copper_trapdoor": Мыс қақпақ
+    "copper_wall_torch": Дуалдағы мыс шырақ
+    "cornflower": Көк кекіре
+    "cracked_deepslate_bricks": Шытынақ қатпартас кірпіш
+    "cracked_deepslate_tiles": Шытынақ қатпартас тақташа
+    "cracked_nether_bricks": Шытынақ Незер кірпіші
+    "cracked_polished_blackstone_bricks": Шытынақ жылтыр қаратас кірпіш
+    "cracked_stone_bricks": Шытынақ тас кірпіш
+    "crafter": Жасауыр
+    "crafting_table": Шеберүстел
+    "creaking_heart": Қытыр жүрек
+    "creeper_head": Крипер басы
+    "creeper_wall_head": Дуалдағы крипер басы
+    "crimson_button": Қырмызы түйме
+    "crimson_door": Қырмызы есік
+    "crimson_fence": Қырмызы шарбақ
+    "crimson_fence_gate": Қырмызы қақпа
+    "crimson_fungus": Қырмызы арамқұлақ
+    "crimson_hanging_sign": Аспалы қырмызы маңдайша
+    "crimson_hyphae": Қырмызы гифа
+    "crimson_nylium": Қырмызы нилий
+    "crimson_planks": Қырмызы тақтай
+    "crimson_pressure_plate": Қырмызы басқыш
+    "crimson_roots": Қырмызы тамыр
+    "crimson_shelf": Қырмызы сөре
+    "crimson_sign": Қырмызы маңдайша
+    "crimson_slab": Қырмызы тақта
+    "crimson_stairs": Қырмызы тепкішек
+    "crimson_stem": Қырмызы сабақ
+    "crimson_trapdoor": Қырмызы қақпақ
+    "crimson_wall_hanging_sign": Дуалдағы аспалы қырмызы маңдайша
+    "crimson_wall_sign": Дуалдағы қырмызы маңдайша
+    "crying_obsidian": Жылауық обсидиан
+    "cut_copper": Қырлы мыс
+    "cut_copper_slab": Қырлы мыс тақта
+    "cut_copper_stairs": Қырлы мыс тепкішек
+    "cut_red_sandstone": Қырлы қызыл құмтас
+    "cut_red_sandstone_slab": Қырлы қызыл құмтас тақта
+    "cut_sandstone": Қырлы құмтас
+    "cut_sandstone_slab": Қырлы құмтас тақта
+    "cyan_banner": Көкзеңгір байрақ
+    "cyan_bed": Көкзеңгір төсек
+    "cyan_candle": Көкзеңгір майшам
+    "cyan_candle_cake": Көкзеңгір майшамды торт
+    "cyan_carpet": Көкзеңгір кілем
+    "cyan_concrete": Көкзеңгір бетон
+    "cyan_concrete_powder": Көкзеңгір құрғақ бетон
+    "cyan_concrete_slab": Cyan Concrete Slab
+    "cyan_concrete_stairs": Cyan Concrete Stairs
+    "cyan_glazed_terracotta": Көкзеңгір зерлі қыш
+    "cyan_shulker_box": Көкзеңгір шалкер жәшігі
+    "cyan_stained_glass": Көкзеңгір шыны
+    "cyan_stained_glass_pane": Көкзеңгір әйнек
+    "cyan_terracotta": Көкзеңгір қыш
+    "cyan_wool": Көкзеңгір жүн
+    "cyan_wool_slab": Cyan Wool Slab
+    "cyan_wool_stairs": Cyan Wool Stairs
+    "damaged_anvil": Сынық төс
+    "dandelion": Бақбақ
+    "dark_oak_button": Қара емен түйме
+    "dark_oak_door": Қара емен есік
+    "dark_oak_fence": Қара емен шарбақ
+    "dark_oak_fence_gate": Қара емен қақпа
+    "dark_oak_hanging_sign": Аспалы қара емен маңдайша
+    "dark_oak_leaves": Қара емен жапырағы
+    "dark_oak_log": Қара емен діңгегі
+    "dark_oak_planks": Қара емен тақтай
+    "dark_oak_pressure_plate": Қара емен басқыш
+    "dark_oak_sapling": Қара емен көшеті
+    "dark_oak_shelf": Қара емен сөре
+    "dark_oak_sign": Қара емен маңдайша
+    "dark_oak_slab": Қара емен тақта
+    "dark_oak_stairs": Қара емен тепкішек
+    "dark_oak_trapdoor": Қара емен қақпақ
+    "dark_oak_wall_hanging_sign": Дуалдағы аспалы қара емен маңдайша
+    "dark_oak_wall_sign": Дуалдағы қара емен маңдайша
+    "dark_oak_wood": Қара емен
+    "dark_prismarine": Қара призмарин
+    "dark_prismarine_slab": Қара призмарин тақта
+    "dark_prismarine_stairs": Қара призмарин тепкішек
+    "daylight_detector": Күн детекторы
+    "dead_brain_coral": Өлі ми маржан
+    "dead_brain_coral_block": Өлі ми маржан блогі
+    "dead_brain_coral_fan": Өлі желпуіш ми маржан
+    "dead_brain_coral_wall_fan": Дуалдағы өлі желпуіш ми маржаны
+    "dead_bubble_coral": Өлі көпіршік маржан
+    "dead_bubble_coral_block": Өлі көпіршік маржан блогі
+    "dead_bubble_coral_fan": Өлі желпуіш көпіршік маржан
+    "dead_bubble_coral_wall_fan": Дуалдағы өлі желпуіш көпіршік маржаны
+    "dead_bush": Өлі бұта
+    "dead_fire_coral": Өлі от маржан
+    "dead_fire_coral_block": Өлі от маржан блогі
+    "dead_fire_coral_fan": Өлі желпуіш от маржан
+    "dead_fire_coral_wall_fan": Дуалдағы өлі желпуіш от‐маржаны
+    "dead_horn_coral": Өлі мүйіз маржан
+    "dead_horn_coral_block": Өлі мүйіз маржан блогі
+    "dead_horn_coral_fan": Өлі желпуіш мүйіз маржан
+    "dead_horn_coral_wall_fan": Дуалдағы өлі желпуіш мүйіз маржаны
+    "dead_tube_coral": Өлі түтік маржан
+    "dead_tube_coral_block": Өлі түтік маржан блогі
+    "dead_tube_coral_fan": Өлі желпуіш түтік маржан
+    "dead_tube_coral_wall_fan": Дуалдағы өлі желпуіш түтік маржаны
+    "decorated_pot": Өрнекті құмыра
+    "deepslate": Қатпартас
+    "deepslate_brick_slab": Кірпіш қатпартас тақта
+    "deepslate_brick_stairs": Кірпіш қатпартас тепкішек
+    "deepslate_brick_wall": Кірпіш қатпартас дуал
+    "deepslate_bricks": Кірпіш қатпартас
+    "deepslate_coal_ore": Көмір кенді қатпартас
+    "deepslate_copper_ore": Мыс кенді қатпартас
+    "deepslate_diamond_ore": Алмас кенді қатпартас
+    "deepslate_emerald_ore": Замартас кенді қатпартас
+    "deepslate_gold_ore": Алтын кенді қатпартас
+    "deepslate_iron_ore": Темір кенді қатпартас
+    "deepslate_lapis_ore": Лазурит кенді қатпартас
+    "deepslate_redstone_ore": Редстоун кенді қатпартас
+    "deepslate_tile_slab": Тақтаташа қатпартас тақта
+    "deepslate_tile_stairs": Тақташа қатпартас тепкішек
+    "deepslate_tile_wall": Тақташа қатпартас дуал
+    "deepslate_tiles": Тақташа қатпартас
+    "detector_rail": Детектор теміржол
+    "diamond_block": Алмас блок
+    "diamond_ore": Алмас кені
+    "diorite": Диорит
+    "diorite_slab": Диорит тақта
+    "diorite_stairs": Диорит тепкішек
+    "diorite_wall": Диорит дуал
+    "dirt": Топырақ
+    "dirt_path": Cоқпақ
+    "dispenser": Таратқыш
+    "dragon_egg": Айдаһар жұмыртқасы
+    "dragon_head": Айдаһар басы
+    "dragon_wall_head": Айдаһар қабырға басы
+    "dried_ghast": Құрғақ гәст
+    "dried_kelp_block": Кепкен ламинария блогі
+    "dripstone_block": Спелеотем
+    "dropper": Тастауыр
+    "emerald_block": Замартас блок
+    "emerald_ore": Замартас кені
+    "enchanting_table": Дуагер үстелі
+    "end_gateway": Енд өткелі
+    "end_portal": Енд порталы
+    "end_portal_frame": Енд портал жақтауы
+    "end_rod": Енд сырығы
+    "end_stone": Ендертас
+    "end_stone_brick_slab": Ендертас кірпіш тақта
+    "end_stone_brick_stairs": Ендертас кірпіш тепкішек
+    "end_stone_brick_wall": Ендертас кірпіш дуал
+    "end_stone_bricks": Ендертас кірпіш
+    "ender_chest": Ендер сандық
+    "exposed_chiseled_copper": Тозық оюлы мыс
+    "exposed_copper": Тозық мыс
+    "exposed_copper_bars": Тозық мыс шыбық
+    "exposed_copper_bulb": Тозық мыс шам
+    "exposed_copper_chain": Тозық мыс шынжыр
+    "exposed_copper_chest": Тозық мыс сандық
+    "exposed_copper_door": Тозық мыс есік
+    "exposed_copper_golem_statue": Тозық мыс големнің мүсіні
+    "exposed_copper_grate": Тозық мыс тор
+    "exposed_copper_lantern": Тозық мыс шам
+    "exposed_copper_trapdoor": Тозық мыс қақпақ
+    "exposed_cut_copper": Тозық қырлы мыс
+    "exposed_cut_copper_slab": Тозық қырлы мыс тақта
+    "exposed_cut_copper_stairs": Тозық қырлы мыс тепкішек
+    "exposed_lightning_rod": Тозық жайтартқыш
+    "farmland": Егіс
+    "fern": Қырыққұлақ
+    "fire": От
+    "fire_coral": От маржан
+    "fire_coral_block": От маржан блогі
+    "fire_coral_fan": Желпуіш от маржан
+    "fire_coral_wall_fan": Желпуіш от қабырға маржаны
+    "firefly_bush": Жарқырауық бұтасы
+    "fletching_table": Оқшы үстелі
+    "flower_pot": Гүл құмырасы
+    "flowering_azalea": Гүлдеген азалия
+    "flowering_azalea_leaves": Гүлдеген азалия жапырағы
+    "frogspawn": Бақа уылдырығы
+    "frosted_ice": Еріген мұз
+    "furnace": Пеш
+    "gilded_blackstone": Алтын жалатқан қаратас
+    "glass": Шыны
+    "glass_pane": Әйнек
+    "glow_lichen": Жарқырауық қына
+    "glowstone": Жарықтас
+    "gold_block": Алтын блок
+    "gold_ore": Алтын кені
+    "golden_dandelion": Алтын бақбақ
+    "granite": Гранит
+    "granite_slab": Гранит тақта
+    "granite_stairs": Гранит тепкішек
+    "granite_wall": Гранит дуал
+    "grass": Шөп
+    "grass_block": Шым
+    "gravel": Қиыршықтас
+    "gray_banner": Сұр байрақ
+    "gray_bed": Сұр төсек
+    "gray_candle": Сұр майшам
+    "gray_candle_cake": Сұр майшамды торт
+    "gray_carpet": Сұр кілем
+    "gray_concrete": Сұр бетон
+    "gray_concrete_powder": Сұр құрғақ бетон
+    "gray_concrete_slab": Gray Concrete Slab
+    "gray_concrete_stairs": Gray Concrete Stairs
+    "gray_glazed_terracotta": Сұр зерлі қыш
+    "gray_shulker_box": Сұр шалкер жәшігі
+    "gray_stained_glass": Сұр шыны
+    "gray_stained_glass_pane": Сұр әйнек
+    "gray_terracotta": Сұр қыш
+    "gray_wool": Сұр жүн
+    "gray_wool_slab": Gray Wool Slab
+    "gray_wool_stairs": Gray Wool Stairs
+    "green_banner": Жасыл байрақ
+    "green_bed": Жасыл төсек
+    "green_candle": Жасыл майшам
+    "green_candle_cake": Жасыл майшамды торт
+    "green_carpet": Жасыл кілем
+    "green_concrete": Жасыл бетон
+    "green_concrete_powder": Жасыл құрғақ бетон
+    "green_concrete_slab": Green Concrete Slab
+    "green_concrete_stairs": Green Concrete Stairs
+    "green_glazed_terracotta": Жасыл зерлі қыш
+    "green_shulker_box": Жасыл шалкер жәшігі
+    "green_stained_glass": Жасыл шыны
+    "green_stained_glass_pane": Жасыл әйнек
+    "green_terracotta": Жасыл қыш
+    "green_wool": Жасыл жүн
+    "green_wool_slab": Green Wool Slab
+    "green_wool_stairs": Green Wool Stairs
+    "grindstone": Қайрақ
+    "hanging_roots": Салбыр тамыр
+    "hay_block": Бау пішен
+    "heavy_core": Ауыр өзек
+    "heavy_weighted_pressure_plate": Ауыр басқыш
+    "honey_block": Бал блок
+    "honeycomb_block": Кәрез блогі
+    "hopper": Құйғыш
+    "horn_coral": Мүйіз маржан
+    "horn_coral_block": Мүйіз маржан блогі
+    "horn_coral_fan": Желпуіш мүйіз маржан
+    "horn_coral_wall_fan": Дуалдағы желпуіш мүйіз маржаны
+    "ice": Мұз
+    "infested_chiseled_stone_bricks": Жұқпалы оюлы тас кірпіш
+    "infested_cobblestone": Жұқпалы жұмыртас
+    "infested_cracked_stone_bricks": Жұқпалы шытынақ тас кірпіш
+    "infested_deepslate": Жұқпалы қатпартас
+    "infested_mossy_stone_bricks": Жұқпалы мүкті тас кірпіш
+    "infested_stone": Жұқпалы тас
+    "infested_stone_bricks": Жұқпалы тас кірпіш
+    "iron_bars": Темір шыбық
+    "iron_block": Темір блок
+    "iron_chain": Темір шынжыр
+    "iron_door": Темір есік
+    "iron_ore": Темір кені
+    "iron_trapdoor": Темір қақпақ
+    "jack_o_lantern": Жәк шамы
+    "jigsaw": Пазл блогі
+    "jukebox": Күйсандық
+    "jungle_button": Джунгли түймесі
+    "jungle_door": Джунгли есігі
+    "jungle_fence": Джунгли шарбағы
+    "jungle_fence_gate": Джунгли қақпасы
+    "jungle_hanging_sign": Аспалы джунгли маңдайшасы
+    "jungle_leaves": Джунгли жапырағы
+    "jungle_log": Джунгли діңгегі
+    "jungle_planks": Джунгли тақтайы
+    "jungle_pressure_plate": Джунгли басқышы
+    "jungle_sapling": Джунгли көшеті
+    "jungle_shelf": Тропик сөре
+    "jungle_sign": Джунгли маңдайшасы
+    "jungle_slab": Джунгли тақтасы
+    "jungle_stairs": Джунгли тепкішегі
+    "jungle_trapdoor": Джунгли қақпағы
+    "jungle_wall_hanging_sign": Дуалдағы аспалы джунгли маңдайшасы
+    "jungle_wall_sign": Дуалдағы джунгли маңдайшасы
+    "jungle_wood": Джунгли ағашы
+    "kelp": Ламинария
+    "kelp_plant": Ламинария сабағы
+    "ladder": Саты
+    "lantern": Шамдал
+    "lapis_block": Лазурит блок
+    "lapis_ore": Лазурит кені
+    "large_amethyst_bud": Үлкен аметист бүршігі
+    "large_fern": Үлкен қырыққұлақ
+    "lava": Лава
+    "lava_cauldron": Қазандағы лава
+    "leaf_litter": Түскен жапырақ
+    "lectern": Мінбе
+    "lever": Иінтірек
+    "light": Жарық
+    "light_blue_banner": Көгілдір байрақ
+    "light_blue_bed": Көгілдір төсек
+    "light_blue_candle": Көгілдір майшам
+    "light_blue_candle_cake": Көгілдір майшамды торт
+    "light_blue_carpet": Көгілдір кілем
+    "light_blue_concrete": Көгілдір бетон
+    "light_blue_concrete_powder": Көгілдір құрғақ бетон
+    "light_blue_concrete_slab": Light Blue Concrete Slab
+    "light_blue_concrete_stairs": Light Blue Concrete Stairs
+    "light_blue_glazed_terracotta": Көгілдір зерлі қыш
+    "light_blue_shulker_box": Көгілдір шалкер жәшігі
+    "light_blue_stained_glass": Көгілдір шыны
+    "light_blue_stained_glass_pane": Көгілдір әйнек
+    "light_blue_terracotta": Көгілдір қыш
+    "light_blue_wool": Көгілдір жүн
+    "light_blue_wool_slab": Light Blue Wool Slab
+    "light_blue_wool_stairs": Light Blue Wool Stairs
+    "light_gray_banner": Боз байрақ
+    "light_gray_bed": Боз төсек
+    "light_gray_candle": Боз майшам
+    "light_gray_candle_cake": Боз майшамды торт
+    "light_gray_carpet": Боз кілем
+    "light_gray_concrete": Боз бетон
+    "light_gray_concrete_powder": Боз құрғақ бетон
+    "light_gray_concrete_slab": Light Gray Concrete Slab
+    "light_gray_concrete_stairs": Light Gray Concrete Stairs
+    "light_gray_glazed_terracotta": Боз зерлі қыш
+    "light_gray_shulker_box": Боз шалкер жәшігі
+    "light_gray_stained_glass": Боз шыны
+    "light_gray_stained_glass_pane": Боз әйнек
+    "light_gray_terracotta": Боз қыш
+    "light_gray_wool": Боз жүн
+    "light_gray_wool_slab": Light Gray Wool Slab
+    "light_gray_wool_stairs": Light Gray Wool Stairs
+    "light_weighted_pressure_plate": Жеңіл басқыш
+    "lightning_rod": Жайтартқыш
+    "lilac": Мамыргүл
+    "lily_of_the_valley": Меруертгүл
+    "lily_pad": Тұңғиық
+    "lime_banner": Көкжасыл байрақ
+    "lime_bed": Көкжасыл төсек
+    "lime_candle": Көкжасыл майшам
+    "lime_candle_cake": Көкжасыл майшамды торт
+    "lime_carpet": Көкжасыл кілем
+    "lime_concrete": Көкжасыл бетон
+    "lime_concrete_powder": Көкжасыл құрғақ бетон
+    "lime_concrete_slab": Lime Concrete Slab
+    "lime_concrete_stairs": Lime Concrete Stairs
+    "lime_glazed_terracotta": Көкжасыл зерлі қыш
+    "lime_shulker_box": Көкжасыл шалкер жәшігі
+    "lime_stained_glass": Көкжасыл шыны
+    "lime_stained_glass_pane": Көкжасыл әйнек
+    "lime_terracotta": Көкжасыл қыш
+    "lime_wool": Көкжасыл жүн
+    "lime_wool_slab": Lime Wool Slab
+    "lime_wool_stairs": Lime Wool Stairs
+    "lodestone": Бағдартас
+    "loom": Тоқыма білдек
+    "magenta_banner": Қызылкүрең байрақ
+    "magenta_bed": Қызылкүрең төсек
+    "magenta_candle": Қызылкүрең майшам
+    "magenta_candle_cake": Қызылкүрең майшамды торт
+    "magenta_carpet": Қызылкүрең кілем
+    "magenta_concrete": Қызылкүрең бетон
+    "magenta_concrete_powder": Қызылкүрең құрғақ бетон
+    "magenta_concrete_slab": Magenta Concrete Slab
+    "magenta_concrete_stairs": Magenta Concrete Stairs
+    "magenta_glazed_terracotta": Қызылкүрең зерлі қыш
+    "magenta_shulker_box": Қызылкүрең шалкер жәшігі
+    "magenta_stained_glass": Қызылкүрең шыны
+    "magenta_stained_glass_pane": Қызылкүрең әйнек
+    "magenta_terracotta": Қызылкүрең қыш
+    "magenta_wool": Қызылкүрең жүн
+    "magenta_wool_slab": Magenta Wool Slab
+    "magenta_wool_stairs": Magenta Wool Stairs
+    "magma_block": Магма
+    "mangrove_button": Мангр түймесі
+    "mangrove_door": Мангр есігі
+    "mangrove_fence": Мангр шарбағы
+    "mangrove_fence_gate": Мангр қақпасы
+    "mangrove_hanging_sign": Аспалы мангр маңдайшасы
+    "mangrove_leaves": Мангр жапырағы
+    "mangrove_log": Мангр діңгегі
+    "mangrove_planks": Мангр тақтайы
+    "mangrove_pressure_plate": Мангр басқышы
+    "mangrove_propagule": Мангр қалемшесі
+    "mangrove_roots": Мангр тамыры
+    "mangrove_shelf": Мангр сөресі
+    "mangrove_sign": Мангр маңдайшасы
+    "mangrove_slab": Мангр тақтасы
+    "mangrove_stairs": Мангр тепкішегі
+    "mangrove_trapdoor": Мангр қақпағы
+    "mangrove_wall_hanging_sign": Дуалдағы аспалы мангр маңдайшасы
+    "mangrove_wall_sign": Дуалдағы мангр маңдайшасы
+    "mangrove_wood": Мангр ағашы
+    "medium_amethyst_bud": Орта аметист бүршігі
+    "melon": Қарбыз
+    "melon_stem": Қарбыз сабағы
+    "moss_block": Мүк блок
+    "moss_carpet": Мүк төсеніш
+    "mossy_cobblestone": Мүкті жұмыртас
+    "mossy_cobblestone_slab": Мүкті жұмыртас тақта
+    "mossy_cobblestone_stairs": Мүкті жұмыртас тепкішек
+    "mossy_cobblestone_wall": Мүкті жұмыртас дуал
+    "mossy_stone_brick_slab": Мүкті тас кірпіш тақта
+    "mossy_stone_brick_stairs": Мүкті тас кірпіш тепкішек
+    "mossy_stone_brick_wall": Мүкті тас кірпіш дуал
+    "mossy_stone_bricks": Мүкті тас кірпіш
+    "moving_piston": Қозғалған піспек
+    "mud": Балшық
+    "mud_brick_slab": Саман кірпіш тақта
+    "mud_brick_stairs": Саман кірпіш тепкішек
+    "mud_brick_wall": Саман кірпіш дуал
+    "mud_bricks": Саман кірпіш
+    "muddy_mangrove_roots": Лай‐лай мангр тамыры
+    "mushroom_stem": Саңырауқұлақ сабағы
+    "mycelium": Жіпшумақ
+    "nether_brick_fence": Незер кірпіш шарбағы
+    "nether_brick_slab": Незер кірпіш тақтасы
+    "nether_brick_stairs": Незер кірпіш тепкішегі
+    "nether_brick_wall": Незер кірпіш дуалы
+    "nether_bricks": Незер кірпіші
+    "nether_gold_ore": Алтын кенді незерәк
+    "nether_portal": Незер порталы
+    "nether_quartz_ore": Шынытас кенді незерәк
+    "nether_sprouts": Незер өскіні
+    "nether_wart": Незер безі
+    "nether_wart_block": Незер без блогі
+    "netherite_block": Незерит блок
+    "netherrack": Незерәк
+    "note_block": Нота блогі
+    "oak_button": Емен түйме
+    "oak_door": Емен есік
+    "oak_fence": Емен шарбақ
+    "oak_fence_gate": Емен қақпа
+    "oak_hanging_sign": Аспалы емен маңдайша
+    "oak_leaves": Емен жапырағы
+    "oak_log": Емен діңгегі
+    "oak_planks": Емен тақтай
+    "oak_pressure_plate": Емен басқыш
+    "oak_sapling": Емен көшеті
+    "oak_shelf": Емен сөре
+    "oak_sign": Емен маңдайша
+    "oak_slab": Емен тақта
+    "oak_stairs": Емен тепкішек
+    "oak_trapdoor": Емен қақпақ
+    "oak_wall_hanging_sign": Дуалдағы аспалы емен маңдайша
+    "oak_wall_sign": Дуаладғы емен маңдайша
+    "oak_wood": Емен ағашы
+    "observer": Қарауыр
+    "obsidian": Обсидиан
+    "ochre_froglight": Жоса бақашам
+    "ominous_banner": Қатерлі байрақ
+    "open_eyeblossom": Ашық гүлжанар
+    "orange_banner": Сарғыш байрақ
+    "orange_bed": Сарғыш төсек
+    "orange_candle": Сарғыш майшам
+    "orange_candle_cake": Сарғыш майшамды торт
+    "orange_carpet": Сарғыш кілем
+    "orange_concrete": Сарғыш бетон
+    "orange_concrete_powder": Сарғыш құрғақ бетон
+    "orange_concrete_slab": Orange Concrete Slab
+    "orange_concrete_stairs": Orange Concrete Stairs
+    "orange_glazed_terracotta": Сарғыш зерлі қыш
+    "orange_poplar_leaves": Orange Poplar Leaves
+    "orange_shulker_box": Сарғыш шалкер жәшігі
+    "orange_stained_glass": Сарғыш шыны
+    "orange_stained_glass_pane": Сарғыш әйнек
+    "orange_terracotta": Сарғыш қыш
+    "orange_tulip": Сарғалдақ
+    "orange_wool": Сарғыш жүн
+    "orange_wool_slab": Orange Wool Slab
+    "orange_wool_stairs": Orange Wool Stairs
+    "oxeye_daisy": Түймедақ
+    "oxidized_chiseled_copper": Тотық оюлы мыс
+    "oxidized_copper": Тотық мыс
+    "oxidized_copper_bars": Тотық мыс шыбық
+    "oxidized_copper_bulb": Тотық мыс шам
+    "oxidized_copper_chain": Тотық мыс шынжыр
+    "oxidized_copper_chest": Тотық мыс сандық
+    "oxidized_copper_door": Тотық мыс қақпақ
+    "oxidized_copper_golem_statue": Тотық мыс големнің мүсіні
+    "oxidized_copper_grate": Тотық мыс тор
+    "oxidized_copper_lantern": Тотық мыс шам
+    "oxidized_copper_trapdoor": Тотық мыс қақпақ
+    "oxidized_cut_copper": Тотық қырлы мыс
+    "oxidized_cut_copper_slab": Тотық қырлы мыс тақта
+    "oxidized_cut_copper_stairs": Тотық қырлы мыс тепкішек
+    "oxidized_lightning_rod": Тотық жайтартқыш
+    "packed_ice": Қалың мұз
+    "packed_mud": Саман
+    "pale_hanging_moss": Қу жалбыр түк
+    "pale_moss_block": Қу түк блок
+    "pale_moss_carpet": Қу түк кілем
+    "pale_oak_button": Қу емен түйме
+    "pale_oak_door": Қу емен есік
+    "pale_oak_fence": Қу емен шарбақ
+    "pale_oak_fence_gate": Қу емен қақпа
+    "pale_oak_hanging_sign": Аспалы қу емен маңдайша
+    "pale_oak_leaves": Қу емен жапырағы
+    "pale_oak_log": Қу емен діңгегі
+    "pale_oak_planks": Қу емен тақтай
+    "pale_oak_pressure_plate": Қу емен басқыш
+    "pale_oak_sapling": Қу емен көшеті
+    "pale_oak_shelf": Қу емен сөре
+    "pale_oak_sign": Қу емен маңдайша
+    "pale_oak_slab": Қу емен тақта
+    "pale_oak_stairs": Қу емен тепкішек
+    "pale_oak_trapdoor": Қу емен қақпақ
+    "pale_oak_wall_hanging_sign": Дуалдағы аспалы қу емен маңдайша
+    "pale_oak_wall_sign": Дуалдағы қу емен маңдайша
+    "pale_oak_wood": Қу емен ағашы
+    "pearlescent_froglight": Седеп бақашам
+    "peony": Таушымылдық
+    "petrified_oak_slab": Тастай емен тақта
+    "piglin_head": Пиглин басы
+    "piglin_wall_head": Дуалдағы пиглин басы
+    "pink_banner": Қызғылт байрақ
+    "pink_bed": Қызғылт төсек
+    "pink_candle": Қызғылт майшам
+    "pink_candle_cake": Қызғылт майшамды торт
+    "pink_carpet": Қызғылт кілем
+    "pink_concrete": Қызғылт бетон
+    "pink_concrete_powder": Қызғылт құрғақ бетон
+    "pink_concrete_slab": Pink Concrete Slab
+    "pink_concrete_stairs": Pink Concrete Stairs
+    "pink_glazed_terracotta": Қызғылт зерлі қыш
+    "pink_petals": Қызғылт күлте
+    "pink_shulker_box": Қызғылт шалкер жәшігі
+    "pink_stained_glass": Қызғылт шыны
+    "pink_stained_glass_pane": Қызғылт әйнек
+    "pink_terracotta": Қызғылт қыш
+    "pink_tulip": Қызғалдақ
+    "pink_wool": Қызғылт жүн
+    "pink_wool_slab": Pink Wool Slab
+    "pink_wool_stairs": Pink Wool Stairs
+    "piston": Піспек
+    "piston_head": Піспек басы
+    "pitcher_crop": Құмангүл өскіні
+    "pitcher_plant": Құмангүл
+    "player_head": Ойыншы басы
+    "player_wall_head": Дуалдағы ойыншы басы
+    "podzol": Сортаң топырақ
+    "pointed_dripstone": Үшкір спелеотем
+    "polished_andesite": Жылтыр андезит
+    "polished_andesite_slab": Жылтыр андезит тақта
+    "polished_andesite_stairs": Жылтыр андезит тепкішек
+    "polished_basalt": Жылтыр базальт
+    "polished_blackstone": Жылтыр қаратас
+    "polished_blackstone_brick_slab": Жылтыр қаратас кірпіш тақта
+    "polished_blackstone_brick_stairs": Жылтыр қаратас кірпіш тепкішек
+    "polished_blackstone_brick_wall": Жылтыр қаратас кірпіш дуал
+    "polished_blackstone_bricks": Жылтыр қаратас кірпіш
+    "polished_blackstone_button": Жылтыр қаратас түйме
+    "polished_blackstone_pressure_plate": Жылтыр қаратас басқыш
+    "polished_blackstone_slab": Жылтыр қаратас тақта
+    "polished_blackstone_stairs": Жылтыр қаратас тепкішек
+    "polished_blackstone_wall": Жылтыр қаратас дуал
+    "polished_cinnabar": Polished Cinnabar
+    "polished_cinnabar_slab": Polished Cinnabar Slab
+    "polished_cinnabar_stairs": Polished Cinnabar Stairs
+    "polished_cinnabar_wall": Polished Cinnabar Wall
+    "polished_deepslate": Жылтыр қатпартас
+    "polished_deepslate_slab": Жылтыр қатпартас тақта
+    "polished_deepslate_stairs": Жылтыр қатпартас тепкішек
+    "polished_deepslate_wall": Жылтыр қатпартас дуал
+    "polished_diorite": Жылтыр диорит
+    "polished_diorite_slab": Жылтыр диорит тақта
+    "polished_diorite_stairs": Жылтыр диорит тепкішек
+    "polished_granite": Жылтыр гранит
+    "polished_granite_slab": Жылтыр гранит тақта
+    "polished_granite_stairs": Жылтыр гранит тепкішек
+    "polished_sulfur": Polished Sulfur
+    "polished_sulfur_slab": Polished Sulfur Slab
+    "polished_sulfur_stairs": Polished Sulfur Stairs
+    "polished_sulfur_wall": Polished Sulfur Wall
+    "polished_tuff": Жылтыр туф
+    "polished_tuff_slab": Жылтыр туф тақта
+    "polished_tuff_stairs": Жылтыр туф тепкішек
+    "polished_tuff_wall": Жылтыр туф дуал
+    "poplar_button": Poplar Button
+    "poplar_door": Poplar Door
+    "poplar_fence": Poplar Fence
+    "poplar_fence_gate": Poplar Fence Gate
+    "poplar_hanging_sign": Poplar Hanging Sign
+    "poplar_leaves": Poplar Leaves
+    "poplar_log": Poplar Log
+    "poplar_planks": Poplar Planks
+    "poplar_pressure_plate": Poplar Pressure Plate
+    "poplar_sapling": Poplar Sapling
+    "poplar_shelf": Poplar Shelf
+    "poplar_sign": Poplar Sign
+    "poplar_slab": Poplar Slab
+    "poplar_stairs": Poplar Stairs
+    "poplar_trapdoor": Poplar Trapdoor
+    "poplar_wall_hanging_sign": Poplar Wall Hanging Sign
+    "poplar_wall_sign": Poplar Wall Sign
+    "poplar_wood": Poplar Wood
+    "poppy": Көкнәр
+    "potatoes": Картоп
+    "potent_sulfur": Potent Sulfur
+    "potted_acacia_sapling": Құмырадағы акация көшеті
+    "potted_allium": Құмырадағы жуа
+    "potted_azalea_bush": Құмырадағы азалия
+    "potted_azure_bluet": Құмырадағы хаустония
+    "potted_bamboo": Құмырадағы бамбук
+    "potted_birch_sapling": Құмырадағы қайың көшеті
+    "potted_blue_orchid": Құмырадағы көк сүйсін
+    "potted_brown_mushroom": Құмырадағы қоңыр саңырауқұлақ
+    "potted_cactus": Құмырадағы кактус
+    "potted_cherry_sapling": Құмырадағы шие көшеті
+    "potted_closed_eyeblossom": Құмырадағы жабық гүлжанар
+    "potted_cornflower": Құмырадағы көк кекіре
+    "potted_crimson_fungus": Құмырадағы қырмызы арамқұлақ
+    "potted_crimson_roots": Құмырадағы қырмызы тамыр
+    "potted_dandelion": Құмырадағы бақбақ
+    "potted_dark_oak_sapling": Құмырадағы қара емен көшеті
+    "potted_dead_bush": Құмырадағы өлі бұта
+    "potted_fern": Құмырадағы қырыққұлақ
+    "potted_flowering_azalea_bush": Құмырадағы гүлдеген азалия
+    "potted_golden_dandelion": Құмырадағы алтын бақбақ
+    "potted_jungle_sapling": Құмырадағы джунгли көшеті
+    "potted_lily_of_the_valley": Құмырадағы меруертгүл
+    "potted_mangrove_propagule": Құмырадағы мангр қалемшесі
+    "potted_oak_sapling": Құмырадағы емен көшеті
+    "potted_open_eyeblossom": Құмырадағы ашық гүлжанар
+    "potted_orange_tulip": Құмырадағы сарғалдақ
+    "potted_oxeye_daisy": Құмырадағы түймедақ
+    "potted_pale_oak_sapling": Құмырадағы қу емен көшеті
+    "potted_pink_tulip": Құмырадағы қызғалдақ
+    "potted_poplar_sapling": Potted Poplar Sapling
+    "potted_poppy": Құмырадағы көкнәр
+    "potted_red_mushroom": Құмырадағы қызыл саңырауқұлақ
+    "potted_red_tulip": Құмырадағы қырғалдақ
+    "potted_spruce_sapling": Құмырадағы шырша көшеті
+    "potted_torchflower": Құмырадағы шырақгүл
+    "potted_warped_fungus": Құмырадағы теріс арамқұлақ
+    "potted_warped_roots": Құмырадағы теріс тамыр
+    "potted_white_tulip": Құмырадағы бозғалдақ
+    "potted_wither_rose": Құмырадағы Уизер раушаны
+    "powder_snow": Күпсек қар
+    "powder_snow_cauldron": Қазандағы күпсек қар
+    "powered_rail": Қуатты теміржол
+    "prismarine": Призмарин
+    "prismarine_brick_slab": Призмарин кірпіш тақта
+    "prismarine_brick_stairs": Призмарин кірпіш тепкішек
+    "prismarine_bricks": Призмарин кірпіш
+    "prismarine_slab": Призмарин тақта
+    "prismarine_stairs": Призмарин тепкішек
+    "prismarine_wall": Призмарин дуал
+    "pumpkin": Асқабақ
+    "pumpkin_stem": Асқабақ сабағы
+    "purple_banner": Күлгін байрақ
+    "purple_bed": Күлгін төсек
+    "purple_candle": Күлгін майшам
+    "purple_candle_cake": Күлгін майшамды торт
+    "purple_carpet": Күлгін кілем
+    "purple_concrete": Күлгін бетон
+    "purple_concrete_powder": Күлгін құрғақ бетон
+    "purple_concrete_slab": Purple Concrete Slab
+    "purple_concrete_stairs": Purple Concrete Stairs
+    "purple_glazed_terracotta": Күлгін зерлі қыш
+    "purple_shulker_box": Күлгін шалкер жәшігі
+    "purple_stained_glass": Күлгін шыны
+    "purple_stained_glass_pane": Күлгін әйнек
+    "purple_terracotta": Күлгін қыш
+    "purple_wool": Күлгін жүн
+    "purple_wool_slab": Purple Wool Slab
+    "purple_wool_stairs": Purple Wool Stairs
+    "purpur_block": Пурпур
+    "purpur_pillar": Пурпур бағана
+    "purpur_slab": Пурпур тақта
+    "purpur_stairs": Пурпур тепкішек
+    "quartz_block": Шынытас блок
+    "quartz_bricks": Шынытас кірпіш
+    "quartz_pillar": Шынытас бағана
+    "quartz_slab": Шынытас тақта
+    "quartz_stairs": Шынытас тепкішек
+    "rail": Теміржол
+    "raw_copper_block": Шикі мыс блок
+    "raw_gold_block": Шикі алтын блок
+    "raw_iron_block": Шикі темір блок
+    "red_banner": Қызыл байрақ
+    "red_bed": Қызыл төсек
+    "red_candle": Қызыл майшам
+    "red_candle_cake": Қызыл майшамды торт
+    "red_carpet": Қызыл кілем
+    "red_concrete": Қызыл бетон
+    "red_concrete_powder": Қызыл құрғақ бетон
+    "red_concrete_slab": Red Concrete Slab
+    "red_concrete_stairs": Red Concrete Stairs
+    "red_glazed_terracotta": Қызыл зерлі қыш
+    "red_mushroom": Қызыл саңырауқұлақ
+    "red_mushroom_block": Қызыл саңырауқұлақ блогі
+    "red_nether_brick_slab": Қызыл Незер кірпіш тақтасы
+    "red_nether_brick_stairs": Қызыл Незер кірпіш тепкішегі
+    "red_nether_brick_wall": Қызыл Незер кірпіш дуалы
+    "red_nether_bricks": Қызыл Незер кірпіші
+    "red_poplar_leaves": Red Poplar Leaves
+    "red_sand": Қызыл құм
+    "red_sandstone": Қызыл құмтас
+    "red_sandstone_slab": Қызыл құмтас тақта
+    "red_sandstone_stairs": Қызыл құмтас тепкішек
+    "red_sandstone_wall": Қызыл құмтас дуал
+    "red_shrub": Red Shrub
+    "red_shulker_box": Қызыл шалкер жәшігі
+    "red_stained_glass": Қызыл шыны
+    "red_stained_glass_pane": Қызыл әйнек
+    "red_terracotta": Қызыл қыш
+    "red_tulip": Қырғалдақ
+    "red_wool": Қызыл жүн
+    "red_wool_slab": Red Wool Slab
+    "red_wool_stairs": Red Wool Stairs
+    "redstone_block": Редстоун блок
+    "redstone_lamp": Редстоун шам
+    "redstone_ore": Редстоун кені
+    "redstone_torch": Редстоун шырақ
+    "redstone_wall_torch": Дуалдағы редстоун шырақ
+    "redstone_wire": Редстоун сым
+    "reinforced_deepslate": Берік қатпартас
+    "repeater": Редстоун қайталағыш
+    "repeating_command_block": Қайталағыш пәрмен блогі
+    "resin_block": Шайыр блок
+    "resin_brick_slab": Шайыр кірпіш тақта
+    "resin_brick_stairs": Шайыр кірпіш тепкішек
+    "resin_brick_wall": Шайыр кірпіш дуал
+    "resin_bricks": Шайыр кірпіш
+    "resin_clump": Ұйысқан шайыр
+    "respawn_anchor": Тірілу зәкірі
+    "rooted_dirt": Тамырлы топырақ
+    "rose_bush": Раушан бұтасы
+    "sand": Құм
+    "sandstone": Құмтас
+    "sandstone_slab": Құмтас тақта
+    "sandstone_stairs": Құмтас тепкішек
+    "sandstone_wall": Құмтас дуал
+    "scaffolding": Баспалдақ
+    "sculk": Скалк
+    "sculk_catalyst": Скалк жаюшы
+    "sculk_sensor": Сезгір скалк
+    "sculk_shrieker": Шырылдақ скалк
+    "sculk_vein": Скалк тамыры
+    "sea_lantern": Теңіз шамы
+    "sea_pickle": Теңіз қияры
+    "seagrass": Теңізшөп
+    "set_spawn": Тірілу нүктесі орнатылды
+    "shelf_mushroom": Shelf Mushroom
+    "short_dry_grass": Қысқа қу шөп
+    "short_grass": Қысқа шөп
+    "shroomlight": Жарыққұлақ
+    "shulker_box": Шалкер жәшігі
+    "skeleton_skull": Бас сүйек
+    "skeleton_wall_skull": Дуалдағы бас сүйек
+    "slime_block": Шырыш блок
+    "small_amethyst_bud": Кіші аметист бүршігі
+    "small_dripleaf": Кіші тамшыжапырақ
+    "smithing_table": Темірші үстелі
+    "smoker": Ыстағыш
+    "smooth_basalt": Тегіс базальт
+    "smooth_quartz": Тегіс шынытас блок
+    "smooth_quartz_slab": Тегіс шынытас тақта
+    "smooth_quartz_stairs": Тегіс шынытас тепкішек
+    "smooth_red_sandstone": Тегіс қызыл құмтас
+    "smooth_red_sandstone_slab": Тегіс қызыл құмтас тақта
+    "smooth_red_sandstone_stairs": Тегіс қызыл құмтас тепкішек
+    "smooth_sandstone": Тегіс құмтас
+    "smooth_sandstone_slab": Тегіс құмтас тақта
+    "smooth_sandstone_stairs": Тегіс құмтас тепкішек
+    "smooth_stone": Тегіс тас
+    "smooth_stone_slab": Тегіс тас тақта
+    "sniffer_egg": Тіміскі жұмыртқасы
+    "snow": Қар
+    "snow_block": Қар блок
+    "soul_campfire": Жан ошағы
+    "soul_fire": Жан оты
+    "soul_lantern": Жан шамдалы
+    "soul_sand": Жан құмы
+    "soul_soil": Жан топырағы
+    "soul_torch": Жан шырағы
+    "soul_wall_torch": Дуалдағы жан шырағы
+    "spawner": Құбыжық жаратқыш
+    "sponge": Ысқыш
+    "spore_blossom": Спора гүлі
+    "spruce_button": Шырша түйме
+    "spruce_door": Шырша есік
+    "spruce_fence": Шырша шарбақ
+    "spruce_fence_gate": Шырша қақпа
+    "spruce_hanging_sign": Аспалы шырша маңдайша
+    "spruce_leaves": Шырша жапырағы
+    "spruce_log": Шырша діңгегі
+    "spruce_planks": Шырша тақтай
+    "spruce_pressure_plate": Шырша басқыш
+    "spruce_sapling": Шырша көшеті
+    "spruce_shelf": Шырша сөре
+    "spruce_sign": Шырша маңдайша
+    "spruce_slab": Шырша тақта
+    "spruce_stairs": Шырша тепкішек
+    "spruce_trapdoor": Шырша қақпақ
+    "spruce_wall_hanging_sign": Дуалдағы аспалы шырша маңдайша
+    "spruce_wall_sign": Дуалдағы шырша маңдайша
+    "spruce_wood": Шырша ағашы
+    "sticky_piston": Жабысқақ піспек
+    "stone": Тас
+    "stone_brick_slab": Тас кірпіш тақта
+    "stone_brick_stairs": Тас кірпіш тепкішек
+    "stone_brick_wall": Тас кірпіш дуал
+    "stone_bricks": Тас кірпіш
+    "stone_button": Тас түйме
+    "stone_pressure_plate": Тас басқыш
+    "stone_slab": Тас тақта
+    "stone_stairs": Тас тепкішек
+    "stonecutter": Таскесер
+    "straw_bed": Straw Bed
+    "stripped_acacia_log": Жонылған акация діңгегі
+    "stripped_acacia_wood": Жонылған акация ағашы
+    "stripped_bamboo_block": Жонылған бамбук блогі
+    "stripped_birch_log": Жонылған қайың діңгегі
+    "stripped_birch_wood": Жонылған қайың ағашы
+    "stripped_cherry_log": Жонылған шие діңгегі
+    "stripped_cherry_wood": Жонылған шие ағашы
+    "stripped_crimson_hyphae": Жонылған қырмызы гифа
+    "stripped_crimson_stem": Жонылған қырмызы сабақ
+    "stripped_dark_oak_log": Жонылған қара емен діңгегі
+    "stripped_dark_oak_wood": Жонылған қара емен ағашы
+    "stripped_jungle_log": Жонылған джунгли діңгегі
+    "stripped_jungle_wood": Жонылған джунгли ағашы
+    "stripped_mangrove_log": Жонылған мангр діңгегі
+    "stripped_mangrove_wood": Жонылған мангр ағашы
+    "stripped_oak_log": Жонылған емен діңгегі
+    "stripped_oak_wood": Жонылған емен ағашы
+    "stripped_pale_oak_log": Жонылған қу емен діңгегі
+    "stripped_pale_oak_wood": Жонылған қу емен ағашы
+    "stripped_poplar_log": Stripped Poplar Log
+    "stripped_poplar_wood": Stripped Poplar Wood
+    "stripped_spruce_log": Жонылған шырша діңгегі
+    "stripped_spruce_wood": Жонылған шырша ағашы
+    "stripped_warped_hyphae": Жонылған теріс жіпше
+    "stripped_warped_stem": Жонылған теріс сабақ
+    "structure_block": Құрылыс блогі
+    "structure_void": Бос блок
+    "sugar_cane": Қант құрағы
+    "sulfur": Sulfur
+    "sulfur_brick_slab": Sulfur Brick Slab
+    "sulfur_brick_stairs": Sulfur Brick Stairs
+    "sulfur_brick_wall": Sulfur Brick Wall
+    "sulfur_bricks": Sulfur Bricks
+    "sulfur_slab": Sulfur Slab
+    "sulfur_spike": Sulfur Spike
+    "sulfur_stairs": Sulfur Stairs
+    "sulfur_wall": Sulfur Wall
+    "sunflower": Күнбағыс
+    "suspicious_gravel": Оғаш қиыршықтас
+    "suspicious_sand": Оғаш құм
+    "sweet_berry_bush": Тәтті жидек бұтасы
+    "tall_dry_grass": Ұзын қу шөп
+    "tall_grass": Ұзын шөп
+    "tall_seagrass": Ұзын теңізшөп
+    "target": Нысана
+    "terracotta": Қыш
+    "test_block": Тест-блок
+    "test_instance_block": Мысал тест-блок
+    "tinted_glass": Қараңғы шыны
+    "tnt": Динамит
+    "torch": Шырақ
+    "torchflower": Шырақгүл
+    "torchflower_crop": Шырақгүл өскіні
+    "trapped_chest": Тұзақ сандық
+    "trial_spawner": Сынақ жаратқышы
+    "tripwire": Кергі
+    "tripwire_hook": Кергі ілмегі
+    "tube_coral": Түтік маржан
+    "tube_coral_block": Түтік маржан блогі
+    "tube_coral_fan": Желпуіш түтік маржан
+    "tube_coral_wall_fan": Желпуіш түтік қабырға маржаны
+    "tuff": Туф
+    "tuff_brick_slab": Туф кірпіш тақта
+    "tuff_brick_stairs": Туф кірпіш тепкішек
+    "tuff_brick_wall": Туф кірпіш дуал
+    "tuff_bricks": Туф кірпіш
+    "tuff_slab": Туф тақта
+    "tuff_stairs": Туф тепкішек
+    "tuff_wall": Туф дуал
+    "turtle_egg": Тасбақа жұмыртқасы
+    "twisting_vines": Ирек шырмауық
+    "twisting_vines_plant": Ирек сабақ
+    "vault": Қойма
+    "verdant_froglight": Зүмірет бақашам
+    "vine": Шырмауық
+    "void_air": Ғайып
+    "wall_torch": Дуалдағы шырақ
+    "warped_button": Теріс түйме
+    "warped_door": Теріс есік
+    "warped_fence": Теріс шарбақ
+    "warped_fence_gate": Теріс қақпа
+    "warped_fungus": Теріс арамқұлақ
+    "warped_hanging_sign": Аспалы теріс маңдайша
+    "warped_hyphae": Теріс жіпше
+    "warped_nylium": Теріс нилий
+    "warped_planks": Теріс тақтай
+    "warped_pressure_plate": Теріс басқыш
+    "warped_roots": Теріс тамыр
+    "warped_shelf": Теріс сөре
+    "warped_sign": Теріс маңдайша
+    "warped_slab": Теріс тақта
+    "warped_stairs": Теріс тепкішек
+    "warped_stem": Теріс сабақ
+    "warped_trapdoor": Теріс қақпақ
+    "warped_wall_hanging_sign": Дуалдағы аспалы теріс маңдайша
+    "warped_wall_sign": Дуалдағы теріс маңдайша
+    "warped_wart_block": Теріс без блогі
+    "water": Су
+    "water_cauldron": Қазандағы су
+    "waxed_chiseled_copper": Балауызды оюлы мыс
+    "waxed_copper_bars": Балауызды мыс шыбық
+    "waxed_copper_block": Балауызды мыс блок
+    "waxed_copper_bulb": Балауызды мыс шам
+    "waxed_copper_chain": Балауызды мыс шынжыр
+    "waxed_copper_chest": Балауызды мыс сандық
+    "waxed_copper_door": Балауызды мыс есік
+    "waxed_copper_golem_statue": Балауызды мыс големінің мүсіні
+    "waxed_copper_grate": Балауызды мыс тор
+    "waxed_copper_lantern": Балауызды мыс шам
+    "waxed_copper_trapdoor": Балауызды мыс қақпақ
+    "waxed_cut_copper": Балауызды қырлы мыс
+    "waxed_cut_copper_slab": Балауызды қырлы мыс тақта
+    "waxed_cut_copper_stairs": Балауызды қырлы мыс тепкішек
+    "waxed_exposed_chiseled_copper": Балауызды тозық оюлы мыс
+    "waxed_exposed_copper": Балауызды тозық мыс
+    "waxed_exposed_copper_bars": Балауызды тозық мыс шыбық
+    "waxed_exposed_copper_bulb": Балауызды тозық мыс шам
+    "waxed_exposed_copper_chain": Балауызды тозық мыс шынжыр
+    "waxed_exposed_copper_chest": Балауызды тозық мыс сандық
+    "waxed_exposed_copper_door": Балауызды тозық мыс есік
+    "waxed_exposed_copper_golem_statue": Балауызды тозық мыс големнің мүсіні
+    "waxed_exposed_copper_grate": Балауызды тозық мыс тор
+    "waxed_exposed_copper_lantern": Балауызды тозық мыс шамдал
+    "waxed_exposed_copper_trapdoor": Балауызды тозық мыс қақпақ
+    "waxed_exposed_cut_copper": Балауызды тозық қырлы мыс
+    "waxed_exposed_cut_copper_slab": Балауызды тозық қырлы мыс тақта
+    "waxed_exposed_cut_copper_stairs": Балауызды тозық қырлы мыс тепкішек
+    "waxed_exposed_lightning_rod": Балауызды тозық жайтартқыш
+    "waxed_lightning_rod": Балауызды жайтартқыш
+    "waxed_oxidized_chiseled_copper": Балауызды тотық оюлы мыс
+    "waxed_oxidized_copper": Балауызды тотық мыс
+    "waxed_oxidized_copper_bars": Балауызды тотық мыс шыбық
+    "waxed_oxidized_copper_bulb": Балауызды тотық мыс шам
+    "waxed_oxidized_copper_chain": Балауызды тотық мыс шынжыр
+    "waxed_oxidized_copper_chest": Балауызды тотық мыс сандық
+    "waxed_oxidized_copper_door": Балауызды тотық мыс есік
+    "waxed_oxidized_copper_golem_statue": Балауызды тотық мыс големнің мүсіні
+    "waxed_oxidized_copper_grate": Балауызды тотық мыс тор
+    "waxed_oxidized_copper_lantern": Балауызды тотық мыс шамдал
+    "waxed_oxidized_copper_trapdoor": Балауызды тотық мыс қақпақ
+    "waxed_oxidized_cut_copper": Балауызды тотық қырлы мыс
+    "waxed_oxidized_cut_copper_slab": Балауызды тотық қырлы мыс тақта
+    "waxed_oxidized_cut_copper_stairs": Балауызды тотық қырлы мыс тепкішек
+    "waxed_oxidized_lightning_rod": Балауызды тотық жайтартқыш
+    "waxed_weathered_chiseled_copper": Балауызды көгерген оюлы мыс
+    "waxed_weathered_copper": Балауызды көгерген мыс
+    "waxed_weathered_copper_bars": Балауызды көгерген мыс шыбық
+    "waxed_weathered_copper_bulb": Балауызды көгерген мыс шам
+    "waxed_weathered_copper_chain": Балауызды көгерген мыс шынжыр
+    "waxed_weathered_copper_chest": Балауызды көгерген мыс сандық
+    "waxed_weathered_copper_door": Балауызды көгерген мыс есік
+    "waxed_weathered_copper_golem_statue": Балауызды көгерген мыс големнің мүсіні
+    "waxed_weathered_copper_grate": Балауызды көгерген мыс тор
+    "waxed_weathered_copper_lantern": Балауызды көгерген мыс шамдал
+    "waxed_weathered_copper_trapdoor": Балауызды көгерген мыс қақпақ
+    "waxed_weathered_cut_copper": Балауызды көгерген қырлы мыс
+    "waxed_weathered_cut_copper_slab": Балауызды көгерген қырлы мыс тақта
+    "waxed_weathered_cut_copper_stairs": Балауызды көгерген қырлы мыс тепкішек
+    "waxed_weathered_lightning_rod": Балауызды көгерген жайтартқыш
+    "weathered_chiseled_copper": Көгерген оюлы мыс
+    "weathered_copper": Көгерген мыс
+    "weathered_copper_bars": Көгерген мыс шыбық
+    "weathered_copper_bulb": Көгерген мыс шам
+    "weathered_copper_chain": Көгерген мыс шынжыр
+    "weathered_copper_chest": Көгерген мыс сандық
+    "weathered_copper_door": Көгерген мыс есік
+    "weathered_copper_golem_statue": Көгерген мыс големнің мүсіні
+    "weathered_copper_grate": Көгерген мыс тор
+    "weathered_copper_lantern": Көгерген мыс шамдал
+    "weathered_copper_trapdoor": Көгерген мыс қақпақ
+    "weathered_cut_copper": Көгерген қырлы мыс
+    "weathered_cut_copper_slab": Көгерген қырлы мыс тақта
+    "weathered_cut_copper_stairs": Көгерген қырлы мыс тепкішек
+    "weathered_lightning_rod": Көгерген жайтартқыш
+    "weeping_vines": Жылаңқы шырмауық
+    "weeping_vines_plant": Жылаңқы сабақ
+    "wet_sponge": Ылғал ысқыш
+    "wheat": Бидай өскіні
+    "white_banner": Ақ байрақ
+    "white_bed": Ақ төсек
+    "white_candle": Ақ майшам
+    "white_candle_cake": Ақ майшамды торт
+    "white_carpet": Ақ кілем
+    "white_concrete": Ақ бетон
+    "white_concrete_powder": Ақ құрғақ бетон
+    "white_concrete_slab": White Concrete Slab
+    "white_concrete_stairs": White Concrete Stairs
+    "white_glazed_terracotta": Ақ зерлі қыш
+    "white_shulker_box": Ақ шалкер жәшігі
+    "white_stained_glass": Ақ шыны
+    "white_stained_glass_pane": Ақ әйнек
+    "white_terracotta": Ақ қыш
+    "white_tulip": Бозғалдақ
+    "white_wool": Ақ жүн
+    "white_wool_slab": White Wool Slab
+    "white_wool_stairs": White Wool Stairs
+    "wildflowers": Қыр гүлі
+    "wither_rose": Уизер раушаны
+    "wither_skeleton_skull": Уизер қаңқаның басы
+    "wither_skeleton_wall_skull": Дуалдағы уизер қаңқаның басы
+    "yellow_banner": Сары байрақ
+    "yellow_bed": Сары төсек
+    "yellow_candle": Сары майшам
+    "yellow_candle_cake": Сары майшамды торт
+    "yellow_carpet": Сары кілем
+    "yellow_concrete": Сары бетон
+    "yellow_concrete_powder": Сары құрғақ бетон
+    "yellow_concrete_slab": Yellow Concrete Slab
+    "yellow_concrete_stairs": Yellow Concrete Stairs
+    "yellow_glazed_terracotta": Сары зерлі қыш
+    "yellow_poplar_leaves": Yellow Poplar Leaves
+    "yellow_shulker_box": Сары шалкер жәшігі
+    "yellow_stained_glass": Сары шыны
+    "yellow_stained_glass_pane": Сары әйнек
+    "yellow_terracotta": Сары қыш
+    "yellow_wool": Сары жүн
+    "yellow_wool_slab": Yellow Wool Slab
+    "yellow_wool_stairs": Yellow Wool Stairs
+    "zombie_head": Зомби басы
+    "zombie_wall_head": Дуалдағы зомби басы
+  entities:
+    "acacia_boat": Акация қайық
+    "acacia_chest_boat": Сандықты акация қайық
+    "allay": Тымпи
+    "area_effect_cloud": Әсер бұлты
+    "armadillo": Кіреукей
+    "armor_stand": Сауыт ілгіш
+    "arrow": Оқ
+    "axolotl": Аксолотль
+    "bamboo_chest_raft": Сандықты бамбук сал
+    "bamboo_raft": Бамбук сал
+    "bat": Жарқанат
+    "bee": Ара
+    "birch_boat": Қайың қайық
+    "birch_chest_boat": Сандықты қайың қайық
+    "blaze": Лаулақ
+    "block_display": Блок бейнелеуіш
+    "boat": Қайық
+    "bogged": Малтыққан
+    "breeze": Уілдек
+    "breeze_wind_charge": Желшар
+    "camel": Түйе
+    "camel_husk": Түйе мәйіті
+    "cat": Мысық
+    "cave_spider": Үңгір өрмекшісі
+    "cherry_boat": Шие қайық
+    "cherry_chest_boat": Сандықты шие қайық
+    "chest_boat": Сандықты қайық
+    "chest_minecart": Сандықты арба
+    "chicken": Тауық
+    "cod": Сетінек
+    "command_block_minecart": Пәрмен блокті арба
+    "copper_golem": Мыс голем
+    "cow": Сиыр
+    "creaking": Қытыр
+    "creaking_transient": Қытыр
+    "creeper": Крипер
+    "cushion": Cushion
+    "dark_oak_boat": Қара емен қайық
+    "dark_oak_chest_boat": Сандықты қара емен қайық
+    "dolphin": Дельфин
+    "donkey": Есек
+    "dragon_fireball": Айдаһар отшары
+    "drowned": Батқан
+    "egg": Тасталған жұмыртқа
+    "elder_guardian": Ежелгі қорғаушы
+    "end_crystal": Енд кристалы
+    "ender_dragon": Ендер айдаһар
+    "ender_pearl": Тасталған ендер інжуі
+    "enderman": Ендермен
+    "endermite": Ендермит
+    "evoker": Жадыгөй
+    "evoker_fangs": Жадыгөй азуы
+    "experience_bottle": Тасталған дуалы құты
+    "experience_orb": Тәжірибе құмалағы
+    "eye_of_ender": Ендер көзі
+    "falling_block": Құлаған блок
+    "fireball": Отшар
+    "firework_rocket": Отшашу
+    "fishing_bobber": Қалтқы
+    "fox": Түлкі
+    "frog": Бақа
+    "furnace_minecart": Пешті арба
+    "ghast": Гәст
+    "giant": Алып
+    "glow_item_frame": Жарқырауық жақтау
+    "glow_squid": Жарқырауық сегізаяқ
+    "goat": Ешкі
+    "guardian": Қорғаушы
+    "happy_ghast": Бақытты гәст
+    "hoglin": Хоглин
+    "hopper_minecart": Құйғышты арба
+    "horse": Ат
+    "husk": Мәйіт
+    "illusioner": Жәкей
+    "interaction": Әрекеттесу
+    "iron_golem": Темір голем
+    "item": Зат
+    "item_display": Зат бейнелеуіш
+    "item_frame": Жақтау
+    "jungle_boat": Джунгли қайығы
+    "jungle_chest_boat": Сандықты джунгли қайығы
+    "killer_bunny": Өлтіруші қоян
+    "leash_knot": Бау түйіні
+    "lightning_bolt": Найзағай
+    "lingering_potion": Тұнба ішірткі
+    "llama": Лама
+    "llama_spit": Лама түкірігі
+    "magma_cube": Магма кубы
+    "mangrove_boat": Мангр қайығы
+    "mangrove_chest_boat": Сандықты мангр қайығы
+    "mannequin": Қуыршақ
+    "marker": Маркер
+    "minecart": Арба
+    "mooshroom": Мушрум
+    "mule": Қашыр
+    "nautilus": Наутилус
+    "oak_boat": Емен қайық
+    "oak_chest_boat": Сандықты емен қайық
+    "ocelot": Оцелот
+    "ominous_item_spawner": Қатерлі зат жаратқыш
+    "painting": Сурет
+    "pale_oak_boat": Қу емен қайық
+    "pale_oak_chest_boat": Сандықты қу емен қайық
+    "panda": Панда
+    "parched": Кебір
+    "parrot": Тоты
+    "phantom": Фантом
+    "pig": Шошқа
+    "piglin": Пиглин
+    "piglin_brute": Қатыгез пиглин
+    "pillager": Тонаушы
+    "player": Ойыншы
+    "polar_bear": Ақ аю
+    "poplar_boat": Poplar Boat
+    "poplar_chest_boat": Poplar Boat with Chest
+    "potion": Ішірткі
+    "pufferfish": Тікенқұрсақ
+    "rabbit": Қоян
+    "ravager": Зіл
+    "salmon": Албырт
+    "sheep": Қой
+    "shulker": Шалкер
+    "shulker_bullet": Шалкер оғы
+    "silverfish": Күмісбалық
+    "skeleton": Қаңқа
+    "skeleton_horse": Қаңқа ат
+    "slime": Шырыш
+    "small_fireball": Кіші отшар
+    "sniffer": Тіміскі
+    "snow_golem": Қар голем
+    "snowball": Кесек қар
+    "spawner_minecart": Құбыжық жаратқышы бар арба
+    "spectral_arrow": Спектр оқ
+    "spider": Өрмекші
+    "splash_potion": Шашпа ішірткі
+    "spruce_boat": Шырша қайық
+    "spruce_chest_boat": Сандықты шырша қайық
+    "squid": Сегізаяқ
+    "stray": Адасқан
+    "strider": Отаяқ
+    "sulfur_cube": Sulfur Cube
+    "tadpole": Итшабақ
+    "text_display": Мәтін бейнелеуіш
+    "tnt": Тұтанған динамит
+    "tnt_minecart": Динамитті арба
+    "trader_llama": Саудагер ламасы
+    "trident": Айыр
+    "tropical_fish": Тропик балығы
+    "tropical_fish_predefined_0": Амфиприон
+    "tropical_fish_predefined_1": Қара зебрасома
+    "tropical_fish_predefined_10": Мүйізді занкл
+    "tropical_fish_predefined_11": Оюлы көбелек балық
+    "tropical_fish_predefined_12": Тотыбалық
+    "tropical_fish_predefined_13": Ханшайым періште
+    "tropical_fish_predefined_14": Қызыл цихлида
+    "tropical_fish_predefined_15": Қызыл ерінді теңіз иті
+    "tropical_fish_predefined_16": Қызыл луциан
+    "tropical_fish_predefined_17": Жіпқанат
+    "tropical_fish_predefined_18": Қызанақ сайқымазақ балығы
+    "tropical_fish_predefined_19": Мүйізарқа
+    "tropical_fish_predefined_2": Көк оташы балық
+    "tropical_fish_predefined_20": Сарықұйрық тотыбалық
+    "tropical_fish_predefined_21": Сары зебрасома
+    "tropical_fish_predefined_3": Көбелек балық
+    "tropical_fish_predefined_4": Цихлида
+    "tropical_fish_predefined_5": Сайқымазақ балық
+    "tropical_fish_predefined_6": Жауынгер балық
+    "tropical_fish_predefined_7": Екі түсті грамма
+    "tropical_fish_predefined_8": Үш жолақты луциан
+    "tropical_fish_predefined_9": Сұлтан балық
+    "tropical_fish_type_betty": Әтешбалық
+    "tropical_fish_type_blockfish": Блокбалық
+    "tropical_fish_type_brinely": Сұлу
+    "tropical_fish_type_clayfish": Сазбалық
+    "tropical_fish_type_dasher": Жұлқынуық
+    "tropical_fish_type_flopper": Шалпылдатушы
+    "tropical_fish_type_glitter": Жылтырауық
+    "tropical_fish_type_kob": Құныс
+    "tropical_fish_type_snooper": Тыңшы
+    "tropical_fish_type_spotty": Әлемішбалық
+    "tropical_fish_type_stripey": Жолақбалық
+    "tropical_fish_type_sunstreak": Сәулеқұйрық
+    "turtle": Тасбақа
+    "vex": Зиянкес
+    "villager": Шаруа
+    "villager_armorer": Сауытшы
+    "villager_butcher": Қасап
+    "villager_cartographer": Карташы
+    "villager_cleric": Молда
+    "villager_farmer": Егінші
+    "villager_fisherman": Балықшы
+    "villager_fletcher": Оқшы
+    "villager_leatherworker": Иші
+    "villager_librarian": Кітапханашы
+    "villager_mason": Тасшы
+    "villager_nitwit": Аңқау
+    "villager_none": Шаруа
+    "villager_shepherd": Қойшы
+    "villager_toolsmith": Сайманшы
+    "villager_weaponsmith": Қарушы
+    "vindicator": Өшпенді
+    "wandering_trader": Кезбе саудагер
+    "warden": Сақшы
+    "wind_charge": Желшар
+    "witch": Мыстан
+    "wither": Уизер
+    "wither_skeleton": Уизер қаңқа
+    "wither_skull": Уизер бас сүйегі
+    "wolf": Қасқыр
+    "zoglin": Зоглин
+    "zombie": Зомби
+    "zombie_horse": Зомби ат
+    "zombie_nautilus": Зомби наутилус
+    "zombie_villager": Зомби шаруа
+    "zombified_piglin": Зомби пиглин
+  enchantments:
+    "aqua_affinity": Сүңгуір
+    "bane_of_arthropods": Буынаяқты соры
+    "binding_curse": Шешілмес қарғыс
+    "blast_protection": Жарылмас
+    "breach": Бұзар
+    "channeling": Жасын
+    "density": Кернеліс
+    "depth_strider": Су кезер
+    "efficiency": Нәтижелі
+    "feather_falling": Құламас
+    "fire_aspect": От дуасы
+    "fire_protection": Күймес
+    "flame": Өртер
+    "fortune": Сәттілік
+    "frost_walker": Мұзаяқ
+    "impaling": Түйрер
+    "infinity": Таусылмас
+    "knockback": Жығар
+    "looting": Олжа
+    "loyalty": Бейіл
+    "luck_of_the_sea": Сәтті қармақ
+    "lunge": Сермеу
+    "lure": Жемтұзақ
+    "mending": Күтім
+    "multishot": Үш оқ
+    "piercing": Тесер
+    "power": Күш
+    "projectile_protection": Оқ дарытпас
+    "protection": Қорғаныс
+    "punch": Соққы
+    "quick_charge": Тез оқтау
+    "respiration": Суда дем алу
+    "riptide": Тартылыс
+    "sharpness": Өткірлік
+    "silk_touch": Жібектей тию
+    "smite": Жаза
+    "soul_speed": Жанаяқ
+    "sweeping": Ұшқыр қылыш
+    "sweeping_edge": Ұшқыр қылыш
+    "swift_sneak": Ептілік
+    "thorns": Тікен
+    "unbreaking": Сынбас
+    "vanishing_curse": Жоғалтар қарғыс
+    "wind_burst": Жел қарқыны
+    "unknown": Белгісіз сиқыр
+    "any": Кез келген сиқыр
+  biomes:
+    "badlands": Жапан дала
+    "bamboo_jungle": Бамбукті джунгли
+    "basalt_deltas": Базальт атырау
+    "beach": Жағажай
+    "birch_forest": Қайың орман
+    "cherry_grove": Шие бағы
+    "cold_ocean": Суық мұхит
+    "crimson_forest": Қырмызы орман
+    "dappled_forest": Dappled Forest
+    "dark_forest": Қара орман
+    "deep_cold_ocean": Терең суық мұхит
+    "deep_dark": Қара құрдым
+    "deep_frozen_ocean": Терең мұзды мұхит
+    "deep_lukewarm_ocean": Терең жылымық мұхит
+    "deep_ocean": Терең мұхит
+    "desert": Шөл дала
+    "dripstone_caves": Карст үңгірі
+    "end_barrens": Енд тақыршағы
+    "end_highlands": Енд қыраты
+    "end_midlands": Енд жазығы
+    "eroded_badlands": Кебір жапан дала
+    "flower_forest": Гүл орман
+    "forest": Орман
+    "frozen_ocean": Мұз мұхит
+    "frozen_peaks": Мұз төбе
+    "frozen_river": Мұз өзен
+    "grove": Бақ
+    "ice_spikes": Мұз сүңгі
+    "jagged_peaks": Қырлы төбе
+    "jungle": Джунгли
+    "lukewarm_ocean": Жылылау мұхит
+    "lush_caves": Көкорай үңгір
+    "mangrove_swamp": Мангр батпағы
+    "meadow": Көгал
+    "mushroom_fields": Саңырауқұлақ алқабы
+    "nether_wastes": Незер тақыршағы
+    "ocean": Мұхит
+    "old_growth_birch_forest": Түк басқан қайың орман
+    "old_growth_pine_taiga": Түк басқан қарағайлы тайга
+    "old_growth_spruce_taiga": Түк басқан шыршалы тайга
+    "pale_garden": Қу тоғай
+    "plains": Жазық
+    "river": Өзен
+    "savanna": Саванна
+    "savanna_plateau": Саванна үстірті
+    "small_end_islands": Енд аралшығы
+    "snowy_beach": Қар‐қар жағажай
+    "snowy_plains": Қар‐қар жазық
+    "snowy_slopes": Қар беткей
+    "snowy_taiga": Қар‐қар тайга
+    "soul_sand_valley": Жан құмы алқабы
+    "sparse_jungle": Сирек джунгли
+    "stony_peaks": Тас төбе
+    "stony_shore": Тас жағалау
+    "sulfur_caves": Sulfur Caves
+    "sunflower_plains": Күнбағыс алқабы
+    "swamp": Батпақ
+    "taiga": Тайга
+    "the_end": Енд
+    "the_void": Ғайып
+    "warm_ocean": Жылы мұхит
+    "warped_forest": Теріс орман
+    "windswept_forest": Кебір орман
+    "windswept_gravelly_hills": Кебір қиыршық төбе
+    "windswept_hills": Кебір төбе
+    "windswept_savanna": Кебір саванна
+    "wooded_badlands": Орманды жапан дала
+    "unknown": Белгісіз биом
+    "any": Кез келген биом

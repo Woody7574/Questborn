@@ -1,0 +1,49 @@
+id: starter_chain_08_armor_ready
+name: <#60a5fa>🛡 Ready for the Night
+icon-material: IRON_CHESTPLATE
+slot: 13
+page: 1
+require-quests:
+- starter_chain_07_iron_breakthrough
+description:
+- <#cccccc>Protection means calm and control.
+- <#cccccc>Equip a full set of armor.
+- <#cccccc>Now you can take more hits.
+rewards-description:
+- <#a7ff99>+500 coins
+- <#ffe08a>+180 XP
+- <#7dd3ff>+Shield
+objective:
+  type: WEAR_ARMOR
+  amount: 4
+  target-materials:
+  - IRON_HELMET
+  - IRON_CHESTPLATE
+  - IRON_LEGGINGS
+  - IRON_BOOTS
+rewards:
+  money:
+    amount: 500
+    silent: false
+  xp:
+    points: 180
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: SHIELD
+      amount: 1
+      name: <#7dd3ff>New Warrior's Shield
+      lore:
+      - <#cccccc>Blocks blows and boosts confidence.
+      enchantments:
+      - unbreaking:2
+      flags:
+      - HIDE_ENCHANTS
+  effects:
+    silent: false
+    list:
+    - RESISTANCE:0:60
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

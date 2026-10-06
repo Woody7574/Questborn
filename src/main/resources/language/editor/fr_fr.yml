@@ -1,0 +1,1676 @@
+common_editor:
+  buttons:
+    add: <#79d679>Ajouter
+    add_item: <#79d679>Ajouter un article
+    add_item_lore:
+    - <#a8a8a8>Cliquez pour choisir
+    - <#a8a8a8>matériel à soumettre.
+    add_new: <#79d679>Créer nouveau
+    add_new_lore: <#a7ff99>LMB <#cccccc>- Créer un nouveau
+    back: <#ed6868>Dos
+    back_lore: <#a8a8a8>Revenir au menu précédent.
+    cancel: <#ed6868>Annuler
+    cancel_lore: <#a8a8a8>Cliquez pour revenir en arrière.
+    confirm: <#79d679>Confirmer
+    confirm_lore: <#a8a8a8>Cliquez pour exécuter l'action.
+    delete: <#ed6868>Supprimer
+    empty_list: <#ed6868>La liste est vide
+    empty_list_lore: <#a8a8a8>Cliquez sur le bloc vert à droite pour ajouter un élément.
+    next_page: <#ffd470>Page suivante
+    prev_page: <#ffd470>Page précédente
+    return: <#ed6868>Retour
+    save: <#79d679>Enregistrer les modifications
+    save_lore: <#a8a8a8>Enregistrez tous les paramètres dans un fichier.
+    save_unsaved: <#ffd470>* Enregistrer les modifications
+    save_unsaved_lore: <#ffb366>⚠ Modifications non enregistrées présentes !
+    search: <#ffd470>Recherche
+  days:
+    friday: Vendredi
+    monday: Lundi
+    saturday: Samedi
+    sunday: Dimanche
+    thursday: Jeudi
+    tuesday: Mardi
+    unknown: Inconnu
+    wednesday: Mercredi
+  input:
+    cancel_instruction: <#8a8a8a> Écrivez du texte dans le chat. Pour annuler, entrez <#c96a6a>Annuler
+    cancelled: Entrée annulée.
+    cancelled_cmd: Saisie annulée (par commande).
+    edit_current: '    <#ffc499>✎ [Modifier le texte actuel]'
+    enter_number_error: Entrez un numéro !
+    enter_text: '<#ffd470>Saisissez un nouveau texte dans le chat :'
+  item_list:
+    click_delete: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer
+    click_modify1: <#a7ff99>LMB (+1) / RMB (-1) <#cccccc>- Changer le montant
+    click_modify2: <#ffe999>Maj + LMB (+10) / <#ffe999>Maj + RMB (-10)
+    click_modify3: <#d9a752>Échange (F) <#cccccc>- Entrez le montant manuellement
+    delete_confirm_msg: '<#ffd470>Etes-vous sûr de vouloir supprimer l''élément # ?{index}?'
+    delete_confirm_title: Supprimer l'élément
+    empty_lore:
+    - <#a8a8a8>Cliquez sur la trémie ou le bloc vert,
+    - <#a8a8a8>pour ajouter le premier élément.
+    empty_title: <#ed6868>La liste est vide
+    item_amount: '<#a8a8a8>Montant: <#ffffff>{amount}'
+  main_selector:
+    dialogue_click: <#79d679>Cliquez pour ouvrir la liste des dialogues
+    dialogue_lore:
+    - <#a8a8a8>Modification des branches interactives
+    - <#a8a8a8>de dialogues, d'options de réponse et d'actions.
+    dialogue_title: <#ff99d4>Éditeur de dialogues
+    npc_click: <#79d679>Cliquez pour ouvrir la liste des PNJ
+    npc_lore:
+    - <#a8a8a8>Configuration des liaisons de quêtes aux PNJ,
+    - <#a8a8a8>règles d'humeur (Mood) et sons vocaux.
+    npc_title: <#a7ff99>Éditeur de PNJ
+    quest_click: <#79d679>Cliquez pour ouvrir la liste des quêtes
+    quest_lore:
+    - <#a8a8a8>Création, suppression et détail
+    - <#a8a8a8>configuration des tâches, des étapes et des récompenses.
+    quest_title: <#7dd3ff>Éditeur de quêtes
+    title: '&0✎ Éditeur Questborn'
+    type_click: <#79d679>Cliquez pour ouvrir la liste des types
+    type_lore:
+    - <#a8a8a8>Gestion des fichiers types (<#ffffff>_type.yml<#a8a8a8>).
+    - <#a8a8a8>Changer les noms, les icônes, le temps de recharge et
+    - <#a8a8a8>modes moteur (DEFAUT, CHAINE, ROTATION, GLOBAL).
+    type_title: <#ffd470>Éditeur de types de quêtes
+  none: <#cccccc>Aucun
+  prefix: <#ad8ae6><bold>Éditeur</bold> <#8a8a8a>• <reset>
+  prompts:
+    preset_id: ID prédéfini
+  search:
+    click: <#a7ff99>LMB <#cccccc>- Recherche
+    none: <#cccccc>Aucun
+    query: '<#cccccc>Requête: <#ffffff>{query}'
+  selection_menu:
+    item_click: <#a7ff99>LMB <#cccccc>- Basculer la sélection
+    item_id: '<#a8a8a8>IDENTIFIANT: <#ffffff>{id}'
+    item_status: '<#a8a8a8>Statut: {status}'
+    prompt_search: '<#ffd470>Saisissez la requête de recherche (ou effacez) :'
+    search_all: Tous
+    search_click: <#a7ff99>LMB <#cccccc>- Rechercher (ou effacer)
+    search_lore: '<#a8a8a8>Recherche: <#ffffff>{query}'
+    status_selected: <#55ff55>Sélectionné ✔
+    status_unselected: <#ff5555>Non sélectionné
+    title: '&0Sélectionner un article'
+  state_none: <#cccccc>Désactivé
+  states:
+    disabled: <#ed6868>Désactivé
+    enabled: <#79d679>Activé
+  symbols:
+    error: '<#c96a6a>✖ '
+    prompt: '<#6aa0c9>✏ '
+    success: '{prefix}<#78b185>✔ <#ffffff>'
+    warning: '<#d9a752>⚠ '
+  unsaved_modal:
+    discard_exit: <#ed6868>Annuler les modifications et quitter
+    discard_exit_lore: <#a8a8a8>Annule toutes les modifications non enregistrées sans écrire dans le fichier.
+    info_lore: <#a8a8a8>Veuillez sélectionner une action ci-dessous.
+    info_title: <#ffd470>Modifications non enregistrées
+    return_editor: <#d69a38>Revenir à l'édition
+    return_editor_lore: <#a8a8a8>Revenez au menu de l'éditeur.
+    save_exit: <#79d679>Enregistrer et quitter
+    save_exit_lore: <#a8a8a8>Écrit toutes les modifications dans le fichier et ferme l'éditeur.
+    title: '&0✎ Modifications non enregistrées'
+dialogue_editor:
+  delete_confirm_desc: Êtes-vous sûr de vouloir supprimer le dialogue {id}?
+  delete_confirm_title: '&0Confirmer la suppression'
+  delete_confirm_item: '<#ed6868>Confirmer la suppression'
+  deleted_success: '{prefix}<#78b185>✔ <#ffffff>Dialogue supprimé !'
+  clone_prompt: '<#ffd470>Entrez l''ID de la copie de dialogue :'
+  error_clone_exists: '{prefix}<#c96a6a>✖ <#ffffff>Le dialogue avec cet identifiant existe déjà !'
+  msg_clone_success: '{prefix}<#78b185>✔ <#ffffff>Dialogue compilé/copié avec succès en tant que {id}!'
+  error_clone_failed: '{prefix}<#c96a6a>✖ <#ffffff>Erreur lors de la copie du dialogue !'
+  id_exists: Le dialogue avec cet identifiant existe déjà !
+  saved_success: '{prefix}<#78b185>✔ <#ffffff>Dialogue {id} les modifications ont été enregistrées avec succès !'
+  title_list: '&0Liste des dialogues ({count})'
+  title_main: '&0Éditeur de dialogues : {id}'
+npc_editor:
+  teleported: '<#a7ff99>✔ Téléporté avec succès vers un PNJ !'
+  location_not_found: '{prefix}<#c96a6a>✖ <#ffffff>Emplacement du PNJ introuvable ! Est-il engendré ?'
+  no_integration: '{prefix}<#c96a6a>✖ <#ffffff>Aucun plugin d''intégration NPC trouvé !'
+  delete_confirm_desc: Etes-vous sûr de vouloir supprimer le PNJ ? {id}?
+  delete_confirm_item: <#ff4d4d>Confirmer la suppression
+  delete_confirm_title: '&0Confirmer la suppression'
+  deleted_success: '{prefix}<#78b185>✔ <#ffffff>PNJ supprimé !'
+  dialogue_gui_title: '&8Sélectionner une boîte de dialogue'
+  dialogue_none_title: '&cDissocier le dialogue actuel'
+  dialogue_select_click: '&eCliquez pour sélectionner cette boîte de dialogue'
+  id_exists: Le PNJ avec cet identifiant existe déjà !
+  id_exists_use_right_click: Si vous souhaitez configurer un PNJ existant, utilisez RMB au lieu de LMB.
+  saved_success: '{prefix}<#78b185>✔ <#ffffff>PNJ {id} les modifications ont été enregistrées avec succès !'
+  title_list: '&0Liste des PNJ ({count})'
+  title_main: '&0Configuration du PNJ : {id}'
+quest_editor:
+  add_property:
+    amount: Montant
+    biome: Biome
+    chance: Chance
+    command: Commande
+    custom_click: <#a7ff99>LMB <#cccccc>- Sélectionner
+    custom_lore:
+    - <#a8a8a8>Entrez la clé de propriété manuellement via le chat
+    custom_prompt: '<#ffd470>Entrez le nom de la propriété (par exemple, le matériau) :'
+    custom_title: <#ffd470>Propriété personnalisée
+    distance: Distance
+    entities: Entités / Foules
+    item_click: <#a7ff99>LMB <#cccccc>- Ajouter une propriété
+    item_lore: '<#a8a8a8>Clé: <#ffffff>{key}'
+    item_title: <#ffd470>{name}
+    materials: Blocs / Objets
+    message: Message
+    region: Région
+    title: <#6e6e6e>Nouvelle propriété
+    world: Monde
+  attribute_reward:
+    add_lore: <#a8a8a8>Cliquez pour ajouter un nouvel attribut.
+    add_title: <#ffd470>Ajouter un attribut
+    click_delete: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer l'attribut
+    click_edit: <#d9a752>Échange (F) <#cccccc>- Entrez manuellement
+    click_modify1: <#a7ff99>LMB (+0,5) / RMB (-0,5) <#cccccc>- Changer la valeur
+    click_modify2: <#ffe999>Maj + LMB (+5,0) / <#ffe999>Maj + RMB (-5,0)
+    confirm_del_desc: Etes-vous sûr de vouloir supprimer {attr}?
+    confirm_del_item: ✖ Supprimer l'attribut
+    confirm_del_title: '&0Supprimer l''attribut'
+    prompt_val: '<#ffd470>Entrez la valeur numérique de l''attribut (par exemple 2,0 ou -1,5) :'
+  attribute_selector:
+    click_select: <#a7ff99>LMB <#cccccc>- Sélectionnez cet attribut
+    desc:
+      AIR_DRAG_MODIFIER: <#cccccc>Modificateur de traînée aérienne (ralentissement pendant le vol).
+      ARMOR: <#cccccc>Montant des points d’armure de base.
+      ARMOR_TOUGHNESS: <#cccccc>Robustesse du blindage (protection contre les coups violents).
+      ATTACK_DAMAGE: <#cccccc>Dégâts des attaques de base en mêlée.
+      ATTACK_KNOCKBACK: <#cccccc>Force de recul lors de l'attaque.
+      ATTACK_SPEED: <#cccccc>Vitesse d'attaque (coups par seconde).
+      BELOW_NAME_DISTANCE: <#cccccc>Plage de visibilité du texte sous le nom.
+      BLOCK_BREAK_SPEED: <#cccccc>Multiplicateur de vitesse de rupture de bloc.
+      BLOCK_INTERACTION_RANGE: <#cccccc>Gamme d'interaction du joueur avec les blocs.
+      BOUNCINESS: <#cccccc>Du rebond.
+      BURNING_TIME: <#cccccc>Multiplicateur de temps de combustion dans le feu.
+      CAMERA_DISTANCE: <#cccccc>Distance de la caméra.
+      ENTITY_INTERACTION_RANGE: <#cccccc>Gamme d'interactions du joueur avec d'autres entités.
+      EXPLOSION_KNOCKBACK_RESISTANCE: <#cccccc>Résistance au recul des explosions.
+      FALL_DAMAGE_MULTIPLIER: <#cccccc>Multiplicateur de dégâts de chute.
+      FLYING_SPEED: <#cccccc>Vitesse de vol de l'entité.
+      FOLLOW_RANGE: <#cccccc>Distance à laquelle les monstres remarquent le joueur.
+      FRICTION_MODIFIER: <#cccccc>Modificateur de friction.
+      GENERIC_ARMOR: <#cccccc>Montant des points d’armure de base.
+      GENERIC_ARMOR_TOUGHNESS: <#cccccc>Robustesse du blindage (protection contre les coups violents).
+      GENERIC_ATTACK_DAMAGE: <#cccccc>Dégâts des attaques de base en mêlée.
+      GENERIC_ATTACK_KNOCKBACK: <#cccccc>Force de recul lors de l'attaque.
+      GENERIC_ATTACK_SPEED: <#cccccc>Vitesse d'attaque (coups par seconde).
+      GENERIC_BURNING_TIME: <#cccccc>Multiplicateur de temps de combustion dans le feu.
+      GENERIC_EXPLOSION_KNOCKBACK_RESISTANCE: <#cccccc>Résistance au recul des explosions.
+      GENERIC_FALL_DAMAGE_MULTIPLIER: <#cccccc>Multiplicateur de dégâts de chute.
+      GENERIC_FLYING_SPEED: <#cccccc>Vitesse de vol de l'entité.
+      GENERIC_FOLLOW_RANGE: <#cccccc>Distance à laquelle les monstres remarquent le joueur.
+      GENERIC_GRAVITY: <#cccccc>Force de gravité agissant sur l'entité.
+      GENERIC_JUMP_STRENGTH: <#cccccc>Force de saut normale de l'entité.
+      GENERIC_KNOCKBACK_RESISTANCE: <#cccccc>Résistance au recul (1,0 = protection à 100 %).
+      GENERIC_LUCK: <#cccccc>Chance (affecte le butin et la pêche).
+      GENERIC_MAX_HEALTH: <#cccccc>Santé maximale (1,0 = un demi-cœur).
+      GENERIC_MOVEMENT_EFFICIENCY: <#cccccc>Efficacité des mouvements sur les blocs difficiles.
+      GENERIC_MOVEMENT_SPEED: <#cccccc>Vitesse de déplacement de l'entité.
+      GENERIC_OXYGEN_BONUS: <#cccccc>Chance de ne pas consommer d’oxygène sous l’eau.
+      GENERIC_SAFE_FALL_DISTANCE: <#cccccc>Distance de chute sécuritaire (en blocs).
+      GENERIC_SCALE: <#cccccc>Échelle et taille de l'entité (1,0 = par défaut).
+      GENERIC_STEP_HEIGHT: <#cccccc>Hauteur de marche automatique (sans sauter).
+      GENERIC_WATER_MOVEMENT_EFFICIENCY: <#cccccc>Efficacité des mouvements sous-marins.
+      GRAVITY: <#cccccc>Force de gravité agissant sur l'entité.
+      HORSE_JUMP_STRENGTH: <#cccccc>Force de saut à cheval.
+      JUMP_STRENGTH: <#cccccc>Force de saut normale de l'entité.
+      KNOCKBACK_RESISTANCE: <#cccccc>Résistance au recul (1,0 = protection à 100 %).
+      LUCK: <#cccccc>Chance (affecte le butin et la pêche).
+      MAX_ABSORPTION: <#cccccc>Absorption maximale des dégâts (cœurs supplémentaires).
+      MAX_HEALTH: <#cccccc>Santé maximale (1,0 = un demi-cœur).
+      MINING_EFFICIENCY: <#cccccc>Efficacité minière globale.
+      MOVEMENT_EFFICIENCY: <#cccccc>Efficacité des mouvements sur les blocs difficiles.
+      MOVEMENT_SPEED: <#cccccc>Vitesse de déplacement de l'entité.
+      NAME_TAG_DISTANCE: <#cccccc>Plage de visibilité de l'étiquette de nom.
+      OXYGEN_BONUS: <#cccccc>Chance de ne pas consommer d’oxygène sous l’eau.
+      PLAYER_BLOCK_BREAK_SPEED: <#cccccc>Multiplicateur de vitesse de rupture de bloc.
+      PLAYER_BLOCK_INTERACTION_RANGE: <#cccccc>Gamme d'interaction du joueur avec les blocs.
+      PLAYER_ENTITY_INTERACTION_RANGE: <#cccccc>Gamme d'interactions du joueur avec d'autres entités.
+      PLAYER_MINING_EFFICIENCY: <#cccccc>Efficacité minière globale.
+      PLAYER_SNEAKING_SPEED: <#cccccc>Multiplicateur de vitesse furtif (Shift).
+      PLAYER_SUBMERGED_MINING_SPEED: <#cccccc>Multiplicateur de vitesse d’exploitation minière sous-marine.
+      PLAYER_SWEEPING_DAMAGE_RATIO: <#cccccc>Multiplicateur de dégâts d'attaque à l'épée.
+      SAFE_FALL_DISTANCE: <#cccccc>Distance de chute sécuritaire (en blocs).
+      SCALE: <#cccccc>Échelle et taille de l'entité (1,0 = par défaut).
+      SNEAKING_SPEED: <#cccccc>Multiplicateur de vitesse furtif (Shift).
+      SPAWN_REINFORCEMENTS: <#cccccc>Possibilité pour les zombies d'invoquer d'autres zombies pour obtenir de l'aide.
+      STEP_HEIGHT: <#cccccc>Hauteur de marche automatique (sans sauter).
+      SUBMERGED_MINING_SPEED: <#cccccc>Multiplicateur de vitesse d’exploitation minière sous-marine.
+      SWEEPING_DAMAGE_RATIO: <#cccccc>Multiplicateur de dégâts d'attaque à l'épée.
+      TEMPT_RANGE: <#cccccc>Gamme tentante de foule avec de la nourriture.
+      WATER_MOVEMENT_EFFICIENCY: <#cccccc>Efficacité des mouvements sous-marins.
+      WAYPOINT_RECEIVE_RANGE: <#cccccc>Portée de réception du waypoint.
+      WAYPOINT_TRANSMIT_RANGE: <#cccccc>Portée de transmission du waypoint.
+      ZOMBIE_SPAWN_REINFORCEMENTS: <#cccccc>Possibilité pour les zombies d'invoquer d'autres zombies pour obtenir de l'aide.
+    title: '&0Sélection d''attribut'
+  brd_reward:
+    click_clone: <#d9a752>Échange (F) <#cccccc>- Cloner
+    click_delete: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer
+    click_edit: <#a7ff99>LMB <#cccccc>- Changer de diffusion
+    click_move_down: <#ffe999>Maj+RMB <#cccccc>- Descendre
+    click_move_up: <#ffe999>Maj+LMB <#cccccc>- Monter
+    click_set_level: <#d9a752>1-9 <#cccccc>- Définir le niveau d'effet
+    item_format: '<#79d679>Diffuser #{index}'
+  chance_reward:
+    add_lore: <#a8a8a8>Cliquez pour ajouter une nouvelle chance.
+    add_title: <#ffd470>Ajouter une chance
+    click_delete: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer l'opportunité
+    click_edit_chance: <#d9a752>Échange (F) <#cccccc>- Entrez la chance manuellement
+    click_open_rewards: <#a7ff99>LMB <#cccccc>- Récompenses ouvertes
+    confirm_del_desc: '<#ffd470>Supprimer l''opportunité #{attr}?'
+    item_title: Chance
+    prompt_val: '<#ffd470>Entrez le pourcentage de chance (par exemple, 50,0) :'
+    rewards_gui_title: 'Récompenses pour la chance #{attr}'
+  cmd_reward:
+    add_lore: <#a8a8a8>Cliquez pour ajouter une nouvelle commande.
+    add_title: <#ffd470>Ajouter une commande
+    click_clone: <#d9a752>Échange (F) <#cccccc>- Dupliquer
+    click_delete: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer
+    click_edit: <#a7ff99>LMB <#cccccc>- Changer de commande
+    click_move_down: <#ffe999>Maj+RMB <#cccccc>- Descendre
+    click_move_up: <#ffe999>Maj+LMB <#cccccc>- Monter
+    click_toggle_sender: <#a7ff99>RMB <#cccccc>- Sélectionnez l'expéditeur
+    item_format: '<#ffd470>Commande #{index}'
+    prompt_add:
+    - '<#ffd470>Saisissez le texte de la commande :'
+    - '<#a8a8a8>(Pour le nom du joueur, tapez %player%)'
+    prompt_edit:
+    - '<#ffd470>Entrez le nouveau texte de commande :'
+    - '<#a8a8a8>(Pour le nom du joueur, tapez %player%)'
+    sender_console: <#ffd470>Comme console
+    sender_console_lore:
+    - '<#a8a8a8>La commande sera exécutée par la console du serveur.'
+    - ''
+    - '<#a7ff99>Cliquez pour sélectionner.'
+    sender_gui_title: '&0Sélection de l''expéditeur'
+    sender_none: <#ed6868>Effacer la balise
+    sender_none_lore:
+    - '<#a8a8a8>Effacer la balise de commande.'
+    - ''
+    - '<#a8a8a8>(Par défaut équivalent à Console)'
+    - ''
+    - '<#a7ff99>Cliquez pour sélectionner.'
+    sender_player: <#ffd470>En tant que joueur
+    sender_player_lore:
+    - '<#a8a8a8>La commande sera exécutée comme si'
+    - ''
+    - '<#a8a8a8>il a été saisi par le joueur.'
+    - ''
+    - '<#a7ff99>Cliquez pour sélectionner.'
+    sender_silent_console: <#ffd470>Comme console (silencieuse)
+    sender_silent_console_lore:
+    - '<#a8a8a8>La commande sera exécutée par la console,'
+    - ''
+    - '<#a8a8a8>mais le résultat ne sera pas enregistré.'
+    - ''
+    - '<#a7ff99>Cliquez pour sélectionner.'
+    sender_silent_player: <#ffd470>En tant que joueur (silencieux)
+    sender_silent_player_lore:
+    - '<#a8a8a8>La commande sera exécutée par le joueur,'
+    - ''
+    - '<#a8a8a8>mais le résultat ne sera pas affiché dans le chat.'
+    - ''
+    - '<#a7ff99>Cliquez pour sélectionner.'
+  dialogue_list:
+    create_default_text: '  <#c8c8c8>Bonjour voyageur !'
+    create_prompt: '<#ffd470>Saisissez le nouvel identifiant de dialogue (par exemple : <#ffffff>taverne_dialogue<#ffd470>) :'
+    edit_click: <#a7ff99>LMB <#cccccc>- Modifier les dialogues
+    clone_click: '<#d9a752>Échange (F) <#cccccc>- Cloner les dialogues'
+    delete_click: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer les dialogues
+    id_click: <#a7ff99>LMB <#cccccc>- Changer l'identifiant du dialogue
+    id_exists: <#ed6868>Dialogue avec l'identité {id} existe déjà !
+    id_lore: '<#a8a8a8>IDENTIFIANT: <#ffffff>{id}'
+    id_prompt: '<#ffd470>Entrez le nouvel identifiant de dialogue (par exemple : tavern_talk) :'
+    id_success: '{prefix}<#78b185>✔ <#ffffff>L''ID de dialogue a été modifié avec succès en <#ffffff>{id}'
+    id_title: <#ffd470>ID de dialogue
+    node_id_title: '<#ffd470>ID de réplica'
+    name_click: <#a7ff99>LMB <#cccccc>- Changer de nom
+    name_lore: '<#a8a8a8>Nom actuel : '
+    name_prompt: '<#ffd470>Entrez le nom du PNJ dans la boîte de dialogue (par ex. <#d0a775>{npc}) :'
+    name_title: <#ffd470>Nom du PNJ dans le dialogue
+    nodes_lore: '<#a8a8a8>Répliques : <#7dd3ff>{count}'
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Erreur lors de l''enregistrement de dialogues.yml !'
+  dialogue_main:
+    action_back_lore: <#a8a8a8>Retour à l'éditeur de réponses
+    action_back_title: <#ed6868>Dos
+    action_builder_back_lore: <#a8a8a8>Revenir au générateur d'actions
+    action_builder_select_node: '&0Sélectionnez le réplica cible'
+    action_builder_title: '<#6e6e6e>Générateur d''actions : <#6aa0c9>Répondre #{index}'
+    action_close_lore: <#a8a8a8>Terminez la conversation avec le PNJ.
+    action_close_title: <#ed6868>Fermer le dialogue <#a8a8a8>(fermer)
+    action_console_cmd_lore:
+    - <#a8a8a8>Exécutez la commande en tant que console.
+    - <#a8a8a8>Utiliser %player% pour le nom du joueur.
+    action_console_cmd_title: <#7dd3ff>Commande de console <#a8a8a8>(console:<cmd>)
+    action_create_lore: <#a8a8a8>Crée une nouvelle réplique et y lie une action.
+    action_create_title: <#55ff55>Créer et lier une réplique
+    action_current_title: <#ffd470>Action actuelle
+
+    action_current_selected: '<#a8a8a8>Choisi:'
+
+    action_current_lore:
+
+    - ''
+
+    - '<#a8a8a8>C''est l''action qui va'
+
+    - '<#a8a8a8>être exécuté lorsqu''un joueur'
+
+    - '<#a8a8a8>choisit cette réponse.'
+    action_custom_lore: <#a8a8a8>Saisissez manuellement la chaîne d'action brute.
+    action_custom_title: <#ffd470>Ligne d'action personnalisée
+    action_finish_quest_lore: <#a8a8a8>Termine la quête spécifiée en un clic.
+    action_finish_quest_title: <#79d679>Terminer la quête <#a8a8a8>(quête :terminer :<id>)
+    action_goto_lore: <#a8a8a8>Passez à un autre nœud de dialogue.
+    action_goto_title: <#79d679>Aller au nœud <#a8a8a8>(dialogue:<node>)
+    action_node_link_lore: <#a7ff99>LMB <#a8a8a8>pour relier cette ligne
+    action_node_link_title: <#ffd470>{key}
+    action_player_cmd_lore: <#a8a8a8>Forcer le joueur à exécuter une commande.
+    action_player_cmd_title: <#7dd3ff>Commande du joueur <#a8a8a8>(joueur:<cmd>)
+    action_start_quest_lore: <#a8a8a8>Démarre la quête spécifiée en cliquant.
+    action_start_quest_title: '<#79d679>Commencer la quête <#a8a8a8>(quête : début :<id>)'
+    add_lore_empty: <#a7ff99>RMB <#cccccc>- Créer une ligne vide
+    cond_clear: <#ffe999>RMB <#a8a8a8>pour effacer toutes les conditions
+    cond_current_title: <#ffd470>Conditions actuelles
+    cond_gui_title: '&0Conditions : Réponse #{num}-'
+    cond_none: <#ed6868>Aucune condition. La réponse est toujours visible.
+    cond_perm_lore: '<#a8a8a8>Par exemple, autorisation : my.perm'
+    cond_perm_prompt: 'Entrez l''autorisation :'
+    cond_perm_title: <#79d679>Exiger une autorisation (Autorisation)
+    cond_quest_lore: <#a8a8a8>Par exemple, quest_state :<id>:COMPLÉTÉ
+    cond_quest_prompt: 'Entrez l''état requis (ACTIVE/COMPLETED/NOT_STARTED) :'
+    cond_quest_title: <#79d679>Exiger un état de quête
+    cond_raw_lore: <#a8a8a8>Saisissez la condition manuellement.
+    cond_raw_prompt: 'Entrez la chaîne de condition :'
+    cond_raw_title: <#ffd470>Chaîne de condition personnalisée
+    cpt_click:
+    - <#a7ff99>LMB <#cccccc>- Ajouter 1 caractère
+    - <#a7ff99>RMB <#cccccc>- Supprimer 1 caractère
+    - <#ffe999>Maj+LMB <#cccccc>- Ajouter 10 caractères
+    - <#ffe999>Maj+RMB <#cccccc>- Supprimer 10 caractères
+    - <#d9a752>Échange (F) <#cccccc>- Entrez manuellement
+    cpt_lore:
+    - <#a8a8a8>Vitesse de sortie du texte (caractères par tick).
+    - '<#a8a8a8>Actuel: <#ffffff>{cpt} caractères'
+    cpt_prompt: '<#ffd470>Entrez le nombre de caractères par tick (par exemple 1-5) :'
+    cpt_title: <#ffd470>Vitesse de sortie du texte
+    delete_right_click_warn: Utiliser <#ffe999>RMB à supprimer !
+    dialogue_tutorial_lore:
+    - <#a8a8a8>Cliquez pour lire le tutoriel
+    dialogue_tutorial_title: '&0Guide : Comment créer un dialogue ?'
+    dialogue_tutorial_item_title: '<#ffd470>Guide : Comment créer un dialogue ?'
+    dialogue_validator_lore:
+    - '<#cccccc>Démarre une analyse détaillée du dialogue dans le chat.'
+    dialogue_validator_title: '<#ffe999>Vérifier les erreurs'
+    id_click: <#a7ff99>LMB <#cccccc>- Changer d'identifiant
+    id_exists: Un dialogue avec cet identifiant existe déjà !
+    id_lore: '<#a8a8a8>Identifiant actuel : <#ffffff>{id}'
+    id_prompt: '<#ffd470>Entrez le nouvel identifiant de dialogue :'
+    id_success: '{prefix}<#78b185>✔ <#ffffff>L''ID de dialogue a été modifié avec succès en <#ffffff>{id}'
+    id_title: <#ffd470>ID de dialogue
+    node_id_title: '<#ffd470>ID du nœud'
+    item_clone: <#d9a752>Échange (F) <#cccccc>- Cloner la ligne
+    item_move_down: <#ffe999>Maj+RMB <#cccccc>- Descendre
+    item_move_up: <#ffe999>Maj+LMB <#cccccc>- Monter
+    keys_list: '<#a8a8a8>Exigences: <#ffffff>{keys}'
+    keys_more: ' <#6e6e6e>(+plus {count})'
+    keys_none: '<#a8a8a8>Clés : <#ffffff>aucun'
+    name_click: <#a7ff99>LMB <#cccccc>- Changer le nom du PNJ
+    name_lore: '<#a8a8a8>Nom actuel : <#ffffff>{name}'
+    name_prompt: '<#ffd470>Entrez le nom du PNJ qui sera visible pendant la conversation :'
+    name_title: <#a8a8a8>Nom du PNJ dans le dialogue
+    node_opts_click: <#a7ff99>LMB <#a8a8a8>pour changer les réponses
+    node_opts_lore:
+    - '<#a8a8a8>Réponses actuelles : <#ffd470>{count}'
+    node_opts_title: <#ffd470>Le joueur répond
+    node_quick_reply_lore: <#a8a8a8>Crée automatiquement une nouvelle réponse et la lie à un nouveau nœud.
+    node_quick_reply_text: <#6e6e6e>[Continuer...]
+    node_quick_reply_title: <#55ff55>Réponse rapide
+    node_sound_click: <#a7ff99>LMB <#a8a8a8>changer de son
+    node_sound_lore:
+    - '<#a8a8a8>Actuel: <#ffffff>{sound}'
+    node_sound_title: <#ffd470>Son au clic
+    node_text_click: <#a7ff99>LMB <#a8a8a8>pour changer le texte du PNJ
+    node_text_lore:
+    - '<#a8a8a8>PNJ dit :'
+    node_text_more: '  <#a8a8a8>... et {count} plus.'
+    node_text_title: <#ffd470>Texte du PNJ
+    nodes_add_default_text: '  <#c8c8c8>Bonjour voyageur !'
+    nodes_add_lore: <#a8a8a8>Crée un nouveau nœud de dialogue (par exemple start, Choice_1)
+    nodes_add_prompt: '<#ffd470>Entrez le nom du nouveau nœud (par exemple start ou node_2) :'
+    nodes_add_success: '{prefix}<#78b185>✔ <#ffffff>Nouveau nœud créé : <#ffffff>{node}<#a8a8a8>'
+    nodes_add_title: <#55ff55>Ajouter un nouveau nœud
+    nodes_click: <#a7ff99>LMB <#cccccc>- Ouvrir les listes de nœuds et les textes
+    nodes_del_confirm_desc: Etes-vous sûr de vouloir supprimer le nœud {node}?
+    nodes_del_confirm_title: '&0Suppression du nœud'
+    nodes_del_success: '{prefix}<#78b185>✔ <#ffffff>Nœud <#ffffff>{node}<#a8a8a8> supprimé !'
+    nodes_edit_gui_title: '&0Texte du nœud : '
+    nodes_gui_title: '&0Nœuds : '
+    node_gui_title: '&0Nœud: '
+    nodes_item_click:
+    - <#a7ff99>LMB <#cccccc>- Modifier le nœud
+    - <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer le nœud
+    nodes_item_normal: '<#a8a8a8>Nœud: <#ffffff>{node}'
+    nodes_item_start: <#7eb87e>[Démarrer] démarrer
+    nodes_lines: '<#a8a8a8>Nombre de lignes : <#ffffff>{count}'
+    nodes_lore:
+    - '<#a8a8a8>Total nodes: <#ffffff>{count}'
+    nodes_text: '<#a8a8a8>Texte:'
+    nodes_text_more: '  <#6e6e6e>... (+plus {count} lignes)'
+    nodes_title: <#ffd470>Nœuds de dialogue (Nœuds)
+    opt_action_lore:
+    - '<#a8a8a8>Action en cours :'
+    - <#ffffff>{action}
+    - <#a7ff99>LMB <#a8a8a8>pour ouvrir Action Builder
+    opt_action_title: <#79d679>Générateur d'actions
+    opt_back_lore: <#a8a8a8>Revenir à la liste des réponses
+    opt_conds_lore:
+    - '<#a8a8a8>Conditions: <#ffd470>{count}'
+    - <#a7ff99>LMB <#a8a8a8>changer les conditions
+    opt_conds_title: <#ffd470>Conditions d'affichage
+    opt_create_node_lore: <#a8a8a8>Crée automatiquement un nouveau nœud et y lie cette réponse.
+    opt_create_node_title: <#55ff55>Créer et lier un nœud
+    opt_edit_cond_title: '<#6e6e6e>Conditions (Réponse #{num}-)'
+    opt_action_gui_title: '&0Actions : #{num}-'
+    opt_edit_current: '<#a8a8a8>Actuel: <#ffffff>{current}'
+    opt_edit_gui_title: '&0Répondre #{num}-'
+    opt_edit_lore_title: '<#6e6e6e>Lore (Réponse #{num}-)'
+    opt_edit_prompt_mat: 'Entrez le nom du matériau (matériau Bukkit) :'
+    opt_edit_prompt_mat_invalid: <#ed6868>Matériel invalide !
+    opt_edit_prompt_slot: 'Entrez le numéro d''emplacement (ou -1) :'
+    opt_edit_prompt_sound: 'Entrez le nom du son (Bukkit Sound) ou « aucun » :'
+    opt_edit_prompt_text: 'Saisissez le texte de réponse du joueur :'
+    opt_linked_action_lore: '<#a8a8a8>Exécute l''action : <#ffffff>{action}'
+    opt_linked_close_lore: '<#a8a8a8>Conduit à : <#ffffff>Dialogue de clôture'
+    opt_linked_node_lore: '<#a8a8a8>Conduit à : <#ffffff>Nœud {node}'
+    opt_linked_node_missing_lore: '<#ed6868>Mène à : Nœud {node} (INTROUVABLE !)'
+    opt_list_action: '<#a8a8a8>Action: <#79d679>{action}'
+    opt_list_add_lore: <#a8a8a8>Cliquez pour créer une nouvelle réponse.
+    opt_list_add_title: <#79d679>Ajouter une réponse
+    opt_list_click:
+    - <#a7ff99>LMB <#a8a8a8>éditer
+    - <#ed6868>Laisser tomber (Q) <#a8a8a8>supprimer
+    opt_list_del_desc: '<#a8a8a8>Etes-vous sûr de vouloir supprimer <#a8a8a8>Répondre #{index}?'
+    opt_list_del_title: <#ed6868>Supprimer la réponse ?
+    opt_list_del_gui_title: '&0Supprimer la réponse ?'
+    opt_list_gui_title: '&0Réponses : '
+    opt_list_item_title: '<#ffd470>Répondre #{index}'
+    opt_list_slot: '<#a8a8a8>Fente: <#ffd470>{slot}'
+    opt_list_text: '<#a8a8a8>Texte: <#ffffff>{text}'
+    opt_material_lore:
+    - '<#a8a8a8>Actuel: <#ffffff>{material}'
+    - <#a7ff99>LMB <#a8a8a8>pour saisir le nom
+    - <#7dd3ff>Lâcher (Q) l'objet <#a8a8a8>ici pour définir
+    opt_material_title: <#ffd470>Icône de réponse (Matériel)
+    opt_reply_lore_lore:
+    - '<#a8a8a8>Lignes : <#ffd470>{count}'
+    - <#a7ff99>LMB <#a8a8a8>changer de tradition
+    opt_reply_lore_title: <#ffd470>Description de la réponse (Histoire)
+    opt_reply_text_lore:
+    - '<#a8a8a8>Actuel: <#ffffff>{text}'
+    - <#a7ff99>LMB <#a8a8a8>changer le texte
+    opt_reply_text_title: <#ffd470>Texte de réponse
+    opt_slot_lore:
+    - '<#a8a8a8>Actuel: <#ffd470>{slot}'
+    - <#a8a8a8>Définissez -1 pour le placement automatique.
+    - <#a7ff99>LMB <#a8a8a8>à +1
+    - <#ffe999>RMB <#a8a8a8>à -1
+    - <#ed6868>Laisser tomber (Q) <#a8a8a8>entrer dans le chat
+    opt_slot_title: <#ffd470>Emplacement d'inventaire
+    opt_sound_lore:
+    - '<#a8a8a8>Actuel: <#ffffff>{sound}'
+    - <#a7ff99>LMB <#a8a8a8>changer de son
+    opt_sound_title: <#ffd470>Son de clic
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Erreur lors de l''enregistrement de dialogues.yml !'
+    tutorial_footer: '<#6e6e6e>=============================
+
+      '
+    tutorial_header: '
+
+      <#6e6e6e>=== <#7dd3ff>Comment créer des dialogues <#6e6e6e>==='
+    tutorial_step1_title: '<#ffd470>Étape 1 : Début du dialogue'
+    tutorial_step1_lore:
+    - '<#a8a8a8>Chaque dialogue doit avoir un point de départ.'
+    - '<#a8a8a8>Cliquez <#a7ff99>''Nœuds de dialogue''<#a8a8a8> et créer'
+    - '<#a8a8a8>le premier nœud avec ID <#a7ff99>''commencer''<#a8a8a8>.'
+    - '<#a8a8a8>C''est ici que le PNJ démarrera la conversation.'
+    tutorial_step2_title: '<#ffd470>Étape 2 : Texte du nœud'
+    tutorial_step2_lore:
+    - '<#a8a8a8>Après avoir créé un nœud, cliquez dessus.'
+    - '<#a8a8a8>Configurez le texte que le PNJ prononcera.'
+    - '<#a8a8a8>Vous pouvez utiliser des codes de couleur et'
+    - '<#a8a8a8>espaces réservés (par ex. <#a7ff99>{player}<#a8a8a8>).'
+    tutorial_step3_title: '<#ffd470>Étape 3 : Options de réponse'
+    tutorial_step3_lore:
+    - '<#a8a8a8>Pour rendre le dialogue interactif, ajoutez'
+    - '<#a7ff99>options de réponse <#a8a8a8>pour le joueur.'
+    - '<#a8a8a8>Accédez aux paramètres du nœud et'
+    - '<#a8a8a8>créer plusieurs réponses possibles.'
+    tutorial_step4_title: '<#ffd470>Étape 4 : Liens et transitions'
+    tutorial_step4_lore:
+    - '<#a8a8a8>Chaque réponse du joueur doit conduire à'
+    - '<#a8a8a8>un autre nœud PNJ ou mettre fin au dialogue.'
+    - '<#a8a8a8>Liez chaque réponse à l''identifiant de'
+    - '<#a8a8a8>le nœud suivant.'
+    tutorial_step5_title: '<#ffd470>Étape 5 : Conditions (Conditions)'
+    tutorial_step5_lore:
+    - '<#a8a8a8>Certaines réponses peuvent être masquées au joueur.'
+    - '<#a8a8a8>Dans les paramètres de réponse, vous pouvez spécifier'
+    - '<#a8a8a8>exigences : avoir une autorisation (permission)'
+    - '<#a8a8a8>ou un état de quête spécifique.'
+    tutorial_step6_title: '<#ffd470>Étape 6 : Actions (Actions)'
+    tutorial_step6_lore:
+    - '<#a8a8a8>Choisir une réponse peut déclencher certains événements.'
+    - '<#a8a8a8>En plus de passer au nœud suivant,'
+    - '<#a8a8a8>vous pouvez démarrer ou remettre automatiquement une quête,'
+    - '<#a8a8a8>ou exécuter une commande au nom du lecteur/console.'
+    tutorial_step7_title: '<#ffd470>Étape 7 : Validateur de dialogue'
+    tutorial_step7_lore:
+    - '<#a8a8a8>Lorsque le dialogue est prêt, assurez-vous d''utiliser'
+    - '<#a7ff99>Validateur <#a8a8a8>dans le menu principal de l''éditeur.'
+    - '<#a8a8a8>Il vérifiera votre dialogue pour'
+    - '<#a8a8a8>liens rompus et nœuds inaccessibles.'
+    update_period_click:
+    - <#a7ff99>LMB <#cccccc>- Ajouter 1 coche
+    - <#a7ff99>RMB <#cccccc>- Supprimer 1 coche
+    - <#ffe999>Maj+LMB <#cccccc>- Ajouter 10 ticks
+    - <#ffe999>Maj+RMB <#cccccc>- Supprimer 10 ticks
+    - <#d9a752>Échange (F) <#cccccc>- Entrez manuellement
+    update_period_lore:
+    - <#a8a8a8>À quelle fréquence le texte est mis à jour (en ticks).
+    - '<#a8a8a8>Actuel: <#7dd3ff>{ticks} tiques'
+    update_period_prompt: '<#ffd470>Entrez le nombre de ticks (1-100) :'
+    update_period_title: <#ffd470>Vitesse de mise à jour du texte
+    validator_dead_link: 'Répondre {node} mène à un nœud inexistant {target}! (répondre #{index})'
+    validator_footer: '<#c8beaa>Résumé: <#b0b8c1>{errors} des erreurs, <#c4b5b5>{warnings} avertissements.'
+    validator_header: '<#b0b8c1>=== <#6aa0c9>État du dialogue : <#e2e8f0>{id} <#b0b8c1>==='
+    validator_links_ok: 'Le dialogue est entièrement prêt et ne pose aucun problème !'
+    validator_start_missing: 'Nœud de départ manquant « start » !'
+    voice_click: <#a7ff99>LMB <#cccccc>- Changer le type de voix
+    voice_lore: '<#a8a8a8>Voix: <#ffffff>{voice}'
+    voice_prompt: '<#ffd470>Entrez le type de son (villageois, aucun ou personnalisé) :'
+    voice_title: <#ffd470>Son de la voix du dialogue
+    opt_reply_text_click: '<#a8a8a8>Cliquez pour modifier le texte'
+    opt_reply_lore_click: '<#a8a8a8>Cliquez pour modifier la tradition'
+    opt_material_click: '<#a8a8a8>Cliquez pour modifier l''icône'
+    opt_sound_click: '<#a8a8a8>Cliquez pour modifier le son'
+    opt_action_click: '<#a8a8a8>Cliquez pour modifier les actions'
+    opt_conds_click: '<#a8a8a8>Cliquez pour modifier les conditions'
+    action_player_prompt: '&aEntrez la commande à exécuter en tant que joueur :'
+    action_console_prompt: '&aEntrez la commande à exécuter depuis la console :'
+  eff_reward:
+    add_lore: <#a7ff99>LMB <#cccccc>- Choisissez l'effet
+    click_add_10s: <#ffe999>Maj+LMB <#cccccc>- Ajouter 10 secondes
+    click_add_1s: <#a7ff99>LMB <#cccccc>- Ajouter 1 seconde
+    click_custom_dur: <#d9a752>Échange (F) <#cccccc>- Entrez une durée personnalisée
+    click_delete: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer
+    click_edit: <#a7ff99>LMB <#cccccc>- Modifier l'effet
+    click_move_down: <#ffe999>Maj+RMB <#cccccc>- Descendre
+    click_move_up: <#ffe999>Maj+LMB <#cccccc>- Monter
+    click_remove_10s: <#ffe999>Maj+RMB <#cccccc>- Soustraire 10 secondes
+    click_remove_1s: <#a7ff99>RMB <#cccccc>- Soustraire 1 seconde
+    click_set_level: <#d9a752>1-9 <#cccccc>- Définir le niveau d'effet
+    descriptions:
+      ABSORPTION: <#cccccc>Donne des cœurs dorés supplémentaires.
+      BAD_OMEN: <#cccccc>Déclenche un raid à l'entrée d'un village.
+      BLINDNESS: <#cccccc>Diminue la visibilité du joueur.
+      BREATH_OF_THE_NAUTILUS: <#cccccc>Donne la respiration aquatique (Conduit).
+      CONDUIT_POWER: <#cccccc>Donne la respiration aquatique, la vision et la célérité.
+      CONFUSION: <#cccccc>Provoque un effet vertigineux.
+      DAMAGE_RESISTANCE: <#cccccc>Réduit les dégâts reçus.
+      DARKNESS: <#cccccc>Assombrit la vision du joueur.
+      DOLPHINS_GRACE: <#cccccc>Augmente la vitesse de nage.
+      FAST_DIGGING: <#cccccc>Augmente la vitesse d'extraction.
+      FIRE_RESISTANCE: <#cccccc>Accorde l'immunité au feu et à la lave.
+      GLOWING: <#cccccc>Met en évidence le contour du joueur.
+      HARM: <#cccccc>Inflige instantanément des dégâts.
+      HEAL: <#cccccc>Restaure instantanément la santé.
+      HEALTH_BOOST: <#cccccc>Ajoute des cœurs de santé supplémentaires.
+      HERO_OF_THE_VILLAGE: <#cccccc>Réductions auprès des villageois.
+      HUNGER: <#cccccc>Épuise la faim plus rapidement.
+      INCREASE_DAMAGE: <#cccccc>Augmente les dégâts de mêlée.
+      INFESTED: <#cccccc>Génère un poisson d'argent en subissant des dégâts.
+      INVISIBILITY: <#cccccc>Rend le joueur invisible.
+      JUMP: <#cccccc>Augmente la hauteur de saut.
+      LEVITATION: <#cccccc>Fait flotter le joueur vers le haut.
+      LUCK: <#cccccc>Augmente la chance.
+      NIGHT_VISION: <#cccccc>Permet de voir dans le noir.
+      OOZING: <#cccccc>Génère des slimes à la mort.
+      POISON: <#cccccc>Inflige progressivement des dégâts (ne peut pas tuer).
+      RAID_OMEN: <#cccccc>Déclenche un raid à l'approche d'un village.
+      REGENERATION: <#cccccc>Restaure progressivement la santé.
+      SATURATION: <#cccccc>Restaure instantanément la faim.
+      SLOW: <#cccccc>Diminue la vitesse de déplacement.
+      SLOW_DIGGING: <#cccccc>Diminue la vitesse d’extraction.
+      SLOW_FALLING: <#cccccc>Ralentit la vitesse de chute.
+      SPEED: <#cccccc>Augmente la vitesse de déplacement.
+      TRIAL_OMEN: <#cccccc>Augmente la difficulté des épreuves.
+      UNLUCK: <#cccccc>Diminue la chance.
+      WATER_BREATHING: <#cccccc>Permet de respirer sous l'eau.
+      WEAKNESS: <#cccccc>Réduit les dégâts infligés.
+      WEAVING: <#cccccc>Génère des toiles d'araignées à la mort.
+      WIND_CHARGED: <#cccccc>Déclenche une explosion de vent à la mort.
+      WITHER: <#cccccc>Inflige progressivement des dégâts (peut tuer).
+    duration_format: '<#8a8a8a>Durée: <#55e655>{secs} seconde <#555555>({time})'
+    duration_format_raw: '<#8a8a8a>Durée: <#55e655>{dur} seconde'
+    item_format: '<#79d679>Effet #{index}'
+    level_format: '<#8a8a8a>Force (niveau) : <#55e6e6>{level}'
+    prompt_add: '<#8a8a8a>Entrez l''effet dans le format <#ed6868>EFFET : NIVEAU : TEMPS<#8a8a8a> (par exemple VITESSE : 1 : 200) :'
+    prompt_dur: '<#8a8a8a>Entrez la durée de l''effet en secondes :'
+    prompt_edit: '<#8a8a8a>Entrez le nouveau format d''effet <#ed6868>EFFET : NIVEAU : TEMPS<#8a8a8a>:'
+    selector_title: Choisir l'effet
+    type_format: '<#8a8a8a>Type d''effet : <#e6e655>{type}'
+  entity_selector:
+    click: <#a7ff99>LMB <#cccccc>- Choisir l'entité
+    title: '&0Choisissez une foule/une entité'
+  global_settings:
+    error_not_number: Entrez un numéro !
+    limit_click: <#79d679>Cliquez pour changer
+    limit_lore:
+    - '<#a8a8a8>Clé: <#ffffff>limite personnelle'
+    - '<#a8a8a8>Actuel: <#ffffff>{val}'
+    limit_prompt: '<#ffd470>Entrez une nouvelle valeur pour la limite personnelle :'
+    limit_title: <#ffd470>Limite personnelle
+    max_p_click: <#79d679>Cliquez pour changer
+    max_p_lore:
+    - '<#a8a8a8>Clé: <#ffffff>nombre maximum de participants'
+    - '<#a8a8a8>Actuel: <#ffffff>{val}'
+    max_p_prompt: '<#ffd470>Entrez une nouvelle valeur pour le nombre maximum de participants :'
+    max_p_title: <#ffd470>Nombre maximum de participants
+    min_p_click: <#79d679>Cliquez pour changer
+    min_p_lore:
+    - '<#a8a8a8>Clé: <#ffffff>min-participants'
+    - '<#a8a8a8>Actuel: <#ffffff>{val}'
+    min_p_prompt: '<#ffd470>Entrez une nouvelle valeur pour le nombre minimum de participants :'
+    min_p_title: <#ffd470>Nombre minimum de participants
+    step_click: <#a7ff99>LMB <#cccccc>- Changement
+    step_lore:
+    - '<#a8a8a8>Clé: <#ffffff>étape de récompense'
+    - '<#a8a8a8>Valeur: <#ffffff>{val}'
+    step_prompt: '<#ffd470>Entrez le nouveau numéro pour l''étape de récompense :'
+    step_title: <#ffd470>Étape de récompense
+    title: '&0Paramètres du moteur : {id}'
+  health_check:
+    err_missing_name: Nom de quête manquant (nom)
+    err_missing_stages: Étapes/étapes manquantes
+    err_no_name: Nom de quête manquant (nom)
+    err_no_stages: Étapes manquantes (étapes)
+    header: '=== Analyse de la santé des quêtes : {id} ==='
+    success: '{prefix}<#78b185>✔ <#ffffff>La quête est entièrement prête et ne pose aucun problème !'
+    summary: 'Résumé: {errors} des erreurs, {warnings} avertissements.'
+    title: '<#b0b8c1>=== <#6aa0c9>État de la quête : <#e2e8f0>{id} <#b0b8c1>==='
+    warn_missing_mandatory_prop: 'Scène {stage}: propriété obligatoire manquante ''{prop}'''
+    warn_no_rewards: La quête ne contient aucune récompense (récompenses)
+    warn_npc_not_found: '{prefix}<#d9a752>⚠ <#ffffff>Scène {stage}: PNJ ''{npc}'' introuvable dans npcs.yml'
+    warn_obj_prop: 'Attention : propriété de l''objet'
+    warn_objective_missing_prop: 'Objectif : propriété requise manquante ''{prop}'''
+    warn_stage_empty: La scène est vide
+    warn_stage_npc: Le PNJ de scène n'est pas configuré
+    warn_stage_prop: La scène a une propriété non valide
+    warn_unconfigured_stage: 'Scène {stage}: objectif ou matériel non configuré'
+  list:
+    clone_prompt: '<#ffd470>Entrez l''ID de la quête copiée :'
+    confirm_del_desc: Êtes-vous sûr de vouloir supprimer la quête {id}?
+    confirm_del_title: ✖ Supprimer la quête
+    error_clone: '{prefix}<#c96a6a>✖ <#ffffff>Erreur lors du clonage !'
+    error_clone_exists: '{prefix}<#c96a6a>✖ <#ffffff>Une quête avec cet identifiant existe déjà !'
+    error_create: '{prefix}<#c96a6a>✖ <#ffffff>Erreur lors de la création de la quête.'
+    filter_lore_next: <#a7ff99>LMB <#cccccc>- Mode suivant
+    filter_lore_prev: <#a7ff99>RMB <#cccccc>- Mode précédent
+    filter_lore_title: '<#a8a8a8>Modes de tri :'
+    filter_title: <#ffd470>Filtrer / Trier
+    item_clone: <#d9a752>Échange (F) <#cccccc>- Quête de clone
+    item_delete: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer la quête
+    item_edit: <#a7ff99>LMB <#cccccc>- Modifier la quête
+    item_engine: '<#a8a8a8>Moteur: <#7dd3ff>{engine}'
+    item_type: '<#a8a8a8>Taper: <#ffffff>{type}'
+    mode_cre_new: Créé (le plus récent en premier)
+    mode_cre_old: Créé (le plus ancien en premier)
+    mode_engine_chain: 'Filtre: CHAÎNE Moteur'
+    mode_engine_default: 'Filtre : moteur par défaut'
+    mode_engine_global: 'Filtre : Moteur GLOBAL'
+    mode_engine_rotation: 'Filtre : Moteur de ROTATION'
+    mode_id_asc: Par pièce d'identité (A-Z)
+    mode_id_desc: Par pièce d'identité (Z-A)
+    mode_issue: 'Filtre : A besoin d''attention'
+    mode_mod_new: Modifié (le plus récent en premier)
+    mode_mod_old: Modifié (le plus ancien en premier)
+    mode_type: Par type de quête
+    msg_clone_success: '{prefix}<#78b185>✔ <#ffffff>Quête clonée avec succès en tant que <#ffffff>{id}'
+    msg_del_success: '{prefix}<#78b185>✔ <#ffffff>Quête {id} <#79d679>supprimé avec succès !'
+    search_all: '<#a8a8a8>Recherche: <#ffffff>Tous'
+    search_click: <#a7ff99>LMB <#cccccc>- Rechercher (ou effacer)
+    search_prompt: '<#ffd470>Saisissez le texte pour rechercher des quêtes (ou effacez) :'
+    search_query: '<#a8a8a8>Recherche: <#ffffff>{query}'
+  list_string_editor:
+    add_lore: <#a7ff99>LMB <#cccccc>- Saisissez du texte.
+    add_lore_empty: <#a7ff99>RMB <#cccccc>- Créer une ligne vide
+    delete_confirm_item: Supprimer la ligne
+    delete_confirm_msg: '<#ffd470>Etes-vous sûr de vouloir supprimer la ligne #{index}?'
+    delete_confirm_title: '&0Supprimer la ligne'
+    item_clone: <#d9a752>Échange (F) <#cccccc>- Cloner la ligne
+    item_delete: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer la ligne
+    item_edit: <#a7ff99>LMB <#cccccc>- Modifier la ligne
+    item_format: '<#ffffff>Doubler #{index}'
+    item_move_down: <#ffe999>Maj+RMB <#cccccc>- Descendre
+    item_move_up: <#ffe999>Maj+LMB <#cccccc>- Monter
+    prompt_add: '<#ffd470>Saisissez le texte de la nouvelle ligne :'
+    prompt_edit: 'Ligne d''édition :'
+  main_menu:
+    add_lore_empty: <#ffe999>RMB <#cccccc>- Créer une ligne vide
+    back: <#ed6868>Retourner
+    btn_check_lore: <#cccccc>Exécute une analyse détaillée de la configuration dans le chat.
+    btn_check_title: <#ffe999>Vérifier les erreurs
+    btn_preview_lore: <#cccccc>Affiche la quête telle que les joueurs la voient.
+    btn_preview_title: <#7dd3ff>Aperçu
+    btn_save_changes: ' <#ffd470>(* Modifications)'
+    btn_save_lore_unsaved: <#ffd470>LMB <#cccccc>- Enregistrer les modifications
+    btn_save_lore_saved: <#ffe999>Aucune modification non enregistrée
+    btn_save_title: <#55ff55>Enregistrer le fichier
+    cmd_lore:
+    - <#a8a8a8>Pour les textures d’éléments personnalisés.
+    - '<#a8a8a8>Valeur actuelle : <#ffffff>{cmd}'
+    cmd_prompt: '<#ffd470>Entrez le numéro de données du modèle personnalisé (ou 0) :'
+    cmd_title: <#ffd470>Modèle (données de modèle personnalisé)
+    cooldown_click: <#a7ff99>LMB (+1) / RMB (-1) / <#d9a752>Échange (F) <#cccccc>- Manuellement
+    cooldown_lore: '<#a8a8a8>Temps de recharge : <#ffffff>{time} <#a8a8a8>({secs}s)'
+    cooldown_none: Pas de temps de recharge
+    cooldown_title: <#ffd470>Refroidir
+    desc_click: <#a7ff99>LMB <#cccccc>- Modifier
+    desc_gui_title: '&0Description: '
+    desc_title: <#ffd470>Description de la quête
+    effects_activate_lore: '<#a8a8a8>Actuel: <#ffffff>{val}'
+    effects_activate_title: <#ffd470>Quête accepter l'effet
+    effects_click: <#a7ff99>LMB <#cccccc>- Changement
+    effects_click_drop: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer
+    effects_click_swap: <#d9a752>Échange (F) <#cccccc>- Manuellement
+    effects_complete_lore: '<#a8a8a8>Actuel: <#ffffff>{val}'
+    effects_complete_title: <#ffd470>Effet complet de la quête
+    effects_gui_selection_item_play: <#d9a752>Échange (F) <#cccccc>- Effet de jeu
+    effects_gui_selection_item_title: <#ffd470>Effet prédéfini
+    effects_gui_selection_title: '&0Sélectionner un préréglage d''effet'
+    effects_gui_title: '&0Effets de quête : '
+    effects_lore: <#a7ff99>LMB <#cccccc>- Configurer les préréglages d'effets
+    effects_stage_lore: '<#a8a8a8>Actuel: <#ffffff>{val}'
+    effects_stage_title: <#ffd470>Effet de changement de scène
+    effects_title: <#ffd470>Effets de quête
+    engine_lore: '<#a8a8a8>Choisi: <#ffffff>{engine}'
+    engine_title: <#ffd470>Moteur de quête
+    global_click: <#a7ff99>LMB <#cccccc>- Ouvrir
+    global_lore:
+    - <#a8a8a8>Pour les quêtes accomplies par tous les joueurs ensemble.
+    - <#a8a8a8>Fixer des limites et des étapes de récompense.
+    global_title: <#ffd470>Objectifs globaux du serveur
+    gui_title: '&0Édition : '
+    health_click: <#a7ff99>LMB <#cccccc>- Exécuter une vérification
+    health_lore: <#a8a8a8>Vérifie la configuration pour les erreurs et les champs manquants.
+    health_title: <#ffb366>Analyse de la santé des quêtes
+    icon_basehead_click: '&eÉchange (F) &8- &7Entrez la tête de base'
+    icon_click: <#a7ff99>LMB <#cccccc>- Changer d'icône
+    icon_click_left: <#a7ff99>LMB <#cccccc>- Sélectionnez le matériau de l'icône
+    icon_click_right: <#a7ff99>RMB <#cccccc>- Modifier les données de modèle personnalisé
+    icon_cmd: '<#a8a8a8>Données de modèle personnalisé : <#ffffff>{cmd}'
+    icon_lore: '<#a8a8a8>Choisi: <#ffffff>{icon}'
+    icon_mat: '<#a8a8a8>Matériel: <#ffffff>{mat}'
+    icon_title: <#ffd470>Icône de quête
+    id_click: <#a7ff99>LMB <#cccccc>- Changer d'identifiant
+    id_error_exists: '{prefix}<#c96a6a>✖ <#ffffff>Quête avec ID {id} existe déjà !'
+    id_error_invalid: '{prefix}<#c96a6a>✖ <#ffffff>Format d''identification invalide !'
+    id_lore: '<#a8a8a8>Identifiant actuel : <#ffffff>{id}'
+    id_name: <#ffd470>ID de quête
+    id_prompt: '<#ffd470>Entrez le nouvel identifiant de quête (par exemple my_quest) :'
+    id_title: <#ffd470>ID de quête
+    node_id_title: '<#ffd470>ID du nœud'
+    item_clone: <#d9a752>Échange (F) <#cccccc>- Cloner la ligne
+    item_move_down: <#ffe999>Maj+RMB <#cccccc>- Descendre
+    item_move_up: <#ffe999>Maj+LMB <#cccccc>- Monter
+    name_click: <#a7ff99>LMB <#cccccc>- Changement
+    name_lore: '<#a8a8a8>Actuel: <#ffffff>{name}'
+    name_missing: <#ed6868>Le nom de la quête est manquant !
+    name_prompt: '<#ffd470>Entrez le nom de la quête dans le chat :'
+    name_title: <#ffd470>Nom de la quête
+    name_title_has: <#ffd470>Nom de la quête
+    name_title_none: <#ed6868>Le nom de la quête est manquant !
+    not_specified: Non spécifié
+    page_lore: '<#a8a8a8>Page actuelle : <#ffffff>{page}'
+    page_prompt: '<#ffd470>Entrez la page (page, à partir de 1) :'
+    page_title: <#ffd470>Page
+    perm_click: <#a7ff99>LMB <#cccccc>- Changement
+    perm_lore: '<#a8a8a8>Autorisation: <#ffffff>{perm}'
+    perm_none: Non spécifié
+    perm_prompt: '<#ffd470>Entrez l''autorisation (ou aucune) :'
+    perm_title: <#ffd470>Autorisation requise
+    preview_click: <#a7ff99>LMB <#cccccc>- Ouvrir l'aperçu
+    preview_lore: <#a8a8a8>Afficher la quête telle que le joueur la voit dans le menu.
+    preview_title: <#7dd3ff>Quête d'aperçu
+    req_quests_add: <#79d679>Ajouter une quête
+    req_quests_add_lore: <#a7ff99>LMB <#cccccc>- Sélectionnez la quête dans la liste.
+    req_quests_click: <#a7ff99>LMB <#cccccc>- Modifier
+    req_quests_del: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer la quête
+    req_quests_edit: <#a7ff99>LMB <#cccccc>- Remplacer par une autre quête
+    req_quests_gui_title: '&0Précédent quêtes : '
+    req_quests_lore: <#a8a8a8>Quêtes qui doivent être terminées avant cela.
+    req_quests_title: <#ffd470>Exigences (Quêtes précédentes)
+    req_quests_unknown: <#ffffff>Quête inconnue ({id})
+    rew_desc_click: <#a7ff99>LMB <#cccccc>- Modifier
+    rew_desc_gui_title: '&0Description des récompenses : '
+    rew_desc_title: <#ffd470>Description des récompenses
+    rewards_click: <#a7ff99>LMB <#cccccc>- Ouvrir les paramètres de récompenses
+    rewards_gui_title: '&0Récompenses : '
+    rewards_lore: <#a7ff99>LMB <#cccccc>- Configurer les récompenses
+    rewards_title: <#ffd470>Récompenses de quête
+    rot_pool_click: <#a7ff99>LMB <#cccccc>- Changement
+    rot_pool_lore:
+    - <#a8a8a8>La quête sera choisie au hasard dans ce pool.
+    rot_pool_lore3: '<#a8a8a8>Actuel: <#ffffff>{pool}'
+    rot_pool_lore3_none: <#ed6868>Piscine non précisée. La quête ne sera pas en rotation.
+    rot_pool_prompt: '<#ffd470>Entrez le nom du pool (ou aucun) :'
+    rot_pool_title: <#ffd470>Pool de quêtes (pool de rotation)
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Erreur lors de l''enregistrement du fichier !'
+    save_success: '{prefix}<#78b185>✔ <#ffffff>Fichier de quête <#e2e8f0>{id} <#b0b8c1>enregistré avec succès !'
+    slot_click:
+    - <#a7ff99>LMB (+1) / RMB (-1)
+    - <#ffe999>Maj + LMB (+10) / <#ffe999>Maj + RMB (-10)
+    - <#d9a752>Échange (F) <#cccccc>- Entrez manuellement
+    slot_lore: '<#a8a8a8>Emplacement actuel : <#ffffff>{slot}'
+    slot_prompt: '<#ffd470>Entrez l''emplacement (emplacement, de 0 à 54) :'
+    slot_title: <#ffd470>Fente
+    stages_click: <#a7ff99>LMB <#cccccc>- Modifier les étapes et les objectifs
+    stages_count: '<#a8a8a8>Nombre d''étapes : <#ffffff>{count}'
+    stages_lore: '<#a8a8a8>Nombre d''étapes : <#ffffff>{count}'
+    stages_title: <#ffd470>Étapes (objectifs)
+    stages_title_has: <#ffd470>Étapes (objectifs)
+    stages_title_none: <#ed6868>Aucune étape de quête !
+    type_click: <#a7ff99>LMB <#cccccc>- Sélectionnez un autre type
+    type_lore_engine: '<#a8a8a8>Moteur: <#ffffff>{engine}'
+    type_lore_type: '<#a8a8a8>Taper: <#ffffff>{type}'
+    type_title: <#ffd470>Changer le type de quête
+  msg_reward:
+    click_clone: <#d9a752>Échange (F) <#cccccc>- Cloner
+    click_delete: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer
+    click_edit: <#a7ff99>LMB <#cccccc>- Modifier le message
+    click_move_down: <#ffe999>Maj+RMB <#cccccc>- Descendre
+    click_move_up: <#ffe999>Maj+LMB <#cccccc>- Monter
+    click_set_level: <#d9a752>1-9 <#cccccc>- Définir le niveau d'effet
+    item_format: '<#79d679>Message #{index}'
+    node_id_prompt: 'Saisissez le nouvel ID de nœud :'
+    opt_edit_prompt_sound: 'Entrez Bukkit Sound (ou "aucun") :'
+    action_console_prompt: 'Entrez la commande de console (sans /) :'
+    action_player_prompt: 'Entrez la commande du joueur (sans /) :'
+    action_raw_prompt: 'Saisissez la chaîne d''action brute :'
+    cond_raw_prompt: 'Saisissez la chaîne de condition brute :'
+    nodes_edit_gui_title: '&0Nœud: '
+  npc_list:
+    create_click_left: <#a7ff99>LMB <#cccccc>- Créer un nouveau PNJ
+    create_click_right: <#a7ff99>RMB <#cccccc>- Lier un PNJ existant
+    create_existing_prompt: '<#ffd470>Entrez l''ID exact du PNJ EXISTANT issu de l''intégration (par ex. <#ffffff>1<#ffd470>) :'
+    create_prompt: '<#ffd470>Entrez le nouvel identifiant de PNJ (par ex. <#ffffff>marchand_1<#ffd470>) :'
+    delete_click: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer le PNJ
+    dialogue_lore: '<#a8a8a8>Dialogue: <#ff99d4>{dialogue}'
+    edit_click: <#a7ff99>LMB <#cccccc>- Modifier le PNJ
+    id_lore: '<#a8a8a8>IDENTIFIANT: <#ffffff>{id}'
+    old_create_prompt: '<#ffd470>Entrez le nouvel identifiant de PNJ (par ex. <#ffffff>marchand_1<#ffd470>) :'
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Erreur lors de l''enregistrement de npcs.yml !'
+  npc_main:
+    default_mood_lore:
+    - '&7Actuel: <#fff9c4>{mood}'
+    - '&eCliquez pour changer l''ambiance par défaut'
+    default_mood_prompt: 'Saisissez votre humeur (par exemple, NEUTRE, HEUREUX, EN COLÈRE) :'
+    default_mood_title: <#ffeb3b>Humeur par défaut
+    delete_confirm_desc: <#a8a8a8>Êtes-vous sûr de vouloir supprimer ce PNJ ?
+    delete_confirm_item: <#ed6868>Supprimer le PNJ
+    delete_confirm_title: <#ed6868>Confirmer la suppression
+    delete_right_click_warn: <#ff7070>RMB <#cccccc>- Supprimer le PNJ
+    dialogue_click:
+    - <#a7ff99>LMB <#cccccc>- Sélectionnez dans la liste de dialogue
+    - <#a7ff99>RMB <#cccccc>- Entrez votre identifiant dans le chat
+    dialogue_gui_title: '&8Sélection des dialogues'
+    dialogue_lore: '<#a8a8a8>Dialogue: <#ffffff>{dialogue}'
+    dialogue_none_title: '&cDissocier le dialogue'
+    dialogue_prompt: '<#ffd470>Entrez l''ID de dialogue à partir de dialogues.yml (ou aucun) :'
+    dialogue_select_click: '&eCliquez pour sélectionner cette boîte de dialogue'
+    dialogue_title: <#ffd470>Dialogue lié
+    error_number: Numéro invalide !
+    finishes_quests_lore: <#a8a8a8>Quêtes spécifiques que ce PNJ termine.
+    finishes_quests_title: <#ffd470>Quêtes spécifiques (Finitions)
+    finishes_types_lore: <#a8a8a8>Types de quêtes que ce PNJ termine.
+    finishes_types_title: <#ffd470>Types de quêtes (fins)
+    head_click: <#a7ff99>LMB <#cccccc>- Prendre de la main ou discuter
+    head_lore: '<#a8a8a8>Actuel: <#ffffff>{head}'
+    head_lore_current: '<#a8a8a8>Actuel: <#ffffff>{current}'
+    head_prompt: '<#ffd470>Entrez la texture base64 ou "aucune" :'
+    head_texture_lore:
+    - '&7Actuel: <#dcedc1>{head}'
+    - '&eCliquez pour changer la texture base64'
+    head_texture_prompt: 'Entrez la texture de la tête en base64 ou "aucune" :'
+    head_texture_title: <#a8e6cf>Texture de la tête
+    head_title: <#ffd470>Texture de la tête
+    id_click: <#a7ff99>LMB <#cccccc>- Changer l'ID du PNJ
+    id_lore: '<#a8a8a8>Identifiant actuel : <#ffffff>{id}'
+    id_title: <#ffd470>ID (Identifiant)
+    node_id_title: '<#ffd470>ID du nœud'
+    linked_blocked_by_quests: <#ff5252>Impossible, car vous avez déjà lié des quêtes spécifiques !
+    linked_blocked_by_types: <#ff5252>Impossible, car vous avez déjà lié des types de quêtes !
+    linked_config_error_last: '&cLa quête/le type doit au moins être donné ou terminé ! Pour le supprimer, appuyez sur la touche Drop (Q) dans la liste.'
+    linked_config_finishes: <#81c784>Termine la quête/le type
+    linked_config_finishes_lore: <#a8a8a8>S'il est activé, ce PNJ pourra accepter la quête terminée.
+    linked_config_starts: <#a7ff99>Commence la quête/le type
+    linked_config_starts_lore: <#a8a8a8>S'il est activé, ce PNJ pourra donner la quête.
+    linked_config_title: '&0Paramètres'
+    linked_delete_desc: Etes-vous sûr de vouloir supprimer {id} de la liste liée ?
+    linked_delete_item: <#ff4d4d>Confirmer la suppression
+    linked_delete_title: '&0Confirmer la suppression'
+    linked_item_click: <#a7ff99>LMB <#cccccc>- Configurer
+    linked_item_drop: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer
+    linked_item_quest_name: '<#ffd470>Quête: <#ffffff>{id}'
+    linked_item_type_name: '<#ffd470>Taper: <#ffffff>{id}'
+    linked_quests_list_title: '&0Quêtes liées'
+    linked_quests_lore: <#a8a8a8>Les PNJ pourront donner ou terminer les quêtes spécifiées.
+    linked_quests_title: <#ffab91>Lier des quêtes spécifiques
+    linked_selection_click: <#ffe999>Cliquez pour configurer
+    linked_selection_gui_title: '&0Quêtes/Types liés'
+    linked_selection_item_title: <#ffd470>Quêtes/Types liés
+    linked_selection_lore: '<#a8a8a8>Configurer les quêtes et les types,<#a8a8a8>que ce PNJ donne ou termine.'
+    linked_types_list_title: '&0Types de quêtes liées'
+    linked_types_lore: <#a8a8a8>Les PNJ pourront donner ou terminer n'importe quelle quête des types spécifiés.
+    linked_types_title: <#90caf9>Lier les types de quêtes
+    mood_click: <#a7ff99>LMB / <#a7ff99>RMB <#cccccc>- Changer d'humeur
+    mood_lore: '<#a8a8a8>Affecte l''animation des PNJ.\n<#a8a8a8>Actuel: <#ffffff>{mood}'
+    mood_lore_current: '<#a8a8a8>Actuel: <#ffffff>{current}'
+    mood_prompt: '<#ffd470>Saisissez votre humeur (par exemple NEUTRE, HEUREUX, EN COLÈRE) :'
+    mood_rule_conds: '&7Conditions: &e{count}'
+    mood_rule_delete: '&cLaisser tomber (Q) &7supprimer cette règle'
+    mood_rule_edit_tip: '&c(Pour ajouter/modifier, utilisez npcs.yml)'
+    mood_rule_item_title: '&eRègle #{index}: &6{mood}'
+    mood_rule_priority: '&7Priorité: &e{priority}'
+    mood_rules_add_lore: '&7Pour l''instant, des règles complexes peuvent être ajoutées'
+    mood_rules_add_lore2: '&7uniquement manuellement via la configuration npcs.yml.'
+    mood_rules_add_title: '&aAjouter une règle d''humeur'
+    mood_rules_back: '&cDos'
+    mood_rules_back_lore: '&7Retourner au PNJ'
+    mood_rules_gui_title: '&8Règles d''humeur : &1{id}'
+    mood_rules_lore:
+    - '&7Configuration des règles avancées'
+    - '&7en fonction de la progression ou du temps de la quête.'
+    - '&eCliquez pour voir les règles'
+    mood_rules_title: <#ffeb3b>Règles d'humeur
+    mood_title: <#ffd470>Ambiance par défaut
+    name_click: <#a7ff99>LMB <#cccccc>- Changement
+    name_lore: '<#a8a8a8>Actuel: '
+    name_prompt: '<#ffd470>Entrez le nom du PNJ (par ex. <#d0a775>Gustave):'
+    name_title: <#ffd470>Nom d'affichage du PNJ
+    offset_click:
+    - '<#a7ff99>LMB <#cccccc>- ajouter 0,1'
+    - '<#a7ff99>RMB <#cccccc>- soustraire 0,1'
+    - '<#ffe999>Maj+LMB <#cccccc>- ajouter 2,5'
+    - '<#ffe999>Maj+RMB <#cccccc>- soustraire 2,5'
+    - '<#d9a752>Échange (F) <#cccccc>- saisie exacte'
+    - '<#ed6868>Laisser tomber (Q) <#cccccc>- réinitialiser'
+    offset_lore:
+    - <#a8a8a8>Configuration de la hauteur de l'icône au-dessus du PNJ.
+    - '<#a8a8a8>Décalage actuel : <#ffffff>{offset}'
+    offset_prompt: '<#ffd470>Entrez le numéro de décalage de l''hologramme (par exemple 0,6) :'
+    offset_title: <#ffd470>Hauteur de l'hologramme (décalage Y)
+    select_quest_title: '&0Sélectionnez une quête'
+    select_type_title: '&0Sélectionnez le type de quête'
+    starts_quests_lore: <#a8a8a8>Quêtes spécifiques que ce PNJ démarre.
+    starts_quests_title: <#ffd470>Quêtes spécifiques (départs)
+    starts_types_lore: <#a8a8a8>Types de quêtes que ce PNJ démarre.
+    starts_types_title: <#ffd470>Types de quêtes (départs)
+    title_click: <#a7ff99>LMB <#cccccc>- Changement
+    title_lore: '<#a8a8a8>Actuel: '
+    title_prompt: '<#ffd470>Saisissez le titre du menu (par ex. <#1c1c1c>{npc} - Tâches quotidiennes) :'
+    title_not_set: '<#ed6868>Non défini'
+    title_title: <#ffd470>Titre du menu de quête
+    tp_lore: <#a8a8a8>Vous téléporte au PNJ (s'il apparaît).
+    tp_title: <#ffd470>Téléportation vers un PNJ
+    types_click: <#a7ff99>LMB <#cccccc>- Modifier la liste des types
+    types_lore:
+    - <#a8a8a8>Types de quêtes que ce PNJ démarre.
+    - '<#a8a8a8>Types : <#ffffff>{types}'
+    types_more: ' <#6e6e6e>(+{count} plus)'
+    types_none: Aucun
+    types_title: <#ffd470>Quêtes de PNJ (types)
+    validation_lore: '&7Cliquez pour vérifier les erreurs'
+    validation_title: <#52de7d>Valider le PNJ
+    voice_click: <#a7ff99>LMB <#cccccc>- Changement
+    voice_lore: '<#a8a8a8>Actuel: <#ffffff>{voice}'
+    voice_prompt: '<#ffd470>Entrez le type de son (villageois, aucun ou son personnalisé) :'
+    voice_title: <#ffd470>Son d'interaction (voix)
+  npc_voice:
+    custom_lore: <#a8a8a8>Entrez manuellement l'ID sonore Minecraft.
+    custom_prompt: '<#ffd470>Saisissez l''identifiant du son (par exemple,entity.villager.trade) :'
+    custom_title: <#ffd470>Son personnalisé
+    delete_right_click_warn: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer
+    dialogue_gui_title: '&0Sélectionnez le dialogue pour le PNJ'
+    dialogue_missing: <#ed6868>Le dialogue avec cet identifiant est manquant dans dialogues.yml !
+    dialogue_none_title: <#ed6868>Dissocier le dialogue (aucun)
+    dialogue_select_click: <#a7ff99>LMB <#cccccc>- Lier ce dialogue
+    id_click: <#a7ff99>LMB <#cccccc>- Changer l'ID du PNJ
+    id_exists: <#ed6868>PNJ avec ID {id} existe déjà !
+    id_lore: '<#a8a8a8>Identifiant actuel : <#ffffff>{id}'
+    id_prompt: '<#ffd470>Entrez le nouvel identifiant de PNJ (par exemple tavern_keeper) :'
+    id_success: '{prefix}<#78b185>✔ <#ffffff>L''ID du PNJ a été modifié avec succès en <#ffffff>{id}'
+    id_title: <#ffd470>ID PNJ
+    node_id_title: '<#ffd470>ID du nœud'
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Erreur lors de l''enregistrement de npcs.yml : {msg}'
+    save_lore:
+    - <#ffd470>Il y a des modifications non enregistrées ! Cliquez pour enregistrer.
+    - <#a8a8a8>Aucune modification non enregistrée.
+    select_click: <#a7ff99>LMB <#cccccc>- Sélectionnez cette voix
+    selected: Choisi
+    title: '&0Sélectionnez la voix du PNJ'
+    types_gui_title: '&0Types de PNJ : '
+    warn_unlinked: Le dialogue est prêt, mais associez-le à un PNJ dans le menu !
+  preview:
+    title: '&0Aperçu'
+  prompts:
+    enter_id: '<#ffd470>Entrez le nouvel identifiant de quête (par exemple my_quest) :'
+    enter_name: '<#ffd470>Entrez le nouveau nom de la quête :'
+    enter_perm: '<#ffd470>Entrez l''autorisation (ou aucune) :'
+    id_exists: Quête avec ID {id} existe déjà !
+    saved_success: '{prefix}<#78b185>✔ <#ffffff>Modifications de la quête {id} enregistré avec succès dans un fichier !'
+  rewards_menu:
+    add_item: <#79d679>Ajouter un article
+    add_item_lore: <#cccccc>Cliquez pour sélectionner un objet de récompense.
+    attr_click: <#a7ff99>LMB <#cccccc>- Modifier la section des attributs
+    attr_gui_title: '&0Liste des attributs'
+    attr_lore:
+    - <#cccccc>Paramètres des attributs
+    attr_title: <#f4a261>Attributs
+    attrs_gui: '&0Liste des attributs'
+    brd_click: <#a7ff99>LMB <#cccccc>- Modifier les émissions
+    brd_gui: '&0Messages diffusés'
+    brd_lore: '<#cccccc>Les diffusions comptent : <#ffffff>{count}'
+    brd_title: <#99ffff>Messages diffusés
+    chance_click: <#a7ff99>LMB <#cccccc>- Modifier la section chance
+    chance_gui_title: '&0Récompenses avec Chance'
+    chance_lore:
+    - <#cccccc>Paramètres de probabilité de récompense
+    chance_title: <#ffaaaa>Chance
+    click_del: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer
+    click_set: <#a7ff99>LMB <#cccccc>- Définir la valeur
+    cmd_click: <#a7ff99>LMB <#cccccc>- Modifier les commandes
+    cmd_gui: '&0Commandes de récompense'
+    cmd_lore: '<#cccccc>Les commandes comptent : <#ffffff>{count}'
+    cmd_title: <#ff9999>Commandes
+    confirm_del_desc: '&fÊtes-vous sûr de vouloir supprimer cette valeur ?'
+    confirm_del_title: ✖ Confirmer la suppression
+    eff_click: <#a7ff99>LMB <#cccccc>- Modifier les effets
+    eff_gui: '&0Effets de récompense'
+    eff_lore: '<#cccccc>Nombre d''effets : <#ffffff>{count}'
+    eff_title: <#ff99ff>Effets
+    effs_title: <#b19cd9>Effets
+    hand_added: 'Article ajouté : {name} x{amount}'
+    hand_btn_lore: <#a8a8a8>Prenez un objet en main et cliquez ici,
+    hand_btn_lore2: <#a8a8a8>pour l'enregistrer avec toutes les balises NBT.
+    hand_btn_title: <#79d679>Ajouter un objet de la main
+    hand_empty: Votre main est vide ! Prenez un objet dans votre main.
+    items_click: <#a7ff99>LMB <#cccccc>- Modifier la liste
+    items_gui: '&0Objets de récompense'
+    items_lore: '<#cccccc>Nombre d''articles : <#ffffff>{count}'
+    items_title: <#99ccff>Articles
+    money_title: <#e9c46a>Argent
+    money_title_has: <#ffd470>Argent (économie)
+    money_title_none: <#a8a8a8>Argent (économie) [Aucun]
+    msg_click: <#a7ff99>LMB <#cccccc>- Modifier les messages
+    msg_gui: '&0Messages de récompense'
+    msg_lore: '<#cccccc>Les messages comptent : <#ffffff>{count}'
+    msg_title: <#ffff99>Messages privés
+    prompt_custom_key: '<#ffe999>Saisissez la clé de récompense personnalisée :'
+    prompt_custom_val: '<#a8a8a8>Entrez la valeur de la clé <#ffffff>{key}<#ffe999>:'
+    prompt_money: '<#ffe999>Entrez le montant d''argent (Coffre-fort) :'
+    prompt_xp: '<#ffe999>Entrez le montant de l''expérience :'
+    selector_cmd_lore: <#a7ff99>LMB <#cccccc>- Créer/modifier une liste de commandes
+    selector_cmd_title: <#ffe999>Commandes (commandes)
+    selector_custom_lore: <#a7ff99>LMB <#cccccc>- Entrez la clé personnalisée manuellement
+    selector_custom_title: <#ffe999>Clé personnalisée (personnalisée)
+    selector_items_lore: <#a7ff99>LMB <#cccccc>- Créer/modifier une liste d'articles
+    selector_items_title: <#ffe999>Articles (articles)
+    selector_money_lore: <#a7ff99>LMB <#cccccc>- Ajouter le montant du coffre-fort
+    selector_money_title: <#ffe999>Argent (argent)
+    selector_title: '&0Sélectionnez le type de récompense'
+    selector_xp_lore: <#a7ff99>LMB <#cccccc>- Ajouter de l'expérience
+    selector_xp_title: <#ffe999>Expérience (xp)
+    silent_click: <#a7ff99>LMB <#cccccc>- Mode bascule
+    silent_click_lmb: <#a7ff99>LMB <#cccccc>- Basculer
+    silent_click_sub: <#a7ff99>LMB <#cccccc>- Ouvrir les paramètres
+    silent_lore: '<#cccccc>Configurer pour quelles récompenses<#cccccc>les messages de discussion seront désactivés.'
+    silent_mute: '&cMolette de la souris – Désactiver les messages'
+    silent_off: <#cccccc>Désactivé (les messages sont affichés)
+    silent_on: <#a7ff99>Activé (les messages de récompense sont masqués)
+    silent_title: <#ffaaaa>Paramètres des messages
+    silent_unmute: '&aMolette de la souris - Activer les messages'
+    val_has: '<#cccccc>Valeur actuelle : <#ffffff>{val}'
+    val_none: <#888888>Aucune récompense.
+    xp_title_has: <#a7ff99>Expérience (XP)
+    xp_title_none: <#a8a8a8>Expérience (XP) [Aucun]
+    xp_toggle_mode: <#d9a752>Ctrl + Déposer (Q) <#cccccc>- Changer de mode (XP/Niveaux)
+  rot_pool_gui:
+    custom_pool_lore: <#a8a8a8>Cliquez pour saisir le nom du pool personnalisé dans le chat.
+    custom_pool_title: <#79d679>Entrez dans le pool personnalisé
+    pool_click: <#a7ff99>LMB <#cccccc>- Sélectionnez cette piscine
+    pool_item: '<#ffd470>Piscine: <#ffffff>{pool}'
+    pool_lore: '<#a8a8a8>Quêtes en pool : <#ffffff>{count}'
+    title: '&0Sélection du pool de quêtes'
+  silent_settings:
+    global_title: <#ffaaaa>Mode silencieux global
+    title: Mode silencieux | {id}
+  stages_menu:
+    add_mats_title: <#79d679>Ajouter une étape matérielle
+    add_obj_click_lkm: <#a7ff99>LMB <#cccccc>- Ajouter un objectif régulier
+    add_obj_click_pkm: <#a7ff99>RMB <#cccccc>- Ajouter une étape de livraison de l'article
+    add_obj_lore:
+    - <#cccccc>Ajoute une nouvelle étape à la quête.
+    add_obj_title: <#79d679>Ajouter une étape
+    click_open: <#a7ff99>LMB <#cccccc>- Ouvrir
+    delete_confirm_msg: Etes-vous sûr de vouloir supprimer l'étape {key}?
+    delete_confirm_title: '&0Supprimer l''étape'
+    edit_stage_title: '&0Étape d''édition : {key}'
+    empty_lore:
+    - <#a8a8a8>Cliquez sur le bloc vert à droite pour
+    - <#a8a8a8>ajoutez votre première étape.
+    empty_title: <#ed6868>La liste des étapes est vide
+    err_save: Erreur lors de l'enregistrement du fichier de quête !
+    global_1stage_limit: <#cccccc>Les quêtes globales ne peuvent avoir qu'une seule étape !
+    info_amount: '&7Montant: <#ffffff>{amount}'
+    info_materials_count: '&7Articles: <#ffffff>&e{count}'
+    info_npc: '&7PNJ : <#ffffff>{npc}'
+    info_targets: '&7Cibles : <#ffffff>{targets}'
+    info_type: '&7Taper: <#ffffff>{type}'
+    info_type_materials: '&7Taper: <#ffffff>Livraison de l''article'
+    info_type_unknown: '&7Taper: &8Non défini'
+    mats_title: '&0Matériels: {key}'
+    obj_time_format: '<#a8a8a8>Temps: <#ffffff>{time}'
+    obj_title: '&0Objectif: {key}'
+    stage_click_delete: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer
+    stage_click_down: <#ffe999>Maj + RMB <#cccccc>- Descendre ⬇
+    stage_click_duplicate: <#d9a752>Échange (F) <#cccccc>- Étape en double
+    stage_click_edit: <#a7ff99>LMB <#cccccc>- Modifier
+    stage_click_up: <#ffe999>Maj + LMB <#cccccc>- Monter ⬆
+    stage_duplicated: Scène {key} dupliqué avec succès !
+    stage_item: '<#a8a8a8>Scène: <#e0e0e0>{key}'
+  title_global_settings: '&0Paramètres du moteur : {id}'
+  title_list: '&0Liste des quêtes ({count})'
+  title_main: '&0Éditeur de quête : {id}'
+  title_materials: '&0Matériel requis'
+  title_objective: '&0Objectif: {id}'
+  title_rewards: '&0Récompenses : {id}'
+  title_stages: '&0Étapes de quête : {id}'
+quest_type_editor:
+  clone_prompt: Entrez l'ID pour la copie de type (sans espaces)
+  confirm_del_desc: Êtes-vous sûr de vouloir supprimer le type {id}?
+  confirm_del_gui_title: '&0Type de suppression : {id}'
+  confirm_del_title: ✖ Supprimer le type
+  entity_list:
+    add_new_lore: <#a7ff99>LMB <#cccccc>- Ajouter une nouvelle entité
+    click_del: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer l'entité
+    click_edit: <#a7ff99>LMB <#cccccc>- Changer d'entité
+  entity_selector:
+    click: <#a7ff99>LMB <#cccccc>- Sélectionnez l'entité
+    title: '&0Sélectionnez une foule/une entité'
+  error_clone: '{prefix}<#c96a6a>✖ <#ffffff>Type de clonage d’erreur.'
+  error_clone_exists: '{prefix}<#c96a6a>✖ <#ffffff>Erreur : Le type avec cet ID existe déjà !'
+  error_create: '{prefix}<#c96a6a>✖ <#ffffff>Erreur lors de la création du fichier !'
+  error_save: '{prefix}<#c96a6a>✖ <#ffffff>Erreur lors de l''enregistrement du fichier de type :'
+  global_settings:
+    error_not_number: Entrez un numéro !
+    limit_click: <#79d679>Cliquez pour changer
+    limit_lore:
+    - '<#a8a8a8>Clé: <#ffffff>limite personnelle'
+    - '<#a8a8a8>Actuel: <#ffffff>{val}'
+    limit_prompt: '<#ffd470>Entrez une nouvelle valeur pour la limite personnelle :'
+    limit_title: <#ffd470>Limite personnelle
+    max_p_click: <#79d679>Cliquez pour changer
+    max_p_lore:
+    - '<#a8a8a8>Clé: <#ffffff>nombre maximum de participants'
+    - '<#a8a8a8>Actuel: <#ffffff>{val}'
+    max_p_prompt: '<#ffd470>Entrez une nouvelle valeur pour le nombre maximum de participants :'
+    max_p_title: <#ffd470>Nombre maximum de participants
+    min_p_click: <#79d679>Cliquez pour changer
+    min_p_lore:
+    - '<#a8a8a8>Clé: <#ffffff>min-participants'
+    - '<#a8a8a8>Actuel: <#ffffff>{val}'
+    min_p_prompt: '<#ffd470>Entrez une nouvelle valeur pour le nombre minimum de participants :'
+    min_p_title: <#ffd470>Nombre minimum de participants
+    step_click: <#a7ff99>LMB <#cccccc>- Changement
+    step_lore:
+    - '<#a8a8a8>Clé: <#ffffff>étape de récompense'
+    - '<#a8a8a8>Valeur: <#ffffff>{val}'
+    step_prompt: '<#ffd470>Entrez le nouveau numéro pour l''étape de récompense :'
+    step_title: <#ffd470>Étape de récompense
+    title: '<#a8a8a8>Paramètres du moteur : <#ffffff>{id}'
+  health_check:
+    desc_has_errors: <#a8a8a8>Erreurs de configuration trouvées !
+    desc_no_errors: <#a8a8a8>Aucune erreur trouvée !
+    err_no_name: Nom d'affichage du type non défini
+    err_no_pools: Aucun pool de quêtes créé pour la rotation
+    err_no_rotation_period: Intervalle zéro spécifié pour la rotation
+    success: '{prefix}<#78b185>✔ <#ffffff>Tapez configuré avec succès !'
+    title: '<#b0b8c1>=== <#6aa0c9>Statut du type : <#e2e8f0>{id} <#b0b8c1>==='
+    title_warning: <#ed6868>Problèmes trouvés ({count})
+  id_exists: Le type de quête avec cet ID existe déjà !
+  list:
+    clone_prompt: '<#ffd470>Entrez l''ID de la quête copiée :'
+    confirm_del_desc: Êtes-vous sûr de vouloir supprimer la quête {id}?
+    confirm_del_title: ✖ Supprimer la quête
+    error_clone: '{prefix}<#c96a6a>✖ <#ffffff>Erreur de clonage !'
+    error_clone_exists: '{prefix}<#c96a6a>✖ <#ffffff>La quête avec cet ID existe déjà !'
+    error_create: '{prefix}<#c96a6a>✖ <#ffffff>Erreur lors de la création de la quête.'
+    filter_lore_next: <#a7ff99>LMB <#cccccc>- Mode suivant
+    filter_lore_prev: <#a7ff99>RMB <#cccccc>- Mode précédent
+    filter_lore_title: '<#a8a8a8>Modes de tri :'
+    filter_title: <#ffd470>Filtrer / Trier
+    item_clone: <#d9a752>Échange (F) <#cccccc>- Quête de clone
+    item_delete: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer la quête
+    item_edit: <#a7ff99>LMB <#cccccc>- Modifier la quête
+    item_engine: '<#a8a8a8>Moteur: <#7dd3ff>{engine}'
+    item_type: '<#a8a8a8>Taper: <#ffffff>{type}'
+    mode_cre_new: Créé (le plus récent en premier)
+    mode_cre_old: Créé (le plus ancien en premier)
+    mode_engine_chain: 'Filtre: moteur CHAÎNE'
+    mode_engine_default: 'Filtre : Moteur PAR DÉFAUT'
+    mode_engine_global: 'Filtre : Moteur GLOBAL'
+    mode_engine_rotation: 'Filtre : moteur ROTATION'
+    mode_id_asc: Par pièce d'identité (A-Z)
+    mode_id_desc: Par pièce d'identité (Z-A)
+    mode_issue: 'Filtre : A besoin d''attention'
+    mode_mod_new: Modifié (le plus récent en premier)
+    mode_mod_old: Modifié (le plus ancien en premier)
+    mode_type: Par type de quête
+    msg_clone_success: '{prefix}<#78b185>✔ <#ffffff>Quête clonée avec succès en tant que <#ffffff>{id}'
+    msg_del_success: '{prefix}<#78b185>✔ <#ffffff>Quête {id} <#79d679>supprimé avec succès !'
+    search_all: '<#a8a8a8>Recherche: <#ffffff>Tous'
+    search_click: <#a7ff99>LMB <#cccccc>- Rechercher (ou effacer)
+    search_prompt: '<#ffd470>Saisissez le texte pour rechercher des quêtes (ou effacez) :'
+    search_query: '<#a8a8a8>Recherche: <#ffffff>{query}'
+  list_string_editor:
+    add_lore: <#a7ff99>LMB <#cccccc>- Saisissez du texte.
+    add_lore_empty: <#a7ff99>RMB <#cccccc>- Créer une chaîne vide
+    delete_confirm_item: Supprimer la chaîne
+    delete_confirm_msg: '<#ffd470>Etes-vous sûr de vouloir supprimer la chaîne #{index}?'
+    delete_confirm_title: '&0Supprimer la chaîne'
+    item_clone: <#d9a752>Échange (F) <#cccccc>- Cloner une chaîne
+    item_delete: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer la chaîne
+    item_edit: <#a7ff99>LMB <#cccccc>- Modifier la chaîne
+    item_format: '<#ffffff>Chaîne #{index}'
+    item_move_down: <#ffe999>Maj+RMB <#cccccc>- Descendre
+    item_move_up: <#ffe999>Maj+LMB <#cccccc>- Monter
+    prompt_add: '<#ffd470>Saisissez le texte de la nouvelle chaîne :'
+    prompt_edit: 'Chaîne d''édition :'
+  main_menu:
+    add_lore_empty: <#a7ff99>RMB <#cccccc>- Créer une chaîne vide
+    back: <#ed6868>Retourner
+    btn_check_lore: <#cccccc>Exécute une analyse détaillée de la configuration dans le chat.
+    btn_check_title: <#ffe999>Vérifier les erreurs
+    btn_preview_lore: <#cccccc>Affiche la quête telle que les joueurs la voient.
+    btn_preview_title: <#7dd3ff>Aperçu
+    btn_save_changes: ' <#ffd470>(* Modifications)'
+    btn_save_lore_unsaved: <#ffd470>LMB <#cccccc>- Enregistrer les modifications
+    btn_save_lore_saved: <#ffe999>Aucune modification non enregistrée
+    btn_save_title: <#55ff55>Enregistrer le fichier
+    chain_click: <#a7ff99>LMB <#cccccc>- Basculer
+    chain_lore: '<#a8a8a8>Statut: {chain}'
+    chain_title: <#ffd470>Don automatique suivant
+    cmd_click:
+    - <#a7ff99>LMB (+1) / RMB (-1) <#cccccc>- Changement
+    - <#ffe999>Maj+LMB (+10) / Maj+RMB (-10)
+    - <#d9a752>Échange (F) <#cccccc>- Entrez le numéro
+    - <#ed6868>Laisser tomber (Q) <#cccccc>- Effacer (0)
+    cmd_lore:
+    - <#a8a8a8>Pour les textures d’éléments personnalisés.
+    - '<#a8a8a8>Valeur actuelle : <#ffffff>{cmd}'
+    cmd_prompt: '<#ffd470>Entrez le numéro de données du modèle personnalisé (ou 0) :'
+    cmd_title: <#ffd470>Modèle (données de modèle personnalisé)
+    cooldown_click:
+    - <#a7ff99>LMB <#cccccc>- Ensemble
+    - <#ed6868>Laisser tomber (Q) <#cccccc>- Clair
+    - <#ffe999>Maj + LMB <#cccccc>- Modifier
+    cooldown_lore: '<#a8a8a8>Temps: <#ffffff>{time}'
+    cooldown_none: <#a8a8a8>Aucun
+    cooldown_title: <#ffd470>Refroidir
+    desc_click: <#a7ff99>LMB <#cccccc>- Modifier
+    desc_gui_title: 'Description: '
+    desc_title: <#ffd470>Description de la quête
+    engine_click: <#a7ff99>LMB <#cccccc>- Changer de moteur
+    engine_lore: '<#a8a8a8>Choisi: <#ffffff>{engine}'
+    engine_title: <#ffd470>Moteur de type de quête
+    folder_click: <#a7ff99>LMB <#cccccc>- Changer de chemin
+    folder_lore: '<#a8a8a8>Chemin: <#ffffff>{folder}'
+    folder_title: <#ffd470>Dossier de quêtes
+    global_click: <#a7ff99>LMB <#cccccc>- Ouvrir
+    global_lore:
+    - <#a8a8a8>Pour les quêtes accomplies par tous les joueurs ensemble.
+    - <#a8a8a8>Paramètres des limites et des étapes de récompense.
+    global_title: <#ffd470>Objectifs globaux du serveur
+    gui_title: 'Édition : '
+    icon_basehead_click: <#d9a752>Échange (F) <#cccccc>- Changer la tête de base
+    icon_click: <#a7ff99>LMB <#cccccc>- Changer d'icône
+    icon_lore: '<#a8a8a8>Choisi: <#ffffff>{icon}'
+    icon_title: <#ffd470>Icône (Matériau)
+    id_click: <#a7ff99>LMB <#cccccc>- Changer d'identifiant
+    id_error_exists: '{prefix}<#c96a6a>✖ <#ffffff>Quête avec ID {id} existe déjà !'
+    id_error_invalid: '{prefix}<#c96a6a>✖ <#ffffff>Format d''identification invalide !'
+    id_lore: '<#a8a8a8>Identifiant actuel : <#ffffff>{id}'
+    id_prompt: '<#ffd470>Entrez le nouvel ID de type de quête (par exemple, my_type) :'
+    id_title: <#ffd470>ID du type de quête
+    node_id_title: '<#ffd470>ID du nœud'
+    item_clone: <#d9a752>Échange (F) <#cccccc>- Cloner la ligne
+    item_move_down: <#ffe999>Maj+RMB <#cccccc>- Descendre
+    item_move_up: <#ffe999>Maj+LMB <#cccccc>- Monter
+    lore_click: <#a7ff99>LMB <#cccccc>- Modifier la description
+    lore_title: <#ffd470>Description du type de quête
+    name_click: <#a7ff99>LMB <#cccccc>- Changement
+    name_lore: '<#a8a8a8>Actuel: <#ffffff>{name}'
+    name_prompt: '<#ffd470>Entrez le nom de la quête dans le chat :'
+    name_title: <#ffd470>Nom du type de quête
+    name_title_has: <#ffd470>Nom de la quête
+    name_title_none: <#ed6868>Nom de quête manquant !
+    page_lore: '<#a8a8a8>Page actuelle : <#ffffff>{page}'
+    page_prompt: '<#ffd470>Entrez la page (page, à partir de 1) :'
+    page_title: <#ffd470>Page
+    perm_click: <#a7ff99>LMB <#cccccc>- Changement
+    perm_lore: '<#a8a8a8>Autorisation: <#ffffff>{perm}'
+    perm_prompt: '<#ffd470>Entrez l''autorisation (ou aucune) :'
+    perm_title: <#ffd470>Autorisation requise
+    req_quests_add: <#79d679>Ajouter une quête
+    req_quests_add_lore: <#a7ff99>LMB <#cccccc>- Sélectionnez la quête dans la liste.
+    req_quests_click: <#a7ff99>LMB <#cccccc>- Modifier
+    req_quests_del: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer la quête
+    req_quests_edit: <#a7ff99>LMB <#cccccc>- Remplacer par une autre quête
+    req_quests_gui_title: 'Exig. quêtes : '
+    req_quests_lore: <#a8a8a8>Quêtes qui doivent être accomplies avant celle-ci.
+    req_quests_title: <#ffd470>Exigences (Quêtes précédentes)
+    req_quests_unknown: <#ffffff>Quête inconnue ({id})
+    rew_desc_click: <#a7ff99>LMB <#cccccc>- Modifier
+    rew_desc_gui_title: 'Description des récompenses : '
+    rew_desc_title: <#ffd470>Description des récompenses
+    rewards_lore: <#a7ff99>LMB <#cccccc>- Configurer les récompenses
+    rewards_title: <#ffd470>Récompenses de quête
+    rot_pool_click: <#a7ff99>LMB <#cccccc>- Changement
+    rot_pool_lore:
+    - <#a8a8a8>La quête sera choisie au hasard parmi ce groupe.
+    rot_pool_lore3: '<#a8a8a8>Actuel: <#ffffff>{pool}'
+    rot_pool_lore3_none: <#ed6868>Piscine non précisée. La quête ne sera pas en rotation.
+    rot_pool_prompt: '<#ffd470>Entrez le nom du pool (ou aucun) :'
+    rot_pool_title: <#ffd470>Piscine de rotation
+    rotation_click:
+    - <#a7ff99>LMB <#cccccc>- Changer l'intervalle
+    - <#a7ff99>RMB <#cccccc>- Changer l'heure
+    - <#ffe999>Maj + LMB <#cccccc>- Réinitialiser
+    rotation_click_new: <#a7ff99>LMB <#cccccc>- Ouvrir les paramètres
+    rotation_lore:
+    - '<#a8a8a8>Intervalle: <#ffffff>{interval}'
+    - '<#a8a8a8>Temps de réinitialisation : <#ffffff>{time}'
+    - '<#a8a8a8>Piscines : <#ffffff>{pool}'
+    rotation_title: <#ffd470>Rotation
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Erreur lors de l''enregistrement du fichier !'
+    save_success: '{prefix}<#78b185>✔ <#ffffff>Fichier de quête <#e2e8f0>{id} <#b0b8c1>enregistré avec succès !'
+    slot_click:
+    - <#a7ff99>LMB (+1) / RMB (-1)
+    - <#ffe999>Maj + LMB (+10) / <#ffe999>Maj + RMB (-10)
+    - <#d9a752>Échange (F) <#cccccc>- Entrez manuellement
+    slot_lore: '<#a8a8a8>Emplacement actuel : <#ffffff>{slot}'
+    slot_prompt: '<#ffd470>Entrez l''emplacement (emplacement, de 0 à 54) :'
+    slot_title: <#ffd470>Fente
+    stages_click: <#a7ff99>LMB <#cccccc>- Gérer les étapes
+    stages_lore: '<#a8a8a8>Nombre d''étapes : <#ffffff>{count}'
+    stages_title_has: <#ffd470>Étapes (objectifs)
+    stages_title_none: <#ed6868>Étapes de quête manquantes !
+    status_click: <#a7ff99>LMB <#cccccc>- Changer de statut
+    status_desc: <#a8a8a8>Active ou désactive ce type de quête
+    status_disabled: <#ed6868>Désactivé
+    status_enabled: <#79d679>Activé
+    status_lore: '<#a8a8a8>Statut: {status}'
+    status_title: <#ffd470>Statut du type
+    type_click: <#a7ff99>LMB <#cccccc>- Changer de type
+    type_lore_engine: '<#a8a8a8>Moteur: <#ffffff>{engine}'
+    type_lore_type: '<#a8a8a8>Taper: <#ffffff>{type}'
+    type_title: <#ffd470>Moteur et type de quête
+  material_list:
+    add_new_lore: <#a7ff99>LMB <#cccccc>- Ajouter un nouvel élément
+    click_del: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer l'élément
+    click_edit: <#a7ff99>LMB <#cccccc>- Modifier l'élément
+  material_selector:
+    error_invalid: <#ed6868>Matériel invalide !
+    hand: <#ffd470>Prendre de la main
+    hand_error: Il n'y a aucun objet dans votre main !
+    hand_lore: <#a7ff99>LMB <#cccccc>- Utiliser l'objet de la main
+    input_chat: <#ffd470>Entrez manuellement dans le chat
+    input_chat_lore: <#a7ff99>LMB <#cccccc>- Rédiger le code matériel
+    input_chat_prompt: '<#ffd470>Entrez le matériau (par exemple DIAMOND_SWORD) :'
+    item_click: <#a7ff99>LMB <#cccccc>- Sélectionnez cet article
+    search: <#ffd470>Recherche de matériel
+    search_prompt: '<#ffd470>Saisissez le texte à rechercher (ou à effacer) :'
+    title: '&0Sélectionnez le matériau / le bloc'
+  msg_clone_success: '{prefix}<#78b185>✔ <#ffffff>Tapez cloné avec succès comme <#ffffff>{id}'
+  msg_del_success: '{prefix}<#78b185>✔ <#ffffff>Taper <#ffffff>{id} <#b0b8c1>supprimé avec succès.'
+  objective_menu:
+    del_confirm_msg: Voulez-vous vraiment supprimer l'objectif {key}?
+    del_confirm_title: Supprimer l'objectif ?
+    gui_ent_list: '&0Entités pour : {key}'
+    gui_mats_list: '&0Articles pour : {key}'
+    gui_req_mats: '&0Éléments requis'
+    gui_str_list: '&0Liste {key}'
+    obj_title: '<#a8a8a8>Objectif: {color}{key}'
+    prompt_key: '<#a8a8a8>Entrez la valeur pour <#ffffff>{key}<#ffd470>:'
+    prompt_str_key: '<#a8a8a8>Entrez la valeur de chaîne pour <#ffffff>{key}<#ffd470>:'
+    prop_click_del: <#ed6868>Laisser tomber (Q) <#cccccc>- Supprimer
+    prop_click_edit: <#a7ff99>LMB <#cccccc>- Modifier la valeur
+    prop_format: '<#a8a8a8>{key}: <#e0e0e0>{value}'
+    prop_num_click:
+    - <#a7ff99>LMB (+1) / RMB (-1) <#cccccc>- Changer la valeur
+    - <#ffe999>Maj + LMB (+10) / <#ffe999>Maj + RMB (-10)
+    - <#d9a752>Échange (F) <#cccccc>- Entrez manuellement
+    prop_str_click: <#a7ff99>LMB <#cccccc>- Entrez la chaîne
+    prop_str_list_click: <#a7ff99>LMB <#cccccc>- Modifier la liste
+    prop_title_mandatory: <#ed6868>{key}
+    prop_title_set: <#e0e0e0>{key}
+    prop_title_unset: <#a8a8a8>{key}
+    prop_true_false: <#a7ff99>LMB <#cccccc>- Basculer (vrai/faux)
+    prop_type_click: <#a7ff99>LMB <#cccccc>- Sélectionnez le type
+    props:
+      amount: <#ffd470>Montant requis
+      biome: <#ffd470>Biome
+      command: <#ffd470>Commande
+      dimension: <#ffd470>Dimension
+      distance: <#ffd470>Distance
+      entity: <#ffd470>Entité
+      item: <#ffd470>Article
+      material: <#ffd470>Article
+      message: <#ffd470>Message
+      min-distance: <#ffd470>Min. distance
+      notify-interval: <#ffd470>Intervalle de notification
+      npc: <#ffd470>PNJ
+      npc-id: <#ffd470>PNJ
+      radius: <#ffd470>Rayon
+      region: <#ffd470>Région
+      required-materials: <#ffd470>Éléments requis
+      target-entities: <#ffd470>Entités cibles
+      target-entity: <#ffd470>Entité
+      target-material: <#ffd470>Article
+      target-materials: <#ffd470>Éléments cibles
+      type: <#ffd470>Type d'objectif
+      weapon: <#ffd470>Arme
+      world: <#ffd470>Monde
+      x: <#ffd470>Coordonnée X
+      y: <#ffd470>Coordonnée Y
+      z: <#ffd470>Coordonnée Z
+    type_list: Liste
+    type_prop: Valeur de la propriété
+    type_section: Section
+    type_value: Valeur
+    val_list: '{size} éléments'
+    val_list_mats: '{size} articles'
+    val_none: '[Aucun]'
+    val_not_set: <#ed6868>Valeur non définie !
+    val_section: '[Section] '
+  objective_selector:
+    desc:
+      ANVIL_USE: <#cccccc>Utilisez une enclume.
+      ASSIST_KILL: <#cccccc>Aider à tuer une entité/un joueur.
+      BEACON_ACTIVATE: <#cccccc>Activez une balise.
+      BLOCK_BREAK: <#cccccc>Casser les blocs spécifiés.
+      BLOCK_PLACE: <#cccccc>Placez les blocs spécifiés.
+      BOAT_TRAVEL: <#cccccc>Voyagez en bateau.
+      BONE_MEAL_USE: <#cccccc>Utilisez de la farine d'os.
+      BOOK_EDIT: <#cccccc>Écrire un texte dans un livre.
+      BREED_ANIMALS: <#cccccc>Élevez des animaux.
+      BREWING: <#cccccc>Préparez des potions.
+      BURN_FUEL: <#cccccc>Brûlez du combustible dans un four.
+      CHANGE_DIMENSION: <#cccccc>Changer de dimension (par exemple aller dans le Nether).
+      CHAT_MESSAGE: <#cccccc>Écrivez un message spécifique dans le chat.
+      CONDUIT_ACTIVATE: <#cccccc>Activez un conduit.
+      CONSUME_ITEM: <#cccccc>Manger ou boire un article.
+      CROUCH: <#cccccc>Accroupissez-vous un certain nombre de fois.
+      CROUCH_DISTANCE: <#cccccc>Parcourez une distance spécifiée en vous accroupissant.
+      DEAL_DAMAGE: <#cccccc>Infliger une certaine quantité de dégâts.
+      DROP_ITEM: <#cccccc>Déposez un élément spécifique.
+      DYE_ITEM: <#cccccc>Teindre un objet.
+      ELYTRA_FLY: <#cccccc>Volez avec des élytres.
+      EMPTY_BUCKET: <#cccccc>Videz un seau.
+      ENCHANT_TABLE_USE: <#cccccc>Utilisez une table enchantée.
+      ENTER_BED: <#cccccc>Entrez dans un lit.
+      ENTER_REGION: <#cccccc>Entrez une région (WorldGuard).
+      ENTITY_RIDE: <#cccccc>Montez une entité.
+      EXECUTE_COMMAND: <#cccccc>Exécutez une commande spécifique.
+      EXPERIENCE_ORB_PICKUP: <#cccccc>Procurez-vous un orbe d'expérience.
+      FALL_DISTANCE: <#cccccc>Chute d'une distance spécifiée.
+      FILL_BUCKET: <#cccccc>Remplissez un seau.
+      FILL_FUEL: <#cccccc>Mettez du combustible dans un four.
+      GIVE_ITEM_TO_NPC: <#cccccc>Donnez un objet à un PNJ.
+      HARVEST_CROP: <#cccccc>Récoltez les récoltes.
+      HOLD_ITEM: <#cccccc>Tenez un objet spécifique en main.
+      INTERACT_BLOCK: <#cccccc>Interagissez avec un bloc (RMB/LMB).
+      INTERACT_ENTITY: <#cccccc>Interagissez avec une entité (RMB).
+      ITEM_BREAK: <#cccccc>Casser un outil/une arme.
+      ITEM_COOK: <#cccccc>Cuisinez de la nourriture.
+      ITEM_CRAFT: <#cccccc>Objets artisanaux.
+      ITEM_ENCHANT: <#cccccc>Enchantez des objets.
+      ITEM_FISH: <#cccccc>Attrapez du poisson/des objets.
+      ITEM_RENAME: <#cccccc>Renommer un élément.
+      ITEM_REPAIR: <#cccccc>Réparer un objet sur une enclume.
+      ITEM_SMELT: <#cccccc>Sentir des objets.
+      JOIN_SERVER: <#cccccc>Rejoignez le serveur.
+      JUMP: <#cccccc>Sautez un certain nombre de fois.
+      KILL_ENTITY: <#cccccc>Tuez des monstres/entités spécifiques.
+      LEAVE_REGION: <#cccccc>Quitter une région (WorldGuard).
+      LEVEL_UP_GAIN: <#cccccc>Gagnez un nombre spécifié de niveaux.
+      LEVEL_UP_REACH: <#cccccc>Atteignez un niveau d’expérience spécifié.
+      MILK_COW: <#cccccc>Traire une vache.
+      MINECART_TRAVEL: <#cccccc>Voyagez dans un wagonnet.
+      NPC_INTERACT: <#cccccc>Parlez à un PNJ (Citoyens/ZNPC).
+      OPEN_CONTAINER: <#cccccc>Ouvrez un conteneur (coffre, etc.).
+      PLANT_SEED: <#cccccc>Plantez des graines.
+      PLAYER_KILL: <#cccccc>Tuez un autre joueur.
+      PLAY_TIME: <#cccccc>Passez du temps dans le jeu.
+      POTION_DRINK: <#cccccc>Boire une potion.
+      POTION_SPLASH: <#cccccc>Lancez une potion anti-éclaboussures.
+      REACH_BIOME: <#cccccc>Visitez un biome spécifié.
+      REACH_LOCATION: <#cccccc>Atteignez les coordonnées spécifiées.
+      RECEIVE_DAMAGE_TYPE: <#cccccc>Recevez des dégâts d’un type spécifique.
+      SHEAR_SHEEP: <#cccccc>Tondre un mouton.
+      SIGN_EDIT: <#cccccc>Écrivez du texte sur un panneau.
+      SLEEP_IN_BED: <#cccccc>Dormez dans un lit.
+      SPRINT_DISTANCE: <#cccccc>Sprintez sur une distance spécifiée.
+      STRIP_LOG: <#cccccc>Dénudez une bûche avec une hache.
+      SWIM_DISTANCE: <#cccccc>Nagez sur une distance spécifiée.
+      TAKE_DAMAGE: <#cccccc>Subissez une certaine quantité de dégâts.
+      TAME_ANIMAL: <#cccccc>Apprivoiser un animal.
+      THROW_EGG: <#cccccc>Jetez un œuf.
+      TILL_SOIL: <#cccccc>Labourer le sol avec une houe.
+      TRAVEL_DISTANCE: <#cccccc>Parcourez une distance spécifiée.
+      USE_ITEM: <#cccccc>Utilisez un article (RMB).
+      VILLAGER_BUY_ITEM: <#cccccc>Achetez un objet à un villageois.
+      VILLAGER_SELL_ITEM: <#cccccc>Vendez un objet à un villageois.
+      WAX_OFF: <#cccccc>Grattez la cire du cuivre.
+      WAX_ON: <#cccccc>Appliquez de la cire sur le cuivre.
+      WEAR_ARMOR: <#cccccc>Équipez-vous d'une armure spécifique.
+    item_click: <#a7ff99>LMB <#cccccc>- Sélectionnez ce type
+    item_enum: '<#a8a8a8>Clé: <#ffffff>{enum}'
+    prompt_search: '<#ffd470>Entrez le nom du type d''objectif (ou effacez) :'
+    title: '&0Sélectionnez le type d''objectif'
+  pool_slots_gui:
+    slot_back_lore: <#a7ff99>RMB <#cccccc>- Retourner
+    slot_free_lore: <#a7ff99>LMB <#cccccc>- Attribuer à ce pool
+    slot_free_title: <#a8a8a8>Fente {slot}
+    slot_mine_lore: <#ff6b6b>LMB <#cccccc>- Supprimer l'emplacement du pool
+    slot_mine_title: <#a7ff99>Fente {slot}
+    slot_taken_lore:
+    - '<#a8a8a8>Pris en piscine : <#ffffff>{owner}'
+    - <#ffd470>LMB <#cccccc>- Emplacement de remplacement
+    slot_taken_title: <#ff6b6b>Fente {slot}
+    title: '&0Emplacements de billard : {pool}'
+  pools_gui:
+    add_lore: <#a7ff99>LMB <#cccccc>- Créer une nouvelle piscine
+    add_title: <#ffd470>Ajouter un pool
+    item_click:
+    - <#a7ff99>LMB <#cccccc>- Modifier les emplacements
+    item_click4: <#ff6b6b>Laisser tomber (Q) <#cccccc>- Supprimer le pool
+    item_lore:
+    - '<#a8a8a8>Montant: <#ffffff>{count}'
+    item_title: '<#ffd470>Piscine: {pool}'
+    title: Piscines de rotation
+  preview_title: 'Description du type : '
+  prompts:
+    cmd: '<#ffd470>Entrez la commande :'
+    cooldown: '<#ffd470>Entrez le temps de recharge :'
+    folder: '<#ffd470>Entrez le chemin d''accès au dossier des quêtes :'
+    name: '<#ffd470>Entrez le nom :'
+    new_type_id: '<#ffd470>Entrez le nouvel ID de type (par ex. <#ffffff>hebdomadaire<#ffd470>) :'
+    pool_count: '<#ffd470>Entrez le nombre de quêtes pour ce pool :'
+    pool_name: '<#ffd470>Entrez le nom du pool (en anglais sans espaces) :'
+    rotation_interval: '<#ffd470>Entrez l''intervalle de rotation :'
+    rotation_time: '<#ffd470>Entrez le temps de rotation :'
+    slot: '<#ffd470>Entrez l''emplacement :'
+  rotation_gui:
+    anchor_click:
+    - <#a7ff99>LMB <#cccccc>- Le lendemain
+    anchor_lore:
+    - '<#a8a8a8>Jour: <#ffffff>{val}'
+    anchor_title: <#ffd470>Journée d'ancrage
+    interval_click:
+    - <#a7ff99>LMB <#cccccc>- Ajouter 1 heure
+    - <#a7ff99>RMB <#cccccc>- Soustraire 1 heure
+    - <#ffe999>Maj+LMB <#cccccc>- Ajouter 1 jour
+    - <#ffe999>Maj+RMB <#cccccc>- Soustraire 1 jour
+    - <#ffd470>Échange (F) <#cccccc>- Entrez manuellement
+    - <#ed6868>Laisser tomber (Q) <#cccccc>- Clair
+    interval_lore:
+    - '<#a8a8a8>Actuel: <#ffffff>{val}'
+    interval_title: <#ffd470>Intervalle de réinitialisation
+    pools_click:
+    - <#a7ff99>LMB <#cccccc>- Gérer les piscines
+    pools_lore:
+    - '<#a8a8a8>Piscines : <#ffffff>{val}'
+    pools_title: <#ffd470>Pools de quêtes
+    time_click:
+    - <#a7ff99>LMB <#cccccc>- Ajouter 1 heure
+    - <#a7ff99>RMB <#cccccc>- Soustraire 1 heure
+    - <#ffe999>Maj+LMB <#cccccc>- Ajouter 10 minutes
+    - <#ffe999>Maj+RMB <#cccccc>- Soustraire 10 minutes
+    - <#ffd470>Échange (F) <#cccccc>- Entrez manuellement
+    - <#ed6868>Laisser tomber (Q) <#cccccc>- Clair
+    time_lore:
+    - '<#a8a8a8>Actuel: <#ffffff>{val}'
+    time_title: <#ffd470>Temps de réinitialisation
+    title: '&0Rotation des quêtes : {id}'
+  saved_success: '{prefix}<#78b185>✔ <#ffffff>Modifications du type de quête {id} enregistré avec succès !'
+  select_type_click: <#a7ff99>LMB <#cccccc>- Sélectionnez ce type
+  title_list: '&0Liste des types de quêtes ({count})'
+  title_main: '&0Éditeur de caractères : {id}'
+  title_selector: '&0Sélectionnez le type de quête'
+  type_created: '{prefix}<#78b185>✔ <#ffffff>Nouveau type créé avec succès : {id}'
+  type_list_click: <#a7ff99>LMB <#cccccc>-Modifier le type
+  type_list_clone: <#d9a752>Échange (F) <#cccccc>- Cloner
+  type_list_delete: <#ff7070>Laisser tomber (Q) <#cccccc>- Supprimer
+  type_list_engine: '<#a8a8a8>Moteur: <#7dd3ff>{engine}'
+  type_list_folder: '<#a8a8a8>Dossier: <#ffffff>{folder}'
+  type_list_quests: '<#a8a8a8>Quêtes : <#ffffff>{count}'
+

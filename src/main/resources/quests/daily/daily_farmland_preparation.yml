@@ -1,0 +1,32 @@
+id: daily_farmland_preparation
+name: <#fcd34d>🌱 Garden Bed Prep
+icon-material: IRON_HOE
+
+rotation-pool: "common"
+
+description:
+- <#cccccc>The farm needs new plots.
+- <#cccccc>Prepare the soil for sowing.
+- <#cccccc>Till <#fcd34d>24 blocks.
+- ""
+- "<#86efac>⭐ <#cccccc>Rarity: <#bbf7d0>Common"
+rewards-description:
+- <#a7ff99>+130 coins
+- <#ffe08a>+60 XP
+- <#7dd3ff>+12 Bone Meal
+objective:
+  type: TILL_SOIL
+  amount: 24
+  target-materials:
+  - GRASS_BLOCK
+  - DIRT
+rewards:
+  money: 130
+  xp: 60
+  items:
+    list:
+    - material: BONE_MEAL
+      amount: 12
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

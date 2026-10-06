@@ -1,0 +1,481 @@
+prefix: <#e9c46a><bold>Questborn</bold> <#8a8a8a>• <reset>
+hud:
+  actionbar:
+    complete-message: <#99ff9d>¡Misión {quest_name} <#99ff9d>completada!
+commands:
+  no-permission: '{prefix}<#e07a5f>No tienes permiso para esta acción.'
+  finish-global:
+    not-global: '{prefix}<#e07a5f>La misión <#ffffff>{quest} <#e07a5f> no es una misión
+      global.'
+    not-active: '{prefix}<#cccccc>La misión global <#ffffff>{quest} <#cccccc>no está
+      activa o ya ha finalizado.'
+    success: '{prefix}<#97e673>¡La misión global <#ffffff>{quest} <#97e673> se ha
+      completado por la fuerza!'
+  reset-global:
+    not-global: '{prefix}<#e07a5f>La misión <#ffffff>{quest} <#e07a5f> no es una misión
+      global.'
+    success: '{prefix}<#97e673>La misión global <#ffffff>{quest} <#97e673> se ha restablecido
+      por completo. Se borra el progreso global y se restablecen los tiempos de reutilización
+      de los jugadores en línea.'
+  npc-only: '{prefix}<#cccccc>Este comando no está disponible.'
+  reload:
+    done: '{prefix}<#97e673>¡Todas las configuraciones del plugin recargadas con éxito!'
+  help:
+    header: <#7dd3ff>&m----<#ffffff> Ayuda de comandos de Questborn <#7dd3ff>&m----
+    footer: <#7dd3ff>Página {page} de {total_pages} <#a3a3a3>({total_results} comandos)
+    hover-no-perm: <#a7ff99>Haz clic para insertar en el chat
+    hover-with-perm: '<#a7ff99>Haz clic para insertar en el chat
+
+      <#ffcc66>Permiso: <#ffffff>{permission}'
+  effect:
+    list-header: <#7dd3ff><strikethrough>----</strikethrough><#ffffff> Efectos Disponibles
+      <#7dd3ff><strikethrough>----</strikethrough>
+    list-footer: <#7dd3ff>Página {page} de {total_pages} <#a3a3a3>({total_results}
+      efectos)
+    no-effects: '{prefix}<#cccccc>No hay efectos disponibles.'
+    not-found: '{prefix}<#e07a5f>Efecto <#ffffff>{effect}<#e07a5f> no encontrado.'
+    success-self: '{prefix}<#97e673>Efecto <#ffffff>{effect}<#97e673> reproducido
+      en ti mismo.'
+    success-other: '{prefix}<#97e673>Efecto <#ffffff>{effect}<#97e673> reproducido
+      en el jugador <#ffffff>{player}<#97e673>.'
+    received: '{prefix}<#97e673>Se reprodujo el efecto <#ffffff>{effect}<#97e673>
+      en ti.'
+  npc:
+    usage-header: <#7dd3ff><strikethrough>----</strikethrough> <#ffffff>Comandos NPC
+      <#7dd3ff><strikethrough>----</strikethrough>
+    help:
+      dialogue: '  <#97e673>/quest npc dialogue <#a3a3a3><npcId> <dialogueId> <#888888>-
+        Vincular diálogo'
+      displayname: '  <#97e673>/quest npc displayname <#a3a3a3><npcId> <name> <#888888>-
+        Establecer nombre'
+      gui-title: '  <#97e673>/quest npc gui-title <#a3a3a3><npcId> <title> <#888888>-
+        Título de GUI'
+      indicator: '  <#97e673>/quest npc indicator <#a3a3a3><npcId> <offset> <#888888>-
+        Altura de indicador'
+      info: '  <#97e673>/quest npc info <#a3a3a3>[npcId] <#888888>- Información de
+        NPC'
+      link: '  <#97e673>/quest npc link <#a3a3a3><category> <type> <id> <#888888>-
+        Vincular misión'
+      remove: '  <#97e673>/quest npc remove <#a3a3a3><npcId> <#888888>- Eliminar NPC'
+      unlink: '  <#97e673>/quest npc unlink <#a3a3a3><category> <type> <id> <#888888>-
+        Desvincular misión'
+      voice: '  <#97e673>/quest npc voice <#a3a3a3><npcId> <voice> <#888888>- Establecer
+        voz'
+    list-header: <#7dd3ff>&m----<#ffffff> NPCs Configurados <#7dd3ff>&m----
+    list-empty: '{prefix}<#cccccc>No hay NPCs configurados.'
+    list-item: '{prefix}<#97e673>- <#ffffff>{npc}'
+    remove-success: '{prefix}<#97e673>Configuración del NPC <#ffffff>{npc}<#97e673>
+      eliminada con éxito'
+    gui-title-set: '{prefix}<#97e673>Título de la interfaz para el NPC <#ffffff>{npc}<#97e673>
+      establecido en <#ffffff>{title}'
+    displayname-set: '{prefix}<#97e673>Display name for NPC <#ffffff>{npc}<#97e673>
+      set to: <#ffffff>{name}'
+    displayname-removed: '{prefix}<#97e673>Display name removed for NPC <#ffffff>{npc}'
+    info:
+      header: '<#7dd3ff>&m----<#ffffff> Info del NPC: {npc} <#7dd3ff>&m----'
+      title: '{prefix}<#cccccc>Título de la interfaz: <#ffffff>{title}'
+      dialogue: '{prefix}<#cccccc>Diálogo: <#ffffff>{dialogue}'
+      indicator: '{prefix}<#cccccc>Desplazamiento del indicador: <#ffffff>{offset}'
+    dialogue-removed: '{prefix}<#97e673>Diálogo eliminado del NPC <#ffffff>{npc}'
+    dialogue-not-found: '{prefix}<#e07a5f>Diálogo no encontrado: <#ffffff>{dialogue}'
+    dialogue-set: '{prefix}<#97e673>Diálogo para NPC <#ffffff>{npc}<#97e673> establecido
+      a <#ffffff>{dialogue}'
+    indicator-set: '{prefix}<#97e673>NPC <#ffffff>{npc}<#97e673> desplazamiento del
+      indicador establecido a <#ffffff>{offset}'
+    voice-set: '{prefix}<#97e673>Voz de escritura para el NPC <#ffffff>{npc}<#97e673>
+      establecida en <#ffffff>{voice}'
+    voice-removed: '{prefix}<#97e673>Voz de escritura eliminada del NPC <#ffffff>{npc}'
+    console-must-specify-id: '{prefix}<#e07a5f>La consola debe especificar la ID del
+      NPC.'
+    not-looking-at-npc: '{prefix}<#e07a5f>No se pudo identificar al NPC. Por favor,
+      mira a un NPC o proporciona la ID.'
+    link-pending: '{prefix}<#97e673>Por favor, haz clic derecho en un NPC para vincularlo.'
+    unlink-pending: '{prefix}<#e07a5f>Por favor, haz clic derecho en un NPC para desvincularlo.'
+    bind-success: '{prefix}<#97e673>Se ha vinculado <#ffffff>{target}<#97e673> al'
+    unbind-success: '{prefix}<#e07a5f>Se ha desvinculado <#ffffff>{target}<#e07a5f>
+      del NPC <#ffffff>{npc}<#e07a5f> correctamente.'
+  activate:
+    success: '{prefix}<#97e673>Misión <#ffffff>{quest}<#97e673> activada para el jugador
+      <#ffffff>{player}.'
+    fail: '{prefix}<#e07a5f>No se pudo activar la misión <#ffffff>{quest}<#e07a5f>.'
+  details:
+    no-active-quest: '{prefix}<#cccccc>No tienes ninguna misión activa.'
+  deactivate:
+    no-active: '{prefix}<#cccccc>El jugador no tiene ninguna misión activa.'
+    success: '{prefix}<#97e673>Misión activa de <#ffffff>{player}<#97e673> desactivada.'
+  finish:
+    no-active: '{prefix}<#cccccc>El jugador no tiene ninguna misión activa.'
+    success: '{prefix}<#97e673>Misión de <#ffffff>{player}<#97e673> completada.'
+    stage:
+      success: '{prefix}<#97e673>Etapa de la misión para <#ffffff>{player}<#97e673>
+        completada forzosamente.'
+      no-stages: '{prefix}<#cccccc>Esta misión no tiene etapas o no se pudo completar
+        la etapa.'
+  open:
+    opened: '{prefix}<#97e673>Menú <#ffffff>{menu}<#97e673> abierto para el jugador
+      <#ffffff>{player}.'
+  reset:
+    cooldown-success: '{prefix}<#97e673>Enfriamiento de la misión <#ffffff>{quest}<#97e673>
+      restablecido para el jugador <#ffffff>{player}<#97e673>.'
+    history-success: '{prefix}<#97e673>Historial de finalización de la misión <#ffffff>{quest}<#97e673>
+      restablecido para el jugador <#ffffff>{player}<#97e673>.'
+    reward-success: '{prefix}<#97e673>Estado de recompensa de la misión <#ffffff>{quest}<#97e673>
+      restablecido para el jugador <#ffffff>{player}<#97e673>.'
+    rotation-success: '{prefix}<#97e673>Datos de rotación para el tipo de misión <#ffffff>{type}<#97e673>
+      restablecidos para el jugador <#ffffff>{player}<#97e673>.'
+    quest-success: '{prefix}<#97e673>Todos los datos de la misión <#ffffff>{quest}<#97e673>
+      restablecidos para el jugador <#ffffff>{player}<#97e673>.'
+    type-success: '{prefix}<#97e673>Todos los datos para el tipo de misión <#ffffff>{type}<#97e673>
+      restablecidos para el jugador <#ffffff>{player}<#97e673>.'
+    top-success: '{prefix}<#97e673>Datos top del tipo <#ffffff>{type}<#97e673> reiniciados para el jugador <#ffffff>{player}<#97e673>.'
+    top-success-all: '{prefix}<#97e673>¡Reinicio top completado! <#ffffff>{count}<#97e673> jugadores modificados.'
+    top-start: '{prefix}<#97e673>Iniciando reinicio top para el tipo <#ffffff>{type}<#97e673>...'
+
+  errors:
+    console-specify-player: '{prefix}<#e07a5f>La consola debe especificar un jugador.'
+    quest-wrong-type: '{prefix}<#e07a5f>Quest <#ffffff>{quest}<#e07a5f> does not belong
+      to type <#ffffff>{type}<#e07a5f>.'
+    unknown-command: '{prefix}<#e07a5f>Comando desconocido. Escribe /quest help'
+    invalid-syntax: '{prefix}<#e07a5f>¡Sintaxis inválida! Uso: <#97e673>{command}
+      <#a3a3a3>{syntax}'
+    quest-not-found: '{prefix}<#e07a5f>La misión <#ffffff>{quest}<#e07a5f> no existe.'
+    player-not-found: '{prefix}<#e07a5f>¡Jugador con el nombre <#ffffff>{player}<#e07a5f>
+      no fue encontrado!'
+    top-reset-error: '{prefix}<#e07a5f>Error al reiniciar el top: {error}'
+
+  global:
+    usage-header: <#7dd3ff><strikethrough>----</strikethrough> <#ffffff>Misiones Globales
+      <#7dd3ff><strikethrough>----</strikethrough>
+    help:
+      finish: '  <#97e673>/quest finish global <#a3a3a3><questId> <#888888>- Forzar
+        completar misión global'
+      reset: '  <#97e673>/quest reset global <#a3a3a3><questId> <#888888>- Reiniciar
+        progreso de misión global'
+      top: '  <#97e673>/quest top <#a3a3a3>[questId] <#888888>- Clasificación de misión
+        global'
+gui:
+  type:
+    locked-message: <#ff5555>No cumples los requisitos para este tipo de misión.
+  quest_details:
+    info:
+      your-contribution: <#ffe999>Tu contribución
+      progress:
+        title: <#ffe999>Progreso
+        bar: '{bar} <#cccccc>{percent}%'
+        value: <#cccccc>({current} / {target})
+      required-items: '<#cccccc>Objetos requeridos:'
+      awaiting-transfer: '#ffe999>❖ Entregar recurso'
+      items-transferred: '#99ffd4>✓ Recursos entregado'
+    status:
+      cooldown: '<#ff9999>Enfriamiento: <#ffffff>{time}'
+      awaiting-transfer: '#ffe999>❖ Entregar recurso'
+      locked: <#ff5555>Bloqueada
+    required_items: '<#cccccc>Objetos requeridos:'
+    transfer:
+      required-items: '<#cccccc>Objetos requeridos:'
+      transfer-not-active:
+        title: <#cccccc>Misión no activa
+        lore:
+        - <#cccccc>Activa primero la misión
+        - <#cccccc>para entregar objetos
+      transfer-already-transferred:
+        title: '#cccccc>Recursos ya entregado'
+        lore:
+        - <#cccccc>Ya has entregado los objetos
+      transfer-locked:
+        title: '#cccccc>Entregar recurso'
+        lore:
+        - <#cccccc>Entrega de objetos bloqueada
+    objective_title: '&eObjective Details'
+    rewards_title: '&eRecompensas'
+  quest_list:
+    global-progress: <#ad99ff>Progreso global
+    global-participants: '<#cccccc>Participantes: <#ffffff>{current} / {max}'
+    global-participants-no-max: '<#cccccc>Participantes: <#ffffff>{current}'
+    global-participants-min: '<#cccccc>Participantes: <#ffffff>{current} / {max} <#888888>(Mín.
+      {min})'
+    global-participants-no-max-min: '<#cccccc>Participantes: <#ffffff>{current} <#888888>(Mín.
+      {min})'
+    global-contribution: '<#cccccc>Tu contribución: <#ffffff>{current} / {max}'
+    global-contribution-no-max: '<#cccccc>Tu contribución: <#ffffff>{current}'
+    rewards-header: '<#ffe999>Recompensas:'
+    status:
+      tracked-suffix: ' &8| &bRastreado'
+      completed-onetime: '<#99ffd4>Estado: <#cccccc>Completada (única vez)'
+      active: '<#99ffd4>Estado: <#a7ff99>Activa'
+      waiting-participants: '<#99ffd4>Estado: <#cccccc>Esperando participantes <#777777>({current}/{min})'
+      cooldown: '<#ff9999>Estado: <#cccccc>Enfriamiento &7({time})'
+      rotation-cooldown: '<#ff9999>Estado: <#cccccc>Hasta la próxima rotación &7({time})'
+      available: '<#99ffd4>Estado: <#cccccc>Disponible'
+      reward-pending: '<#99ffd4>Estado: <#a7ff99>Recompensa pendiente'
+      locked: '<#ff9999>Estado: <#cccccc>Bloqueada'
+    chain:
+      required-quests: '<#cccccc>Misiones requeridas:'
+    cooldown-time: '<#ff9999>Enfriamiento: <#cccccc>{time}'
+    rotation-cooldown-time: '<#ff9999>Hasta la próxima rotación: <#cccccc>{time}'
+    open-details: <#a7ff99>Clic izquierdo <#cccccc>- detalles / activar
+    activate-quest-quick: <#a7ff99>Swap (F) <#cccccc>- Activar misión
+    activate-quest-quick-replace: <#ffaa00>Swap (F) <#cccccc>- Reemplazar misión activa
+    cancel-quest-quick: <#ff6666>Drop (Q) <#cccccc>- Cancelar misión
+    claim-reward: <#a7ff99>Clic derecho <#cccccc>- reclamar recompensa
+    track-quest: <#99ccff>Right-click <#cccccc>- rastrear misión
+    stages: '<#cccccc>Etapas: <#ffffff>{count}'
+    stage: <#cccccc>Etapa {current}/{total}
+  delivery:
+    items-dropped: '{prefix}<#ff9999>Tu inventario estaba lleno; los objetos se han
+      soltado en el suelo.'
+quests:
+  objectives:
+    header: <#ffe999>Detalles del objetivo
+    none: <#777777>Sin descripción detallada
+    npc-interact: '<#cccccc>Habla con:'
+    give-item-to-npc: '<#cccccc>Da el objeto a:'
+    block_break: '<#cccccc>Romper bloques:'
+    block_place: '<#cccccc>Colocar bloques:'
+    item_craft: '<#cccccc>Fabricar objeto:'
+    item_smelt: '<#cccccc>Fundir:'
+    item_cook: '<#cccccc>Cocinar:'
+    item_fish: '<#cccccc>Pescar:'
+    item_enchant: '<#cccccc>Encantar:'
+    consume_item: '<#cccccc>Consumir objeto:'
+    brewing: '<#cccccc>Elaborar poción:'
+    use_item: '<#cccccc>Usar objeto:'
+    kill: '<#cccccc>Matar mobs:'
+    damage: '<#cccccc>Infringir daño: <#ffe999>{amount}'
+    take-damage: '<#cccccc>Recibir daño: <#ffe999>{amount}'
+    travel: <#cccccc>Recorrer <#ffe999>{blocks} <#cccccc>bloques
+    location: '<#cccccc>Alcanzar coordenadas:'
+    reach-biome: '<#cccccc>Llegar al bioma: <#ffe999>{biome} <#cccccc>{amount} vez'
+    enter-region: '<#cccccc>Entrar en región: <#ffe999>{region}'
+    leave-region: '<#cccccc>Salir de región: <#ffe999>{region}'
+    chat: '<#cccccc>Enviar mensaje: <#ffe999>{text}'
+    command: '<#cccccc>Ejecutar comando: <#ffe999>{cmd}'
+    level-up-reach: <#cccccc>Alcanzar nivel <#ffe999>{levels}
+    level-up-gain: <#cccccc>Ganar <#ffe999>{levels} <#cccccc>niveles
+    interact-block: '<#cccccc>Interactuar con bloque:'
+    interact-entity: '<#cccccc>Interactuar con entidad:'
+    fill-bucket: '<#cccccc>Llenar cubo:'
+    empty-bucket: '<#cccccc>Vaciar cubo:'
+    till-soil: '<#cccccc>Labrar tierra:'
+    plant-seed: '<#cccccc>Plantar semilla:'
+    harvest-crop: '<#cccccc>Cosechar cultivo:'
+    bone-meal-use: '<#cccccc>Usar harina de hueso:'
+    strip-log: '<#cccccc>Descorar tronco:'
+    wax-off: '<#cccccc>Quitar cera:'
+    wax-on: '<#cccccc>Aplicar cera:'
+    item-repair: '<#cccccc>Reparar objeto:'
+    item-rename: '<#cccccc>Renombrar objeto:'
+    new-name: '<#cccccc>Nuevo nombre: <#ffe999>{name}'
+    item-break: '<#cccccc>Romper herramienta:'
+    dye-item: '<#cccccc>Teñir objeto:'
+    fill-fuel: '<#cccccc>Recargar combustible:'
+    burn-fuel: '<#cccccc>Quemar combustible:'
+    villager-sell-item: '<#cccccc>Vender al aldeano:'
+    villager-buy-item: '<#cccccc>Comprar al aldeano:'
+    enchant-table-use: '<#cccccc>Usar mesa de encantamientos:'
+    anvil-use: '<#cccccc>Usar yunque:'
+    tame-animal: '<#cccccc>Domesticar animal:'
+    breed-animals: '<#cccccc>Reproducir animales:'
+    milk-cow: '<#cccccc>Ordeñar vaca:'
+    shear-sheep: '<#cccccc>Esquilar oveja:'
+    entity-ride: '<#cccccc>Montar entidad:'
+    throw-egg: '<#cccccc>Lanzar huevo:'
+    experience-orb-pickup: '<#cccccc>Recolectar experiencia: <#ffe999>{amount}'
+    player-kill: '<#cccccc>Matar jugadores: <#ffe999>{amount}'
+    assist-kill: '<#cccccc>Asistir en muertes: <#ffe999>{amount}'
+    min-damage: '<#cccccc>Daño mínimo: <#ffe999>{damage}'
+    sleep-in-bed: '<#cccccc>Dormir en cama: <#ffe999>{amount} <#cccccc>veces'
+    enter-bed: '<#cccccc>Entrar en cama: <#ffe999>{amount}'
+    change-dimension: '<#cccccc>Cambiar de dimensión:'
+    dimension: '<#cccccc>Dimensión: <#ffe999>{dimension}'
+    fall-distance: '<#cccccc>Volar en caída: <#ffe999>{blocks} <#cccccc>bloques'
+    min-height: '<#cccccc>Altura mín.: <#ffe999>{height}'
+    boat-travel: <#cccccc>Viajar <#ffe999>{blocks} bloques <#cccccc>en bote
+    minecart-travel: <#cccccc>Viajar <#ffe999>{blocks} <#cccccc>bloques en vagoneta
+    elytra-fly: <#cccccc>Volar <#ffe999>{amount} bloques con élitros
+    jump: '<#cccccc>Saltar: <#ffe999>{jumps} <#cccccc>veces'
+    crouch: '<#cccccc>Agacharse: <#ffe999>{crouches} <#cccccc>veces'
+    sprint-distance: '<#cccccc>Correr: <#ffe999>{blocks} <#cccccc>bloques'
+    crouch-distance: '<#cccccc>Agacharse: <#ffe999>{blocks} <#cccccc>bloques'
+    swim-distance: '<#cccccc>Nadar: <#ffe999>{blocks} <#cccccc>bloques'
+    potion-splash: '<#cccccc>Lanzar poción:'
+    potion-drink: '<#cccccc>Beber poción:'
+    beacon-activate: '<#cccccc>Activar baliza: <#ffe999>{amount} <#cccccc>veces'
+    conduit-activate: '<#cccccc>Activar conducto: <#ffe999>{amount} <#cccccc>veces'
+    join-server: '<#cccccc>Unirse al servidor: <#ffe999>{amount} <#cccccc>veces'
+    play-time: '<#cccccc>Tiempo de juego: <#ffe999>{time}'
+    hold-item: '<#cccccc>Sostener objeto:'
+    hold-time: '<#cccccc>Sostener durante: <#ffe999>{time}'
+    drop-item: <#cccccc>Soltar objeto
+    open-container: <#cccccc>Abrir contenedor <#ffe999>{amount} <#cccccc>veces
+    container-type: '<#cccccc>Tipo de contenedor: <#ffe999>{type}'
+    sign:
+      edit: '<#cccccc>Editar cartel: <#ffe999>{amount} <#cccccc>veces'
+      message: '<#cccccc>Debe escribir: <#ffe999>{message}'
+    book:
+      edit: '<#cccccc>Editar libro: <#ffe999>{amount} <#cccccc>veces'
+      message: '<#cccccc>Debe escribir: <#ffe999>{message}'
+    receive-damage-type: '<#cccccc>Recibir daño: <#ffe999>{damage}'
+    damage-cause:
+      any: <#cccccc>De <#ffe999>cualquier cosa
+      contact: <#cccccc>Por <#ffe999>contacto
+      entity_attack: <#cccccc>Por <#ffe999>ataque de entidad
+      projectile: <#cccccc>Por <#ffe999>proyectil
+      suffocation: <#cccccc>Por <#ffe999>asfixia
+      fall: <#cccccc>Por <#ffe999>caída
+      fire: <#cccccc>Por <#ffe999>fuego
+      fire_tick: <#cccccc>Por <#ffe999>daño de fuego
+      lava: <#cccccc>Por <#ffe999>lava
+      drowning: <#cccccc>Por <#ffe999>ahogamiento
+      block_explosion: <#cccccc>Por <#ffe999>explosión de bloque
+      entity_explosion: <#cccccc>Por <#ffe999>explosión de entidad
+      void: <#cccccc>Por <#ffe999>vacío
+      lightning: <#cccccc>Por <#ffe999>rayo
+      suicide: <#cccccc>Por <#ffe999>suicidio
+      starvation: <#cccccc>Por <#ffe999>hambre
+      poison: <#cccccc>Por <#ffe999>veneno
+      magic: <#cccccc>Por <#ffe999>magia
+      wither: <#cccccc>Por <#ffe999>wither
+      falling_block: <#cccccc>Por <#ffe999>bloque cayendo
+      thorns: <#cccccc>Por <#ffe999>espinas
+      dragon_breath: <#cccccc>Por <#ffe999>aliento de dragón
+      fly_into_wall: <#cccccc>Por <#ffe999>choque contra pared
+      hot_floor: <#cccccc>Por <#ffe999>suelo caliente
+      cramming: <#cccccc>Por <#ffe999>apiñamiento
+      dryout: <#cccccc>Por <#ffe999>desecación
+      freeze: <#cccccc>Por <#ffe999>congelación
+      sonic_boom: <#cccccc>Por <#ffe999>estallido sónico
+      unknown: <#cccccc>Por <#ffe999>desconocido
+    wear-armor: '<#cccccc>Equipar armadura:'
+  global:
+    not_enough_participants: '<#ffdd66>⚠ <#cccccc>La misión global <#ffe999>{quest}
+      <#cccccc>requiere al menos <#ffe999>{min} <#cccccc>participantes <#cccccc>(actual:
+      <#ffe999>{current}<#cccccc>)!'
+    cancel_blocked_contributed: <#ffdd66>⚠ <#cccccc>¡Ya has contribuido a esta misión
+      global y no puedes cancelarla!
+    rejoin_cooldown: <#cc4444>❌ <#cccccc>¡Espera <#ffe999>{time} <#cccccc>antes de
+      volver a activar esta misión global!
+    max_contribution: <#97e673>✨ ¡Gran trabajo! <#cccccc>Has alcanzado tu contribución
+      personal máxima en la misión global <#ffe699>{quest}<#cccccc>. ¡Gracias por
+      tu ayuda!
+    personal:
+      join: '<#5bcbb5>+ <#cccccc>Te has unido a la misión <#ffe999>{quest}'
+      join-waiting: '<#5bcbb5>+ <#cccccc>Te has unido a la cola para activar la misión <#ffe999>{quest} <#888888>(Aún se necesitan: <#ffe999>{remaining}<#888888>)'
+      leave: '<#e07a5f>- <#cccccc>¡Has abandonado tu participación en la misión <#ffe999>{quest}<#cccccc>!'
+      leave-waiting: '<#e07a5f>- <#cccccc>¡Has abandonado la cola de la misión <#ffe999>{quest}<#cccccc>!'
+    broadcast:
+      join: <#5bcbb5>+ <#cccccc>El jugador <#ffe999>{player} <#cccccc>se ha unido
+        a la misión global <#ffe999>{quest}
+      join-waiting: '<#5bcbb5>+ <#cccccc>El jugador <#ffe999>{player} <#cccccc>se
+        ha unido a la misión global <#ffe999>{quest} <#888888>(Faltan: <#ffe999>{remaining}<#888888>)'
+      leave: <#e07a5f>- <#cccccc>El jugador <#ffe999>{player} <#cccccc>ya no participa
+        en la misión <#ffe999>{quest}
+      start:
+      - ' '
+      - <#5bcbb5>⚡ ¡La misión global <#ffe999>{quest} <#5bcbb5>ha sido activada!
+      - ' '
+      header:
+      - ' '
+      - <#e8b830>¡Misión global completada!
+      - '  <#c0c0c0>“{quest}<#c0c0c0>”'
+      - ' '
+      - '<#fcd244>⭐ Mejores héroes:'
+      top-entry: ' <#fcd244>{rank}. <#cccccc>{player} <#888888>- <#fcd244>{contribution}
+        <#888888>({percent}%)'
+      footer:
+      - ' '
+      - '<#5bcbb5>👥 <#cccccc>Participantes en total: <#5bcbb5>{participants}'
+      - '<#78d169>⏳ <#cccccc>Tiempo necesario: <#78d169>{time}'
+      your-contribution: '<#b894e6>⭐ <#cccccc>Tu contribución personal: <#b894e6>{amount}'
+      time-unknown: desconocido
+  background:
+    complete: '{prefix}<#97e673>¡Misión <#ffffff>{quest} <#97e673>completada en segundo
+      plano!'
+    stage_complete: '{prefix}<#97e673>¡Etapa <#ffffff>{stage} <#97e673>de la misión
+      <#ffffff>{quest} <#97e673>completada en segundo plano!'
+  activate:
+    success:
+    - <#a7ff99>Has activado la misión {quest}
+    - ''
+    - '{objective_details}'
+    - ''
+    - '{clickable_details}'
+  chain:
+    auto-activated: <#a7ff99>Misión <#ffffff>{quest} iniciada automáticamente
+  reward:
+    waiting-gui: '{prefix}<#97e673>¡Tu recompensa de misión te está esperando!'
+    waiting-npc: '{prefix}<#97e673>¡Reclama la recompensa de <#ffffff>{npc}<#97e673>!'
+  stage:
+    complete: '{quest} <#ffcc80>Etapa &f{stage} <#ffcc80>completada!'
+    new:
+    - '<#98b37d>En la siguiente etapa debes:'
+    - ''
+    - '{objective_details}'
+    - ''
+    - '{clickable_details}'
+  transfer:
+    success: '{prefix}<#97e673>¡Recursos entregados con éxito!'
+  types:
+    general:
+      unknown: Desconocido
+    blocks:
+      any: Cualquier bloque
+      unknown: Bloque desconocido
+    entities:
+      any: Cualquier entidad
+      unknown: Entidad desconocida
+    fluids:
+      any: Cualquier fluido
+      unknown: Fluido desconocido
+    items:
+      any: Cualquier objeto
+      any_fuel: Cualquier combustible
+      unknown: Objeto desconocido
+    villagers:
+      any: Cualquier aldeano
+      unknown: Aldeano desconocido
+chat:
+  clickable: <#e6c18a>[Más información]
+  hover: <#cccccc>Haz clic para ver detalles de la misión
+rewards:
+  money:
+    invalid: '{prefix}<#e07a5f>Cantidad de recompensa monetaria inválida.'
+    added: <#e9c46a>+ <#ffffff>{amount} <#e9c46a> monedas
+  items:
+    received: <#97e673>¡Has recibido objetos como recompensa de misión!
+    dropped: <#e07a5f>¡Algunos objetos no cupieron en tu inventario y cayeron al suelo!
+  xp:
+    levels: <#7dd3ff>+ <#ffffff>{amount} <#7dd3ff> niveles de experiencia
+    points: <#7dd3ff>+ <#ffffff>{amount} <#7dd3ff> puntos de experiencia
+    invalid: '{prefix}<#e07a5f>Cantidad de experiencia inválida.'
+  attribute:
+    added: <#f4a261>Atributo <#ffffff>{attribute} <#f4a261> aumentado en <#ffffff>{value}
+  effect:
+    added: <#b19cd9>Efecto recibido <#ffffff>{effect} <#b19cd9>nivel <#ffffff>{amplifier}
+      <#b19cd9>por <#ffffff>{duration}
+system:
+  time:
+    year: a
+    years: a
+    month: mes
+    months: mes
+    day: d
+    days: d
+    hour: h
+    hours: h
+    minute: min
+    minutes: min
+    second: s
+    seconds: s
+    format:
+      year-month: '{y}{y_unit} {m}{m_unit}'
+      month-day: '{m}{m_unit} {d}{d_unit}'
+      day-hour: '{d}{d_unit} {h}{h_unit}'
+      hour-minute: '{h}{h_unit} {min}{min_unit}'
+      minute-second: '{min}{min_unit} {s}{s_unit}'
+      only-second: '{s}{s_unit}'
+  update:
+    available:
+    - <#ffe999>¡Nueva versión de {plugin} disponible!
+    - '{prefix}<#cccccc>Actual: <#ffffff>{current} <#cccccc>| Última: <#ffffff>{latest}'
+    - '{prefix}<#cccccc>Descargar: <#7dd3ff>{url}'

@@ -1,0 +1,57 @@
+id: weekly_conduit_breath
+name: <#38bdf8>🌊 Breath of the Sea
+icon-material: CONDUIT
+
+rotation-pool: "epic"
+
+description:
+- <#cccccc>Ocean ruins hide valuable resources.
+- <#cccccc>Dive in, awaken the conduit's power,
+- <#cccccc>and bring some prismarine as proof.
+- ""
+- "<#f472b6>⭐ <#cccccc>Rarity: <#fbcfe8>Epic"
+rewards-description:
+- <#a7ff99>+1600 coins
+- <#ffe08a>+550 XP
+- <#7dd3ff>+Underwater Kit
+quest-path:
+  stage-1:
+    objective:
+      type: TRAVEL_DISTANCE
+      distance: 4000
+  stage-2:
+    objective:
+      type: CONDUIT_ACTIVATE
+      amount: 3
+  stage-3:
+    required-materials:
+    - PRISMARINE:128
+rewards:
+  money:
+    amount: 1600
+    silent: false
+  xp:
+    points: 550
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: TURTLE_HELMET
+      amount: 1
+      name: <#7dd3ff>Diver's Helmet
+      lore:
+      - <#cccccc>For those who aren't afraid of the depths.
+      enchantments:
+      - respiration:2
+      flags:
+      - HIDE_ENCHANTS
+  effects:
+    silent: false
+    list:
+    - WATER_BREATHING:0:240
+    - NIGHT_VISION:0:240
+quest-effects:
+  activate: quest_activate_start
+  stage-change: quest_stage_change
+  complete: quest_complete_success
+

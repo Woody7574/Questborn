@@ -1,0 +1,29 @@
+id: daily_tough_skin
+name: <#f472b6>🛡 Toughening
+icon-material: SHIELD
+
+rotation-pool: "rare"
+
+description:
+- <#cccccc>A warrior must endure blows and not lose heart.
+- <#cccccc>Training takes place under a mentor's watch.
+- <#cccccc>Take <#f472b6>150 damage (don't die!).
+- ""
+- "<#93c5fd>⭐ <#cccccc>Rarity: <#bfdbfe>Rare"
+rewards-description:
+- <#a7ff99>+190 coins
+- <#ffe08a>+95 XP
+- <#7dd3ff>+Regeneration (1 min)
+objective:
+  type: TAKE_DAMAGE
+  amount: 150
+rewards:
+  money: 190
+  xp: 95
+  effects:
+    list:
+    - REGENERATION:0:60
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success
+

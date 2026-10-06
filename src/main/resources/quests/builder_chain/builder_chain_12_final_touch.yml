@@ -1,0 +1,46 @@
+id: builder_chain_12_final_touch
+name: <#7dd3ff>🏷 The Final Touch
+icon-material: OAK_SIGN
+slot: 33
+page: 1
+require-quests:
+- builder_chain_11_garden_corner
+description:
+- <#cccccc>A beautiful base needs a sign and some order.
+- <#cccccc>Edit a sign to say 'Questborn'.
+- <#cccccc>Lock in your style.
+rewards-description:
+- <#a7ff99>+700 coins
+- <#ffe08a>+240 XP
+- <#7dd3ff>+Decor kit
+objective:
+  type: SIGN_EDIT
+  amount: 1
+  message: Questborn
+rewards:
+  money:
+    amount: 700
+    silent: false
+  xp:
+    points: 240
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: ITEM_FRAME
+      amount: 8
+      name: <#7dd3ff>Item Frames
+      lore:
+      - <#cccccc>For trophies and labels.
+    - material: FLOWER_POT
+      amount: 4
+      name: <#7dd3ff>Flower Pots
+      lore:
+      - <#cccccc>A small thing that adds coziness.
+  effects:
+    silent: false
+    list:
+    - SPEED:0:120
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

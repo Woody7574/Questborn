@@ -1,0 +1,1672 @@
+common_editor:
+  buttons:
+    add: <#79d679>Ekle
+    add_item: <#79d679>Öğe ekle
+    add_item_lore:
+    - <#a8a8a8>Gönderilecek materyali
+    - <#a8a8a8>seçmek için tıklayın.
+    add_new: <#79d679>Yeni oluştur
+    add_new_lore: <#a7ff99>Sol Tık <#cccccc>- Yeni oluştur
+    back: <#ed6868>Geri
+    back_lore: <#a8a8a8>Önceki menüye dön.
+    cancel: <#ed6868>İptal
+    cancel_lore: <#a8a8a8>Geri dönmek için tıkla.
+    confirm: <#79d679>Onayla
+    confirm_lore: <#a8a8a8>İşlemi gerçekleştirmek için tıkla.
+    delete: <#ed6868>Sil
+    empty_list: <#ed6868>Liste boş
+    empty_list_lore: <#a8a8a8>Öğe eklemek için sağdaki yeşil bloğa tıklayın.
+    next_page: <#ffd470>Sonraki sayfa
+    prev_page: <#ffd470>Önceki sayfa
+    return: <#ed6868>Dön
+    save: <#79d679>Değişiklikleri kaydet
+    save_lore: <#a8a8a8>Tüm ayarları dosyaya kaydet.
+    save_unsaved: <#ffd470>* Değişiklikleri kaydet
+    save_unsaved_lore: <#ffb366>⚠ Kaydedilmemiş değişiklikler var!
+    search: <#ffd470>Ara
+  days:
+    friday: Cuma
+    monday: Pazartesi
+    saturday: Cumartesi
+    sunday: Pazar
+    thursday: Perşembe
+    tuesday: Salı
+    unknown: Bilinmeyen
+    wednesday: Çarşamba
+  input:
+    cancel_instruction: <#8a8a8a>    Metni sohbete yazın. İptal etmek için <#c96a6a>cancel <#8a8a8a>yazın
+    cancelled: Giriş iptal edildi.
+    cancelled_cmd: Giriş iptal edildi (komut ile).
+    edit_current: '    <#ffc499>✎ [Mevcut metni düzenle]'
+    enter_number_error: Bir sayı girin!
+    enter_text: '<#ffd470>Sohbete yeni metin girin:'
+  item_list:
+    click_delete: <#ed6868>At (Q) <#cccccc>- Sil
+    click_modify1: <#a7ff99>Sol Tık (+1) / Sağ Tık (-1) <#cccccc>- Miktarı değiştir
+    click_modify2: <#ffe999>Shift + Sol Tık (+10) / <#ffe999>Shift + Sağ Tık (-10)
+    click_modify3: <#d9a752>Değiştir (F) <#cccccc>- Miktarı manuel gir
+    delete_confirm_msg: '<#ffd470>#{index} numaralı öğeyi silmek istediğinize emin misiniz?'
+    delete_confirm_title: Öğeyi sil
+    empty_lore:
+    - <#a8a8a8>İlk öğeyi eklemek için huniye
+    - <#a8a8a8>veya yeşil bloğa tıklayın.
+    empty_title: <#ed6868>Liste boş
+    item_amount: '<#a8a8a8>Miktar: <#ffffff>{amount}'
+  main_selector:
+    dialogue_click: <#79d679>Diyalog listesini açmak için tıklayın
+    dialogue_lore:
+    - <#a8a8a8>Etkileşimli diyalog dallarını,
+    - <#a8a8a8>cevap seçeneklerini ve eylemleri düzenleme.
+    dialogue_title: <#ff99d4>Diyalog editörü
+    npc_click: <#79d679>NPC listesini açmak için tıklayın
+    npc_lore:
+    - <#a8a8a8>NPC'ye görev bağlamalarının, ruh hali
+    - <#a8a8a8>kurallarının (Mood) ve seslerin yapılandırması.
+    npc_title: <#a7ff99>NPC Editörü
+    quest_click: <#79d679>Görev listesini açmak için tıklayın
+    quest_lore:
+    - <#a8a8a8>Görevlerin, aşamaların ve ödüllerin oluşturulması,
+    - <#a8a8a8>silinmesi ve detaylı yapılandırması.
+    quest_title: <#7dd3ff>Görev Editörü
+    title: '&0✎ Questborn Editörü'
+    type_click: <#79d679>Tür listesini açmak için tıklayın
+    type_lore:
+    - <#a8a8a8>Tür dosyalarının yönetimi (<#ffffff>_type.yml<#a8a8a8>).
+    - <#a8a8a8>İsimleri, ikonları, bekleme sürelerini ve
+    - <#a8a8a8>motor modlarını (DEFAULT, CHAIN, ROTATION, GLOBAL) değiştirme.
+    type_title: <#ffd470>Görev Türleri Editörü
+  none: <#cccccc>Yok
+  prefix: <#ad8ae6><bold>Editör</bold> <#8a8a8a>• <reset>
+  prompts:
+    preset_id: Ön Ayar ID
+  search:
+    click: <#a7ff99>Sol Tık <#cccccc>- Ara
+    none: <#cccccc>Yok
+    query: '<#cccccc>Sorgu: <#ffffff>{query}'
+  selection_menu:
+    item_click: <#a7ff99>Sol Tık <#cccccc>- Seçimi değiştir
+    item_id: '<#a8a8a8>ID: <#ffffff>{id}'
+    item_status: '<#a8a8a8>Durum: {status}'
+    prompt_search: '<#ffd470>Arama sorgusunu girin (veya temizleyin):'
+    search_all: Tümü
+    search_click: <#a7ff99>Sol Tık <#cccccc>- Ara (veya temizle)
+    search_lore: '<#a8a8a8>Ara: <#ffffff>{query}'
+    status_selected: <#55ff55>Seçildi ✔
+    status_unselected: <#ff5555>Seçilmedi
+    title: '&0Öğe seç'
+  state_none: <#cccccc>Devre Dışı
+  states:
+    disabled: <#ed6868>Devre Dışı
+    enabled: <#79d679>Etkin
+  symbols:
+    error: '<#c96a6a>✖ '
+    prompt: '<#6aa0c9>✏ '
+    success: '{prefix}<#78b185>✔ <#ffffff>'
+    warning: '<#d9a752>⚠ '
+  unsaved_modal:
+    discard_exit: <#ed6868>Değişiklikleri at ve çık
+    discard_exit_lore: <#a8a8a8>Kaydedilmemiş tüm değişiklikleri dosyaya yazmadan atar.
+    info_lore: <#a8a8a8>Lütfen, aşağıdan bir işlem seçin.
+    info_title: <#ffd470>Kaydedilmemiş değişiklikler
+    return_editor: <#d69a38>Düzenlemeye dön
+    return_editor_lore: <#a8a8a8>Editör menüsüne geri dön.
+    save_exit: <#79d679>Kaydet ve çık
+    save_exit_lore: <#a8a8a8>Tüm değişiklikleri dosyaya yazar ve editörü kapatır.
+    title: '&0✎ Kaydedilmemiş değişiklikler'
+dialogue_editor:
+  delete_confirm_desc: '{id} diyaloğunu silmek istediğinize emin misiniz?'
+  delete_confirm_title: '&0Silme işlemini onayla'
+  delete_confirm_item: '<#ed6868>Silme işlemini onayla'
+  deleted_success: '{prefix}<#78b185>✔ <#ffffff>Diyalog silindi!'
+  clone_prompt: '<#ffd470>Diyalog kopyası için ID girin:'
+  error_clone_exists: '{prefix}<#c96a6a>✖ <#ffffff>Bu ID ile bir diyalog zaten mevcut!'
+  msg_clone_success: '{prefix}<#78b185>✔ <#ffffff>Diyalog başarıyla {id} olarak derlendi/kopyalandı!'
+  error_clone_failed: '{prefix}<#c96a6a>✖ <#ffffff>Diyalog kopyalanırken hata oluştu!'
+  id_exists: Bu ID ile bir diyalog zaten mevcut!
+  saved_success: '{prefix}<#78b185>✔ <#ffffff>{id} diyaloğundaki değişiklikler başarıyla kaydedildi!'
+  title_list: '&0Diyaloglar listesi ({count})'
+  title_main: '&0Diyalog editörü: {id}'
+npc_editor:
+  teleported: '<#a7ff99>✔ NPC''ye başarıyla ışınlanıldı!'
+  location_not_found: '{prefix}<#c96a6a>✖ <#ffffff>NPC konumu bulunamadı! Doğmuş durumda mı?'
+  no_integration: '{prefix}<#c96a6a>✖ <#ffffff>NPC entegrasyon eklentisi bulunamadı!'
+  delete_confirm_desc: '{id} NPC''sini silmek istediğinize emin misiniz?'
+  delete_confirm_item: <#ff4d4d>Silme işlemini onayla
+  delete_confirm_title: '&0Silme işlemini onayla'
+  deleted_success: '{prefix}<#78b185>✔ <#ffffff>NPC silindi!'
+  dialogue_gui_title: '&8Diyalog seç'
+  dialogue_none_title: '&cMevcut diyaloğu ayır'
+  dialogue_select_click: '&eBu diyaloğu seçmek için tıklayın'
+  id_exists: Bu ID ile bir NPC zaten mevcut!
+  id_exists_use_right_click: Var olan bir NPC'yi yapılandırmak istiyorsanız, Sol Tık yerine Sağ Tık kullanın.
+  saved_success: '{prefix}<#78b185>✔ <#ffffff>{id} NPC''sindeki değişiklikler başarıyla kaydedildi!'
+  title_list: '&0NPC listesi ({count})'
+  title_main: '&0NPC yapılandırması: {id}'
+quest_editor:
+  add_property:
+    amount: Miktar
+    biome: Biyom
+    chance: Şans
+    command: Komut
+    custom_click: <#a7ff99>Sol Tık <#cccccc>- Seç
+    custom_lore:
+    - <#a8a8a8>Özellik anahtarını sohbet aracılığıyla manuel girin
+    custom_prompt: '<#ffd470>Özellik adı girin (örn. material):'
+    custom_title: <#ffd470>Özel özellik
+    distance: Mesafe
+    entities: Varlıklar / Yaratıklar
+    item_click: <#a7ff99>Sol Tık <#cccccc>- Özellik ekle
+    item_lore: '<#a8a8a8>Anahtar: <#ffffff>{key}'
+    item_title: <#ffd470>{name}
+    materials: Bloklar / Öğeler
+    message: Mesaj
+    region: Bölge
+    title: <#6e6e6e>Yeni özellik
+    world: Dünya
+  attribute_reward:
+    add_lore: <#a8a8a8>Yeni nitelik eklemek için tıklayın.
+    add_title: <#ffd470>Nitelik ekle
+    click_delete: <#ed6868>At (Q) <#cccccc>- Niteliği sil
+    click_edit: <#d9a752>Değiştir (F) <#cccccc>- Manuel gir
+    click_modify1: <#a7ff99>Sol Tık (+0.5) / Sağ Tık (-0.5) <#cccccc>- Değeri değiştir
+    click_modify2: <#ffe999>Shift + Sol Tık (+5.0) / <#ffe999>Shift + Sağ Tık (-5.0)
+    confirm_del_desc: '{attr} niteliğini silmek istediğinize emin misiniz?'
+    confirm_del_item: ✖ Niteliği sil
+    confirm_del_title: '&0Niteliği sil'
+    prompt_val: '<#ffd470>Nitelik için sayısal değer girin (örn. 2.0 veya -1.5):'
+  attribute_selector:
+    click_select: <#a7ff99>Sol Tık <#cccccc>- Bu niteliği seç
+    desc:
+      AIR_DRAG_MODIFIER: <#cccccc>Hava direnci çarpanı (uçuş sırasında yavaşlama).
+      ARMOR: <#cccccc>Temel zırh puanı miktarı.
+      ARMOR_TOUGHNESS: <#cccccc>Zırh sertliği (ağır darbelere karşı koruma).
+      ATTACK_DAMAGE: <#cccccc>Temel yakın dövüş saldırılarından alınan hasar.
+      ATTACK_KNOCKBACK: <#cccccc>Saldırı anında savurma gücü.
+      ATTACK_SPEED: <#cccccc>Saldırı hızı (saniyedeki vuruş sayısı).
+      BELOW_NAME_DISTANCE: <#cccccc>İsim altı metin görünürlük mesafesi.
+      BLOCK_BREAK_SPEED: <#cccccc>Blok kırma hızı çarpanı.
+      BLOCK_INTERACTION_RANGE: <#cccccc>Oyuncunun bloklarla etkileşim mesafesi.
+      BOUNCINESS: <#cccccc>Zıplama kabiliyeti.
+      BURNING_TIME: <#cccccc>Ateşte yanma süresi çarpanı.
+      CAMERA_DISTANCE: <#cccccc>Kamera mesafesi.
+      ENTITY_INTERACTION_RANGE: <#cccccc>Oyuncunun diğer varlıklarla etkileşim mesafesi.
+      EXPLOSION_KNOCKBACK_RESISTANCE: <#cccccc>Patlama savurma direnci.
+      FALL_DAMAGE_MULTIPLIER: <#cccccc>Düşme hasarı çarpanı.
+      FLYING_SPEED: <#cccccc>Varlık uçma hızı.
+      FOLLOW_RANGE: <#cccccc>Yaratıkların oyuncuyu fark etme mesafesi.
+      FRICTION_MODIFIER: <#cccccc>Sürtünme çarpanı.
+      GENERIC_ARMOR: <#cccccc>Temel zırh puanı miktarı.
+      GENERIC_ARMOR_TOUGHNESS: <#cccccc>Zırh sertliği (ağır darbelere karşı koruma).
+      GENERIC_ATTACK_DAMAGE: <#cccccc>Temel yakın dövüş saldırılarından alınan hasar.
+      GENERIC_ATTACK_KNOCKBACK: <#cccccc>Saldırı anında savurma gücü.
+      GENERIC_ATTACK_SPEED: <#cccccc>Saldırı hızı (saniyedeki vuruş sayısı).
+      GENERIC_BURNING_TIME: <#cccccc>Ateşte yanma süresi çarpanı.
+      GENERIC_EXPLOSION_KNOCKBACK_RESISTANCE: <#cccccc>Patlama savurma direnci.
+      GENERIC_FALL_DAMAGE_MULTIPLIER: <#cccccc>Düşme hasarı çarpanı.
+      GENERIC_FLYING_SPEED: <#cccccc>Varlık uçma hızı.
+      GENERIC_FOLLOW_RANGE: <#cccccc>Yaratıkların oyuncuyu fark etme mesafesi.
+      GENERIC_GRAVITY: <#cccccc>Varlığa etki eden yerçekimi gücü.
+      GENERIC_JUMP_STRENGTH: <#cccccc>Varlığın normal zıplama gücü.
+      GENERIC_KNOCKBACK_RESISTANCE: <#cccccc>Savurma direnci (1.0 = 100% koruma).
+      GENERIC_LUCK: <#cccccc>Şans (ganimet ve balık tutmayı etkiler).
+      GENERIC_MAX_HEALTH: <#cccccc>Maksimum sağlık (1.0 = yarım kalp).
+      GENERIC_MOVEMENT_EFFICIENCY: <#cccccc>Zorlu bloklarda hareket verimliliği.
+      GENERIC_MOVEMENT_SPEED: <#cccccc>Varlık hareket hızı.
+      GENERIC_OXYGEN_BONUS: <#cccccc>Su altında oksijen tüketmeme şansı.
+      GENERIC_SAFE_FALL_DISTANCE: <#cccccc>Güvenli düşme mesafesi (blok cinsinden).
+      GENERIC_SCALE: <#cccccc>Varlık ölçeği ve boyutu (1.0 = varsayılan).
+      GENERIC_STEP_HEIGHT: <#cccccc>Otomatik adım yüksekliği (zıplamadan).
+      GENERIC_WATER_MOVEMENT_EFFICIENCY: <#cccccc>Su altı hareket verimliliği.
+      GRAVITY: <#cccccc>Varlığa etki eden yerçekimi gücü.
+      HORSE_JUMP_STRENGTH: <#cccccc>At zıplama gücü.
+      JUMP_STRENGTH: <#cccccc>Varlığın normal zıplama gücü.
+      KNOCKBACK_RESISTANCE: <#cccccc>Savurma direnci (1.0 = 100% koruma).
+      LUCK: <#cccccc>Şans (ganimet ve balık tutmayı etkiler).
+      MAX_ABSORPTION: <#cccccc>Maksimum hasar emilimi (Ekstra kalpler).
+      MAX_HEALTH: <#cccccc>Maksimum sağlık (1.0 = yarım kalp).
+      MINING_EFFICIENCY: <#cccccc>Genel madencilik verimliliği.
+      MOVEMENT_EFFICIENCY: <#cccccc>Zorlu bloklarda hareket verimliliği.
+      MOVEMENT_SPEED: <#cccccc>Varlık hareket hızı.
+      NAME_TAG_DISTANCE: <#cccccc>İsim Etiketi görünürlük mesafesi.
+      OXYGEN_BONUS: <#cccccc>Su altında oksijen tüketmeme şansı.
+      PLAYER_BLOCK_BREAK_SPEED: <#cccccc>Blok kırma hızı çarpanı.
+      PLAYER_BLOCK_INTERACTION_RANGE: <#cccccc>Oyuncunun bloklarla etkileşim mesafesi.
+      PLAYER_ENTITY_INTERACTION_RANGE: <#cccccc>Oyuncunun diğer varlıklarla etkileşim mesafesi.
+      PLAYER_MINING_EFFICIENCY: <#cccccc>Genel madencilik verimliliği.
+      PLAYER_SNEAKING_SPEED: <#cccccc>Eğilme hızı çarpanı (Shift).
+      PLAYER_SUBMERGED_MINING_SPEED: <#cccccc>Su altı madencilik hızı çarpanı.
+      PLAYER_SWEEPING_DAMAGE_RATIO: <#cccccc>Geniş kılıç saldırısı hasar çarpanı.
+      SAFE_FALL_DISTANCE: <#cccccc>Güvenli düşme mesafesi (blok cinsinden).
+      SCALE: <#cccccc>Varlık ölçeği ve boyutu (1.0 = varsayılan).
+      SNEAKING_SPEED: <#cccccc>Eğilme hızı çarpanı (Shift).
+      SPAWN_REINFORCEMENTS: <#cccccc>Zombilerin yardım için başka zombiler çağırma şansı.
+      STEP_HEIGHT: <#cccccc>Otomatik adım yüksekliği (zıplamadan).
+      SUBMERGED_MINING_SPEED: <#cccccc>Su altı madencilik hızı çarpanı.
+      SWEEPING_DAMAGE_RATIO: <#cccccc>Geniş kılıç saldırısı hasar çarpanı.
+      TEMPT_RANGE: <#cccccc>Yemekle yaratık çekme mesafesi.
+      WATER_MOVEMENT_EFFICIENCY: <#cccccc>Su altı hareket verimliliği.
+      WAYPOINT_RECEIVE_RANGE: <#cccccc>Yol noktası alma mesafesi.
+      WAYPOINT_TRANSMIT_RANGE: <#cccccc>Yol noktası iletme mesafesi.
+      ZOMBIE_SPAWN_REINFORCEMENTS: <#cccccc>Zombilerin yardım için başka zombiler çağırma şansı.
+    title: '&0Nitelik seçimi'
+  brd_reward:
+    click_clone: <#d9a752>Değiştir (F) <#cccccc>- Kopyala
+    click_delete: <#ed6868>At (Q) <#cccccc>- Sil
+    click_edit: <#a7ff99>Sol Tık <#cccccc>- Duyuruyu değiştir
+    click_move_down: <#ffe999>Shift+Sağ Tık <#cccccc>- Aşağı taşı
+    click_move_up: <#ffe999>Shift+Sol Tık <#cccccc>- Yukarı taşı
+    click_set_level: <#d9a752>1-9 <#cccccc>- Efekt seviyesini ayarla
+    item_format: '<#79d679>Duyuru #{index}'
+  chance_reward:
+    add_lore: <#a8a8a8>Yeni şans eklemek için tıklayın.
+    add_title: <#ffd470>Şans ekle
+    click_delete: <#ed6868>At (Q) <#cccccc>- Şansı sil
+    click_edit_chance: <#d9a752>Değiştir (F) <#cccccc>- Şansı manuel gir
+    click_open_rewards: <#a7ff99>Sol Tık <#cccccc>- Ödülleri aç
+    confirm_del_desc: '<#ffd470>#{attr} şansını sil?'
+    item_title: Şans
+    prompt_val: '<#ffd470>Yüzdelik şans girin (örn. 50.0):'
+    rewards_gui_title: '#{attr} şansı için ödüller'
+  cmd_reward:
+    add_lore: <#a8a8a8>Yeni komut eklemek için tıklayın.
+    add_title: <#ffd470>Komut ekle
+    click_clone: <#d9a752>Değiştir (F) <#cccccc>- Çoğalt
+    click_delete: <#ed6868>At (Q) <#cccccc>- Sil
+    click_edit: <#a7ff99>Sol Tık <#cccccc>- Komutu değiştir
+    click_move_down: <#ffe999>Shift+Sağ Tık <#cccccc>- Aşağı taşı
+    click_move_up: <#ffe999>Shift+Sol Tık <#cccccc>- Yukarı taşı
+    click_toggle_sender: <#a7ff99>Sağ Tık <#cccccc>- Göndereni seç
+    item_format: '<#ffd470>Komut #{index}'
+    prompt_add:
+    - '<#ffd470>Komut metnini girin:'
+    - '<#a8a8a8>(Oyuncu adı için %player% yazın)'
+    prompt_edit:
+    - '<#ffd470>Yeni komut metnini girin:'
+    - '<#a8a8a8>(Oyuncu adı için %player% yazın)'
+    sender_console: <#ffd470>Konsol Olarak
+    sender_console_lore:
+    - '<#a8a8a8>Komut sunucu konsolu tarafından yürütülecektir.'
+    - ''
+    - '<#a7ff99>Seçmek için tıklayın.'
+    sender_gui_title: '&0Gönderen seçimi'
+    sender_none: <#ed6868>Etiketi temizle
+    sender_none_lore:
+    - '<#a8a8a8>Komut etiketini temizle.'
+    - ''
+    - '<#a8a8a8>(Varsayılan olarak Konsol ile aynıdır)'
+    - ''
+    - '<#a7ff99>Seçmek için tıklayın.'
+    sender_player: <#ffd470>Oyuncu Olarak
+    sender_player_lore:
+    - '<#a8a8a8>Komut, sanki oyuncu tarafından'
+    - ''
+    - '<#a8a8a8>girilmiş gibi yürütülecektir.'
+    - ''
+    - '<#a7ff99>Seçmek için tıklayın.'
+    sender_silent_console: <#ffd470>Konsol Olarak (Sessiz)
+    sender_silent_console_lore:
+    - '<#a8a8a8>Komut konsol tarafından yürütülecek,'
+    - ''
+    - '<#a8a8a8>ancak sonuç kaydedilmeyecektir.'
+    - ''
+    - '<#a7ff99>Seçmek için tıklayın.'
+    sender_silent_player: <#ffd470>Oyuncu Olarak (Sessiz)
+    sender_silent_player_lore:
+    - '<#a8a8a8>Komut oyuncu tarafından yürütülecek,'
+    - ''
+    - '<#a8a8a8>ancak sonuç sohbete yansıtılmayacaktır.'
+    - ''
+    - '<#a7ff99>Seçmek için tıklayın.'
+  dialogue_list:
+    create_default_text: '  <#c8c8c8>Merhaba, gezgin!'
+    create_prompt: '<#ffd470>Yeni diyalog ID''si girin (örn: <#ffffff>tavern_dialogue<#ffd470>):'
+    edit_click: <#a7ff99>Sol Tık <#cccccc>- Diyaloğu düzenle
+    clone_click: '<#d9a752>Değiştir (F) <#cccccc>- Diyaloğu kopyala'
+    delete_click: <#ed6868>At (Q) <#cccccc>- Diyaloğu sil
+    id_click: <#a7ff99>Sol Tık <#cccccc>- Diyalog ID'sini değiştir
+    id_exists: <#ed6868>{id} ID'li diyalog zaten mevcut!
+    id_lore: '<#a8a8a8>ID: <#ffffff>{id}'
+    id_prompt: '<#ffd470>Yeni diyalog ID''si girin (örn: tavern_talk):'
+    id_success: '{prefix}<#78b185>✔ <#ffffff>Diyalog ID''si başarıyla <#ffffff>{id} <#ffffff>olarak değiştirildi'
+    id_title: <#ffd470>Diyalog ID
+    node_id_title: '<#ffd470>Replika ID'
+    name_click: <#a7ff99>Sol Tık <#cccccc>- Adı değiştir
+    name_lore: '<#a8a8a8>Mevcut ad: '
+    name_prompt: '<#ffd470>Diyalogda NPC adını girin (örn. <#d0a775>{npc}):'
+    name_title: <#ffd470>Diyalogda NPC adı
+    nodes_lore: '<#a8a8a8>Replikalar: <#7dd3ff>{count}'
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>dialogues.yml kaydedilirken hata oluştu!'
+  dialogue_main:
+    action_back_lore: <#a8a8a8>Cevap editörüne dön
+    action_back_title: <#ed6868>Geri
+    action_builder_back_lore: <#a8a8a8>Eylem Oluşturucu'ya dön
+    action_builder_select_node: '&0Hedef replikayı seç'
+    action_builder_title: '<#6e6e6e>Eylem Oluşturucu: <#6aa0c9>Cevap #{index}'
+    action_close_lore: <#a8a8a8>NPC ile konuşmayı sonlandır.
+    action_close_title: <#ed6868>Diyaloğu kapat <#a8a8a8>(close)
+    action_console_cmd_lore:
+    - <#a8a8a8>Komutu konsol olarak yürüt.
+    - <#a8a8a8>Oyuncu adı için %player% kullan.
+    action_console_cmd_title: <#7dd3ff>Konsol komutu <#a8a8a8>(console:<cmd>)
+    action_create_lore: <#a8a8a8>Yeni replika oluşturur ve eylemi ona bağlar.
+    action_create_title: <#55ff55>Replika oluştur ve bağla
+    action_current_title: <#ffd470>Mevcut eylem
+    action_current_selected: '<#a8a8a8>Seçili:'
+    action_current_lore:
+    - ''
+    - '<#a8a8a8>Bu, bir oyuncu bu cevabı'
+    - '<#a8a8a8>seçtiğinde yürütülecek'
+    - '<#a8a8a8>olan eylemdir.'
+    action_custom_lore: <#a8a8a8>Ham eylem dizisini manuel gir.
+    action_custom_title: <#ffd470>Özel eylem satırı
+    action_finish_quest_lore: <#a8a8a8>Tıklamada belirtilen görevi tamamlar.
+    action_finish_quest_title: <#79d679>Görevi tamamla <#a8a8a8>(quest:finish:<id>)
+    action_goto_lore: <#a8a8a8>Başka bir diyalog düğümüne atla.
+    action_goto_title: <#79d679>Düğüme git <#a8a8a8>(dialogue:<node>)
+    action_node_link_lore: <#a7ff99>Sol Tık <#a8a8a8>bu satırı bağlamak için
+    action_node_link_title: <#ffd470>{key}
+    action_player_cmd_lore: <#a8a8a8>Oyuncuyu bir komut yürütmeye zorla.
+    action_player_cmd_title: <#7dd3ff>Oyuncu komutu <#a8a8a8>(player:<cmd>)
+    action_start_quest_lore: <#a8a8a8>Tıklamada belirtilen görevi başlatır.
+    action_start_quest_title: <#79d679>Görevi başlat <#a8a8a8>(quest:start:<id>)
+    add_lore_empty: <#a7ff99>Sağ Tık <#cccccc>- Boş satır oluştur
+    cond_clear: <#ffe999>Sağ Tık <#a8a8a8>tüm koşulları temizlemek için
+    cond_current_title: <#ffd470>Mevcut Koşullar
+    cond_gui_title: '&0Koşullar: Cevap #{num}-'
+    cond_none: <#ed6868>Koşul yok. Cevap her zaman görünür.
+    cond_perm_lore: <#a8a8a8>Örn., permission:my.perm
+    cond_perm_prompt: 'İzin girin:'
+    cond_perm_title: <#79d679>İzin gerektir (Permission)
+    cond_quest_lore: <#a8a8a8>Örn., quest_state:<id>:COMPLETED
+    cond_quest_prompt: 'Gerekli durumu girin (ACTIVE/COMPLETED/NOT_STARTED):'
+    cond_quest_title: <#79d679>Görev durumu gerektir
+    cond_raw_lore: <#a8a8a8>Koşulu manuel girin.
+    cond_raw_prompt: 'Koşul dizisini girin:'
+    cond_raw_title: <#ffd470>Özel koşul dizisi
+    cpt_click:
+    - <#a7ff99>Sol Tık <#cccccc>- 1 karakter ekle
+    - <#a7ff99>Sağ Tık <#cccccc>- 1 karakter çıkar
+    - <#ffe999>Shift+Sol Tık <#cccccc>- 10 karakter ekle
+    - <#ffe999>Shift+Sağ Tık <#cccccc>- 10 karakter çıkar
+    - <#d9a752>Değiştir (F) <#cccccc>- Manuel gir
+    cpt_lore:
+    - <#a8a8a8>Metin çıktı hızı (tik başına karakter).
+    - '<#a8a8a8>Mevcut: <#ffffff>{cpt} karakter'
+    cpt_prompt: '<#ffd470>Tik başına karakter miktarını girin (örn. 1-5):'
+    cpt_title: <#ffd470>Metin çıktı hızı
+    delete_right_click_warn: Silmek için <#ffe999>Sağ Tık kullanın!
+    dialogue_tutorial_lore:
+    - <#a8a8a8>Rehberi okumak için tıklayın
+    dialogue_tutorial_title: '&0Rehber: Nasıl diyalog oluşturulur?'
+    dialogue_tutorial_item_title: '<#ffd470>Rehber: Nasıl diyalog oluşturulur?'
+    dialogue_validator_lore:
+    - '<#cccccc>Sohbette detaylı bir diyalog analizi başlatır.'
+    dialogue_validator_title: '<#ffe999>Hataları kontrol et'
+    id_click: <#a7ff99>Sol Tık <#cccccc>- ID'yi değiştir
+    id_exists: Bu ID ile bir diyalog zaten mevcut!
+    id_lore: '<#a8a8a8>Mevcut ID: <#ffffff>{id}'
+    id_prompt: '<#ffd470>Yeni diyalog ID''si girin:'
+    id_success: '{prefix}<#78b185>✔ <#ffffff>Diyalog ID''si başarıyla <#ffffff>{id} <#ffffff>olarak değiştirildi'
+    id_title: <#ffd470>Diyalog ID
+    node_id_title: '<#ffd470>Düğüm ID'
+    item_clone: <#d9a752>Değiştir (F) <#cccccc>- Satırı kopyala
+    item_move_down: <#ffe999>Shift+Sağ Tık <#cccccc>- Aşağı taşı
+    item_move_up: <#ffe999>Shift+Sol Tık <#cccccc>- Yukarı taşı
+    keys_list: '<#a8a8a8>Gereksinimler: <#ffffff>{keys}'
+    keys_more: ' <#6e6e6e>(+daha {count})'
+    keys_none: '<#a8a8a8>Anahtarlar: <#ffffff>yok'
+    name_click: <#a7ff99>Sol Tık <#cccccc>- NPC adını değiştir
+    name_lore: '<#a8a8a8>Mevcut ad: <#ffffff>{name}'
+    name_prompt: '<#ffd470>Konuşma sırasında görünecek NPC adını girin:'
+    name_title: <#a8a8a8>Diyalogda NPC adı
+    node_opts_click: <#a7ff99>Sol Tık <#a8a8a8>cevapları değiştirmek için
+    node_opts_lore:
+    - '<#a8a8a8>Mevcut cevaplar: <#ffd470>{count}'
+    node_opts_title: <#ffd470>Oyuncu cevapları
+    node_quick_reply_lore: <#a8a8a8>Otomatik olarak yeni bir cevap oluşturur ve yeni bir düğüme bağlar.
+    node_quick_reply_text: <#6e6e6e>[Devam et...]
+    node_quick_reply_title: <#55ff55>Hızlı cevap
+    node_sound_click: <#a7ff99>Sol Tık <#a8a8a8>sesi değiştirmek için
+    node_sound_lore:
+    - '<#a8a8a8>Mevcut: <#ffffff>{sound}'
+    node_sound_title: <#ffd470>Tıklama sesi
+    node_text_click: <#a7ff99>Sol Tık <#a8a8a8>NPC metnini değiştirmek için
+    node_text_lore:
+    - '<#a8a8a8>NPC diyor ki:'
+    node_text_more: '  <#a8a8a8>... ve {count} daha.'
+    node_text_title: <#ffd470>NPC metni
+    nodes_add_default_text: '  <#c8c8c8>Merhaba, gezgin!'
+    nodes_add_lore: <#a8a8a8>Yeni bir diyalog düğümü oluşturur (örn. start, choice_1)
+    nodes_add_prompt: '<#ffd470>Yeni düğümün adını girin (örn. start veya node_2):'
+    nodes_add_success: '{prefix}<#78b185>✔ <#ffffff>Yeni düğüm oluşturuldu: <#ffffff>{node}<#a8a8a8>'
+    nodes_add_title: <#55ff55>Yeni düğüm ekle
+    nodes_click: <#a7ff99>Sol Tık <#cccccc>- Düğüm listelerini ve metinleri aç
+    nodes_del_confirm_desc: '{node} düğümünü silmek istediğinize emin misiniz?'
+    nodes_del_confirm_title: '&0Düğüm siliniyor'
+    nodes_del_success: '{prefix}<#78b185>✔ <#ffffff>{node}<#a8a8a8> düğümü silindi!'
+    nodes_edit_gui_title: '&0Düğüm metni: '
+    nodes_gui_title: '&0Düğümler: '
+    node_gui_title: '&0Düğüm: '
+    nodes_item_click:
+    - <#a7ff99>Sol Tık <#cccccc>- Düğümü düzenle
+    - <#ed6868>At (Q) <#cccccc>- Düğümü sil
+    nodes_item_normal: '<#a8a8a8>Düğüm: <#ffffff>{node}'
+    nodes_item_start: <#7eb87e>[Başlangıç] start
+    nodes_lines: '<#a8a8a8>Satır sayısı: <#ffffff>{count}'
+    nodes_lore:
+    - '<#a8a8a8>Toplam düğüm: <#ffffff>{count}'
+    nodes_text: '<#a8a8a8>Metin:'
+    nodes_text_more: '  <#6e6e6e>... (+daha {count} satır)'
+    nodes_title: <#ffd470>Diyalog düğümleri (Düğümler)
+    opt_action_lore:
+    - '<#a8a8a8>Mevcut eylem:'
+    - <#ffffff>{action}
+    - <#a7ff99>Sol Tık <#a8a8a8>Eylem Oluşturucu'yu açmak için
+    opt_action_title: <#79d679>Eylem Oluşturucu
+    opt_back_lore: <#a8a8a8>Cevap listesine dön
+    opt_conds_lore:
+    - '<#a8a8a8>Koşullar: <#ffd470>{count}'
+    - <#a7ff99>Sol Tık <#a8a8a8>koşulları değiştirmek için
+    opt_conds_title: <#ffd470>Görüntüleme koşulları
+    opt_create_node_lore: <#a8a8a8>Otomatik olarak yeni bir düğüm oluşturur ve bu cevabı ona bağlar.
+    opt_create_node_title: <#55ff55>Düğüm oluştur ve bağla
+    opt_edit_cond_title: '<#6e6e6e>Koşullar (Cevap #{num}-)'
+    opt_action_gui_title: '&0Eylemler: #{num}-'
+    opt_edit_current: '<#a8a8a8>Mevcut: <#ffffff>{current}'
+    opt_edit_gui_title: '&0Cevap #{num}-'
+    opt_edit_lore_title: '<#6e6e6e>Açıklama (Cevap #{num}-)'
+    opt_edit_prompt_mat: 'Materyal adını girin (Bukkit Material):'
+    opt_edit_prompt_mat_invalid: <#ed6868>Geçersiz materyal!
+    opt_edit_prompt_slot: 'Slot numarasını girin (veya -1):'
+    opt_edit_prompt_sound: 'Ses adını girin (Bukkit Sound) veya ''none'':'
+    opt_edit_prompt_text: 'Oyuncu cevap metnini girin:'
+    opt_linked_action_lore: '<#a8a8a8>Eylemi yürütür: <#ffffff>{action}'
+    opt_linked_close_lore: '<#a8a8a8>Şuna yönlendirir: <#ffffff>Diyaloğu kapatma'
+    opt_linked_node_lore: '<#a8a8a8>Şuna yönlendirir: <#ffffff>Düğüm {node}'
+    opt_linked_node_missing_lore: '<#ed6868>Şuna yönlendirir: Düğüm {node} (BULUNAMADI!)'
+    opt_list_action: '<#a8a8a8>Eylem: <#79d679>{action}'
+    opt_list_add_lore: <#a8a8a8>Yeni bir cevap oluşturmak için tıklayın.
+    opt_list_add_title: <#79d679>Cevap Ekle
+    opt_list_click:
+    - <#a7ff99>Sol Tık <#a8a8a8>düzenlemek için
+    - <#ed6868>At (Q) <#a8a8a8>silmek için
+    opt_list_del_desc: '<#a8a8a8>#{index} numaralı cevabı silmek istediğinize emin misiniz?'
+    opt_list_del_title: <#ed6868>Cevap silinsin mi?
+    opt_list_del_gui_title: '&0Cevap silinsin mi?'
+    opt_list_gui_title: '&0Cevaplar: '
+    opt_list_item_title: '<#ffd470>Cevap #{index}'
+    opt_list_slot: '<#a8a8a8>Slot: <#ffd470>{slot}'
+    opt_list_text: '<#a8a8a8>Metin: <#ffffff>{text}'
+    opt_material_lore:
+    - '<#a8a8a8>Mevcut: <#ffffff>{material}'
+    - <#a7ff99>Sol Tık <#a8a8a8>adı girmek için
+    - <#7dd3ff>At (Q) öğeyi <#a8a8a8>ayarlamak için buraya
+    opt_material_title: <#ffd470>Cevap ikonu (Material)
+    opt_reply_lore_lore:
+    - '<#a8a8a8>Satırlar: <#ffd470>{count}'
+    - <#a7ff99>Sol Tık <#a8a8a8>açıklamayı değiştirmek için
+    opt_reply_lore_title: <#ffd470>Cevap açıklaması (Lore)
+    opt_reply_text_lore:
+    - '<#a8a8a8>Mevcut: <#ffffff>{text}'
+    - <#a7ff99>Sol Tık <#a8a8a8>metni değiştirmek için
+    opt_reply_text_title: <#ffd470>Cevap metni
+    opt_slot_lore:
+    - '<#a8a8a8>Mevcut: <#ffd470>{slot}'
+    - <#a8a8a8>Otomatik yerleştirme için -1 ayarlayın.
+    - <#a7ff99>Sol Tık <#a8a8a8>+1 için
+    - <#ffe999>Sağ Tık <#a8a8a8>-1 için
+    - <#ed6868>At (Q) <#a8a8a8>sohbetten girmek için
+    opt_slot_title: <#ffd470>Envanter slotu
+    opt_sound_lore:
+    - '<#a8a8a8>Mevcut: <#ffffff>{sound}'
+    - <#a7ff99>Sol Tık <#a8a8a8>sesi değiştirmek için
+    opt_sound_title: <#ffd470>Tıklama sesi
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>dialogues.yml kaydedilirken hata oluştu!'
+    tutorial_footer: '<#6e6e6e>=============================
+
+      '
+    tutorial_header: '
+
+      <#6e6e6e>=== <#7dd3ff>Nasıl diyalog oluşturulur <#6e6e6e>==='
+    tutorial_step1_title: '<#ffd470>Adım 1: Diyalog başlangıcı'
+    tutorial_step1_lore:
+    - '<#a8a8a8>Her diyaloğun bir başlangıç noktası olmalıdır.'
+    - '<#a8a8a8><#a7ff99>''Diyalog düğümleri''<#a8a8a8>ne tıklayın ve'
+    - '<#a8a8a8>ID''si <#a7ff99>''start''<#a8a8a8> olan ilk düğümü oluşturun.'
+    - '<#a8a8a8>Bu, NPC''nin konuşmaya başlayacağı yerdir.'
+    tutorial_step2_title: '<#ffd470>Adım 2: Düğüm metni'
+    tutorial_step2_lore:
+    - '<#a8a8a8>Bir düğüm oluşturduktan sonra üzerine tıklayın.'
+    - '<#a8a8a8>NPC''nin söyleyeceği metni ayarlayın.'
+    - '<#a8a8a8>Renk kodlarını ve'
+    - '<#a8a8a8>yer tutucuları (örn. <#a7ff99>{player}<#a8a8a8>) kullanabilirsiniz.'
+    tutorial_step3_title: '<#ffd470>Adım 3: Cevap seçenekleri'
+    tutorial_step3_lore:
+    - '<#a8a8a8>Diyaloğu etkileşimli hale getirmek için, oyuncu'
+    - '<#a8a8a8>için <#a7ff99>cevap seçenekleri <#a8a8a8>ekleyin.'
+    - '<#a8a8a8>Düğüm ayarlarına gidin ve'
+    - '<#a8a8a8>birkaç olası cevap oluşturun.'
+    tutorial_step4_title: '<#ffd470>Adım 4: Bağlantılar ve geçişler'
+    tutorial_step4_lore:
+    - '<#a8a8a8>Her oyuncu cevabı başka bir'
+    - '<#a8a8a8>NPC düğümüne çıkmalı veya diyaloğu sonlandırmalıdır.'
+    - '<#a8a8a8>Her cevabı bir sonraki düğümün'
+    - '<#a8a8a8>ID''sine bağlayın.'
+    tutorial_step5_title: '<#ffd470>Adım 5: Koşullar (Conditions)'
+    tutorial_step5_lore:
+    - '<#a8a8a8>Bazı cevaplar oyuncudan gizlenebilir.'
+    - '<#a8a8a8>Cevap ayarlarında şunları belirtebilirsiniz:'
+    - '<#a8a8a8>gereksinimler: bir izne sahip olmak (permission)'
+    - '<#a8a8a8>veya belirli bir görev durumu.'
+    tutorial_step6_title: '<#ffd470>Adım 6: Eylemler (Actions)'
+    tutorial_step6_lore:
+    - '<#a8a8a8>Bir cevap seçmek belirli etkinlikleri tetikleyebilir.'
+    - '<#a8a8a8>Bir sonraki düğüme atlamanın yanı sıra,'
+    - '<#a8a8a8>otomatik olarak bir görevi başlatabilir veya teslim edebilir,'
+    - '<#a8a8a8>veya oyuncu/konsol adına bir komut yürütebilirsiniz.'
+    tutorial_step7_title: '<#ffd470>Adım 7: Diyalog Doğrulayıcı'
+    tutorial_step7_lore:
+    - '<#a8a8a8>Diyalog hazır olduğunda, editörün ana menüsündeki'
+    - '<#a7ff99>Doğrulayıcı<#a8a8a8>yı kullandığınızdan emin olun.'
+    - '<#a8a8a8>Bu, diyaloğunuzu kırık bağlantılar'
+    - '<#a8a8a8>ve erişilemeyen düğümler için kontrol edecektir.'
+    update_period_click:
+    - <#a7ff99>Sol Tık <#cccccc>- 1 tik ekle
+    - <#a7ff99>Sağ Tık <#cccccc>- 1 tik çıkar
+    - <#ffe999>Shift+Sol Tık <#cccccc>- 10 tik ekle
+    - <#ffe999>Shift+Sağ Tık <#cccccc>- 10 tik çıkar
+    - <#d9a752>Değiştir (F) <#cccccc>- Manuel gir
+    update_period_lore:
+    - <#a8a8a8>Metnin ne sıklıkla güncelleneceği (tik cinsinden).
+    - '<#a8a8a8>Mevcut: <#7dd3ff>{ticks} tik'
+    update_period_prompt: '<#ffd470>Tik miktarını girin (1-100):'
+    update_period_title: <#ffd470>Metin güncelleme hızı
+    validator_dead_link: '{node} cevabı var olmayan bir {target} düğümüne yönlendiriyor! (cevap #{index})'
+    validator_footer: '<#c8beaa>Özet: <#b0b8c1>{errors} hata, <#c4b5b5>{warnings} uyarı.'
+    validator_header: '<#b0b8c1>=== <#6aa0c9>Diyalog durumu: <#e2e8f0>{id} <#b0b8c1>==='
+    validator_links_ok: 'Diyalog tamamen hazır ve hiçbir sorunu yok!'
+    validator_start_missing: 'Başlangıç düğümü ''start'' eksik!'
+    voice_click: <#a7ff99>Sol Tık <#cccccc>- Ses türünü değiştir
+    voice_lore: '<#a8a8a8>Ses: <#ffffff>{voice}'
+    voice_prompt: '<#ffd470>Ses türü girin (villager, none veya özel):'
+    voice_title: <#ffd470>Diyalog seslendiricisi
+    opt_reply_text_click: '<#a8a8a8>Metni düzenlemek için tıklayın'
+    opt_reply_lore_click: '<#a8a8a8>Açıklamayı düzenlemek için tıklayın'
+    opt_material_click: '<#a8a8a8>İkonu düzenlemek için tıklayın'
+    opt_sound_click: '<#a8a8a8>Sesi düzenlemek için tıklayın'
+    opt_action_click: '<#a8a8a8>Eylemleri düzenlemek için tıklayın'
+    opt_conds_click: '<#a8a8a8>Koşulları düzenlemek için tıklayın'
+    action_player_prompt: '&aOyuncu olarak yürütülecek komutu girin:'
+    action_console_prompt: '&aKonsoldan yürütülecek komutu girin:'
+  eff_reward:
+    add_lore: <#a7ff99>Sol Tık <#cccccc>- Efekt seç
+    click_add_10s: <#ffe999>Shift+Sol Tık <#cccccc>- 10 sn ekle
+    click_add_1s: <#a7ff99>Sol Tık <#cccccc>- 1 sn ekle
+    click_custom_dur: <#d9a752>Değiştir (F) <#cccccc>- Özel süre gir
+    click_delete: <#ed6868>At (Q) <#cccccc>- Sil
+    click_edit: <#a7ff99>Sol Tık <#cccccc>- Efekti düzenle
+    click_move_down: <#ffe999>Shift+Sağ Tık <#cccccc>- Aşağı taşı
+    click_move_up: <#ffe999>Shift+Sol Tık <#cccccc>- Yukarı taşı
+    click_remove_10s: <#ffe999>Shift+Sağ Tık <#cccccc>- 10 sn çıkar
+    click_remove_1s: <#a7ff99>Sağ Tık <#cccccc>- 1 sn çıkar
+    click_set_level: <#d9a752>1-9 <#cccccc>- Efekt seviyesini ayarla
+    descriptions:
+      ABSORPTION: <#cccccc>Ekstra altın kalp verir.
+      BAD_OMEN: <#cccccc>Bir köye girildiğinde baskını tetikler.
+      BLINDNESS: <#cccccc>Oyuncunun görüşünü kısıtlar.
+      BREATH_OF_THE_NAUTILUS: <#cccccc>Su altında nefes alma verir (Conduit).
+      CONDUIT_POWER: <#cccccc>Su altında nefes alma, görüş ve acele verir.
+      CONFUSION: <#cccccc>Baş dönmesi etkisine neden olur.
+      DAMAGE_RESISTANCE: <#cccccc>Alınan hasarı azaltır.
+      DARKNESS: <#cccccc>Oyuncunun görüşünü karartır.
+      DOLPHINS_GRACE: <#cccccc>Yüzme hızını artırır.
+      FAST_DIGGING: <#cccccc>Madencilik hızını artırır.
+      FIRE_RESISTANCE: <#cccccc>Ateş ve lava karşı bağışıklık kazandırır.
+      GLOWING: <#cccccc>Oyuncunun dış hatlarını vurgular.
+      HARM: <#cccccc>Anında hasar verir.
+      HEAL: <#cccccc>Anında can yeniler.
+      HEALTH_BOOST: <#cccccc>Ekstra can kalpleri ekler.
+      HERO_OF_THE_VILLAGE: <#cccccc>Köylülerden indirim sağlar.
+      HUNGER: <#cccccc>Açlığı daha hızlı tüketir.
+      INCREASE_DAMAGE: <#cccccc>Yakın dövüş hasarını artırır.
+      INFESTED: <#cccccc>Hasar alındığında gümüşçün doğurur.
+      INVISIBILITY: <#cccccc>Oyuncuyu görünmez yapar.
+      JUMP: <#cccccc>Zıplama yüksekliğini artırır.
+      LEVITATION: <#cccccc>Oyuncunun yukarı doğru süzülmesine neden olur.
+      LUCK: <#cccccc>Şansı artırır.
+      NIGHT_VISION: <#cccccc>Karanlıkta görmeyi sağlar.
+      OOZING: <#cccccc>Ölüm üzerine balçık doğurur.
+      POISON: <#cccccc>Zamanla hasar verir (öldüremez).
+      RAID_OMEN: <#cccccc>Bir köye yaklaşıldığında baskını tetikler.
+      REGENERATION: <#cccccc>Zamanla can yeniler.
+      SATURATION: <#cccccc>Anında açlığı yeniler.
+      SLOW: <#cccccc>Hareket hızını azaltır.
+      SLOW_DIGGING: <#cccccc>Madencilik hızını azaltır.
+      SLOW_FALLING: <#cccccc>Düşme hızını yavaşlatır.
+      SPEED: <#cccccc>Hareket hızını artırır.
+      TRIAL_OMEN: <#cccccc>Sınav zorluğunu artırır.
+      UNLUCK: <#cccccc>Şansı azaltır.
+      WATER_BREATHING: <#cccccc>Su altında nefes almayı sağlar.
+      WEAKNESS: <#cccccc>Verilen hasarı azaltır.
+      WEAVING: <#cccccc>Ölüm üzerine örümcek ağı doğurur.
+      WIND_CHARGED: <#cccccc>Ölüm üzerine rüzgar patlaması tetikler.
+      WITHER: <#cccccc>Zamanla hasar verir (öldürebilir).
+    duration_format: '<#8a8a8a>Süre: <#55e655>{secs} sn <#555555>({time})'
+    duration_format_raw: '<#8a8a8a>Süre: <#55e655>{dur} sn'
+    item_format: '<#79d679>Efekt #{index}'
+    level_format: '<#8a8a8a>Güç (Seviye): <#55e6e6>{level}'
+    prompt_add: '<#8a8a8a>Efekti <#ed6868>EFEKT:SEVİYE:ZAMAN<#8a8a8a> formatında girin (örn. SPEED:1:200):'
+    prompt_dur: '<#8a8a8a>Efekt süresini saniye cinsinden girin:'
+    prompt_edit: '<#8a8a8a>Yeni efekti <#ed6868>EFEKT:SEVİYE:ZAMAN<#8a8a8a> formatında girin:'
+    selector_title: Efekt seç
+    type_format: '<#8a8a8a>Efekt türü: <#e6e655>{type}'
+  entity_selector:
+    click: <#a7ff99>Sol Tık <#cccccc>- Varlık seç
+    title: '&0Yaratık/varlık seç'
+  global_settings:
+    error_not_number: Bir sayı girin!
+    limit_click: <#79d679>Değiştirmek için tıklayın
+    limit_lore:
+    - '<#a8a8a8>Anahtar: <#ffffff>personal-limit'
+    - '<#a8a8a8>Mevcut: <#ffffff>{val}'
+    limit_prompt: '<#ffd470>personal-limit için yeni değer girin:'
+    limit_title: <#ffd470>Kişisel sınır
+    max_p_click: <#79d679>Değiştirmek için tıklayın
+    max_p_lore:
+    - '<#a8a8a8>Anahtar: <#ffffff>max-participants'
+    - '<#a8a8a8>Mevcut: <#ffffff>{val}'
+    max_p_prompt: '<#ffd470>max-participants için yeni değer girin:'
+    max_p_title: <#ffd470>Maksimum katılımcı
+    min_p_click: <#79d679>Değiştirmek için tıklayın
+    min_p_lore:
+    - '<#a8a8a8>Anahtar: <#ffffff>min-participants'
+    - '<#a8a8a8>Mevcut: <#ffffff>{val}'
+    min_p_prompt: '<#ffd470>min-participants için yeni değer girin:'
+    min_p_title: <#ffd470>Minimum katılımcı
+    step_click: <#a7ff99>Sol Tık <#cccccc>- Değiştir
+    step_lore:
+    - '<#a8a8a8>Anahtar: <#ffffff>reward-step'
+    - '<#a8a8a8>Değer: <#ffffff>{val}'
+    step_prompt: '<#ffd470>reward-step için yeni sayı girin:'
+    step_title: <#ffd470>Ödül adımı
+    title: '&0Motor ayarları: {id}'
+  health_check:
+    err_missing_name: Görev adı eksik (name)
+    err_missing_stages: Aşamalar eksik (stages)
+    err_no_name: Görev adı eksik (name)
+    err_no_stages: Aşamalar eksik (stages)
+    header: '=== Görev sağlık analizi: {id} ==='
+    success: '{prefix}<#78b185>✔ <#ffffff>Görev tamamen hazır ve hiçbir sorunu yok!'
+    summary: 'Özet: {errors} hata, {warnings} uyarı.'
+    title: '<#b0b8c1>=== <#6aa0c9>Görev durumu: <#e2e8f0>{id} <#b0b8c1>==='
+    warn_missing_mandatory_prop: 'Aşama {stage}: zorunlu özellik ''{prop}'' eksik'
+    warn_no_rewards: Görev herhangi bir ödül içermiyor (rewards)
+    warn_npc_not_found: '{prefix}<#d9a752>⚠ <#ffffff>Aşama {stage}: NPC ''{npc}'' npcs.yml dosyasında bulunamadı'
+    warn_obj_prop: 'Uyarı: nesne özelliği'
+    warn_objective_missing_prop: 'Hedef: zorunlu özellik ''{prop}'' eksik'
+    warn_stage_empty: Aşama boş
+    warn_stage_npc: Aşama NPC'si yapılandırılmamış
+    warn_stage_prop: Aşamada geçersiz bir özellik var
+    warn_unconfigured_stage: 'Aşama {stage}: hedef veya materyaller yapılandırılmamış'
+  list:
+    clone_prompt: '<#ffd470>Kopyalanan görev için ID girin:'
+    confirm_del_desc: '{id} görevini silmek istediğinize emin misiniz?'
+    confirm_del_title: ✖ Görevi sil
+    error_clone: '{prefix}<#c96a6a>✖ <#ffffff>Klonlama sırasında hata oluştu!'
+    error_clone_exists: '{prefix}<#c96a6a>✖ <#ffffff>Bu ID ile bir görev zaten mevcut!'
+    error_create: '{prefix}<#c96a6a>✖ <#ffffff>Görev oluşturma sırasında hata.'
+    filter_lore_next: <#a7ff99>Sol Tık <#cccccc>- Sonraki mod
+    filter_lore_prev: <#a7ff99>Sağ Tık <#cccccc>- Önceki mod
+    filter_lore_title: '<#a8a8a8>Sıralama modları:'
+    filter_title: <#ffd470>Filtre / Sırala
+    item_clone: <#d9a752>Değiştir (F) <#cccccc>- Görevi kopyala
+    item_delete: <#ed6868>At (Q) <#cccccc>- Görevi sil
+    item_edit: <#a7ff99>Sol Tık <#cccccc>- Görevi düzenle
+    item_engine: '<#a8a8a8>Motor: <#7dd3ff>{engine}'
+    item_type: '<#a8a8a8>Tür: <#ffffff>{type}'
+    mode_cre_new: Oluşturuldu (Önce en yeni)
+    mode_cre_old: Oluşturuldu (Önce en eski)
+    mode_engine_chain: 'Filtre: CHAIN Motoru'
+    mode_engine_default: 'Filtre: DEFAULT Motoru'
+    mode_engine_global: 'Filtre: GLOBAL Motoru'
+    mode_engine_rotation: 'Filtre: ROTATION Motoru'
+    mode_id_asc: ID'ye göre (A-Z)
+    mode_id_desc: ID'ye göre (Z-A)
+    mode_issue: 'Filtre: Dikkat gerektirenler'
+    mode_mod_new: Değiştirildi (Önce en yeni)
+    mode_mod_old: Değiştirildi (Önce en eski)
+    mode_type: Görev türüne göre
+    msg_clone_success: '{prefix}<#78b185>✔ <#ffffff>Görev başarıyla <#ffffff>{id} <#ffffff>olarak kopyalandı'
+    msg_del_success: '{prefix}<#78b185>✔ <#ffffff>Görev {id} <#79d679>başarıyla silindi!'
+    search_all: '<#a8a8a8>Ara: <#ffffff>Tümü'
+    search_click: <#a7ff99>Sol Tık <#cccccc>- Ara (veya temizle)
+    search_prompt: '<#ffd470>Görevleri aramak için metin girin (veya temizleyin):'
+    search_query: '<#a8a8a8>Ara: <#ffffff>{query}'
+  list_string_editor:
+    add_lore: <#a7ff99>Sol Tık <#cccccc>- Metin girin.
+    add_lore_empty: <#a7ff99>Sağ Tık <#cccccc>- Boş satır oluştur
+    delete_confirm_item: Satırı sil
+    delete_confirm_msg: '<#ffd470>#{index} numaralı satırı silmek istediğinize emin misiniz?'
+    delete_confirm_title: '&0Satırı sil'
+    item_clone: <#d9a752>Değiştir (F) <#cccccc>- Satırı kopyala
+    item_delete: <#ed6868>At (Q) <#cccccc>- Satırı sil
+    item_edit: <#a7ff99>Sol Tık <#cccccc>- Satırı düzenle
+    item_format: '<#ffffff>Satır #{index}'
+    item_move_down: <#ffe999>Shift+Sağ Tık <#cccccc>- Aşağı taşı
+    item_move_up: <#ffe999>Shift+Sol Tık <#cccccc>- Yukarı taşı
+    prompt_add: '<#ffd470>Yeni satır için metin girin:'
+    prompt_edit: 'Satır düzenleniyor:'
+  main_menu:
+    add_lore_empty: <#ffe999>Sağ Tık <#cccccc>- Boş satır oluştur
+    back: <#ed6868>Geri git
+    btn_check_lore: <#cccccc>Sohbette detaylı yapılandırma analizi çalıştırır.
+    btn_check_title: <#ffe999>Hataları kontrol et
+    btn_preview_lore: <#cccccc>Görevi oyuncuların gördüğü gibi gösterir.
+    btn_preview_title: <#7dd3ff>Önizleme
+    btn_save_changes: ' <#ffd470>(* Değişiklikler)'
+    btn_save_lore_unsaved: <#ffd470>Sol Tık <#cccccc>- Değişiklikleri kaydet
+    btn_save_lore_saved: <#ffe999>Kaydedilmemiş değişiklik yok
+    btn_save_title: <#55ff55>Dosyayı kaydet
+    cmd_lore:
+    - <#a8a8a8>Özel öğe dokuları için.
+    - '<#a8a8a8>Mevcut değer: <#ffffff>{cmd}'
+    cmd_prompt: '<#ffd470>Custom Model Data numarası girin (veya 0):'
+    cmd_title: <#ffd470>Model (Custom Model Data)
+    cooldown_click: <#a7ff99>Sol Tık (+1) / Sağ Tık (-1) / <#d9a752>Değiştir (F) <#cccccc>- Manuel
+    cooldown_lore: '<#a8a8a8>Bekleme süresi: <#ffffff>{time} <#a8a8a8>({secs}sn)'
+    cooldown_none: Bekleme süresi yok
+    cooldown_title: <#ffd470>Bekleme Süresi
+    desc_click: <#a7ff99>Sol Tık <#cccccc>- Düzenle
+    desc_gui_title: '&0Açıklama: '
+    desc_title: <#ffd470>Görev açıklaması
+    effects_activate_lore: '<#a8a8a8>Mevcut: <#ffffff>{val}'
+    effects_activate_title: <#ffd470>Görevi kabul etme efekti
+    effects_click: <#a7ff99>Sol Tık <#cccccc>- Değiştir
+    effects_click_drop: <#ed6868>At (Q) <#cccccc>- Sil
+    effects_click_swap: <#d9a752>Değiştir (F) <#cccccc>- Manuel
+    effects_complete_lore: '<#a8a8a8>Mevcut: <#ffffff>{val}'
+    effects_complete_title: <#ffd470>Görevi tamamlama efekti
+    effects_gui_selection_item_play: <#d9a752>Değiştir (F) <#cccccc>- Efekti oynat
+    effects_gui_selection_item_title: <#ffd470>Efekt ön ayarı
+    effects_gui_selection_title: '&0Efekt ön ayarı seç'
+    effects_gui_title: '&0Görev efektleri: '
+    effects_lore: <#a7ff99>Sol Tık <#cccccc>- Efekt ön ayarlarını yapılandır
+    effects_stage_lore: '<#a8a8a8>Mevcut: <#ffffff>{val}'
+    effects_stage_title: <#ffd470>Aşama değiştirme efekti
+    effects_title: <#ffd470>Görev efektleri
+    engine_lore: '<#a8a8a8>Seçili: <#ffffff>{engine}'
+    engine_title: <#ffd470>Görev Motoru
+    global_click: <#a7ff99>Sol Tık <#cccccc>- Aç
+    global_lore:
+    - <#a8a8a8>Tüm oyuncular tarafından birlikte tamamlanan görevler için.
+    - <#a8a8a8>Sınırları ve ödül adımlarını ayarlama.
+    global_title: <#ffd470>Sunucu genel hedefleri
+    gui_title: '&0Düzenleniyor: '
+    health_click: <#a7ff99>Sol Tık <#cccccc>- Kontrolü çalıştır
+    health_lore: <#a8a8a8>Yapılandırmayı hatalar ve eksik alanlar için kontrol eder.
+    health_title: <#ffb366>Görev sağlık analizi
+    icon_basehead_click: '&eDeğiştir (F) &8- &7Temel kafa gir'
+    icon_click: <#a7ff99>Sol Tık <#cccccc>- İkonu değiştir
+    icon_click_left: <#a7ff99>Sol Tık <#cccccc>- İkon materyali seç
+    icon_click_right: <#a7ff99>Sağ Tık <#cccccc>- CustomModelData'yı değiştir
+    icon_cmd: '<#a8a8a8>CustomModelData: <#ffffff>{cmd}'
+    icon_lore: '<#a8a8a8>Seçili: <#ffffff>{icon}'
+    icon_mat: '<#a8a8a8>Materyal: <#ffffff>{mat}'
+    icon_title: <#ffd470>Görev ikonu
+    id_click: <#a7ff99>Sol Tık <#cccccc>- ID'yi değiştir
+    id_error_exists: '{prefix}<#c96a6a>✖ <#ffffff>{id} ID''li görev zaten mevcut!'
+    id_error_invalid: '{prefix}<#c96a6a>✖ <#ffffff>Geçersiz ID formatı!'
+    id_lore: '<#a8a8a8>Mevcut ID: <#ffffff>{id}'
+    id_name: <#ffd470>Görev ID
+    id_prompt: '<#ffd470>Yeni görev ID''si girin (örn. my_quest):'
+    id_title: <#ffd470>Görev ID
+    node_id_title: '<#ffd470>Düğüm ID'
+    item_clone: <#d9a752>Değiştir (F) <#cccccc>- Satırı kopyala
+    item_move_down: <#ffe999>Shift+Sağ Tık <#cccccc>- Aşağı taşı
+    item_move_up: <#ffe999>Shift+Sol Tık <#cccccc>- Yukarı taşı
+    name_click: <#a7ff99>Sol Tık <#cccccc>- Değiştir
+    name_lore: '<#a8a8a8>Mevcut: <#ffffff>{name}'
+    name_missing: <#ed6868>Görev adı eksik!
+    name_prompt: '<#ffd470>Sohbete görev adını girin:'
+    name_title: <#ffd470>Görev adı
+    name_title_has: <#ffd470>Görev adı
+    name_title_none: <#ed6868>Görev adı eksik!
+    not_specified: Belirtilmemiş
+    page_lore: '<#a8a8a8>Mevcut sayfa: <#ffffff>{page}'
+    page_prompt: '<#ffd470>Sayfa girin (sayfa, 1''den itibaren):'
+    page_title: <#ffd470>Sayfa
+    perm_click: <#a7ff99>Sol Tık <#cccccc>- Değiştir
+    perm_lore: '<#a8a8a8>İzin: <#ffffff>{perm}'
+    perm_none: Belirtilmemiş
+    perm_prompt: '<#ffd470>İzin girin (veya none):'
+    perm_title: <#ffd470>Gerekli izin
+    preview_click: <#a7ff99>Sol Tık <#cccccc>- Önizlemeyi aç
+    preview_lore: <#a8a8a8>Görevi oyuncunun menüde gördüğü gibi göster.
+    preview_title: <#7dd3ff>Görevi önizle
+    req_quests_add: <#79d679>Görev ekle
+    req_quests_add_lore: <#a7ff99>Sol Tık <#cccccc>- Listeden görev seçin.
+    req_quests_click: <#a7ff99>Sol Tık <#cccccc>- Düzenle
+    req_quests_del: <#ed6868>At (Q) <#cccccc>- Görevi sil
+    req_quests_edit: <#a7ff99>Sol Tık <#cccccc>- Başka bir görevle değiştir
+    req_quests_gui_title: '&0Önceki görevler: '
+    req_quests_lore: <#a8a8a8>Bundan önce tamamlanması gereken görevler.
+    req_quests_title: <#ffd470>Gereksinimler (Önceki görevler)
+    req_quests_unknown: <#ffffff>Bilinmeyen görev ({id})
+    rew_desc_click: <#a7ff99>Sol Tık <#cccccc>- Düzenle
+    rew_desc_gui_title: '&0Ödül açıklaması: '
+    rew_desc_title: <#ffd470>Ödül açıklaması
+    rewards_click: <#a7ff99>Sol Tık <#cccccc>- Ödül ayarlarını aç
+    rewards_gui_title: '&0Ödüller: '
+    rewards_lore: <#a7ff99>Sol Tık <#cccccc>- Ödülleri yapılandır
+    rewards_title: <#ffd470>Görev ödülleri
+    rot_pool_click: <#a7ff99>Sol Tık <#cccccc>- Değiştir
+    rot_pool_lore:
+    - <#a8a8a8>Görev rastgele bu havuzdan seçilecektir.
+    rot_pool_lore3: '<#a8a8a8>Mevcut: <#ffffff>{pool}'
+    rot_pool_lore3_none: <#ed6868>Havuz belirtilmemiş. Görev rotasyonda olmayacak.
+    rot_pool_prompt: '<#ffd470>Havuz adını girin (veya none):'
+    rot_pool_title: <#ffd470>Görev Havuzu (Rotasyon Havuzu)
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Dosya kaydedilirken hata oluştu!'
+    save_success: '{prefix}<#78b185>✔ <#ffffff><#e2e8f0>{id} <#b0b8c1>görev dosyası başarıyla kaydedildi!'
+    slot_click:
+    - <#a7ff99>Sol Tık (+1) / Sağ Tık (-1)
+    - <#ffe999>Shift + Sol Tık (+10) / <#ffe999>Shift + Sağ Tık (-10)
+    - <#d9a752>Değiştir (F) <#cccccc>- Manuel gir
+    slot_lore: '<#a8a8a8>Mevcut slot: <#ffffff>{slot}'
+    slot_prompt: '<#ffd470>Slot girin (slot, 0-54 arası):'
+    slot_title: <#ffd470>Slot
+    stages_click: <#a7ff99>Sol Tık <#cccccc>- Aşamaları ve hedefleri düzenle
+    stages_count: '<#a8a8a8>Aşama sayısı: <#ffffff>{count}'
+    stages_lore: '<#a8a8a8>Aşama sayısı: <#ffffff>{count}'
+    stages_title: <#ffd470>Aşamalar (Hedefler)
+    stages_title_has: <#ffd470>Aşamalar (Hedefler)
+    stages_title_none: <#ed6868>Görev aşaması yok!
+    type_click: <#a7ff99>Sol Tık <#cccccc>- Başka bir tür seç
+    type_lore_engine: '<#a8a8a8>Motor: <#ffffff>{engine}'
+    type_lore_type: '<#a8a8a8>Tür: <#ffffff>{type}'
+    type_title: <#ffd470>Görev türünü değiştir
+  msg_reward:
+    click_clone: <#d9a752>Değiştir (F) <#cccccc>- Kopyala
+    click_delete: <#ed6868>At (Q) <#cccccc>- Sil
+    click_edit: <#a7ff99>Sol Tık <#cccccc>- Mesajı düzenle
+    click_move_down: <#ffe999>Shift+Sağ Tık <#cccccc>- Aşağı taşı
+    click_move_up: <#ffe999>Shift+Sol Tık <#cccccc>- Yukarı taşı
+    click_set_level: <#d9a752>1-9 <#cccccc>- Efekt seviyesini ayarla
+    item_format: '<#79d679>Mesaj #{index}'
+    node_id_prompt: 'Yeni düğüm ID''si girin:'
+    opt_edit_prompt_sound: 'Bukkit Sesi girin (veya "none"):'
+    action_console_prompt: 'Konsol komutunu girin (/ olmadan):'
+    action_player_prompt: 'Oyuncu komutunu girin (/ olmadan):'
+    action_raw_prompt: 'Ham eylem dizisi girin:'
+    cond_raw_prompt: 'Ham koşul dizisi girin:'
+    nodes_edit_gui_title: '&0Düğüm: '
+  npc_list:
+    create_click_left: <#a7ff99>Sol Tık <#cccccc>- Yeni NPC oluştur
+    create_click_right: <#a7ff99>Sağ Tık <#cccccc>- Mevcut NPC'yi bağla
+    create_existing_prompt: '<#ffd470>Entegrasyondaki MEVCUT NPC''nin tam ID''sini girin (örn. <#ffffff>1<#ffd470>):'
+    create_prompt: '<#ffd470>Yeni NPC ID''si girin (örn. <#ffffff>merchant_1<#ffd470>):'
+    delete_click: <#ed6868>At (Q) <#cccccc>- NPC'yi sil
+    dialogue_lore: '<#a8a8a8>Diyalog: <#ff99d4>{dialogue}'
+    edit_click: <#a7ff99>Sol Tık <#cccccc>- NPC'yi düzenle
+    id_lore: '<#a8a8a8>ID: <#ffffff>{id}'
+    old_create_prompt: '<#ffd470>Yeni NPC ID''si girin (örn. <#ffffff>merchant_1<#ffd470>):'
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>npcs.yml kaydedilirken hata oluştu!'
+  npc_main:
+    default_mood_lore:
+    - '&7Mevcut: <#fff9c4>{mood}'
+    - '&eVarsayılan ruh halini değiştirmek için tıklayın'
+    default_mood_prompt: 'Ruh halini girin (örn. NEUTRAL, HAPPY, ANGRY):'
+    default_mood_title: <#ffeb3b>Varsayılan Ruh Hali
+    delete_confirm_desc: <#a8a8a8>Bu NPC'yi silmek istediğinize emin misiniz?
+    delete_confirm_item: <#ed6868>NPC'yi sil
+    delete_confirm_title: <#ed6868>Silme işlemini onayla
+    delete_right_click_warn: <#ff7070>Sağ Tık <#cccccc>- NPC'yi sil
+    dialogue_click:
+    - <#a7ff99>Sol Tık <#cccccc>- Diyalog listesinden seç
+    - <#a7ff99>Sağ Tık <#cccccc>- Sohbete ID gir
+    dialogue_gui_title: '&8Diyalog seçimi'
+    dialogue_lore: '<#a8a8a8>Diyalog: <#ffffff>{dialogue}'
+    dialogue_none_title: '&cDiyaloğu ayır'
+    dialogue_prompt: '<#ffd470>dialogues.yml dosyasından diyalog ID''sini girin (veya none):'
+    dialogue_select_click: '&eBu diyaloğu seçmek için tıklayın'
+    dialogue_title: <#ffd470>Bağlı diyalog
+    error_number: Geçersiz sayı!
+    finishes_quests_lore: <#a8a8a8>Bu NPC'nin bitirdiği belirli görevler.
+    finishes_quests_title: <#ffd470>Belirli görevler (Bitirir)
+    finishes_types_lore: <#a8a8a8>Bu NPC'nin bitirdiği görev türleri.
+    finishes_types_title: <#ffd470>Görev türleri (Bitirir)
+    head_click: <#a7ff99>Sol Tık <#cccccc>- Elden veya sohbetten al
+    head_lore: '<#a8a8a8>Mevcut: <#ffffff>{head}'
+    head_lore_current: '<#a8a8a8>Mevcut: <#ffffff>{current}'
+    head_prompt: '<#ffd470>Base64 dokusunu veya "none" girin:'
+    head_texture_lore:
+    - '&7Mevcut: <#dcedc1>{head}'
+    - '&eBase64 dokusunu değiştirmek için tıklayın'
+    head_texture_prompt: 'Base64 kafa dokusu veya "none" girin:'
+    head_texture_title: <#a8e6cf>Kafa Dokusu
+    head_title: <#ffd470>Kafa dokusu
+    id_click: <#a7ff99>Sol Tık <#cccccc>- NPC ID'sini değiştir
+    id_lore: '<#a8a8a8>Mevcut ID: <#ffffff>{id}'
+    id_title: <#ffd470>ID (Tanımlayıcı)
+    node_id_title: '<#ffd470>Düğüm ID'
+    linked_blocked_by_quests: <#ff5252>İmkansız, çünkü zaten belirli görevleri bağladınız!
+    linked_blocked_by_types: <#ff5252>İmkansız, çünkü zaten görev türlerini bağladınız!
+    linked_config_error_last: '&cGörev/Tür en azından verilmeli veya bitirilmelidir! Kaldırmak için - listede At (Q) tuşuna basın.'
+    linked_config_finishes: <#81c784>Görev/tür bitirir
+    linked_config_finishes_lore: <#a8a8a8>Etkinleştirilirse, bu NPC tamamlanmış görevi kabul edebilecektir.
+    linked_config_starts: <#a7ff99>Görev/tür başlatır
+    linked_config_starts_lore: <#a8a8a8>Etkinleştirilirse, bu NPC görevi verebilecektir.
+    linked_config_title: '&0Ayarlar'
+    linked_delete_desc: '{id} öğesini bağlı listeden kaldırmak istediğinize emin misiniz?'
+    linked_delete_item: <#ff4d4d>Silme işlemini onayla
+    linked_delete_title: '&0Silme işlemini onayla'
+    linked_item_click: <#a7ff99>Sol Tık <#cccccc>- Yapılandır
+    linked_item_drop: <#ed6868>At (Q) <#cccccc>- Sil
+    linked_item_quest_name: '<#ffd470>Görev: <#ffffff>{id}'
+    linked_item_type_name: '<#ffd470>Tür: <#ffffff>{id}'
+    linked_quests_list_title: '&0Bağlı görevler'
+    linked_quests_lore: <#a8a8a8>NPC belirtilen görevleri verebilecek veya bitirebilecektir.
+    linked_quests_title: <#ffab91>Belirli görevleri bağla
+    linked_selection_click: <#ffe999>Yapılandırmak için tıklayın
+    linked_selection_gui_title: '&0Bağlı Görevler/Türler'
+    linked_selection_item_title: <#ffd470>Bağlı Görevler/Türler
+    linked_selection_lore: '<#a8a8a8>Bu NPC''nin verdiği veya
+      <#a8a8a8>bitirdiği görevleri ve türleri yapılandırın.'
+    linked_types_list_title: '&0Bağlı görev türleri'
+    linked_types_lore: <#a8a8a8>NPC belirtilen türlerdeki herhangi bir görevi verebilecek veya bitirebilecektir.
+    linked_types_title: <#90caf9>Görev türlerini bağla
+    mood_click: <#a7ff99>Sol Tık / <#a7ff99>Sağ Tık <#cccccc>- Ruh halini değiştir
+    mood_lore: '<#a8a8a8>NPC animasyonunu etkiler.\n<#a8a8a8>Mevcut: <#ffffff>{mood}'
+    mood_lore_current: '<#a8a8a8>Mevcut: <#ffffff>{current}'
+    mood_prompt: '<#ffd470>Ruh halini girin (örn. NEUTRAL, HAPPY, ANGRY):'
+    mood_rule_conds: '&7Koşullar: &e{count}'
+    mood_rule_delete: '&cBu kuralı silmek için &7At (Q)'
+    mood_rule_edit_tip: '&c(Eklemek/değiştirmek için npcs.yml kullanın)'
+    mood_rule_item_title: '&eKural #{index}: &6{mood}'
+    mood_rule_priority: '&7Öncelik: &e{priority}'
+    mood_rules_add_lore: '&7Şimdilik karmaşık kurallar yalnızca'
+    mood_rules_add_lore2: '&7npcs.yml config aracılığıyla manuel eklenebilir.'
+    mood_rules_add_title: '&aRuh Hali Kuralı Ekle'
+    mood_rules_back: '&cGeri'
+    mood_rules_back_lore: '&7NPC''ye geri dön'
+    mood_rules_gui_title: '&8Ruh Hali Kuralları: &1{id}'
+    mood_rules_lore:
+    - '&7Görev ilerlemesine veya zamana'
+    - '&7dayalı gelişmiş kuralları yapılandırma.'
+    - '&eKuralları görüntülemek için tıklayın'
+    mood_rules_title: <#ffeb3b>Ruh Hali Kuralları
+    mood_title: <#ffd470>Varsayılan ruh hali
+    name_click: <#a7ff99>Sol Tık <#cccccc>- Değiştir
+    name_lore: '<#a8a8a8>Mevcut: '
+    name_prompt: '<#ffd470>NPC için isim girin (örn. <#d0a775>Gustav):'
+    name_title: <#ffd470>NPC görünen adı
+    offset_click:
+      - '<#a7ff99>Sol Tık <#cccccc>- 0.1 ekle'
+      - '<#a7ff99>Sağ Tık <#cccccc>- 0.1 çıkar'
+      - '<#ffe999>Shift+Sol Tık <#cccccc>- 2.5 ekle'
+      - '<#ffe999>Shift+Sağ Tık <#cccccc>- 2.5 çıkar'
+      - '<#d9a752>Değiştir (F) <#cccccc>- tam giriş'
+      - '<#ed6868>At (Q) <#cccccc>- sıfırla'
+    offset_lore:
+    - <#a8a8a8>NPC'nin üzerindeki ikon yüksekliğini yapılandırma.
+    - '<#a8a8a8>Mevcut ofset: <#ffffff>{offset}'
+    offset_prompt: '<#ffd470>Hologram ofset numarasını girin (örn. 0.6):'
+    offset_title: <#ffd470>Hologram yüksekliği (Y Ofseti)
+    select_quest_title: '&0Görev seç'
+    select_type_title: '&0Görev türü seç'
+    starts_quests_lore: <#a8a8a8>Bu NPC'nin başlattığı belirli görevler.
+    starts_quests_title: <#ffd470>Belirli görevler (Başlatır)
+    starts_types_lore: <#a8a8a8>Bu NPC'nin başlattığı görev türleri.
+    starts_types_title: <#ffd470>Görev türleri (Başlatır)
+    title_click: <#a7ff99>Sol Tık <#cccccc>- Değiştir
+    title_lore: '<#a8a8a8>Mevcut: '
+    title_prompt: '<#ffd470>Menü başlığını girin (örn. <#1c1c1c>{npc} - Günlük İşler):'
+    title_not_set: '<#ed6868>Ayarlanmamış'
+    title_title: <#ffd470>Görev Menüsü Başlığı
+    tp_lore: <#a8a8a8>Sizi NPC'ye ışınlar (eğer doğmuşsa).
+    tp_title: <#ffd470>NPC'ye ışınlan
+    types_click: <#a7ff99>Sol Tık <#cccccc>- Tür listesini düzenle
+    types_lore:
+    - <#a8a8a8>Bu NPC'nin başlattığı görev türleri.
+    - '<#a8a8a8>Türler: <#ffffff>{types}'
+    types_more: ' <#6e6e6e>(+{count} daha)'
+    types_none: Yok
+    types_title: <#ffd470>NPC Görevleri (Türler)
+    validation_lore: '&7Hataları kontrol etmek için tıklayın'
+    validation_title: <#52de7d>NPC'yi Doğrula
+    voice_click: <#a7ff99>Sol Tık <#cccccc>- Değiştir
+    voice_lore: '<#a8a8a8>Mevcut: <#ffffff>{voice}'
+    voice_prompt: '<#ffd470>Ses türü girin (villager, none veya custom sound):'
+    voice_title: <#ffd470>Etkileşim Sesi (Seslendirici)
+  npc_voice:
+    custom_lore: <#a8a8a8>Minecraft ses ID'sini manuel girin.
+    custom_prompt: '<#ffd470>Ses ID''sini girin (örn. entity.villager.trade):'
+    custom_title: <#ffd470>Özel Ses
+    delete_right_click_warn: <#ed6868>At (Q) <#cccccc>- Sil
+    dialogue_gui_title: '&0NPC için diyalog seç'
+    dialogue_missing: <#ed6868>Bu ID'ye sahip diyalog dialogues.yml dosyasında eksik!
+    dialogue_none_title: <#ed6868>Diyaloğu ayır (none)
+    dialogue_select_click: <#a7ff99>Sol Tık <#cccccc>- Bu diyaloğu bağla
+    id_click: <#a7ff99>Sol Tık <#cccccc>- NPC ID'sini değiştir
+    id_exists: <#ed6868>{id} ID'li NPC zaten mevcut!
+    id_lore: '<#a8a8a8>Mevcut ID: <#ffffff>{id}'
+    id_prompt: '<#ffd470>Yeni NPC ID''si girin (örn. tavern_keeper):'
+    id_success: '{prefix}<#78b185>✔ <#ffffff>NPC ID''si başarıyla <#ffffff>{id} <#ffffff>olarak değiştirildi'
+    id_title: <#ffd470>ID NPC
+    node_id_title: '<#ffd470>Düğüm ID'
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>npcs.yml kaydedilirken hata oluştu: {msg}'
+    save_lore:
+    - <#ffd470>Kaydedilmemiş değişiklikler var! Kaydetmek için tıklayın.
+    - <#a8a8a8>Kaydedilmemiş değişiklik yok.
+    select_click: <#a7ff99>Sol Tık <#cccccc>- Bu sesi seç
+    selected: Seçildi
+    title: '&0NPC Sesi Seç'
+    types_gui_title: '&0NPC Türleri: '
+    warn_unlinked: Diyalog hazır, ancak menüden bir NPC'ye bağlayın!
+  preview:
+    title: '&0Önizleme'
+  prompts:
+    enter_id: '<#ffd470>Yeni görev ID''si girin (örn. my_quest):'
+    enter_name: '<#ffd470>Görev için yeni bir ad girin:'
+    enter_perm: '<#ffd470>İzin girin (veya none):'
+    id_exists: '{id} ID''li görev zaten mevcut!'
+    saved_success: '{prefix}<#78b185>✔ <#ffffff>{id} görevindeki değişiklikler dosyaya başarıyla kaydedildi!'
+  rewards_menu:
+    add_item: <#79d679>Öğe ekle
+    add_item_lore: <#cccccc>Bir ödül öğesi seçmek için tıklayın.
+    attr_click: <#a7ff99>Sol Tık <#cccccc>- Nitelikler bölümünü düzenle
+    attr_gui_title: '&0Nitelikler Listesi'
+    attr_lore:
+    - <#cccccc>Nitelik ayarları
+    attr_title: <#f4a261>Nitelikler
+    attrs_gui: '&0Nitelikler Listesi'
+    brd_click: <#a7ff99>Sol Tık <#cccccc>- Duyuruları düzenle
+    brd_gui: '&0Duyuru Mesajları'
+    brd_lore: '<#cccccc>Duyuru sayısı: <#ffffff>{count}'
+    brd_title: <#99ffff>Duyuru Mesajları
+    chance_click: <#a7ff99>Sol Tık <#cccccc>- Şans bölümünü düzenle
+    chance_gui_title: '&0Şanslı Ödüller'
+    chance_lore:
+    - <#cccccc>Ödül olasılık ayarları
+    chance_title: <#ffaaaa>Şans
+    click_del: <#ed6868>At (Q) <#cccccc>- Sil
+    click_set: <#a7ff99>Sol Tık <#cccccc>- Değeri ayarla
+    cmd_click: <#a7ff99>Sol Tık <#cccccc>- Komutları düzenle
+    cmd_gui: '&0Ödül Komutları'
+    cmd_lore: '<#cccccc>Komut sayısı: <#ffffff>{count}'
+    cmd_title: <#ff9999>Komutlar
+    confirm_del_desc: '&fBu değeri silmek istediğinize emin misiniz?'
+    confirm_del_title: ✖ Silme İşlemini Onayla
+    eff_click: <#a7ff99>Sol Tık <#cccccc>- Efektleri düzenle
+    eff_gui: '&0Ödül Efektleri'
+    eff_lore: '<#cccccc>Efekt sayısı: <#ffffff>{count}'
+    eff_title: <#ff99ff>Efektler
+    effs_title: <#b19cd9>Efektler
+    hand_added: 'Öğe eklendi: {name} x{amount}'
+    hand_btn_lore: <#a8a8a8>Elinize bir öğe alın ve tüm NBT etiketleriyle
+    hand_btn_lore2: <#a8a8a8>birlikte kaydetmek için buraya tıklayın.
+    hand_btn_title: <#79d679>Elden öğe ekle
+    hand_empty: Eliniz boş! Elinize bir öğe alın.
+    items_click: <#a7ff99>Sol Tık <#cccccc>- Listeyi düzenle
+    items_gui: '&0Ödül Öğeleri'
+    items_lore: '<#cccccc>Öğe sayısı: <#ffffff>{count}'
+    items_title: <#99ccff>Öğeler
+    money_title: <#e9c46a>Para
+    money_title_has: <#ffd470>Para (Ekonomi)
+    money_title_none: <#a8a8a8>Para (Ekonomi) [Yok]
+    msg_click: <#a7ff99>Sol Tık <#cccccc>- Mesajları düzenle
+    msg_gui: '&0Ödül Mesajları'
+    msg_lore: '<#cccccc>Mesaj sayısı: <#ffffff>{count}'
+    msg_title: <#ffff99>Özel Mesajlar
+    prompt_custom_key: '<#ffe999>Özel ödül anahtarı girin:'
+    prompt_custom_val: '<#a8a8a8><#ffffff>{key}<#ffe999> anahtarı için değer girin:'
+    prompt_money: '<#ffe999>Para miktarını girin (Vault):'
+    prompt_xp: '<#ffe999>Deneyim miktarını girin:'
+    selector_cmd_lore: <#a7ff99>Sol Tık <#cccccc>- Komut listesi oluştur/düzenle
+    selector_cmd_title: <#ffe999>Komutlar (commands)
+    selector_custom_lore: <#a7ff99>Sol Tık <#cccccc>- Özel anahtarı manuel gir
+    selector_custom_title: <#ffe999>Özel Anahtar (Custom)
+    selector_items_lore: <#a7ff99>Sol Tık <#cccccc>- Öğe listesi oluştur/düzenle
+    selector_items_title: <#ffe999>Öğeler (items)
+    selector_money_lore: <#a7ff99>Sol Tık <#cccccc>- Vault miktarı ekle
+    selector_money_title: <#ffe999>Para (money)
+    selector_title: '&0Ödül türü seç'
+    selector_xp_lore: <#a7ff99>Sol Tık <#cccccc>- Deneyim miktarı ekle
+    selector_xp_title: <#ffe999>Deneyim (xp)
+    silent_click: <#a7ff99>Sol Tık <#cccccc>- Modu değiştir
+    silent_click_lmb: <#a7ff99>Sol Tık <#cccccc>- Değiştir
+    silent_click_sub: <#a7ff99>Sol Tık <#cccccc>- Ayarları aç
+    silent_lore: '<#cccccc>Hangi ödüller için sohbet mesajlarının
+      <#cccccc>devre dışı bırakılacağını yapılandırın.'
+    silent_mute: '&cFare Tekerleği - Mesajları devre dışı bırak'
+    silent_off: <#cccccc>Devre Dışı (Mesajlar gösterilir)
+    silent_on: <#a7ff99>Etkin (Ödül mesajları gizlenir)
+    silent_title: <#ffaaaa>Mesaj Ayarları
+    silent_unmute: '&aFare Tekerleği - Mesajları etkinleştir'
+    val_has: '<#cccccc>Mevcut değer: <#ffffff>{val}'
+    val_none: <#888888>Ödül yok.
+    xp_title_has: <#a7ff99>Deneyim (XP)
+    xp_title_none: <#a8a8a8>Deneyim (XP) [Yok]
+    xp_toggle_mode: <#d9a752>Ctrl + At (Q) <#cccccc>- Modu değiştir (XP/Seviye)
+  rot_pool_gui:
+    custom_pool_lore: <#a8a8a8>Özel havuz adını sohbete girmek için tıklayın.
+    custom_pool_title: <#79d679>Özel havuz gir
+    pool_click: <#a7ff99>Sol Tık <#cccccc>- Bu havuzu seç
+    pool_item: '<#ffd470>Havuz: <#ffffff>{pool}'
+    pool_lore: '<#a8a8a8>Havuzdaki görevler: <#ffffff>{count}'
+    title: '&0Görev Havuzu Seçimi'
+  silent_settings:
+    global_title: <#ffaaaa>Genel Sessiz Mod
+    title: Sessiz Mod | {id}
+  stages_menu:
+    add_mats_title: <#79d679>Materyal aşaması ekle
+    add_obj_click_lkm: <#a7ff99>Sol Tık <#cccccc>- Normal hedef ekle
+    add_obj_click_pkm: <#a7ff99>Sağ Tık <#cccccc>- Öğe teslim aşaması ekle
+    add_obj_lore:
+    - <#cccccc>Göreve yeni bir aşama ekler.
+    add_obj_title: <#79d679>Aşama Ekle
+    click_open: <#a7ff99>Sol Tık <#cccccc>- Aç
+    delete_confirm_msg: '{key} aşamasını silmek istediğinize emin misiniz?'
+    delete_confirm_title: '&0Aşamayı sil'
+    edit_stage_title: '&0Aşama düzenleniyor: {key}'
+    empty_lore:
+    - <#a8a8a8>İlk aşamanızı eklemek için sağdaki
+    - <#a8a8a8>yeşil bloğa tıklayın.
+    empty_title: <#ed6868>Aşama listesi boş
+    err_save: Görev dosyası kaydedilirken hata!
+    global_1stage_limit: <#cccccc>Genel görevlerin sadece 1 aşaması olabilir!
+    info_amount: '&7Miktar: <#ffffff>{amount}'
+    info_materials_count: '&7Öğeler: <#ffffff>&e{count}'
+    info_npc: '&7NPC: <#ffffff>{npc}'
+    info_targets: '&7Hedefler: <#ffffff>{targets}'
+    info_type: '&7Tür: <#ffffff>{type}'
+    info_type_materials: '&7Tür: <#ffffff>Öğe teslimi'
+    info_type_unknown: '&7Tür: &8Ayarlanmamış'
+    mats_title: '&0Materyaller: {key}'
+    obj_time_format: '<#a8a8a8>Zaman: <#ffffff>{time}'
+    obj_title: '&0Hedef: {key}'
+    stage_click_delete: <#ed6868>At (Q) <#cccccc>- Sil
+    stage_click_down: <#ffe999>Shift + Sağ Tık <#cccccc>- Aşağı taşı ⬇
+    stage_click_duplicate: <#d9a752>Değiştir (F) <#cccccc>- Aşamayı kopyala
+    stage_click_edit: <#a7ff99>Sol Tık <#cccccc>- Düzenle
+    stage_click_up: <#ffe999>Shift + Sol Tık <#cccccc>- Yukarı taşı ⬆
+    stage_duplicated: '{key} aşaması başarıyla kopyalandı!'
+    stage_item: '<#a8a8a8>Aşama: <#e0e0e0>{key}'
+  title_global_settings: '&0Motor Ayarları: {id}'
+  title_list: '&0Görev Listesi ({count})'
+  title_main: '&0Görev Editörü: {id}'
+  title_materials: '&0Gerekli Materyaller'
+  title_objective: '&0Hedef: {id}'
+  title_rewards: '&0Ödüller: {id}'
+  title_stages: '&0Görev Aşamaları: {id}'
+quest_type_editor:
+  clone_prompt: Kopyalanacak tür için ID girin (boşluksuz)
+  confirm_del_desc: '{id} türünü silmek istediğinize emin misiniz?'
+  confirm_del_gui_title: '&0Tür siliniyor: {id}'
+  confirm_del_title: ✖ Türü sil
+  entity_list:
+    add_new_lore: <#a7ff99>Sol Tık <#cccccc>- Yeni varlık ekle
+    click_del: <#ed6868>At (Q) <#cccccc>- Varlığı sil
+    click_edit: <#a7ff99>Sol Tık <#cccccc>- Varlığı değiştir
+  entity_selector:
+    click: <#a7ff99>Sol Tık <#cccccc>- Varlık seç
+    title: '&0Yaratık/varlık seç'
+  error_clone: '{prefix}<#c96a6a>✖ <#ffffff>Tür kopyalanırken hata oluştu.'
+  error_clone_exists: '{prefix}<#c96a6a>✖ <#ffffff>Hata: Bu ID ile bir tür zaten mevcut!'
+  error_create: '{prefix}<#c96a6a>✖ <#ffffff>Dosya oluşturulurken hata!'
+  error_save: '{prefix}<#c96a6a>✖ <#ffffff>Tür dosyası kaydedilirken hata:'
+  global_settings:
+    error_not_number: Bir sayı girin!
+    limit_click: <#79d679>Değiştirmek için tıklayın
+    limit_lore:
+    - '<#a8a8a8>Anahtar: <#ffffff>personal-limit'
+    - '<#a8a8a8>Mevcut: <#ffffff>{val}'
+    limit_prompt: '<#ffd470>personal-limit için yeni değer girin:'
+    limit_title: <#ffd470>Kişisel Sınır
+    max_p_click: <#79d679>Değiştirmek için tıklayın
+    max_p_lore:
+    - '<#a8a8a8>Anahtar: <#ffffff>max-participants'
+    - '<#a8a8a8>Mevcut: <#ffffff>{val}'
+    max_p_prompt: '<#ffd470>max-participants için yeni değer girin:'
+    max_p_title: <#ffd470>Maksimum Katılımcı
+    min_p_click: <#79d679>Değiştirmek için tıklayın
+    min_p_lore:
+    - '<#a8a8a8>Anahtar: <#ffffff>min-participants'
+    - '<#a8a8a8>Mevcut: <#ffffff>{val}'
+    min_p_prompt: '<#ffd470>min-participants için yeni değer girin:'
+    min_p_title: <#ffd470>Minimum Katılımcı
+    step_click: <#a7ff99>Sol Tık <#cccccc>- Değiştir
+    step_lore:
+    - '<#a8a8a8>Anahtar: <#ffffff>reward-step'
+    - '<#a8a8a8>Değer: <#ffffff>{val}'
+    step_prompt: '<#ffd470>reward-step için yeni sayı girin:'
+    step_title: <#ffd470>Ödül Adımı
+    title: '<#a8a8a8>Motor Ayarları: <#ffffff>{id}'
+  health_check:
+    desc_has_errors: <#a8a8a8>Yapılandırma hataları bulundu!
+    desc_no_errors: <#a8a8a8>Hata bulunamadı!
+    err_no_name: Türün görünen adı ayarlanmamış
+    err_no_pools: Rotasyon için görev havuzu oluşturulmamış
+    err_no_rotation_period: Rotasyon için sıfır aralık belirtilmiş
+    success: '{prefix}<#78b185>✔ <#ffffff>Tür başarıyla yapılandırıldı!'
+    title: '<#b0b8c1>=== <#6aa0c9>Tür Durumu: <#e2e8f0>{id} <#b0b8c1>==='
+    title_warning: <#ed6868>Sorunlar bulundu ({count})
+  id_exists: Bu ID ile bir görev türü zaten mevcut!
+  list:
+    clone_prompt: '<#ffd470>Kopyalanan görev için ID girin:'
+    confirm_del_desc: '{id} görevini silmek istediğinize emin misiniz?'
+    confirm_del_title: ✖ Görevi sil
+    error_clone: '{prefix}<#c96a6a>✖ <#ffffff>Kopyalanırken hata!'
+    error_clone_exists: '{prefix}<#c96a6a>✖ <#ffffff>Bu ID ile bir görev zaten mevcut!'
+    error_create: '{prefix}<#c96a6a>✖ <#ffffff>Görev oluşturulurken hata.'
+    filter_lore_next: <#a7ff99>Sol Tık <#cccccc>- Sonraki mod
+    filter_lore_prev: <#a7ff99>Sağ Tık <#cccccc>- Önceki mod
+    filter_lore_title: '<#a8a8a8>Sıralama modları:'
+    filter_title: <#ffd470>Filtre / Sıralama
+    item_clone: <#d9a752>Değiştir (F) <#cccccc>- Görevi kopyala
+    item_delete: <#ed6868>At (Q) <#cccccc>- Görevi sil
+    item_edit: <#a7ff99>Sol Tık <#cccccc>- Görevi düzenle
+    item_engine: '<#a8a8a8>Motor: <#7dd3ff>{engine}'
+    item_type: '<#a8a8a8>Tür: <#ffffff>{type}'
+    mode_cre_new: Oluşturuldu (Önce en yeni)
+    mode_cre_old: Oluşturuldu (Önce en eski)
+    mode_engine_chain: 'Filtre: CHAIN motoru'
+    mode_engine_default: 'Filtre: DEFAULT motoru'
+    mode_engine_global: 'Filtre: GLOBAL motoru'
+    mode_engine_rotation: 'Filtre: ROTATION motoru'
+    mode_id_asc: ID'ye göre (A-Z)
+    mode_id_desc: ID'ye göre (Z-A)
+    mode_issue: 'Filtre: Dikkat gerektirenler'
+    mode_mod_new: Değiştirildi (Önce en yeni)
+    mode_mod_old: Değiştirildi (Önce en eski)
+    mode_type: Görev türüne göre
+    msg_clone_success: '{prefix}<#78b185>✔ <#ffffff>Görev başarıyla <#ffffff>{id} <#ffffff>olarak kopyalandı'
+    msg_del_success: '{prefix}<#78b185>✔ <#ffffff>Görev {id} <#79d679>başarıyla silindi!'
+    search_all: '<#a8a8a8>Ara: <#ffffff>Tümü'
+    search_click: <#a7ff99>Sol Tık <#cccccc>- Ara (veya temizle)
+    search_prompt: '<#ffd470>Görevleri aramak için metin girin (veya temizleyin):'
+    search_query: '<#a8a8a8>Ara: <#ffffff>{query}'
+  list_string_editor:
+    add_lore: <#a7ff99>Sol Tık <#cccccc>- Metin girin.
+    add_lore_empty: <#a7ff99>Sağ Tık <#cccccc>- Boş dize oluştur
+    delete_confirm_item: Dizeyi sil
+    delete_confirm_msg: '<#ffd470>#{index} numaralı dizeyi silmek istediğinize emin misiniz?'
+    delete_confirm_title: '&0Dizeyi sil'
+    item_clone: <#d9a752>Değiştir (F) <#cccccc>- Dizeyi kopyala
+    item_delete: <#ed6868>At (Q) <#cccccc>- Dizeyi sil
+    item_edit: <#a7ff99>Sol Tık <#cccccc>- Dizeyi düzenle
+    item_format: '<#ffffff>Dize #{index}'
+    item_move_down: <#ffe999>Shift+Sağ Tık <#cccccc>- Aşağı taşı
+    item_move_up: <#ffe999>Shift+Sol Tık <#cccccc>- Yukarı taşı
+    prompt_add: '<#ffd470>Yeni dize için metin girin:'
+    prompt_edit: 'Dize düzenleniyor:'
+  main_menu:
+    add_lore_empty: <#a7ff99>Sağ Tık <#cccccc>- Boş dize oluştur
+    back: <#ed6868>Geri git
+    btn_check_lore: <#cccccc>Sohbette detaylı yapılandırma analizi çalıştırır.
+    btn_check_title: <#ffe999>Hataları kontrol et
+    btn_preview_lore: <#cccccc>Görevi oyuncuların gördüğü gibi gösterir.
+    btn_preview_title: <#7dd3ff>Önizleme
+    btn_save_changes: ' <#ffd470>(* Değişiklikler)'
+    btn_save_lore_unsaved: <#ffd470>Sol Tık <#cccccc>- Değişiklikleri kaydet
+    btn_save_lore_saved: <#ffe999>Kaydedilmemiş değişiklik yok
+    btn_save_title: <#55ff55>Dosyayı kaydet
+    chain_click: <#a7ff99>Sol Tık <#cccccc>- Değiştir
+    chain_lore: '<#a8a8a8>Durum: {chain}'
+    chain_title: <#ffd470>Sıradakini otomatik ver
+    cmd_click:
+    - <#a7ff99>Sol Tık (+1) / Sağ Tık (-1) <#cccccc>- Değiştir
+    - <#ffe999>Shift+Sol Tık (+10) / Shift+Sağ Tık (-10)
+    - <#d9a752>Değiştir (F) <#cccccc>- Sayı gir
+    - <#ed6868>At (Q) <#cccccc>- Temizle (0)
+    cmd_lore:
+    - <#a8a8a8>Özel öğe dokuları için.
+    - '<#a8a8a8>Mevcut değer: <#ffffff>{cmd}'
+    cmd_prompt: '<#ffd470>Custom Model Data numarası girin (veya 0):'
+    cmd_title: <#ffd470>Model (Custom Model Data)
+    cooldown_click:
+    - <#a7ff99>Sol Tık <#cccccc>- Ayarla
+    - <#ed6868>At (Q) <#cccccc>- Temizle
+    - <#ffe999>Shift + Sol Tık <#cccccc>- Düzenle
+    cooldown_lore: '<#a8a8a8>Zaman: <#ffffff>{time}'
+    cooldown_none: <#a8a8a8>Yok
+    cooldown_title: <#ffd470>Bekleme Süresi
+    desc_click: <#a7ff99>Sol Tık <#cccccc>- Düzenle
+    desc_gui_title: 'Açıklama: '
+    desc_title: <#ffd470>Görev Açıklaması
+    engine_click: <#a7ff99>Sol Tık <#cccccc>- Motoru değiştir
+    engine_lore: '<#a8a8a8>Seçili: <#ffffff>{engine}'
+    engine_title: <#ffd470>Görev Türü Motoru
+    folder_click: <#a7ff99>Sol Tık <#cccccc>- Yolu değiştir
+    folder_lore: '<#a8a8a8>Yol: <#ffffff>{folder}'
+    folder_title: <#ffd470>Görevler için klasör
+    global_click: <#a7ff99>Sol Tık <#cccccc>- Aç
+    global_lore:
+    - <#a8a8a8>Tüm oyuncular tarafından birlikte tamamlanan görevler için.
+    - <#a8a8a8>Sınırlar ve ödül adımları ayarları.
+    global_title: <#ffd470>Genel sunucu hedefleri
+    gui_title: 'Düzenleniyor: '
+    icon_basehead_click: <#d9a752>Değiştir (F) <#cccccc>- Temel kafayı değiştir
+    icon_click: <#a7ff99>Sol Tık <#cccccc>- İkonu değiştir
+    icon_lore: '<#a8a8a8>Seçili: <#ffffff>{icon}'
+    icon_title: <#ffd470>İkon (Materyal)
+    id_click: <#a7ff99>Sol Tık <#cccccc>- ID'yi değiştir
+    id_error_exists: '{prefix}<#c96a6a>✖ <#ffffff>{id} ID''li görev zaten mevcut!'
+    id_error_invalid: '{prefix}<#c96a6a>✖ <#ffffff>Geçersiz ID formatı!'
+    id_lore: '<#a8a8a8>Mevcut ID: <#ffffff>{id}'
+    id_prompt: '<#ffd470>Yeni görev türü ID''si girin (örn. my_type):'
+    id_title: <#ffd470>Görev türü ID
+    node_id_title: '<#ffd470>Düğüm ID'
+    item_clone: <#d9a752>Değiştir (F) <#cccccc>- Satırı kopyala
+    item_move_down: <#ffe999>Shift+Sağ Tık <#cccccc>- Aşağı taşı
+    item_move_up: <#ffe999>Shift+Sol Tık <#cccccc>- Yukarı taşı
+    lore_click: <#a7ff99>Sol Tık <#cccccc>- Açıklamayı düzenle
+    lore_title: <#ffd470>Görev türü açıklaması
+    name_click: <#a7ff99>Sol Tık <#cccccc>- Değiştir
+    name_lore: '<#a8a8a8>Mevcut: <#ffffff>{name}'
+    name_prompt: '<#ffd470>Sohbete görev adını girin:'
+    name_title: <#ffd470>Görev türü adı
+    name_title_has: <#ffd470>Görev adı
+    name_title_none: <#ed6868>Görev adı eksik!
+    page_lore: '<#a8a8a8>Mevcut sayfa: <#ffffff>{page}'
+    page_prompt: '<#ffd470>Sayfa girin (sayfa, 1''den itibaren):'
+    page_title: <#ffd470>Sayfa
+    perm_click: <#a7ff99>Sol Tık <#cccccc>- Değiştir
+    perm_lore: '<#a8a8a8>İzin: <#ffffff>{perm}'
+    perm_prompt: '<#ffd470>İzin girin (veya none):'
+    perm_title: <#ffd470>Gerekli izin
+    req_quests_add: <#79d679>Görev ekle
+    req_quests_add_lore: <#a7ff99>Sol Tık <#cccccc>- Listeden görev seçin.
+    req_quests_click: <#a7ff99>Sol Tık <#cccccc>- Düzenle
+    req_quests_del: <#ed6868>At (Q) <#cccccc>- Görevi sil
+    req_quests_edit: <#a7ff99>Sol Tık <#cccccc>- Başka bir görevle değiştir
+    req_quests_gui_title: 'Gerekli görevler: '
+    req_quests_lore: <#a8a8a8>Bundan önce tamamlanması gereken görevler.
+    req_quests_title: <#ffd470>Gereksinimler (Önceki görevler)
+    req_quests_unknown: <#ffffff>Bilinmeyen görev ({id})
+    rew_desc_click: <#a7ff99>Sol Tık <#cccccc>- Düzenle
+    rew_desc_gui_title: 'Ödül açıklaması: '
+    rew_desc_title: <#ffd470>Ödül açıklaması
+    rewards_lore: <#a7ff99>Sol Tık <#cccccc>- Ödülleri yapılandır
+    rewards_title: <#ffd470>Görev ödülleri
+    rot_pool_click: <#a7ff99>Sol Tık <#cccccc>- Değiştir
+    rot_pool_lore:
+    - <#a8a8a8>Görev rastgele bu gruptan seçilecektir.
+    rot_pool_lore3: '<#a8a8a8>Mevcut: <#ffffff>{pool}'
+    rot_pool_lore3_none: <#ed6868>Havuz belirtilmemiş. Görev rotasyonda olmayacak.
+    rot_pool_prompt: '<#ffd470>Havuz adını girin (veya none):'
+    rot_pool_title: <#ffd470>Rotasyon Havuzu
+    rotation_click:
+    - <#a7ff99>Sol Tık <#cccccc>- Aralığı değiştir
+    - <#a7ff99>Sağ Tık <#cccccc>- Zamanı değiştir
+    - <#ffe999>Shift + Sol Tık <#cccccc>- Sıfırla
+    rotation_click_new: <#a7ff99>Sol Tık <#cccccc>- Ayarları aç
+    rotation_lore:
+    - '<#a8a8a8>Aralık: <#ffffff>{interval}'
+    - '<#a8a8a8>Sıfırlama zamanı: <#ffffff>{time}'
+    - '<#a8a8a8>Havuzlar: <#ffffff>{pool}'
+    rotation_title: <#ffd470>Rotasyon
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Dosya kaydedilirken hata oluştu!'
+    save_success: '{prefix}<#78b185>✔ <#ffffff><#e2e8f0>{id} <#b0b8c1>görev dosyası başarıyla kaydedildi!'
+    slot_click:
+    - <#a7ff99>Sol Tık (+1) / Sağ Tık (-1)
+    - <#ffe999>Shift + Sol Tık (+10) / <#ffe999>Shift + Sağ Tık (-10)
+    - <#d9a752>Değiştir (F) <#cccccc>- Manuel gir
+    slot_lore: '<#a8a8a8>Mevcut slot: <#ffffff>{slot}'
+    slot_prompt: '<#ffd470>Slot girin (slot, 0-54 arası):'
+    slot_title: <#ffd470>Slot
+    stages_click: <#a7ff99>Sol Tık <#cccccc>- Aşamaları yönet
+    stages_lore: '<#a8a8a8>Aşama sayısı: <#ffffff>{count}'
+    stages_title_has: <#ffd470>Aşamalar (Hedefler)
+    stages_title_none: <#ed6868>Görev aşamaları eksik!
+    status_click: <#a7ff99>Sol Tık <#cccccc>- Durumu değiştir
+    status_desc: <#a8a8a8>Bu görev türünü etkinleştirir veya devre dışı bırakır
+    status_disabled: <#ed6868>Devre Dışı
+    status_enabled: <#79d679>Etkin
+    status_lore: '<#a8a8a8>Durum: {status}'
+    status_title: <#ffd470>Tür durumu
+    type_click: <#a7ff99>Sol Tık <#cccccc>- Türü değiştir
+    type_lore_engine: '<#a8a8a8>Motor: <#ffffff>{engine}'
+    type_lore_type: '<#a8a8a8>Tür: <#ffffff>{type}'
+    type_title: <#ffd470>Görev motoru ve türü
+  material_list:
+    add_new_lore: <#a7ff99>Sol Tık <#cccccc>- Yeni öğe ekle
+    click_del: <#ed6868>At (Q) <#cccccc>- Öğeyi sil
+    click_edit: <#a7ff99>Sol Tık <#cccccc>- Öğeyi düzenle
+  material_selector:
+    error_invalid: <#ed6868>Geçersiz materyal!
+    hand: <#ffd470>Elden al
+    hand_error: Elinizde öğe yok!
+    hand_lore: <#a7ff99>Sol Tık <#cccccc>- Eldeki öğeyi kullan
+    input_chat: <#ffd470>Sohbete manuel gir
+    input_chat_lore: <#a7ff99>Sol Tık <#cccccc>- Materyal kodunu yaz
+    input_chat_prompt: '<#ffd470>Materyal girin (örn. DIAMOND_SWORD):'
+    item_click: <#a7ff99>Sol Tık <#cccccc>- Bu öğeyi seç
+    search: <#ffd470>Materyal ara
+    search_prompt: '<#ffd470>Aramak için metin girin (veya temizleyin):'
+    title: '&0Materyal / blok seç'
+  msg_clone_success: '{prefix}<#78b185>✔ <#ffffff>Tür başarıyla <#ffffff>{id} <#ffffff>olarak kopyalandı'
+  msg_del_success: '{prefix}<#78b185>✔ <#ffffff><#ffffff>{id} <#b0b8c1>türü başarıyla silindi.'
+  objective_menu:
+    del_confirm_msg: '{key} hedefini silmek istediğinize gerçekten emin misiniz?'
+    del_confirm_title: Hedef silinsin mi?
+    gui_ent_list: '&0Şunun için varlıklar: {key}'
+    gui_mats_list: '&0Şunun için öğeler: {key}'
+    gui_req_mats: '&0Gerekli öğeler'
+    gui_str_list: '&0Liste {key}'
+    obj_title: '<#a8a8a8>Hedef: {color}{key}'
+    prompt_key: '<#a8a8a8><#ffffff>{key}<#ffd470> için değer girin:'
+    prompt_str_key: '<#a8a8a8><#ffffff>{key}<#ffd470> için dize değeri girin:'
+    prop_click_del: <#ed6868>At (Q) <#cccccc>- Sil
+    prop_click_edit: <#a7ff99>Sol Tık <#cccccc>- Değeri düzenle
+    prop_format: '<#a8a8a8>{key}: <#e0e0e0>{value}'
+    prop_num_click:
+    - <#a7ff99>Sol Tık (+1) / Sağ Tık (-1) <#cccccc>- Değeri değiştir
+    - <#ffe999>Shift + Sol Tık (+10) / <#ffe999>Shift + Sağ Tık (-10)
+    - <#d9a752>Değiştir (F) <#cccccc>- Manuel gir
+    prop_str_click: <#a7ff99>Sol Tık <#cccccc>- Dize gir
+    prop_str_list_click: <#a7ff99>Sol Tık <#cccccc>- Listeyi düzenle
+    prop_title_mandatory: <#ed6868>{key}
+    prop_title_set: <#e0e0e0>{key}
+    prop_title_unset: <#a8a8a8>{key}
+    prop_true_false: <#a7ff99>Sol Tık <#cccccc>- Değiştir (true/false)
+    prop_type_click: <#a7ff99>Sol Tık <#cccccc>- Tür seç
+    props:
+      amount: <#ffd470>Gerekli miktar
+      biome: <#ffd470>Biyom
+      command: <#ffd470>Komut
+      dimension: <#ffd470>Boyut
+      distance: <#ffd470>Mesafe
+      entity: <#ffd470>Varlık
+      item: <#ffd470>Öğe
+      material: <#ffd470>Öğe
+      message: <#ffd470>Mesaj
+      min-distance: <#ffd470>Min. mesafe
+      notify-interval: <#ffd470>Bildirim aralığı
+      npc: <#ffd470>NPC
+      npc-id: <#ffd470>NPC
+      radius: <#ffd470>Yarıçap
+      region: <#ffd470>Bölge
+      required-materials: <#ffd470>Gerekli öğeler
+      target-entities: <#ffd470>Hedef varlıklar
+      target-entity: <#ffd470>Varlık
+      target-material: <#ffd470>Öğe
+      target-materials: <#ffd470>Hedef öğeler
+      type: <#ffd470>Hedef türü
+      weapon: <#ffd470>Silah
+      world: <#ffd470>Dünya
+      x: <#ffd470>X Koordinatı
+      y: <#ffd470>Y Koordinatı
+      z: <#ffd470>Z Koordinatı
+    type_list: Liste
+    type_prop: Özellik değeri
+    type_section: Bölüm
+    type_value: Değer
+    val_list: '{size} eleman'
+    val_list_mats: '{size} öğe'
+    val_none: '[Yok]'
+    val_not_set: <#ed6868>Değer ayarlanmamış!
+    val_section: '[Bölüm] '
+  objective_selector:
+    desc:
+      ANVIL_USE: <#cccccc>Bir örs kullanın.
+      ASSIST_KILL: <#cccccc>Bir varlığın/oyuncunun öldürülmesine yardım edin.
+      BEACON_ACTIVATE: <#cccccc>Bir feneri etkinleştirin.
+      BLOCK_BREAK: <#cccccc>Belirtilen blokları kırın.
+      BLOCK_PLACE: <#cccccc>Belirtilen blokları yerleştirin.
+      BOAT_TRAVEL: <#cccccc>Bir teknede seyahat edin.
+      BONE_MEAL_USE: <#cccccc>Kemik tozu kullanın.
+      BOOK_EDIT: <#cccccc>Bir kitaba metin yazın.
+      BREED_ANIMALS: <#cccccc>Hayvanları çiftleştirin.
+      BREWING: <#cccccc>İksir kaynatın.
+      BURN_FUEL: <#cccccc>Bir fırında yakıt yakın.
+      CHANGE_DIMENSION: <#cccccc>Boyut değiştirin (örn. Nether'a gidin).
+      CHAT_MESSAGE: <#cccccc>Sohbete belirli bir mesaj yazın.
+      CONDUIT_ACTIVATE: <#cccccc>Bir conduit (kanal) etkinleştirin.
+      CONSUME_ITEM: <#cccccc>Bir öğe yiyin veya için.
+      CROUCH: <#cccccc>Belirli bir sayıda eğilin.
+      CROUCH_DISTANCE: <#cccccc>Eğilerek belirtilen mesafeyi kat edin.
+      DEAL_DAMAGE: <#cccccc>Belirli bir miktarda hasar verin.
+      DROP_ITEM: <#cccccc>Belirli bir öğeyi yere atın.
+      DYE_ITEM: <#cccccc>Bir öğeyi boyayın.
+      ELYTRA_FLY: <#cccccc>Elytra ile uçun.
+      EMPTY_BUCKET: <#cccccc>Bir kovayı boşaltın.
+      ENCHANT_TABLE_USE: <#cccccc>Bir büyü masası kullanın.
+      ENTER_BED: <#cccccc>Bir yatağa girin.
+      ENTER_REGION: <#cccccc>Bir bölgeye girin (WorldGuard).
+      ENTITY_RIDE: <#cccccc>Bir varlığa binin.
+      EXECUTE_COMMAND: <#cccccc>Belirli bir komutu yürütün.
+      EXPERIENCE_ORB_PICKUP: <#cccccc>Bir deneyim küresi alın.
+      FALL_DISTANCE: <#cccccc>Belirtilen mesafeden düşün.
+      FILL_BUCKET: <#cccccc>Bir kovayı doldurun.
+      FILL_FUEL: <#cccccc>Bir fırına yakıt koyun.
+      GIVE_ITEM_TO_NPC: <#cccccc>Bir NPC'ye öğe verin.
+      HARVEST_CROP: <#cccccc>Ekinleri hasat edin.
+      HOLD_ITEM: <#cccccc>Elinizde belirli bir öğeyi tutun.
+      INTERACT_BLOCK: <#cccccc>Bir blokla etkileşime girin (Sağ Tık/Sol Tık).
+      INTERACT_ENTITY: <#cccccc>Bir varlıkla etkileşime girin (Sağ Tık).
+      ITEM_BREAK: <#cccccc>Bir aleti/silahı kırın.
+      ITEM_COOK: <#cccccc>Yemek pişirin.
+      ITEM_CRAFT: <#cccccc>Öğeler üretin.
+      ITEM_ENCHANT: <#cccccc>Öğeleri büyüleyin.
+      ITEM_FISH: <#cccccc>Balık/öğe tutun.
+      ITEM_RENAME: <#cccccc>Bir öğeyi yeniden adlandırın.
+      ITEM_REPAIR: <#cccccc>Bir örste öğeyi tamir edin.
+      ITEM_SMELT: <#cccccc>Öğeleri eritin.
+      JOIN_SERVER: <#cccccc>Sunucuya katılın.
+      JUMP: <#cccccc>Belirli bir sayıda zıplayın.
+      KILL_ENTITY: <#cccccc>Belirli yaratıkları/varlıkları öldürün.
+      LEAVE_REGION: <#cccccc>Bir bölgeden çıkın (WorldGuard).
+      LEVEL_UP_GAIN: <#cccccc>Belirtilen sayıda seviye kazanın.
+      LEVEL_UP_REACH: <#cccccc>Belirtilen deneyim seviyesine ulaşın.
+      MILK_COW: <#cccccc>Bir ineği sağın.
+      MINECART_TRAVEL: <#cccccc>Bir maden arabasında seyahat edin.
+      NPC_INTERACT: <#cccccc>Bir NPC ile konuşun (Citizens/ZNPCs).
+      OPEN_CONTAINER: <#cccccc>Bir sandık vs. açın.
+      PLANT_SEED: <#cccccc>Tohum ekin.
+      PLAYER_KILL: <#cccccc>Başka bir oyuncuyu öldürün.
+      PLAY_TIME: <#cccccc>Oyunda zaman geçirin.
+      POTION_DRINK: <#cccccc>Bir iksir için.
+      POTION_SPLASH: <#cccccc>Bir patlayıcı iksir fırlatın.
+      REACH_BIOME: <#cccccc>Belirtilen biyomu ziyaret edin.
+      REACH_LOCATION: <#cccccc>Belirtilen koordinatlara ulaşın.
+      RECEIVE_DAMAGE_TYPE: <#cccccc>Belirli bir türde hasar alın.
+      SHEAR_SHEEP: <#cccccc>Bir koyunu kırkın.
+      SIGN_EDIT: <#cccccc>Bir tabelaya metin yazın.
+      SLEEP_IN_BED: <#cccccc>Bir yatakta uyuyun.
+      SPRINT_DISTANCE: <#cccccc>Belirtilen mesafeyi koşun (sprint).
+      STRIP_LOG: <#cccccc>Bir baltayla kütüğü soyun.
+      SWIM_DISTANCE: <#cccccc>Belirtilen mesafeyi yüzün.
+      TAKE_DAMAGE: <#cccccc>Belirli bir miktarda hasar alın.
+      TAME_ANIMAL: <#cccccc>Bir hayvanı evcilleştirin.
+      THROW_EGG: <#cccccc>Bir yumurta fırlatın.
+      TILL_SOIL: <#cccccc>Bir çapa ile toprağı çapalayın.
+      TRAVEL_DISTANCE: <#cccccc>Belirtilen mesafeyi kat edin.
+      USE_ITEM: <#cccccc>Bir öğeyi kullanın (Sağ Tık).
+      VILLAGER_BUY_ITEM: <#cccccc>Bir köylüden öğe satın alın.
+      VILLAGER_SELL_ITEM: <#cccccc>Bir köylüye öğe satın.
+      WAX_OFF: <#cccccc>Bakırın üzerinden mumu kazıyın.
+      WAX_ON: <#cccccc>Bakıra mum uygulayın.
+      WEAR_ARMOR: <#cccccc>Belirli bir zırh kuşanın.
+    item_click: <#a7ff99>Sol Tık <#cccccc>- Bu türü seç
+    item_enum: '<#a8a8a8>Anahtar: <#ffffff>{enum}'
+    prompt_search: '<#ffd470>Hedef türü adını girin (veya temizleyin):'
+    title: '&0Hedef türü seç'
+  pool_slots_gui:
+    slot_back_lore: <#a7ff99>Sağ Tık <#cccccc>- Geri git
+    slot_free_lore: <#a7ff99>Sol Tık <#cccccc>- Bu havuza ata
+    slot_free_title: <#a8a8a8>Slot {slot}
+    slot_mine_lore: <#ff6b6b>Sol Tık <#cccccc>- Slotu havuzdan kaldır
+    slot_mine_title: <#a7ff99>Slot {slot}
+    slot_taken_lore:
+    - '<#a8a8a8>Alan havuz: <#ffffff>{owner}'
+    - <#ffd470>Sol Tık <#cccccc>- Slotu devral
+    slot_taken_title: <#ff6b6b>Slot {slot}
+    title: '&0Havuz slotları: {pool}'
+  pools_gui:
+    add_lore: <#a7ff99>Sol Tık <#cccccc>- Yeni havuz oluştur
+    add_title: <#ffd470>Havuz ekle
+    item_click:
+    - <#a7ff99>Sol Tık <#cccccc>- Slotları düzenle
+    item_click4: <#ff6b6b>At (Q) <#cccccc>- Havuzu sil
+    item_lore:
+    - '<#a8a8a8>Miktar: <#ffffff>{count}'
+    item_title: '<#ffd470>Havuz: {pool}'
+    title: Rotasyon havuzları
+  preview_title: 'Tür açıklaması: '
+  prompts:
+    cmd: '<#ffd470>Komut girin:'
+    cooldown: '<#ffd470>Bekleme süresi girin:'
+    folder: '<#ffd470>Görevler klasörü için yol girin:'
+    name: '<#ffd470>İsim girin:'
+    new_type_id: '<#ffd470>Yeni tür ID''si girin (örn. <#ffffff>weekly<#ffd470>):'
+    pool_count: '<#ffd470>Bu havuz için görev miktarını girin:'
+    pool_name: '<#ffd470>Havuz adını girin (İngilizce boşluksuz):'
+    rotation_interval: '<#ffd470>Rotasyon aralığını girin:'
+    rotation_time: '<#ffd470>Rotasyon zamanını girin:'
+    slot: '<#ffd470>Slot girin:'
+  rotation_gui:
+    anchor_click:
+    - <#a7ff99>Sol Tık <#cccccc>- Sonraki gün
+    anchor_lore:
+    - '<#a8a8a8>Gün: <#ffffff>{val}'
+    anchor_title: <#ffd470>Çapa günü
+    interval_click:
+    - <#a7ff99>Sol Tık <#cccccc>- 1 saat ekle
+    - <#a7ff99>Sağ Tık <#cccccc>- 1 saat çıkar
+    - <#ffe999>Shift+Sol Tık <#cccccc>- 1 gün ekle
+    - <#ffe999>Shift+Sağ Tık <#cccccc>- 1 gün çıkar
+    - <#ffd470>Değiştir (F) <#cccccc>- Manuel gir
+    - <#ed6868>At (Q) <#cccccc>- Temizle
+    interval_lore:
+    - '<#a8a8a8>Mevcut: <#ffffff>{val}'
+    interval_title: <#ffd470>Sıfırlama aralığı
+    pools_click:
+    - <#a7ff99>Sol Tık <#cccccc>- Havuzları yönet
+    pools_lore:
+    - '<#a8a8a8>Havuzlar: <#ffffff>{val}'
+    pools_title: <#ffd470>Görev havuzları
+    time_click:
+    - <#a7ff99>Sol Tık <#cccccc>- 1 saat ekle
+    - <#a7ff99>Sağ Tık <#cccccc>- 1 saat çıkar
+    - <#ffe999>Shift+Sol Tık <#cccccc>- 10 dk ekle
+    - <#ffe999>Shift+Sağ Tık <#cccccc>- 10 dk çıkar
+    - <#ffd470>Değiştir (F) <#cccccc>- Manuel gir
+    - <#ed6868>At (Q) <#cccccc>- Temizle
+    time_lore:
+    - '<#a8a8a8>Mevcut: <#ffffff>{val}'
+    time_title: <#ffd470>Sıfırlama zamanı
+    title: '&0Görev rotasyonu: {id}'
+  saved_success: '{prefix}<#78b185>✔ <#ffffff>{id} görev türündeki değişiklikler başarıyla kaydedildi!'
+  select_type_click: <#a7ff99>Sol Tık <#cccccc>- Bu türü seç
+
+  title_list: '&0Görev türleri listesi ({count})'
+  title_main: '&0Tür düzenleyici: {id}'
+  title_selector: '&0Görev türü seç'
+  type_created: '{prefix}<#78b185>✔ <#ffffff>Yeni tür başarıyla oluşturuldu: {id}'
+  type_list_click: <#a7ff99>Sol Tık <#cccccc>- Türü düzenle
+  type_list_clone: <#d9a752>Değiştir (F) <#cccccc>- Kopyala
+  type_list_delete: <#ff7070>At (Q) <#cccccc>- Sil
+  type_list_engine: '<#a8a8a8>Motor: <#7dd3ff>{engine}'
+  type_list_folder: '<#a8a8a8>Klasör: <#ffffff>{folder}'
+  type_list_quests: '<#a8a8a8>Görevler: <#ffffff>{count}'

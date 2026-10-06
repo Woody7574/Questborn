@@ -1,0 +1,41 @@
+id: starter_chain_12_nether_step
+name: <#fb7185>🌀 Step into the Nether
+icon-material: OBSIDIAN
+slot: 33
+page: 1
+require-quests:
+- starter_chain_11_magic_touch
+description:
+- <#cccccc>Danger is opportunity, too.
+- <#cccccc>Enter another dimension through a portal.
+- <#cccccc>You've unlocked a new chapter of adventure.
+rewards-description:
+- <#a7ff99>+1200 coins
+- <#ffe08a>+420 XP
+- <#7dd3ff>+Fire Resistance
+objective:
+  type: CHANGE_DIMENSION
+  amount: 1
+  dimension: NETHER
+rewards:
+  money:
+    amount: 1200
+    silent: false
+  xp:
+    points: 420
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: FIRE_CHARGE
+      amount: 8
+      name: <#7dd3ff>Nether Ember
+      lore:
+      - <#cccccc>Useful for survival and adventures.
+  effects:
+    silent: false
+    list:
+    - FIRE_RESISTANCE:0:180
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

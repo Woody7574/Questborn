@@ -1,0 +1,1705 @@
+common_editor:
+  buttons:
+    add: <#79d679>Dodaj
+    add_item: <#79d679>Dodaj przedmiot
+    add_item_lore:
+    - <#a8a8a8>Kliknij, aby wybrać
+    - <#a8a8a8>materiał do przesłania.
+    add_new: <#79d679>Utwórz nowy
+    add_new_lore: <#a7ff99>LPM <#cccccc>- Utwórz nowy
+    back: <#ed6868>Wstecz
+    back_lore: <#a8a8a8>Powrót do poprzedniego menu.
+    cancel: <#ed6868>Anuluj
+    cancel_lore: <#a8a8a8>Kliknij, aby cofnąć.
+    confirm: <#79d679>Potwierdź
+    confirm_lore: <#a8a8a8>Kliknij, aby wykonać akcję.
+    delete: <#ed6868>Usuń
+    empty_list: <#ed6868>Lista jest pusta
+    empty_list_lore: <#a8a8a8>Kliknij zielony blok po prawej, aby dodać przedmiot.
+    next_page: <#ffd470>Następna strona
+    prev_page: <#ffd470>Poprzednia strona
+    return: <#ed6868>Powrót
+    save: <#79d679>Zapisz zmiany
+    save_lore: <#a8a8a8>Zapisz wszystkie ustawienia do pliku.
+    save_unsaved: <#ffd470>* Zapisz zmiany
+    save_unsaved_lore: <#ffb366>⚠ Niezapisane zmiany!
+    search: <#ffd470>Szukaj
+  days:
+    friday: Piątek
+    monday: Poniedziałek
+    saturday: Sobota
+    sunday: Niedziela
+    thursday: Czwartek
+    tuesday: Wtorek
+    unknown: Nieznany
+    wednesday: Środa
+  input:
+    cancel_instruction: <#8a8a8a>    Wpisz tekst na czacie. Aby anulować wpisz 
+      <#c96a6a>cancel
+    cancelled: Wprowadzanie anulowane.
+    cancelled_cmd: Wprowadzanie anulowane (przez komendę).
+    edit_current: '    <#ffc499>✎ [Edytuj obecny tekst]'
+    enter_number_error: Wpisz liczbę!
+    enter_text: '<#ffd470>Wpisz nowy tekst na czacie:'
+  item_list:
+    click_delete: <#ed6868>Upuść (Q) <#cccccc>- Usuń
+    click_modify1: <#a7ff99>LPM (+1) / PPM (-1) <#cccccc>- Zmień ilość
+    click_modify2: <#ffe999>Shift + LPM (+10) / <#ffe999>Shift + PPM (-10)
+    click_modify3: <#d9a752>Zamień (F) <#cccccc>- Wpisz ilość ręcznie
+    delete_confirm_msg: '<#ffd470>Czy na pewno chcesz usunąć przedmiot #{index}?'
+    delete_confirm_title: Usuń przedmiot
+    empty_lore:
+    - <#a8a8a8>Kliknij lej lub zielony blok,
+    - <#a8a8a8>aby dodać pierwszy przedmiot.
+    empty_title: <#ed6868>Lista jest pusta
+    item_amount: '<#a8a8a8>Ilość: <#ffffff>{amount}'
+  main_selector:
+    dialogue_click: <#79d679>Kliknij, aby otworzyć listę dialogów
+    dialogue_lore:
+    - <#a8a8a8>Edycja interaktywnych ścieżek
+    - <#a8a8a8>dialogowych, opcji odpowiedzi i akcji.
+    dialogue_title: <#ff99d4>Edytor dialogów
+    npc_click: <#79d679>Kliknij, aby otworzyć listę NPC
+    npc_lore:
+    - <#a8a8a8>Konfiguracja powiązań zadań z NPC,
+    - <#a8a8a8>zasady nastrojów (Mood) i dźwięki głosów.
+    npc_title: <#a7ff99>Edytor NPC
+    quest_click: <#79d679>Kliknij, aby otworzyć listę zadań
+    quest_lore:
+    - <#a8a8a8>Tworzenie, usuwanie i szczegółowa
+    - <#a8a8a8>konfiguracja zadań, etapów i nagród.
+    quest_title: <#7dd3ff>Edytor zadań
+    title: '&0✎ Edytor Questborn'
+    type_click: <#79d679>Kliknij, aby otworzyć listę typów
+    type_lore:
+    - <#a8a8a8>Zarządzanie plikami typów (<#ffffff>_type.yml<#a8a8a8>).
+    - <#a8a8a8>Zmiana nazw, ikon, czasu odnowienia i
+    - <#a8a8a8>trybów silnika (DEFAULT, CHAIN, ROTATION, GLOBAL).
+    type_title: <#ffd470>Edytor typów zadań
+  none: <#cccccc>Brak
+  prefix: <#ad8ae6><bold>Edytor</bold> <#8a8a8a>• <reset>
+  prompts:
+    preset_id: ID presetu
+  search:
+    click: <#a7ff99>LPM <#cccccc>- Szukaj
+    none: <#cccccc>Brak
+    query: '<#cccccc>Zapytanie: <#ffffff>{query}'
+  selection_menu:
+    item_click: <#a7ff99>LPM <#cccccc>- Przełącz wybór
+    item_id: '<#a8a8a8>ID: <#ffffff>{id}'
+    item_status: '<#a8a8a8>Status: {status}'
+    prompt_search: '<#ffd470>Wpisz zapytanie (lub wyczyść):'
+    search_all: Wszystko
+    search_click: <#a7ff99>LPM <#cccccc>- Szukaj (lub wyczyść)
+    search_lore: '<#a8a8a8>Szukaj: <#ffffff>{query}'
+    status_selected: <#55ff55>Wybrano ✔
+    status_unselected: <#ff5555>Nie wybrano
+    title: '&0Wybierz przedmiot'
+  state_none: <#cccccc>Wyłączone
+  states:
+    disabled: <#ed6868>Wyłączone
+    enabled: <#79d679>Włączone
+  symbols:
+    error: '<#c96a6a>✖ '
+    prompt: '<#6aa0c9>✏ '
+    success: '{prefix}<#78b185>✔ <#ffffff>'
+    warning: '<#d9a752>⚠ '
+  unsaved_modal:
+    discard_exit: <#ed6868>Odrzuć zmiany i wyjdź
+    discard_exit_lore: <#a8a8a8>Odrzuca wszystkie niezapisane zmiany bez zapisywania 
+      do pliku.
+    info_lore: <#a8a8a8>Wybierz akcję poniżej.
+    info_title: <#ffd470>Niezapisane zmiany
+    return_editor: <#d69a38>Wróć do edycji
+    return_editor_lore: <#a8a8a8>Wróć do menu edytora.
+    save_exit: <#79d679>Zapisz i wyjdź
+    save_exit_lore: <#a8a8a8>Zapisuje wszystkie zmiany w pliku i zamyka 
+      edytor.
+    title: '&0✎ Niezapisane zmiany'
+dialogue_editor:
+  delete_confirm_desc: Czy na pewno chcesz usunąć dialog {id}?
+  delete_confirm_title: '&0Potwierdź usunięcie'
+  delete_confirm_item: '<#ed6868>Potwierdź usunięcie'
+  deleted_success: '{prefix}<#78b185>✔ <#ffffff>Dialog usunięty!'
+  clone_prompt: '<#ffd470>Podaj ID dla kopii dialogu:'
+  error_clone_exists: '{prefix}<#c96a6a>✖ <#ffffff>Dialog o tym ID już istnieje!'
+  msg_clone_success: '{prefix}<#78b185>✔ <#ffffff>Dialog skompilowany/skopiowany jako {id}!'
+  error_clone_failed: '{prefix}<#c96a6a>✖ <#ffffff>Błąd podczas kopiowania dialogu!'
+  id_exists: Dialog o tym ID już istnieje!
+  saved_success: '{prefix}<#78b185>✔ <#ffffff>Zmiany dialogu {id} zostały zapisane!'
+  title_list: '&0Lista dialogów ({count})'
+  title_main: '&0Edytor dialogu: {id}'
+npc_editor:
+  teleported: '<#a7ff99>✔ Pomyślnie przeteleportowano do NPC!'
+  location_not_found: '{prefix}<#c96a6a>✖ <#ffffff>Nie znaleziono lokalizacji NPC! Czy jest zrespawnowany?'
+  no_integration: '{prefix}<#c96a6a>✖ <#ffffff>Brak integracji z pluginem NPC!'
+  delete_confirm_desc: Czy na pewno chcesz usunąć NPC {id}?
+  delete_confirm_item: <#ff4d4d>Potwierdź usunięcie
+  delete_confirm_title: '&0Potwierdź usunięcie'
+  deleted_success: '{prefix}<#78b185>✔ <#ffffff>NPC usunięty!'
+  dialogue_gui_title: '&8Wybierz dialog'
+  dialogue_none_title: '&cOdłącz obecny dialog'
+  dialogue_select_click: '&eKliknij, aby wybrać ten dialog'
+  id_exists: NPC o tym ID już istnieje!
+  id_exists_use_right_click: Jeśli chcesz skonfigurować istniejącego NPC, użyj PPM 
+    zamiast LPM.
+  saved_success: '{prefix}<#78b185>✔ <#ffffff>Zmiany NPC {id} zostały zapisane!'
+  title_list: '&0Lista NPC ({count})'
+  title_main: '&0Konfiguracja NPC: {id}'
+quest_editor:
+  add_property:
+    amount: Ilość
+    biome: Biom
+    chance: Szansa
+    command: Komenda
+    custom_click: <#a7ff99>LPM <#cccccc>- Wybierz
+    custom_lore:
+    - <#a8a8a8>Wpisz klucz właściwości ręcznie przez czat
+    custom_prompt: '<#ffd470>Wpisz nazwę właściwości (np. material):'
+    custom_title: <#ffd470>Niestandardowa właściwość
+    distance: Dystans
+    entities: Byt / Moby
+    item_click: <#a7ff99>LPM <#cccccc>- Dodaj właściwość
+    item_lore: '<#a8a8a8>Klucz: <#ffffff>{key}'
+    item_title: <#ffd470>{name}
+    materials: Bloki / Przedmioty
+    message: Wiadomość
+    region: Region
+    title: <#6e6e6e>Nowa właściwość
+    world: Świat
+  attribute_reward:
+    add_lore: <#a8a8a8>Kliknij, aby dodać nowy atrybut.
+    add_title: <#ffd470>Dodaj atrybut
+    click_delete: <#ed6868>Upuść (Q) <#cccccc>- Usuń atrybut
+    click_edit: <#d9a752>Zamień (F) <#cccccc>- Wpisz ręcznie
+    click_modify1: <#a7ff99>LPM (+0.5) / PPM (-0.5) <#cccccc>- Zmień wartość
+    click_modify2: <#ffe999>Shift + LPM (+5.0) / <#ffe999>Shift + PPM (-5.0)
+    confirm_del_desc: Czy na pewno chcesz usunąć {attr}?
+    confirm_del_item: ✖ Usuń atrybut
+    confirm_del_title: '&0Usuń atrybut'
+    prompt_val: '<#ffd470>Wpisz wartość numeryczną dla atrybutu (np. 2.0 lub -1.5):'
+  attribute_selector:
+    click_select: <#a7ff99>LPM <#cccccc>- Wybierz ten atrybut
+    desc:
+      AIR_DRAG_MODIFIER: <#cccccc>Modyfikator oporu powietrza (spowolnienie w locie).
+      ARMOR: <#cccccc>Podstawowa ilość punktów pancerza.
+      ARMOR_TOUGHNESS: <#cccccc>Wytrzymałość pancerza (ochrona przed silnymi ciosami).
+      ATTACK_DAMAGE: <#cccccc>Obrażenia od podstawowych ataków wręcz.
+      ATTACK_KNOCKBACK: <#cccccc>Siła odrzutu podczas ataku.
+      ATTACK_SPEED: <#cccccc>Prędkość ataku (uderzenia na sekundę).
+      BELOW_NAME_DISTANCE: <#cccccc>Zasięg widoczności tekstu pod nazwą.
+      BLOCK_BREAK_SPEED: <#cccccc>Mnożnik prędkości niszczenia bloków.
+      BLOCK_INTERACTION_RANGE: <#cccccc>Zasięg interakcji gracza z blokami.
+      BOUNCINESS: <#cccccc>Sprężystość.
+      BURNING_TIME: <#cccccc>Mnożnik czasu palenia się w ogniu.
+      CAMERA_DISTANCE: <#cccccc>Dystans kamery.
+      ENTITY_INTERACTION_RANGE: <#cccccc>Zasięg interakcji gracza z innymi 
+        bytami.
+      EXPLOSION_KNOCKBACK_RESISTANCE: <#cccccc>Odporność na odrzut z eksplozji.
+      FALL_DAMAGE_MULTIPLIER: <#cccccc>Mnożnik obrażeń od upadku.
+      FLYING_SPEED: <#cccccc>Prędkość latania bytu.
+      FOLLOW_RANGE: <#cccccc>Zasięg z jakiego moby zauważają gracza.
+      FRICTION_MODIFIER: <#cccccc>Modyfikator tarcia.
+      GENERIC_ARMOR: <#cccccc>Podstawowa ilość punktów pancerza.
+      GENERIC_ARMOR_TOUGHNESS: <#cccccc>Wytrzymałość pancerza (ochrona przed 
+        silnymi ciosami).
+      GENERIC_ATTACK_DAMAGE: <#cccccc>Obrażenia od podstawowych ataków wręcz.
+      GENERIC_ATTACK_KNOCKBACK: <#cccccc>Siła odrzutu podczas ataku.
+      GENERIC_ATTACK_SPEED: <#cccccc>Prędkość ataku (uderzenia na sekundę).
+      GENERIC_BURNING_TIME: <#cccccc>Mnożnik czasu palenia się w ogniu.
+      GENERIC_EXPLOSION_KNOCKBACK_RESISTANCE: <#cccccc>Odporność na odrzut 
+        z eksplozji.
+      GENERIC_FALL_DAMAGE_MULTIPLIER: <#cccccc>Mnożnik obrażeń od upadku.
+      GENERIC_FLYING_SPEED: <#cccccc>Prędkość latania bytu.
+      GENERIC_FOLLOW_RANGE: <#cccccc>Zasięg z jakiego moby zauważają gracza.
+      GENERIC_GRAVITY: <#cccccc>Siła grawitacji działająca na byt.
+      GENERIC_JUMP_STRENGTH: <#cccccc>Normalna siła skoku bytu.
+      GENERIC_KNOCKBACK_RESISTANCE: <#cccccc>Odporność na odrzut (1.0 = 100% 
+        ochrony).
+      GENERIC_LUCK: <#cccccc>Szczęście (wpływa na łupy i łowienie ryb).
+      GENERIC_MAX_HEALTH: <#cccccc>Maksymalne zdrowie (1.0 = pół serca).
+      GENERIC_MOVEMENT_EFFICIENCY: <#cccccc>Efektywność poruszania się po trudnych 
+        blokach.
+      GENERIC_MOVEMENT_SPEED: <#cccccc>Prędkość poruszania się bytu.
+      GENERIC_OXYGEN_BONUS: <#cccccc>Szansa na nie zużycie tlenu pod wodą.
+      GENERIC_SAFE_FALL_DISTANCE: <#cccccc>Bezpieczny dystans upadku (w blokach).
+      GENERIC_SCALE: <#cccccc>Skala i rozmiar bytu (1.0 = domyślne).
+      GENERIC_STEP_HEIGHT: <#cccccc>Wysokość automatycznego wchodzenia (bez skoku).
+      GENERIC_WATER_MOVEMENT_EFFICIENCY: <#cccccc>Efektywność poruszania 
+        się pod wodą.
+      GRAVITY: <#cccccc>Siła grawitacji działająca na byt.
+      HORSE_JUMP_STRENGTH: <#cccccc>Siła skoku konia.
+      JUMP_STRENGTH: <#cccccc>Normalna siła skoku bytu.
+      KNOCKBACK_RESISTANCE: <#cccccc>Odporność na odrzut (1.0 = 100% 
+        ochrony).
+      LUCK: <#cccccc>Szczęście (wpływa na łupy i łowienie ryb).
+      MAX_ABSORPTION: <#cccccc>Maksymalna absorpcja obrażeń (Dodatkowe serca).
+      MAX_HEALTH: <#cccccc>Maksymalne zdrowie (1.0 = pół serca).
+      MINING_EFFICIENCY: <#cccccc>Ogólna efektywność kopania.
+      MOVEMENT_EFFICIENCY: <#cccccc>Efektywność poruszania się po trudnych blokach.
+      MOVEMENT_SPEED: <#cccccc>Prędkość poruszania się bytu.
+      NAME_TAG_DISTANCE: <#cccccc>Zasięg widoczności znacznika (Name Tag).
+      OXYGEN_BONUS: <#cccccc>Szansa na nie zużycie tlenu pod wodą.
+      PLAYER_BLOCK_BREAK_SPEED: <#cccccc>Mnożnik prędkości niszczenia bloków.
+      PLAYER_BLOCK_INTERACTION_RANGE: <#cccccc>Zasięg interakcji gracza z 
+        blokami.
+      PLAYER_ENTITY_INTERACTION_RANGE: <#cccccc>Zasięg interakcji gracza z
+        innymi bytami.
+      PLAYER_MINING_EFFICIENCY: <#cccccc>Ogólna efektywność kopania.
+      PLAYER_SNEAKING_SPEED: <#cccccc>Mnożnik prędkości skradania (Shift).
+      PLAYER_SUBMERGED_MINING_SPEED: <#cccccc>Mnożnik prędkości kopania pod 
+        wodą.
+      PLAYER_SWEEPING_DAMAGE_RATIO: <#cccccc>Mnożnik obrażeń obszarowych miecza.
+      SAFE_FALL_DISTANCE: <#cccccc>Bezpieczny dystans upadku (w blokach).
+      SCALE: <#cccccc>Skala i rozmiar bytu (1.0 = domyślne).
+      SNEAKING_SPEED: <#cccccc>Mnożnik prędkości skradania (Shift).
+      SPAWN_REINFORCEMENTS: <#cccccc>Szansa dla zombie na przyzwanie innych zombie 
+        na pomoc.
+      STEP_HEIGHT: <#cccccc>Wysokość automatycznego wchodzenia (bez skoku).
+      SUBMERGED_MINING_SPEED: <#cccccc>Mnożnik prędkości kopania pod wodą.
+      SWEEPING_DAMAGE_RATIO: <#cccccc>Mnożnik obrażeń obszarowych miecza.
+      TEMPT_RANGE: <#cccccc>Zasięg kuszenia mobów jedzeniem.
+      WATER_MOVEMENT_EFFICIENCY: <#cccccc>Efektywność poruszania się pod wodą.
+      WAYPOINT_RECEIVE_RANGE: <#cccccc>Zasięg odbierania punktu trasy.
+      WAYPOINT_TRANSMIT_RANGE: <#cccccc>Zasięg transmitowania punktu trasy.
+      ZOMBIE_SPAWN_REINFORCEMENTS: <#cccccc>Szansa dla zombie na przyzwanie innych 
+        zombie na pomoc.
+    title: '&0Wybór atrybutu'
+  brd_reward:
+    click_clone: <#d9a752>Zamień (F) <#cccccc>- Sklonuj
+    click_delete: <#ed6868>Upuść (Q) <#cccccc>- Usuń
+    click_edit: <#a7ff99>LPM <#cccccc>- Zmień ogłoszenie
+    click_move_down: <#ffe999>Shift+PPM <#cccccc>- Przenieś w dół
+    click_move_up: <#ffe999>Shift+LPM <#cccccc>- Przenieś w górę
+    click_set_level: <#d9a752>1-9 <#cccccc>- Ustaw poziom efektu
+    item_format: '<#79d679>Ogłoszenie #{index}'
+  chance_reward:
+    add_lore: <#a8a8a8>Kliknij, aby dodać nową szansę.
+    add_title: <#ffd470>Dodaj szansę
+    click_delete: <#ed6868>Upuść (Q) <#cccccc>- Usuń szansę
+    click_edit_chance: <#d9a752>Zamień (F) <#cccccc>- Wpisz szansę ręcznie
+    click_open_rewards: <#a7ff99>LPM <#cccccc>- Otwórz nagrody
+    confirm_del_desc: '<#ffd470>Usunąć szansę #{attr}?'
+    item_title: Szansa
+    prompt_val: '<#ffd470>Wpisz szansę w procentach (np. 50.0):'
+    rewards_gui_title: 'Nagrody dla szansy #{attr}'
+  cmd_reward:
+    add_lore: <#a8a8a8>Kliknij, aby dodać nową komendę.
+    add_title: <#ffd470>Dodaj komendę
+    click_clone: <#d9a752>Zamień (F) <#cccccc>- Duplikuj
+    click_delete: <#ed6868>Upuść (Q) <#cccccc>- Usuń
+    click_edit: <#a7ff99>LPM <#cccccc>- Zmień komendę
+    click_move_down: <#ffe999>Shift+PPM <#cccccc>- Przenieś w dół
+    click_move_up: <#ffe999>Shift+LPM <#cccccc>- Przenieś w górę
+    click_toggle_sender: <#a7ff99>PPM <#cccccc>- Wybierz wykonawcę
+    item_format: '<#ffd470>Komenda #{index}'
+    prompt_add:
+    - '<#ffd470>Wpisz tekst komendy:'
+    - '<#a8a8a8>(Jako nazwę gracza wpisz %player%)'
+    prompt_edit:
+    - '<#ffd470>Wpisz nowy tekst komendy:'
+    - '<#a8a8a8>(Jako nazwę gracza wpisz %player%)'
+    sender_console: <#ffd470>Z poziomu Konsoli
+    sender_console_lore:
+    - '<#a8a8a8>Komenda zostanie wykonana przez konsolę serwera.'
+    - ''
+    - '<#a7ff99>Kliknij, aby wybrać.'
+    sender_gui_title: '&0Wybór wykonawcy'
+    sender_none: <#ed6868>Wyczyść tag
+    sender_none_lore:
+    - '<#a8a8a8>Wyczyść tag komendy.'
+    - ''
+    - '<#a8a8a8>(Domyślnie równoważne Konsoli)'
+    - ''
+    - '<#a7ff99>Kliknij, aby wybrać.'
+    sender_player: <#ffd470>Jako Gracz
+    sender_player_lore:
+    - '<#a8a8a8>Komenda zostanie wykonana tak, jakby'
+    - ''
+    - '<#a8a8a8>została wpisana przez gracza.'
+    - ''
+    - '<#a7ff99>Kliknij, aby wybrać.'
+    sender_silent_console: <#ffd470>Z poziomu Konsoli (Cicho)
+    sender_silent_console_lore:
+    - '<#a8a8a8>Komenda zostanie wykonana przez konsolę,'
+    - ''
+    - '<#a8a8a8>ale wynik nie zostanie zapisany w logach.'
+    - ''
+    - '<#a7ff99>Kliknij, aby wybrać.'
+    sender_silent_player: <#ffd470>Jako Gracz (Cicho)
+    sender_silent_player_lore:
+    - '<#a8a8a8>Komenda zostanie wykonana przez gracza,'
+    - ''
+    - '<#a8a8a8>ale wynik nie zostanie wyświetlony na czacie.'
+    - ''
+    - '<#a7ff99>Kliknij, aby wybrać.'
+  dialogue_list:
+    create_default_text: '  <#c8c8c8>Witaj, podróżniku!'
+    create_prompt: '<#ffd470>Wpisz nowe ID dialogu (np.: <#ffffff>dialog_w_karczmie<#ffd470>):'
+    edit_click: <#a7ff99>LPM <#cccccc>- Edytuj dialog
+    clone_click: '<#d9a752>Zamień (F) <#cccccc>- Klonuj dialog'
+    delete_click: <#ed6868>Upuść (Q) <#cccccc>- Usuń dialog
+    id_click: <#a7ff99>LPM <#cccccc>- Zmień ID dialogu
+    id_exists: <#ed6868>Dialog o ID {id} już istnieje!
+    id_lore: '<#a8a8a8>ID: <#ffffff>{id}'
+    id_prompt: '<#ffd470>Wpisz nowe ID dialogu (np.: rozmowa_w_karczmie):'
+    id_success: '{prefix}<#78b185>✔ <#ffffff>ID dialogu pomyślnie zmienione na <#ffffff>{id}'
+    id_title: <#ffd470>ID dialogu
+    node_id_title: '<#ffd470>ID kwestii'
+    name_click: <#a7ff99>LPM <#cccccc>- Zmień nazwę
+    name_lore: '<#a8a8a8>Obecna nazwa: '
+    name_prompt: '<#ffd470>Wpisz nazwę NPC w dialogu (np. <#d0a775>{npc}):'
+    name_title: <#ffd470>Nazwa NPC w dialogu
+    nodes_lore: '<#a8a8a8>Kwestie: <#7dd3ff>{count}'
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Błąd zapisu dialogues.yml!'
+  dialogue_main:
+    action_back_lore: <#a8a8a8>Powrót do edytora odpowiedzi
+    action_back_title: <#ed6868>Wstecz
+    action_builder_back_lore: <#a8a8a8>Powrót do Kreatora Akcji
+    action_builder_select_node: '&0Wybierz celową kwestię'
+    action_builder_title: '<#6e6e6e>Kreator Akcji: <#6aa0c9>Odpowiedź #{index}'
+    action_close_lore: <#a8a8a8>Zakończ rozmowę z NPC.
+    action_close_title: <#ed6868>Zamknij dialog <#a8a8a8>(close)
+    action_console_cmd_lore:
+    - <#a8a8a8>Wykonaj komendę z poziomu konsoli.
+    - <#a8a8a8>Użyj %player% jako nazwy gracza.
+    action_console_cmd_title: <#7dd3ff>Komenda z konsoli <#a8a8a8>(console:<cmd>)
+    action_create_lore: <#a8a8a8>Tworzy nową kwestię i podłącza do niej akcję.
+    action_create_title: <#55ff55>Utwórz i podłącz kwestię
+    action_current_title: <#ffd470>Obecna akcja
+    action_current_selected: '<#a8a8a8>Wybrana:'
+    action_current_lore:
+    - ''
+    - '<#a8a8a8>Jest to akcja, która zostanie'
+    - '<#a8a8a8>wykonana, gdy gracz wybierze'
+    - '<#a8a8a8>tę odpowiedź.'
+    action_custom_lore: <#a8a8a8>Wprowadź surowy ciąg znaków akcji ręcznie.
+    action_custom_title: <#ffd470>Niestandardowy ciąg akcji
+    action_finish_quest_lore: <#a8a8a8>Kończy określone zadanie po kliknięciu.
+    action_finish_quest_title: <#79d679>Zakończ zadanie 
+      <#a8a8a8>(quest:finish:<id>)
+    action_goto_lore: <#a8a8a8>Skok do innej kwestii w dialogu.
+    action_goto_title: <#79d679>Przejdź do węzła <#a8a8a8>(dialogue:<node>)
+    action_node_link_lore: <#a7ff99>LPM <#a8a8a8>aby podłączyć ten wers
+    action_node_link_title: <#ffd470>{key}
+    action_player_cmd_lore: <#a8a8a8>Zmuś gracza do wykonania komendy.
+    action_player_cmd_title: <#7dd3ff>Komenda jako gracz <#a8a8a8>(player:<cmd>)
+    action_start_quest_lore: <#a8a8a8>Rozpoczyna określone zadanie po kliknięciu.
+    action_start_quest_title: <#79d679>Rozpocznij zadanie <#a8a8a8>(quest:start:<id>)
+    add_lore_empty: <#a7ff99>PPM <#cccccc>- Utwórz pusty wiersz
+    cond_clear: <#ffe999>PPM <#a8a8a8>aby wyczyścić wszystkie warunki
+    cond_current_title: <#ffd470>Obecne Warunki
+    cond_gui_title: '&0Warunki: Odpowiedź #{num}-'
+    cond_none: <#ed6868>Brak warunków. Odpowiedź zawsze widoczna.
+    cond_perm_lore: <#a8a8a8>Np., permission:moje.uprawnienie
+    cond_perm_prompt: 'Wpisz uprawnienie:'
+    cond_perm_title: <#79d679>Wymagaj uprawnienia (Permission)
+    cond_quest_lore: <#a8a8a8>Np., quest_state:<id>:COMPLETED
+    cond_quest_prompt: 'Wpisz wymagany stan (ACTIVE/COMPLETED/NOT_STARTED):'
+    cond_quest_title: <#79d679>Wymagany stan zadania
+    cond_raw_lore: <#a8a8a8>Wprowadź warunek ręcznie.
+    cond_raw_prompt: 'Wprowadź ciąg znaków warunku:'
+    cond_raw_title: <#ffd470>Niestandardowy warunek
+    cpt_click:
+    - <#a7ff99>LPM <#cccccc>- Dodaj 1 znak
+    - <#a7ff99>PPM <#cccccc>- Usuń 1 znak
+    - <#ffe999>Shift+LPM <#cccccc>- Dodaj 10 znaków
+    - <#ffe999>Shift+PPM <#cccccc>- Usuń 10 znaków
+    - <#d9a752>Zamień (F) <#cccccc>- Wprowadź ręcznie
+    cpt_lore:
+    - <#a8a8a8>Szybkość wyświetlania tekstu (znaków na tick).
+    - '<#a8a8a8>Obecna: <#ffffff>{cpt} znaków'
+    cpt_prompt: '<#ffd470>Wpisz liczbę znaków na tick (np. 1-5):'
+    cpt_title: <#ffd470>Prędkość pojawiania się tekstu
+    delete_right_click_warn: Użyj <#ffe999>PPM aby usunąć!
+    dialogue_tutorial_lore:
+    - <#a8a8a8>Kliknij, aby przeczytać przewodnik
+    dialogue_tutorial_title: '&0Przewodnik: Jak stworzyć dialog?'
+    dialogue_tutorial_item_title: '<#ffd470>Przewodnik: Jak stworzyć dialog?'
+    dialogue_validator_lore:
+    - '<#cccccc>Rozpoczyna szczegółową analizę dialogu na czacie.'
+    dialogue_validator_title: '<#ffe999>Sprawdź pod kątem błędów'
+    id_click: <#a7ff99>LPM <#cccccc>- Zmień ID
+    id_exists: Dialog o tym ID już istnieje!
+    id_lore: '<#a8a8a8>Obecne ID: <#ffffff>{id}'
+    id_prompt: '<#ffd470>Wpisz nowe ID dialogu:'
+    id_success: '{prefix}<#78b185>✔ <#ffffff>ID dialogu pomyślnie zmienione na <#ffffff>{id}'
+    id_title: <#ffd470>ID dialogu
+    node_id_title: '<#ffd470>ID Węzła'
+    item_clone: <#d9a752>Zamień (F) <#cccccc>- Sklonuj linię
+    item_move_down: <#ffe999>Shift+PPM <#cccccc>- Przesuń w dół
+    item_move_up: <#ffe999>Shift+LPM <#cccccc>- Przesuń w górę
+    keys_list: '<#a8a8a8>Wymagania: <#ffffff>{keys}'
+    keys_more: ' <#6e6e6e>(+jeszcze {count})'
+    keys_none: '<#a8a8a8>Klucze: <#ffffff>brak'
+    name_click: <#a7ff99>LPM <#cccccc>- Zmień imię NPC
+    name_lore: '<#a8a8a8>Obecne imię: <#ffffff>{name}'
+    name_prompt: '<#ffd470>Wprowadź imię NPC, które będzie widoczne podczas rozmowy:'
+    name_title: <#a8a8a8>Imię NPC w dialogu
+    node_opts_click: <#a7ff99>LPM <#a8a8a8>aby zmienić odpowiedzi
+    node_opts_lore:
+    - '<#a8a8a8>Obecne odpowiedzi: <#ffd470>{count}'
+    node_opts_title: <#ffd470>Odpowiedzi gracza
+    node_quick_reply_lore: <#a8a8a8>Automatycznie tworzy nową odpowiedź i łączy 
+      ją z nowym węzłem.
+    node_quick_reply_text: <#6e6e6e>[Kontynuuj...]
+    node_quick_reply_title: <#55ff55>Szybka odpowiedź
+    node_sound_click: <#a7ff99>LPM <#a8a8a8>aby zmienić dźwięk
+    node_sound_lore:
+    - '<#a8a8a8>Obecnie: <#ffffff>{sound}'
+    node_sound_title: <#ffd470>Dźwięk przy kliknięciu
+    node_text_click: <#a7ff99>LPM <#a8a8a8>aby zmienić tekst NPC
+    node_text_lore:
+    - '<#a8a8a8>NPC mówi:'
+    node_text_more: '  <#a8a8a8>... i {count} więcej.'
+    node_text_title: <#ffd470>Tekst NPC
+    nodes_add_default_text: '  <#c8c8c8>Witaj, podróżniku!'
+    nodes_add_lore: <#a8a8a8>Tworzy nowy węzeł dialogu (np. start, wybor_1)
+    nodes_add_prompt: '<#ffd470>Wpisz nazwę dla nowego węzła (np. start lub wezel_2):'
+    nodes_add_success: '{prefix}<#78b185>✔ <#ffffff>Utworzono nowy węzeł: <#ffffff>{node}<#a8a8a8>'
+    nodes_add_title: <#55ff55>Dodaj nowy węzeł
+    nodes_click: <#a7ff99>LPM <#cccccc>- Otwórz listę węzłów i teksty
+    nodes_del_confirm_desc: Czy na pewno chcesz usunąć węzeł {node}?
+    nodes_del_confirm_title: '&0Usuwanie węzła'
+    nodes_del_success: '{prefix}<#78b185>✔ <#ffffff>Węzeł <#ffffff>{node}<#a8a8a8> został usunięty!'
+    nodes_edit_gui_title: '&0Tekst węzła: '
+    nodes_gui_title: '&0Węzły: '
+    node_gui_title: '&0Węzeł: '
+    nodes_item_click:
+    - <#a7ff99>LPM <#cccccc>- Edytuj węzeł
+    - <#ed6868>Upuść (Q) <#cccccc>- Usuń węzeł
+    nodes_item_normal: '<#a8a8a8>Węzeł: <#ffffff>{node}'
+    nodes_item_start: <#7eb87e>[Start] start
+    nodes_lines: '<#a8a8a8>Liczba wierszy: <#ffffff>{count}'
+    nodes_lore:
+    - '<#a8a8a8>Całkowita liczba węzłów: <#ffffff>{count}'
+    nodes_text: '<#a8a8a8>Tekst:'
+    nodes_text_more: '  <#6e6e6e>... (+jeszcze {count} linijek)'
+    nodes_title: <#ffd470>Węzły dialogu (Nodes)
+    opt_action_lore:
+    - '<#a8a8a8>Obecna akcja:'
+    - <#ffffff>{action}
+    - <#a7ff99>LPM <#a8a8a8>aby otworzyć Kreatora Akcji
+    opt_action_title: <#79d679>Kreator Akcji
+    opt_back_lore: <#a8a8a8>Powrót do listy odpowiedzi
+    opt_conds_lore:
+    - '<#a8a8a8>Warunki: <#ffd470>{count}'
+    - <#a7ff99>LPM <#a8a8a8>aby edytować warunki
+    opt_conds_title: <#ffd470>Warunki wyświetlania
+    opt_create_node_lore: <#a8a8a8>Automatycznie tworzy nowy węzeł i łączy 
+      z nim tę odpowiedź.
+    opt_create_node_title: <#55ff55>Stwórz i połącz węzeł
+    opt_edit_cond_title: '<#6e6e6e>Warunki (Odpowiedź #{num}-)'
+    opt_action_gui_title: '&0Akcje: #{num}-'
+    opt_edit_current: '<#a8a8a8>Obecna: <#ffffff>{current}'
+    opt_edit_gui_title: '&0Odpowiedź #{num}-'
+    opt_edit_lore_title: '<#6e6e6e>Opis (Odpowiedź #{num}-)'
+    opt_edit_prompt_mat: 'Wpisz nazwę materiału (Bukkit Material):'
+    opt_edit_prompt_mat_invalid: <#ed6868>Nieprawidłowy materiał!
+    opt_edit_prompt_slot: 'Wpisz numer slotu (lub -1):'
+    opt_edit_prompt_sound: 'Wpisz nazwę dźwięku (Bukkit Sound) lub ''none'':'
+    opt_edit_prompt_text: 'Wpisz tekst odpowiedzi gracza:'
+    opt_linked_action_lore: '<#a8a8a8>Wykonuje akcję: <#ffffff>{action}'
+    opt_linked_close_lore: '<#a8a8a8>Prowadzi do: <#ffffff>Zakończenia dialogu'
+    opt_linked_node_lore: '<#a8a8a8>Prowadzi do: <#ffffff>Węzła {node}'
+    opt_linked_node_missing_lore: '<#ed6868>Prowadzi do: Węzła {node} (NIE ZNALEZIONO!)'
+    opt_list_action: '<#a8a8a8>Akcja: <#79d679>{action}'
+    opt_list_add_lore: <#a8a8a8>Kliknij, aby utworzyć nową odpowiedź.
+    opt_list_add_title: <#79d679>Dodaj Odpowiedź
+    opt_list_click:
+    - <#a7ff99>LPM <#a8a8a8>aby edytować
+    - <#ed6868>Upuść (Q) <#a8a8a8>aby usunąć
+    opt_list_del_desc: '<#a8a8a8>Czy na pewno chcesz usunąć <#a8a8a8>Odpowiedź #{index}?'
+    opt_list_del_title: <#ed6868>Usunąć odpowiedź?
+    opt_list_del_gui_title: '&0Usunąć odpowiedź?'
+    opt_list_gui_title: '&0Odpowiedzi: '
+    opt_list_item_title: '<#ffd470>Odpowiedź #{index}'
+    opt_list_slot: '<#a8a8a8>Slot: <#ffd470>{slot}'
+    opt_list_text: '<#a8a8a8>Tekst: <#ffffff>{text}'
+    opt_material_lore:
+    - '<#a8a8a8>Obecnie: <#ffffff>{material}'
+    - <#a7ff99>LPM <#a8a8a8>aby wpisać nazwę
+    - <#7dd3ff>Upuść (Q) przedmiot <#a8a8a8>tutaj aby ustawić
+    opt_material_title: <#ffd470>Ikona odpowiedzi (Material)
+    opt_reply_lore_lore:
+    - '<#a8a8a8>Linijki: <#ffd470>{count}'
+    - <#a7ff99>LPM <#a8a8a8>aby zmienić opis
+    opt_reply_lore_title: <#ffd470>Opis odpowiedzi (Lore)
+    opt_reply_text_lore:
+    - '<#a8a8a8>Obecny: <#ffffff>{text}'
+    - <#a7ff99>LPM <#a8a8a8>aby zmienić tekst
+    opt_reply_text_title: <#ffd470>Tekst odpowiedzi
+    opt_slot_lore:
+    - '<#a8a8a8>Obecny: <#ffd470>{slot}'
+    - <#a8a8a8>Ustaw -1 dla autouzupełniania.
+    - <#a7ff99>LPM <#a8a8a8>aby +1
+    - <#ffe999>PPM <#a8a8a8>aby -1
+    - <#ed6868>Upuść (Q) <#a8a8a8>aby wpisać na czacie
+    opt_slot_title: <#ffd470>Slot w ekwipunku
+    opt_sound_lore:
+    - '<#a8a8a8>Obecny: <#ffffff>{sound}'
+    - <#a7ff99>LPM <#a8a8a8>aby zmienić dźwięk
+    opt_sound_title: <#ffd470>Dźwięk kliknięcia
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Błąd zapisu dialogues.yml!'
+    tutorial_footer: '<#6e6e6e>=============================
+      '
+    tutorial_header: '
+      <#6e6e6e>=== <#7dd3ff>Jak tworzyć dialogi <#6e6e6e>==='
+    tutorial_step1_title: '<#ffd470>Krok 1: Początek dialogu'
+    tutorial_step1_lore:
+    - '<#a8a8a8>Każdy dialog musi mieć punkt startowy.'
+    - '<#a8a8a8>Kliknij <#a7ff99>''Węzły dialogu''<#a8a8a8> i stwórz'
+    - '<#a8a8a8>pierwszy węzeł z ID <#a7ff99>''start''<#a8a8a8>.'
+    - '<#a8a8a8>To tutaj NPC rozpocznie rozmowę.'
+    tutorial_step2_title: '<#ffd470>Krok 2: Tekst węzła'
+    tutorial_step2_lore:
+    - '<#a8a8a8>Po utworzeniu węzła, kliknij na niego.'
+    - '<#a8a8a8>Ustaw tekst, który wypowie NPC.'
+    - '<#a8a8a8>Możesz używać kodów kolorów i'
+    - '<#a8a8a8>zmiennych (np. <#a7ff99>{player}<#a8a8a8>).'
+    tutorial_step3_title: '<#ffd470>Krok 3: Opcje odpowiedzi'
+    tutorial_step3_lore:
+    - '<#a8a8a8>Aby dialog był interaktywny, dodaj'
+    - '<#a7ff99>opcje odpowiedzi <#a8a8a8>dla gracza.'
+    - '<#a8a8a8>Wejdź w ustawienia węzła i'
+    - '<#a8a8a8>stwórz kilka możliwych odpowiedzi.'
+    tutorial_step4_title: '<#ffd470>Krok 4: Linki i przejścia'
+    tutorial_step4_lore:
+    - '<#a8a8a8>Każda odpowiedź gracza musi prowadzić do'
+    - '<#a8a8a8>innego węzła NPC lub zakończyć dialog.'
+    - '<#a8a8a8>Połącz każdą odpowiedź z ID'
+    - '<#a8a8a8>następnego węzła.'
+    tutorial_step5_title: '<#ffd470>Krok 5: Warunki (Conditions)'
+    tutorial_step5_lore:
+    - '<#a8a8a8>Niektóre odpowiedzi mogą być ukryte przed graczem.'
+    - '<#a8a8a8>W ustawieniach odpowiedzi możesz określić'
+    - '<#a8a8a8>wymagania: posiadanie uprawnienia (permission)'
+    - '<#a8a8a8>lub konkretny stan zadania.'
+    tutorial_step6_title: '<#ffd470>Krok 6: Akcje (Actions)'
+    tutorial_step6_lore:
+    - '<#a8a8a8>Wybór odpowiedzi może wywołać określone zdarzenia.'
+    - '<#a8a8a8>Oprócz przeskoku do następnego węzła,'
+    - '<#a8a8a8>możesz automatycznie zacząć lub oddać zadanie,'
+    - '<#a8a8a8>lub wykonać komendę w imieniu gracza/konsoli.'
+    tutorial_step7_title: '<#ffd470>Krok 7: Walidator dialogu'
+    tutorial_step7_lore:
+    - '<#a8a8a8>Gdy dialog będzie gotowy, pamiętaj by użyć'
+    - '<#a7ff99>Walidatora <#a8a8a8>w głównym menu edytora.'
+    - '<#a8a8a8>Sprawdzi on twój dialog pod kątem'
+    - '<#a8a8a8>zerwanych połączeń i niedostępnych węzłów.'
+    update_period_click:
+    - <#a7ff99>LPM <#cccccc>- Dodaj 1 tick
+    - <#a7ff99>PPM <#cccccc>- Odejmij 1 tick
+    - <#ffe999>Shift+LPM <#cccccc>- Dodaj 10 ticków
+    - <#ffe999>Shift+PPM <#cccccc>- Odejmij 10 ticków
+    - <#d9a752>Zamień (F) <#cccccc>- Wpisz ręcznie
+    update_period_lore:
+    - <#a8a8a8>Jak często aktualizuje się tekst (w tickach).
+    - '<#a8a8a8>Obecnie: <#7dd3ff>{ticks} ticków'
+    update_period_prompt: '<#ffd470>Wpisz ilość ticków (1-100):'
+    update_period_title: <#ffd470>Prędkość aktualizacji tekstu
+    validator_dead_link: 'Odpowiedź {node} prowadzi do nieistniejącego węzła {target}! (odpowiedź
+      #{index})'
+    validator_footer: '<#c8beaa>Podsumowanie: <#b0b8c1>{errors} błędów, <#c4b5b5>{warnings}
+      ostrzeżeń.'
+    validator_header: '<#b0b8c1>=== <#6aa0c9>Stan dialogu: <#e2e8f0>{id} <#b0b8c1>==='
+    validator_links_ok: 'Dialog jest w pełni gotowy i nie ma problemów!'
+    validator_start_missing: 'Brakuje węzła startowego ''start''!'
+    voice_click: <#a7ff99>LPM <#cccccc>- Zmień typ głosu
+    voice_lore: '<#a8a8a8>Głos: <#ffffff>{voice}'
+    voice_prompt: '<#ffd470>Wpisz typ dźwięku (villager, none lub niestandardowy):'
+    voice_title: <#ffd470>Dźwięk głosu w dialogu
+    opt_reply_text_click: '<#a8a8a8>Kliknij, aby edytować tekst'
+    opt_reply_lore_click: '<#a8a8a8>Kliknij, aby edytować opis'
+    opt_material_click: '<#a8a8a8>Kliknij, aby edytować ikonę'
+    opt_sound_click: '<#a8a8a8>Kliknij, aby edytować dźwięk'
+    opt_action_click: '<#a8a8a8>Kliknij, aby edytować akcje'
+    opt_conds_click: '<#a8a8a8>Kliknij, aby edytować warunki'
+    action_player_prompt: '&aWpisz komendę, aby wykonać ją jako gracz:'
+    action_console_prompt: '&aWpisz komendę, aby wykonać ją przez konsolę:'
+  eff_reward:
+    add_lore: <#a7ff99>LPM <#cccccc>- Wybierz efekt
+    click_add_10s: <#ffe999>Shift+LPM <#cccccc>- Dodaj 10 sek
+    click_add_1s: <#a7ff99>LPM <#cccccc>- Dodaj 1 sek
+    click_custom_dur: <#d9a752>Zamień (F) <#cccccc>- Wpisz własny czas trwania
+    click_delete: <#ed6868>Upuść (Q) <#cccccc>- Usuń
+    click_edit: <#a7ff99>LPM <#cccccc>- Edytuj efekt
+    click_move_down: <#ffe999>Shift+PPM <#cccccc>- Przesuń w dół
+    click_move_up: <#ffe999>Shift+LPM <#cccccc>- Przesuń w górę
+    click_remove_10s: <#ffe999>Shift+PPM <#cccccc>- Odejmij 10 sek
+    click_remove_1s: <#a7ff99>PPM <#cccccc>- Odejmij 1 sek
+    click_set_level: <#d9a752>1-9 <#cccccc>- Ustaw poziom efektu
+    descriptions:
+      ABSORPTION: <#cccccc>Daje dodatkowe złote serca.
+      BAD_OMEN: <#cccccc>Rozpoczyna najazd przy wejściu do wioski.
+      BLINDNESS: <#cccccc>Pogarsza widoczność gracza.
+      BREATH_OF_THE_NAUTILUS: <#cccccc>Zapewnia oddychanie pod wodą (Kondensator).
+      CONDUIT_POWER: <#cccccc>Daje oddychanie pod wodą, widzenie i pośpiech.
+      CONFUSION: <#cccccc>Powoduje efekt zawrotów głowy.
+      DAMAGE_RESISTANCE: <#cccccc>Zmniejsza otrzymywane obrażenia.
+      DARKNESS: <#cccccc>Przyciemnia wizję gracza.
+      DOLPHINS_GRACE: <#cccccc>Zwiększa prędkość pływania.
+      FAST_DIGGING: <#cccccc>Zwiększa prędkość kopania.
+      FIRE_RESISTANCE: <#cccccc>Zapewnia odporność na ogień i lawę.
+      GLOWING: <#cccccc>Podświetla zarys gracza.
+      HARM: <#cccccc>Natychmiastowo zadaje obrażenia.
+      HEAL: <#cccccc>Natychmiastowo przywraca zdrowie.
+      HEALTH_BOOST: <#cccccc>Dodaje dodatkowe serca zdrowia.
+      HERO_OF_THE_VILLAGE: <#cccccc>Zniżki u osadników.
+      HUNGER: <#cccccc>Szybciej wyczerpuje głód.
+      INCREASE_DAMAGE: <#cccccc>Zwiększa obrażenia w walce wręcz.
+      INFESTED: <#cccccc>Pojawiają się rybiki po otrzymaniu obrażeń.
+      INVISIBILITY: <#cccccc>Czyni gracza niewidzialnym.
+      JUMP: <#cccccc>Zwiększa wysokość skoku.
+      LEVITATION: <#cccccc>Powoduje unoszenie się gracza w górę.
+      LUCK: <#cccccc>Zwiększa szczęście.
+      NIGHT_VISION: <#cccccc>Pozwala widzieć w ciemności.
+      OOZING: <#cccccc>Przywołuje szlamy po śmierci.
+      POISON: <#cccccc>Stopniowo zadaje obrażenia (nie może zabić).
+      RAID_OMEN: <#cccccc>Rozpoczyna najazd przy zbliżaniu się do wioski.
+      REGENERATION: <#cccccc>Stopniowo przywraca zdrowie.
+      SATURATION: <#cccccc>Natychmiastowo odnawia głód.
+      SLOW: <#cccccc>Zmniejsza prędkość poruszania się.
+      SLOW_DIGGING: <#cccccc>Zmniejsza prędkość kopania.
+      SLOW_FALLING: <#cccccc>Spowalnia prędkość spadania.
+      SPEED: <#cccccc>Zwiększa prędkość poruszania się.
+      TRIAL_OMEN: <#cccccc>Zwiększa trudność próby.
+      UNLUCK: <#cccccc>Zmniejsza szczęście.
+      WATER_BREATHING: <#cccccc>Pozwala oddychać pod wodą.
+      WEAKNESS: <#cccccc>Zmniejsza zadawane obrażenia.
+      WEAVING: <#cccccc>Pojawia się pajęczyna po śmierci.
+      WIND_CHARGED: <#cccccc>Wyzwala podmuch wiatru po śmierci.
+      WITHER: <#cccccc>Stopniowo zadaje obrażenia (może zabić).
+    duration_format: '<#8a8a8a>Czas trwania: <#55e655>{secs} sek <#555555>({time})'
+    duration_format_raw: '<#8a8a8a>Czas trwania: <#55e655>{dur} sek'
+    item_format: '<#79d679>Efekt #{index}'
+    level_format: '<#8a8a8a>Siła (Poziom): <#55e6e6>{level}'
+    prompt_add: '<#8a8a8a>Wpisz efekt w formacie <#ed6868>EFEKT:POZIOM:CZAS<#8a8a8a>
+      (np. SPEED:1:200):'
+    prompt_dur: '<#8a8a8a>Wpisz czas trwania efektu w sekundach:'
+    prompt_edit: '<#8a8a8a>Wpisz nowy format efektu <#ed6868>EFEKT:POZIOM:CZAS<#8a8a8a>:'
+    selector_title: Wybierz efekt
+    type_format: '<#8a8a8a>Typ efektu: <#e6e655>{type}'
+  entity_selector:
+    click: <#a7ff99>LPM <#cccccc>- Wybierz byt
+    title: '&0Wybierz moba/byt'
+  global_settings:
+    error_not_number: Wpisz liczbę!
+    limit_click: <#79d679>Kliknij, aby zmienić
+    limit_lore:
+    - '<#a8a8a8>Klucz: <#ffffff>personal-limit'
+    - '<#a8a8a8>Obecnie: <#ffffff>{val}'
+    limit_prompt: '<#ffd470>Wpisz nową wartość dla personal-limit:'
+    limit_title: <#ffd470>Limit osobisty
+    max_p_click: <#79d679>Kliknij, aby zmienić
+    max_p_lore:
+    - '<#a8a8a8>Klucz: <#ffffff>max-participants'
+    - '<#a8a8a8>Obecnie: <#ffffff>{val}'
+    max_p_prompt: '<#ffd470>Wpisz nową wartość dla max-participants:'
+    max_p_title: <#ffd470>Maksymalna liczba uczestników
+    min_p_click: <#79d679>Kliknij, aby zmienić
+    min_p_lore:
+    - '<#a8a8a8>Klucz: <#ffffff>min-participants'
+    - '<#a8a8a8>Obecnie: <#ffffff>{val}'
+    min_p_prompt: '<#ffd470>Wpisz nową wartość dla min-participants:'
+    min_p_title: <#ffd470>Minimalna liczba uczestników
+    step_click: <#a7ff99>LPM <#cccccc>- Zmień
+    step_lore:
+    - '<#a8a8a8>Klucz: <#ffffff>reward-step'
+    - '<#a8a8a8>Wartość: <#ffffff>{val}'
+    step_prompt: '<#ffd470>Wpisz nową liczbę dla reward-step:'
+    step_title: <#ffd470>Krok nagrody
+    title: '&0Ustawienia silnika: {id}'
+  health_check:
+    err_missing_name: Brak nazwy zadania (name)
+    err_missing_stages: Brak etapów/stages
+    err_no_name: Brak nazwy zadania (name)
+    err_no_stages: Brak etapów (stages)
+    header: '=== Analiza zdrowia zadania: {id} ==='
+    success: '{prefix}<#78b185>✔ <#ffffff>Zadanie jest w pełni gotowe i nie ma problemów!'
+    summary: 'Podsumowanie: {errors} błędów, {warnings} ostrzeżeń.'
+    title: '<#b0b8c1>=== <#6aa0c9>Stan zadania: <#e2e8f0>{id} <#b0b8c1>==='
+    warn_missing_mandatory_prop: 'Etap {stage}: brak wymaganej właściwości ''{prop}'''
+    warn_no_rewards: Zadanie nie zawiera nagród (rewards)
+    warn_npc_not_found: '{prefix}<#d9a752>⚠ <#ffffff>Etap {stage}: NPC ''{npc}'' nie znaleziono w npcs.yml'
+    warn_obj_prop: 'Ostrzeżenie: właściwość obiektu'
+    warn_objective_missing_prop: 'Cel: brak wymaganej właściwości ''{prop}'''
+    warn_stage_empty: Etap jest pusty
+    warn_stage_npc: NPC etapu nie jest skonfigurowany
+    warn_stage_prop: Etap ma nieprawidłową właściwość
+    warn_unconfigured_stage: 'Etap {stage}: cel lub materiały nie są skonfigurowane'
+  list:
+    clone_prompt: '<#ffd470>Wpisz ID dla skopiowanego zadania:'
+    confirm_del_desc: Czy na pewno chcesz usunąć zadanie {id}?
+    confirm_del_title: ✖ Usuń zadanie
+    error_clone: '{prefix}<#c96a6a>✖ <#ffffff>Błąd podczas klonowania!'
+    error_clone_exists: '{prefix}<#c96a6a>✖ <#ffffff>Zadanie o tym ID już istnieje!'
+    error_create: '{prefix}<#c96a6a>✖ <#ffffff>Błąd podczas tworzenia zadania.'
+    filter_lore_next: <#a7ff99>LPM <#cccccc>- Następny tryb
+    filter_lore_prev: <#a7ff99>PPM <#cccccc>- Poprzedni tryb
+    filter_lore_title: '<#a8a8a8>Tryby sortowania:'
+    filter_title: <#ffd470>Filtruj / Sortuj
+    item_clone: <#d9a752>Zamień (F) <#cccccc>- Klonuj zadanie
+    item_delete: <#ed6868>Upuść (Q) <#cccccc>- Usuń zadanie
+    item_edit: <#a7ff99>LPM <#cccccc>- Edytuj zadanie
+    item_engine: '<#a8a8a8>Silnik: <#7dd3ff>{engine}'
+    item_type: '<#a8a8a8>Typ: <#ffffff>{type}'
+    mode_cre_new: Utworzone (Od najnowszych)
+    mode_cre_old: Utworzone (Od najstarszych)
+    mode_engine_chain: 'Filtr: Silnik CHAIN'
+    mode_engine_default: 'Filtr: Silnik DEFAULT'
+    mode_engine_global: 'Filtr: Silnik GLOBAL'
+    mode_engine_rotation: 'Filtr: Silnik ROTATION'
+    mode_id_asc: Po ID (A-Z)
+    mode_id_desc: Po ID (Z-A)
+    mode_issue: 'Filtr: Wymaga uwagi'
+    mode_mod_new: Zmodyfikowane (Od najnowszych)
+    mode_mod_old: Zmodyfikowane (Od najstarszych)
+    mode_type: Po typie zadania
+    msg_clone_success: '{prefix}<#78b185>✔ <#ffffff>Zadanie pomyślnie sklonowane jako <#ffffff>{id}'
+    msg_del_success: '{prefix}<#78b185>✔ <#ffffff>Zadanie {id} <#79d679>pomyślnie usunięte!'
+    search_all: '<#a8a8a8>Szukaj: <#ffffff>Wszystko'
+    search_click: <#a7ff99>LPM <#cccccc>- Szukaj (lub wyczyść)
+    search_prompt: '<#ffd470>Wpisz tekst, aby wyszukać zadania (lub wyczyść):'
+    search_query: '<#a8a8a8>Szukaj: <#ffffff>{query}'
+  list_string_editor:
+    add_lore: <#a7ff99>LPM <#cccccc>- Wprowadź tekst.
+    add_lore_empty: <#a7ff99>PPM <#cccccc>- Utwórz pusty wiersz
+    delete_confirm_item: Usuń wiersz
+    delete_confirm_msg: '<#ffd470>Czy na pewno chcesz usunąć wiersz #{index}?'
+    delete_confirm_title: '&0Usuń wiersz'
+    item_clone: <#d9a752>Zamień (F) <#cccccc>- Sklonuj wiersz
+    item_delete: <#ed6868>Upuść (Q) <#cccccc>- Usuń wiersz
+    item_edit: <#a7ff99>LPM <#cccccc>- Edytuj wiersz
+    item_format: '<#ffffff>Wiersz #{index}'
+    item_move_down: <#ffe999>Shift+PPM <#cccccc>- Przesuń w dół
+    item_move_up: <#ffe999>Shift+LPM <#cccccc>- Przesuń w górę
+    prompt_add: '<#ffd470>Wpisz tekst dla nowego wiersza:'
+    prompt_edit: 'Edycja wiersza:'
+  main_menu:
+    add_lore_empty: <#ffe999>PPM <#cccccc>- Utwórz pusty wiersz
+    back: <#ed6868>Wróć
+    btn_check_lore: <#cccccc>Rozpoczyna szczegółową analizę konfiguracji na czacie.
+    btn_check_title: <#ffe999>Sprawdź pod kątem błędów
+    btn_preview_lore: <#cccccc>Pokazuje zadanie tak, jak widzą je gracze.
+    btn_preview_title: <#7dd3ff>Podgląd
+    btn_save_changes: ' <#ffd470>(* Zmiany)'
+    btn_save_lore_unsaved: <#ffd470>LPM <#cccccc>- Zapisz zmiany
+    btn_save_lore_saved: <#ffe999>Brak niezapisanych zmian
+    btn_save_title: <#55ff55>Zapisz plik
+    cmd_lore:
+    - <#a8a8a8>Dla własnych tekstur przedmiotów.
+    - '<#a8a8a8>Obecna wartość: <#ffffff>{cmd}'
+    cmd_prompt: '<#ffd470>Wpisz numer Custom Model Data (lub 0):'
+    cmd_title: <#ffd470>Model (Custom Model Data)
+    cooldown_click: <#a7ff99>LPM (+1) / PPM (-1) / <#d9a752>Zamień (F) <#cccccc>- 
+      Ręcznie
+    cooldown_lore: '<#a8a8a8>Czas odnowienia: <#ffffff>{time} <#a8a8a8>({secs}s)'
+    cooldown_none: Brak czasu odnowienia
+    cooldown_title: <#ffd470>Odnowienie
+    desc_click: <#a7ff99>LPM <#cccccc>- Edytuj
+    desc_gui_title: '&0Opis: '
+    desc_title: <#ffd470>Opis zadania
+    effects_activate_lore: '<#a8a8a8>Obecnie: <#ffffff>{val}'
+    effects_activate_title: <#ffd470>Efekt przyjęcia zadania
+    effects_click: <#a7ff99>LPM <#cccccc>- Zmień
+    effects_click_drop: <#ed6868>Upuść (Q) <#cccccc>- Usuń
+    effects_click_swap: <#d9a752>Zamień (F) <#cccccc>- Ręcznie
+    effects_complete_lore: '<#a8a8a8>Obecnie: <#ffffff>{val}'
+    effects_complete_title: <#ffd470>Efekt ukończenia zadania
+    effects_gui_selection_item_play: <#d9a752>Zamień (F) <#cccccc>- Odtwórz efekt
+    effects_gui_selection_item_title: <#ffd470>Preset efektu
+    effects_gui_selection_title: '&0Wybierz preset efektu'
+    effects_gui_title: '&0Efekty zadania: '
+    effects_lore: <#a7ff99>LPM <#cccccc>- Konfiguruj presety efektów
+    effects_stage_lore: '<#a8a8a8>Obecnie: <#ffffff>{val}'
+    effects_stage_title: <#ffd470>Efekt zmiany etapu
+    effects_title: <#ffd470>Efekty zadania
+    engine_lore: '<#a8a8a8>Wybrano: <#ffffff>{engine}'
+    engine_title: <#ffd470>Silnik zadania
+    global_click: <#a7ff99>LPM <#cccccc>- Otwórz
+    global_lore:
+    - <#a8a8a8>Dla zadań wykonywanych wspólnie przez wszystkich graczy.
+    - <#a8a8a8>Ustawianie limitów i kroków nagród.
+    global_title: <#ffd470>Globalne cele serwera
+    gui_title: '&0Edycja: '
+    health_click: <#a7ff99>LPM <#cccccc>- Uruchom sprawdzanie
+    health_lore: <#a8a8a8>Sprawdza konfigurację pod kątem błędów i brakujących pól.
+    health_title: <#ffb366>Analiza zdrowia zadania
+    icon_basehead_click: '&eZamień (F) &8- &7Wpisz base-head'
+    icon_click: <#a7ff99>LPM <#cccccc>- Zmień ikonę
+    icon_click_left: <#a7ff99>LPM <#cccccc>- Wybierz materiał ikony
+    icon_click_right: <#a7ff99>PPM <#cccccc>- Zmień CustomModelData
+    icon_cmd: '<#a8a8a8>CustomModelData: <#ffffff>{cmd}'
+    icon_lore: '<#a8a8a8>Wybrano: <#ffffff>{icon}'
+    icon_mat: '<#a8a8a8>Materiał: <#ffffff>{mat}'
+    icon_title: <#ffd470>Ikona zadania
+    id_click: <#a7ff99>LPM <#cccccc>- Zmień ID
+    id_error_exists: '{prefix}<#c96a6a>✖ <#ffffff>Zadanie o ID {id} już istnieje!'
+    id_error_invalid: '{prefix}<#c96a6a>✖ <#ffffff>Nieprawidłowy format ID!'
+    id_lore: '<#a8a8a8>Obecne ID: <#ffffff>{id}'
+    id_name: <#ffd470>ID zadania
+    id_prompt: '<#ffd470>Wpisz nowe ID zadania (np. moje_zadanie):'
+    id_title: <#ffd470>ID zadania
+    node_id_title: '<#ffd470>ID węzła'
+    item_clone: <#d9a752>Zamień (F) <#cccccc>- Sklonuj linię
+    item_move_down: <#ffe999>Shift+PPM <#cccccc>- Przesuń w dół
+    item_move_up: <#ffe999>Shift+LPM <#cccccc>- Przesuń w górę
+    name_click: <#a7ff99>LPM <#cccccc>- Zmień
+    name_lore: '<#a8a8a8>Obecnie: <#ffffff>{name}'
+    name_missing: <#ed6868>Brakuje nazwy zadania!
+    name_prompt: '<#ffd470>Wpisz nazwę zadania na czacie:'
+    name_title: <#ffd470>Nazwa zadania
+    name_title_has: <#ffd470>Nazwa zadania
+    name_title_none: <#ed6868>Brakuje nazwy zadania!
+    not_specified: Nie określono
+    page_lore: '<#a8a8a8>Obecna strona: <#ffffff>{page}'
+    page_prompt: '<#ffd470>Wpisz stronę (strona, od 1):'
+    page_title: <#ffd470>Strona
+    perm_click: <#a7ff99>LPM <#cccccc>- Zmień
+    perm_lore: '<#a8a8a8>Uprawnienie: <#ffffff>{perm}'
+    perm_none: Nie określono
+    perm_prompt: '<#ffd470>Wpisz uprawnienie (lub none):'
+    perm_title: <#ffd470>Wymagane uprawnienie
+    preview_click: <#a7ff99>LPM <#cccccc>- Otwórz podgląd
+    preview_lore: <#a8a8a8>Pokaż zadanie tak jak widzi je gracz w menu.
+    preview_title: <#7dd3ff>Podgląd zadania
+    req_quests_add: <#79d679>Dodaj zadanie
+    req_quests_add_lore: <#a7ff99>LPM <#cccccc>- Wybierz zadanie z listy.
+    req_quests_click: <#a7ff99>LPM <#cccccc>- Edytuj
+    req_quests_del: <#ed6868>Upuść (Q) <#cccccc>- Usuń zadanie
+    req_quests_edit: <#a7ff99>LPM <#cccccc>- Zastąp innym zadaniem
+    req_quests_gui_title: '&0Wym. zadania: '
+    req_quests_lore: <#a8a8a8>Zadania, które muszą być ukończone przed tym.
+    req_quests_title: <#ffd470>Wymagania (Poprzednie zadania)
+    req_quests_unknown: <#ffffff>Nieznane zadanie ({id})
+    rew_desc_click: <#a7ff99>LPM <#cccccc>- Edytuj
+    rew_desc_gui_title: '&0Opis nagród: '
+    rew_desc_title: <#ffd470>Opis nagród
+    rewards_click: <#a7ff99>LPM <#cccccc>- Otwórz ustawienia nagród
+    rewards_gui_title: '&0Nagrody: '
+    rewards_lore: <#a7ff99>LPM <#cccccc>- Skonfiguruj nagrody
+    rewards_title: <#ffd470>Nagrody za zadanie
+    rot_pool_click: <#a7ff99>LPM <#cccccc>- Zmień
+    rot_pool_lore:
+    - <#a8a8a8>Zadanie zostanie losowo wybrane z tej puli.
+    rot_pool_lore3: '<#a8a8a8>Obecnie: <#ffffff>{pool}'
+    rot_pool_lore3_none: <#ed6868>Nie określono puli. Zadanie nie będzie w 
+      rotacji.
+    rot_pool_prompt: '<#ffd470>Wpisz nazwę puli (lub none):'
+    rot_pool_title: <#ffd470>Pula zadań (Rotation Pool)
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Błąd zapisu pliku!'
+    save_success: '{prefix}<#78b185>✔ <#ffffff>Plik zadania <#e2e8f0>{id} <#b0b8c1>pomyślnie zapisany!'
+    slot_click:
+    - <#a7ff99>LPM (+1) / PPM (-1)
+    - <#ffe999>Shift + LPM (+10) / <#ffe999>Shift + PPM (-10)
+    - <#d9a752>Zamień (F) <#cccccc>- Wpisz ręcznie
+    slot_lore: '<#a8a8a8>Obecny slot: <#ffffff>{slot}'
+    slot_prompt: '<#ffd470>Wpisz slot (slot, od 0-54):'
+    slot_title: <#ffd470>Slot
+    stages_click: <#a7ff99>LPM <#cccccc>- Edytuj etapy i cele
+    stages_count: '<#a8a8a8>Liczba etapów: <#ffffff>{count}'
+    stages_lore: '<#a8a8a8>Liczba etapów: <#ffffff>{count}'
+    stages_title: <#ffd470>Etapy (Cele)
+    stages_title_has: <#ffd470>Etapy (Cele)
+    stages_title_none: <#ed6868>Brak etapów zadania!
+    type_click: <#a7ff99>LPM <#cccccc>- Wybierz inny typ
+    type_lore_engine: '<#a8a8a8>Silnik: <#ffffff>{engine}'
+    type_lore_type: '<#a8a8a8>Typ: <#ffffff>{type}'
+    type_title: <#ffd470>Zmień typ zadania
+  msg_reward:
+    click_clone: <#d9a752>Zamień (F) <#cccccc>- Sklonuj
+    click_delete: <#ed6868>Upuść (Q) <#cccccc>- Usuń
+    click_edit: <#a7ff99>LPM <#cccccc>- Edytuj wiadomość
+    click_move_down: <#ffe999>Shift+PPM <#cccccc>- Przenieś w dół
+    click_move_up: <#ffe999>Shift+LPM <#cccccc>- Przenieś w górę
+    click_set_level: <#d9a752>1-9 <#cccccc>- Ustaw poziom efektu
+    item_format: '<#79d679>Wiadomość #{index}'
+    node_id_prompt: 'Wpisz nowe ID węzła:'
+    opt_edit_prompt_sound: 'Wpisz Bukkit Sound (lub "none"):'
+    action_console_prompt: 'Wpisz komendę z konsoli (bez /):'
+    action_player_prompt: 'Wpisz komendę gracza (bez /):'
+    action_raw_prompt: 'Wpisz surowy ciąg znaków akcji:'
+    cond_raw_prompt: 'Wpisz surowy ciąg znaków warunku:'
+    nodes_edit_gui_title: '&0Węzeł: '
+  npc_list:
+    create_click_left: <#a7ff99>LPM <#cccccc>- Stwórz nowego NPC
+    create_click_right: <#a7ff99>PPM <#cccccc>- Powiąż istniejącego NPC
+    create_existing_prompt: '<#ffd470>Wpisz dokładne ID ISTNIEJĄCEGO NPC z integracji
+      (np. <#ffffff>1<#ffd470>):'
+    create_prompt: '<#ffd470>Wpisz nowe ID NPC (np. <#ffffff>kupiec_1<#ffd470>):'
+    delete_click: <#ed6868>Upuść (Q) <#cccccc>- Usuń NPC
+    dialogue_lore: '<#a8a8a8>Dialog: <#ff99d4>{dialogue}'
+    edit_click: <#a7ff99>LPM <#cccccc>- Edytuj NPC
+    id_lore: '<#a8a8a8>ID: <#ffffff>{id}'
+    old_create_prompt: '<#ffd470>Wpisz nowe ID NPC (np. <#ffffff>kupiec_1<#ffd470>):'
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Błąd zapisywania npcs.yml!'
+  npc_main:
+    default_mood_lore:
+    - '&7Obecnie: <#fff9c4>{mood}'
+    - '&eKliknij, aby zmienić domyślny nastrój'
+    default_mood_prompt: 'Wpisz nastrój (np. NEUTRAL, HAPPY, ANGRY):'
+    default_mood_title: <#ffeb3b>Domyślny Nastrój
+    delete_confirm_desc: <#a8a8a8>Czy na pewno chcesz usunąć tego NPC?
+    delete_confirm_item: <#ed6868>Usuń NPC
+    delete_confirm_title: <#ed6868>Potwierdź usunięcie
+    delete_right_click_warn: <#ff7070>PPM <#cccccc>- Usuń NPC
+    dialogue_click:
+    - <#a7ff99>LPM <#cccccc>- Wybierz z listy dialogów
+    - <#a7ff99>PPM <#cccccc>- Wpisz ID na czacie
+    dialogue_gui_title: '&8Wybór dialogu'
+    dialogue_lore: '<#a8a8a8>Dialog: <#ffffff>{dialogue}'
+    dialogue_none_title: '&cOdłącz dialog'
+    dialogue_prompt: '<#ffd470>Wpisz ID dialogu z dialogues.yml (lub none):'
+    dialogue_select_click: '&eKliknij, aby wybrać ten dialog'
+    dialogue_title: <#ffd470>Powiązany dialog
+    error_number: Nieprawidłowa liczba!
+    finishes_quests_lore: <#a8a8a8>Konkretne zadania, które ten NPC kończy.
+    finishes_quests_title: <#ffd470>Konkretne zadania (Kończy)
+    finishes_types_lore: <#a8a8a8>Typy zadań, które ten NPC kończy.
+    finishes_types_title: <#ffd470>Typy zadań (Kończy)
+    head_click: <#a7ff99>LPM <#cccccc>- Weź z ręki lub czatu
+    head_lore: '<#a8a8a8>Obecnie: <#ffffff>{head}'
+    head_lore_current: '<#a8a8a8>Obecnie: <#ffffff>{current}'
+    head_prompt: '<#ffd470>Wpisz teksturę base64 lub "none":'
+    head_texture_lore:
+    - '&7Obecnie: <#dcedc1>{head}'
+    - '&eKliknij, aby zmienić teksturę base64'
+    head_texture_prompt: 'Wpisz teksturę głowy base64 lub "none":'
+    head_texture_title: <#a8e6cf>Tekstura Głowy
+    head_title: <#ffd470>Tekstura głowy
+    id_click: <#a7ff99>LPM <#cccccc>- Zmień ID NPC
+    id_lore: '<#a8a8a8>Obecne ID: <#ffffff>{id}'
+    id_title: <#ffd470>ID (Identyfikator)
+    node_id_title: '<#ffd470>ID Węzła'
+    linked_blocked_by_quests: <#ff5252>Niemożliwe, ponieważ przypisałeś już 
+      konkretne zadania!
+    linked_blocked_by_types: <#ff5252>Niemożliwe, ponieważ przypisałeś już 
+      typy zadań!
+    linked_config_error_last: '&cZadanie/Typ musi być przynajmniej dawane lub kończone! Aby
+      usunąć - naciśnij Upuść (Q) na liście.'
+    linked_config_finishes: <#81c784>Kończy zadanie/typ
+    linked_config_finishes_lore: <#a8a8a8>Jeśli włączone, ten NPC będzie mógł 
+      przyjąć ukończone zadanie.
+    linked_config_starts: <#a7ff99>Rozpoczyna zadanie/typ
+    linked_config_starts_lore: <#a8a8a8>Jeśli włączone, ten NPC będzie mógł 
+      dać zadanie.
+    linked_config_title: '&0Ustawienia'
+    linked_delete_desc: Czy na pewno chcesz usunąć {id} z listy 
+      powiązanych?
+    linked_delete_item: <#ff4d4d>Potwierdź usunięcie
+    linked_delete_title: '&0Potwierdź usunięcie'
+    linked_item_click: <#a7ff99>LPM <#cccccc>- Skonfiguruj
+    linked_item_drop: <#ed6868>Upuść (Q) <#cccccc>- Usuń
+    linked_item_quest_name: '<#ffd470>Zadanie: <#ffffff>{id}'
+    linked_item_type_name: '<#ffd470>Typ: <#ffffff>{id}'
+    linked_quests_list_title: '&0Powiązane zadania'
+    linked_quests_lore: <#a8a8a8>NPC będzie mógł dawać lub kończyć 
+      określone zadania.
+    linked_quests_title: <#ffab91>Powiąż konkretne zadania
+    linked_selection_click: <#ffe999>Kliknij, aby skonfigurować
+    linked_selection_gui_title: '&0Powiązane Zadania/Typy'
+    linked_selection_item_title: <#ffd470>Powiązane Zadania/Typy
+    linked_selection_lore: '<#a8a8a8>Konfiguruj zadania i typy,
+      <#a8a8a8>które ten NPC daje lub kończy.'
+    linked_types_list_title: '&0Powiązane typy zadań'
+    linked_types_lore: <#a8a8a8>NPC będzie mógł dawać lub kończyć dowolne zadania
+      określonych typów.
+    linked_types_title: <#90caf9>Powiąż typy zadań
+    mood_click: <#a7ff99>LPM / <#a7ff99>PPM <#cccccc>- Zmień nastrój
+    mood_lore: '<#a8a8a8>Wpływa na animację NPC.\n<#a8a8a8>Obecnie: <#ffffff>{mood}'
+    mood_lore_current: '<#a8a8a8>Obecnie: <#ffffff>{current}'
+    mood_prompt: '<#ffd470>Wpisz nastrój (np. NEUTRAL, HAPPY, ANGRY):'
+    mood_rule_conds: '&7Warunki: &e{count}'
+    mood_rule_delete: '&cUpuść (Q) &7aby usunąć tę zasadę'
+    mood_rule_edit_tip: '&c(Aby dodać/zmienić, użyj npcs.yml)'
+    mood_rule_item_title: '&eZasada #{index}: &6{mood}'
+    mood_rule_priority: '&7Priorytet: &e{priority}'
+    mood_rules_add_lore: '&7Złożone zasady na razie można dodawać'
+    mood_rules_add_lore2: '&7tylko ręcznie przez konfigurację npcs.yml.'
+    mood_rules_add_title: '&aDodaj Zasadę Nastroju'
+    mood_rules_back: '&cWstecz'
+    mood_rules_back_lore: '&7Wróć do NPC'
+    mood_rules_gui_title: '&8Zasady Nastrojów: &1{id}'
+    mood_rules_lore:
+    - '&7Konfiguracja zaawansowanych zasad'
+    - '&7opartych na postępie zadań lub czasie.'
+    - '&eKliknij, aby przejrzeć zasady'
+    mood_rules_title: <#ffeb3b>Zasady Nastrojów
+    mood_title: <#ffd470>Domyślny nastrój
+    name_click: <#a7ff99>LPM <#cccccc>- Zmień
+    name_lore: '<#a8a8a8>Obecna: '
+    name_prompt: '<#ffd470>Wpisz imię dla NPC (np. <#d0a775>Gustaw):'
+    name_title: <#ffd470>Wyświetlana nazwa NPC
+    offset_click:
+      - '<#a7ff99>LPM <#cccccc>- dodaj 0.1'
+      - '<#a7ff99>PPM <#cccccc>- odejmij 0.1'
+      - '<#ffe999>Shift+LPM <#cccccc>- dodaj 2.5'
+      - '<#ffe999>Shift+PPM <#cccccc>- odejmij 2.5'
+      - '<#d9a752>Zamień (F) <#cccccc>- wpisz dokładnie'
+      - '<#ed6868>Upuść (Q) <#cccccc>- zresetuj'
+    offset_lore:
+    - <#a8a8a8>Konfiguracja wysokości ikony nad NPC.
+    - '<#a8a8a8>Obecne przesunięcie: <#ffffff>{offset}'
+    offset_prompt: '<#ffd470>Wpisz wysokość hologramu jako liczbę (np. 0.6):'
+    offset_title: <#ffd470>Wysokość hologramu (Y Offset)
+    select_quest_title: '&0Wybierz zadanie'
+    select_type_title: '&0Wybierz typ zadania'
+    starts_quests_lore: <#a8a8a8>Konkretne zadania, które ten NPC rozpoczyna.
+    starts_quests_title: <#ffd470>Konkretne zadania (Rozpoczyna)
+    starts_types_lore: <#a8a8a8>Typy zadań, które ten NPC rozpoczyna.
+    starts_types_title: <#ffd470>Typy zadań (Rozpoczyna)
+    title_click: <#a7ff99>LPM <#cccccc>- Zmień
+    title_lore: '<#a8a8a8>Obecnie: '
+    title_prompt: '<#ffd470>Wpisz tytuł menu (np. <#1c1c1c>{npc} - Codzienne Obowiązki):'
+    title_not_set: '<#ed6868>Nie ustawiono'
+    title_title: <#ffd470>Tytuł Menu Zadań
+    tp_lore: <#a8a8a8>Teleportuje Cię do NPC (jeśli jest zrespawnowany).
+    tp_title: <#ffd470>Teleportuj do NPC
+    types_click: <#a7ff99>LPM <#cccccc>- Edytuj listę typów
+    types_lore:
+    - <#a8a8a8>Typy zadań, które ten NPC rozpoczyna.
+    - '<#a8a8a8>Typy: <#ffffff>{types}'
+    types_more: ' <#6e6e6e>(+{count} więcej)'
+    types_none: Brak
+    types_title: <#ffd470>Zadania NPC (Typy)
+    validation_lore: '&7Kliknij, aby sprawdzić pod kątem błędów'
+    validation_title: <#52de7d>Zwaliduj NPC
+    voice_click: <#a7ff99>LPM <#cccccc>- Zmień
+    voice_lore: '<#a8a8a8>Obecnie: <#ffffff>{voice}'
+    voice_prompt: '<#ffd470>Wpisz typ dźwięku (villager, none lub custom sound):'
+    voice_title: <#ffd470>Dźwięk interakcji (Głos)
+  npc_voice:
+    custom_lore: <#a8a8a8>Wprowadź ID dźwięku Minecraft ręcznie.
+    custom_prompt: '<#ffd470>Wpisz ID dźwięku (np. entity.villager.trade):'
+    custom_title: <#ffd470>Niestandardowy Dźwięk
+    delete_right_click_warn: <#ed6868>Upuść (Q) <#cccccc>- Usuń
+    dialogue_gui_title: '&0Wybierz dialog dla NPC'
+    dialogue_missing: <#ed6868>Dialog o tym ID nie istnieje w 
+      dialogues.yml!
+    dialogue_none_title: <#ed6868>Odłącz dialog (none)
+    dialogue_select_click: <#a7ff99>LPM <#cccccc>- Podłącz ten dialog
+    id_click: <#a7ff99>LPM <#cccccc>- Zmień ID NPC
+    id_exists: <#ed6868>NPC o ID {id} już istnieje!
+    id_lore: '<#a8a8a8>Obecne ID: <#ffffff>{id}'
+    id_prompt: '<#ffd470>Wpisz nowe ID NPC (np. karczmarz):'
+    id_success: '{prefix}<#78b185>✔ <#ffffff>ID NPC pomyślnie zmienione na <#ffffff>{id}'
+    id_title: <#ffd470>ID NPC
+    node_id_title: '<#ffd470>ID Węzła'
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Błąd zapisu npcs.yml: {msg}'
+    save_lore:
+    - <#ffd470>Są niezapisane zmiany! Kliknij, aby zapisać.
+    - <#a8a8a8>Brak niezapisanych zmian.
+    select_click: <#a7ff99>LPM <#cccccc>- Wybierz ten głos
+    selected: Wybrany
+    title: '&0Wybierz Głos NPC'
+    types_gui_title: '&0Typy NPC: '
+    warn_unlinked: Dialog jest gotowy, ale podłącz go do NPC w menu!
+  preview:
+    title: '&0Podgląd'
+  prompts:
+    enter_id: '<#ffd470>Wpisz nowe ID zadania (np. moje_zadanie):'
+    enter_name: '<#ffd470>Wpisz nową nazwę dla zadania:'
+    enter_perm: '<#ffd470>Wpisz uprawnienie (lub none):'
+    id_exists: Zadanie o ID {id} już istnieje!
+    saved_success: '{prefix}<#78b185>✔ <#ffffff>Zmiany zadania {id} pomyślnie zapisane do pliku!'
+  rewards_menu:
+    add_item: <#79d679>Dodaj przedmiot
+    add_item_lore: <#cccccc>Kliknij, aby wybrać nagrodę w postaci przedmiotu.
+    attr_click: <#a7ff99>LPM <#cccccc>- Edytuj sekcję atrybutów
+    attr_gui_title: '&0Lista Atrybutów'
+    attr_lore:
+    - <#cccccc>Ustawienia atrybutów
+    attr_title: <#f4a261>Atrybuty
+    attrs_gui: '&0Lista Atrybutów'
+    brd_click: <#a7ff99>LPM <#cccccc>- Edytuj ogłoszenia
+    brd_gui: '&0Wiadomości Ogłoszeniowe'
+    brd_lore: '<#cccccc>Liczba ogłoszeń: <#ffffff>{count}'
+    brd_title: <#99ffff>Wiadomości Ogłoszeniowe
+    chance_click: <#a7ff99>LPM <#cccccc>- Edytuj sekcję szansy
+    chance_gui_title: '&0Nagrody z Szansą'
+    chance_lore:
+    - <#cccccc>Ustawienia prawdopodobieństwa nagrody
+    chance_title: <#ffaaaa>Szansa
+    click_del: <#ed6868>Upuść (Q) <#cccccc>- Usuń
+    click_set: <#a7ff99>LPM <#cccccc>- Ustaw wartość
+    cmd_click: <#a7ff99>LPM <#cccccc>- Edytuj komendy
+    cmd_gui: '&0Komendy Nagród'
+    cmd_lore: '<#cccccc>Liczba komend: <#ffffff>{count}'
+    cmd_title: <#ff9999>Komendy
+    confirm_del_desc: '&fCzy na pewno chcesz usunąć tę wartość?'
+    confirm_del_title: ✖ Potwierdź Usunięcie
+    eff_click: <#a7ff99>LPM <#cccccc>- Edytuj efekty
+    eff_gui: '&0Efekty Nagród'
+    eff_lore: '<#cccccc>Liczba efektów: <#ffffff>{count}'
+    eff_title: <#ff99ff>Efekty
+    effs_title: <#b19cd9>Efekty
+    hand_added: 'Dodano przedmiot: {name} x{amount}'
+    hand_btn_lore: <#a8a8a8>Weź przedmiot do ręki i kliknij tutaj,
+    hand_btn_lore2: <#a8a8a8>aby zapisać go ze wszystkimi tagami NBT.
+    hand_btn_title: <#79d679>Dodaj przedmiot z ręki
+    hand_empty: Twoja ręka jest pusta! Weź przedmiot do ręki.
+    items_click: <#a7ff99>LPM <#cccccc>- Edytuj listę
+    items_gui: '&0Przedmioty Nagród'
+    items_lore: '<#cccccc>Liczba przedmiotów: <#ffffff>{count}'
+    items_title: <#99ccff>Przedmioty
+    money_title: <#e9c46a>Pieniądze
+    money_title_has: <#ffd470>Pieniądze (Ekonomia)
+    money_title_none: <#a8a8a8>Pieniądze (Ekonomia) [Brak]
+    msg_click: <#a7ff99>LPM <#cccccc>- Edytuj wiadomości
+    msg_gui: '&0Wiadomości Nagród'
+    msg_lore: '<#cccccc>Liczba wiadomości: <#ffffff>{count}'
+    msg_title: <#ffff99>Prywatne Wiadomości
+    prompt_custom_key: '<#ffe999>Wpisz niestandardowy klucz nagrody:'
+    prompt_custom_val: '<#a8a8a8>Wpisz wartość dla klucza <#ffffff>{key}<#ffe999>:'
+    prompt_money: '<#ffe999>Wpisz ilość pieniędzy (Vault):'
+    prompt_xp: '<#ffe999>Wpisz ilość doświadczenia:'
+    selector_cmd_lore: <#a7ff99>LPM <#cccccc>- Stwórz/edytuj listę komend
+    selector_cmd_title: <#ffe999>Komendy (commands)
+    selector_custom_lore: <#a7ff99>LPM <#cccccc>- Wpisz niestandardowy klucz ręcznie
+    selector_custom_title: <#ffe999>Niestandardowy Klucz (Custom)
+    selector_items_lore: <#a7ff99>LPM <#cccccc>- Stwórz/edytuj listę przedmiotów
+    selector_items_title: <#ffe999>Przedmioty (items)
+    selector_money_lore: <#a7ff99>LPM <#cccccc>- Dodaj kwotę Vault
+    selector_money_title: <#ffe999>Pieniądze (money)
+    selector_title: '&0Wybierz typ nagrody'
+    selector_xp_lore: <#a7ff99>LPM <#cccccc>- Dodaj ilość doświadczenia
+    selector_xp_title: <#ffe999>Doświadczenie (xp)
+    silent_click: <#a7ff99>LPM <#cccccc>- Zmień tryb
+    silent_click_lmb: <#a7ff99>LPM <#cccccc>- Przełącz
+    silent_click_sub: <#a7ff99>LPM <#cccccc>- Otwórz ustawienia
+    silent_lore: '<#cccccc>Skonfiguruj, dla których nagród
+      <#cccccc>wiadomości na czacie będą wyłączone.'
+    silent_mute: '&cKółko myszy - Wyłącz wiadomości'
+    silent_off: <#cccccc>Wyłączone (Wiadomości są pokazywane)
+    silent_on: <#a7ff99>Włączone (Wiadomości nagród są ukryte)
+    silent_title: <#ffaaaa>Ustawienia Wiadomości
+    silent_unmute: '&aKółko myszy - Włącz wiadomości'
+    val_has: '<#cccccc>Obecna wartość: <#ffffff>{val}'
+    val_none: <#888888>Brak nagrody.
+    xp_title_has: <#a7ff99>Doświadczenie (XP)
+    xp_title_none: <#a8a8a8>Doświadczenie (XP) [Brak]
+    xp_toggle_mode: <#d9a752>Ctrl + Upuść (Q) <#cccccc>- Zmień tryb (XP/Poziomy)
+  rot_pool_gui:
+    custom_pool_lore: <#a8a8a8>Kliknij, aby wpisać niestandardową nazwę puli na czacie.
+    custom_pool_title: <#79d679>Wpisz niestandardową pulę
+    pool_click: <#a7ff99>LPM <#cccccc>- Wybierz tę pulę
+    pool_item: '<#ffd470>Pula: <#ffffff>{pool}'
+    pool_lore: '<#a8a8a8>Zadania w puli: <#ffffff>{count}'
+    title: '&0Wybór Puli Zadań'
+  silent_settings:
+    global_title: <#ffaaaa>Globalny Tryb Cichy
+    title: Tryb Cichy | {id}
+  stages_menu:
+    add_mats_title: <#79d679>Dodaj etap materiałów
+    add_obj_click_lkm: <#a7ff99>LPM <#cccccc>- Dodaj zwykły cel
+    add_obj_click_pkm: <#a7ff99>PPM <#cccccc>- Dodaj etap dostarczenia przedmiotu
+    add_obj_lore:
+    - <#cccccc>Dodaje nowy etap do zadania.
+    add_obj_title: <#79d679>Dodaj Etap
+    click_open: <#a7ff99>LPM <#cccccc>- Otwórz
+    delete_confirm_msg: Czy na pewno chcesz usunąć etap {key}?
+    delete_confirm_title: '&0Usuń etap'
+    edit_stage_title: '&0Edycja etapu: {key}'
+    empty_lore:
+    - <#a8a8a8>Kliknij zielony blok po prawej, aby
+    - <#a8a8a8>dodać swój pierwszy etap.
+    empty_title: <#ed6868>Lista etapów jest pusta
+    err_save: Błąd zapisywania pliku zadania!
+    global_1stage_limit: <#cccccc>Globalne zadania mogą mieć tylko 1 etap!
+    info_amount: '&7Ilość: <#ffffff>{amount}'
+    info_materials_count: '&7Przedmioty: <#ffffff>&e{count}'
+    info_npc: '&7NPC: <#ffffff>{npc}'
+    info_targets: '&7Cele: <#ffffff>{targets}'
+    info_type: '&7Typ: <#ffffff>{type}'
+    info_type_materials: '&7Typ: <#ffffff>Dostarczenie przedmiotu'
+    info_type_unknown: '&7Typ: &8Nie ustawiono'
+    mats_title: '&0Materiały: {key}'
+    obj_time_format: '<#a8a8a8>Czas: <#ffffff>{time}'
+    obj_title: '&0Cel: {key}'
+    stage_click_delete: <#ed6868>Upuść (Q) <#cccccc>- Usuń
+    stage_click_down: <#ffe999>Shift + PPM <#cccccc>- Przesuń w dół ⬇
+    stage_click_duplicate: <#d9a752>Zamień (F) <#cccccc>- Zduplikuj etap
+    stage_click_edit: <#a7ff99>LPM <#cccccc>- Edytuj
+    stage_click_up: <#ffe999>Shift + LPM <#cccccc>- Przesuń w górę ⬆
+    stage_duplicated: Etap {key} pomyślnie zduplikowany!
+    stage_item: '<#a8a8a8>Etap: <#e0e0e0>{key}'
+  title_global_settings: '&0Ustawienia Silnika: {id}'
+  title_list: '&0Lista Zadań ({count})'
+  title_main: '&0Edytor Zadań: {id}'
+  title_materials: '&0Wymagane Materiały'
+  title_objective: '&0Cel: {id}'
+  title_rewards: '&0Nagrody: {id}'
+  title_stages: '&0Etapy Zadania: {id}'
+quest_type_editor:
+  clone_prompt: Wpisz ID dla kopii typu (bez spacji)
+  confirm_del_desc: Czy na pewno chcesz usunąć typ {id}?
+  confirm_del_gui_title: '&0Usuwanie typu: {id}'
+  confirm_del_title: ✖ Usuń typ
+  entity_list:
+    add_new_lore: <#a7ff99>LPM <#cccccc>- Dodaj nowy byt
+    click_del: <#ed6868>Upuść (Q) <#cccccc>- Usuń byt
+    click_edit: <#a7ff99>LPM <#cccccc>- Zmień byt
+  entity_selector:
+    click: <#a7ff99>LPM <#cccccc>- Wybierz byt
+    title: '&0Wybierz moba/byt'
+  error_clone: '{prefix}<#c96a6a>✖ <#ffffff>Błąd podczas klonowania typu.'
+  error_clone_exists: '{prefix}<#c96a6a>✖ <#ffffff>Błąd: Typ o tym ID już istnieje!'
+  error_create: '{prefix}<#c96a6a>✖ <#ffffff>Błąd tworzenia pliku!'
+  error_save: '{prefix}<#c96a6a>✖ <#ffffff>Błąd zapisu pliku typu:'
+  global_settings:
+    error_not_number: Wpisz liczbę!
+    limit_click: <#79d679>Kliknij, aby zmienić
+    limit_lore:
+    - '<#a8a8a8>Klucz: <#ffffff>personal-limit'
+    - '<#a8a8a8>Obecnie: <#ffffff>{val}'
+    limit_prompt: '<#ffd470>Wpisz nową wartość dla personal-limit:'
+    limit_title: <#ffd470>Limit Osobisty
+    max_p_click: <#79d679>Kliknij, aby zmienić
+    max_p_lore:
+    - '<#a8a8a8>Klucz: <#ffffff>max-participants'
+    - '<#a8a8a8>Obecnie: <#ffffff>{val}'
+    max_p_prompt: '<#ffd470>Wpisz nową wartość dla max-participants:'
+    max_p_title: <#ffd470>Maksymalna Liczba Uczestników
+    min_p_click: <#79d679>Kliknij, aby zmienić
+    min_p_lore:
+    - '<#a8a8a8>Klucz: <#ffffff>min-participants'
+    - '<#a8a8a8>Obecnie: <#ffffff>{val}'
+    min_p_prompt: '<#ffd470>Wpisz nową wartość dla min-participants:'
+    min_p_title: <#ffd470>Minimalna Liczba Uczestników
+    step_click: <#a7ff99>LPM <#cccccc>- Zmień
+    step_lore:
+    - '<#a8a8a8>Klucz: <#ffffff>reward-step'
+    - '<#a8a8a8>Wartość: <#ffffff>{val}'
+    step_prompt: '<#ffd470>Wpisz nową liczbę dla reward-step:'
+    step_title: <#ffd470>Krok Nagrody
+    title: '<#a8a8a8>Ustawienia Silnika: <#ffffff>{id}'
+  health_check:
+    desc_has_errors: <#a8a8a8>Znaleziono błędy konfiguracji!
+    desc_no_errors: <#a8a8a8>Nie znaleziono błędów!
+    err_no_name: Nie ustawiono nazwy wyświetlanej typu
+    err_no_pools: Nie utworzono puli zadań dla rotacji
+    err_no_rotation_period: Wskazano zerowy interwał dla rotacji
+    success: '{prefix}<#78b185>✔ <#ffffff>Typ poprawnie skonfigurowany!'
+    title: '<#b0b8c1>=== <#6aa0c9>Status Typu: <#e2e8f0>{id} <#b0b8c1>==='
+    title_warning: <#ed6868>Znaleziono problemy ({count})
+  id_exists: Typ zadania o tym ID już istnieje!
+  list:
+    clone_prompt: '<#ffd470>Wpisz ID dla skopiowanego zadania:'
+    confirm_del_desc: Czy na pewno chcesz usunąć zadanie {id}?
+    confirm_del_title: ✖ Usuń zadanie
+    error_clone: '{prefix}<#c96a6a>✖ <#ffffff>Błąd podczas klonowania!'
+    error_clone_exists: '{prefix}<#c96a6a>✖ <#ffffff>Zadanie o tym ID już istnieje!'
+    error_create: '{prefix}<#c96a6a>✖ <#ffffff>Błąd tworzenia zadania.'
+    filter_lore_next: <#a7ff99>LPM <#cccccc>- Następny tryb
+    filter_lore_prev: <#a7ff99>PPM <#cccccc>- Poprzedni tryb
+    filter_lore_title: '<#a8a8a8>Tryby sortowania:'
+    filter_title: <#ffd470>Filtruj / Sortuj
+    item_clone: <#d9a752>Zamień (F) <#cccccc>- Klonuj zadanie
+    item_delete: <#ed6868>Upuść (Q) <#cccccc>- Usuń zadanie
+    item_edit: <#a7ff99>LPM <#cccccc>- Edytuj zadanie
+    item_engine: '<#a8a8a8>Silnik: <#7dd3ff>{engine}'
+    item_type: '<#a8a8a8>Typ: <#ffffff>{type}'
+    mode_cre_new: Utworzone (Od najnowszych)
+    mode_cre_old: Utworzone (Od najstarszych)
+    mode_engine_chain: 'Filtr: Silnik CHAIN'
+    mode_engine_default: 'Filtr: Silnik DEFAULT'
+    mode_engine_global: 'Filtr: Silnik GLOBAL'
+    mode_engine_rotation: 'Filtr: Silnik ROTATION'
+    mode_id_asc: Po ID (A-Z)
+    mode_id_desc: Po ID (Z-A)
+    mode_issue: 'Filtr: Wymaga uwagi'
+    mode_mod_new: Zmodyfikowane (Od najnowszych)
+    mode_mod_old: Zmodyfikowane (Od najstarszych)
+    mode_type: Po typie zadania
+    msg_clone_success: '{prefix}<#78b185>✔ <#ffffff>Zadanie pomyślnie sklonowane jako <#ffffff>{id}'
+    msg_del_success: '{prefix}<#78b185>✔ <#ffffff>Zadanie {id} <#79d679>pomyślnie usunięte!'
+    search_all: '<#a8a8a8>Szukaj: <#ffffff>Wszystko'
+    search_click: <#a7ff99>LPM <#cccccc>- Szukaj (lub wyczyść)
+    search_prompt: '<#ffd470>Wpisz tekst, aby wyszukać zadania (lub wyczyść):'
+    search_query: '<#a8a8a8>Szukaj: <#ffffff>{query}'
+  list_string_editor:
+    add_lore: <#a7ff99>LPM <#cccccc>- Wprowadź tekst.
+    add_lore_empty: <#a7ff99>PPM <#cccccc>- Utwórz pusty ciąg znaków
+    delete_confirm_item: Usuń ciąg znaków
+    delete_confirm_msg: '<#ffd470>Czy na pewno chcesz usunąć ciąg znaków #{index}?'
+    delete_confirm_title: '&0Usuń ciąg znaków'
+    item_clone: <#d9a752>Zamień (F) <#cccccc>- Sklonuj ciąg znaków
+    item_delete: <#ed6868>Upuść (Q) <#cccccc>- Usuń ciąg znaków
+    item_edit: <#a7ff99>LPM <#cccccc>- Edytuj ciąg znaków
+    item_format: '<#ffffff>Ciąg znaków #{index}'
+    item_move_down: <#ffe999>Shift+PPM <#cccccc>- Przesuń w dół
+    item_move_up: <#ffe999>Shift+LPM <#cccccc>- Przesuń w górę
+    prompt_add: '<#ffd470>Wpisz tekst dla nowego ciągu znaków:'
+    prompt_edit: 'Edytowanie ciągu znaków:'
+  main_menu:
+    add_lore_empty: <#a7ff99>PPM <#cccccc>- Utwórz pusty ciąg znaków
+    back: <#ed6868>Wróć
+    btn_check_lore: <#cccccc>Rozpoczyna szczegółową analizę konfiguracji na czacie.
+    btn_check_title: <#ffe999>Sprawdź pod kątem błędów
+    btn_preview_lore: <#cccccc>Pokazuje zadanie tak, jak widzą je gracze.
+    btn_preview_title: <#7dd3ff>Podgląd
+    btn_save_changes: ' <#ffd470>(* Zmiany)'
+    btn_save_lore_unsaved: <#ffd470>LPM <#cccccc>- Zapisz zmiany
+    btn_save_lore_saved: <#ffe999>Brak niezapisanych zmian
+    btn_save_title: <#55ff55>Zapisz plik
+    chain_click: <#a7ff99>LPM <#cccccc>- Przełącz
+    chain_lore: '<#a8a8a8>Status: {chain}'
+    chain_title: <#ffd470>Auto-przyznawanie następnego
+    cmd_click:
+    - <#a7ff99>LPM (+1) / PPM (-1) <#cccccc>- Zmień
+    - <#ffe999>Shift+LPM (+10) / Shift+PPM (-10)
+    - <#d9a752>Zamień (F) <#cccccc>- Wpisz liczbę
+    - <#ed6868>Upuść (Q) <#cccccc>- Wyczyść (0)
+    cmd_lore:
+    - <#a8a8a8>Dla własnych tekstur przedmiotów.
+    - '<#a8a8a8>Obecna wartość: <#ffffff>{cmd}'
+    cmd_prompt: '<#ffd470>Wpisz numer Custom Model Data (lub 0):'
+    cmd_title: <#ffd470>Model (Custom Model Data)
+    cooldown_click:
+    - <#a7ff99>LPM <#cccccc>- Ustaw
+    - <#ed6868>Upuść (Q) <#cccccc>- Wyczyść
+    - <#ffe999>Shift + LPM <#cccccc>- Edytuj
+    cooldown_lore: '<#a8a8a8>Czas: <#ffffff>{time}'
+    cooldown_none: <#a8a8a8>Brak
+    cooldown_title: <#ffd470>Odnowienie
+    desc_click: <#a7ff99>LPM <#cccccc>- Edytuj
+    desc_gui_title: 'Opis: '
+    desc_title: <#ffd470>Opis zadania
+    engine_click: <#a7ff99>LPM <#cccccc>- Zmień silnik
+    engine_lore: '<#a8a8a8>Wybrano: <#ffffff>{engine}'
+    engine_title: <#ffd470>Silnik Typu Zadania
+    folder_click: <#a7ff99>LPM <#cccccc>- Zmień ścieżkę
+    folder_lore: '<#a8a8a8>Ścieżka: <#ffffff>{folder}'
+    folder_title: <#ffd470>Folder z zadaniami
+    global_click: <#a7ff99>LPM <#cccccc>- Otwórz
+    global_lore:
+    - <#a8a8a8>Dla zadań wykonywanych wspólnie przez wszystkich graczy.
+    - <#a8a8a8>Ustawienia limitów i kroków nagród.
+    global_title: <#ffd470>Globalne cele serwera
+    gui_title: 'Edycja: '
+    icon_basehead_click: <#d9a752>Zamień (F) <#cccccc>- Zmień base-head
+    icon_click: <#a7ff99>LPM <#cccccc>- Zmień ikonę
+    icon_lore: '<#a8a8a8>Wybrano: <#ffffff>{icon}'
+    icon_title: <#ffd470>Ikona (Materiał)
+    id_click: <#a7ff99>LPM <#cccccc>- Zmień ID
+    id_error_exists: '{prefix}<#c96a6a>✖ <#ffffff>Zadanie o ID {id} już istnieje!'
+    id_error_invalid: '{prefix}<#c96a6a>✖ <#ffffff>Nieprawidłowy format ID!'
+    id_lore: '<#a8a8a8>Obecne ID: <#ffffff>{id}'
+    id_prompt: '<#ffd470>Wpisz nowe ID typu zadania (np. moj_typ):'
+    id_title: <#ffd470>ID typu zadania
+    node_id_title: '<#ffd470>ID Węzła'
+    item_clone: <#d9a752>Zamień (F) <#cccccc>- Sklonuj wiersz
+    item_move_down: <#ffe999>Shift+PPM <#cccccc>- Przesuń w dół
+    item_move_up: <#ffe999>Shift+LPM <#cccccc>- Przesuń w górę
+    lore_click: <#a7ff99>LPM <#cccccc>- Edytuj opis
+    lore_title: <#ffd470>Opis typu zadania
+    name_click: <#a7ff99>LPM <#cccccc>- Zmień
+    name_lore: '<#a8a8a8>Obecna: <#ffffff>{name}'
+    name_prompt: '<#ffd470>Wpisz nazwę zadania na czacie:'
+    name_title: <#ffd470>Nazwa typu zadania
+    name_title_has: <#ffd470>Nazwa zadania
+    name_title_none: <#ed6868>Brak nazwy zadania!
+    page_lore: '<#a8a8a8>Obecna strona: <#ffffff>{page}'
+    page_prompt: '<#ffd470>Wpisz stronę (strona, od 1):'
+    page_title: <#ffd470>Strona
+    perm_click: <#a7ff99>LPM <#cccccc>- Zmień
+    perm_lore: '<#a8a8a8>Uprawnienie: <#ffffff>{perm}'
+    perm_prompt: '<#ffd470>Wpisz uprawnienie (lub none):'
+    perm_title: <#ffd470>Wymagane uprawnienie
+    req_quests_add: <#79d679>Dodaj zadanie
+    req_quests_add_lore: <#a7ff99>LPM <#cccccc>- Wybierz zadanie z listy.
+    req_quests_click: <#a7ff99>LPM <#cccccc>- Edytuj
+    req_quests_del: <#ed6868>Upuść (Q) <#cccccc>- Usuń zadanie
+    req_quests_edit: <#a7ff99>LPM <#cccccc>- Zastąp innym zadaniem
+    req_quests_gui_title: 'Wymagane zadania: '
+    req_quests_lore: <#a8a8a8>Zadania, które muszą być wykonane przed tym.
+    req_quests_title: <#ffd470>Wymagania (Poprzednie zadania)
+    req_quests_unknown: <#ffffff>Nieznane zadanie ({id})
+    rew_desc_click: <#a7ff99>LPM <#cccccc>- Edytuj
+    rew_desc_gui_title: 'Opis nagród: '
+    rew_desc_title: <#ffd470>Opis nagród
+    rewards_lore: <#a7ff99>LPM <#cccccc>- Konfiguruj nagrody
+    rewards_title: <#ffd470>Nagrody za zadanie
+    rot_pool_click: <#a7ff99>LPM <#cccccc>- Zmień
+    rot_pool_lore:
+    - <#a8a8a8>Zadanie będzie losowo wybrane z tej grupy.
+    rot_pool_lore3: '<#a8a8a8>Obecnie: <#ffffff>{pool}'
+    rot_pool_lore3_none: <#ed6868>Pula nieokreślona. Zadanie nie będzie w 
+      rotacji.
+    rot_pool_prompt: '<#ffd470>Wpisz nazwę puli (lub none):'
+    rot_pool_title: <#ffd470>Pula Rotacji (Rotation Pool)
+    rotation_click:
+    - <#a7ff99>LPM <#cccccc>- Zmień interwał
+    - <#a7ff99>PPM <#cccccc>- Zmień czas
+    - <#ffe999>Shift + LPM <#cccccc>- Zresetuj
+    rotation_click_new: <#a7ff99>LPM <#cccccc>- Otwórz ustawienia
+    rotation_lore:
+    - '<#a8a8a8>Interwał: <#ffffff>{interval}'
+    - '<#a8a8a8>Czas resetu: <#ffffff>{time}'
+    - '<#a8a8a8>Pule: <#ffffff>{pool}'
+    rotation_title: <#ffd470>Rotacja
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Błąd zapisu pliku!'
+    save_success: '{prefix}<#78b185>✔ <#ffffff>Plik zadania <#e2e8f0>{id} <#b0b8c1>pomyślnie zapisany!'
+    slot_click:
+    - <#a7ff99>LPM (+1) / PPM (-1)
+    - <#ffe999>Shift + LPM (+10) / <#ffe999>Shift + PPM (-10)
+    - <#d9a752>Zamień (F) <#cccccc>- Wpisz ręcznie
+    slot_lore: '<#a8a8a8>Obecny slot: <#ffffff>{slot}'
+    slot_prompt: '<#ffd470>Wpisz slot (slot, od 0-54):'
+    slot_title: <#ffd470>Slot
+    stages_click: <#a7ff99>LPM <#cccccc>- Zarządzaj etapami
+    stages_lore: '<#a8a8a8>Liczba etapów: <#ffffff>{count}'
+    stages_title_has: <#ffd470>Etapy (Cele)
+    stages_title_none: <#ed6868>Brak etapów zadania!
+    status_click: <#a7ff99>LPM <#cccccc>- Zmień status
+    status_desc: <#a8a8a8>Włącza lub wyłącza ten typ zadania
+    status_disabled: <#ed6868>Wyłączone
+    status_enabled: <#79d679>Włączone
+    status_lore: '<#a8a8a8>Status: {status}'
+    status_title: <#ffd470>Status typu
+    type_click: <#a7ff99>LPM <#cccccc>- Zmień typ
+    type_lore_engine: '<#a8a8a8>Silnik: <#ffffff>{engine}'
+    type_lore_type: '<#a8a8a8>Typ: <#ffffff>{type}'
+    type_title: <#ffd470>Silnik i typ zadania
+  material_list:
+    add_new_lore: <#a7ff99>LPM <#cccccc>- Dodaj nowy przedmiot
+    click_del: <#ed6868>Upuść (Q) <#cccccc>- Usuń przedmiot
+    click_edit: <#a7ff99>LPM <#cccccc>- Edytuj przedmiot
+  material_selector:
+    error_invalid: <#ed6868>Nieprawidłowy materiał!
+    hand: <#ffd470>Weź z ręki
+    hand_error: W twojej ręce nie ma przedmiotu!
+    hand_lore: <#a7ff99>LPM <#cccccc>- Użyj przedmiotu z ręki
+    input_chat: <#ffd470>Wpisz ręcznie na czacie
+    input_chat_lore: <#a7ff99>LPM <#cccccc>- Wpisz kod materiału
+    input_chat_prompt: '<#ffd470>Wpisz materiał (np. DIAMOND_SWORD):'
+    item_click: <#a7ff99>LPM <#cccccc>- Wybierz ten przedmiot
+    search: <#ffd470>Szukaj materiału
+    search_prompt: '<#ffd470>Wpisz tekst, aby wyszukać (lub wyczyść):'
+    title: '&0Wybierz materiał / blok'
+  msg_clone_success: '{prefix}<#78b185>✔ <#ffffff>Typ pomyślnie sklonowany jako <#ffffff>{id}'
+  msg_del_success: '{prefix}<#78b185>✔ <#ffffff>Typ <#ffffff>{id} <#b0b8c1>pomyślnie usunięty.'
+  objective_menu:
+    del_confirm_msg: Czy na pewno chcesz usunąć cel {key}?
+    del_confirm_title: Usunąć cel?
+    gui_ent_list: '&0Byty dla: {key}'
+    gui_mats_list: '&0Przedmioty dla: {key}'
+    gui_req_mats: '&0Wymagane przedmioty'
+    gui_str_list: '&0Lista {key}'
+    obj_title: '<#a8a8a8>Cel: {color}{key}'
+    prompt_key: '<#a8a8a8>Wpisz wartość dla <#ffffff>{key}<#ffd470>:'
+    prompt_str_key: '<#a8a8a8>Wpisz wartość tekstową dla <#ffffff>{key}<#ffd470>:'
+    prop_click_del: <#ed6868>Upuść (Q) <#cccccc>- Usuń
+    prop_click_edit: <#a7ff99>LPM <#cccccc>- Edytuj wartość
+    prop_format: '<#a8a8a8>{key}: <#e0e0e0>{value}'
+    prop_num_click:
+    - <#a7ff99>LPM (+1) / PPM (-1) <#cccccc>- Zmień wartość
+    - <#ffe999>Shift + LPM (+10) / <#ffe999>Shift + PPM (-10)
+    - <#d9a752>Zamień (F) <#cccccc>- Wpisz ręcznie
+    prop_str_click: <#a7ff99>LPM <#cccccc>- Wpisz ciąg znaków
+    prop_str_list_click: <#a7ff99>LPM <#cccccc>- Edytuj listę
+    prop_title_mandatory: <#ed6868>{key}
+    prop_title_set: <#e0e0e0>{key}
+    prop_title_unset: <#a8a8a8>{key}
+    prop_true_false: <#a7ff99>LPM <#cccccc>- Przełącz (true/false)
+    prop_type_click: <#a7ff99>LPM <#cccccc>- Wybierz typ
+    props:
+      amount: <#ffd470>Wymagana ilość
+      biome: <#ffd470>Biom
+      command: <#ffd470>Komenda
+      dimension: <#ffd470>Wymiar
+      distance: <#ffd470>Dystans
+      entity: <#ffd470>Byt
+      item: <#ffd470>Przedmiot
+      material: <#ffd470>Przedmiot
+      message: <#ffd470>Wiadomość
+      min-distance: <#ffd470>Min. dystans
+      notify-interval: <#ffd470>Interwał powiadomień
+      npc: <#ffd470>NPC
+      npc-id: <#ffd470>NPC
+      radius: <#ffd470>Promień
+      region: <#ffd470>Region
+      required-materials: <#ffd470>Wymagane przedmioty
+      target-entities: <#ffd470>Docelowe byty
+      target-entity: <#ffd470>Byt
+      target-material: <#ffd470>Przedmiot
+      target-materials: <#ffd470>Docelowe przedmioty
+      type: <#ffd470>Typ celu
+      weapon: <#ffd470>Broń
+      world: <#ffd470>Świat
+      x: <#ffd470>Współrzędna X
+      y: <#ffd470>Współrzędna Y
+      z: <#ffd470>Współrzędna Z
+    type_list: Lista
+    type_prop: Wartość właściwości
+    type_section: Sekcja
+    type_value: Wartość
+    val_list: 'Elementów: {size}'
+    val_list_mats: 'Przedmiotów: {size}'
+    val_none: '[Brak]'
+    val_not_set: <#ed6868>Nie ustawiono wartości!
+    val_section: '[Sekcja] '
+  objective_selector:
+    desc:
+      ANVIL_USE: <#cccccc>Użyj kowadła.
+      ASSIST_KILL: <#cccccc>Asystuj w zabiciu bytu/gracza.
+      BEACON_ACTIVATE: <#cccccc>Aktywuj latarnię.
+      BLOCK_BREAK: <#cccccc>Zniszcz określone bloki.
+      BLOCK_PLACE: <#cccccc>Postaw określone bloki.
+      BOAT_TRAVEL: <#cccccc>Podróżuj w łódce.
+      BONE_MEAL_USE: <#cccccc>Użyj mączki kostnej.
+      BOOK_EDIT: <#cccccc>Zapisz tekst w książce.
+      BREED_ANIMALS: <#cccccc>Rozmnażaj zwierzęta.
+      BREWING: <#cccccc>Warz mikstury.
+      BURN_FUEL: <#cccccc>Spal paliwo w piecu.
+      CHANGE_DIMENSION: <#cccccc>Zmień wymiar (np. idź do Netheru).
+      CHAT_MESSAGE: <#cccccc>Napisz określoną wiadomość na czacie.
+      CONDUIT_ACTIVATE: <#cccccc>Aktywuj kondensator.
+      CONSUME_ITEM: <#cccccc>Zjedz lub wypij przedmiot.
+      CROUCH: <#cccccc>Kucnij określoną liczbę razy.
+      CROUCH_DISTANCE: <#cccccc>Przebądź określoną odległość podczas kucania.
+      DEAL_DAMAGE: <#cccccc>Zadaj określoną ilość obrażeń.
+      DROP_ITEM: <#cccccc>Upuść określony przedmiot.
+      DYE_ITEM: <#cccccc>Zafarbuj przedmiot.
+      ELYTRA_FLY: <#cccccc>Lataj przy użyciu elytry.
+      EMPTY_BUCKET: <#cccccc>Opróżnij wiadro.
+      ENCHANT_TABLE_USE: <#cccccc>Użyj stołu do zaklinania.
+      ENTER_BED: <#cccccc>Wejdź do łóżka.
+      ENTER_REGION: <#cccccc>Wejdź do regionu (WorldGuard).
+      ENTITY_RIDE: <#cccccc>Ujeżdżaj byt.
+      EXECUTE_COMMAND: <#cccccc>Wykonaj określoną komendę.
+      EXPERIENCE_ORB_PICKUP: <#cccccc>Podnieś kulę doświadczenia.
+      FALL_DISTANCE: <#cccccc>Spadnij z określonej odległości.
+      FILL_BUCKET: <#cccccc>Napełnij wiadro.
+      FILL_FUEL: <#cccccc>Włóż paliwo do pieca.
+      GIVE_ITEM_TO_NPC: <#cccccc>Daj przedmiot NPC.
+      HARVEST_CROP: <#cccccc>Zbierz uprawy.
+      HOLD_ITEM: <#cccccc>Trzymaj określony przedmiot w dłoni.
+      INTERACT_BLOCK: <#cccccc>Wejdź w interakcję z blokiem (PPM/LPM).
+      INTERACT_ENTITY: <#cccccc>Wejdź w interakcję z bytem (PPM).
+      ITEM_BREAK: <#cccccc>Zniszcz narzędzie/broń.
+      ITEM_COOK: <#cccccc>Upiecz jedzenie.
+      ITEM_CRAFT: <#cccccc>Wytwórz przedmioty.
+      ITEM_ENCHANT: <#cccccc>Zaklnij przedmioty.
+      ITEM_FISH: <#cccccc>Złów ryby/przedmioty.
+      ITEM_RENAME: <#cccccc>Zmień nazwę przedmiotu.
+      ITEM_REPAIR: <#cccccc>Napraw przedmiot na kowadle.
+      ITEM_SMELT: <#cccccc>Przetop przedmioty.
+      JOIN_SERVER: <#cccccc>Dołącz na serwer.
+      JUMP: <#cccccc>Skocz określoną liczbę razy.
+      KILL_ENTITY: <#cccccc>Zabij określone moby/byty.
+      LEAVE_REGION: <#cccccc>Opuść region (WorldGuard).
+      LEVEL_UP_GAIN: <#cccccc>Zdobądź określoną liczbę poziomów.
+      LEVEL_UP_REACH: <#cccccc>Osiągnij określony poziom doświadczenia.
+      MILK_COW: <#cccccc>Wydój krowę.
+      MINECART_TRAVEL: <#cccccc>Podróżuj w wagoniku.
+      NPC_INTERACT: <#cccccc>Porozmawiaj z NPC (Citizens/ZNPCs).
+      OPEN_CONTAINER: <#cccccc>Otwórz pojemnik (skrzynię, itp.).
+      PLANT_SEED: <#cccccc>Zasadz nasiona.
+      PLAYER_KILL: <#cccccc>Zabij innego gracza.
+      PLAY_TIME: <#cccccc>Spędź czas w grze.
+      POTION_DRINK: <#cccccc>Wypij miksturę.
+      POTION_SPLASH: <#cccccc>Rzuć rzucaną miksturę.
+      REACH_BIOME: <#cccccc>Odwiedź określony biom.
+      REACH_LOCATION: <#cccccc>Dotrzyj do określonych koordynatów.
+      RECEIVE_DAMAGE_TYPE: <#cccccc>Otrzymaj obrażenia określonego typu.
+      SHEAR_SHEEP: <#cccccc>Ostrzyż owcę.
+      SIGN_EDIT: <#cccccc>Napisz tekst na tabliczce.
+      SLEEP_IN_BED: <#cccccc>Wyśpij się w łóżku.
+      SPRINT_DISTANCE: <#cccccc>Przebiegnij sprintem określoną odległość.
+      STRIP_LOG: <#cccccc>Okrzesaj kłodę siekierą.
+      SWIM_DISTANCE: <#cccccc>Przepłyń określoną odległość.
+      TAKE_DAMAGE: <#cccccc>Otrzymaj określoną ilość obrażeń.
+      TAME_ANIMAL: <#cccccc>Oswoj zwierzę.
+      THROW_EGG: <#cccccc>Rzuć jajko.
+      TILL_SOIL: <#cccccc>Zaoraj ziemię motyką.
+      TRAVEL_DISTANCE: <#cccccc>Przemierz określoną odległość.
+      USE_ITEM: <#cccccc>Użyj przedmiotu (PPM).
+      VILLAGER_BUY_ITEM: <#cccccc>Kup przedmiot od osadnika.
+      VILLAGER_SELL_ITEM: <#cccccc>Sprzedaj przedmiot osadnikowi.
+      WAX_OFF: <#cccccc>Zdejmij wosk z miedzi.
+      WAX_ON: <#cccccc>Nałóż wosk na miedź.
+      WEAR_ARMOR: <#cccccc>Załóż określoną zbroję.
+    item_click: <#a7ff99>LPM <#cccccc>- Wybierz ten typ
+    item_enum: '<#a8a8a8>Klucz: <#ffffff>{enum}'
+    prompt_search: '<#ffd470>Wpisz nazwę typu celu (lub wyczyść):'
+    title: '&0Wybierz typ celu'
+  pool_slots_gui:
+    slot_back_lore: <#a7ff99>PPM <#cccccc>- Wróć
+    slot_free_lore: <#a7ff99>LPM <#cccccc>- Przypisz do tej puli
+    slot_free_title: <#a8a8a8>Slot {slot}
+    slot_mine_lore: <#ff6b6b>LPM <#cccccc>- Usuń slot z puli
+    slot_mine_title: <#a7ff99>Slot {slot}
+    slot_taken_lore:
+    - '<#a8a8a8>Zajęty przez pulę: <#ffffff>{owner}'
+    - <#ffd470>LPM <#cccccc>- Zastąp slot
+    slot_taken_title: <#ff6b6b>Slot {slot}
+    title: '&0Sloty puli: {pool}'
+  pools_gui:
+    add_lore: <#a7ff99>LPM <#cccccc>- Stwórz nową pulę
+    add_title: <#ffd470>Dodaj pulę
+    item_click:
+    - <#a7ff99>LPM <#cccccc>- Edytuj sloty
+    item_click4: <#ff6b6b>Upuść (Q) <#cccccc>- Usuń pulę
+    item_lore:
+    - '<#a8a8a8>Ilość: <#ffffff>{count}'
+    item_title: '<#ffd470>Pula: {pool}'
+    title: Pule rotacyjne
+  preview_title: 'Opis typu: '
+  prompts:
+    cmd: '<#ffd470>Wpisz komendę:'
+    cooldown: '<#ffd470>Wpisz odnowienie:'
+    folder: '<#ffd470>Wpisz ścieżkę do folderu z zadaniami:'
+    name: '<#ffd470>Wpisz nazwę:'
+    new_type_id: '<#ffd470>Wpisz nowe ID typu (np. <#ffffff>tygodniowe<#ffd470>):'
+    pool_count: '<#ffd470>Wpisz ilość zadań dla tej puli:'
+    pool_name: '<#ffd470>Wpisz nazwę puli (bez spacji):'
+    rotation_interval: '<#ffd470>Wpisz interwał rotacji:'
+    rotation_time: '<#ffd470>Wpisz czas rotacji:'
+    slot: '<#ffd470>Wpisz slot:'
+  rotation_gui:
+    anchor_click:
+    - <#a7ff99>LPM <#cccccc>- Następny dzień
+    anchor_lore:
+    - '<#a8a8a8>Dzień: <#ffffff>{val}'
+    anchor_title: <#ffd470>Dzień zakotwiczenia
+    interval_click:
+    - <#a7ff99>LPM <#cccccc>- Dodaj 1 godzinę
+    - <#a7ff99>PPM <#cccccc>- Odejmij 1 godzinę
+    - <#ffe999>Shift+LPM <#cccccc>- Dodaj 1 dzień
+    - <#ffe999>Shift+PPM <#cccccc>- Odejmij 1 dzień
+    - <#ffd470>Zamień (F) <#cccccc>- Wpisz ręcznie
+    - <#ed6868>Upuść (Q) <#cccccc>- Wyczyść
+    interval_lore:
+    - '<#a8a8a8>Obecny: <#ffffff>{val}'
+    interval_title: <#ffd470>Interwał resetu
+    pools_click:
+    - <#a7ff99>LPM <#cccccc>- Zarządzaj pulami
+    pools_lore:
+    - '<#a8a8a8>Pule: <#ffffff>{val}'
+    pools_title: <#ffd470>Pule zadań
+    time_click:
+    - <#a7ff99>LPM <#cccccc>- Dodaj 1 godzinę
+    - <#a7ff99>PPM <#cccccc>- Odejmij 1 godzinę
+    - <#ffe999>Shift+LPM <#cccccc>- Dodaj 10 min
+    - <#ffe999>Shift+PPM <#cccccc>- Odejmij 10 min
+    - <#ffd470>Zamień (F) <#cccccc>- Wpisz ręcznie
+    - <#ed6868>Upuść (Q) <#cccccc>- Wyczyść
+    time_lore:
+    - '<#a8a8a8>Obecny: <#ffffff>{val}'
+    time_title: <#ffd470>Czas resetu
+    title: '&0Rotacja zadań: {id}'
+  saved_success: '{prefix}<#78b185>✔ <#ffffff>Zmiany typu zadania {id} pomyślnie zapisane!'
+  select_type_click: <#a7ff99>LPM <#cccccc>- Wybierz ten typ
+  title_list: '&0Lista typów zadań ({count})'
+  title_main: '&0Edytor typu: {id}'
+  title_selector: '&0Wybierz typ zadania'
+  type_created: '{prefix}<#78b185>✔ <#ffffff>Pomyślnie utworzono nowy typ: {id}'
+  type_list_click: <#a7ff99>LPM <#cccccc>- Edytuj typ
+  type_list_clone: <#d9a752>Zamień (F) <#cccccc>- Sklonuj
+  type_list_delete: <#ff7070>Upuść (Q) <#cccccc>- Usuń
+  type_list_engine: '<#a8a8a8>Silnik: <#7dd3ff>{engine}'
+  type_list_folder: '<#a8a8a8>Folder: <#ffffff>{folder}'
+  type_list_quests: '<#a8a8a8>Zadania: <#ffffff>{count}'
+

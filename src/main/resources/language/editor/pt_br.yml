@@ -1,0 +1,1704 @@
+common_editor:
+  buttons:
+    add: <#79d679>Adicionar
+    add_item: <#79d679>Adicionar item
+    add_item_lore:
+    - <#a8a8a8>Clique para escolher
+    - <#a8a8a8>o material para enviar.
+    add_new: <#79d679>Criar novo
+    add_new_lore: <#a7ff99>Botão Esquerdo <#cccccc>- Criar novo
+    back: <#ed6868>Voltar
+    back_lore: <#a8a8a8>Retornar ao menu anterior.
+    cancel: <#ed6868>Cancelar
+    cancel_lore: <#a8a8a8>Clique para voltar.
+    confirm: <#79d679>Confirmar
+    confirm_lore: <#a8a8a8>Clique para executar a ação.
+    delete: <#ed6868>Excluir
+    empty_list: <#ed6868>A lista está vazia
+    empty_list_lore: <#a8a8a8>Clique no bloco verde à direita para adicionar um item.
+    next_page: <#ffd470>Próxima página
+    prev_page: <#ffd470>Página anterior
+    return: <#ed6868>Retornar
+    save: <#79d679>Salvar alterações
+    save_lore: <#a8a8a8>Salvar todas as configurações no arquivo.
+    save_unsaved: <#ffd470>* Salvar alterações
+    save_unsaved_lore: <#ffb366>⚠ Há alterações não salvas!
+    search: <#ffd470>Pesquisar
+  days:
+    friday: Sexta-feira
+    monday: Segunda-feira
+    saturday: Sábado
+    sunday: Domingo
+    thursday: Quinta-feira
+    tuesday: Terça-feira
+    unknown: Desconhecido
+    wednesday: Quarta-feira
+  input:
+    cancel_instruction: <#8a8a8a>    Escreva o texto no chat. Para cancelar, digite 
+      <#c96a6a>cancelar
+    cancelled: Entrada cancelada.
+    cancelled_cmd: Entrada cancelada (por comando).
+    edit_current: '    <#ffc499>✎ [Editar texto atual]'
+    enter_number_error: Digite um número!
+    enter_text: '<#ffd470>Digite o novo texto no chat:'
+  item_list:
+    click_delete: <#ed6868>Soltar (Q) <#cccccc>- Excluir
+    click_modify1: <#a7ff99>Botão Esq. (+1) / Botão Dir. (-1) <#cccccc>- Alterar quantidade
+    click_modify2: <#ffe999>Shift + Botão Esq. (+10) / <#ffe999>Shift + Botão Dir. (-10)
+    click_modify3: <#d9a752>Trocar (F) <#cccccc>- Inserir quantidade manualmente
+    delete_confirm_msg: '<#ffd470>Tem certeza de que deseja excluir o item #{index}?'
+    delete_confirm_title: Excluir item
+    empty_lore:
+    - <#a8a8a8>Clique no funil ou no bloco verde,
+    - <#a8a8a8>para adicionar o primeiro item.
+    empty_title: <#ed6868>A lista está vazia
+    item_amount: '<#a8a8a8>Quantidade: <#ffffff>{amount}'
+  main_selector:
+    dialogue_click: <#79d679>Clique para abrir a lista de diálogos
+    dialogue_lore:
+    - <#a8a8a8>Edição de ramificações interativas
+    - <#a8a8a8>de diálogos, opções de resposta e ações.
+    dialogue_title: <#ff99d4>Editor de Diálogos
+    npc_click: <#79d679>Clique para abrir a lista de NPCs
+    npc_lore:
+    - <#a8a8a8>Configuração de vínculos de missões ao NPC,
+    - <#a8a8a8>regras de humor (Mood) e sons de voz.
+    npc_title: <#a7ff99>Editor de NPCs
+    quest_click: <#79d679>Clique para abrir a lista de missões
+    quest_lore:
+    - <#a8a8a8>Criação, exclusão e configuração
+    - <#a8a8a8>detalhada de tarefas, etapas e recompensas.
+    quest_title: <#7dd3ff>Editor de Missões
+    title: '&0✎ Editor Questborn'
+    type_click: <#79d679>Clique para abrir a lista de tipos
+    type_lore:
+    - <#a8a8a8>Gerenciamento de arquivos de tipo (<#ffffff>_type.yml<#a8a8a8>).
+    - <#a8a8a8>Alterar nomes, ícones, tempo de recarga e
+    - <#a8a8a8>modos do motor (DEFAULT, CHAIN, ROTATION, GLOBAL).
+    type_title: <#ffd470>Editor de Tipos de Missão
+  none: <#cccccc>Nenhum
+  prefix: <#ad8ae6><bold>Editor</bold> <#8a8a8a>• <reset>
+  prompts:
+    preset_id: ID do Preset
+  search:
+    click: <#a7ff99>Botão Esquerdo <#cccccc>- Pesquisar
+    none: <#cccccc>Nenhum
+    query: '<#cccccc>Consulta: <#ffffff>{query}'
+  selection_menu:
+    item_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alternar seleção
+    item_id: '<#a8a8a8>ID: <#ffffff>{id}'
+    item_status: '<#a8a8a8>Status: {status}'
+    prompt_search: '<#ffd470>Digite a consulta de pesquisa (ou limpar):'
+    search_all: Tudo
+    search_click: <#a7ff99>Botão Esquerdo <#cccccc>- Pesquisar (ou limpar)
+    search_lore: '<#a8a8a8>Pesquisa: <#ffffff>{query}'
+    status_selected: <#55ff55>Selecionado ✔
+    status_unselected: <#ff5555>Não selecionado
+    title: '&0Selecionar item'
+  state_none: <#cccccc>Desativado
+  states:
+    disabled: <#ed6868>Desativado
+    enabled: <#79d679>Ativado
+  symbols:
+    error: '<#c96a6a>✖ '
+    prompt: '<#6aa0c9>✏ '
+    success: '{prefix}<#78b185>✔ <#ffffff>'
+    warning: '<#d9a752>⚠ '
+  unsaved_modal:
+    discard_exit: <#ed6868>Descartar alterações e sair
+    discard_exit_lore: <#a8a8a8>Descarta todas as alterações não salvas sem gravar no 
+      arquivo.
+    info_lore: <#a8a8a8>Por favor, selecione uma ação abaixo.
+    info_title: <#ffd470>Alterações não salvas
+    return_editor: <#d69a38>Voltar à edição
+    return_editor_lore: <#a8a8a8>Voltar ao menu do editor.
+    save_exit: <#79d679>Salvar e sair
+    save_exit_lore: <#a8a8a8>Grava todas as alterações no arquivo e fecha o 
+      editor.
+    title: '&0✎ Alterações não salvas'
+dialogue_editor:
+  delete_confirm_desc: Tem certeza de que deseja excluir o diálogo {id}?
+  delete_confirm_title: '&0Confirmar exclusão'
+  delete_confirm_item: '<#ed6868>Confirmar exclusão'
+  deleted_success: '{prefix}<#78b185>✔ <#ffffff>Diálogo excluído!'
+  clone_prompt: '<#ffd470>Digite o ID para a cópia do diálogo:'
+  error_clone_exists: '{prefix}<#c96a6a>✖ <#ffffff>Um diálogo com este ID já existe!'
+  msg_clone_success: '{prefix}<#78b185>✔ <#ffffff>Diálogo copiado com sucesso como {id}!'
+  error_clone_failed: '{prefix}<#c96a6a>✖ <#ffffff>Erro ao copiar o diálogo!'
+  id_exists: Um diálogo com este ID já existe!
+  saved_success: '{prefix}<#78b185>✔ <#ffffff>Alterações do diálogo {id} salvas com sucesso!'
+  title_list: '&0Lista de Diálogos ({count})'
+  title_main: '&0Editor de Diálogos: {id}'
+npc_editor:
+  teleported: '<#a7ff99>✔ Teletransportado com sucesso para o NPC!'
+  location_not_found: '{prefix}<#c96a6a>✖ <#ffffff>Localização do NPC não encontrada! Ele foi gerado?'
+  no_integration: '{prefix}<#c96a6a>✖ <#ffffff>Nenhum plugin de integração de NPC encontrado!'
+  delete_confirm_desc: Tem certeza de que deseja excluir o NPC {id}?
+  delete_confirm_item: <#ff4d4d>Confirmar exclusão
+  delete_confirm_title: '&0Confirmar exclusão'
+  deleted_success: '{prefix}<#78b185>✔ <#ffffff>NPC excluído!'
+  dialogue_gui_title: '&8Selecionar diálogo'
+  dialogue_none_title: '&cDesvincular diálogo atual'
+  dialogue_select_click: '&eClique para selecionar este diálogo'
+  id_exists: Um NPC com este ID já existe!
+  id_exists_use_right_click: Se você deseja configurar um NPC existente, use o Botão Direito 
+    em vez do Botão Esquerdo.
+  saved_success: '{prefix}<#78b185>✔ <#ffffff>Alterações do NPC {id} salvas com sucesso!'
+  title_list: '&0Lista de NPCs ({count})'
+  title_main: '&0Configuração do NPC: {id}'
+quest_editor:
+  add_property:
+    amount: Quantidade
+    biome: Bioma
+    chance: Chance
+    command: Comando
+    custom_click: <#a7ff99>Botão Esquerdo <#cccccc>- Selecionar
+    custom_lore:
+    - <#a8a8a8>Inserir chave de propriedade manualmente via chat
+    custom_prompt: '<#ffd470>Digite o nome da propriedade (ex: material):'
+    custom_title: <#ffd470>Propriedade personalizada
+    distance: Distância
+    entities: Entidades / Mobs
+    item_click: <#a7ff99>Botão Esquerdo <#cccccc>- Adicionar propriedade
+    item_lore: '<#a8a8a8>Chave: <#ffffff>{key}'
+    item_title: <#ffd470>{name}
+    materials: Blocos / Itens
+    message: Mensagem
+    region: Região
+    title: <#6e6e6e>Nova propriedade
+    world: Mundo
+  attribute_reward:
+    add_lore: <#a8a8a8>Clique para adicionar um novo atributo.
+    add_title: <#ffd470>Adicionar atributo
+    click_delete: <#ed6868>Soltar (Q) <#cccccc>- Excluir atributo
+    click_edit: <#d9a752>Trocar (F) <#cccccc>- Inserir manualmente
+    click_modify1: <#a7ff99>Botão Esq. (+0.5) / Botão Dir. (-0.5) <#cccccc>- Alterar valor
+    click_modify2: <#ffe999>Shift + Botão Esq. (+5.0) / <#ffe999>Shift + Botão Dir. (-5.0)
+    confirm_del_desc: Tem certeza de que deseja excluir {attr}?
+    confirm_del_item: ✖ Excluir atributo
+    confirm_del_title: '&0Excluir atributo'
+    prompt_val: '<#ffd470>Digite o valor numérico para o atributo (ex: 2.0 ou -1.5):'
+  attribute_selector:
+    click_select: <#a7ff99>Botão Esquerdo <#cccccc>- Selecionar este atributo
+    desc:
+      AIR_DRAG_MODIFIER: <#cccccc>Modificador de arrasto de ar (lentidão durante o voo).
+      ARMOR: <#cccccc>Quantidade base de pontos de armadura.
+      ARMOR_TOUGHNESS: <#cccccc>Resistência da armadura (proteção contra golpes pesados).
+      ATTACK_DAMAGE: <#cccccc>Dano de ataques corpo a corpo básicos.
+      ATTACK_KNOCKBACK: <#cccccc>Força de repulsão ao atacar.
+      ATTACK_SPEED: <#cccccc>Velocidade de ataque (golpes por segundo).
+      BELOW_NAME_DISTANCE: <#cccccc>Alcance de visibilidade do texto abaixo do nome.
+      BLOCK_BREAK_SPEED: <#cccccc>Multiplicador de velocidade de quebra de blocos.
+      BLOCK_INTERACTION_RANGE: <#cccccc>Alcance de interação do jogador com blocos.
+      BOUNCINESS: <#cccccc>Elasticidade.
+      BURNING_TIME: <#cccccc>Multiplicador de tempo de queima no fogo.
+      CAMERA_DISTANCE: <#cccccc>Distância da câmera.
+      ENTITY_INTERACTION_RANGE: <#cccccc>Alcance de interação do jogador com outras 
+        entidades.
+      EXPLOSION_KNOCKBACK_RESISTANCE: <#cccccc>Resistência a repulsão de explosão.
+      FALL_DAMAGE_MULTIPLIER: <#cccccc>Multiplicador de dano de queda.
+      FLYING_SPEED: <#cccccc>Velocidade de voo da entidade.
+      FOLLOW_RANGE: <#cccccc>Alcance em que os mobs notam o jogador.
+      FRICTION_MODIFIER: <#cccccc>Modificador de atrito.
+      GENERIC_ARMOR: <#cccccc>Quantidade base de pontos de armadura.
+      GENERIC_ARMOR_TOUGHNESS: <#cccccc>Resistência da armadura (proteção contra 
+        golpes pesados).
+      GENERIC_ATTACK_DAMAGE: <#cccccc>Dano de ataques corpo a corpo básicos.
+      GENERIC_ATTACK_KNOCKBACK: <#cccccc>Força de repulsão ao atacar.
+      GENERIC_ATTACK_SPEED: <#cccccc>Velocidade de ataque (golpes por segundo).
+      GENERIC_BURNING_TIME: <#cccccc>Multiplicador de tempo de queima no fogo.
+      GENERIC_EXPLOSION_KNOCKBACK_RESISTANCE: <#cccccc>Resistência a repulsão de explosão.
+      GENERIC_FALL_DAMAGE_MULTIPLIER: <#cccccc>Multiplicador de dano de queda.
+      GENERIC_FLYING_SPEED: <#cccccc>Velocidade de voo da entidade.
+      GENERIC_FOLLOW_RANGE: <#cccccc>Alcance em que os mobs notam o jogador.
+      GENERIC_GRAVITY: <#cccccc>Força da gravidade atuando sobre a entidade.
+      GENERIC_JUMP_STRENGTH: <#cccccc>Força de salto normal da entidade.
+      GENERIC_KNOCKBACK_RESISTANCE: <#cccccc>Resistência a repulsão (1.0 = 100% 
+        de proteção).
+      GENERIC_LUCK: <#cccccc>Sorte (afeta saques e pesca).
+      GENERIC_MAX_HEALTH: <#cccccc>Vida máxima (1.0 = meio coração).
+      GENERIC_MOVEMENT_EFFICIENCY: <#cccccc>Eficiência de movimento em blocos 
+        difíceis.
+      GENERIC_MOVEMENT_SPEED: <#cccccc>Velocidade de movimento da entidade.
+      GENERIC_OXYGEN_BONUS: <#cccccc>Chance de não consumir oxigênio debaixo d'água.
+      GENERIC_SAFE_FALL_DISTANCE: <#cccccc>Distância segura de queda (em blocos).
+      GENERIC_SCALE: <#cccccc>Escala e tamanho da entidade (1.0 = padrão).
+      GENERIC_STEP_HEIGHT: <#cccccc>Altura do passo automático (sem pular).
+      GENERIC_WATER_MOVEMENT_EFFICIENCY: <#cccccc>Eficiência de movimento debaixo d'água.
+      GRAVITY: <#cccccc>Força da gravidade atuando sobre a entidade.
+      HORSE_JUMP_STRENGTH: <#cccccc>Força de salto do cavalo.
+      JUMP_STRENGTH: <#cccccc>Força de salto normal da entidade.
+      KNOCKBACK_RESISTANCE: <#cccccc>Resistência a repulsão (1.0 = 100% 
+        de proteção).
+      LUCK: <#cccccc>Sorte (afeta saques e pesca).
+      MAX_ABSORPTION: <#cccccc>Absorção máxima de dano (Corações extras).
+      MAX_HEALTH: <#cccccc>Vida máxima (1.0 = meio coração).
+      MINING_EFFICIENCY: <#cccccc>Eficiência geral de mineração.
+      MOVEMENT_EFFICIENCY: <#cccccc>Eficiência de movimento em blocos difíceis.
+      MOVEMENT_SPEED: <#cccccc>Velocidade de movimento da entidade.
+      NAME_TAG_DISTANCE: <#cccccc>Alcance de visibilidade da Name Tag.
+      OXYGEN_BONUS: <#cccccc>Chance de não consumir oxigênio debaixo d'água.
+      PLAYER_BLOCK_BREAK_SPEED: <#cccccc>Multiplicador de velocidade de quebra de blocos.
+      PLAYER_BLOCK_INTERACTION_RANGE: <#cccccc>Alcance de interação do jogador com 
+        blocos.
+      PLAYER_ENTITY_INTERACTION_RANGE: <#cccccc>Alcance de interação do jogador com
+        outras entidades.
+      PLAYER_MINING_EFFICIENCY: <#cccccc>Eficiência geral de mineração.
+      PLAYER_SNEAKING_SPEED: <#cccccc>Multiplicador de velocidade ao esgueirar (Shift).
+      PLAYER_SUBMERGED_MINING_SPEED: <#cccccc>Multiplicador de velocidade de mineração 
+        debaixo d'água.
+      PLAYER_SWEEPING_DAMAGE_RATIO: <#cccccc>Multiplicador de dano de ataque 
+        varredor de espada.
+      SAFE_FALL_DISTANCE: <#cccccc>Distância segura de queda (em blocos).
+      SCALE: <#cccccc>Escala e tamanho da entidade (1.0 = padrão).
+      SNEAKING_SPEED: <#cccccc>Multiplicador de velocidade ao esgueirar (Shift).
+      SPAWN_REINFORCEMENTS: <#cccccc>Chance de zumbis invocarem outros zumbis 
+        por ajuda.
+      STEP_HEIGHT: <#cccccc>Altura do passo automático (sem pular).
+      SUBMERGED_MINING_SPEED: <#cccccc>Multiplicador de velocidade de mineração debaixo d'água.
+      SWEEPING_DAMAGE_RATIO: <#cccccc>Multiplicador de dano de ataque varredor de espada.
+      TEMPT_RANGE: <#cccccc>Alcance de tentação de mobs com comida.
+      WATER_MOVEMENT_EFFICIENCY: <#cccccc>Eficiência de movimento debaixo d'água.
+      WAYPOINT_RECEIVE_RANGE: <#cccccc>Alcance de recepção de ponto de referência.
+      WAYPOINT_TRANSMIT_RANGE: <#cccccc>Alcance de transmissão de ponto de referência.
+      ZOMBIE_SPAWN_REINFORCEMENTS: <#cccccc>Chance de zumbis invocarem outros 
+        zumbis por ajuda.
+    title: '&0Seleção de atributo'
+  brd_reward:
+    click_clone: <#d9a752>Trocar (F) <#cccccc>- Clonar
+    click_delete: <#ed6868>Soltar (Q) <#cccccc>- Excluir
+    click_edit: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar transmissão
+    click_move_down: <#ffe999>Shift+Botão Direito <#cccccc>- Mover para baixo
+    click_move_up: <#ffe999>Shift+Botão Esquerdo <#cccccc>- Mover para cima
+    click_set_level: <#d9a752>1-9 <#cccccc>- Definir nível do efeito
+    item_format: '<#79d679>Transmissão #{index}'
+  chance_reward:
+    add_lore: <#a8a8a8>Clique para adicionar nova chance.
+    add_title: <#ffd470>Adicionar chance
+    click_delete: <#ed6868>Soltar (Q) <#cccccc>- Excluir chance
+    click_edit_chance: <#d9a752>Trocar (F) <#cccccc>- Inserir chance manualmente
+    click_open_rewards: <#a7ff99>Botão Esquerdo <#cccccc>- Abrir recompensas
+    confirm_del_desc: '<#ffd470>Excluir chance #{attr}?'
+    item_title: Chance
+    prompt_val: '<#ffd470>Digite a chance percentual (ex: 50.0):'
+    rewards_gui_title: 'Recompensas para a chance #{attr}'
+  cmd_reward:
+    add_lore: <#a8a8a8>Clique para adicionar um novo comando.
+    add_title: <#ffd470>Adicionar comando
+    click_clone: <#d9a752>Trocar (F) <#cccccc>- Duplicar
+    click_delete: <#ed6868>Soltar (Q) <#cccccc>- Excluir
+    click_edit: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar comando
+    click_move_down: <#ffe999>Shift+Botão Direito <#cccccc>- Mover para baixo
+    click_move_up: <#ffe999>Shift+Botão Esquerdo <#cccccc>- Mover para cima
+    click_toggle_sender: <#a7ff99>Botão Direito <#cccccc>- Selecionar remetente
+    item_format: '<#ffd470>Comando #{index}'
+    prompt_add:
+    - '<#ffd470>Digite o texto do comando:'
+    - '<#a8a8a8>(Para o nome do jogador, digite %player%)'
+    prompt_edit:
+    - '<#ffd470>Digite o novo texto do comando:'
+    - '<#a8a8a8>(Para o nome do jogador, digite %player%)'
+    sender_console: <#ffd470>Como Console
+    sender_console_lore:
+    - '<#a8a8a8>O comando será executado pelo console do servidor.'
+    - ''
+    - '<#a7ff99>Clique para selecionar.'
+    sender_gui_title: '&0Seleção do remetente'
+    sender_none: <#ed6868>Limpar tag
+    sender_none_lore:
+    - '<#a8a8a8>Limpar a tag do comando.'
+    - ''
+    - '<#a8a8a8>(Por padrão, equivalente ao Console)'
+    - ''
+    - '<#a7ff99>Clique para selecionar.'
+    sender_player: <#ffd470>Como Jogador
+    sender_player_lore:
+    - '<#a8a8a8>O comando será executado como se'
+    - ''
+    - '<#a8a8a8>tivesse sido inserido pelo jogador.'
+    - ''
+    - '<#a7ff99>Clique para selecionar.'
+    sender_silent_console: <#ffd470>Como Console (Silencioso)
+    sender_silent_console_lore:
+    - '<#a8a8a8>O comando será executado pelo console,'
+    - ''
+    - '<#a8a8a8>mas o resultado não será registrado.'
+    - ''
+    - '<#a7ff99>Clique para selecionar.'
+    sender_silent_player: <#ffd470>Como Jogador (Silencioso)
+    sender_silent_player_lore:
+    - '<#a8a8a8>O comando será executado pelo jogador,'
+    - ''
+    - '<#a8a8a8>mas o resultado não será exibido no chat.'
+    - ''
+    - '<#a7ff99>Clique para selecionar.'
+  dialogue_list:
+    create_default_text: '  <#c8c8c8>Olá, viajante!'
+    create_prompt: '<#ffd470>Digite o novo ID do diálogo (ex: <#ffffff>dialogo_taverna<#ffd470>):'
+    edit_click: <#a7ff99>Botão Esquerdo <#cccccc>- Editar diálogo
+    clone_click: '<#d9a752>Trocar (F) <#cccccc>- Clonar diálogo'
+    delete_click: <#ed6868>Soltar (Q) <#cccccc>- Excluir diálogo
+    id_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar ID do diálogo
+    id_exists: <#ed6868>Um diálogo com o ID {id} já existe!
+    id_lore: '<#a8a8a8>ID: <#ffffff>{id}'
+    id_prompt: '<#ffd470>Digite o novo ID do diálogo (ex: fala_taverna):'
+    id_success: '{prefix}<#78b185>✔ <#ffffff>ID do diálogo alterado com sucesso para <#ffffff>{id}'
+    id_title: <#ffd470>ID do Diálogo
+    node_id_title: '<#ffd470>ID da Réplica'
+    name_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar nome
+    name_lore: '<#a8a8a8>Nome atual: '
+    name_prompt: '<#ffd470>Digite o nome do NPC no diálogo (ex: <#d0a775>{npc}):'
+    name_title: <#ffd470>Nome do NPC no diálogo
+    nodes_lore: '<#a8a8a8>Réplicas: <#7dd3ff>{count}'
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Erro ao salvar dialogues.yml!'
+  dialogue_main:
+    action_back_lore: <#a8a8a8>Retornar ao editor de resposta
+    action_back_title: <#ed6868>Voltar
+    action_builder_back_lore: <#a8a8a8>Retornar ao Construtor de Ações
+    action_builder_select_node: '&0Selecionar réplica alvo'
+    action_builder_title: '<#6e6e6e>Construtor de Ações: <#6aa0c9>Resposta #{index}'
+    action_close_lore: <#a8a8a8>Encerrar conversa com o NPC.
+    action_close_title: <#ed6868>Fechar diálogo <#a8a8a8>(close)
+    action_console_cmd_lore:
+    - <#a8a8a8>Executar comando como console.
+    - <#a8a8a8>Use %player% para o nome do jogador.
+    action_console_cmd_title: <#7dd3ff>Comando de console <#a8a8a8>(console:<cmd>)
+    action_create_lore: <#a8a8a8>Cria uma nova réplica e vincula a ação a ela.
+    action_create_title: <#55ff55>Criar e vincular réplica
+    action_current_title: <#ffd470>Ação atual
+    action_current_selected: '<#a8a8a8>Selecionado:'
+    action_current_lore:
+    - ''
+    - '<#a8a8a8>Esta é a ação que será'
+    - '<#a8a8a8>executada quando um jogador'
+    - '<#a8a8a8>escolher esta resposta.'
+    action_custom_lore: <#a8a8a8>Inserir linha de ação bruta manualmente.
+    action_custom_title: <#ffd470>Linha de ação personalizada
+    action_finish_quest_lore: <#a8a8a8>Conclui a missão especificada ao clicar.
+    action_finish_quest_title: <#79d679>Concluir missão 
+      <#a8a8a8>(quest:finish:<id>)
+    action_goto_lore: <#a8a8a8>Pular para outro nó de diálogo.
+    action_goto_title: <#79d679>Ir para o nó <#a8a8a8>(dialogue:<node>)
+    action_node_link_lore: <#a7ff99>Botão Esquerdo <#a8a8a8>para vincular esta linha
+    action_node_link_title: <#ffd470>{key}
+    action_player_cmd_lore: <#a8a8a8>Forçar o jogador a executar um comando.
+    action_player_cmd_title: <#7dd3ff>Comando do jogador <#a8a8a8>(player:<cmd>)
+    action_start_quest_lore: <#a8a8a8>Inicia a missão especificada ao clicar.
+    action_start_quest_title: <#79d679>Iniciar missão <#a8a8a8>(quest:start:<id>)
+    add_lore_empty: <#a7ff99>Botão Direito <#cccccc>- Criar linha vazia
+    cond_clear: <#ffe999>Botão Direito <#a8a8a8>para limpar todas as condições
+    cond_current_title: <#ffd470>Condições atuais
+    cond_gui_title: '&0Condições: Resposta #{num}-'
+    cond_none: <#ed6868>Sem condições. A resposta é sempre visível.
+    cond_perm_lore: '<#a8a8a8>Ex: permission:minha.perm'
+    cond_perm_prompt: 'Digite a permissão:'
+    cond_perm_title: <#79d679>Exigir permissão (Permission)
+    cond_quest_lore: '<#a8a8a8>Ex: quest_state:<id>:COMPLETED'
+    cond_quest_prompt: 'Digite o estado necessário (ACTIVE/COMPLETED/NOT_STARTED):'
+    cond_quest_title: <#79d679>Exigir estado da missão
+    cond_raw_lore: <#a8a8a8>Inserir condição manualmente.
+    cond_raw_prompt: 'Digite a string da condição:'
+    cond_raw_title: <#ffd470>String de condição personalizada
+    cpt_click:
+    - <#a7ff99>Botão Esquerdo <#cccccc>- Adicionar 1 caractere
+    - <#a7ff99>Botão Direito <#cccccc>- Remover 1 caractere
+    - <#ffe999>Shift+Botão Esquerdo <#cccccc>- Adicionar 10 caracteres
+    - <#ffe999>Shift+Botão Direito <#cccccc>- Remover 10 caracteres
+    - <#d9a752>Trocar (F) <#cccccc>- Inserir manualmente
+    cpt_lore:
+    - <#a8a8a8>Velocidade de saída de texto (caracteres por tick).
+    - '<#a8a8a8>Atual: <#ffffff>{cpt} caracteres'
+    cpt_prompt: '<#ffd470>Digite a quantidade de caracteres por tick (ex: 1-5):'
+    cpt_title: <#ffd470>Velocidade de saída de texto
+    delete_right_click_warn: Use o <#ffe999>Botão Direito para excluir!
+    dialogue_tutorial_lore:
+    - <#a8a8a8>Clique para ler o tutorial
+    dialogue_tutorial_title: '&0Guia: Como criar um diálogo?'
+    dialogue_tutorial_item_title: '<#ffd470>Guia: Como criar um diálogo?'
+    dialogue_validator_lore:
+    - '<#cccccc>Inicia uma análise detalhada do diálogo no chat.'
+    dialogue_validator_title: '<#ffe999>Verificar erros'
+    id_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar ID
+    id_exists: Um diálogo com este ID já existe!
+    id_lore: '<#a8a8a8>ID atual: <#ffffff>{id}'
+    id_prompt: '<#ffd470>Digite o novo ID do diálogo:'
+    id_success: '{prefix}<#78b185>✔ <#ffffff>ID do diálogo alterado com sucesso para <#ffffff>{id}'
+    id_title: <#ffd470>ID do Diálogo
+    node_id_title: '<#ffd470>ID do Nó'
+    item_clone: <#d9a752>Trocar (F) <#cccccc>- Clonar linha
+    item_move_down: <#ffe999>Shift+Botão Direito <#cccccc>- Mover para baixo
+    item_move_up: <#ffe999>Shift+Botão Esquerdo <#cccccc>- Mover para cima
+    keys_list: '<#a8a8a8>Requisitos: <#ffffff>{keys}'
+    keys_more: ' <#6e6e6e>(+mais {count})'
+    keys_none: '<#a8a8a8>Chaves: <#ffffff>nenhuma'
+    name_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar nome do NPC
+    name_lore: '<#a8a8a8>Nome atual: <#ffffff>{name}'
+    name_prompt: '<#ffd470>Digite o nome do NPC que será visível durante a conversa:'
+    name_title: <#a8a8a8>Nome do NPC no diálogo
+    node_opts_click: <#a7ff99>Botão Esquerdo <#a8a8a8>para alterar as respostas
+    node_opts_lore:
+    - '<#a8a8a8>Respostas atuais: <#ffd470>{count}'
+    node_opts_title: <#ffd470>Respostas do jogador
+    node_quick_reply_lore: <#a8a8a8>Cria automaticamente uma nova resposta e a vincula 
+      a um novo nó.
+    node_quick_reply_text: <#6e6e6e>[Continuar...]
+    node_quick_reply_title: <#55ff55>Resposta rápida
+    node_sound_click: <#a7ff99>Botão Esquerdo <#a8a8a8>para alterar o som
+    node_sound_lore:
+    - '<#a8a8a8>Atual: <#ffffff>{sound}'
+    node_sound_title: <#ffd470>Som ao clicar
+    node_text_click: <#a7ff99>Botão Esquerdo <#a8a8a8>para alterar o texto do NPC
+    node_text_lore:
+    - '<#a8a8a8>NPC diz:'
+    node_text_more: '  <#a8a8a8>... e mais {count}.'
+    node_text_title: <#ffd470>Texto do NPC
+    nodes_add_default_text: '  <#c8c8c8>Olá, viajante!'
+    nodes_add_lore: '<#a8a8a8>Cria um novo nó de diálogo (ex: start, choice_1)'
+    nodes_add_prompt: '<#ffd470>Digite o nome do novo nó (ex: start ou node_2):'
+    nodes_add_success: '{prefix}<#78b185>✔ <#ffffff>Criou um novo nó: <#ffffff>{node}<#a8a8a8>'
+    nodes_add_title: <#55ff55>Adicionar novo nó
+    nodes_click: <#a7ff99>Botão Esquerdo <#cccccc>- Abrir listas de nós e textos
+    nodes_del_confirm_desc: Tem certeza de que deseja excluir o nó {node}?
+    nodes_del_confirm_title: '&0Excluindo nó'
+    nodes_del_success: '{prefix}<#78b185>✔ <#ffffff>Nó <#ffffff>{node}<#a8a8a8> excluído!'
+    nodes_edit_gui_title: '&0Texto do nó: '
+    nodes_gui_title: '&0Nós: '
+    node_gui_title: '&0Nó: '
+    nodes_item_click:
+    - <#a7ff99>Botão Esquerdo <#cccccc>- Editar nó
+    - <#ed6868>Soltar (Q) <#cccccc>- Excluir nó
+    nodes_item_normal: '<#a8a8a8>Nó: <#ffffff>{node}'
+    nodes_item_start: <#7eb87e>[Início] start
+    nodes_lines: '<#a8a8a8>Número de linhas: <#ffffff>{count}'
+    nodes_lore:
+    - '<#a8a8a8>Total de nós: <#ffffff>{count}'
+    nodes_text: '<#a8a8a8>Texto:'
+    nodes_text_more: '  <#6e6e6e>... (+mais {count} linhas)'
+    nodes_title: <#ffd470>Nós do diálogo (Nodes)
+    opt_action_lore:
+    - '<#a8a8a8>Ação atual:'
+    - <#ffffff>{action}
+    - <#a7ff99>Botão Esquerdo <#a8a8a8>para abrir o Construtor de Ações
+    opt_action_title: <#79d679>Construtor de Ações
+    opt_back_lore: <#a8a8a8>Retornar à lista de respostas
+    opt_conds_lore:
+    - '<#a8a8a8>Condições: <#ffd470>{count}'
+    - <#a7ff99>Botão Esquerdo <#a8a8a8>para alterar as condições
+    opt_conds_title: <#ffd470>Condições de exibição
+    opt_create_node_lore: <#a8a8a8>Cria automaticamente um novo nó e vincula 
+      esta resposta a ele.
+    opt_create_node_title: <#55ff55>Criar e vincular nó
+    opt_edit_cond_title: '<#6e6e6e>Condições (Resposta #{num}-)'
+    opt_action_gui_title: '&0Ações: #{num}-'
+    opt_edit_current: '<#a8a8a8>Atual: <#ffffff>{current}'
+    opt_edit_gui_title: '&0Resposta #{num}-'
+    opt_edit_lore_title: '<#6e6e6e>Descrição (Resposta #{num}-)'
+    opt_edit_prompt_mat: 'Digite o nome do material (Bukkit Material):'
+    opt_edit_prompt_mat_invalid: <#ed6868>Material inválido!
+    opt_edit_prompt_slot: 'Digite o número do slot (ou -1):'
+    opt_edit_prompt_sound: 'Digite o nome do som (Bukkit Sound) ou ''none'':'
+    opt_edit_prompt_text: 'Digite o texto da resposta do jogador:'
+    opt_linked_action_lore: '<#a8a8a8>Executa a ação: <#ffffff>{action}'
+    opt_linked_close_lore: '<#a8a8a8>Leva a: <#ffffff>Fechamento do diálogo'
+    opt_linked_node_lore: '<#a8a8a8>Leva a: <#ffffff>Nó {node}'
+    opt_linked_node_missing_lore: '<#ed6868>Leva a: Nó {node} (NÃO ENCONTRADO!)'
+    opt_list_action: '<#a8a8a8>Ação: <#79d679>{action}'
+    opt_list_add_lore: <#a8a8a8>Clique para criar uma nova resposta.
+    opt_list_add_title: <#79d679>Adicionar Resposta
+    opt_list_click:
+    - <#a7ff99>Botão Esquerdo <#a8a8a8>para editar
+    - <#ed6868>Soltar (Q) <#a8a8a8>para excluir
+    opt_list_del_desc: '<#a8a8a8>Tem certeza de que deseja excluir <#a8a8a8>Resposta #{index}?'
+    opt_list_del_title: <#ed6868>Excluir resposta?
+    opt_list_del_gui_title: '&0Excluir resposta?'
+    opt_list_gui_title: '&0Respostas: '
+    opt_list_item_title: '<#ffd470>Resposta #{index}'
+    opt_list_slot: '<#a8a8a8>Slot: <#ffd470>{slot}'
+    opt_list_text: '<#a8a8a8>Texto: <#ffffff>{text}'
+    opt_material_lore:
+    - '<#a8a8a8>Atual: <#ffffff>{material}'
+    - <#a7ff99>Botão Esquerdo <#a8a8a8>para inserir o nome
+    - <#7dd3ff>Soltar (Q) item <#a8a8a8>aqui para definir
+    opt_material_title: <#ffd470>Ícone da resposta (Material)
+    opt_reply_lore_lore:
+    - '<#a8a8a8>Linhas: <#ffd470>{count}'
+    - <#a7ff99>Botão Esquerdo <#a8a8a8>para alterar a descrição
+    opt_reply_lore_title: <#ffd470>Descrição da resposta (Lore)
+    opt_reply_text_lore:
+    - '<#a8a8a8>Atual: <#ffffff>{text}'
+    - <#a7ff99>Botão Esquerdo <#a8a8a8>para alterar o texto
+    opt_reply_text_title: <#ffd470>Texto da resposta
+    opt_slot_lore:
+    - '<#a8a8a8>Atual: <#ffd470>{slot}'
+    - <#a8a8a8>Defina -1 para posicionamento automático.
+    - <#a7ff99>Botão Esquerdo <#a8a8a8>para +1
+    - <#ffe999>Botão Direito <#a8a8a8>para -1
+    - <#ed6868>Soltar (Q) <#a8a8a8>para inserir no chat
+    opt_slot_title: <#ffd470>Slot do inventário
+    opt_sound_lore:
+    - '<#a8a8a8>Atual: <#ffffff>{sound}'
+    - <#a7ff99>Botão Esquerdo <#a8a8a8>para alterar o som
+    opt_sound_title: <#ffd470>Som ao clicar
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Erro ao salvar dialogues.yml!'
+    tutorial_footer: '<#6e6e6e>=============================
+      '
+    tutorial_header: '
+      <#6e6e6e>=== <#7dd3ff>Como criar diálogos <#6e6e6e>==='
+    tutorial_step1_title: '<#ffd470>Passo 1: Início do diálogo'
+    tutorial_step1_lore:
+    - '<#a8a8a8>Todo diálogo deve ter um ponto de partida.'
+    - '<#a8a8a8>Clique em <#a7ff99>''Nós do diálogo''<#a8a8a8> e crie'
+    - '<#a8a8a8>o primeiro nó com o ID <#a7ff99>''start''<#a8a8a8>.'
+    - '<#a8a8a8>Aqui é onde o NPC iniciará a conversa.'
+    tutorial_step2_title: '<#ffd470>Passo 2: Texto do nó'
+    tutorial_step2_lore:
+    - '<#a8a8a8>Após criar um nó, clique nele.'
+    - '<#a8a8a8>Configure o texto que o NPC falará.'
+    - '<#a8a8a8>Você pode usar códigos de cores e'
+    - '<#a8a8a8>marcadores (ex: <#a7ff99>{player}<#a8a8a8>).'
+    tutorial_step3_title: '<#ffd470>Passo 3: Opções de resposta'
+    tutorial_step3_lore:
+    - '<#a8a8a8>Para tornar o diálogo interativo, adicione'
+    - '<#a7ff99>opções de resposta <#a8a8a8>para o jogador.'
+    - '<#a8a8a8>Vá até as configurações do nó e'
+    - '<#a8a8a8>crie várias respostas possíveis.'
+    tutorial_step4_title: '<#ffd470>Passo 4: Links e transições'
+    tutorial_step4_lore:
+    - '<#a8a8a8>Cada resposta do jogador deve levar a'
+    - '<#a8a8a8>outro nó do NPC ou encerrar o diálogo.'
+    - '<#a8a8a8>Vincule cada resposta ao ID do'
+    - '<#a8a8a8>próximo nó.'
+    tutorial_step5_title: '<#ffd470>Passo 5: Condições (Conditions)'
+    tutorial_step5_lore:
+    - '<#a8a8a8>Algumas respostas podem ser ocultadas do jogador.'
+    - '<#a8a8a8>Nas configurações de resposta, você pode especificar'
+    - '<#a8a8a8>requisitos: ter uma permissão (permission)'
+    - '<#a8a8a8>ou um estado específico da missão.'
+    tutorial_step6_title: '<#ffd470>Passo 6: Ações (Actions)'
+    tutorial_step6_lore:
+    - '<#a8a8a8>Escolher uma resposta pode desencadear certos eventos.'
+    - '<#a8a8a8>Além de pular para o próximo nó,'
+    - '<#a8a8a8>você pode iniciar ou entregar automaticamente uma missão,'
+    - '<#a8a8a8>ou executar um comando em nome do jogador/console.'
+    tutorial_step7_title: '<#ffd470>Passo 7: Validador de Diálogo'
+    tutorial_step7_lore:
+    - '<#a8a8a8>Quando o diálogo estiver pronto, certifique-se de usar'
+    - '<#a7ff99>o Validador <#a8a8a8>no menu principal do editor.'
+    - '<#a8a8a8>Ele verificará seu diálogo em busca de'
+    - '<#a8a8a8>links quebrados e nós inacessíveis.'
+    update_period_click:
+    - <#a7ff99>Botão Esquerdo <#cccccc>- Adicionar 1 tick
+    - <#a7ff99>Botão Direito <#cccccc>- Remover 1 tick
+    - <#ffe999>Shift+Botão Esquerdo <#cccccc>- Adicionar 10 ticks
+    - <#ffe999>Shift+Botão Direito <#cccccc>- Remover 10 ticks
+    - <#d9a752>Trocar (F) <#cccccc>- Inserir manualmente
+    update_period_lore:
+    - <#a8a8a8>Com que frequência o texto é atualizado (em ticks).
+    - '<#a8a8a8>Atual: <#7dd3ff>{ticks} ticks'
+    update_period_prompt: '<#ffd470>Digite a quantidade de ticks (1-100):'
+    update_period_title: <#ffd470>Velocidade de atualização do texto
+    validator_dead_link: 'A resposta {node} leva a um nó inexistente {target}! (resposta
+      #{index})'
+    validator_footer: '<#c8beaa>Resumo: <#b0b8c1>{errors} erros, <#c4b5b5>{warnings}
+      avisos.'
+    validator_header: '<#b0b8c1>=== <#6aa0c9>Estado do diálogo: <#e2e8f0>{id} <#b0b8c1>==='
+    validator_links_ok: 'O diálogo está totalmente pronto e não tem problemas!'
+    validator_start_missing: 'Nó inicial ''start'' ausente!'
+    voice_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar tipo de voz
+    voice_lore: '<#a8a8a8>Voz: <#ffffff>{voice}'
+    voice_prompt: '<#ffd470>Digite o tipo de som (villager, none ou custom):'
+    voice_title: <#ffd470>Som da voz do diálogo
+    opt_reply_text_click: '<#a8a8a8>Clique para editar o texto'
+    opt_reply_lore_click: '<#a8a8a8>Clique para editar a descrição'
+    opt_material_click: '<#a8a8a8>Clique para editar o ícone'
+    opt_sound_click: '<#a8a8a8>Clique para editar o som'
+    opt_action_click: '<#a8a8a8>Clique para editar as ações'
+    opt_conds_click: '<#a8a8a8>Clique para editar as condições'
+    action_player_prompt: '&aDigite o comando a ser executado como jogador:'
+    action_console_prompt: '&aDigite o comando a ser executado pelo console:'
+  eff_reward:
+    add_lore: <#a7ff99>Botão Esquerdo <#cccccc>- Escolher efeito
+    click_add_10s: <#ffe999>Shift+Botão Esquerdo <#cccccc>- Adicionar 10 seg
+    click_add_1s: <#a7ff99>Botão Esquerdo <#cccccc>- Adicionar 1 seg
+    click_custom_dur: <#d9a752>Trocar (F) <#cccccc>- Inserir duração personalizada
+    click_delete: <#ed6868>Soltar (Q) <#cccccc>- Excluir
+    click_edit: <#a7ff99>Botão Esquerdo <#cccccc>- Editar efeito
+    click_move_down: <#ffe999>Shift+Botão Direito <#cccccc>- Mover para baixo
+    click_move_up: <#ffe999>Shift+Botão Esquerdo <#cccccc>- Mover para cima
+    click_remove_10s: <#ffe999>Shift+Botão Direito <#cccccc>- Subtrair 10 seg
+    click_remove_1s: <#a7ff99>Botão Direito <#cccccc>- Subtrair 1 seg
+    click_set_level: <#d9a752>1-9 <#cccccc>- Definir nível do efeito
+    descriptions:
+      ABSORPTION: <#cccccc>Concede corações de ouro adicionais.
+      BAD_OMEN: <#cccccc>Desencadeia uma invasão ao entrar em uma vila.
+      BLINDNESS: <#cccccc>Prejudica a visibilidade do jogador.
+      BREATH_OF_THE_NAUTILUS: <#cccccc>Concede respiração aquática (Canalizador).
+      CONDUIT_POWER: <#cccccc>Concede respiração aquática, visão e pressa.
+      CONFUSION: <#cccccc>Causa um efeito de tontura.
+      DAMAGE_RESISTANCE: <#cccccc>Reduz o dano recebido.
+      DARKNESS: <#cccccc>Escurece a visão do jogador.
+      DOLPHINS_GRACE: <#cccccc>Aumenta a velocidade de natação.
+      FAST_DIGGING: <#cccccc>Aumenta a velocidade de mineração.
+      FIRE_RESISTANCE: <#cccccc>Concede imunidade a fogo e lava.
+      GLOWING: <#cccccc>Destaca o contorno do jogador.
+      HARM: <#cccccc>Causa dano instantaneamente.
+      HEAL: <#cccccc>Restaura a vida instantaneamente.
+      HEALTH_BOOST: <#cccccc>Adiciona corações de vida extras.
+      HERO_OF_THE_VILLAGE: <#cccccc>Descontos de aldeões.
+      HUNGER: <#cccccc>Esgota a fome mais rápido.
+      INCREASE_DAMAGE: <#cccccc>Aumenta o dano corpo a corpo.
+      INFESTED: <#cccccc>Gera traças ao sofrer dano.
+      INVISIBILITY: <#cccccc>Torna o jogador invisível.
+      JUMP: <#cccccc>Aumenta a altura do salto.
+      LEVITATION: <#cccccc>Faz o jogador flutuar para cima.
+      LUCK: <#cccccc>Aumenta a sorte.
+      NIGHT_VISION: <#cccccc>Permite ver no escuro.
+      OOZING: <#cccccc>Gera slimes ao morrer.
+      POISON: <#cccccc>Causa dano gradualmente (não pode matar).
+      RAID_OMEN: <#cccccc>Desencadeia uma invasão ao se aproximar de uma vila.
+      REGENERATION: <#cccccc>Restaura a vida gradualmente.
+      SATURATION: <#cccccc>Restaura a fome instantaneamente.
+      SLOW: <#cccccc>Diminui a velocidade de movimento.
+      SLOW_DIGGING: <#cccccc>Diminui a velocidade de mineração.
+      SLOW_FALLING: <#cccccc>Retarda a velocidade de queda.
+      SPEED: <#cccccc>Aumenta a velocidade de movimento.
+      TRIAL_OMEN: <#cccccc>Aumenta a dificuldade do desafio.
+      UNLUCK: <#cccccc>Diminui a sorte.
+      WATER_BREATHING: <#cccccc>Permite respirar debaixo d'água.
+      WEAKNESS: <#cccccc>Reduz o dano causado.
+      WEAVING: <#cccccc>Gera teias de aranha ao morrer.
+      WIND_CHARGED: <#cccccc>Desencadeia uma rajada de vento ao morrer.
+      WITHER: <#cccccc>Causa dano gradualmente (pode matar).
+    duration_format: '<#8a8a8a>Duração: <#55e655>{secs} seg <#555555>({time})'
+    duration_format_raw: '<#8a8a8a>Duração: <#55e655>{dur} seg'
+    item_format: '<#79d679>Efeito #{index}'
+    level_format: '<#8a8a8a>Força (Nível): <#55e6e6>{level}'
+    prompt_add: '<#8a8a8a>Digite o efeito no formato <#ed6868>EFEITO:NÍVEL:TEMPO<#8a8a8a>
+      (ex: SPEED:1:200):'
+    prompt_dur: '<#8a8a8a>Digite a duração do efeito em segundos:'
+    prompt_edit: '<#8a8a8a>Digite o novo formato do efeito <#ed6868>EFEITO:NÍVEL:TEMPO<#8a8a8a>:'
+    selector_title: Escolher efeito
+    type_format: '<#8a8a8a>Tipo de efeito: <#e6e655>{type}'
+  entity_selector:
+    click: <#a7ff99>Botão Esquerdo <#cccccc>- Escolher entidade
+    title: '&0Escolher mob/entidade'
+  global_settings:
+    error_not_number: Digite um número!
+    limit_click: <#79d679>Clique para alterar
+    limit_lore:
+    - '<#a8a8a8>Chave: <#ffffff>personal-limit'
+    - '<#a8a8a8>Atual: <#ffffff>{val}'
+    limit_prompt: '<#ffd470>Digite o novo valor para personal-limit:'
+    limit_title: <#ffd470>Limite pessoal
+    max_p_click: <#79d679>Clique para alterar
+    max_p_lore:
+    - '<#a8a8a8>Chave: <#ffffff>max-participants'
+    - '<#a8a8a8>Atual: <#ffffff>{val}'
+    max_p_prompt: '<#ffd470>Digite o novo valor para max-participants:'
+    max_p_title: <#ffd470>Participantes máximos
+    min_p_click: <#79d679>Clique para alterar
+    min_p_lore:
+    - '<#a8a8a8>Chave: <#ffffff>min-participants'
+    - '<#a8a8a8>Atual: <#ffffff>{val}'
+    min_p_prompt: '<#ffd470>Digite o novo valor para min-participants:'
+    min_p_title: <#ffd470>Participantes mínimos
+    step_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar
+    step_lore:
+    - '<#a8a8a8>Chave: <#ffffff>reward-step'
+    - '<#a8a8a8>Valor: <#ffffff>{val}'
+    step_prompt: '<#ffd470>Digite um novo número para reward-step:'
+    step_title: <#ffd470>Etapa de recompensa
+    title: '&0Configurações do motor: {id}'
+  health_check:
+    err_missing_name: Nome da missão ausente (name)
+    err_missing_stages: Etapas ausentes/stages
+    err_no_name: Nome da missão ausente (name)
+    err_no_stages: Etapas ausentes (stages)
+    header: '=== Análise de saúde da missão: {id} ==='
+    success: '{prefix}<#78b185>✔ <#ffffff>A missão está totalmente pronta e não tem problemas!'
+    summary: 'Resumo: {errors} erros, {warnings} avisos.'
+    title: '<#b0b8c1>=== <#6aa0c9>Estado da missão: <#e2e8f0>{id} <#b0b8c1>==='
+    warn_missing_mandatory_prop: 'Etapa {stage}: propriedade obrigatória ausente ''{prop}'''
+    warn_no_rewards: A missão não contém recompensas (rewards)
+    warn_npc_not_found: '{prefix}<#d9a752>⚠ <#ffffff>Etapa {stage}: NPC ''{npc}'' não encontrado em npcs.yml'
+    warn_obj_prop: 'Aviso: propriedade do objeto'
+    warn_objective_missing_prop: 'Objetivo: propriedade obrigatória ausente ''{prop}'''
+    warn_stage_empty: A etapa está vazia
+    warn_stage_npc: NPC da etapa não está configurado
+    warn_stage_prop: A etapa tem uma propriedade inválida
+    warn_unconfigured_stage: 'Etapa {stage}: objetivo ou materiais não configurados'
+  list:
+    clone_prompt: '<#ffd470>Digite o ID para a missão copiada:'
+    confirm_del_desc: Tem certeza de que deseja excluir a missão {id}?
+    confirm_del_title: ✖ Excluir missão
+    error_clone: '{prefix}<#c96a6a>✖ <#ffffff>Erro durante a clonagem!'
+    error_clone_exists: '{prefix}<#c96a6a>✖ <#ffffff>Uma missão com este ID já existe!'
+    error_create: '{prefix}<#c96a6a>✖ <#ffffff>Erro durante a criação da missão.'
+    filter_lore_next: <#a7ff99>Botão Esquerdo <#cccccc>- Próximo modo
+    filter_lore_prev: <#a7ff99>Botão Direito <#cccccc>- Modo anterior
+    filter_lore_title: '<#a8a8a8>Modos de ordenação:'
+    filter_title: <#ffd470>Filtro / Ordenação
+    item_clone: <#d9a752>Trocar (F) <#cccccc>- Clonar missão
+    item_delete: <#ed6868>Soltar (Q) <#cccccc>- Excluir missão
+    item_edit: <#a7ff99>Botão Esquerdo <#cccccc>- Editar missão
+    item_engine: '<#a8a8a8>Motor: <#7dd3ff>{engine}'
+    item_type: '<#a8a8a8>Tipo: <#ffffff>{type}'
+    mode_cre_new: Criado (Mais recentes primeiro)
+    mode_cre_old: Criado (Mais antigos primeiro)
+    mode_engine_chain: 'Filtro: Motor CHAIN'
+    mode_engine_default: 'Filtro: Motor DEFAULT'
+    mode_engine_global: 'Filtro: Motor GLOBAL'
+    mode_engine_rotation: 'Filtro: Motor ROTATION'
+    mode_id_asc: Por ID (A-Z)
+    mode_id_desc: Por ID (Z-A)
+    mode_issue: 'Filtro: Precisa de atenção'
+    mode_mod_new: Modificado (Mais recentes primeiro)
+    mode_mod_old: Modificado (Mais antigos primeiro)
+    mode_type: Por tipo de missão
+    msg_clone_success: '{prefix}<#78b185>✔ <#ffffff>Missão clonada com sucesso como <#ffffff>{id}'
+    msg_del_success: '{prefix}<#78b185>✔ <#ffffff>Missão {id} <#79d679>excluída com sucesso!'
+    search_all: '<#a8a8a8>Pesquisa: <#ffffff>Tudo'
+    search_click: <#a7ff99>Botão Esquerdo <#cccccc>- Pesquisar (ou limpar)
+    search_prompt: '<#ffd470>Digite o texto para pesquisar missões (ou limpar):'
+    search_query: '<#a8a8a8>Pesquisa: <#ffffff>{query}'
+  list_string_editor:
+    add_lore: <#a7ff99>Botão Esquerdo <#cccccc>- Digite o texto.
+    add_lore_empty: <#a7ff99>Botão Direito <#cccccc>- Criar linha vazia
+    delete_confirm_item: Excluir linha
+    delete_confirm_msg: '<#ffd470>Tem certeza de que deseja excluir a linha #{index}?'
+    delete_confirm_title: '&0Excluir linha'
+    item_clone: <#d9a752>Trocar (F) <#cccccc>- Clonar linha
+    item_delete: <#ed6868>Soltar (Q) <#cccccc>- Excluir linha
+    item_edit: <#a7ff99>Botão Esquerdo <#cccccc>- Editar linha
+    item_format: '<#ffffff>Linha #{index}'
+    item_move_down: <#ffe999>Shift+Botão Direito <#cccccc>- Mover para baixo
+    item_move_up: <#ffe999>Shift+Botão Esquerdo <#cccccc>- Mover para cima
+    prompt_add: '<#ffd470>Digite o texto para a nova linha:'
+    prompt_edit: 'Editando linha:'
+  main_menu:
+    add_lore_empty: <#ffe999>Botão Direito <#cccccc>- Criar linha vazia
+    back: <#ed6868>Voltar
+    btn_check_lore: <#cccccc>Executa uma análise detalhada da configuração no chat.
+    btn_check_title: <#ffe999>Verificar erros
+    btn_preview_lore: <#cccccc>Mostra a missão como os jogadores a veem.
+    btn_preview_title: <#7dd3ff>Pré-visualização
+    btn_save_changes: ' <#ffd470>(* Alterações)'
+    btn_save_lore_unsaved: <#ffd470>Botão Esquerdo <#cccccc>- Salvar alterações
+    btn_save_lore_saved: <#ffe999>Nenhuma alteração não salva
+    btn_save_title: <#55ff55>Salvar arquivo
+    cmd_lore:
+    - <#a8a8a8>Para texturas de itens personalizados.
+    - '<#a8a8a8>Valor atual: <#ffffff>{cmd}'
+    cmd_prompt: '<#ffd470>Digite o número do Custom Model Data (ou 0):'
+    cmd_title: <#ffd470>Modelo (Custom Model Data)
+    cooldown_click: <#a7ff99>Botão Esq. (+1) / Botão Dir. (-1) / <#d9a752>Trocar (F) <#cccccc>- 
+      Manualmente
+    cooldown_lore: '<#a8a8a8>Tempo de recarga: <#ffffff>{time} <#a8a8a8>({secs}s)'
+    cooldown_none: Sem tempo de recarga
+    cooldown_title: <#ffd470>Tempo de recarga
+    desc_click: <#a7ff99>Botão Esquerdo <#cccccc>- Editar
+    desc_gui_title: '&0Descrição: '
+    desc_title: <#ffd470>Descrição da missão
+    effects_activate_lore: '<#a8a8a8>Atual: <#ffffff>{val}'
+    effects_activate_title: <#ffd470>Efeito ao aceitar missão
+    effects_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar
+    effects_click_drop: <#ed6868>Soltar (Q) <#cccccc>- Excluir
+    effects_click_swap: <#d9a752>Trocar (F) <#cccccc>- Manualmente
+    effects_complete_lore: '<#a8a8a8>Atual: <#ffffff>{val}'
+    effects_complete_title: <#ffd470>Efeito ao concluir missão
+    effects_gui_selection_item_play: <#d9a752>Trocar (F) <#cccccc>- Tocar efeito
+    effects_gui_selection_item_title: <#ffd470>Predefinição de efeito
+    effects_gui_selection_title: '&0Selecionar predefinição de efeito'
+    effects_gui_title: '&0Efeitos da missão: '
+    effects_lore: <#a7ff99>Botão Esquerdo <#cccccc>- Configurar predefinições de efeitos
+    effects_stage_lore: '<#a8a8a8>Atual: <#ffffff>{val}'
+    effects_stage_title: <#ffd470>Efeito de mudança de etapa
+    effects_title: <#ffd470>Efeitos da missão
+    engine_lore: '<#a8a8a8>Selecionado: <#ffffff>{engine}'
+    engine_title: <#ffd470>Motor de Missão
+    global_click: <#a7ff99>Botão Esquerdo <#cccccc>- Abrir
+    global_lore:
+    - <#a8a8a8>Para missões concluídas por todos os jogadores juntos.
+    - <#a8a8a8>Definição de limites e etapas de recompensa.
+    global_title: <#ffd470>Objetivos globais do servidor
+    gui_title: '&0Editando: '
+    health_click: <#a7ff99>Botão Esquerdo <#cccccc>- Executar verificação
+    health_lore: <#a8a8a8>Verifica a configuração em busca de erros e campos ausentes.
+    health_title: <#ffb366>Análise de saúde da missão
+    icon_basehead_click: '&eTrocar (F) &8- &7Inserir cabeça-base'
+    icon_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar ícone
+    icon_click_left: <#a7ff99>Botão Esquerdo <#cccccc>- Selecionar material do ícone
+    icon_click_right: <#a7ff99>Botão Direito <#cccccc>- Alterar CustomModelData
+    icon_cmd: '<#a8a8a8>CustomModelData: <#ffffff>{cmd}'
+    icon_lore: '<#a8a8a8>Selecionado: <#ffffff>{icon}'
+    icon_mat: '<#a8a8a8>Material: <#ffffff>{mat}'
+    icon_title: <#ffd470>Ícone da missão
+    id_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar ID
+    id_error_exists: '{prefix}<#c96a6a>✖ <#ffffff>Missão com o ID {id} já existe!'
+    id_error_invalid: '{prefix}<#c96a6a>✖ <#ffffff>Formato de ID inválido!'
+    id_lore: '<#a8a8a8>ID atual: <#ffffff>{id}'
+    id_name: <#ffd470>ID da Missão
+    id_prompt: '<#ffd470>Digite o novo ID da missão (ex: minha_missao):'
+    id_title: <#ffd470>ID da Missão
+    node_id_title: '<#ffd470>ID do Nó'
+    item_clone: <#d9a752>Trocar (F) <#cccccc>- Clonar linha
+    item_move_down: <#ffe999>Shift+Botão Direito <#cccccc>- Mover para baixo
+    item_move_up: <#ffe999>Shift+Botão Esquerdo <#cccccc>- Mover para cima
+    name_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar
+    name_lore: '<#a8a8a8>Atual: <#ffffff>{name}'
+    name_missing: <#ed6868>O nome da missão está ausente!
+    name_prompt: '<#ffd470>Digite o nome da missão no chat:'
+    name_title: <#ffd470>Nome da missão
+    name_title_has: <#ffd470>Nome da missão
+    name_title_none: <#ed6868>O nome da missão está ausente!
+    not_specified: Não especificado
+    page_lore: '<#a8a8a8>Página atual: <#ffffff>{page}'
+    page_prompt: '<#ffd470>Digite a página (página, a partir de 1):'
+    page_title: <#ffd470>Página
+    perm_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar
+    perm_lore: '<#a8a8a8>Permissão: <#ffffff>{perm}'
+    perm_none: Não especificada
+    perm_prompt: '<#ffd470>Digite a permissão (ou none):'
+    perm_title: <#ffd470>Permissão necessária
+    preview_click: <#a7ff99>Botão Esquerdo <#cccccc>- Abrir pré-visualização
+    preview_lore: <#a8a8a8>Mostrar a missão como o jogador a vê no menu.
+    preview_title: <#7dd3ff>Pré-visualização da missão
+    req_quests_add: <#79d679>Adicionar missão
+    req_quests_add_lore: <#a7ff99>Botão Esquerdo <#cccccc>- Selecionar missão da lista.
+    req_quests_click: <#a7ff99>Botão Esquerdo <#cccccc>- Editar
+    req_quests_del: <#ed6868>Soltar (Q) <#cccccc>- Excluir missão
+    req_quests_edit: <#a7ff99>Botão Esquerdo <#cccccc>- Substituir por outra missão
+    req_quests_gui_title: '&0Missões ant.: '
+    req_quests_lore: <#a8a8a8>Missões que devem ser concluídas antes desta.
+    req_quests_title: <#ffd470>Requisitos (Missões anteriores)
+    req_quests_unknown: <#ffffff>Missão desconhecida ({id})
+    rew_desc_click: <#a7ff99>Botão Esquerdo <#cccccc>- Editar
+    rew_desc_gui_title: '&0Descrição de recompensas: '
+    rew_desc_title: <#ffd470>Descrição de recompensas
+    rewards_click: <#a7ff99>Botão Esquerdo <#cccccc>- Abrir configurações de recompensas
+    rewards_gui_title: '&0Recompensas: '
+    rewards_lore: <#a7ff99>Botão Esquerdo <#cccccc>- Configurar recompensas
+    rewards_title: <#ffd470>Recompensas da missão
+    rot_pool_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar
+    rot_pool_lore:
+    - <#a8a8a8>A missão será escolhida aleatoriamente deste grupo.
+    rot_pool_lore3: '<#a8a8a8>Atual: <#ffffff>{pool}'
+    rot_pool_lore3_none: <#ed6868>Grupo não especificado. A missão não estará em 
+      rotação.
+    rot_pool_prompt: '<#ffd470>Digite o nome do grupo (ou none):'
+    rot_pool_title: <#ffd470>Grupo da Missão (Grupo de Rotação)
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Erro ao salvar arquivo!'
+    save_success: '{prefix}<#78b185>✔ <#ffffff>Arquivo da missão <#e2e8f0>{id} <#b0b8c1>salvo com sucesso!'
+    slot_click:
+    - <#a7ff99>Botão Esq. (+1) / Botão Dir. (-1)
+    - <#ffe999>Shift + Botão Esq. (+10) / <#ffe999>Shift + Botão Dir. (-10)
+    - <#d9a752>Trocar (F) <#cccccc>- Inserir manualmente
+    slot_lore: '<#a8a8a8>Slot atual: <#ffffff>{slot}'
+    slot_prompt: '<#ffd470>Digite o slot (slot, de 0-54):'
+    slot_title: <#ffd470>Slot
+    stages_click: <#a7ff99>Botão Esquerdo <#cccccc>- Editar etapas e objetivos
+    stages_count: '<#a8a8a8>Quantidade de etapas: <#ffffff>{count}'
+    stages_lore: '<#a8a8a8>Quantidade de etapas: <#ffffff>{count}'
+    stages_title: <#ffd470>Etapas (Objetivos)
+    stages_title_has: <#ffd470>Etapas (Objetivos)
+    stages_title_none: <#ed6868>Nenhuma etapa na missão!
+    type_click: <#a7ff99>Botão Esquerdo <#cccccc>- Selecionar outro tipo
+    type_lore_engine: '<#a8a8a8>Motor: <#ffffff>{engine}'
+    type_lore_type: '<#a8a8a8>Tipo: <#ffffff>{type}'
+    type_title: <#ffd470>Alterar tipo de missão
+  msg_reward:
+    click_clone: <#d9a752>Trocar (F) <#cccccc>- Clonar
+    click_delete: <#ed6868>Soltar (Q) <#cccccc>- Excluir
+    click_edit: <#a7ff99>Botão Esquerdo <#cccccc>- Editar mensagem
+    click_move_down: <#ffe999>Shift+Botão Direito <#cccccc>- Mover para baixo
+    click_move_up: <#ffe999>Shift+Botão Esquerdo <#cccccc>- Mover para cima
+    click_set_level: <#d9a752>1-9 <#cccccc>- Definir nível do efeito
+    item_format: '<#79d679>Mensagem #{index}'
+    node_id_prompt: 'Digite o novo ID do nó:'
+    opt_edit_prompt_sound: 'Digite o Som do Bukkit (ou "none"):'
+    action_console_prompt: 'Digite o comando do console (sem /):'
+    action_player_prompt: 'Digite o comando do jogador (sem /):'
+    action_raw_prompt: 'Digite a string de ação bruta:'
+    cond_raw_prompt: 'Digite a string de condição bruta:'
+    nodes_edit_gui_title: '&0Nó: '
+  npc_list:
+    create_click_left: <#a7ff99>Botão Esquerdo <#cccccc>- Criar novo NPC
+    create_click_right: <#a7ff99>Botão Direito <#cccccc>- Vincular NPC existente
+    create_existing_prompt: '<#ffd470>Digite o ID exato do NPC EXISTENTE da integração
+      (ex: <#ffffff>1<#ffd470>):'
+    create_prompt: '<#ffd470>Digite o novo ID do NPC (ex: <#ffffff>mercador_1<#ffd470>):'
+    delete_click: <#ed6868>Soltar (Q) <#cccccc>- Excluir NPC
+    dialogue_lore: '<#a8a8a8>Diálogo: <#ff99d4>{dialogue}'
+    edit_click: <#a7ff99>Botão Esquerdo <#cccccc>- Editar NPC
+    id_lore: '<#a8a8a8>ID: <#ffffff>{id}'
+    old_create_prompt: '<#ffd470>Digite o novo ID do NPC (ex: <#ffffff>mercador_1<#ffd470>):'
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Erro ao salvar npcs.yml!'
+  npc_main:
+    default_mood_lore:
+    - '&7Atual: <#fff9c4>{mood}'
+    - '&eClique para alterar o humor padrão'
+    default_mood_prompt: 'Digite o humor (ex: NEUTRAL, HAPPY, ANGRY):'
+    default_mood_title: <#ffeb3b>Humor Padrão
+    delete_confirm_desc: <#a8a8a8>Tem certeza de que deseja excluir este NPC?
+    delete_confirm_item: <#ed6868>Excluir NPC
+    delete_confirm_title: <#ed6868>Confirmar exclusão
+    delete_right_click_warn: <#ff7070>Botão Direito <#cccccc>- Excluir NPC
+    dialogue_click:
+    - <#a7ff99>Botão Esquerdo <#cccccc>- Selecionar da lista de diálogos
+    - <#a7ff99>Botão Direito <#cccccc>- Inserir ID no chat
+    dialogue_gui_title: '&8Seleção de diálogo'
+    dialogue_lore: '<#a8a8a8>Diálogo: <#ffffff>{dialogue}'
+    dialogue_none_title: '&cDesvincular diálogo'
+    dialogue_prompt: '<#ffd470>Digite o ID do diálogo do dialogues.yml (ou none):'
+    dialogue_select_click: '&eClique para selecionar este diálogo'
+    dialogue_title: <#ffd470>Diálogo vinculado
+    error_number: Número inválido!
+    finishes_quests_lore: <#a8a8a8>Missões específicas que este NPC conclui.
+    finishes_quests_title: <#ffd470>Missões específicas (Conclui)
+    finishes_types_lore: <#a8a8a8>Tipos de missão que este NPC conclui.
+    finishes_types_title: <#ffd470>Tipos de missão (Conclui)
+    head_click: <#a7ff99>Botão Esquerdo <#cccccc>- Pegar da mão ou chat
+    head_lore: '<#a8a8a8>Atual: <#ffffff>{head}'
+    head_lore_current: '<#a8a8a8>Atual: <#ffffff>{current}'
+    head_prompt: '<#ffd470>Digite a textura base64 ou "none":'
+    head_texture_lore:
+    - '&7Atual: <#dcedc1>{head}'
+    - '&eClique para alterar a textura base64'
+    head_texture_prompt: 'Digite a textura base64 da cabeça ou "none":'
+    head_texture_title: <#a8e6cf>Textura da Cabeça
+    head_title: <#ffd470>Textura da cabeça
+    id_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar ID do NPC
+    id_lore: '<#a8a8a8>ID atual: <#ffffff>{id}'
+    id_title: <#ffd470>ID (Identificador)
+    node_id_title: '<#ffd470>ID do Nó'
+    linked_blocked_by_quests: <#ff5252>Impossível, porque você já vinculou 
+      missões específicas!
+    linked_blocked_by_types: <#ff5252>Impossível, porque você já vinculou 
+      tipos de missão!
+    linked_config_error_last: '&cA Missão/Tipo deve pelo menos ser dada ou concluída! Para
+      removê-la - pressione a tecla Soltar (Q) na lista.'
+    linked_config_finishes: <#81c784>Conclui missão/tipo
+    linked_config_finishes_lore: <#a8a8a8>Se ativado, este NPC poderá 
+      aceitar a missão concluída.
+    linked_config_starts: <#a7ff99>Inicia missão/tipo
+    linked_config_starts_lore: <#a8a8a8>Se ativado, este NPC poderá 
+      dar a missão.
+    linked_config_title: '&0Configurações'
+    linked_delete_desc: Tem certeza de que deseja remover {id} da lista 
+      vinculada?
+    linked_delete_item: <#ff4d4d>Confirmar exclusão
+    linked_delete_title: '&0Confirmar exclusão'
+    linked_item_click: <#a7ff99>Botão Esquerdo <#cccccc>- Configurar
+    linked_item_drop: <#ed6868>Soltar (Q) <#cccccc>- Excluir
+    linked_item_quest_name: '<#ffd470>Missão: <#ffffff>{id}'
+    linked_item_type_name: '<#ffd470>Tipo: <#ffffff>{id}'
+    linked_quests_list_title: '&0Missões vinculadas'
+    linked_quests_lore: <#a8a8a8>O NPC poderá dar ou concluir as 
+      missões especificadas.
+    linked_quests_title: <#ffab91>Vincular missões específicas
+    linked_selection_click: <#ffe999>Clique para configurar
+    linked_selection_gui_title: '&0Missões/Tipos Vinculados'
+    linked_selection_item_title: <#ffd470>Missões/Tipos Vinculados
+    linked_selection_lore: '<#a8a8a8>Configurar missões e tipos,
+      <#a8a8a8>que este NPC dá ou conclui.'
+    linked_types_list_title: '&0Tipos de missão vinculados'
+    linked_types_lore: <#a8a8a8>O NPC poderá dar ou concluir quaisquer missões
+      dos tipos especificados.
+    linked_types_title: <#90caf9>Vincular tipos de missão
+    mood_click: <#a7ff99>Botão Esquerdo / <#a7ff99>Botão Direito <#cccccc>- Alternar humor
+    mood_lore: '<#a8a8a8>Afeta a animação do NPC.\n<#a8a8a8>Atual: <#ffffff>{mood}'
+    mood_lore_current: '<#a8a8a8>Atual: <#ffffff>{current}'
+    mood_prompt: '<#ffd470>Digite o humor (ex: NEUTRAL, HAPPY, ANGRY):'
+    mood_rule_conds: '&7Condições: &e{count}'
+    mood_rule_delete: '&cSoltar (Q) &7para excluir esta regra'
+    mood_rule_edit_tip: '&c(Para adicionar/alterar, use npcs.yml)'
+    mood_rule_item_title: '&eRegra #{index}: &6{mood}'
+    mood_rule_priority: '&7Prioridade: &e{priority}'
+    mood_rules_add_lore: '&7Por enquanto, regras complexas podem ser adicionadas'
+    mood_rules_add_lore2: '&7apenas manualmente via config npcs.yml.'
+    mood_rules_add_title: '&aAdicionar Regra de Humor'
+    mood_rules_back: '&cVoltar'
+    mood_rules_back_lore: '&7Voltar ao NPC'
+    mood_rules_gui_title: '&8Regras de Humor: &1{id}'
+    mood_rules_lore:
+    - '&7Configuração de regras avançadas'
+    - '&7com base no progresso da missão ou no tempo.'
+    - '&eClique para ver as regras'
+    mood_rules_title: <#ffeb3b>Regras de Humor
+    mood_title: <#ffd470>Humor padrão
+    name_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar
+    name_lore: '<#a8a8a8>Atual: '
+    name_prompt: '<#ffd470>Digite o nome do NPC (ex: <#d0a775>Gustavo):'
+    name_title: <#ffd470>Nome de exibição do NPC
+    offset_click:
+      - '<#a7ff99>Botão Esquerdo <#cccccc>- adicionar 0.1'
+      - '<#a7ff99>Botão Direito <#cccccc>- subtrair 0.1'
+      - '<#ffe999>Shift+Botão Esquerdo <#cccccc>- adicionar 2.5'
+      - '<#ffe999>Shift+Botão Direito <#cccccc>- subtrair 2.5'
+      - '<#d9a752>Trocar (F) <#cccccc>- entrada exata'
+      - '<#ed6868>Soltar (Q) <#cccccc>- redefinir'
+    offset_lore:
+    - <#a8a8a8>Configuração da altura do ícone acima do NPC.
+    - '<#a8a8a8>Deslocamento atual: <#ffffff>{offset}'
+    offset_prompt: '<#ffd470>Digite o número do deslocamento do holograma (ex: 0.6):'
+    offset_title: <#ffd470>Altura do holograma (Deslocamento Y)
+    select_quest_title: '&0Selecionar missão'
+    select_type_title: '&0Selecionar tipo de missão'
+    starts_quests_lore: <#a8a8a8>Missões específicas que este NPC inicia.
+    starts_quests_title: <#ffd470>Missões específicas (Inicia)
+    starts_types_lore: <#a8a8a8>Tipos de missão que este NPC inicia.
+    starts_types_title: <#ffd470>Tipos de missão (Inicia)
+    title_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar
+    title_lore: '<#a8a8a8>Atual: '
+    title_prompt: '<#ffd470>Digite o título do menu (ex: <#1c1c1c>{npc} - Tarefas Diárias):'
+    title_not_set: '<#ed6868>Não definido'
+    title_title: <#ffd470>Título do Menu da Missão
+    tp_lore: <#a8a8a8>Teletransporta você para o NPC (se estiver gerado).
+    tp_title: <#ffd470>Teletransportar para o NPC
+    types_click: <#a7ff99>Botão Esquerdo <#cccccc>- Editar lista de tipos
+    types_lore:
+    - <#a8a8a8>Tipos de missão que este NPC inicia.
+    - '<#a8a8a8>Tipos: <#ffffff>{types}'
+    types_more: ' <#6e6e6e>(+mais {count})'
+    types_none: Nenhum
+    types_title: <#ffd470>Missões do NPC (Tipos)
+    validation_lore: '&7Clique para verificar erros'
+    validation_title: <#52de7d>Validar NPC
+    voice_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar
+    voice_lore: '<#a8a8a8>Atual: <#ffffff>{voice}'
+    voice_prompt: '<#ffd470>Digite o tipo de som (villager, none ou som personalizado):'
+    voice_title: <#ffd470>Som de Interação (Voz)
+  npc_voice:
+    custom_lore: <#a8a8a8>Inserir o ID do som do Minecraft manualmente.
+    custom_prompt: '<#ffd470>Digite o ID do som (ex: entity.villager.trade):'
+    custom_title: <#ffd470>Som Personalizado
+    delete_right_click_warn: <#ed6868>Soltar (Q) <#cccccc>- Excluir
+    dialogue_gui_title: '&0Selecionar diálogo para o NPC'
+    dialogue_missing: <#ed6868>O diálogo com este ID está ausente em 
+      dialogues.yml!
+    dialogue_none_title: <#ed6868>Desvincular diálogo (none)
+    dialogue_select_click: <#a7ff99>Botão Esquerdo <#cccccc>- Vincular este diálogo
+    id_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar ID do NPC
+    id_exists: <#ed6868>O NPC com ID {id} já existe!
+    id_lore: '<#a8a8a8>ID atual: <#ffffff>{id}'
+    id_prompt: '<#ffd470>Digite o novo ID do NPC (ex: taberneiro):'
+    id_success: '{prefix}<#78b185>✔ <#ffffff>ID do NPC alterado com sucesso para <#ffffff>{id}'
+    id_title: <#ffd470>ID do NPC
+    node_id_title: '<#ffd470>ID do Nó'
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Erro ao salvar npcs.yml: {msg}'
+    save_lore:
+    - <#ffd470>Há alterações não salvas! Clique para salvar.
+    - <#a8a8a8>Nenhuma alteração não salva.
+    select_click: <#a7ff99>Botão Esquerdo <#cccccc>- Selecionar esta voz
+    selected: Selecionado
+    title: '&0Selecionar Voz do NPC'
+    types_gui_title: '&0Tipos de NPC: '
+    warn_unlinked: O diálogo está pronto, mas vincule-o a um NPC no menu!
+  preview:
+    title: '&0Pré-visualização'
+  prompts:
+    enter_id: '<#ffd470>Digite o novo ID da missão (ex: minha_missao):'
+    enter_name: '<#ffd470>Digite o novo nome para a missão:'
+    enter_perm: '<#ffd470>Digite a permissão (ou none):'
+    id_exists: A missão com o ID {id} já existe!
+    saved_success: '{prefix}<#78b185>✔ <#ffffff>Alterações na missão {id} salvas com sucesso no arquivo!'
+  rewards_menu:
+    add_item: <#79d679>Adicionar item
+    add_item_lore: <#cccccc>Clique para selecionar um item de recompensa.
+    attr_click: <#a7ff99>Botão Esquerdo <#cccccc>- Editar seção de atributos
+    attr_gui_title: '&0Lista de Atributos'
+    attr_lore:
+    - <#cccccc>Configurações de atributos
+    attr_title: <#f4a261>Atributos
+    attrs_gui: '&0Lista de Atributos'
+    brd_click: <#a7ff99>Botão Esquerdo <#cccccc>- Editar transmissões
+    brd_gui: '&0Mensagens de Transmissão'
+    brd_lore: '<#cccccc>Contagem de transmissões: <#ffffff>{count}'
+    brd_title: <#99ffff>Mensagens de Transmissão
+    chance_click: <#a7ff99>Botão Esquerdo <#cccccc>- Editar seção de chance
+    chance_gui_title: '&0Recompensas com Chance'
+    chance_lore:
+    - <#cccccc>Configurações de probabilidade de recompensa
+    chance_title: <#ffaaaa>Chance
+    click_del: <#ed6868>Soltar (Q) <#cccccc>- Excluir
+    click_set: <#a7ff99>Botão Esquerdo <#cccccc>- Definir valor
+    cmd_click: <#a7ff99>Botão Esquerdo <#cccccc>- Editar comandos
+    cmd_gui: '&0Comandos de Recompensa'
+    cmd_lore: '<#cccccc>Contagem de comandos: <#ffffff>{count}'
+    cmd_title: <#ff9999>Comandos
+    confirm_del_desc: '&fTem certeza de que deseja excluir este valor?'
+    confirm_del_title: ✖ Confirmar Exclusão
+    eff_click: <#a7ff99>Botão Esquerdo <#cccccc>- Editar efeitos
+    eff_gui: '&0Efeitos de Recompensa'
+    eff_lore: '<#cccccc>Contagem de efeitos: <#ffffff>{count}'
+    eff_title: <#ff99ff>Efeitos
+    effs_title: <#b19cd9>Efeitos
+    hand_added: 'Item adicionado: {name} x{amount}'
+    hand_btn_lore: <#a8a8a8>Pegue um item na mão e clique aqui,
+    hand_btn_lore2: <#a8a8a8>para salvá-lo com todas as tags NBT.
+    hand_btn_title: <#79d679>Adicionar item da mão
+    hand_empty: Sua mão está vazia! Pegue um item na sua mão.
+    items_click: <#a7ff99>Botão Esquerdo <#cccccc>- Editar lista
+    items_gui: '&0Itens de Recompensa'
+    items_lore: '<#cccccc>Contagem de itens: <#ffffff>{count}'
+    items_title: <#99ccff>Itens
+    money_title: <#e9c46a>Dinheiro
+    money_title_has: <#ffd470>Dinheiro (Economia)
+    money_title_none: <#a8a8a8>Dinheiro (Economia) [Nenhum]
+    msg_click: <#a7ff99>Botão Esquerdo <#cccccc>- Editar mensagens
+    msg_gui: '&0Mensagens de Recompensa'
+    msg_lore: '<#cccccc>Contagem de mensagens: <#ffffff>{count}'
+    msg_title: <#ffff99>Mensagens Privadas
+    prompt_custom_key: '<#ffe999>Digite a chave de recompensa personalizada:'
+    prompt_custom_val: '<#a8a8a8>Digite o valor para a chave <#ffffff>{key}<#ffe999>:'
+    prompt_money: '<#ffe999>Digite a quantia de dinheiro (Vault):'
+    prompt_xp: '<#ffe999>Digite a quantia de experiência:'
+    selector_cmd_lore: <#a7ff99>Botão Esquerdo <#cccccc>- Criar/editar lista de comandos
+    selector_cmd_title: <#ffe999>Comandos (commands)
+    selector_custom_lore: <#a7ff99>Botão Esquerdo <#cccccc>- Inserir chave personalizada manualmente
+    selector_custom_title: <#ffe999>Chave Personalizada (Custom)
+    selector_items_lore: <#a7ff99>Botão Esquerdo <#cccccc>- Criar/editar lista de itens
+    selector_items_title: <#ffe999>Itens (items)
+    selector_money_lore: <#a7ff99>Botão Esquerdo <#cccccc>- Adicionar quantia Vault
+    selector_money_title: <#ffe999>Dinheiro (money)
+    selector_title: '&0Selecionar tipo de recompensa'
+    selector_xp_lore: <#a7ff99>Botão Esquerdo <#cccccc>- Adicionar quantia de experiência
+    selector_xp_title: <#ffe999>Experiência (xp)
+    silent_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alternar modo
+    silent_click_lmb: <#a7ff99>Botão Esquerdo <#cccccc>- Alternar
+    silent_click_sub: <#a7ff99>Botão Esquerdo <#cccccc>- Abrir configurações
+    silent_lore: '<#cccccc>Configure para quais recompensas
+      <#cccccc>as mensagens do chat serão desativadas.'
+    silent_mute: '&cRoda do Mouse - Desativar mensagens'
+    silent_off: <#cccccc>Desativado (Mensagens são mostradas)
+    silent_on: <#a7ff99>Ativado (Mensagens de recompensa estão ocultas)
+    silent_title: <#ffaaaa>Configurações de Mensagens
+    silent_unmute: '&aRoda do Mouse - Ativar mensagens'
+    val_has: '<#cccccc>Valor atual: <#ffffff>{val}'
+    val_none: <#888888>Sem recompensa.
+    xp_title_has: <#a7ff99>Experiência (XP)
+    xp_title_none: <#a8a8a8>Experiência (XP) [Nenhuma]
+    xp_toggle_mode: <#d9a752>Ctrl + Soltar (Q) <#cccccc>- Mudar modo (XP/Níveis)
+  rot_pool_gui:
+    custom_pool_lore: <#a8a8a8>Clique para digitar o nome personalizado do grupo no chat.
+    custom_pool_title: <#79d679>Inserir grupo personalizado
+    pool_click: <#a7ff99>Botão Esquerdo <#cccccc>- Selecionar este grupo
+    pool_item: '<#ffd470>Grupo: <#ffffff>{pool}'
+    pool_lore: '<#a8a8a8>Missões no grupo: <#ffffff>{count}'
+    title: '&0Seleção de Grupo de Missões'
+  silent_settings:
+    global_title: <#ffaaaa>Modo Silencioso Global
+    title: Modo Silencioso | {id}
+  stages_menu:
+    add_mats_title: <#79d679>Adicionar etapa de material
+    add_obj_click_lkm: <#a7ff99>Botão Esquerdo <#cccccc>- Adicionar objetivo normal
+    add_obj_click_pkm: <#a7ff99>Botão Direito <#cccccc>- Adicionar etapa de entrega de itens
+    add_obj_lore:
+    - <#cccccc>Adiciona uma nova etapa à missão.
+    add_obj_title: <#79d679>Adicionar Etapa
+    click_open: <#a7ff99>Botão Esquerdo <#cccccc>- Abrir
+    delete_confirm_msg: Tem certeza de que deseja excluir a etapa {key}?
+    delete_confirm_title: '&0Excluir etapa'
+    edit_stage_title: '&0Editando etapa: {key}'
+    empty_lore:
+    - <#a8a8a8>Clique no bloco verde à direita para
+    - <#a8a8a8>adicionar sua primeira etapa.
+    empty_title: <#ed6868>A lista de etapas está vazia
+    err_save: Erro ao salvar o arquivo da missão!
+    global_1stage_limit: <#cccccc>Missões globais só podem ter 1 etapa!
+    info_amount: '&7Quantidade: <#ffffff>{amount}'
+    info_materials_count: '&7Itens: <#ffffff>&e{count}'
+    info_npc: '&7NPC: <#ffffff>{npc}'
+    info_targets: '&7Alvos: <#ffffff>{targets}'
+    info_type: '&7Tipo: <#ffffff>{type}'
+    info_type_materials: '&7Tipo: <#ffffff>Entrega de itens'
+    info_type_unknown: '&7Tipo: &8Não definido'
+    mats_title: '&0Materiais: {key}'
+    obj_time_format: '<#a8a8a8>Tempo: <#ffffff>{time}'
+    obj_title: '&0Objetivo: {key}'
+    stage_click_delete: <#ed6868>Soltar (Q) <#cccccc>- Excluir
+    stage_click_down: <#ffe999>Shift + Botão Direito <#cccccc>- Mover para baixo ⬇
+    stage_click_duplicate: <#d9a752>Trocar (F) <#cccccc>- Duplicar etapa
+    stage_click_edit: <#a7ff99>Botão Esquerdo <#cccccc>- Editar
+    stage_click_up: <#ffe999>Shift + Botão Esquerdo <#cccccc>- Mover para cima ⬆
+    stage_duplicated: Etapa {key} duplicada com sucesso!
+    stage_item: '<#a8a8a8>Etapa: <#e0e0e0>{key}'
+  title_global_settings: '&0Configurações do Motor: {id}'
+  title_list: '&0Lista de Missões ({count})'
+  title_main: '&0Editor de Missões: {id}'
+  title_materials: '&0Materiais Necessários'
+  title_objective: '&0Objetivo: {id}'
+  title_rewards: '&0Recompensas: {id}'
+  title_stages: '&0Etapas da Missão: {id}'
+quest_type_editor:
+  clone_prompt: Digite o ID para a cópia do tipo (sem espaços)
+  confirm_del_desc: Tem certeza de que deseja excluir o tipo {id}?
+  confirm_del_gui_title: '&0Excluindo tipo: {id}'
+  confirm_del_title: ✖ Excluir tipo
+  entity_list:
+    add_new_lore: <#a7ff99>Botão Esquerdo <#cccccc>- Adicionar nova entidade
+    click_del: <#ed6868>Soltar (Q) <#cccccc>- Excluir entidade
+    click_edit: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar entidade
+  entity_selector:
+    click: <#a7ff99>Botão Esquerdo <#cccccc>- Selecionar entidade
+    title: '&0Selecionar mob/entidade'
+  error_clone: '{prefix}<#c96a6a>✖ <#ffffff>Erro ao clonar o tipo.'
+  error_clone_exists: '{prefix}<#c96a6a>✖ <#ffffff>Erro: Um tipo com este ID já existe!'
+  error_create: '{prefix}<#c96a6a>✖ <#ffffff>Erro ao criar arquivo!'
+  error_save: '{prefix}<#c96a6a>✖ <#ffffff>Erro ao salvar arquivo de tipo:'
+  global_settings:
+    error_not_number: Digite um número!
+    limit_click: <#79d679>Clique para alterar
+    limit_lore:
+    - '<#a8a8a8>Chave: <#ffffff>personal-limit'
+    - '<#a8a8a8>Atual: <#ffffff>{val}'
+    limit_prompt: '<#ffd470>Digite o novo valor para personal-limit:'
+    limit_title: <#ffd470>Limite Pessoal
+    max_p_click: <#79d679>Clique para alterar
+    max_p_lore:
+    - '<#a8a8a8>Chave: <#ffffff>max-participants'
+    - '<#a8a8a8>Atual: <#ffffff>{val}'
+    max_p_prompt: '<#ffd470>Digite o novo valor para max-participants:'
+    max_p_title: <#ffd470>Participantes Máximos
+    min_p_click: <#79d679>Clique para alterar
+    min_p_lore:
+    - '<#a8a8a8>Chave: <#ffffff>min-participants'
+    - '<#a8a8a8>Atual: <#ffffff>{val}'
+    min_p_prompt: '<#ffd470>Digite o novo valor para min-participants:'
+    min_p_title: <#ffd470>Participantes Mínimos
+    step_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar
+    step_lore:
+    - '<#a8a8a8>Chave: <#ffffff>reward-step'
+    - '<#a8a8a8>Valor: <#ffffff>{val}'
+    step_prompt: '<#ffd470>Digite um novo número para reward-step:'
+    step_title: <#ffd470>Etapa de Recompensa
+    title: '<#a8a8a8>Configurações do Motor: <#ffffff>{id}'
+  health_check:
+    desc_has_errors: <#a8a8a8>Erros de configuração encontrados!
+    desc_no_errors: <#a8a8a8>Nenhum erro encontrado!
+    err_no_name: Nome de exibição do tipo não definido
+    err_no_pools: Nenhum grupo de missões criado para rotação
+    err_no_rotation_period: Intervalo zero especificado para rotação
+    success: '{prefix}<#78b185>✔ <#ffffff>Tipo configurado com sucesso!'
+    title: '<#b0b8c1>=== <#6aa0c9>Status do Tipo: <#e2e8f0>{id} <#b0b8c1>==='
+    title_warning: <#ed6868>Problemas encontrados ({count})
+  id_exists: Um tipo de missão com este ID já existe!
+  list:
+    clone_prompt: '<#ffd470>Digite o ID para a missão copiada:'
+    confirm_del_desc: Tem certeza de que deseja excluir a missão {id}?
+    confirm_del_title: ✖ Excluir missão
+    error_clone: '{prefix}<#c96a6a>✖ <#ffffff>Erro ao clonar!'
+    error_clone_exists: '{prefix}<#c96a6a>✖ <#ffffff>Uma missão com este ID já existe!'
+    error_create: '{prefix}<#c96a6a>✖ <#ffffff>Erro ao criar missão.'
+    filter_lore_next: <#a7ff99>Botão Esquerdo <#cccccc>- Próximo modo
+    filter_lore_prev: <#a7ff99>Botão Direito <#cccccc>- Modo anterior
+    filter_lore_title: '<#a8a8a8>Modos de ordenação:'
+    filter_title: <#ffd470>Filtro / Ordenação
+    item_clone: <#d9a752>Trocar (F) <#cccccc>- Clonar missão
+    item_delete: <#ed6868>Soltar (Q) <#cccccc>- Excluir missão
+    item_edit: <#a7ff99>Botão Esquerdo <#cccccc>- Editar missão
+    item_engine: '<#a8a8a8>Motor: <#7dd3ff>{engine}'
+    item_type: '<#a8a8a8>Tipo: <#ffffff>{type}'
+    mode_cre_new: Criado (Mais recentes primeiro)
+    mode_cre_old: Criado (Mais antigos primeiro)
+    mode_engine_chain: 'Filtro: motor CHAIN'
+    mode_engine_default: 'Filtro: motor DEFAULT'
+    mode_engine_global: 'Filtro: motor GLOBAL'
+    mode_engine_rotation: 'Filtro: motor ROTATION'
+    mode_id_asc: Por ID (A-Z)
+    mode_id_desc: Por ID (Z-A)
+    mode_issue: 'Filtro: Precisa de atenção'
+    mode_mod_new: Modificado (Mais recentes primeiro)
+    mode_mod_old: Modificado (Mais antigos primeiro)
+    mode_type: Por tipo de missão
+    msg_clone_success: '{prefix}<#78b185>✔ <#ffffff>Missão clonada com sucesso como <#ffffff>{id}'
+    msg_del_success: '{prefix}<#78b185>✔ <#ffffff>Missão {id} <#79d679>excluída com sucesso!'
+    search_all: '<#a8a8a8>Pesquisa: <#ffffff>Tudo'
+    search_click: <#a7ff99>Botão Esquerdo <#cccccc>- Pesquisar (ou limpar)
+    search_prompt: '<#ffd470>Digite o texto para pesquisar missões (ou limpar):'
+    search_query: '<#a8a8a8>Pesquisa: <#ffffff>{query}'
+  list_string_editor:
+    add_lore: <#a7ff99>Botão Esquerdo <#cccccc>- Digite o texto.
+    add_lore_empty: <#a7ff99>Botão Direito <#cccccc>- Criar linha vazia
+    delete_confirm_item: Excluir linha
+    delete_confirm_msg: '<#ffd470>Tem certeza de que deseja excluir a linha #{index}?'
+    delete_confirm_title: '&0Excluir linha'
+    item_clone: <#d9a752>Trocar (F) <#cccccc>- Clonar linha
+    item_delete: <#ed6868>Soltar (Q) <#cccccc>- Excluir linha
+    item_edit: <#a7ff99>Botão Esquerdo <#cccccc>- Editar linha
+    item_format: '<#ffffff>Linha #{index}'
+    item_move_down: <#ffe999>Shift+Botão Direito <#cccccc>- Mover para baixo
+    item_move_up: <#ffe999>Shift+Botão Esquerdo <#cccccc>- Mover para cima
+    prompt_add: '<#ffd470>Digite o texto para a nova linha:'
+    prompt_edit: 'Editando linha:'
+  main_menu:
+    add_lore_empty: <#a7ff99>Botão Direito <#cccccc>- Criar linha vazia
+    back: <#ed6868>Voltar
+    btn_check_lore: <#cccccc>Executa análise detalhada da configuração no chat.
+    btn_check_title: <#ffe999>Verificar erros
+    btn_preview_lore: <#cccccc>Mostra a missão como os jogadores a veem.
+    btn_preview_title: <#7dd3ff>Pré-visualização
+    btn_save_changes: ' <#ffd470>(* Alterações)'
+    btn_save_lore_unsaved: <#ffd470>Botão Esquerdo <#cccccc>- Salvar alterações
+    btn_save_lore_saved: <#ffe999>Nenhuma alteração não salva
+    btn_save_title: <#55ff55>Salvar arquivo
+    chain_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alternar
+    chain_lore: '<#a8a8a8>Status: {chain}'
+    chain_title: <#ffd470>Dar próxima automaticamente
+    cmd_click:
+    - <#a7ff99>Botão Esq. (+1) / Botão Dir. (-1) <#cccccc>- Alterar
+    - <#ffe999>Shift+Botão Esq. (+10) / Shift+Botão Dir. (-10)
+    - <#d9a752>Trocar (F) <#cccccc>- Inserir número
+    - <#ed6868>Soltar (Q) <#cccccc>- Limpar (0)
+    cmd_lore:
+    - <#a8a8a8>Para texturas de itens personalizados.
+    - '<#a8a8a8>Valor atual: <#ffffff>{cmd}'
+    cmd_prompt: '<#ffd470>Digite o número do Custom Model Data (ou 0):'
+    cmd_title: <#ffd470>Modelo (Custom Model Data)
+    cooldown_click:
+    - <#a7ff99>Botão Esquerdo <#cccccc>- Definir
+    - <#ed6868>Soltar (Q) <#cccccc>- Limpar
+    - <#ffe999>Shift + Botão Esquerdo <#cccccc>- Editar
+    cooldown_lore: '<#a8a8a8>Tempo: <#ffffff>{time}'
+    cooldown_none: <#a8a8a8>Nenhum
+    cooldown_title: <#ffd470>Tempo de recarga
+    desc_click: <#a7ff99>Botão Esquerdo <#cccccc>- Editar
+    desc_gui_title: 'Descrição: '
+    desc_title: <#ffd470>Descrição da Missão
+    engine_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar motor
+    engine_lore: '<#a8a8a8>Selecionado: <#ffffff>{engine}'
+    engine_title: <#ffd470>Motor de Tipo de Missão
+    folder_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar caminho
+    folder_lore: '<#a8a8a8>Caminho: <#ffffff>{folder}'
+    folder_title: <#ffd470>Pasta para missões
+    global_click: <#a7ff99>Botão Esquerdo <#cccccc>- Abrir
+    global_lore:
+    - <#a8a8a8>Para missões concluídas por todos os jogadores juntos.
+    - <#a8a8a8>Configurações de limites e etapas de recompensa.
+    global_title: <#ffd470>Objetivos globais do servidor
+    gui_title: 'Editando: '
+    icon_basehead_click: <#d9a752>Trocar (F) <#cccccc>- Alterar cabeça-base
+    icon_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar ícone
+    icon_lore: '<#a8a8a8>Selecionado: <#ffffff>{icon}'
+    icon_title: <#ffd470>Ícone (Material)
+    id_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar ID
+    id_error_exists: '{prefix}<#c96a6a>✖ <#ffffff>A missão com o ID {id} já existe!'
+    id_error_invalid: '{prefix}<#c96a6a>✖ <#ffffff>Formato de ID inválido!'
+    id_lore: '<#a8a8a8>ID atual: <#ffffff>{id}'
+    id_prompt: '<#ffd470>Digite o novo ID do tipo de missão (ex: meu_tipo):'
+    id_title: <#ffd470>ID do tipo de missão
+    node_id_title: '<#ffd470>ID do Nó'
+    item_clone: <#d9a752>Trocar (F) <#cccccc>- Clonar linha
+    item_move_down: <#ffe999>Shift+Botão Direito <#cccccc>- Mover para baixo
+    item_move_up: <#ffe999>Shift+Botão Esquerdo <#cccccc>- Mover para cima
+    lore_click: <#a7ff99>Botão Esquerdo <#cccccc>- Editar descrição
+    lore_title: <#ffd470>Descrição do tipo de missão
+    name_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar
+    name_lore: '<#a8a8a8>Atual: <#ffffff>{name}'
+    name_prompt: '<#ffd470>Digite o nome da missão no chat:'
+    name_title: <#ffd470>Nome do tipo de missão
+    name_title_has: <#ffd470>Nome da missão
+    name_title_none: <#ed6868>Nome da missão ausente!
+    page_lore: '<#a8a8a8>Página atual: <#ffffff>{page}'
+    page_prompt: '<#ffd470>Digite a página (página, a partir de 1):'
+    page_title: <#ffd470>Página
+    perm_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar
+    perm_lore: '<#a8a8a8>Permissão: <#ffffff>{perm}'
+    perm_prompt: '<#ffd470>Digite a permissão (ou none):'
+    perm_title: <#ffd470>Permissão necessária
+    req_quests_add: <#79d679>Adicionar missão
+    req_quests_add_lore: <#a7ff99>Botão Esquerdo <#cccccc>- Selecionar missão da lista.
+    req_quests_click: <#a7ff99>Botão Esquerdo <#cccccc>- Editar
+    req_quests_del: <#ed6868>Soltar (Q) <#cccccc>- Excluir missão
+    req_quests_edit: <#a7ff99>Botão Esquerdo <#cccccc>- Substituir por outra missão
+    req_quests_gui_title: 'Missões ant.: '
+    req_quests_lore: <#a8a8a8>Missões que devem ser concluídas antes desta.
+    req_quests_title: <#ffd470>Requisitos (Missões anteriores)
+    req_quests_unknown: <#ffffff>Missão desconhecida ({id})
+    rew_desc_click: <#a7ff99>Botão Esquerdo <#cccccc>- Editar
+    rew_desc_gui_title: 'Descrição de recompensas: '
+    rew_desc_title: <#ffd470>Descrição de recompensas
+    rewards_lore: <#a7ff99>Botão Esquerdo <#cccccc>- Configurar recompensas
+    rewards_title: <#ffd470>Recompensas da missão
+    rot_pool_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar
+    rot_pool_lore:
+    - <#a8a8a8>A missão será escolhida aleatoriamente deste grupo.
+    rot_pool_lore3: '<#a8a8a8>Atual: <#ffffff>{pool}'
+    rot_pool_lore3_none: <#ed6868>Grupo não especificado. A missão não estará em 
+      rotação.
+    rot_pool_prompt: '<#ffd470>Digite o nome do grupo (ou none):'
+    rot_pool_title: <#ffd470>Grupo de Rotação
+    rotation_click:
+    - <#a7ff99>Botão Esquerdo <#cccccc>- Alterar intervalo
+    - <#a7ff99>Botão Direito <#cccccc>- Alterar tempo
+    - <#ffe999>Shift + Botão Esquerdo <#cccccc>- Redefinir
+    rotation_click_new: <#a7ff99>Botão Esquerdo <#cccccc>- Abrir configurações
+    rotation_lore:
+    - '<#a8a8a8>Intervalo: <#ffffff>{interval}'
+    - '<#a8a8a8>Tempo de redefinição: <#ffffff>{time}'
+    - '<#a8a8a8>Grupos: <#ffffff>{pool}'
+    rotation_title: <#ffd470>Rotação
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Erro ao salvar arquivo!'
+    save_success: '{prefix}<#78b185>✔ <#ffffff>Arquivo da missão <#e2e8f0>{id} <#b0b8c1>salvo com sucesso!'
+    slot_click:
+    - <#a7ff99>Botão Esq. (+1) / Botão Dir. (-1)
+    - <#ffe999>Shift + Botão Esq. (+10) / <#ffe999>Shift + Botão Dir. (-10)
+    - <#d9a752>Trocar (F) <#cccccc>- Inserir manualmente
+    slot_lore: '<#a8a8a8>Slot atual: <#ffffff>{slot}'
+    slot_prompt: '<#ffd470>Digite o slot (slot, de 0-54):'
+    slot_title: <#ffd470>Slot
+    stages_click: <#a7ff99>Botão Esquerdo <#cccccc>- Gerenciar etapas
+    stages_lore: '<#a8a8a8>Número de etapas: <#ffffff>{count}'
+    stages_title_has: <#ffd470>Etapas (Objetivos)
+    stages_title_none: <#ed6868>Etapas da missão ausentes!
+    status_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar status
+    status_desc: <#a8a8a8>Ativa ou desativa este tipo de missão
+    status_disabled: <#ed6868>Desativado
+    status_enabled: <#79d679>Ativado
+    status_lore: '<#a8a8a8>Status: {status}'
+    status_title: <#ffd470>Status do tipo
+    type_click: <#a7ff99>Botão Esquerdo <#cccccc>- Alterar tipo
+    type_lore_engine: '<#a8a8a8>Motor: <#ffffff>{engine}'
+    type_lore_type: '<#a8a8a8>Tipo: <#ffffff>{type}'
+    type_title: <#ffd470>Motor e tipo da missão
+  material_list:
+    add_new_lore: <#a7ff99>Botão Esquerdo <#cccccc>- Adicionar novo item
+    click_del: <#ed6868>Soltar (Q) <#cccccc>- Excluir item
+    click_edit: <#a7ff99>Botão Esquerdo <#cccccc>- Editar item
+  material_selector:
+    error_invalid: <#ed6868>Material inválido!
+    hand: <#ffd470>Pegar da mão
+    hand_error: Não há nenhum item na sua mão!
+    hand_lore: <#a7ff99>Botão Esquerdo <#cccccc>- Usar item da mão
+    input_chat: <#ffd470>Inserir manualmente no chat
+    input_chat_lore: <#a7ff99>Botão Esquerdo <#cccccc>- Escrever código do material
+    input_chat_prompt: '<#ffd470>Digite o material (ex: DIAMOND_SWORD):'
+    item_click: <#a7ff99>Botão Esquerdo <#cccccc>- Selecionar este item
+    search: <#ffd470>Pesquisa de material
+    search_prompt: '<#ffd470>Digite o texto para pesquisar (ou limpar):'
+    title: '&0Selecionar material / bloco'
+  msg_clone_success: '{prefix}<#78b185>✔ <#ffffff>Tipo clonado com sucesso como <#ffffff>{id}'
+  msg_del_success: '{prefix}<#78b185>✔ <#ffffff>Tipo <#ffffff>{id} <#b0b8c1>excluído com sucesso.'
+  objective_menu:
+    del_confirm_msg: Você realmente quer excluir o objetivo {key}?
+    del_confirm_title: Excluir objetivo?
+    gui_ent_list: '&0Entidades para: {key}'
+    gui_mats_list: '&0Itens para: {key}'
+    gui_req_mats: '&0Itens necessários'
+    gui_str_list: '&0Lista {key}'
+    obj_title: '<#a8a8a8>Objetivo: {color}{key}'
+    prompt_key: '<#a8a8a8>Digite o valor para <#ffffff>{key}<#ffd470>:'
+    prompt_str_key: '<#a8a8a8>Digite o valor da string para <#ffffff>{key}<#ffd470>:'
+    prop_click_del: <#ed6868>Soltar (Q) <#cccccc>- Excluir
+    prop_click_edit: <#a7ff99>Botão Esquerdo <#cccccc>- Editar valor
+    prop_format: '<#a8a8a8>{key}: <#e0e0e0>{value}'
+    prop_num_click:
+    - <#a7ff99>Botão Esq. (+1) / Botão Dir. (-1) <#cccccc>- Alterar valor
+    - <#ffe999>Shift + Botão Esq. (+10) / <#ffe999>Shift + Botão Dir. (-10)
+    - <#d9a752>Trocar (F) <#cccccc>- Inserir manualmente
+    prop_str_click: <#a7ff99>Botão Esquerdo <#cccccc>- Inserir string
+    prop_str_list_click: <#a7ff99>Botão Esquerdo <#cccccc>- Editar lista
+    prop_title_mandatory: <#ed6868>{key}
+    prop_title_set: <#e0e0e0>{key}
+    prop_title_unset: <#a8a8a8>{key}
+    prop_true_false: <#a7ff99>Botão Esquerdo <#cccccc>- Alternar (true/false)
+    prop_type_click: <#a7ff99>Botão Esquerdo <#cccccc>- Selecionar tipo
+    props:
+      amount: <#ffd470>Quantidade necessária
+      biome: <#ffd470>Bioma
+      command: <#ffd470>Comando
+      dimension: <#ffd470>Dimensão
+      distance: <#ffd470>Distância
+      entity: <#ffd470>Entidade
+      item: <#ffd470>Item
+      material: <#ffd470>Item
+      message: <#ffd470>Mensagem
+      min-distance: <#ffd470>Distância mín.
+      notify-interval: <#ffd470>Intervalo de notificação
+      npc: <#ffd470>NPC
+      npc-id: <#ffd470>NPC
+      radius: <#ffd470>Raio
+      region: <#ffd470>Região
+      required-materials: <#ffd470>Itens necessários
+      target-entities: <#ffd470>Entidades alvo
+      target-entity: <#ffd470>Entidade
+      target-material: <#ffd470>Item
+      target-materials: <#ffd470>Itens alvo
+      type: <#ffd470>Tipo de objetivo
+      weapon: <#ffd470>Arma
+      world: <#ffd470>Mundo
+      x: <#ffd470>Coordenada X
+      y: <#ffd470>Coordenada Y
+      z: <#ffd470>Coordenada Z
+    type_list: Lista
+    type_prop: Valor da propriedade
+    type_section: Seção
+    type_value: Valor
+    val_list: '{size} elementos'
+    val_list_mats: '{size} itens'
+    val_none: '[Nenhum]'
+    val_not_set: <#ed6868>Valor não definido!
+    val_section: '[Seção] '
+  objective_selector:
+    desc:
+      ANVIL_USE: <#cccccc>Use uma bigorna.
+      ASSIST_KILL: <#cccccc>Ajude a matar uma entidade/jogador.
+      BEACON_ACTIVATE: <#cccccc>Ative um sinalizador.
+      BLOCK_BREAK: <#cccccc>Quebre os blocos especificados.
+      BLOCK_PLACE: <#cccccc>Coloque os blocos especificados.
+      BOAT_TRAVEL: <#cccccc>Viaje em um barco.
+      BONE_MEAL_USE: <#cccccc>Use farinha de osso.
+      BOOK_EDIT: <#cccccc>Escreva texto em um livro.
+      BREED_ANIMALS: <#cccccc>Crie animais.
+      BREWING: <#cccccc>Faça poções.
+      BURN_FUEL: <#cccccc>Queime combustível em uma fornalha.
+      CHANGE_DIMENSION: '<#cccccc>Mude de dimensão (ex: vá para o Nether).'
+      CHAT_MESSAGE: <#cccccc>Escreva uma mensagem específica no chat.
+      CONDUIT_ACTIVATE: <#cccccc>Ative um canalizador.
+      CONSUME_ITEM: <#cccccc>Coma ou beba um item.
+      CROUCH: <#cccccc>Agache um certo número de vezes.
+      CROUCH_DISTANCE: <#cccccc>Viaje uma distância especificada enquanto está agachado.
+      DEAL_DAMAGE: <#cccccc>Cause uma certa quantidade de dano.
+      DROP_ITEM: <#cccccc>Solte um item específico.
+      DYE_ITEM: <#cccccc>Tinja um item.
+      ELYTRA_FLY: <#cccccc>Voe com elitros.
+      EMPTY_BUCKET: <#cccccc>Esvazie um balde.
+      ENCHANT_TABLE_USE: <#cccccc>Use uma mesa de encantamento.
+      ENTER_BED: <#cccccc>Entre em uma cama.
+      ENTER_REGION: <#cccccc>Entre em uma região (WorldGuard).
+      ENTITY_RIDE: <#cccccc>Monte em uma entidade.
+      EXECUTE_COMMAND: <#cccccc>Execute um comando específico.
+      EXPERIENCE_ORB_PICKUP: <#cccccc>Pegue uma orbe de experiência.
+      FALL_DISTANCE: <#cccccc>Caia de uma distância especificada.
+      FILL_BUCKET: <#cccccc>Encha um balde.
+      FILL_FUEL: <#cccccc>Coloque combustível em uma fornalha.
+      GIVE_ITEM_TO_NPC: <#cccccc>Dê um item a um NPC.
+      HARVEST_CROP: <#cccccc>Colha plantações.
+      HOLD_ITEM: <#cccccc>Segure um item específico na mão.
+      INTERACT_BLOCK: <#cccccc>Interaja com um bloco (Botão Dir./Esq.).
+      INTERACT_ENTITY: <#cccccc>Interaja com uma entidade (Botão Dir.).
+      ITEM_BREAK: <#cccccc>Quebre uma ferramenta/arma.
+      ITEM_COOK: <#cccccc>Cozinhe comida.
+      ITEM_CRAFT: <#cccccc>Crie itens.
+      ITEM_ENCHANT: <#cccccc>Encante itens.
+      ITEM_FISH: <#cccccc>Pesque peixes/itens.
+      ITEM_RENAME: <#cccccc>Renomeie um item.
+      ITEM_REPAIR: <#cccccc>Repare um item em uma bigorna.
+      ITEM_SMELT: <#cccccc>Funda itens.
+      JOIN_SERVER: <#cccccc>Entre no servidor.
+      JUMP: <#cccccc>Pule um certo número de vezes.
+      KILL_ENTITY: <#cccccc>Mate mobs/entidades específicas.
+      LEAVE_REGION: <#cccccc>Saia de uma região (WorldGuard).
+      LEVEL_UP_GAIN: <#cccccc>Ganhe um número especificado de níveis.
+      LEVEL_UP_REACH: <#cccccc>Alcance um nível de experiência especificado.
+      MILK_COW: <#cccccc>Ordenhe uma vaca.
+      MINECART_TRAVEL: <#cccccc>Viaje em um carrinho de mina.
+      NPC_INTERACT: <#cccccc>Fale com um NPC (Citizens/ZNPCs).
+      OPEN_CONTAINER: <#cccccc>Abra um recipiente (baú, etc.).
+      PLANT_SEED: <#cccccc>Plante sementes.
+      PLAYER_KILL: <#cccccc>Mate outro jogador.
+      PLAY_TIME: <#cccccc>Passe tempo no jogo.
+      POTION_DRINK: <#cccccc>Beba uma poção.
+      POTION_SPLASH: <#cccccc>Jogue uma poção arremessável.
+      REACH_BIOME: <#cccccc>Visite um bioma especificado.
+      REACH_LOCATION: <#cccccc>Alcance coordenadas especificadas.
+      RECEIVE_DAMAGE_TYPE: <#cccccc>Receba dano de um tipo específico.
+      SHEAR_SHEEP: <#cccccc>Tosquie uma ovelha.
+      SIGN_EDIT: <#cccccc>Escreva texto em uma placa.
+      SLEEP_IN_BED: <#cccccc>Durma em uma cama.
+      SPRINT_DISTANCE: <#cccccc>Corra uma distância especificada.
+      STRIP_LOG: <#cccccc>Descasque uma tora com um machado.
+      SWIM_DISTANCE: <#cccccc>Nade uma distância especificada.
+      TAKE_DAMAGE: <#cccccc>Receba uma certa quantidade de dano.
+      TAME_ANIMAL: <#cccccc>Dome um animal.
+      THROW_EGG: <#cccccc>Jogue um ovo.
+      TILL_SOIL: <#cccccc>Are o solo com uma enxada.
+      TRAVEL_DISTANCE: <#cccccc>Viaje uma distância especificada.
+      USE_ITEM: <#cccccc>Use um item (Botão Direito).
+      VILLAGER_BUY_ITEM: <#cccccc>Compre um item de um aldeão.
+      VILLAGER_SELL_ITEM: <#cccccc>Venda um item para um aldeão.
+      WAX_OFF: <#cccccc>Raspe cera do cobre.
+      WAX_ON: <#cccccc>Aplique cera no cobre.
+      WEAR_ARMOR: <#cccccc>Equipe uma armadura específica.
+    item_click: <#a7ff99>Botão Esquerdo <#cccccc>- Selecionar este tipo
+    item_enum: '<#a8a8a8>Chave: <#ffffff>{enum}'
+    prompt_search: '<#ffd470>Digite o nome do tipo de objetivo (ou limpar):'
+    title: '&0Selecionar tipo de objetivo'
+  pool_slots_gui:
+    slot_back_lore: <#a7ff99>Botão Direito <#cccccc>- Voltar
+    slot_free_lore: <#a7ff99>Botão Esquerdo <#cccccc>- Atribuir a este grupo
+    slot_free_title: <#a8a8a8>Slot {slot}
+    slot_mine_lore: <#ff6b6b>Botão Esquerdo <#cccccc>- Remover slot do grupo
+    slot_mine_title: <#a7ff99>Slot {slot}
+    slot_taken_lore:
+    - '<#a8a8a8>Ocupado pelo grupo: <#ffffff>{owner}'
+    - <#ffd470>Botão Esquerdo <#cccccc>- Substituir slot
+    slot_taken_title: <#ff6b6b>Slot {slot}
+    title: '&0Slots do grupo: {pool}'
+  pools_gui:
+    add_lore: <#a7ff99>Botão Esquerdo <#cccccc>- Criar novo grupo
+    add_title: <#ffd470>Adicionar grupo
+    item_click:
+    - <#a7ff99>Botão Esquerdo <#cccccc>- Editar slots
+    item_click4: <#ff6b6b>Soltar (Q) <#cccccc>- Excluir grupo
+    item_lore:
+    - '<#a8a8a8>Quantidade: <#ffffff>{count}'
+    item_title: '<#ffd470>Grupo: {pool}'
+    title: Grupos de rotação
+  preview_title: 'Descrição do tipo: '
+  prompts:
+    cmd: '<#ffd470>Digite o comando:'
+    cooldown: '<#ffd470>Digite o tempo de recarga:'
+    folder: '<#ffd470>Digite o caminho para a pasta de missões:'
+    name: '<#ffd470>Digite o nome:'
+    new_type_id: '<#ffd470>Digite o novo ID do tipo (ex: <#ffffff>semanal<#ffd470>):'
+    pool_count: '<#ffd470>Digite a quantidade de missões para este grupo:'
+    pool_name: '<#ffd470>Digite o nome do grupo (em inglês sem espaços):'
+    rotation_interval: '<#ffd470>Digite o intervalo de rotação:'
+    rotation_time: '<#ffd470>Digite o tempo de rotação:'
+    slot: '<#ffd470>Digite o slot:'
+  rotation_gui:
+    anchor_click:
+    - <#a7ff99>Botão Esquerdo <#cccccc>- Próximo dia
+    anchor_lore:
+    - '<#a8a8a8>Dia: <#ffffff>{val}'
+    anchor_title: <#ffd470>Dia âncora
+    interval_click:
+    - <#a7ff99>Botão Esquerdo <#cccccc>- Adicionar 1 hora
+    - <#a7ff99>Botão Direito <#cccccc>- Subtrair 1 hora
+    - <#ffe999>Shift+Botão Esquerdo <#cccccc>- Adicionar 1 dia
+    - <#ffe999>Shift+Botão Direito <#cccccc>- Subtrair 1 dia
+    - <#ffd470>Trocar (F) <#cccccc>- Inserir manualmente
+    - <#ed6868>Soltar (Q) <#cccccc>- Limpar
+    interval_lore:
+    - '<#a8a8a8>Atual: <#ffffff>{val}'
+    interval_title: <#ffd470>Intervalo de redefinição
+    pools_click:
+    - <#a7ff99>Botão Esquerdo <#cccccc>- Gerenciar grupos
+    pools_lore:
+    - '<#a8a8a8>Grupos: <#ffffff>{val}'
+    pools_title: <#ffd470>Grupos de missões
+    time_click:
+    - <#a7ff99>Botão Esquerdo <#cccccc>- Adicionar 1 hora
+    - <#a7ff99>Botão Direito <#cccccc>- Subtrair 1 hora
+    - <#ffe999>Shift+Botão Esquerdo <#cccccc>- Adicionar 10 min
+    - <#ffe999>Shift+Botão Direito <#cccccc>- Subtrair 10 min
+    - <#ffd470>Trocar (F) <#cccccc>- Inserir manualmente
+    - <#ed6868>Soltar (Q) <#cccccc>- Limpar
+    time_lore:
+    - '<#a8a8a8>Atual: <#ffffff>{val}'
+    time_title: <#ffd470>Tempo de redefinição
+    title: '&0Rotação de missões: {id}'
+  saved_success: '{prefix}<#78b185>✔ <#ffffff>Alterações no tipo de missão {id} salvas com sucesso!'
+  select_type_click: <#a7ff99>Botão Esquerdo <#cccccc>- Selecionar este tipo
+  title_list: '&0Lista de tipos de missão ({count})'
+  title_main: '&0Editor de tipo: {id}'
+  title_selector: '&0Selecionar tipo de missão'
+  type_created: '{prefix}<#78b185>✔ <#ffffff>Novo tipo criado com sucesso: {id}'
+  type_list_click: <#a7ff99>Botão Esquerdo <#cccccc>- Editar tipo
+  type_list_clone: <#d9a752>Trocar (F) <#cccccc>- Clonar
+  type_list_delete: <#ff7070>Soltar (Q) <#cccccc>- Excluir
+  type_list_engine: '<#a8a8a8>Motor: <#7dd3ff>{engine}'
+  type_list_folder: '<#a8a8a8>Pasta: <#ffffff>{folder}'
+  type_list_quests: '<#a8a8a8>Missões: <#ffffff>{count}'
+

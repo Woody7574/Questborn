@@ -1,0 +1,469 @@
+prefix: <#e9c46a><bold>Questborn</bold> <#8a8a8a>• <reset>
+hud:
+  actionbar:
+    complete-message: <#99ff9d>Görev {quest_name} <#99ff9d>tamamlandı!
+commands:
+  no-permission: '{prefix}<#e07a5f>Bu işlem için izniniz yok.'
+  finish-global:
+    not-global: '{prefix}<#e07a5f>Görev <#ffffff>{quest} <#e07a5f> küresel bir görev
+      değildir.'
+    not-active: '{prefix}<#cccccc>Küresel görev <#ffffff>{quest} <#cccccc>aktif değil
+      veya zaten bitti.'
+    success: '{prefix}<#97e673>Küresel görev <#ffffff>{quest} <#97e673> zorla tamamlandı!'
+  reset-global:
+    not-global: '{prefix}<#e07a5f>Görev <#ffffff>{quest} <#e07a5f> küresel bir görev
+      değildir.'
+    success: '{prefix}<#97e673>Küresel görev <#ffffff>{quest} <#97e673> tamamen sıfırlandı.
+      Küresel ilerleme silindi ve çevrimiçi oyuncuların bekleme süreleri sıfırlandı.'
+  npc-only: '{prefix}<#cccccc>Bu komut kullanılamaz.'
+  reload:
+    done: '{prefix}<#97e673>Tüm eklenti yapılandırmaları başarıyla yeniden yüklendi!'
+  help:
+    header: <#7dd3ff>&m----<#ffffff> Questborn Komut Yardımı <#7dd3ff>&m----
+    footer: <#7dd3ff>Sayfa {page} / {total_pages} <#a3a3a3>({total_results} komut)
+    hover-no-perm: <#a7ff99>Sohbete eklemek için tıklayın
+    hover-with-perm: '<#a7ff99>Sohbete eklemek için tıklayın
+
+      <#ffcc66>Yetki: <#ffffff>{permission}'
+  effect:
+    list-header: <#7dd3ff><strikethrough>----</strikethrough><#ffffff> Mevcut Efektler
+      <#7dd3ff><strikethrough>----</strikethrough>
+    list-footer: <#7dd3ff>Sayfa {page} / {total_pages} <#a3a3a3>({total_results} efekt)
+    no-effects: '{prefix}<#cccccc>Mevcut efekt yok.'
+    not-found: '{prefix}<#e07a5f>Efekt <#ffffff>{effect}<#e07a5f> bulunamadı.'
+    success-self: '{prefix}<#97e673>Kendinizde <#ffffff>{effect}<#97e673> efekti oynatıldı.'
+    success-other: '{prefix}<#97e673><#ffffff>{player}<#97e673> oyuncusunda <#ffffff>{effect}<#97e673>
+      efekti oynatıldı.'
+    received: '{prefix}<#97e673>Üzerinizde <#ffffff>{effect}<#97e673> efekti oynatıldı.'
+  npc:
+    usage-header: <#7dd3ff><strikethrough>----</strikethrough> <#ffffff>NPC Komutları
+      <#7dd3ff><strikethrough>----</strikethrough>
+    help:
+      dialogue: '  <#97e673>/quest npc dialogue <#a3a3a3><npcId> <dialogueId> <#888888>-
+        Diyalog bağla'
+      displayname: '  <#97e673>/quest npc displayname <#a3a3a3><npcId> <name> <#888888>-
+        İsim belirle'
+      gui-title: '  <#97e673>/quest npc gui-title <#a3a3a3><npcId> <title> <#888888>-
+        GUI başlığı belirle'
+      indicator: '  <#97e673>/quest npc indicator <#a3a3a3><npcId> <offset> <#888888>-
+        Gösterge yüksekliği'
+      info: '  <#97e673>/quest npc info <#a3a3a3>[npcId] <#888888>- NPC bilgisi'
+      link: '  <#97e673>/quest npc link <#a3a3a3><category> <type> <id> <#888888>-
+        Görev bağla'
+      remove: '  <#97e673>/quest npc remove <#a3a3a3><npcId> <#888888>- NPC sil'
+      unlink: '  <#97e673>/quest npc unlink <#a3a3a3><category> <type> <id> <#888888>-
+        Görev bağını kaldır'
+      voice: '  <#97e673>/quest npc voice <#a3a3a3><npcId> <voice> <#888888>- Ses
+        belirle'
+    list-header: <#7dd3ff>&m----<#ffffff> Yapılandırılmış NPC'ler <#7dd3ff>&m----
+    list-empty: '{prefix}<#cccccc>Yapılandırılmış NPC yok.'
+    list-item: '{prefix}<#97e673>- <#ffffff>{npc}'
+    remove-success: '{prefix}<#97e673><#ffffff>{npc}<#97e673> için NPC yapılandırması
+      başarıyla kaldırıldı'
+    gui-title-set: '{prefix}<#97e673><#ffffff>{npc}<#97e673> için GUI başlığı <#ffffff>{title}<#97e673>
+      olarak ayarlandı'
+    displayname-set: '{prefix}<#97e673>Display name for NPC <#ffffff>{npc}<#97e673>
+      set to: <#ffffff>{name}'
+    displayname-removed: '{prefix}<#97e673>Display name removed for NPC <#ffffff>{npc}'
+    info:
+      header: '<#7dd3ff>&m----<#ffffff> NPC Bilgisi: {npc} <#7dd3ff>&m----'
+      title: '{prefix}<#cccccc>GUI Başlığı: <#ffffff>{title}'
+      dialogue: '{prefix}<#cccccc>Diyalog: <#ffffff>{dialogue}'
+      indicator: '{prefix}<#cccccc>Gösterge Kaydırması: <#ffffff>{offset}'
+    dialogue-removed: '{prefix}<#97e673>NPC <#ffffff>{npc}<#97e673> diyaloğu kaldırıldı'
+    dialogue-not-found: '{prefix}<#e07a5f>Diyalog bulunamadı: <#ffffff>{dialogue}'
+    dialogue-set: '{prefix}<#97e673>NPC <#ffffff>{npc}<#97e673> için diyalog <#ffffff>{dialogue}<#97e673>
+      olarak ayarlandı'
+    indicator-set: '{prefix}<#97e673>NPC <#ffffff>{npc}<#97e673> gösterge ofseti <#ffffff>{offset}<#97e673>
+      olarak ayarlandı'
+    voice-set: '{prefix}<#97e673>NPC <#ffffff>{npc}<#97e673> için yazma sesi <#ffffff>{voice}<#97e673>
+      olarak ayarlandı'
+    voice-removed: '{prefix}<#97e673>NPC <#ffffff>{npc}<#97e673> yazma sesi kaldırıldı'
+    console-must-specify-id: '{prefix}<#e07a5f>Konsol, NPC ID''sini belirtmelidir.'
+    not-looking-at-npc: '{prefix}<#e07a5f>NPC tanımlanamadı. Lütfen bir NPC''ye bakın
+      veya ID sağlayın.'
+    link-pending: '{prefix}<#97e673>Lütfen bağlamak için bir NPC''ye sağ tıklayın.'
+    unlink-pending: '{prefix}<#e07a5f>Lütfen bağlantıyı kesmek için bir NPC''ye sağ
+      tıklayın.'
+    bind-success: '{prefix}<#97e673><#ffffff>{target}<#97e673>, başarıyla <#ffffff>{npc}<#97e673>'
+    unbind-success: '{prefix}<#e07a5f><#ffffff>{target}<#e07a5f>, başarıyla <#ffffff>{npc}<#e07a5f>
+      adlı NPC''den ayrıldı.'
+  activate:
+    success: '{prefix}<#97e673>Görev <#ffffff>{quest}<#97e673> oyuncu <#ffffff>{player}<#97e673>
+      için etkinleştirildi.'
+    fail: '{prefix}<#e07a5f>Görev <#ffffff>{quest}<#e07a5f> etkinleştirilemedi.'
+  details:
+    no-active-quest: '{prefix}<#cccccc>Aktif göreviniz yok.'
+  deactivate:
+    no-active: '{prefix}<#cccccc>Oyuncunun aktif görevi yok.'
+    success: '{prefix}<#97e673>Oyuncu <#ffffff>{player}<#97e673> için aktif görev
+      devre dışı bırakıldı.'
+  finish:
+    no-active: '{prefix}<#cccccc>Oyuncunun aktif görevi yok.'
+    success: '{prefix}<#97e673>Oyuncu <#ffffff>{player}<#97e673> için görev tamamlandı.'
+    stage:
+      success: '{prefix}<#97e673>Oyuncu <#ffffff>{player}<#97e673> için görev aşaması
+        zorla tamamlandı.'
+      no-stages: '{prefix}<#cccccc>Bu görevde aşama yok veya aşama tamamlanamadı.'
+  open:
+    opened: '{prefix}<#97e673>Menü <#ffffff>{menu}<#97e673> oyuncu <#ffffff>{player}<#97e673>
+      için açıldı.'
+  reset:
+    cooldown-success: '{prefix}<#97e673>Görev <#ffffff>{quest}<#97e673> için bekleme
+      süresi oyuncu <#ffffff>{player}<#97e673> için sıfırlandı.'
+    history-success: '{prefix}<#97e673>Görev <#ffffff>{quest}<#97e673> tamamlama geçmişi
+      oyuncu <#ffffff>{player}<#97e673> için sıfırlandı.'
+    reward-success: '{prefix}<#97e673>Görev <#ffffff>{quest}<#97e673> ödül durumu
+      oyuncu <#ffffff>{player}<#97e673> için sıfırlandı.'
+    rotation-success: '{prefix}<#97e673>Görev türü <#ffffff>{type}<#97e673> için rotasyon
+      verileri oyuncu <#ffffff>{player}<#97e673> için sıfırlandı.'
+    quest-success: '{prefix}<#97e673>Görev <#ffffff>{quest}<#97e673> için tüm veriler
+      oyuncu <#ffffff>{player}<#97e673> için sıfırlandı.'
+    type-success: '{prefix}<#97e673>Görev türü <#ffffff>{type}<#97e673> için tüm veriler
+      oyuncu <#ffffff>{player}<#97e673> için sıfırlandı.'
+    top-success: '{prefix}<#97e673><#ffffff>{type}<#97e673> türü için top verileri <#ffffff>{player}<#97e673> oyuncusu için sıfırlandı.'
+    top-success-all: '{prefix}<#97e673>Top sıfırlama tamamlandı! <#ffffff>{count}<#97e673> oyuncu değiştirildi.'
+    top-start: '{prefix}<#97e673><#ffffff>{type}<#97e673> türü için top sıfırlama başlatılıyor...'
+
+  errors:
+    console-specify-player: '{prefix}<#e07a5f>Konsol bir oyuncu belirtmelidir.'
+    invalid-syntax: '{prefix}<#e07a5f>Geçersiz sözdizimi! Kullanım: <#97e673>{command}
+      <#a3a3a3>{syntax}'
+    quest-not-found: '{prefix}<#e07a5f>Görev <#ffffff>{quest}<#e07a5f> mevcut değil.'
+    player-not-found: '{prefix}<#e07a5f><#ffffff>{player}<#e07a5f> isimli oyuncu bulunamadı!'
+    top-reset-error: '{prefix}<#e07a5f>Top sıfırlama hatası: {error}'
+
+  global:
+    usage-header: <#7dd3ff><strikethrough>----</strikethrough> <#ffffff>Küresel Görevler
+      <#7dd3ff><strikethrough>----</strikethrough>
+    help:
+      finish: '  <#97e673>/quest finish global <#a3a3a3><questId> <#888888>- Küresel
+        görevi zorla tamamla'
+      reset: '  <#97e673>/quest reset global <#a3a3a3><questId> <#888888>- Küresel
+        görev ilerlemesini sıfırla'
+      top: '  <#97e673>/quest top <#a3a3a3>[questId] <#888888>- Küresel görev liderlik
+        tablosu'
+gui:
+  type:
+    locked-message: <#ff5555>Bu görev türü için gereksinimleri karşılamıyorsunuz.
+  quest_details:
+    info:
+      your-contribution: <#ffe999>Katkın
+      progress:
+        title: <#ffe999>İlerleme
+        bar: '{bar} <#cccccc>{percent}%'
+        value: <#cccccc>({current} / {target})
+      required-items: '<#cccccc>Gereken eşyalar:'
+      awaiting-transfer: '#ffe999>❖ Kaynakları teslim e'
+      items-transferred: '#99ffd4>✓ Kaynaklar teslim edild'
+    status:
+      cooldown: '<#ff9999>Bekleme süresi: <#ffffff>{time}'
+      awaiting-transfer: '#ffe999>❖ Kaynakları teslim e'
+      locked: <#ff5555>Kilitli
+    required_items: '<#cccccc>Gerekli eşyalar:'
+    transfer:
+      required-items: '<#cccccc>Gereken eşyalar:'
+      transfer-not-active:
+        title: <#cccccc>Görev aktif değil
+        lore:
+        - <#cccccc>Önce görevi etkinleştirin,
+        - <#cccccc>eşya teslim etmek için
+      transfer-already-transferred:
+        title: '#cccccc>Kaynaklar zaten teslim edild'
+        lore:
+        - <#cccccc>Eşyaları zaten teslim ettiniz
+      transfer-locked:
+        title: '#cccccc>Kaynakları teslim e'
+        lore:
+        - <#cccccc>Eşya teslimi kilitli
+    objective_title: '&eObjective Details'
+    rewards_title: '&eÖdüller'
+  quest_list:
+    global-progress: <#ad99ff>Küresel İlerleme
+    global-participants: '<#cccccc>Katılımcılar: <#ffffff>{current} / {max}'
+    global-participants-no-max: '<#cccccc>Katılımcılar: <#ffffff>{current}'
+    global-participants-min: '<#cccccc>Katılımcılar: <#ffffff>{current} / {max} <#888888>(Min.
+      {min})'
+    global-participants-no-max-min: '<#cccccc>Katılımcılar: <#ffffff>{current} <#888888>(Min.
+      {min})'
+    global-contribution: '<#cccccc>Katkın: <#ffffff>{current} / {max}'
+    global-contribution-no-max: '<#cccccc>Katkın: <#ffffff>{current}'
+    rewards-header: '<#ffe999>Ödüller:'
+    status:
+      tracked-suffix: ' &8| &bTakip Ediliyor'
+      completed-onetime: '<#99ffd4>Durum: <#cccccc>Tamamlandı (tek seferlik)'
+      active: '<#99ffd4>Durum: <#a7ff99>Aktif'
+      waiting-participants: '<#99ffd4>Durum: <#cccccc>Katılımcılar bekleniyor <#777777>({current}/{min})'
+      cooldown: '<#ff9999>Durum: <#cccccc>Bekleme süresi &7({time})'
+      rotation-cooldown: '<#ff9999>Durum: <#cccccc>Sonraki rotasyona kadar &7({time})'
+      available: '<#99ffd4>Durum: <#cccccc>Kullanılabilir'
+      reward-pending: '<#99ffd4>Durum: <#a7ff99>Ödül bekliyor'
+      locked: '<#ff9999>Durum: <#cccccc>Kilitli'
+    chain:
+      required-quests: '<#cccccc>Gerekli görevler:'
+    cooldown-time: '<#ff9999>Bekleme süresi: <#cccccc>{time}'
+    rotation-cooldown-time: '<#ff9999>Sonraki rotasyona kadar: <#cccccc>{time}'
+    open-details: <#a7ff99>Sol tıklama <#cccccc>- detaylar / etkinleştir
+    activate-quest-quick: <#a7ff99>Swap (F) <#cccccc>- Görevi etkinleştir
+    activate-quest-quick-replace: <#ffaa00>Swap (F) <#cccccc>- Aktif görevi değiştir
+    cancel-quest-quick: <#ff6666>Drop (Q) <#cccccc>- Görevi iptal et
+    claim-reward: <#a7ff99>Sağ tıklama <#cccccc>- ödülü al
+    track-quest: <#99ccff>Right-click <#cccccc>- görevi takip et
+    stages: '<#cccccc>Aşamalar: <#ffffff>{count}'
+    stage: <#cccccc>Aşama {current}/{total}
+  delivery:
+    items-dropped: '{prefix}<#ff9999>Envanteriniz doluydu; eşyalar yere düştü.'
+quests:
+  objectives:
+    header: <#ffe999>Hedef detayları
+    none: <#777777>Detaylı açıklama yok
+    npc-interact: '<#cccccc>Konus:'
+    give-item-to-npc: '<#cccccc>Esyayi ver:'
+    block_break: '<#cccccc>Blokları kır:'
+    block_place: '<#cccccc>Blokları yerleştir:'
+    item_craft: '<#cccccc>Eşya üret:'
+    item_smelt: '<#cccccc>Ergit:'
+    item_cook: '<#cccccc>Pişir:'
+    item_fish: '<#cccccc>Balık tut:'
+    item_enchant: '<#cccccc>Büyüle:'
+    consume_item: '<#cccccc>Eşya tüket:'
+    brewing: '<#cccccc>İksir yap:'
+    use_item: '<#cccccc>Eşya kullan:'
+    kill: '<#cccccc>Canavarları öldür:'
+    damage: '<#cccccc>Hasar ver: <#ffe999>{amount}'
+    take-damage: '<#cccccc>Hasar al: <#ffe999>{amount}'
+    travel: '<#cccccc>Yol kat et: <#ffe999>{blocks} <#cccccc>blok'
+    location: '<#cccccc>Koordinatlara ulaş:'
+    reach-biome: '<#cccccc>Biyoma ulaş: <#ffe999>{biome} <#cccccc>{amount} kez'
+    enter-region: '<#cccccc>Bölgeye gir: <#ffe999>{region}'
+    leave-region: '<#cccccc>Bölgeden çık: <#ffe999>{region}'
+    chat: '<#cccccc>Mesaj gönder: <#ffe999>{text}'
+    command: '<#cccccc>Komut çalıştır: <#ffe999>{cmd}'
+    level-up-reach: '<#cccccc>Seviyeye ulaş: <#ffe999>{levels}'
+    level-up-gain: '<#cccccc>Kazan: <#ffe999>{levels} <#cccccc>seviye'
+    interact-block: '<#cccccc>Blokla etkileşim kur:'
+    interact-entity: '<#cccccc>Varlıkla etkileşim kur:'
+    fill-bucket: '<#cccccc>Kova doldur:'
+    empty-bucket: '<#cccccc>Kova boşalt:'
+    till-soil: '<#cccccc>Toprağı işle:'
+    plant-seed: '<#cccccc>Tohum ek:'
+    harvest-crop: '<#cccccc>Mahsul topla:'
+    bone-meal-use: '<#cccccc>Kemik tozu kullan:'
+    strip-log: '<#cccccc>Kütüğü soy:'
+    wax-off: '<#cccccc>Balmumu çıkar:'
+    wax-on: '<#cccccc>Balmumu uygula:'
+    item-repair: '<#cccccc>Eşyayı onar:'
+    item-rename: '<#cccccc>Eşyayı yeniden adlandır:'
+    new-name: '<#cccccc>Yeni isim: <#ffe999>{name}'
+    item-break: '<#cccccc>Aleti kır:'
+    dye-item: '<#cccccc>Eşyayı boya:'
+    fill-fuel: '<#cccccc>Yakıt doldur:'
+    burn-fuel: '<#cccccc>Yakıt yak:'
+    villager-sell-item: '<#cccccc>Köylüye sat:'
+    villager-buy-item: '<#cccccc>Köylüden satın al:'
+    enchant-table-use: '<#cccccc>Büyü masasını kullan:'
+    anvil-use: '<#cccccc>Örs kullan:'
+    tame-animal: '<#cccccc>Hayvan evcilleştir:'
+    breed-animals: '<#cccccc>Hayvanları üret:'
+    milk-cow: '<#cccccc>İneği sağ:'
+    shear-sheep: '<#cccccc>Koyunu kırk:'
+    entity-ride: '<#cccccc>Varlığa bin:'
+    throw-egg: '<#cccccc>Yumurta at:'
+    experience-orb-pickup: '<#cccccc>Tecrübe topla: <#ffe999>{amount}'
+    player-kill: '<#cccccc>Oyuncuları öldür: <#ffe999>{amount}'
+    assist-kill: '<#cccccc>Öldürmelere yardım et: <#ffe999>{amount}'
+    min-damage: '<#cccccc>Minimum hasar: <#ffe999>{damage}'
+    sleep-in-bed: '<#cccccc>Yatakta uyuyun: <#ffe999>{amount} <#cccccc>kez'
+    enter-bed: '<#cccccc>Yatağa gir: <#ffe999>{amount}'
+    change-dimension: '<#cccccc>Boyut değiştir:'
+    dimension: '<#cccccc>Boyut: <#ffe999>{dimension}'
+    fall-distance: '<#cccccc>Düşüşte uç: <#ffe999>{blocks} <#cccccc>blok'
+    min-height: '<#cccccc>Min. yükseklik: <#ffe999>{height}'
+    boat-travel: <#cccccc>Tekneyle <#ffe999>{blocks} blok <#cccccc>git
+    minecart-travel: <#cccccc>Vagonla <#ffe999>{blocks} <#cccccc>blok git
+    elytra-fly: <#cccccc>Elitra ile <#ffe999>{amount} blok uç
+    jump: '<#cccccc>Zıpla: <#ffe999>{jumps} <#cccccc>kez'
+    crouch: '<#cccccc>Çömel: <#ffe999>{crouches} <#cccccc>kez'
+    sprint-distance: '<#cccccc>Depar at: <#ffe999>{blocks} <#cccccc>blok'
+    crouch-distance: '<#cccccc>Eğilerek yürü: <#ffe999>{blocks} <#cccccc>blok'
+    swim-distance: '<#cccccc>Yüz: <#ffe999>{blocks} <#cccccc>blok'
+    potion-splash: '<#cccccc>Atılabilir iksir:'
+    potion-drink: '<#cccccc>İksir iç:'
+    beacon-activate: '<#cccccc>Işın kulesini etkinleştir: <#ffe999>{amount} <#cccccc>kez'
+    conduit-activate: '<#cccccc>Kanalı etkinleştir: <#ffe999>{amount} <#cccccc>kez'
+    join-server: '<#cccccc>Sunucuya katıl: <#ffe999>{amount} <#cccccc>kez'
+    play-time: '<#cccccc>Oyun süresi: <#ffe999>{time}'
+    hold-item: '<#cccccc>Eşya tut:'
+    hold-time: '<#cccccc>Tutma süresi: <#ffe999>{time}'
+    drop-item: <#cccccc>Eşya bırak
+    open-container: <#cccccc>Konteyner aç <#ffe999>{amount} <#cccccc>kez
+    container-type: '<#cccccc>Konteyner türü: <#ffe999>{type}'
+    sign:
+      edit: '<#cccccc>Tabela düzenle: <#ffe999>{amount} <#cccccc>kez'
+      message: '<#cccccc>Yazılması gereken: <#ffe999>{message}'
+    book:
+      edit: '<#cccccc>Kitap düzenle: <#ffe999>{amount} <#cccccc>kez'
+      message: '<#cccccc>Yazılması gereken: <#ffe999>{message}'
+    receive-damage-type: '<#cccccc>Hasar al: <#ffe999>{damage}'
+    damage-cause:
+      any: <#cccccc>Herhangi bir şeyden <#ffe999>
+      contact: <#cccccc>Temastan <#ffe999>
+      entity_attack: <#cccccc>Varlık saldırısından <#ffe999>
+      projectile: <#cccccc>Mermiden <#ffe999>
+      suffocation: <#cccccc>Boğulmadan <#ffe999>
+      fall: <#cccccc>Düşmekten <#ffe999>
+      fire: <#cccccc>Ateşten <#ffe999>
+      fire_tick: <#cccccc>Ateş hasarından <#ffe999>
+      lava: <#cccccc>Lavdan <#ffe999>
+      drowning: <#cccccc>Boğulmaktan <#ffe999>
+      block_explosion: <#cccccc>Blok patlamasından <#ffe999>
+      entity_explosion: <#cccccc>Varlık patlamasından <#ffe999>
+      void: <#cccccc>Boşluktan <#ffe999>
+      lightning: <#cccccc>Yıldırımdan <#ffe999>
+      suicide: <#cccccc>İntihardan <#ffe999>
+      starvation: <#cccccc>Açlıktan <#ffe999>
+      poison: <#cccccc>Zehirden <#ffe999>
+      magic: <#cccccc>Büyüden <#ffe999>
+      wither: <#cccccc>Wither'dan <#ffe999>
+      falling_block: <#cccccc>Düşen bloktan <#ffe999>
+      thorns: <#cccccc>Dikenlerden <#ffe999>
+      dragon_breath: <#cccccc>Ejderha nefesinden <#ffe999>
+      fly_into_wall: <#cccccc>Duvara çarpmaktan <#ffe999>
+      hot_floor: <#cccccc>Sıcak zeminden <#ffe999>
+      cramming: <#cccccc>Sıkışmadan <#ffe999>
+      dryout: <#cccccc>Kurumadan <#ffe999>
+      freeze: <#cccccc>Donmaktan <#ffe999>
+      sonic_boom: <#cccccc>Ses patlamasından <#ffe999>
+      unknown: <#cccccc>Bilinmeyenden <#ffe999>
+    wear-armor: '<#cccccc>Zırh giy:'
+  global:
+    not_enough_participants: '<#ffdd66>⚠ <#cccccc>Küresel görev <#ffe999>{quest} <#cccccc>en
+      az <#ffe999>{min} <#cccccc>katılımcı gerektirir <#cccccc>(şu an: <#ffe999>{current}<#cccccc>)!'
+    cancel_blocked_contributed: <#ffdd66>⚠ <#cccccc>Bu küresel göreve zaten katkıda
+      bulundunuz ve bunu iptal edemezsiniz!
+    rejoin_cooldown: <#cc4444>❌ <#cccccc>Bu küresel görevi yeniden etkinleştirmeden
+      önce lütfen <#ffe999>{time} <#cccccc>bekleyin!
+    max_contribution: <#97e673>✨ Harika iş! <#cccccc><#ffe699>{quest}<#cccccc> küresel
+      görevinde maksimum kişisel katkınıza ulaştınız. Yardımınız için teşekkürler!
+    personal:
+      join: '<#5bcbb5>+ <#cccccc><#ffe999>{quest} <#cccccc>görevine katıldınız'
+      join-waiting: '<#5bcbb5>+ <#cccccc><#ffe999>{quest} <#cccccc>görevini etkinleştirmek için sıraya katıldınız <#888888>(Hala gerekiyor: <#ffe999>{remaining}<#888888>)'
+      leave: '<#e07a5f>- <#cccccc><#ffe999>{quest} <#cccccc>görevine katılımı bıraktınız!'
+      leave-waiting: '<#e07a5f>- <#cccccc><#ffe999>{quest} <#cccccc>görevi için sıradan ayrıldınız!'
+    broadcast:
+      join: <#5bcbb5>+ <#cccccc>Oyuncu <#ffe999>{player} <#cccccc>küresel göreve <#ffe999>{quest}
+        <#cccccc>katıldı
+      join-waiting: '<#5bcbb5>+ <#cccccc>Oyuncu <#ffe999>{player} <#cccccc>küresel
+        göreve <#ffe999>{quest} <#cccccc>katıldı <#888888>(Kalan: <#ffe999>{remaining}<#888888>)'
+      leave: <#e07a5f>- <#cccccc>Oyuncu <#ffe999>{player} <#cccccc>artık <#ffe999>{quest}
+        <#cccccc>görevinde değil
+      start:
+      - ' '
+      - <#5bcbb5>⚡ Küresel görev <#ffe999>{quest} <#5bcbb5>etkinleştirildi!
+      - ' '
+      header:
+      - ' '
+      - <#e8b830>Küresel görev tamamlandı!
+      - '  <#c0c0c0>“{quest}<#c0c0c0>”'
+      - ' '
+      - '<#fcd244>⭐ En iyi kahramanlar:'
+      top-entry: ' <#fcd244>{rank}. <#cccccc>{player} <#888888>- <#fcd244>{contribution}
+        <#888888>({percent}%)'
+      footer:
+      - ' '
+      - '<#5bcbb5>👥 <#cccccc>Toplam katılımcı: <#5bcbb5>{participants}'
+      - '<#78d169>⏳ <#cccccc>Geçen süre: <#78d169>{time}'
+      your-contribution: '<#b894e6>⭐ <#cccccc>Kişisel katkınız: <#b894e6>{amount}'
+      time-unknown: bilinmiyor
+  background:
+    complete: '{prefix}<#97e673>Görev <#ffffff>{quest} <#97e673>arka planda başarıyla
+      tamamlandı!'
+    stage_complete: '{prefix}<#97e673><#ffffff>{quest} <#97e673>görevinin <#ffffff>{stage}
+      <#97e673>. aşaması arka planda tamamlandı!'
+  activate:
+    success:
+    - <#a7ff99>{quest} görevini etkinleştirdiniz
+    - ''
+    - '{objective_details}'
+    - ''
+    - '{clickable_details}'
+  chain:
+    auto-activated: <#a7ff99>Görev <#ffffff>{quest} otomatik olarak başlatıldı
+  reward:
+    waiting-gui: '{prefix}<#97e673>Görev ödülünüz sizi bekliyor!'
+    waiting-npc: '{prefix}<#97e673>Ödülü <#ffffff>{npc}<#97e673> adlı kişiden al!'
+  stage:
+    complete: '{quest} <#ffcc80>Aşama &f{stage} <#ffcc80>tamamlandı!'
+    new:
+    - '<#98b37d>Sonraki aşamada şunu yapmalısınız:'
+    - ''
+    - '{objective_details}'
+    - ''
+    - '{clickable_details}'
+  transfer:
+    success: '{prefix}<#97e673>Aşama eşyaları başarıyla teslim edildi!'
+  types:
+    general:
+      unknown: Bilinmeyen
+    blocks:
+      any: Herhangi bir blok
+      unknown: Bilinmeyen blok
+    entities:
+      any: Herhangi bir varlık
+      unknown: Bilinmeyen varlık
+    fluids:
+      any: Herhangi bir sıvı
+      unknown: Bilinmeyen sıvı
+    items:
+      any: Herhangi bir eşya
+      any_fuel: Herhangi bir yakıt
+      unknown: Bilinmeyen eşya
+    villagers:
+      any: Herhangi bir köylü
+      unknown: Bilinmeyen köylü
+chat:
+  clickable: <#e6c18a>[Daha fazla bilgi]
+  hover: <#cccccc>Görev detaylarını görmek için tıklayın
+rewards:
+  money:
+    invalid: '{prefix}<#e07a5f>Para ödülü miktarı geçersiz.'
+    added: <#e9c46a>+ <#ffffff>{amount} <#e9c46a> coin
+  items:
+    received: <#97e673>Görev ödülü olarak eşyalar aldınız!
+    dropped: <#e07a5f>Bazı eşyalar envanterinize sığmadı ve yere düştü!
+  xp:
+    levels: <#7dd3ff>+ <#ffffff>{amount} <#7dd3ff> tecrübe seviyesi
+    points: <#7dd3ff>+ <#ffffff>{amount} <#7dd3ff> tecrübe puanı
+    invalid: '{prefix}<#e07a5f>Geçersiz deneyim miktarı.'
+  attribute:
+    added: <#f4a261>Özellik <#ffffff>{attribute} <#f4a261> <#ffffff>{value} <#f4a261>
+      artırıldı
+  effect:
+    added: <#b19cd9>Alınan etki <#ffffff>{effect} <#b19cd9>seviye <#ffffff>{amplifier}
+      <#b19cd9>süre <#ffffff>{duration}
+system:
+  time:
+    year: y
+    years: y
+    month: ay
+    months: ay
+    day: g
+    days: g
+    hour: s
+    hours: s
+    minute: dk
+    minutes: dk
+    second: sn
+    seconds: sn
+    format:
+      year-month: '{y}{y_unit} {m}{m_unit}'
+      month-day: '{m}{m_unit} {d}{d_unit}'
+      day-hour: '{d}{d_unit} {h}{h_unit}'
+      hour-minute: '{h}{h_unit} {min}{min_unit}'
+      minute-second: '{min}{min_unit} {s}{s_unit}'
+      only-second: '{s}{s_unit}'
+  update:
+    available:
+    - <#ffe999>{plugin} için yeni sürüm mevcut!
+    - '{prefix}<#cccccc>Mevcut: <#ffffff>{current} <#cccccc>| En son: <#ffffff>{latest}'
+    - '{prefix}<#cccccc>İndir: <#7dd3ff>{url}'

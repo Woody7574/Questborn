@@ -1,0 +1,50 @@
+id: weekly_shadow_walk
+name: <#8b5cf6>🌑 Shadow Walk
+icon-material: NETHERITE_BOOTS
+
+rotation-pool: "rare"
+
+description:
+- <#cccccc>The weekly assassin tournament has begun.
+- <#cccccc>Demonstrate your supreme stealth techniques.
+- <#cccccc>Sneak an incredible distance.
+- ""
+- "<#93c5fd>⭐ <#cccccc>Rarity: <#bfdbfe>Rare"
+rewards-description:
+- <#a7ff99>+1200 coins
+- <#ffe08a>+450 XP
+- <#7dd3ff>+Ninja Boots
+quest-path:
+  stage-1:
+    objective:
+      type: CROUCH_DISTANCE
+      distance: 800
+  stage-2:
+    objective:
+      type: SPRINT_DISTANCE
+      distance: 4000
+rewards:
+  money:
+    amount: 1200
+    silent: false
+  xp:
+    points: 450
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: LEATHER_BOOTS
+      amount: 1
+      name: <#8b5cf6>Ninja Boots
+      lore:
+      - <#cccccc>Softly tread the night.
+      enchantments:
+      - feather_falling:4
+      - swift_sneak:3
+      flags:
+      - HIDE_ENCHANTS
+      color: "20,20,20"
+quest-effects:
+  activate: quest_activate_start
+  stage-change: quest_stage_change
+  complete: quest_complete_success

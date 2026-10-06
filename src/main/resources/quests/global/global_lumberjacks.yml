@@ -1,0 +1,55 @@
+# Unique ID of the quest. Should be same as file name.
+id: "global_lumberjacks"
+
+# Link to the quest type category
+type: global
+
+name: "<#8ad98a>🪓 Great Logging"
+description:
+  - "<#cccccc>The server desperately needs wood"
+  - "<#cccccc>for new settlements. Grab your"
+  - "<#cccccc>axe and gather oak logs!"
+
+icon-material: OAK_LOG
+slot: 22
+
+# Global Settings
+max-participants: 0      # 0 means unlimited slots, whole server can participate
+personal-limit: 1000     # Limit per person
+reward-step: 200         # Reward for every 200 blocks broken
+
+# Objectives
+objective:
+  type: "BLOCK_BREAK"
+  amount: 10000
+  target-materials:
+    - OAK_LOG
+
+# Rewards Displayed in GUI
+rewards-description:
+  - " <#efe3a6>+ 1x Golden Apple | $100 | 100 EXP <#777777>(per 200)"
+  - " <#f0c589>+ 2x Ench. Golden Apple | $2500 | 1500 EXP <#777777>(final)"
+
+# Rewards (Includes guaranteed rewards and step-rewards)
+rewards:
+  money: 2500
+  xp: 1500
+  items:
+    silent: false
+    list:
+      - material: ENCHANTED_GOLDEN_APPLE
+        amount: 2
+  step-rewards:
+    money: 100
+    xp: 100
+    items:
+      silent: false
+      list:
+        - material: GOLDEN_APPLE
+          amount: 1
+
+quest-effects:
+  activate: quest_activate_important
+  complete: global_contribution_max
+
+

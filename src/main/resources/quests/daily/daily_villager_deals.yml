@@ -1,0 +1,36 @@
+id: daily_villager_deals
+name: <#34d399>💼 Village Deal
+icon-material: EMERALD
+
+rotation-pool: "rare"
+
+description:
+- <#cccccc>The village has opened new contracts.
+- <#cccccc>Support the economy and resource exchange.
+- <#cccccc>Make <#34d399>3 trades with a villager.
+- ""
+- "<#93c5fd>⭐ <#cccccc>Rarity: <#bfdbfe>Rare"
+rewards-description:
+- <#a7ff99>+210 coins
+- <#ffe08a>+100 XP
+- <#7dd3ff>+2 Emeralds
+objective:
+  type: VILLAGER_SELL_ITEM
+  amount: 48
+  target-entities:
+  - VILLAGER
+  target-materials:
+  - EMERALD
+  - PAPER
+  - WHEAT
+rewards:
+  money: 210
+  xp: 100
+  items:
+    list:
+    - material: EMERALD
+      amount: 2
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success
+

@@ -1,0 +1,33 @@
+id: daily_log_stripper
+name: <#a7f3d0>🪓 Log Stripping
+icon-material: IRON_AXE
+
+rotation-pool: "common"
+
+description:
+- <#cccccc>The sawmill foreman is gathering materials
+- <#cccccc>for new buildings at the outpost.
+- <#cccccc>Strip <#a7f3d0>32 logs.
+- ""
+- "<#86efac>⭐ <#cccccc>Rarity: <#bbf7d0>Common"
+rewards-description:
+- <#a7ff99>+160 coins
+- <#ffe08a>+75 XP
+- <#7dd3ff>+4 Apples
+objective:
+  type: STRIP_LOG
+  amount: 32
+  target-materials:
+  - OAK_LOG
+  - SPRUCE_LOG
+  - BIRCH_LOG
+rewards:
+  money: 160
+  xp: 75
+  items:
+    list:
+    - material: APPLE
+      amount: 4
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

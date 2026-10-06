@@ -1,0 +1,528 @@
+# ==============================================================================
+# Questborn — Menus Configuration
+# ==============================================================================
+#
+# This file defines the layout and ALL item display strings for every GUI.
+# Statuses, dynamic text and objective descriptions are in the language file.
+#
+# STRUCTURE:
+#   title   — Inventory title. Placeholders: {quest}, {type}, {page}, {total}
+#   rows    — Number of inventory rows (1-6)
+#   mask    — Slots filled with the "filler" item (ranges: "0-9", lists: "1,2,3")
+#   slots   — Named slot ranges for functional content (quests, players, input)
+#   items   — All static items and button definitions
+#
+# ITEM FIELDS:
+#   material          — Minecraft material or itemsadder:namespace:id
+#   name              — Display name  (&a color codes, <#RRGGBB> hex)
+#   lore              — List of lore lines (same formatting)
+#   slot              — Inventory slot (0-53)
+#   custom-model-data — Resource pack model integer (optional)
+#   actions           — List of actions: [close], [player] cmd, [console] cmd
+#
+# ==============================================================================
+
+menus:
+
+  # ============================================================================
+  #  MAIN MENU — quest type selection
+  # ============================================================================
+  main:
+    title: "&0⭐ Quests - Types"
+    rows: 5
+    mask:
+      - "0-9"
+      - "17, 18, 26, 27, 35, 36"
+      - "36-44"
+    items:
+      filler:
+        material: BROWN_STAINED_GLASS_PANE
+        name: " "
+
+      top:
+        slot: 40
+        material: JUNGLE_HANGING_SIGN
+        name: "<#ffe380>🏆 Top Players"
+        lore:
+          - "<#cccccc>Top-100 players"
+          - "<#cccccc>by quests completed"
+
+      locked:
+        material: RED_STAINED_GLASS_PANE
+        name: "<#ff5555>Requirements apply"
+        lore:
+          - "{requirements}"
+          - ""
+          - "<#cccccc>You do not meet the"
+          - "<#cccccc>requirements for this"
+          - "<#cccccc>quest type."
+
+      back-to-dialogue:
+        slot: 40
+        material: BOOK
+        name: "<#ffe380>Return to Dialogue"
+        lore:
+          - "<#cccccc>Click to return to the conversation"
+          - "<#cccccc>with the character"
+
+#      close_btn:
+#        slot: 44
+#        material: IRON_DOOR
+#        name: "<#ff8888>✖ Close Menu"
+#        lore:
+#          - "<#cccccc>Click to exit"
+#          - "<#cccccc>main menu"
+#        actions:
+#          - "[close]"
+#
+#      website_btn:
+#        slot: 36
+#        material: COMPASS
+#        name: "<#aaffaa>🌐 Our Website"
+#        lore:
+#          - "<#cccccc>Discover news and"
+#          - "<#cccccc>updates on our site!"
+#          - ""
+#          - "<#ffffff>» Click to open"
+#        actions:
+#          - "[close]"
+#          - "[player] website"
+
+  # ============================================================================
+  #  QUEST LIST — paginated quests for a type
+  # ============================================================================
+  quest-list:
+    title: "&0{type} - Page {page}/{total}"
+    rows: 5
+    slots:
+      quests:
+        - "10-16"
+        - "19-25"
+        - "28-34"
+    mask:
+      - "0-9"
+      - "17, 18, 26, 27, 35, 36"
+      - "36-44"
+    items:
+      engine-info-rotation:
+        slot: 4
+        material: PLAYER_HEAD
+        base-head: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzZjMGQwNDU5YzY3ZjJiZTgyZmJlNTQwNmFiOGQxMzc4ZGExZjI4ZjdhM2Y4MmYxZGZjNDc2MTVhOTU1YTcifX19"
+        name: "<#99ff9d>⌚ Rotating Quests"
+        lore:
+          - "<#cccccc>These quests are time-limited."
+          - "<#cccccc>The next rotation will occur"
+          - "<#cccccc>in: <#b3ffb6>⏳ {time}"
+          - ""
+          - "<#70a373>▪ When the time is up, all progress"
+          - "<#70a373>  on incomplete quests will be lost."
+
+      engine-info-global:
+        slot: 4
+        material: PLAYER_HEAD
+        base-head: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RjZGVlNmQwNmRmMjM0YjhlNjAzMzI4Yjk2YzU3ZjNhMzEyZTc5YWFiZmMzYmU3MmE4YjQyMTg3OGVkNjhjZiJ9fX0="
+        name: "<#9e79b8>🌍 Global Quests"
+        lore:
+          - "<#cccccc>These quests are shared among all"
+          - "<#cccccc>players on our server."
+          - ""
+          - "<#908494>▪ Their completion progress"
+          - "<#908494>  is saved for everyone."
+
+      engine-info-default:
+        slot: 4
+        material: PLAYER_HEAD
+        base-head: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhNDY4NWQ1NWFlYzk5NTVkZDg2OWI0OTViMmY1YjJmYjc0MzU4NzYxM2JhNTg3OTYwYzNhM2Q2NWYyNGE4YiJ9fX0="
+        name: "<#82b082>📜 Classic Quests"
+        lore:
+          - "<#cccccc>Regular quests that do not have"
+          - "<#cccccc>any time limits."
+          - ""
+          - "<#8c998c>▪ You can complete them at"
+          - "<#8c998c>  your own pace."
+
+      engine-info-chain:
+        slot: 4
+        material: PLAYER_HEAD
+        base-head: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2IyZjJiNzY0MmI1NDQ5MGI5ZmZhMWUwZTFiMjk2YWFkMmI3YTRlZGI5MzYxZTdlOGU5OTAzYjY0ZGJiODkzOSJ9fX0="
+        name: "<#c48b52>🔗 Chain Quests"
+        lore:
+          - "<#cccccc>These quests are closely connected"
+          - "<#cccccc>into a single sequential line."
+          - ""
+          - "<#99897a>▪ Completing one quest"
+          - "<#99897a>  unlocks access to the next one."
+
+      status-reward:
+        material: CHEST_MINECART
+
+      status-cooldown:
+        material: CLOCK
+
+      status-locked:
+        material: GRAY_STAINED_GLASS_PANE
+
+      filler:
+        material: BROWN_STAINED_GLASS_PANE
+        name: " "
+
+      back:
+        slot: 38
+        material: ARROW
+        name: "<#ffccaa>← Previous Page"
+        lore:
+          - "<#cccccc>Click to go to"
+          - "<#cccccc>the previous page"
+
+      next:
+        slot: 42
+        material: ARROW
+        name: "<#aaffdd>Next Page →"
+        lore:
+          - "<#cccccc>Click to go to"
+          - "<#cccccc>the next page"
+
+      main:
+        slot: 40
+        material: GUSTER_BANNER_PATTERN
+        name: "<#ffeeaa>Main Menu"
+        lore:
+          - "<#cccccc>Click to return to the"
+          - "<#cccccc>list of types"
+
+      back-to-dialogue:
+        slot: 40
+        material: BOOK
+        name: "<#ffe380>Return to Dialogue"
+        lore:
+          - "<#cccccc>Click to return to the conversation"
+          - "<#cccccc>with the character"
+
+  # ============================================================================
+  #  QUEST DETAILS — objectives, rewards, actions
+  # ============================================================================
+  quest-details:
+    title: "&0{type} - {quest}"
+    rows: 5
+    mask:
+      - "0-9"
+      - "17, 18, 26, 27, 35, 36"
+      - "36-44"
+    items:
+      filler:
+        material: BROWN_STAINED_GLASS_PANE
+        name: " "
+
+      # ---- quest icon (material comes from quest definition) ----
+      icon:
+        slot: 4
+
+      # ---- objective info ----
+      objective:
+        slot: 20
+        material: SPYGLASS
+        name: "<#ffe999>Current Objective"
+        lore:
+          - "<#cccccc>Stage {stage}/{total_stages}"
+          - ""
+          - "{objective_details}"
+
+      # ---- rewards ----
+      rewards:
+        slot: 22
+        material: CHEST_MINECART
+        name: "<#ffe999>Rewards"
+        lore:
+          - "{reward}"
+
+      # ---- item transfer (shared slot, state-dependent name/lore) ----
+      transfer:
+        slot: 24
+        material: MINECART
+
+      transfer-required:
+        name: "<#cccccc>Deliver items"
+
+      transfer-none:
+        material: FURNACE_MINECART
+        name: "<#cccccc>Deliver items"
+        lore:
+          - "<#cccccc>This stage does not require"
+          - "<#cccccc>any items"
+
+      # ---- back button ----
+      back:
+        slot: 38
+        material: ORANGE_DYE
+        name: "<#ffcc55>← Back"
+        lore:
+          - "<#cccccc>Return to quest list"
+
+      # ---- action button (shared slot, state-dependent name/lore) ----
+      action:
+        slot: 42
+
+      action-track:
+        material: LIGHT_BLUE_DYE
+        name: "<#99ccff>Track Quest"
+        lore:
+          - "<#b3d9ff>Click to make this quest"
+          - "<#b3d9ff>your actively tracked quest."
+
+      action-activate:
+        material: LIME_DYE
+        name: "<#a7ff99>Activate Quest"
+        lore:
+          - "<#99ffd4>This quest will become your active quest."
+          - "<#99ffd4>Progress will appear at the bottom of the screen."
+
+      action-cancel:
+        material: RED_DYE
+        name: "<#ff6666>Cancel Quest"
+        lore:
+          - "<#ffaaaa>The quest will be canceled."
+          - "<#ffaaaa>All progress will be lost."
+
+      action-confirm-cancel:
+        material: RED_DYE
+        name: "<#ff6666>Really cancel?"
+        lore:
+          - "<#ffaaaa>Are you sure you want to"
+          - "<#ffaaaa>cancel this quest?"
+          - "<#ffaaaa>Click again to confirm."
+
+      action-blocked:
+        material: GRAY_DYE
+        name: "<#aaaaaa>Unavailable"
+        lore:
+          - "<#aaaaaa>Complete your current"
+          - "<#aaaaaa>active quest first."
+
+      action-replace:
+        material: YELLOW_DYE
+        name: "<#a7ff99>Replace Active Quest"
+        lore:
+          - "<#99ffd4>Your current active quest will be canceled."
+          - "<#99ffd4>This quest will take its place."
+
+      action-change:
+        material: YELLOW_DYE
+        name: "<#fffb99>Quest already active"
+        lore:
+          - "<#ccc97a>You already have an active quest"
+          - "<#ccc97a>Change active quest?"
+
+      action-confirm-change:
+        material: ORANGE_DYE
+        name: "<#ffc499>Quest Change"
+        lore:
+          - "<#ffe1cc>When switching, progress of the"
+          - "<#ffe1cc>inactive quest will be saved!"
+
+      action-cooldown:
+        material: GRAY_DYE
+        name: "<#dcdcdc>Cooldown"
+        lore:
+          - "<#dcdcdc>This quest is temporarily unavailable."
+          - "<#dcdcdc>Try again later."
+
+      action-completed:
+        material: GRAY_DYE
+        name: "<#c8c8c8>Quest Completed"
+        lore:
+          - "<#bbbbbb>This quest is already completed."
+          - "<#bbbbbb>It cannot be repeated."
+
+      # ---- claim reward ----
+      claim-reward:
+        slot: 42
+        material: EMERALD
+        name: "<#a7ff99>Claim Reward"
+        lore:
+          - "<#cccccc>Claim the reward for"
+          - "<#cccccc>completing the quest."
+          
+      # ---- claim reward from other npc ----
+      claim-reward-other-npc:
+        slot: 42
+        material: COMPASS
+        name: "<#a7ff99>Reward awaits"
+        lore:
+          - "<#cccccc>Talk to {npc}"
+          - "<#cccccc>to claim your reward."
+
+  # ============================================================================
+  #  QUEST TRANSFER — item delivery interface
+  # ============================================================================
+  quest-transfer:
+    title: "&0Transfer - {quest}"
+    rows: 5
+    mask:
+      - "0-3, 5-9"
+      - "17, 18, 26, 27, 35, 36"
+      - "37, 39, 40, 41, 43, 44"
+    slots:
+      input:
+        - "10-16"
+        - "19-25"
+        - "28-34"
+    items:
+      filler:
+        material: BROWN_STAINED_GLASS_PANE
+        name: " "
+
+      info:
+        slot: 4
+
+      cancel:
+        slot: 38
+        material: ORANGE_DYE
+        name: "<#ff6666>Cancel Delivery"
+        lore:
+          - "<#ffaaaa>Cancel item delivery"
+          - "<#ffaaaa>and return"
+
+      confirm:
+        slot: 42
+        material: LIME_DYE
+        name: "<#a7ff99>Submit Items"
+        lore:
+          - "<#99ffd4>Submit the required items"
+          - "<#99ffd4>to continue the quest"
+          - ""
+          - "<#cccccc>Required:"
+          - "{items}"
+          - ""
+          - "<#e6b873>Click to submit items"
+
+      confirm-wrong:
+        slot: 42
+        material: ORANGE_DYE
+        name: "<#ffb366>Submit Items"
+        lore:
+          - "<#ffcc99>Submit the required items"
+          - "<#ffcc99>to continue the quest"
+          - ""
+          - "<#ff8888>Warning: you placed extra items!"
+          - ""
+          - "<#cccccc>Required:"
+          - "{items}"
+          - ""
+          - "<#e6b873>Click to submit items"
+
+      confirm-empty:
+        slot: 42
+        material: GRAY_DYE
+        name: "<#cccccc>Submit Items"
+        lore:
+          - "<#8c8c8c>Submit the required items"
+          - "<#8c8c8c>to continue the quest"
+          - ""
+          - "<#cccccc>Required:"
+          - "{items}"
+          - ""
+          - "<#999999>No required items found"
+
+  # ============================================================================
+  #  TOP PLAYERS — leaderboard
+  # ============================================================================
+  top:
+    title: "&0🏆 Top Players - Page {page}/{total}"
+    rows: 5
+    enabled: true
+    limit: 100
+
+    rank-styles:
+      1:
+        prefix: "<#FFAA00>♛ "
+        footer: "<#FFAA00>🏆 TOP 1 LEADER 🏆"
+      2:
+        prefix: "<#E0E0E0>🥈 "
+        footer: "<#E0E0E0>🥈 RUNNER UP"
+      3:
+        prefix: "<#CD7F32>🥉 "
+        footer: "<#CD7F32>🥉 THIRD PLACE"
+      default:
+        prefix: "<#AAAAAA>"
+        footer: ""
+
+    slots:
+      players:
+        - "10-16"
+        - "19-25"
+        - "28-34"
+    mask:
+      - "0-9"
+      - "17, 18, 26, 27, 35, 36"
+      - "36-44"
+    items:
+      filler:
+        material: BROWN_STAINED_GLASS_PANE
+        name: " "
+
+      stats:
+        slot: 4
+        material: PLAYER_HEAD
+        name: "<#6966ff>📊 Your Stats"
+        lore:
+          - "<#cccccc>Rank: <#ffe999>#{rank}"
+          - ""
+          - "<#cccccc>{type}: <#ffe999>{count}"
+          - ""
+          - "<#cccccc>Total: <#ffd37a>{total}"
+
+      player:
+        material: PLAYER_HEAD
+        name: "<#ffe380>{position} <#ffffff>{player}"
+        lore:
+          - "<#cccccc>Completed: <#ffd37a>{count}"
+
+      back:
+        slot: 40
+        material: GUSTER_BANNER_PATTERN
+        name: "<#ffeeaa>Main Menu"
+        lore:
+          - "<#cccccc>Click to return to the"
+          - "<#cccccc>list of types"
+
+      prev:
+        slot: 38
+        material: ARROW
+        name: "<#ffccaa>← Previous Page"
+        lore:
+          - "<#cccccc>Click to go to"
+          - "<#cccccc>the previous page"
+
+      next:
+        slot: 42
+        material: ARROW
+        name: "<#aaffdd>Next Page →"
+        lore:
+          - "<#cccccc>Click to go to"
+          - "<#cccccc>the next page"
+
+  # ============================================================================
+  #  DIALOGUE MENU - NPC Interaction
+  # ============================================================================
+  dialogue:
+    title: '&0🗣 Dialogue with {npc_clean}'
+    rows: 5
+    mask:
+      - "0-9"
+      - "17, 18, 26, 27, 35, 36"
+      - "36-44"
+    slots:
+      npc: '40'
+      options: '20, 22, 24'
+    items:
+      filler:
+        material: 'BROWN_STAINED_GLASS_PANE'
+        name: '&0 '
+        slot: -1
+      give_items:
+        slot: 26
+        material: MINECART
+        name: "<#7dd3ff>Give items"
+        lore:
+          - "<#cccccc>Click to"
+          - "<#cccccc>give quest items."

@@ -1,0 +1,30 @@
+id: daily_deep_diver
+name: <#3b82f6>🌊 Deep Diver
+icon-material: PRISMARINE_SHARD
+
+rotation-pool: "common"
+
+description:
+- <#cccccc>The ocean depths hold many secrets.
+- <#cccccc>Swim through the currents to find them.
+- <#cccccc>Swim <#3b82f6>500 blocks.
+- ""
+- "<#86efac>⭐ <#cccccc>Rarity: <#bbf7d0>Common"
+rewards-description:
+- <#a7ff99>+150 coins
+- <#ffe08a>+80 XP
+- <#7dd3ff>+2 Water Breathing Potions
+objective:
+  type: SWIM_DISTANCE
+  distance: 500
+rewards:
+  money: 150
+  xp: 80
+  items:
+    list:
+    - material: POTION
+      amount: 2
+      potion-type: WATER_BREATHING
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

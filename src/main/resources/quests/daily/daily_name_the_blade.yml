@@ -1,0 +1,32 @@
+id: daily_name_the_blade
+name: <#60a5fa>🏷 Name Your Blade
+icon-material: NAME_TAG
+
+rotation-pool: "rare"
+
+description:
+- <#cccccc>Every weapon deserves its own story.
+- <#cccccc>Prepare your gear before the next raid.
+- <#cccccc>Rename <#60a5fa>1 sword in an anvil.
+- ""
+- "<#93c5fd>⭐ <#cccccc>Rarity: <#bfdbfe>Rare"
+rewards-description:
+- <#a7ff99>+110 coins
+- <#ffe08a>+50 XP
+- <#7dd3ff>+1 Name Tag
+objective:
+  type: ITEM_RENAME
+  amount: 1
+  target-materials:
+  - IRON_SWORD
+rewards:
+  money: 110
+  xp: 50
+  items:
+    list:
+    - material: NAME_TAG
+      amount: 1
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success
+

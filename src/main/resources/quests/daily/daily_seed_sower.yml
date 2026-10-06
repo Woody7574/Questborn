@@ -1,0 +1,33 @@
+id: daily_seed_sower
+name: <#86efac>🌾 Sower of the Day
+icon-material: WHEAT_SEEDS
+
+rotation-pool: "common"
+
+description:
+- <#cccccc>Every seed is tomorrow's bread.
+- <#cccccc>Fill the beds in neat rows.
+- <#cccccc>Plant <#86efac>24 seeds.
+- ""
+- "<#86efac>⭐ <#cccccc>Rarity: <#bbf7d0>Common"
+rewards-description:
+- <#a7ff99>+140 coins
+- <#ffe08a>+65 XP
+- <#7dd3ff>+6 Bread
+objective:
+  type: PLANT_SEED
+  amount: 24
+  target-materials:
+  - WHEAT_SEEDS
+  - BEETROOT_SEEDS
+rewards:
+  money: 140
+  xp: 65
+  items:
+    list:
+    - material: BREAD
+      amount: 6
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success
+

@@ -1,0 +1,38 @@
+id: builder_chain_04_storage_master
+name: <#7dd3ff>📦 Builder's Storeroom
+icon-material: CHEST
+slot: 29
+page: 1
+require-quests:
+- builder_chain_03_wall_lines
+description:
+- <#cccccc>Organized storage saves hours.
+- <#cccccc>Craft a few chests.
+- <#cccccc>From here on, it only gets bigger.
+rewards-description:
+- <#a7ff99>+300 coins
+- <#ffe08a>+110 XP
+- <#7dd3ff>+Barrels
+objective:
+  type: ITEM_CRAFT
+  amount: 6
+  target-materials:
+  - CHEST
+rewards:
+  money:
+    amount: 300
+    silent: false
+  xp:
+    points: 110
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: BARREL
+      amount: 3
+      name: <#7dd3ff>Organizer Barrels
+      lore:
+      - <#cccccc>Perfect for sorting.
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

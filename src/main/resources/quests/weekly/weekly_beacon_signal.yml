@@ -1,0 +1,51 @@
+id: weekly_beacon_signal
+name: <#a78bfa>✦ Beacon Signal
+icon-material: BEACON
+
+rotation-pool: "rare"
+
+description:
+- <#cccccc>It's time to raise the settlement's symbol of power.
+- <#cccccc>Prepare the metal base and activate the beacon,
+- <#cccccc>so its power spreads all around.
+- ""
+- "<#93c5fd>⭐ <#cccccc>Rarity: <#bfdbfe>Rare"
+rewards-description:
+- <#a7ff99>+2000 coins
+- <#ffe08a>+700 XP
+- <#7dd3ff>+Character Boost
+quest-path:
+  stage-1:
+    objective:
+      type: ITEM_SMELT
+      amount: 64
+      target-materials:
+      - IRON_INGOT
+  stage-2:
+    required-materials:
+    - IRON_BLOCK:6
+  stage-3:
+    objective:
+      type: BEACON_ACTIVATE
+      amount: 1
+rewards:
+  money:
+    amount: 2000
+    silent: false
+  xp:
+    points: 700
+    silent: false
+  effects:
+    silent: false
+    list:
+    - ABSORPTION:0:180
+    - REGENERATION:0:25
+  attributes:
+    silent: false
+    list:
+    - GENERIC_MAX_HEALTH: 2
+quest-effects:
+  activate: quest_activate_start
+  stage-change: quest_stage_change
+  complete: quest_complete_success
+

@@ -1,0 +1,474 @@
+prefix: <#e9c46a><bold>Questborn</bold> <#8a8a8a>• <reset>
+hud:
+  actionbar:
+    complete-message: <#99ff9d>Квест {quest_name} <#99ff9d>аяқталды!
+commands:
+  no-permission: '{prefix}<#e07a5f>Бұл әрекетке рұқсатыңыз жоқ.'
+  finish-global:
+    not-global: '{prefix}<#e07a5f><#ffffff>{quest} <#e07a5f> квесті ғаламдық квест
+      емес.'
+    not-active: '{prefix}<#cccccc>Жаһандық квест <#ffffff>{quest} <#cccccc>белсенді
+      емес немесе аяқталған.'
+    success: '{prefix}<#97e673><#ffffff>{quest} <#97e673> жаһандық квест міндетті
+      түрде орындалды!'
+  reset-global:
+    not-global: '{prefix}<#e07a5f><#ffffff>{quest} <#e07a5f> квесті ғаламдық квест
+      емес.'
+    success: '{prefix}<#97e673><#ffffff>{quest} <#97e673> ғаламдық квесті толығымен
+      қалпына келтірілді. Жаһандық прогресс жойылды және онлайн ойыншылардың салқындату
+      уақыты қалпына келтірілді.'
+  npc-only: '{prefix}<#cccccc>Бұл команда қолжетімді емес.'
+  reload:
+    done: '{prefix}<#97e673>Плагиннің барлық конфигурациялары сәтті қайта жүктелді!'
+  help:
+    header: <#7dd3ff>&m----<#ffffff> Questborn командаларының көмегі <#7dd3ff>&m----
+    footer: <#7dd3ff>{page} беті {total_pages} <#a3a3a3>({total_results} команда)
+    hover-no-perm: <#a7ff99>Чатқа енгізу үшін басыңыз
+    hover-with-perm: '<#a7ff99>Чатқа енгізу үшін басыңыз
+
+      <#ffcc66>Рұқсат: <#ffffff>{permission}'
+  effect:
+    list-header: <#7dd3ff><strikethrough>----</strikethrough><#ffffff> Қолжетімді
+      эффектілер <#7dd3ff><strikethrough>----</strikethrough>
+    list-footer: <#7dd3ff>{total_pages} беттің {page}-беті <#a3a3a3>({total_results}
+      эффект)
+    no-effects: '{prefix}<#cccccc>Эффекттер жоқ.'
+    not-found: '{prefix}<#e07a5f>Эффект <#ffffff>{effect}<#e07a5f> табылмады.'
+    success-self: '{prefix}<#97e673>Сіз өзіңізде <#ffffff>{effect}<#97e673> эффектісін
+      ойнаттыңыз.'
+    success-other: '{prefix}<#97e673>Сіз ойыншыда <#ffffff>{player}<#97e673> <#ffffff>{effect}<#97e673>
+      эффектісін ойнаттыңыз.'
+    received: '{prefix}<#97e673>Сізде <#ffffff>{effect}<#97e673> эффектісі ойнатылды.'
+  npc:
+    usage-header: <#7dd3ff><strikethrough>----</strikethrough> <#ffffff>NPC Командалары
+      <#7dd3ff><strikethrough>----</strikethrough>
+    help:
+      dialogue: '  <#97e673>/quest npc dialogue <#a3a3a3><npcId> <dialogueId> <#cccccc>-
+        Диалогты байланыстыру'
+      displayname: '  <#97e673>/quest npc displayname <#a3a3a3><npcId> <name> <#cccccc>-
+        Атын өзгерту'
+      gui-title: '  <#97e673>/quest npc gui-title <#a3a3a3><npcId> <title> <#888888>-
+        GUI тақырыбы'
+      indicator: '  <#97e673>/quest npc indicator <#a3a3a3><npcId> <offset> <#cccccc>-
+        Индикатор биіктігі'
+      info: '  <#97e673>/quest npc info <#a3a3a3>[npcId] <#888888>- NPC ақпараты'
+      link: '  <#97e673>/quest npc link <#a3a3a3><category> <type> <id> <#cccccc>-
+        Квестті байланыстыру'
+      remove: '  <#97e673>/quest npc remove <#a3a3a3><npcId> <#888888>- NPC жою'
+      unlink: '  <#97e673>/quest npc unlink <#a3a3a3><category> <type> <id> <#cccccc>-
+        Квестті ажырату'
+      voice: '  <#97e673>/quest npc voice <#a3a3a3><npcId> <voice> <#cccccc>- Дауысты
+        орнату'
+    list-header: <#7dd3ff>&m----<#ffffff> Бапталған NPC <#7dd3ff>&m----
+    list-empty: '{prefix}<#cccccc>Бапталған NPC жоқ.'
+    list-item: '{prefix}<#97e673>- <#ffffff>{npc}'
+    remove-success: '{prefix}<#97e673>NPC конфигурациясы <#ffffff>{npc}<#97e673> сәтті
+      жойылды'
+    gui-title-set: '{prefix}<#97e673>NPC үшін интерфейс тақырыбы <#ffffff>{npc}<#97e673>
+      келесіге орнатылды: <#ffffff>{title}'
+    displayname-set: '{prefix}<#97e673>Display name for NPC <#ffffff>{npc}<#97e673>
+      set to: <#ffffff>{name}'
+    displayname-removed: '{prefix}<#97e673>Display name removed for NPC <#ffffff>{npc}'
+    info:
+      header: '<#7dd3ff>&m----<#ffffff> NPC ақпараты: {npc} <#7dd3ff>&m----'
+      title: '{prefix}<#cccccc>Тақырып: <#ffffff>{title}'
+      dialogue: '{prefix}<#cccccc>Диалог: <#ffffff>{dialogue}'
+      indicator: '{prefix}<#cccccc>Индикатор ығысуы: <#ffffff>{offset}'
+    dialogue-removed: '{prefix}<#97e673><#ffffff>{npc} <#97e673>НПС диалогы жойылды'
+    dialogue-not-found: '{prefix}<#e07a5f>Диалог табылмады: <#ffffff>{dialogue}'
+    dialogue-set: '{prefix}<#97e673><#ffffff>{npc} <#97e673>НПС диалогы <#ffffff>{dialogue}
+      {prefix}<#97e673>етіп орнатылды'
+    indicator-set: <#ffffff>{npc}<#97e673> индикаторының ығысуы <#ffffff>{offset}
+      {prefix}<#97e673>болып орнатылды
+    voice-set: '{prefix}<#97e673>NPC <#ffffff>{npc}<#97e673> үшін теру дауысы <#ffffff>{voice}<#97e673>
+      етіп орнатылды'
+    voice-removed: '{prefix}<#97e673>NPC <#ffffff>{npc}<#97e673> теру дауысы өшірілді'
+    console-must-specify-id: '{prefix}<#e07a5f>Консоль NPC ID көрсетуі керек.'
+    not-looking-at-npc: '{prefix}<#e07a5f>NPC анықталмады. NPC-ге қараңыз немесе ID
+      енгізіңіз.'
+    link-pending: '{prefix}<#97e673>Оны байланыстыру үшін NPC-ді оң жақпен басыңыз.'
+    unlink-pending: '{prefix}<#e07a5f>Оны ажырату үшін NPC-ді оң жақпен басыңыз.'
+    bind-success: '{prefix}<#97e673><#ffffff>{target}<#97e673> NPC <#ffffff>{npc}<#97e673>'
+    unbind-success: '{prefix}<#e07a5f><#ffffff>{target}<#e07a5f> NPC <#ffffff>{npc}<#e07a5f>
+      сәтті ажыратылды.'
+  activate:
+    success: '{prefix}<#97e673>Квест <#ffffff>{quest}<#97e673> ойыншы <#ffffff>{player}<#97e673>
+      үшін белсендірілді.'
+    fail: '{prefix}<#e07a5f>Квест <#ffffff>{quest}<#e07a5f> белсендірілмеді.'
+  details:
+    no-active-quest: '{prefix}<#cccccc>Сізде белсенді квест жоқ.'
+  deactivate:
+    no-active: '{prefix}<#cccccc>Ойыншыда белсенді квест жоқ.'
+    success: '{prefix}<#97e673>Ойыншы <#ffffff>{player}<#97e673> үшін белсенді квест
+      өшірілді.'
+  finish:
+    no-active: '{prefix}<#cccccc>Ойыншыда белсенді квест жоқ.'
+    success: '{prefix}<#97e673>Ойыншы <#ffffff>{player}<#97e673> үшін квест аяқталды.'
+    stage:
+      success: '{prefix}<#97e673>Ойыншы <#ffffff>{player}<#97e673> үшін квест кезеңі
+        мәжбүрлеп аяқталды.'
+      no-stages: '{prefix}<#cccccc>Бұл квестте кезеңдер жоқ немесе кезең аяқталмады.'
+  open:
+    opened: '{prefix}<#97e673>Мәзір <#ffffff>{menu}<#97e673> ойыншы <#ffffff>{player}<#97e673>
+      үшін ашылды.'
+  reset:
+    cooldown-success: '{prefix}<#97e673>Квест <#ffffff>{quest}<#97e673> үшін ойыншы
+      <#ffffff>{player}<#97e673> күту уақыты қалпына келтірілді.'
+    history-success: '{prefix}<#97e673>Квест <#ffffff>{quest}<#97e673> аяқталу тарихы
+      ойыншы <#ffffff>{player}<#97e673> үшін қалпына келтірілді.'
+    reward-success: '{prefix}<#97e673>Квест <#ffffff>{quest}<#97e673> сыйақы мәртебесі
+      ойыншы <#ffffff>{player}<#97e673> үшін қалпына келтірілді.'
+    rotation-success: '{prefix}<#97e673>Квест түрі <#ffffff>{type}<#97e673> үшін ротация
+      деректері ойыншы <#ffffff>{player}<#97e673> үшін қалпына келтірілді.'
+    quest-success: '{prefix}<#97e673>Квест <#ffffff>{quest}<#97e673> барлық деректері
+      ойыншы <#ffffff>{player}<#97e673> үшін қалпына келтірілді.'
+    type-success: '{prefix}<#97e673>Квест түрі <#ffffff>{type}<#97e673> үшін барлық
+      деректер ойыншы <#ffffff>{player}<#97e673> үшін қалпына келтірілді.'
+    top-success: '{prefix}<#97e673><#ffffff>{type}<#97e673> түрі үшін топ деректер <#ffffff>{player}<#97e673> ойыншысында қалпына келтірілді.'
+    top-success-all: '{prefix}<#97e673>Топты қалпына келтіру аяқталды! <#ffffff>{count}<#97e673> ойыншы өзгертілді.'
+    top-start: '{prefix}<#97e673><#ffffff>{type}<#97e673> түрі үшін топты қалпына келтіру басталды...'
+
+  errors:
+    console-specify-player: '{prefix}<#e07a5f>Консоль ойыншыны көрсетуі керек.'
+    quest-wrong-type: '{prefix}<#e07a5f>Квест <#ffffff>{quest}<#e07a5f> не належить
+      до типу <#ffffff>{type}<#e07a5f>.'
+    unknown-command: '{prefix}<#e07a5f>Белгісіз команда. /quest help енгізіңіз'
+    invalid-syntax: '{prefix}<#e07a5f>Қате синтаксис! Қолданылуы: <#97e673>{command}
+      <#a3a3a3>{syntax}'
+    quest-not-found: '{prefix}<#e07a5f>Квест <#ffffff>{quest}<#e07a5f> жоқ.'
+    player-not-found: '{prefix}<#e07a5f><#ffffff>{player}<#e07a5f> есімді ойыншы табылмады!'
+    top-reset-error: '{prefix}<#e07a5f>Топты қалпына келтіру қатесі: {error}'
+
+  global:
+    usage-header: <#7dd3ff><strikethrough>----</strikethrough> <#ffffff>Ғаламдық квесттер
+      <#7dd3ff><strikethrough>----</strikethrough>
+    help:
+      finish: '  <#97e673>/quest finish global <#a3a3a3><questId> <#888888>- Ғаламдық
+        квестті аяқтау'
+      reset: '  <#97e673>/quest reset global <#a3a3a3><questId> <#888888>- Ғаламдық
+        квест прогресін нөлдеу'
+      top: '  <#97e673>/quest top <#a3a3a3>[questId] <#888888>- Ғаламдық квест үздіктері'
+gui:
+  type:
+    locked-message: <#ff5555>Сіз бұл квест түріне қойылған талаптарға сай емессіз.
+  quest_details:
+    info:
+      your-contribution: <#ffe999>Сіздің үлесіңіз
+      progress:
+        title: <#ffe999>Прогресс
+        bar: '{bar} <#cccccc>{percent}%'
+        value: <#cccccc>({current} / {target})
+      required-items: '<#cccccc>Қажетті заттар:'
+      awaiting-transfer: '#ffe999>❖ Ресурстарды тапсыр'
+      items-transferred: '#99ffd4>✓ Ресурстар тапсырылд'
+    status:
+      cooldown: '<#ff9999>Күту уақыты: <#ffffff>{time}'
+      awaiting-transfer: '#ffe999>❖ Ресурстарды тапсыр'
+      locked: <#ff5555>Бұғатталған
+    required_items: '<#cccccc>Қажетті заттар:'
+    transfer:
+      required-items: '<#cccccc>Қажетті заттар:'
+      transfer-not-active:
+        title: <#cccccc>Квест белсенді емес
+        lore:
+        - <#cccccc>Алдымен квестті белсендіріңіз,
+        - <#cccccc>заттарды тапсыру үшін
+      transfer-already-transferred:
+        title: '#cccccc>Ресурстар тапсырылып қойға'
+        lore:
+        - <#cccccc>Сіз заттарды бұрын тапсырдыңыз
+      transfer-locked:
+        title: '#cccccc>Ресурстарды тапсыр'
+        lore:
+        - <#cccccc>Заттарды тапсыру бұғатталған
+    objective_title: '&eObjective Details'
+    rewards_title: '&eМарапаттар'
+  quest_list:
+    global-progress: <#ad99ff>Жаһандық прогресс
+    global-participants: '<#cccccc>Қатысушылар: <#ffffff>{current} / {max}'
+    global-participants-no-max: '<#cccccc>Қатысушылар: <#ffffff>{current}'
+    global-participants-min: '<#cccccc>Қатысушылар: <#ffffff>{current} / {max} <#888888>(Мин.
+      {min})'
+    global-participants-no-max-min: '<#cccccc>Қатысушылар: <#ffffff>{current} <#888888>(Мин.
+      {min})'
+    global-contribution: '<#cccccc>Сіздің үлесіңіз: <#ffffff>{current} / {max}'
+    global-contribution-no-max: '<#cccccc>Сіздің үлесіңіз: <#ffffff>{current}'
+    rewards-header: '<#ffe999>Марапаттар:'
+    status:
+      tracked-suffix: ' &8| &bҚадағалануда'
+      completed-onetime: '<#99ffd4>Күйі: <#cccccc>Аяқталған (бір реттік)'
+      active: '<#99ffd4>Күйі: <#a7ff99>Белсенді'
+      waiting-participants: '<#99ffd4>Күйі: <#cccccc>Қатысушыларды күту <#777777>({current}/{min})'
+      cooldown: '<#ff9999>Күйі: <#cccccc>Күту уақыты &7({time})'
+      rotation-cooldown: '<#ff9999>Күйі: <#cccccc>Келесі ротацияға дейін &7({time})'
+      available: '<#99ffd4>Күйі: <#cccccc>Қолжетімді'
+      reward-pending: '<#99ffd4>Күйі: <#a7ff99>Сыйлық күтілуде'
+      locked: '<#ff9999>Күйі: <#cccccc>Бұғатталған'
+    chain:
+      required-quests: '<#cccccc>Қажетті квесттер:'
+    cooldown-time: '<#ff9999>Күту уақыты: <#cccccc>{time}'
+    rotation-cooldown-time: '<#ff9999>Келесі ротацияға дейін: <#cccccc>{time}'
+    open-details: <#a7ff99>Сол жақ батырма <#cccccc>- Мәліметтер / белсендіру
+    activate-quest-quick: <#a7ff99>Swap (F) <#cccccc>- Квестті белсендіру
+    activate-quest-quick-replace: <#ffaa00>Swap (F) <#cccccc>- Белсенді квестті ауыстыру
+    cancel-quest-quick: <#ff6666>Drop (Q) <#cccccc>- Квесттен бас тарту
+    claim-reward: <#a7ff99>Оң жақ батырма <#cccccc>- Сыйлықты алу
+    track-quest: <#99ccff>Right-click <#cccccc>- Квестті бақылау
+    stages: '<#cccccc>Кезеңдер: <#ffffff>{count}'
+    stage: <#cccccc>Кезең {current}/{total}
+  delivery:
+    items-dropped: '{prefix}<#ff9999>Инвентарь толы болды, заттар жерге тасталды.'
+quests:
+  objectives:
+    header: <#ffe999>Міндет мәліметтері
+    none: <#777777>Егжей-тегжейлі сипаттама жоқ
+    npc-interact: '<#cccccc>Сөйлесіңіз:'
+    give-item-to-npc: '<#cccccc>Затты беріңіз:'
+    block_break: '<#cccccc>Блоктарды бұзу:'
+    block_place: '<#cccccc>Блоктарды қою:'
+    item_craft: '<#cccccc>Зат жасау:'
+    item_smelt: '<#cccccc>Балқыту:'
+    item_cook: '<#cccccc>Пісіру:'
+    item_fish: '<#cccccc>Балық аулау:'
+    item_enchant: '<#cccccc>Сиқырлау:'
+    consume_item: '<#cccccc>Затты пайдалану:'
+    brewing: '<#cccccc>Эликсир дайындау:'
+    use_item: '<#cccccc>Затты қолдану:'
+    kill: '<#cccccc>Мобтарды өлтіру:'
+    damage: '<#cccccc>Зиян келтіру: <#ffe999>{amount}'
+    take-damage: '<#cccccc>Зиян алу: <#ffe999>{amount}'
+    travel: <#cccccc>Жүру <#ffe999>{blocks} <#cccccc>блок
+    location: '<#cccccc>Координаттарға жету:'
+    reach-biome: '<#cccccc>Биомға жету: <#ffe999>{biome} <#cccccc>{amount} рет'
+    enter-region: '<#cccccc>Аймаққа кіру: <#ffe999>{region}'
+    leave-region: '<#cccccc>Аймақтан шығу: <#ffe999>{region}'
+    chat: '<#cccccc>Хабарлама жіберу: <#ffe999>{text}'
+    command: '<#cccccc>Команданы орындау: <#ffe999>{cmd}'
+    level-up-reach: <#cccccc>Деңгейге жету <#ffe999>{levels}
+    level-up-gain: <#cccccc>Алынған <#ffe999>{levels} <#cccccc>деңгей
+    interact-block: '<#cccccc>Блокпен әрекеттесу:'
+    interact-entity: '<#cccccc>Тіршілік иесімен әрекеттесу:'
+    fill-bucket: '<#cccccc>Шелек толтыру:'
+    empty-bucket: '<#cccccc>Шелекті босату:'
+    till-soil: '<#cccccc>Топырақты өңдеу:'
+    plant-seed: '<#cccccc>Тұқым отырғызу:'
+    harvest-crop: '<#cccccc>Егін жинау:'
+    bone-meal-use: '<#cccccc>Сүйек ұнын қолдану:'
+    strip-log: '<#cccccc>Бөренені аршу:'
+    wax-off: '<#cccccc>Балауызды алу:'
+    wax-on: '<#cccccc>Балауыз жағу:'
+    item-repair: '<#cccccc>Затты жөндеу:'
+    item-rename: '<#cccccc>Затты қайта атау:'
+    new-name: '<#cccccc>Жаңа атау: <#ffe999>{name}'
+    item-break: '<#cccccc>Құралды сындыру:'
+    dye-item: '<#cccccc>Затты бояу:'
+    fill-fuel: '<#cccccc>Жанармай құю:'
+    burn-fuel: '<#cccccc>Отынды жағу:'
+    villager-sell-item: '<#cccccc>Ауыл тұрғынына сату:'
+    villager-buy-item: '<#cccccc>Ауыл тұрғынынан сатып алу:'
+    enchant-table-use: '<#cccccc>Сиқыр үстелін қолдану:'
+    anvil-use: '<#cccccc>Төсті қолдану:'
+    tame-animal: '<#cccccc>Жануарды қолға үйрету:'
+    breed-animals: '<#cccccc>Жануарларды көбейту:'
+    milk-cow: '<#cccccc>Сиырды сауу:'
+    shear-sheep: '<#cccccc>Қойды қырқу:'
+    entity-ride: '<#cccccc>Тіршілік иесіне міну:'
+    throw-egg: '<#cccccc>Жұмыртқа лақтыру:'
+    experience-orb-pickup: '<#cccccc>Тәжірибе жинау: <#ffe999>{amount}'
+    player-kill: '<#cccccc>Ойыншыларды өлтіру: <#ffe999>{amount}'
+    assist-kill: '<#cccccc>Өлтіруге көмектесу: <#ffe999>{amount}'
+    min-damage: '<#cccccc>Минималды зиян: <#ffe999>{damage}'
+    sleep-in-bed: '<#cccccc>Төсекте ұйықтау: <#ffe999>{amount} <#cccccc>рет'
+    enter-bed: '<#cccccc>Төсекке жату: <#ffe999>{amount}'
+    change-dimension: '<#cccccc>Өлшемді ауыстыру:'
+    dimension: '<#cccccc>Өлшем: <#ffe999>{dimension}'
+    fall-distance: '<#cccccc>Құлау кезінде ұшу: <#ffe999>{blocks} <#cccccc>блок'
+    min-height: '<#cccccc>Минималды биіктік: <#ffe999>{height}'
+    boat-travel: <#cccccc>Қайықпен <#ffe999>{blocks} блок <#cccccc>жүзу
+    minecart-travel: <#cccccc>Вагонеткамен <#ffe999>{blocks} <#cccccc>блок жүру
+    elytra-fly: <#cccccc>Элитрамен <#ffe999>{amount} блок ұшу
+    jump: '<#cccccc>Секіру: <#ffe999>{jumps} <#cccccc>рет'
+    crouch: '<#cccccc>Еңкею: <#ffe999>{crouches} <#cccccc>рет'
+    sprint-distance: '<#cccccc>Жүгіру: <#ffe999>{blocks} <#cccccc>блок'
+    crouch-distance: '<#cccccc>Еңбектеп өту: <#ffe999>{blocks} <#cccccc>блок'
+    swim-distance: '<#cccccc>Жүзіп өту: <#ffe999>{blocks} <#cccccc>блок'
+    potion-splash: '<#cccccc>Лақтырылатын эликсир:'
+    potion-drink: '<#cccccc>Эликсир ішу:'
+    beacon-activate: '<#cccccc>Маякты белсендіру: <#ffe999>{amount} <#cccccc>рет'
+    conduit-activate: '<#cccccc>Кондуитті белсендіру: <#ffe999>{amount} <#cccccc>рет'
+    join-server: '<#cccccc>Серверге кіру: <#ffe999>{amount} <#cccccc>рет'
+    play-time: '<#cccccc>Ойын уақыты: <#ffe999>{time}'
+    hold-item: '<#cccccc>Затты ұстау:'
+    hold-time: '<#cccccc>Ұстау уақыты: <#ffe999>{time}'
+    drop-item: <#cccccc>Затты тастау
+    open-container: <#cccccc>Контейнерді ашу <#ffe999>{amount} <#cccccc>рет
+    container-type: '<#cccccc>Контейнер түрі: <#ffe999>{type}'
+    sign:
+      edit: '<#cccccc>Белгіні өңдеу: <#ffe999>{amount} <#cccccc>рет'
+      message: '<#cccccc>Жазу керек: <#ffe999>{message}'
+    book:
+      edit: '<#cccccc>Кітапты өңдеу: <#ffe999>{amount} <#cccccc>рет'
+      message: '<#cccccc>Жазу керек: <#ffe999>{message}'
+    receive-damage-type: '<#cccccc>Зиян алу: <#ffe999>{damage}'
+    damage-cause:
+      any: <#cccccc>Кез келгенден <#ffe999>
+      contact: <#cccccc>Контактінің <#ffe999>
+      entity_attack: <#cccccc>Тіршілік иесінің шабуылынан <#ffe999>
+      projectile: <#cccccc>Снарядтан <#ffe999>
+      suffocation: <#cccccc>Тұншығудан <#ffe999>
+      fall: <#cccccc>Құлаудан <#ffe999>
+      fire: <#cccccc>Оттан <#ffe999>
+      fire_tick: <#cccccc>От зиянынан <#ffe999>
+      lava: <#cccccc>Лавадан <#ffe999>
+      drowning: <#cccccc>Суға бату <#ffe999>
+      block_explosion: <#cccccc>Блок жарылысынан <#ffe999>
+      entity_explosion: <#cccccc>Тіршілік иесі жарылысынан <#ffe999>
+      void: <#cccccc>Бос кеңістіктен <#ffe999>
+      lightning: <#cccccc>Найзағайдан <#ffe999>
+      suicide: <#cccccc>Өз-өзіне қол жұмсаудан <#ffe999>
+      starvation: <#cccccc>Аштықтан <#ffe999>
+      poison: <#cccccc>Уланудан <#ffe999>
+      magic: <#cccccc>Сиқырдан <#ffe999>
+      wither: <#cccccc>Визерден <#ffe999>
+      falling_block: <#cccccc>Құлаған блоктан <#ffe999>
+      thorns: <#cccccc>Тікенектен <#ffe999>
+      dragon_breath: <#cccccc>Айдаһар демінен <#ffe999>
+      fly_into_wall: <#cccccc>Қабырғаға соғылудан <#ffe999>
+      hot_floor: <#cccccc>Ыстық еденнен <#ffe999>
+      cramming: <#cccccc>Қысылу <#ffe999>
+      dryout: <#cccccc>Құрғаудан <#ffe999>
+      freeze: <#cccccc>Мұздатудан <#ffe999>
+      sonic_boom: <#cccccc>Дыбыстық соққыдан <#ffe999>
+      unknown: <#cccccc>Белгісізден <#ffe999>
+    wear-armor: '<#cccccc>Сауданы кию:'
+  global:
+    not_enough_participants: '<#ffdd66>⚠ <#cccccc>Ғаламдық квест <#ffe999>{quest}
+      <#cccccc>кемінде <#ffe999>{min} <#cccccc>қатысушыны қажет етеді <#cccccc>(қазір:
+      <#ffe999>{current}<#cccccc>)!'
+    cancel_blocked_contributed: <#ffdd66>⚠ <#cccccc>Сіз бұл ғаламдық квестке үлес
+      қостыңыз және оны бас тарта алмайсыз!
+    rejoin_cooldown: <#cc4444>❌ <#cccccc>Ғаламдық квестті қайта белсендіру алдында
+      <#ffe999>{time} <#cccccc>күтіңіз!
+    max_contribution: <#97e673>✨ Керемет жұмыс! <#cccccc>Сіз <#ffe699>{quest}<#cccccc>
+      ғаламдық тапсырмасында максималды жеке үлесіңізге жеттіңіз. Көмегіңіз үшін рақмет!
+    personal:
+      join: '<#5bcbb5>+ <#cccccc>Сіз <#ffe999>{quest} <#cccccc>квестіне қосылдыңыз'
+      join-waiting: '<#5bcbb5>+ <#cccccc>Сіз <#ffe999>{quest} <#cccccc>квестін белсендіру үшін кезекке қосылдыңыз <#888888>(Әлі қажет: <#ffe999>{remaining}<#888888>)'
+      leave: '<#e07a5f>- <#cccccc>Сіз <#ffe999>{quest} <#cccccc>квестіне қатысудан бас тарттыңыз!'
+      leave-waiting: '<#e07a5f>- <#cccccc>Сіз <#ffe999>{quest} <#cccccc>квестінің кезегінен шықтыңыз!'
+    broadcast:
+      join: <#5bcbb5>+ <#cccccc>Ойыншы <#ffe999>{player} <#cccccc><#ffe999>{quest}
+        <#cccccc>квестін орындауға қосылды
+      join-waiting: '<#5bcbb5>+ <#cccccc>Ойыншы <#ffe999>{player} <#cccccc><#ffe999>{quest}
+        <#cccccc>квестін орындауға қосылды <#888888>(Тағы қажет: <#ffe999>{remaining}<#888888>)'
+      leave: <#e07a5f>- <#cccccc>Ойыншы <#ffe999>{player} <#cccccc><#ffe999>{quest}
+        <#cccccc>квестінің қатысушысы емес
+      start:
+      - ' '
+      - <#5bcbb5>⚡ Глобалды квест <#ffe999>{quest} <#5bcbb5>іске қосылды!
+      - ' '
+      header:
+      - ' '
+      - <#e8b830>Ғаламдық квест аяқталды!
+      - '  <#c0c0c0>“{quest}<#c0c0c0>”'
+      - ' '
+      - '<#fcd244>⭐ Үздік батырлар:'
+      top-entry: ' <#fcd244>{rank}. <#cccccc>{player} <#888888>- <#fcd244>{contribution}
+        <#888888>({percent}%)'
+      footer:
+      - ' '
+      - '<#5bcbb5>👥 <#cccccc>Барлық қатысушылар: <#5bcbb5>{participants}'
+      - '<#78d169>⏳ <#cccccc>Жұмсалған уақыт: <#78d169>{time}'
+      your-contribution: '<#b894e6>⭐ <#cccccc>Сіздің жеке үлесіңіз: <#b894e6>{amount}'
+      time-unknown: белгісіз
+  background:
+    complete: '{prefix}<#97e673>Квест <#ffffff>{quest} <#97e673>фонда сәтті орындалды!'
+    stage_complete: '{prefix}<#97e673><#ffffff>{stage} <#97e673>кезеңі квест <#ffffff>{quest}
+      <#97e673>фонда орындалды!'
+  activate:
+    success:
+    - <#a7ff99>Сіз квестті {quest} белсендірдіңіз
+    - ''
+    - '{objective_details}'
+    - ''
+    - '{clickable_details}'
+  chain:
+    auto-activated: <#a7ff99>Квест <#ffffff>{quest} автоматты түрде басталды
+  reward:
+    waiting-gui: '{prefix}<#97e673>Квест сыйлығы сізді күтуде!'
+    waiting-npc: '{prefix}<#97e673>Сыйлықты <#ffffff>{npc}<#cccccc>- Ден алыңыз!'
+  stage:
+    complete: '{quest} <#ffcc80>Кезең &f{stage} <#ffcc80>аяқталды!'
+    new:
+    - '<#98b37d>Келесі кезеңде мынаны істеу керек:'
+    - ''
+    - '{objective_details}'
+    - ''
+    - '{clickable_details}'
+  transfer:
+    success: '{prefix}<#97e673>Кезең заттары сәтті тапсырылды!'
+  types:
+    general:
+      unknown: Белгісіз
+    blocks:
+      any: Кез келген блок
+      unknown: Белгісіз блок
+    entities:
+      any: Кез келген дене
+      unknown: Белгісіз дене
+    fluids:
+      any: Кез келген сұйықтық
+      unknown: Белгісіз сұйықтық
+    items:
+      any: Кез келген зат
+      any_fuel: Кез келген отын
+      unknown: Белгісіз зат
+    villagers:
+      any: Кез келген ауыл тұрғыны
+      unknown: Белгісіз ауыл тұрғыны
+chat:
+  clickable: <#e6c18a>[Көбірек ақпарат]
+  hover: <#cccccc>Квест мәліметтерін көру үшін басыңыз
+rewards:
+  money:
+    invalid: '{prefix}<#e07a5f>Ақша сыйлығының мәні дұрыс емес.'
+    added: <#e9c46a>+ <#ffffff>{amount} <#e9c46a> монета
+  items:
+    received: <#97e673>Сіз квест сыйлығы ретінде заттар алдыңыз!
+    dropped: <#e07a5f>Кейбір заттар инвентарьға сыймай, жерге түсті!
+  xp:
+    levels: <#7dd3ff>+ <#ffffff>{amount} <#7dd3ff> тәжірибе деңгейі
+    points: <#7dd3ff>+ <#ffffff>{amount} <#7dd3ff> тәжірибе ұпайы
+    invalid: '{prefix}<#e07a5f>Тәжірибе мөлшері қате.'
+  attribute:
+    added: <#f4a261>Атрибут <#ffffff>{attribute} <#f4a261> <#ffffff>{value} <#f4a261>
+      артты
+  effect:
+    added: <#b19cd9>Алынған әсер <#ffffff>{effect} <#b19cd9>деңгейі <#ffffff>{amplifier}
+      <#b19cd9>уақыты <#ffffff>{duration}
+system:
+  time:
+    year: ж
+    years: ж
+    month: ай
+    months: ай
+    day: к
+    days: к
+    hour: сағ
+    hours: сағ
+    minute: мин
+    minutes: мин
+    second: сек
+    seconds: сек
+    format:
+      year-month: '{y}{y_unit} {m}{m_unit}'
+      month-day: '{m}{m_unit} {d}{d_unit}'
+      day-hour: '{d}{d_unit} {h}{h_unit}'
+      hour-minute: '{h}{h_unit} {min}{min_unit}'
+      minute-second: '{min}{min_unit} {s}{s_unit}'
+      only-second: '{s}{s_unit}'
+  update:
+    available:
+    - <#ffe999>{plugin} жаңа нұсқасы қолжетімді!
+    - '{prefix}<#cccccc>Қазіргі: <#ffffff>{current} <#cccccc>| Соңғы: <#ffffff>{latest}'
+    - '{prefix}<#cccccc>Жүктеу: <#7dd3ff>{url}'

@@ -1,0 +1,45 @@
+id: "global_farming"
+
+name: "<#efe3a6>🌾 Great Harvest"
+description:
+  - "<#cccccc>Winter is coming, and we need"
+  - "<#cccccc>food supplies! Harvest ripe wheat"
+  - "<#cccccc>on your farms to help everyone."
+
+icon-material: WHEAT
+slot: 23
+
+max-participants: 0
+personal-limit: 500
+reward-step: 100
+
+objective:
+  type: "HARVEST_CROP"
+  amount: 10000
+  target-materials:
+    - WHEAT
+
+rewards-description:
+  - " <#a8dbd4>+ 1x Emerald | $50 | 50 EXP <#777777>(per 100)"
+  - " <#efe3a6>+ 1x Villager Spawn Egg | $1500 | 1000 EXP <#777777>(final)"
+
+rewards:
+  money: 1500
+  xp: 1000
+  items:
+    silent: false
+    list:
+      - material: VILLAGER_SPAWN_EGG
+        amount: 1
+  step-rewards:
+    money: 50
+    xp: 50
+    items:
+      silent: false
+      list:
+        - material: EMERALD
+          amount: 1
+
+quest-effects:
+  activate: quest_activate_important
+  complete: global_contribution_max

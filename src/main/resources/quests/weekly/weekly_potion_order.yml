@@ -1,0 +1,67 @@
+id: weekly_potion_order
+name: <#fca5a5>🧪 Brewing Order
+icon-material: BREWING_STAND
+
+rotation-pool: "epic"
+
+description:
+- <#cccccc>Alchemists are building a reserve for hard times.
+- <#cccccc>Brew potions, drink some to test them,
+- <#cccccc>and run one combat trial.
+- ""
+- "<#f472b6>⭐ <#cccccc>Rarity: <#fbcfe8>Epic"
+rewards-description:
+- <#a7ff99>+1200 coins
+- <#ffe08a>+400 XP
+- <#7dd3ff>+Alchemist Kit
+quest-path:
+  stage-1:
+    objective:
+      type: BREWING
+      amount: 6
+      target-materials:
+      - POTION:HEALING
+      - SPLASH_POTION:REGENERATION
+      - LINGERING_POTION:STRENGTH
+  stage-2:
+    objective:
+      type: POTION_DRINK
+      amount: 3
+      target-materials:
+      - POTION:REGENERATION
+      - POTION:HEALING
+  stage-3:
+    objective:
+      type: POTION_SPLASH
+      amount: 2
+      target-materials:
+      - SPLASH_POTION:POISON
+rewards:
+  money:
+    amount: 1200
+    silent: false
+  xp:
+    points: 400
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: BLAZE_POWDER
+      amount: 16
+      name: <#7dd3ff>Alchemical Ingredient
+      lore:
+      - <#cccccc>For brewing and strengthening.
+    - material: GLASS_BOTTLE
+      amount: 16
+      name: <#7dd3ff>Empty Bottles
+      lore:
+      - <#cccccc>For the next batch.
+  effects:
+    silent: false
+    list:
+    - FIRE_RESISTANCE:0:180
+quest-effects:
+  activate: quest_activate_start
+  stage-change: quest_stage_change
+  complete: quest_complete_success
+

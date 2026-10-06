@@ -1,0 +1,40 @@
+id: builder_chain_02_strip_style
+name: <#fbbf24>🪓 Stylish Logs
+icon-material: STONE_AXE
+slot: 19
+page: 1
+require-quests:
+- builder_chain_01_lumber_order
+description:
+- <#cccccc>Stripped logs are pure aesthetics.
+- <#cccccc>Strip the bark from logs with an axe.
+- <#cccccc>Prepare material for the facade.
+rewards-description:
+- <#a7ff99>+220 coins
+- <#ffe08a>+85 XP
+- <#7dd3ff>+Planks
+objective:
+  type: STRIP_LOG
+  amount: 24
+  target-materials:
+  - OAK_LOG
+  - SPRUCE_LOG
+  - BIRCH_LOG
+rewards:
+  money:
+    amount: 220
+    silent: false
+  xp:
+    points: 85
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: OAK_PLANKS
+      amount: 64
+      name: <#7dd3ff>Bundle of Planks
+      lore:
+      - <#cccccc>A quick start for walls.
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

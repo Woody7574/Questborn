@@ -1,0 +1,63 @@
+id: weekly_lumber_contract
+name: <#a7f3d0>🪓 Lumber Contract
+icon-material: DIAMOND_AXE
+
+rotation-pool: "rare"
+
+description:
+- <#cccccc>The workshop needs timber and supplies.
+- <#cccccc>Prepare logs, plant new saplings,
+- <#cccccc>and craft storage for materials.
+- ""
+- "<#93c5fd>⭐ <#cccccc>Rarity: <#bfdbfe>Rare"
+rewards-description:
+- <#a7ff99>+950 coins
+- <#ffe08a>+380 XP
+- <#7dd3ff>+Master's Chest
+quest-path:
+  stage-1:
+    objective:
+      type: STRIP_LOG
+      amount: 48
+      target-materials:
+      - OAK_LOG
+      - SPRUCE_LOG
+      - BIRCH_LOG
+  stage-2:
+    objective:
+      type: PLANT_SEED
+      amount: 16
+      target-materials:
+      - OAK_SAPLING
+      - SPRUCE_SAPLING
+      - BIRCH_SAPLING
+  stage-3:
+    objective:
+      type: ITEM_CRAFT
+      amount: 8
+      target-materials:
+      - CHEST
+rewards:
+  money:
+    amount: 950
+    silent: false
+  xp:
+    points: 380
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: CHEST
+      amount: 4
+      name: <#7dd3ff>Master's Chest
+      lore:
+      - <#cccccc>Keep your resources organized.
+  effects:
+    silent: false
+    list:
+    - SPEED:0:180
+quest-effects:
+  activate: quest_activate_start
+  stage-change: quest_stage_change
+  complete: quest_complete_success
+

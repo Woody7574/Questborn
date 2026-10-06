@@ -1,0 +1,54 @@
+id: weekly_travelers_log
+name: <#22c55e>🧭 Traveler's Log
+icon-material: COMPASS
+
+rotation-pool: "rare"
+
+description:
+- <#cccccc>Cartographers need fresh data.
+- <#cccccc>Cover a long distance, sprint a bit,
+- <#cccccc>and step into another dimension.
+- ""
+- "<#93c5fd>⭐ <#cccccc>Rarity: <#bfdbfe>Rare"
+rewards-description:
+- <#a7ff99>+1000 coins
+- <#ffe08a>+350 XP
+- <#7dd3ff>+Traveler's Compass
+quest-path:
+  stage-1:
+    objective:
+      type: TRAVEL_DISTANCE
+      distance: 10000
+  stage-2:
+    objective:
+      type: SPRINT_DISTANCE
+      distance: 2500
+  stage-3:
+    objective:
+      type: CHANGE_DIMENSION
+      amount: 1
+      dimension: world_nether
+rewards:
+  money:
+    amount: 1000
+    silent: false
+  xp:
+    points: 350
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: COMPASS
+      amount: 1
+      name: <#7dd3ff>Traveler's Compass
+      lore:
+      - <#cccccc>Brings your thoughts back to the road.
+  effects:
+    silent: false
+    list:
+    - JUMP_BOOST:0:180
+quest-effects:
+  activate: quest_activate_start
+  stage-change: quest_stage_change
+  complete: quest_complete_success
+

@@ -1,0 +1,58 @@
+id: starter_chain_04_furnace_rhythm
+name: <#fbbf24>🔥 Furnace Rhythm
+icon-material: FURNACE
+slot: 29
+page: 1
+require-quests:
+- starter_chain_03_stone_age
+description:
+- <#cccccc>Processing resources is the foundation of progress.
+- <#cccccc>Set up a furnace and learn to keep it hot.
+- <#cccccc>Smelt a bit of stone.
+rewards-description:
+- <#a7ff99>+230 coins
+- <#ffe08a>+95 XP
+- <#7dd3ff>+Fuel
+quest-path:
+  stage-1:
+    objective:
+      type: ITEM_CRAFT
+      amount: 1
+      target-materials:
+      - FURNACE
+  stage-2:
+    objective:
+      type: FILL_FUEL
+      amount: 1
+      target-materials:
+      - COAL
+      - CHARCOAL
+  stage-3:
+    objective:
+      type: ITEM_SMELT
+      amount: 29
+      target-materials:
+      - STONE
+rewards:
+  money:
+    amount: 230
+    silent: false
+  xp:
+    points: 95
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: COAL
+      amount: 24
+      name: <#7dd3ff>Fuel Stash
+      lore:
+      - <#cccccc>Keep the heat steady.
+  effects:
+    silent: false
+    list:
+    - NIGHT_VISION:0:90
+quest-effects:
+  activate: quest_activate_start
+  stage-change: quest_stage_change
+  complete: quest_complete_success

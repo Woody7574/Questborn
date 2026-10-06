@@ -1,0 +1,29 @@
+id: daily_sprint_to_treasure
+name: <#38bdf8>💨 Sprint to Treasure
+icon-material: FEATHER
+
+rotation-pool: "common"
+
+description:
+- <#cccccc>Courier messengers have to be fast.
+- <#cccccc>Your task is to show pace and control.
+- <#cccccc>Sprint <#38bdf8>600 blocks.
+- ""
+- "<#86efac>⭐ <#cccccc>Rarity: <#bbf7d0>Common"
+rewards-description:
+- <#a7ff99>+155 coins
+- <#ffe08a>+70 XP
+- <#7dd3ff>+Speed (2 min)
+objective:
+  type: SPRINT_DISTANCE
+  distance: 600
+rewards:
+  money: 155
+  xp: 70
+  effects:
+    list:
+    - SPEED:1:120
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success
+

@@ -1,0 +1,83 @@
+# ===========================================================
+#  Questborn NPCs Configuration
+# ===========================================================
+#  This file stores configurations for individual NPCs.
+#  Each NPC handles a specific Quest Type with dedicated dialogues.
+# ===========================================================
+
+npcs:
+  # -----------------------------------------------------------
+  # 1. Gustav (Daily Quests)
+  # -----------------------------------------------------------
+  example_npc_1:
+    displayname: "<#d0a775>Gustav"
+    gui-title: '&0{npc} - Daily Chores'
+    indicator-offset: 0.6
+    dialogue-id: "gustav_dialogue"
+    voice: "villager"
+    default_mood: "NEUTRAL"
+    starts:
+      types:
+        - daily
+    mood_rules:
+      HAPPY:
+        priority: 10
+        conditions:
+          TIME:
+            range: "13000-21000"
+      BUSY:
+        priority: 8
+        conditions:
+          TIME:
+            range: "0-3000"
+      SAD:
+        priority: 5
+        conditions:
+          WEATHER:
+            state: "STORM"
+      ANGRY:
+        priority: 15
+        conditions:
+          TIME:
+            range: "22000-24000"
+
+  # -----------------------------------------------------------
+  # 2. Torvald (Weekly Quests)
+  # -----------------------------------------------------------
+  example_npc_2:
+    displayname: "<#9b88b3>Torvald"
+    gui-title: '&0{npc} - Weekly Contracts'
+    indicator-offset: 0.6
+    dialogue-id: "torvald_dialogue"
+    voice: "villager"
+    default_mood: "NEUTRAL"
+    starts:
+      types:
+        - weekly
+    mood_rules:
+      RESPECTFUL:
+        priority: 20
+        conditions:
+          PLACEHOLDER:
+            placeholder: "%vault_rank%"
+            expression: "vip"
+      ANGRY:
+        priority: 15
+        conditions:
+          TIME:
+            range: "22000-24000"
+      SAD:
+        priority: 10
+        conditions:
+          WEATHER:
+            state: "STORM"
+      BUSY:
+        priority: 8
+        conditions:
+          TIME:
+            range: "0-3000"
+      HAPPY:
+        priority: 5
+        conditions:
+          WEATHER:
+            state: "CLEAR"

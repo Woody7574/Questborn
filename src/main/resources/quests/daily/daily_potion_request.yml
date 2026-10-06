@@ -1,0 +1,34 @@
+id: daily_potion_request
+name: <#fca5a5>🧪 Brewing Request
+icon-material: BREWING_STAND
+
+rotation-pool: "rare"
+
+description:
+- <#cccccc>The infirmary needs potions after recent clashes.
+- <#cccccc>Brew a batch for the guild apothecary.
+- <#cccccc>Brew <#fca5a5>3 healing potions.
+- ""
+- "<#93c5fd>⭐ <#cccccc>Rarity: <#bfdbfe>Rare"
+rewards-description:
+- <#a7ff99>+260 coins
+- <#ffe08a>+125 XP
+- <#7dd3ff>+6 Blaze Powder
+objective:
+  type: BREWING
+  amount: 3
+  target-materials:
+  - POTION:HEALING
+  - SPLASH_POTION:HEALING
+  - LINGERING_POTION:HEALING
+rewards:
+  money: 260
+  xp: 125
+  items:
+    list:
+    - material: BLAZE_POWDER
+      amount: 6
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success
+

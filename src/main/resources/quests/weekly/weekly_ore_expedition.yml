@@ -1,0 +1,65 @@
+id: weekly_ore_expedition
+name: <#6ee7b7>⛏ Ore Expedition
+icon-material: IRON_PICKAXE
+
+rotation-pool: "epic"
+
+description:
+- <#cccccc>The guild needs its stockpiles replenished.
+- <#cccccc>Head into the mines and bring back metal.
+- <#cccccc>A weekly task for the tough.
+- ""
+- "<#f472b6>⭐ <#cccccc>Rarity: <#fbcfe8>Epic"
+rewards-description:
+- <#a7ff99>+1200 coins
+- <#ffe08a>+450 XP
+- <#7dd3ff>+Scout's Tool
+quest-path:
+  stage-1:
+    objective:
+      type: BLOCK_BREAK
+      amount: 64
+      target-materials:
+      - IRON_ORE
+      - DEEPSLATE_IRON_ORE
+      - COAL_ORE
+      - DEEPSLATE_COAL_ORE
+  stage-2:
+    objective:
+      type: ITEM_SMELT
+      amount: 32
+      target-materials:
+      - IRON_INGOT
+  stage-3:
+    required-materials:
+    - IRON_INGOT:16
+    - COAL:16
+rewards:
+  money:
+    amount: 1200
+    silent: false
+  xp:
+    points: 450
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: IRON_PICKAXE
+      amount: 1
+      name: <#7dd3ff>Scout's Tool
+      lore:
+      - <#cccccc>A reliable tool for carving new tunnels.
+      enchantments:
+      - efficiency:2
+      - unbreaking:2
+      flags:
+      - HIDE_ENCHANTS
+  effects:
+    silent: false
+    list:
+    - SPEED:0:240
+quest-effects:
+  activate: quest_activate_start
+  stage-change: quest_stage_change
+  complete: quest_complete_success
+

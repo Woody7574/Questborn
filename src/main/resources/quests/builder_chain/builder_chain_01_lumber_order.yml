@@ -1,0 +1,38 @@
+id: builder_chain_01_lumber_order
+name: <#a7f3d0>🪵 Lumber Order
+icon-material: BIRCH_LOG
+slot: 10
+page: 1
+description:
+- <#cccccc>Every build starts with resources.
+- <#cccccc>Gather logs for the workshop.
+- <#cccccc>Pick any wood type you like.
+rewards-description:
+- <#a7ff99>+180 coins
+- <#ffe08a>+70 XP
+- <#7dd3ff>+Saplings
+objective:
+  type: BLOCK_BREAK
+  amount: 32
+  target-materials:
+  - OAK_LOG
+  - SPRUCE_LOG
+  - BIRCH_LOG
+rewards:
+  money:
+    amount: 180
+    silent: false
+  xp:
+    points: 70
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: OAK_SAPLING
+      amount: 8
+      name: <#7dd3ff>Saplings
+      lore:
+      - <#cccccc>Give back to nature.
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

@@ -1,0 +1,30 @@
+id: daily_traveler_road
+name: <#22c55e>🧭 Traveler's Road
+icon-material: COMPASS
+
+rotation-pool: "common"
+
+description:
+- <#cccccc>The guild is updating maps and caravan routes.
+- <#cccccc>Scout the trails and return unharmed.
+- <#cccccc>Travel <#22c55e>2500 blocks.
+- ""
+- "<#86efac>⭐ <#cccccc>Rarity: <#bbf7d0>Common"
+rewards-description:
+- <#a7ff99>+200 coins
+- <#ffe08a>+95 XP
+- <#7dd3ff>+10 Firework Rockets
+objective:
+  type: TRAVEL_DISTANCE
+  distance: 2500
+rewards:
+  money: 200
+  xp: 95
+  items:
+    list:
+    - material: FIREWORK_ROCKET
+      amount: 10
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success
+

@@ -1,0 +1,67 @@
+id: weekly_farmers_week
+name: <#86efac>🌾 Farmer's Week
+icon-material: GOLDEN_HOE
+
+rotation-pool: "rare"
+
+description:
+- <#cccccc>The village is waiting for fresh grain and bread.
+- <#cccccc>Prepare the soil, sow, and harvest the crops.
+- <#cccccc>Consistency is power too.
+- ""
+- "<#93c5fd>⭐ <#cccccc>Rarity: <#bfdbfe>Rare"
+rewards-description:
+- <#a7ff99>+1100 coins
+- <#ffe08a>+420 XP
+- <#7dd3ff>+Harvest Hoe
+quest-path:
+  stage-1:
+    objective:
+      type: TILL_SOIL
+      amount: 64
+      target-materials:
+      - GRASS_BLOCK
+      - DIRT
+  stage-2:
+    objective:
+      type: PLANT_SEED
+      amount: 64
+      target-materials:
+      - WHEAT_SEEDS
+  stage-3:
+    objective:
+      type: HARVEST_CROP
+      amount: 128
+      target-materials:
+      - WHEAT
+  stage-4:
+    required-materials:
+    - WHEAT:64
+rewards:
+  money:
+    amount: 1100
+    silent: false
+  xp:
+    points: 420
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: GOLDEN_HOE
+      amount: 1
+      name: <#7dd3ff>Harvest Hoe
+      lore:
+      - <#cccccc>For those who feed others.
+      enchantments:
+      - unbreaking:3
+      flags:
+      - HIDE_ENCHANTS
+  effects:
+    silent: false
+    list:
+    - REGENERATION:0:30
+quest-effects:
+  activate: quest_activate_start
+  stage-change: quest_stage_change
+  complete: quest_complete_success
+

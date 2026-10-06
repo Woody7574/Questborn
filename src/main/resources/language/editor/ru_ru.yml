@@ -1,0 +1,1734 @@
+﻿common_editor:
+  buttons:
+    add: <#79d679>Добавить
+    add_item: <#79d679>Добавить предмет
+    add_item_lore:
+    - <#a8a8a8>Нажмите, чтобы выбрать
+    - <#a8a8a8>материал для сдачи.
+    add_new: <#79d679>Создать новый
+    add_new_lore: <#a7ff99>ЛКМ <#cccccc>- создать новый
+    back: <#ed6868>Обратно
+    back_lore: <#a8a8a8>Вернуться к предыдущему меню.
+    cancel: <#ed6868>Отменить
+    cancel_lore: <#a8a8a8>Нажмите, чтобы вернуться.
+    confirm: <#79d679>Подтвердить
+    confirm_lore: <#a8a8a8>Нажмите для выполнения действия.
+    delete: <#ed6868>Удалить
+    empty_list: <#ed6868>Список пуст
+    empty_list_lore: <#a8a8a8>Щелкните зеленый блок справа, чтобы добавить 
+      элемент.
+    next_page: <#ffd470>Следующая страница
+    prev_page: <#ffd470>Предыдущая страница
+    return: <#ed6868>Вернуться
+    save: <#79d679>Сохранить изменения
+    save_lore: <#a8a8a8>Записать все настройки в файл.
+    save_unsaved: <#ffd470>* Сохранить изменения
+    save_unsaved_lore: <#ffb366>⚠ Имеющиеся несохраненные изменения!
+    search: <#ffd470>Поиск
+  days:
+    friday: Пятница
+    monday: Понедельник
+    saturday: Суббота
+    sunday: Воскресенье
+    thursday: Четверг
+    tuesday: Вторник
+    unknown: Неизвестно
+    wednesday: Среда
+  input:
+    cancel_instruction: <#8a8a8a>    Напишите текст в чате. Для отмены введите 
+      <#c96a6a>cancel
+    cancelled: Ввод отменен.
+    cancelled_cmd: Ввод отменен (через команду).
+    edit_current: '    <#ffc499>✎ [Редактировать текущий текст]'
+    enter_number_error: Введите число!
+    enter_text: '<#ffd470>Введите новый текст в чате:'
+  item_list:
+    click_delete: <#ed6868>Drop (Q) <#cccccc>- Удалить
+    click_modify1: <#a7ff99>ЛКМ (+1) / ПКМ (-1) <#cccccc>- изменить количество
+    click_modify2: <#ffe999>Shift+ЛКМ (+10)/ <#ffe999>Shift+ПКМ (-10)
+    click_modify3: <#ffe999>Swap(F) <#cccccc>- ввести количество вручную
+    delete_confirm_msg: '<#ffd470>Вы уверены, что хотите удалить предмет #{index}?'
+    delete_confirm_title: Удалить предмет
+    empty_lore:
+    - <#a8a8a8>Нажмите воронку или зеленый блок,
+    - <#a8a8a8>чтобы добавить первый предмет.
+    empty_title: <#ed6868>Список пуст
+    item_amount: '<#a8a8a8>Количество: <#ffffff>{amount}'
+  main_selector:
+    dialogue_click: <#79d679>Нажмите для открытия списка диалогов
+    dialogue_lore:
+    - <#a8a8a8>Редактирование интерактивных ветвей
+    - <#a8a8a8>диалогов, вариантов ответов и действий.
+    dialogue_title: <#ff99d4>Редактор диалогов
+    npc_click: <#79d679>Нажмите для открытия списка NPC
+    npc_lore:
+    - <#a8a8a8>Настройка привязки квестов к NPC,
+    - <#a8a8a8>правил настроения (Mood) и звуковых голосов.
+    npc_title: <#a7ff99>Редактор NPC
+    quest_click: <#79d679>Нажмите для открытия списка квестов
+    quest_lore:
+    - <#a8a8a8>Создание, удаление и подробная
+    - <#a8a8a8>настройка задач, этапов и наград.
+    quest_title: <#7dd3ff>Редактор квестов
+    title: '&0✎ Редактор Questborn'
+    type_click: <#79d679>Нажмите для открытия списка типов
+    type_lore:
+    - <#a8a8a8>Управление файлами типов (<#ffffff>_type.yml<#a8a8a8>).
+    - <#a8a8a8>Изменение названий, иконок, перезарядки и
+    - <#a8a8a8>режимов движителя (DEFAULT, CHAIN, ROTATION, GLOBAL).
+    type_title: <#ffd470>Редактор типов квестов
+  none: <#cccccc>Нет
+  prefix: <#ad8ae6><bold>Editor</bold> <#8a8a8a>• <reset>
+  prompts:
+    preset_id: Preset ID
+  search:
+    click: <#a7ff99>ЛКМ <#cccccc>- Искать
+    none: <#cccccc>Нет
+    query: '<#cccccc>Запрос: <#ffffff>{query}'
+  selection_menu:
+    item_click: <#a7ff99>ЛКМ <#cccccc>- Переключить выбор
+    item_id: '<#a8a8a8>ID: <#ffffff>{id}'
+    item_status: '<#a8a8a8>Статус: {status}'
+    prompt_search: '<#ffd470>Введите запрос для поиска (или clear):'
+    search_all: Все
+    search_click: <#a7ff99>ЛКМ <#cccccc>- Искать (или clear)
+    search_lore: '<#a8a8a8>Поиск: <#ffffff>{query}'
+    status_selected: <#55ff55>Выбрано ✔
+    status_unselected: <#ff5555>Не выбран
+    title: '&0Выберите элемент'
+  state_none: <#cccccc>Отключено
+  states:
+    disabled: <#ed6868>Отключено
+    enabled: <#79d679>Включено
+  symbols:
+    error: '<#c96a6a>✖ '
+    prompt: '<#6aa0c9>✏ '
+    success: '{prefix}<#78b185>✔ <#ffffff>'
+    warning: '<#d9a752>⚠ '
+  unsaved_modal:
+    discard_exit: <#ed6868>Отменить изменения и выйти
+    discard_exit_lore: <#a8a8a8>Сбросит все несохраненные изменения без записи в
+      файл.
+    info_lore: <#a8a8a8>Выберите действие ниже.
+    info_title: <#ffd470>Несохраненные изменения
+    return_editor: <#d69a38>Вернуться к редактированию
+    return_editor_lore: <#a8a8a8>Вернуться в меню редактора.
+    save_exit: <#79d679>Сохранить и выйти
+    save_exit_lore: <#a8a8a8>Запишет все изменения в файл и закроет редактор.
+    title: '&0✎ Несохраненные изменения'
+dialogue_editor:
+  delete_confirm_desc: Вы действительно хотите удалить диалог {id}?
+  delete_confirm_title: '&0Подтвердите удаление'
+  delete_confirm_item: '<#ed6868>Подтвердите удаление'
+  deleted_success: '{prefix}<#78b185>✔ <#ffffff>Диалог удалён!'
+  clone_prompt: '<#ffd470>Введите ID для копии диалога:'
+  error_clone_exists: '{prefix}<#c96a6a>✖ <#ffffff>Диалог с таким ID уже существует!'
+  msg_clone_success: '{prefix}<#78b185>✔ <#ffffff>Диалог успешно скомпилирован/скопирован как {id}!'
+  error_clone_failed: '{prefix}<#c96a6a>✖ <#ffffff>Ошибка при копировании диалога!'
+  id_exists: Диалог с таким ID уже существует!
+  saved_success: '{prefix}<#78b185>✔ <#ffffff>Изменения диалога {id} успешно сохранено!'
+  title_list: '&0Список диалогов ({count})'
+  title_main: '&0Редактор диалога: {id}'
+npc_editor:
+  teleported: '<#a7ff99>✔ Успешно телепортирован к NPC!'
+  location_not_found: '{prefix}<#c96a6a>✖ <#ffffff>Локация NPC не найдена! Он заспавнен?'
+  no_integration: '{prefix}<#c96a6a>✖ <#ffffff>Плагин для интеграции NPC не найден!'
+  delete_confirm_desc: Вы действительно хотите удалить NPC {id}?
+  delete_confirm_item: <#ff4d4d>Подтвердите удаление
+  delete_confirm_title: '&0Подтвердите удаление'
+  deleted_success: '{prefix}<#78b185>✔ <#ffffff>NPC удален!'
+  dialogue_gui_title: '&8Выбор диалога'
+  dialogue_none_title: '&cОтвязать текущий диалог'
+  dialogue_select_click: '&eНажмите, чтобы выбрать этот диалог'
+  id_exists: NPC с таким ID уже существует!
+  id_exists_use_right_click: Если вы хотите настроить существующий NPC, 
+    используйте ПКМ вместо ЛКМ.
+  saved_success: '{prefix}<#78b185>✔ <#ffffff>Изменения NPC {id} успешно сохранено!'
+  title_list: '&0Список NPC ({count})'
+  title_main: '&0Настройки NPC: {id}'
+quest_editor:
+  add_property:
+    amount: Количество
+    biome: Биом
+    chance: Шанс
+    command: Команда
+    custom_click: <#a7ff99>ЛКМ <#cccccc>- выбрать
+    custom_lore:
+    - <#a8a8a8>Ввести ключ свойства вручную через чат
+    custom_prompt: '<#ffd470>Введите название свойства (напр. material):'
+    custom_title: <#ffd470>Кастомное свойство
+    distance: Дистанция
+    entities: Энтити / Мобы
+    item_click: <#a7ff99>ЛКМ <#cccccc>- Добавить свойство
+    item_lore: '<#a8a8a8>Ключ: <#ffffff>{key}'
+    item_title: <#ffd470>{name}
+    materials: Блоки / Предметы
+    message: Сообщение
+    region: Регион
+    title: <#6e6e6e>Новое свойство
+    world: Мир
+  attribute_reward:
+    add_lore: <#a8a8a8>Нажмите для добавления нового атрибута.
+    add_title: <#ffd470>Добавить атрибут
+    click_delete: <#ed6868>Drop (Q) <#cccccc>- Удалить атрибут
+    click_edit: <#ffe999>Swap(F) <#cccccc>- ввести вручную
+    click_modify1: <#a7ff99>ЛКМ (+0.5)/ПКМ (-0.5) <#cccccc>- изменить значение
+    click_modify2: <#ffe999>Shift+ЛКМ (+5.0) / <#ffe999>Shift+ПКМ (-5.0)
+    confirm_del_desc: Вы уверены, что хотите удалить {attr}?
+    confirm_del_item: ✖ Удалить атрибут
+    confirm_del_title: '&0Удалить атрибут'
+    prompt_val: '<#ffd470>Введите числовое значение для атрибута (например, 2.0 или
+      -1.5):'
+  attribute_selector:
+    click_select: <#a7ff99>ЛКМ <#cccccc>- Выбрать этот атрибут
+    desc:
+      AIR_DRAG_MODIFIER: <#cccccc>Модификатор сопротивления воздуха (замедление 
+        во время полета).
+      ARMOR: <#cccccc>Число пунктов базовой брони.
+      ARMOR_TOUGHNESS: <#cccccc>Твердость брони (защита от мощных ударов).
+      ATTACK_DAMAGE: <#cccccc>Ущерб от базовых атак ближнего боя.
+      ATTACK_KNOCKBACK: <#cccccc>Сила отвержения противника при атаке.
+      ATTACK_SPEED: <#cccccc>Скорость атаки (количество ударов в секунду).
+      BELOW_NAME_DISTANCE: <#cccccc>Дальность видимости текста под именем.
+      BLOCK_BREAK_SPEED: <#cccccc>Множитель скорости разрушения блоков.
+      BLOCK_INTERACTION_RANGE: <#cccccc>Дальность взаимодействия игрока с 
+        блоками.
+      BOUNCINESS: <#cccccc>Прыжкость.
+      BURNING_TIME: <#cccccc>Множитель продолжительности горения в огне.
+      CAMERA_DISTANCE: <#cccccc>Дальность камеры.
+      ENTITY_INTERACTION_RANGE: <#cccccc>Дальность взаимодействия игрока с 
+        другими сущностями.
+      EXPLOSION_KNOCKBACK_RESISTANCE: <#cccccc>Сопротивление отбрасыванию от 
+        взрывов.
+      FALL_DAMAGE_MULTIPLIER: <#cccccc>Множитель ущерб от падения.
+      FLYING_SPEED: <#cccccc>Скорость полета сущности.
+      FOLLOW_RANGE: <#cccccc>Дальность, на которой мобы замечают игрока.
+      FRICTION_MODIFIER: <#cccccc>Модификатор трения.
+      GENERIC_ARMOR: <#cccccc>Число пунктов базовой брони.
+      GENERIC_ARMOR_TOUGHNESS: <#cccccc>Твердость брони (защита от мощных 
+        ударов).
+      GENERIC_ATTACK_DAMAGE: <#cccccc>Ущерб от базовых атак ближнего боя.
+      GENERIC_ATTACK_KNOCKBACK: <#cccccc>Сила отвержения противника при атаке.
+      GENERIC_ATTACK_SPEED: <#cccccc>Скорость атаки (количество ударов в 
+        секунду).
+      GENERIC_BURNING_TIME: <#cccccc>Множитель продолжительности горения в огне.
+      GENERIC_EXPLOSION_KNOCKBACK_RESISTANCE: <#cccccc>Сопротивление 
+        отбрасыванию от взрывов.
+      GENERIC_FALL_DAMAGE_MULTIPLIER: <#cccccc>Множитель ущерб от падения.
+      GENERIC_FLYING_SPEED: <#cccccc>Скорость полета сущности.
+      GENERIC_FOLLOW_RANGE: <#cccccc>Дальность, на которой мобы замечают игрока.
+      GENERIC_GRAVITY: <#cccccc>Сила тяжести, действующая на сущность.
+      GENERIC_JUMP_STRENGTH: <#cccccc>Сила обычного скачка сущности.
+      GENERIC_KNOCKBACK_RESISTANCE: <#cccccc>Сопротивление отбрасыванию (1.0 = 
+        100% защиты).
+      GENERIC_LUCK: <#cccccc>Удача (воздействует на лут и рыбалку).
+      GENERIC_MAX_HEALTH: <#cccccc>Максимальное здоровье (1.0=полусердца).
+      GENERIC_MOVEMENT_EFFICIENCY: <#cccccc>Эффективность передвижения по 
+        сложным блокам.
+      GENERIC_MOVEMENT_SPEED: <#cccccc>Скорость передвижения сущности.
+      GENERIC_OXYGEN_BONUS: <#cccccc>Шанс не потратить кислород под водой.
+      GENERIC_SAFE_FALL_DISTANCE: <#cccccc>Безопасная дистанция падения (в 
+        блоках).
+      GENERIC_SCALE: <#cccccc>Масштаб и размер сущности (1.0 = стандарт).
+      GENERIC_STEP_HEIGHT: <#cccccc>Высота автоматического шага (без прыжка).
+      GENERIC_WATER_MOVEMENT_EFFICIENCY: <#cccccc>Эффективность передвижения под
+        водой.
+      GRAVITY: <#cccccc>Сила тяжести, действующая на сущность.
+      HORSE_JUMP_STRENGTH: <#cccccc>Сила скачка лошадей.
+      JUMP_STRENGTH: <#cccccc>Сила обычного скачка сущности.
+      KNOCKBACK_RESISTANCE: <#cccccc>Сопротивление отбрасыванию (1.0 = 100% 
+        защиты).
+      LUCK: <#cccccc>Удача (воздействует на лут и рыбалку).
+      MAX_ABSORPTION: <#cccccc>Максимальное поглощение вреда (дополнительные 
+        сердца).
+      MAX_HEALTH: <#cccccc>Максимальное здоровье (1.0=полусердца).
+      MINING_EFFICIENCY: <#cccccc>Общая эффективность добычи.
+      MOVEMENT_EFFICIENCY: <#cccccc>Эффективность передвижения по сложным 
+        блокам.
+      MOVEMENT_SPEED: <#cccccc>Скорость передвижения сущности.
+      NAME_TAG_DISTANCE: <#cccccc>Дальность видимости тэга имени (Name Tag).
+      OXYGEN_BONUS: <#cccccc>Шанс не потратить кислород под водой.
+      PLAYER_BLOCK_BREAK_SPEED: <#cccccc>Множитель скорости разрушения блоков.
+      PLAYER_BLOCK_INTERACTION_RANGE: <#cccccc>Дальность взаимодействия игрока с
+        блоками.
+      PLAYER_ENTITY_INTERACTION_RANGE: <#cccccc>Дальность взаимодействия игрока 
+        с другими сущностями.
+      PLAYER_MINING_EFFICIENCY: <#cccccc>Общая эффективность добычи.
+      PLAYER_SNEAKING_SPEED: <#cccccc>Множитель скорости во время приседания 
+        (Shift).
+      PLAYER_SUBMERGED_MINING_SPEED: <#cccccc>Множитель скорости копания под 
+        водой.
+      PLAYER_SWEEPING_DAMAGE_RATIO: <#cccccc>Множитель ущерб от размашистой 
+        атаки мечом.
+      SAFE_FALL_DISTANCE: <#cccccc>Безопасная дистанция падения (в блоках).
+      SCALE: <#cccccc>Масштаб и размер сущности (1.0 = стандарт).
+      SNEAKING_SPEED: <#cccccc>Множитель скорости во время приседания (Shift).
+      SPAWN_REINFORCEMENTS: <#cccccc>Шанс зомби вызвать других зомби в помощь.
+      STEP_HEIGHT: <#cccccc>Высота автоматического шага (без прыжка).
+      SUBMERGED_MINING_SPEED: <#cccccc>Множитель скорости копания под водой.
+      SWEEPING_DAMAGE_RATIO: <#cccccc>Множитель ущерб от размашистой атаки 
+        мечом.
+      TEMPT_RANGE: <#cccccc>Дальность приманивания мобов едой.
+      WATER_MOVEMENT_EFFICIENCY: <#cccccc>Эффективность передвижения под водой.
+      WAYPOINT_RECEIVE_RANGE: <#cccccc>Дальность получения точки пути.
+      WAYPOINT_TRANSMIT_RANGE: <#cccccc>Дальность передачи точки пути.
+      ZOMBIE_SPAWN_REINFORCEMENTS: <#cccccc>Шанс зомби вызвать других зомби в 
+        помощь.
+    title: '&0Выбор атрибута'
+  brd_reward:
+    click_clone: <#ffe999>Swap(F) <#cccccc>- клонировать
+    click_delete: <#ed6868>Drop (Q) <#cccccc>- Удалить
+    click_edit: <#a7ff99>ЛКМ <#cccccc>- изменить объявление
+    click_move_down: <#ffe999>Shift+ПКМ <#cccccc>- переместить ниже
+    click_move_up: <#ffe999>Shift+ЛКМ <#cccccc>- переместить выше
+    click_set_level: <#d9a752>1-9 <#cccccc>- установить уровень эффекта
+    item_format: '<#79d679>Объявление #{index}'
+  chance_reward:
+    add_lore: <#a8a8a8>Нажмите для добавления нового шанса.
+    add_title: <#ffd470>Добавить шанс
+    click_delete: <#ed6868>Drop (Q) <#cccccc>- Удалить шанс
+    click_edit_chance: <#ffe999>Swap(F) <#cccccc>- ввести шанс вручную
+    click_open_rewards: <#a7ff99>ЛКМ <#cccccc>- открыть награды
+    confirm_del_desc: '<#ffd470>Удалить шанс #{attr}?'
+    item_title: Шанс
+    prompt_val: '<#ffd470>Введите процент шанса (например, 50.0):'
+    rewards_gui_title: 'Награды шанса #{attr}'
+  cmd_reward:
+    add_lore: <#a8a8a8>Нажмите для добавления новой команды.
+    add_title: <#ffd470>Добавить команду
+    click_clone: <#d9a752>Swap(F) <#cccccc>- Дублировать
+    click_delete: <#ed6868>Drop (Q) <#cccccc>- Удалить
+    click_edit: <#a7ff99>ЛКМ <#cccccc>- Сменить команду
+    click_move_down: <#ffe999>Shift+ПКМ <#cccccc>- опустить
+    click_move_up: <#ffe999>Shift+ЛКМ <#cccccc>- поднять
+    click_toggle_sender: <#a7ff99>ПКМ <#cccccc>- выбрать отправителя
+    item_format: '<#ffd470>Команда #{index}'
+    prompt_add:
+    - '<#ffd470>Введите текст команды:'
+    - '<#a8a8a8>(Для имени игрока пишите %player%)'
+    prompt_edit:
+    - '<#ffd470>Введите новый текст команды:'
+    - '<#a8a8a8>(Для имени игрока пишите %player%)'
+    sender_console: <#ffd470>От имени Консоли
+    sender_console_lore:
+    - '<#a8a8a8>Команда выполняется от консоли сервера.'
+    - ''
+    - '<#a7ff99>Нажмите для выбора.'
+    sender_gui_title: '&0Выбор отправителя'
+    sender_none: <#ed6868>Удалить тег
+    sender_none_lore:
+    - '<#a8a8a8>Удалить тег команды.'
+    - ''
+    - '<#a8a8a8>(по умолчанию эквивалентно консоли)'
+    - ''
+    - '<#a7ff99>Нажмите для выбора.'
+    sender_player: <#ffd470>От имени Игрока
+    sender_player_lore:
+    - '<#a8a8a8>Команда выполнится так, словно'
+    - ''
+    - '<#a8a8a8>его ввёл сам игрок.'
+    - ''
+    - '<#a7ff99>Нажмите для выбора.'
+    sender_silent_console: <#ffd470>От имени Консоли (Скрыто)
+    sender_silent_console_lore:
+    - '<#a8a8a8>Команда выполнится от консоли,'
+    - ''
+    - '<#a8a8a8>но результат не выведется в лог.'
+    - ''
+    - '<#a7ff99>Нажмите для выбора.'
+    sender_silent_player: <#ffd470>От имени Игрока (Скрыто)
+    sender_silent_player_lore:
+    - '<#a8a8a8>Команда выполнится от игрока,'
+    - ''
+    - '<#a8a8a8>но результат не выведется в чате.'
+    - ''
+    - '<#a7ff99>Нажмите для выбора.'
+  dialogue_list:
+    create_default_text: '  <#c8c8c8>Привет, путешественник!'
+    create_prompt: '<#ffd470>Введите ID нового диалога (например: <#ffffff>tavern_dialogue<#ffd470>):'
+    edit_click: <#a7ff99>ЛКМ <#cccccc>- Редактировать диалог
+    clone_click: '<#ffe999>Swap(F) <#cccccc>- клонировать диалог'
+    delete_click: <#ed6868>Drop (Q) <#cccccc>- Удалить диалог
+    id_click: <#a7ff99>ЛКМ <#cccccc>- изменить ID диалога
+    id_exists: <#ed6868>Диалог по ID {id} уже существует!
+    id_lore: '<#a8a8a8>ID: <#ffffff>{id}'
+    id_prompt: '<#ffd470>Введите новый ID диалога (например: tavern_talk):'
+    id_success: '{prefix}<#78b185>✔ <#ffffff>ID диалога успешно изменено на <#ffffff>{id}'
+    id_title: <#ffd470>ID диалога
+    node_id_title: '<#ffd470>ID Реплики'
+    name_click: <#a7ff99>ЛКМ <#cccccc>- изменить имя
+    name_lore: '<#a8a8a8>Текущее имя: '
+    name_prompt: '<#ffd470>Введите имя NPC в диалоге (напр. <#d0a775>{npc}):'
+    name_title: <#ffd470>Имя NPC в диалоге
+    nodes_lore: '<#a8a8a8>Реплик: <#7dd3ff>{count}'
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Ошибка сохранения dialogues.yml!'
+  dialogue_main:
+    action_back_lore: <#a8a8a8>Вернуться к редактору ответа
+    action_back_title: <#ed6868>Обратно
+    action_builder_back_lore: <#a8a8a8>Вернуться к Конструктору действий
+    action_builder_select_node: '&0Выберите целевую реплику'
+    action_builder_title: '<#6e6e6e>Конструктор действий: <#6aa0c9>Ответ #{index}'
+    action_close_lore: <#a8a8a8>Закончить разговор с NPC.
+    action_close_title: <#ed6868>Закрыть диалог <#a8a8a8>(close)
+    action_console_cmd_lore:
+    - <#a8a8a8>Выполните команду от имени консоли.
+    - <#a8a8a8>Используйте %player% для имени игрока.
+    action_console_cmd_title: <#7dd3ff>Команда консоли <#a8a8a8>(console:<cmd>)
+    action_create_lore: <#a8a8a8>Создает новую реплику и привязывает действие к 
+      ней.
+    action_create_title: <#55ff55>Создать и привязать реплику
+    action_current_title: <#ffd470>Текущее действие
+
+    action_current_selected: '<#a8a8a8>Выбрано:'
+
+    action_current_lore:
+
+    - ''
+
+    - '<#a8a8a8>Это действие, которое будет'
+
+    - '<#a8a8a8>выполнено, когда игрок'
+
+    - '<#a8a8a8>выберет этот ответ.'
+    action_custom_lore: <#a8a8a8>Введите вручную сырую строку действия.
+    action_custom_title: <#ffd470>Своя строка действия
+    action_finish_quest_lore: <#a8a8a8>Завершает указанный квест при клике.
+    action_finish_quest_title: <#79d679>Завершить квест 
+      <#a8a8a8>(quest:finish:<id>)
+    action_goto_lore: <#a8a8a8>Перепрыгнуть на другую реплику диалога.
+    action_goto_title: <#79d679>Перейти к реплике <#a8a8a8>(dialogue:<node>)
+    action_node_link_lore: <#a7ff99>ЛКМ <#a8a8a8>чтобы привязать эту реплику
+    action_node_link_title: <#ffd470>{key}
+    action_player_cmd_lore: <#a8a8a8>Заставить игрока выполнить команду.
+    action_player_cmd_title: <#7dd3ff>Команда игрока <#a8a8a8>(player:<cmd>)
+    action_start_quest_lore: <#a8a8a8>Начинает указанный квест при клике.
+    action_start_quest_title: <#79d679>Начать квест <#a8a8a8>(quest:start:<id>)
+    add_lore_empty: <#ffe999>ПКМ <#cccccc>- Создать пустую строку
+    cond_clear: <#ffe999>ПКМ <#a8a8a8>чтобы очистить все условия
+    cond_current_title: <#ffd470>Текущие Условия
+    cond_gui_title: '&0Условия: Ответ #{num}-'
+    cond_none: <#ed6868>Нет условий. Ответ всегда видим.
+    cond_perm_lore: <#a8a8a8>Напр., permission:my.perm
+    cond_perm_prompt: 'Введите permission:'
+    cond_perm_title: <#79d679>Требовать разрешение (Permission)
+    cond_quest_lore: <#a8a8a8>Напр., quest_state:<id>:COMPLETED
+    cond_quest_prompt: 'Введите необходимое состояние (ACTIVE/COMPLETED/NOT_STARTED):'
+    cond_quest_title: <#79d679>Требовать состояние квеста
+    cond_raw_lore: <#a8a8a8>Введите условие вручную.
+    cond_raw_prompt: 'Введите строку условия:'
+    cond_raw_title: <#ffd470>Своя строка условия
+    cpt_click:
+    - <#a7ff99>ЛКМ <#cccccc>- Добавить 1 симв.
+    - <#a7ff99>ПКМ <#cccccc>- Отнять 1 симв.
+    - <#ffe999>Shift+ЛКМ <#cccccc>- Добавить 10 симв.
+    - <#ffe999>Shift+ПКМ <#cccccc>- Отнять 10 симв.
+    - <#d9a752>Swap (F) <#cccccc>- Ввести вручную
+    cpt_lore:
+    - <#a8a8a8>Скорость вывода текста (симв. за тик).
+    - '<#a8a8a8>Сейчас: <#ffffff>{cpt} симв.'
+    cpt_prompt: '<#ffd470>Введите количество символов в тик (напр. 1-5):'
+    cpt_title: <#ffd470>Скорость вывода текста
+    delete_right_click_warn: Используйте <#ffe999>ПКМ для удаления!
+    dialogue_tutorial_lore:
+    - <#a8a8a8>Нажмите, чтобы прочитать инструкцию
+    dialogue_tutorial_title: '&0Справочник: Как создать диалог?'
+    dialogue_tutorial_item_title: '<#ffd470>Справочник: Как создать диалог?'
+    dialogue_validator_lore:
+    - '<#cccccc>Запускает детальный анализ диалога в чат.'
+    dialogue_validator_title: '<#ffe999>Проверить на ошибки'
+    id_click: <#a7ff99>ЛКМ <#cccccc>- Изменить ID
+    id_exists: Диалог с таким ID уже существует!
+    id_lore: '<#a8a8a8>Текущий ID: <#ffffff>{id}'
+    id_prompt: '<#ffd470>Введите новый ID диалога:'
+    id_success: '{prefix}<#78b185>✔ <#ffffff>ID диалога успешно изменен на <#ffffff>{id}'
+    id_title: <#ffd470>ID Диалога
+    node_id_title: '<#ffd470>ID Реплики'
+    item_clone: <#d9a752>Swap (F) <#cccccc>- Клонировать строку
+    item_move_down: <#ffe999>Shift+ПКМ <#cccccc>- Опустить ниже
+    item_move_up: <#ffe999>Shift+ЛКМ <#cccccc>- Поднять выше
+    keys_list: '<#a8a8a8>Требования: <#ffffff>{keys}'
+    keys_more: ' <#6e6e6e>(+еще {count})'
+    keys_none: '<#a8a8a8>Ключи: <#ffffff>нет'
+    name_click: <#a7ff99>ЛКМ <#cccccc>- Изменить имя NPC
+    name_lore: '<#a8a8a8>Текущее имя: <#ffffff>{name}'
+    name_prompt: '<#ffd470>Введите имя NPC, которое будет видно при разговоре:'
+    name_title: <#a8a8a8>Имя NPC в диалоге
+    node_opts_click: <#a7ff99>ЛКМ <#a8a8a8>чтобы изменить ответы
+    node_opts_lore:
+    - '<#a8a8a8>Текущие ответы: <#ffd470>{count}'
+    node_opts_title: <#ffd470>Ответы игрока
+    node_quick_reply_lore: <#a8a8a8>Автоматически создает новый ответ и 
+      привязывает его к новой реплике.
+    node_quick_reply_text: <#6e6e6e>[Продолжить...]
+    node_quick_reply_title: <#55ff55>Быстрый ответ
+    node_sound_click: <#a7ff99>ЛКМ <#a8a8a8>чтобы изменить звук
+    node_sound_lore:
+    - '<#a8a8a8>Текущий: <#ffffff>{sound}'
+    node_sound_title: <#ffd470>Звук при нажатии
+    node_text_click: <#a7ff99>ЛКМ <#a8a8a8>чтобы изменить текст NPC
+    node_text_lore:
+    - '<#a8a8a8>NPC говорит:'
+    node_text_more: '  <#a8a8a8>... и еще {count}.'
+    node_text_title: <#ffd470>Текст NPC
+    nodes_add_default_text: '  <#c8c8c8>Привет, путник!'
+    nodes_add_lore: <#a8a8a8>Создает новую реплику диалога (напр. start, 
+      choice_1)
+    nodes_add_prompt: '<#ffd470>Введите название новой реплики (напр. start или node_2):'
+    nodes_add_success: '{prefix}<#78b185>✔ <#ffffff>Создана новая реплика: <#ffffff>{node}<#a8a8a8>'
+    nodes_add_title: <#55ff55>Добавить новую реплику
+    nodes_click: <#a7ff99>ЛКМ <#cccccc>- Открыть списки и тексты реплик
+    nodes_del_confirm_desc: Вы уверены, что хотите удалить реплику {node}?
+    nodes_del_confirm_title: '&0Удаление реплики'
+    nodes_del_success: '{prefix}<#78b185>✔ <#ffffff>Реплика <#ffffff>{node}<#a8a8a8> удалена!'
+    nodes_edit_gui_title: '&0Текст реплики: '
+    nodes_gui_title: '&0Реплики: '
+    node_gui_title: '&0Реплика: '
+    nodes_item_click:
+    - <#a7ff99>ЛКМ <#cccccc>- Редактировать реплику
+    - <#ed6868>Drop (Q) <#cccccc>- Удалить реплику
+    nodes_item_normal: '<#a8a8a8>Реплика: <#ffffff>{node}'
+    nodes_item_start: <#7eb87e>[Старт] start
+    nodes_lines: '<#a8a8a8>Количество строк: <#ffffff>{count}'
+    nodes_lore:
+    - '<#a8a8a8>Всего реплик: <#ffffff>{count} шт.'
+    nodes_text: '<#a8a8a8>Текст:'
+    nodes_text_more: '  <#6e6e6e>... (+еще {count} строк)'
+    nodes_title: <#ffd470>Реплики диалога (Nodes)
+    opt_action_lore:
+    - '<#a8a8a8>Текущее действие:'
+    - <#ffffff>{action}
+    - <#a7ff99>ЛКМ <#a8a8a8>чтобы открыть Конструктор Действий
+    opt_action_title: <#79d679>Конструктор Действий
+    opt_back_lore: <#a8a8a8>Вернуться к списку ответов
+    opt_conds_lore:
+    - '<#a8a8a8>Условий: <#ffd470>{count}'
+    - <#a7ff99>ЛКМ <#a8a8a8>чтобы изменить условия
+    opt_conds_title: <#ffd470>Условия отображения
+    opt_create_node_lore: <#a8a8a8>Автоматически создает новую реплику и 
+      привязывает этот ответ к ней.
+    opt_create_node_title: <#55ff55>Создать и привязать реплику
+    opt_edit_cond_title: '<#6e6e6e>Условия (Ответ #{num}-)'
+    opt_action_gui_title: '&0Действия: #{num}-'
+    opt_edit_current: '<#a8a8a8>Текущее: <#ffffff>{current}'
+    opt_edit_gui_title: '&0Ответ #{num}-'
+    opt_edit_lore_title: '<#6e6e6e>Описание (Ответ #{num}-)'
+    opt_edit_prompt_mat: 'Введите название материала (Bukkit Material):'
+    opt_edit_prompt_mat_invalid: <#ed6868>Неверный материал!
+    opt_edit_prompt_slot: 'Введите номер слота (или -1):'
+    opt_edit_prompt_sound: 'Введите название звука (Bukkit Sound) или ''none'':'
+    opt_edit_prompt_text: 'Введите текст ответа игрока:'
+    opt_linked_action_lore: '<#a8a8a8>Выполняет действие: <#ffffff>{action}'
+    opt_linked_close_lore: '<#a8a8a8>Ведет к: <#ffffff>Закрытию диалога'
+    opt_linked_node_lore: '<#a8a8a8>Ведет к: <#ffffff>Реплика {node}'
+    opt_linked_node_missing_lore: '<#ed6868>Ведет к: Реплика {node} (НЕ НАЙДЕНО!)'
+    opt_list_action: '<#a8a8a8>Действие: <#79d679>{action}'
+    opt_list_add_lore: <#a8a8a8>Нажмите, чтобы создать новый ответ.
+    opt_list_add_title: <#79d679>Добавить Ответ
+    opt_list_click:
+    - <#a7ff99>ЛКМ <#a8a8a8>чтобы редактировать
+    - <#ed6868>Drop (Q) <#a8a8a8>чтобы удалить
+    opt_list_del_desc: '<#a8a8a8>Вы уверены, что хотите удалить <#a8a8a8>Ответ #{index}?'
+    opt_list_del_title: <#ed6868>Удалить ответ?
+    opt_list_del_gui_title: '&0Удалить ответ?'
+    opt_list_gui_title: '&0Ответы: '
+    opt_list_item_title: '<#ffd470>Ответ #{index}'
+    opt_list_slot: '<#a8a8a8>Слот: <#ffd470>{slot}'
+    opt_list_text: '<#a8a8a8>Текст: <#ffffff>{text}'
+    opt_material_lore:
+    - '<#a8a8a8>Текущая: <#ffffff>{material}'
+    - <#a7ff99>ЛКМ <#a8a8a8>чтобы ввести название
+    - <#7dd3ff>Бросьте (Q) предмет <#a8a8a8>сюда чтобы установить
+    opt_material_title: <#ffd470>Иконка ответа (Материал)
+    opt_reply_lore_lore:
+    - '<#a8a8a8>Строк: <#ffd470>{count}'
+    - <#a7ff99>ЛКМ <#a8a8a8>чтобы изменить описание
+    opt_reply_lore_title: <#ffd470>Описание (Lore) ответа
+    opt_reply_text_lore:
+    - '<#a8a8a8>Текущий: <#ffffff>{text}'
+    - <#a7ff99>ЛКМ <#a8a8a8>чтобы изменить текст
+    opt_reply_text_title: <#ffd470>Текст ответа
+    opt_slot_lore:
+    - '<#a8a8a8>Текущий: <#ffd470>{slot}'
+    - <#a8a8a8>Установите -1 для авто-размещения.
+    - <#a7ff99>ЛКМ <#a8a8a8>чтобы +1
+    - <#ffe999>ПКМ <#a8a8a8>чтобы -1
+    - <#ed6868>Drop (Q) <#a8a8a8>чтобы ввести в чат
+    opt_slot_title: <#ffd470>Слот в инвентаре
+    opt_sound_lore:
+    - '<#a8a8a8>Текущий: <#ffffff>{sound}'
+    - <#a7ff99>ЛКМ <#a8a8a8>чтобы изменить звук
+    opt_sound_title: <#ffd470>Звук при клике
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Ошибка при сохранении dialogues.yml!'
+    tutorial_footer: '<#6e6e6e>=============================
+
+      '
+    tutorial_header: '
+
+      <#6e6e6e>=== <#7dd3ff>Как создавать диалоги <#6e6e6e>==='
+    tutorial_step1_title: '<#ffd470>Шаг 1: Начало диалога'
+    tutorial_step1_lore:
+    - '<#a8a8a8>Каждый диалог должен иметь начальную точку.'
+    - '<#a8a8a8>Нажмите <#a7ff99>''Реплики диалога''<#a8a8a8> и создайте'
+    - '<#a8a8a8>первую реплику с ID <#a7ff99>''start''<#a8a8a8>.'
+    - '<#a8a8a8>Именно с нее NPC начнет разговор.'
+    tutorial_step2_title: '<#ffd470>Шаг 2: Текст реплики'
+    tutorial_step2_lore:
+    - '<#a8a8a8>После создания узла, нажмите на него.'
+    - '<#a8a8a8>Настройте текст, который будет произносить NPC.'
+    - '<#a8a8a8>Можно использовать цветовые коды и'
+    - '<#a8a8a8>плейсхолдеры (например, <#a7ff99>{player}<#a8a8a8>).'
+    tutorial_step3_title: '<#ffd470>Шаг 3: Варианты ответов'
+    tutorial_step3_lore:
+    - '<#a8a8a8>Чтобы диалог был интерактивным, добавьте'
+    - '<#a7ff99>варианты ответов <#a8a8a8>для игрока.'
+    - '<#a8a8a8>Зайдите в настройки узла и'
+    - '<#a8a8a8>создайте несколько возможных ответов.'
+    tutorial_step4_title: '<#ffd470>Шаг 4: Линки и переходы'
+    tutorial_step4_lore:
+    - '<#a8a8a8>Каждый ответ игрока должен вести к'
+    - '<#a8a8a8>другой реплике NPC или же завершать диалог.'
+    - '<#a8a8a8>Привяжите каждый ответ к ID'
+    - '<#a8a8a8>следующего узла.'
+    tutorial_step5_title: '<#ffd470>Шаг 5: Условия (Conditions)'
+    tutorial_step5_lore:
+    - '<#a8a8a8>Некоторые ответы можно скрыть от игрока.'
+    - '<#a8a8a8>В настройках ответа можно указать'
+    - '<#a8a8a8>требования: наличие разрешения (permission)'
+    - '<#a8a8a8>или определенный статус квеста.'
+    tutorial_step6_title: '<#ffd470>Шаг 6: Действия (Actions)'
+    tutorial_step6_lore:
+    - '<#a8a8a8>Выбор ответа может вызывать определенные события.'
+    - '<#a8a8a8>Помимо перехода к следующему узлу,'
+    - '<#a8a8a8>вы можете автоматически начать или сдать квест,'
+    - '<#a8a8a8>или выполнить команду от имени игрока/консоли.'
+    tutorial_step7_title: '<#ffd470>Шаг 7: Валидатор диалога'
+    tutorial_step7_lore:
+    - '<#a8a8a8>Когда диалог готов, обязательно используйте'
+    - '<#a7ff99>Валидатор <#a8a8a8>в главном меню редактора.'
+    - '<#a8a8a8>Он проверит ваш диалог на наличие'
+    - '<#a8a8a8>разорванных связей и недоступных узлов.'
+    update_period_click:
+    - <#a7ff99>ЛКМ <#cccccc>- Добавить 1 тик
+    - <#a7ff99>ПКМ <#cccccc>- Отнять 1 тик
+    - <#ffe999>Shift+ЛКМ <#cccccc>- Добавить 10 тиков
+    - <#ffe999>Shift+ПКМ <#cccccc>- Отнять 10 тиков
+    - <#d9a752>Swap (F) <#cccccc>- Ввести вручную
+    update_period_lore:
+    - <#a8a8a8>Как часто обновляется текст (в тиках).
+    - '<#a8a8a8>Сейчас: <#7dd3ff>{ticks} тиков'
+    update_period_prompt: '<#ffd470>Введите количество тиков (1-100):'
+    update_period_title: <#ffd470>Скорость обновления текста
+    validator_dead_link: 'Ответ {node} ведет на несуществующую реплику {target}! (ответ
+      #{index})'
+    validator_footer: '<#c8beaa>Итог: <#b0b8c1>{errors} ошибок, <#c4b5b5>{warnings}
+      предупреждений.'
+    validator_header: '<#b0b8c1>=== <#6aa0c9>Состояние диалога: <#e2e8f0>{id} <#b0b8c1>==='
+    validator_links_ok: 'Диалог полностью готов и не имеет никаких замечаний!'
+    validator_start_missing: 'Отсутствует стартовая реплика ''start''!'
+    voice_click: <#a7ff99>ЛКМ <#cccccc>- Изменить тип голоса
+    voice_lore: '<#a8a8a8>Голос: <#ffffff>{voice}'
+    voice_prompt: '<#ffd470>Введите тип звука (villager, none или свой):'
+    voice_title: <#ffd470>Звуковой голос диалога
+    opt_reply_text_click: '<#a8a8a8>Нажмите, чтобы изменить текст'
+    opt_reply_lore_click: '<#a8a8a8>Нажмите, чтобы изменить описание'
+    opt_material_click: '<#a8a8a8>Нажмите, чтобы изменить иконку'
+    opt_sound_click: '<#a8a8a8>Нажмите, чтобы изменить звук'
+    opt_action_click: '<#a8a8a8>Нажмите, чтобы изменить действия'
+    opt_conds_click: '<#a8a8a8>Нажмите, чтобы изменить условия'
+    action_player_prompt: '&aВведите команду для выполнения от имени игрока:'
+    action_console_prompt: '&aВведите команду для выполнения от имени консоли:'
+  eff_reward:
+    add_lore: <#a7ff99>ЛКМ <#cccccc>- Выбрать эффект
+    click_add_10s: <#ffe999>Shift+ЛКМ <#cccccc>- Добавить 10 сек
+    click_add_1s: <#a7ff99>ЛКМ <#cccccc>- Добавить 1 сек
+    click_custom_dur: <#d9a752>Swap (F) <#cccccc>- Ввести свою длительность
+    click_delete: <#ed6868>Drop (Q) <#cccccc>- Удалить
+    click_edit: <#a7ff99>ЛКМ <#cccccc>- Редактировать эффект
+    click_move_down: <#ffe999>Shift+ПКМ <#cccccc>- Переместить ниже
+    click_move_up: <#ffe999>Shift+ЛКМ <#cccccc>- Переместить выше
+    click_remove_10s: <#ffe999>Shift+ПКМ <#cccccc>- Отнять 10 сек
+    click_remove_1s: <#a7ff99>ПКМ <#cccccc>- Отнять 1 сек
+    click_set_level: <#d9a752>1-9 <#cccccc>- Установить уровень эффекта
+    descriptions:
+      ABSORPTION: <#cccccc>Дает дополнительные золотые сердца.
+      BAD_OMEN: <#cccccc>Провоцирует рейд при входе в деревню.
+      BLINDNESS: <#cccccc>Ухудшает видимость игрока.
+      BREATH_OF_THE_NAUTILUS: <#cccccc>Дает подводное дыхание (Кондуит).
+      CONDUIT_POWER: <#cccccc>Дает подводное дыхание, зрение и спешку.
+      CONFUSION: <#cccccc>Вызывает эффект головокружения.
+      DAMAGE_RESISTANCE: <#cccccc>Уменьшает получаемый урон.
+      DARKNESS: <#cccccc>Затемняет зрение игрока.
+      DOLPHINS_GRACE: <#cccccc>Увеличивает скорость плавания.
+      FAST_DIGGING: <#cccccc>Увеличивает скорость копания.
+      FIRE_RESISTANCE: <#cccccc>Дает иммунитет к огню и лаве.
+      GLOWING: <#cccccc>Подсвечивает контур игрока.
+      HARM: <#cccccc>Мгновенно наносит урон.
+      HEAL: <#cccccc>Мгновенно восстанавливает здоровье.
+      HEALTH_BOOST: <#cccccc>Добавляет дополнительные сердца здоровья.
+      HERO_OF_THE_VILLAGE: <#cccccc>Скидки у жителей.
+      HUNGER: <#cccccc>Быстрее истощает сытость.
+      INCREASE_DAMAGE: <#cccccc>Увеличивает урон в ближнем бою.
+      INFESTED: <#cccccc>При получении урона появляются чешуйницы.
+      INVISIBILITY: <#cccccc>Делает игрока невидимым.
+      JUMP: <#cccccc>Увеличивает высоту прыжка.
+      LEVITATION: <#cccccc>Заставляет игрока взлетать вверх.
+      LUCK: <#cccccc>Увеличивает удачу.
+      NIGHT_VISION: <#cccccc>Позволяет видеть в темноте.
+      OOZING: <#cccccc>После смерти появляются слизни.
+      POISON: <#cccccc>Постепенно наносит урон (не убивает).
+      RAID_OMEN: <#cccccc>Провоцирует рейд при приближении к деревне.
+      REGENERATION: <#cccccc>Постепенно восстанавливает здоровье.
+      SATURATION: <#cccccc>Мгновенно восстанавливает сытость.
+      SLOW: <#cccccc>Уменьшает скорость передвижения.
+      SLOW_DIGGING: <#cccccc>Уменьшает скорость копания.
+      SLOW_FALLING: <#cccccc>Замедляет скорость падения.
+      SPEED: <#cccccc>Увеличивает скорость передвижения.
+      TRIAL_OMEN: <#cccccc>Увеличивает сложность испытаний.
+      UNLUCK: <#cccccc>Уменьшает удачу.
+      WATER_BREATHING: <#cccccc>Позволяет дышать под водой.
+      WEAKNESS: <#cccccc>Уменьшает наносимый урон.
+      WEAVING: <#cccccc>После смерти появляется паутина.
+      WIND_CHARGED: <#cccccc>После смерти происходит взрыв ветра.
+      WITHER: <#cccccc>Постепенно наносит урон (может убить).
+    duration_format: '<#8a8a8a>Длительность: <#55e655>{secs} сек <#555555>({time})'
+    duration_format_raw: '<#8a8a8a>Длительность: <#55e655>{dur} сек'
+    item_format: '<#79d679>Эффект #{index}'
+    level_format: '<#8a8a8a>Сила (Уровень): <#55e6e6>{level}'
+    prompt_add: '<#8a8a8a>Введите эффект в формате <#ed6868>ЭФФЕКТ:УРОВЕНЬ:ВРЕМЯ<#8a8a8a>
+      (например SPEED:1:200):'
+    prompt_dur: '<#8a8a8a>Введите длительность эффекта в секундах:'
+    prompt_edit: '<#8a8a8a>Введите новый формат эффекта <#ed6868>ЭФФЕКТ:УРОВЕНЬ:ВРЕМЯ<#8a8a8a>:'
+    selector_title: Выберите эффект
+    type_format: '<#8a8a8a>Тип эффекта: <#e6e655>{type}'
+  entity_selector:
+    click: <#a7ff99>ЛКМ <#cccccc>- Выбрать сущность
+    title: '&0Выберите моба/сущность'
+  global_settings:
+    error_not_number: Введите число!
+    limit_click: <#79d679>Кликните, чтобы изменить
+    limit_lore:
+    - '<#a8a8a8>Ключ: <#ffffff>personal-limit'
+    - '<#a8a8a8>Текущее: <#ffffff>{val}'
+    limit_prompt: '<#ffd470>Введите новое значение для personal-limit:'
+    limit_title: <#ffd470>Персональный лимит
+    max_p_click: <#79d679>Кликните, чтобы изменить
+    max_p_lore:
+    - '<#a8a8a8>Ключ: <#ffffff>max-participants'
+    - '<#a8a8a8>Текущее: <#ffffff>{val}'
+    max_p_prompt: '<#ffd470>Введите новое значение для max-participants:'
+    max_p_title: <#ffd470>Максимум участников
+    min_p_click: <#79d679>Кликните, чтобы изменить
+    min_p_lore:
+    - '<#a8a8a8>Ключ: <#ffffff>min-participants'
+    - '<#a8a8a8>Текущее: <#ffffff>{val}'
+    min_p_prompt: '<#ffd470>Введите новое значение для min-participants:'
+    min_p_title: <#ffd470>Минимум участников
+    step_click: <#a7ff99>ЛКМ <#cccccc>- Изменить
+    step_lore:
+    - '<#a8a8a8>Ключ: <#ffffff>reward-step'
+    - '<#a8a8a8>Значение: <#ffffff>{val}'
+    step_prompt: '<#ffd470>Введите новое число для reward-step:'
+    step_title: <#ffd470>Шаг награды
+    title: '&0Настройки движка: {id}'
+  health_check:
+    err_missing_name: Отсутствует название квеста (name)
+    err_missing_stages: Отсутствуют этапы (stages)
+    err_no_name: Отсутствует название квеста (name)
+    err_no_stages: Отсутствуют этапы (stages)
+    header: '=== Анализ здоровья квеста: {id} ==='
+    success: '{prefix}<#78b185>✔ <#ffffff>Квест полностью готов и не имеет никаких замечаний!'
+    summary: 'Итог: {errors} ошибок, {warnings} предупреждений.'
+    title: '<#b0b8c1>=== <#6aa0c9>Состояние квеста: <#e2e8f0>{id} <#b0b8c1>==='
+    warn_missing_mandatory_prop: 'Этап {stage}: отсутствует обязательное свойство
+      ''{prop}'''
+    warn_no_rewards: Квест не содержит ни одной награды (rewards)
+    warn_npc_not_found: '{prefix}<#d9a752>⚠ <#ffffff>Этап {stage}: NPC ''{npc}'' не найден в npcs.yml'
+    warn_obj_prop: 'Предупреждение: свойство объекта'
+    warn_objective_missing_prop: 'Объектив: отсутствует обязательное свойство ''{prop}'''
+    warn_stage_empty: Этап пуст
+    warn_stage_npc: Этап NPC не настроен
+    warn_stage_prop: У этапа неверное свойство
+    warn_unconfigured_stage: 'Этап {stage}: не настроен объектив или материалы'
+  list:
+    clone_prompt: '<#ffd470>Введите ID для скопированного квеста:'
+    confirm_del_desc: Вы уверены, что хотите удалить квест {id}?
+    confirm_del_title: ✖ Удаление квеста
+    error_clone: '{prefix}<#c96a6a>✖ <#ffffff>Ошибка при клонировании!'
+    error_clone_exists: '{prefix}<#c96a6a>✖ <#ffffff>Квест с таким ID уже существует!'
+    error_create: '{prefix}<#c96a6a>✖ <#ffffff>Ошибка при создании квеста.'
+    filter_lore_next: <#a7ff99>ЛКМ <#cccccc>- Следующий режим
+    filter_lore_prev: <#a7ff99>ПКМ <#cccccc>- Предыдущий режим
+    filter_lore_title: '<#a8a8a8>Режимы сортировки:'
+    filter_title: <#ffd470>Фильтр / Сортировка
+    item_clone: <#d9a752>Swap (F) <#cccccc>- Клонировать квест
+    item_delete: <#ed6868>Drop (Q) <#cccccc>- Удалить квест
+    item_edit: <#a7ff99>ЛКМ <#cccccc>- Редактировать квест
+    item_engine: '<#a8a8a8>Движок: <#7dd3ff>{engine}'
+    item_type: '<#a8a8a8>Тип: <#ffffff>{type}'
+    mode_cre_new: Созданные (Сначала новые)
+    mode_cre_old: Созданные (Сначала старые)
+    mode_engine_chain: 'Фильтр: Движок CHAIN'
+    mode_engine_default: 'Фильтр: Движок DEFAULT'
+    mode_engine_global: 'Фильтр: Движок GLOBAL'
+    mode_engine_rotation: 'Фильтр: Движок ROTATION'
+    mode_id_asc: По ID (А-Я)
+    mode_id_desc: По ID (Я-А)
+    mode_issue: 'Фильтр: Требуют внимания'
+    mode_mod_new: Измененные (Сначала новые)
+    mode_mod_old: Измененные (Сначала старые)
+    mode_type: По типу квеста
+    msg_clone_success: '{prefix}<#78b185>✔ <#ffffff>Квест успешно клонирован как <#ffffff>{id}'
+    msg_del_success: '{prefix}<#78b185>✔ <#ffffff>Квест {id} <#79d679>успешно удален!'
+    search_all: '<#a8a8a8>Поиск: <#ffffff>Все'
+    search_click: <#a7ff99>ЛКМ <#cccccc>- Искать (или clear)
+    search_prompt: '<#ffd470>Введите текст для поиска квестов (или clear):'
+    search_query: '<#a8a8a8>Поиск: <#ffffff>{query}'
+  list_string_editor:
+    add_lore: <#a7ff99>ЛКМ <#cccccc>- Ввести текст.
+    add_lore_empty: <#ffe999>ПКМ <#cccccc>- Создать пустую строку
+    delete_confirm_item: Удаление строки
+    delete_confirm_msg: '<#ffd470>Вы действительно хотите удалить строку #{index}?'
+    delete_confirm_title: '&0Удаление строки'
+    item_clone: <#d9a752>Swap (F) <#cccccc>- Клонировать строку
+    item_delete: <#ed6868>Drop (Q) <#cccccc>- Удалить строку
+    item_edit: <#a7ff99>ЛКМ <#cccccc>- Редактировать строку
+    item_format: '<#ffffff>Строка #{index}'
+    item_move_down: <#ffe999>Shift+ПКМ <#cccccc>- Опустить ниже
+    item_move_up: <#ffe999>Shift+ЛКМ <#cccccc>- Поднять выше
+    prompt_add: '<#ffd470>Введите текст для новой строки:'
+    prompt_edit: 'Редактирование строки:'
+  main_menu:
+    add_lore_empty: <#ffe999>ПКМ <#cccccc>- Создать пустую строку
+    back: <#ed6868>Вернуться назад
+    btn_check_lore: <#cccccc>Запускает детальный анализ конфига в чат.
+    btn_check_title: <#ffe999>Проверить на ошибки
+    btn_preview_lore: <#cccccc>Показывает квест так, как его видят игроки.
+    btn_preview_title: <#7dd3ff>Предварительный просмотр
+    btn_save_changes: ' <#ffd470>(* Изменения)'
+    btn_save_lore_unsaved: <#ffd470>ЛКМ <#cccccc>- Сохранить изменения
+    btn_save_lore_saved: <#ffe999>Нет несохраненных изменений
+    btn_save_title: <#55ff55>Сохранить файл
+    cmd_lore:
+    - <#a8a8a8>Для кастомных текстур предмета.
+    - '<#a8a8a8>Текущее значение: <#ffffff>{cmd}'
+    cmd_prompt: '<#ffd470>Введите число Custom Model Data (или 0):'
+    cmd_title: <#ffd470>Модель (Custom Model Data)
+    cooldown_click: <#a7ff99>ЛКМ (+1) / ПКМ (-1) / <#d9a752>Swap (F) <#cccccc>- 
+      Вручную
+    cooldown_lore: '<#a8a8a8>Время перезарядки: <#ffffff>{time} <#a8a8a8>({secs}с)'
+    cooldown_none: Без перезарядки
+    cooldown_title: <#ffd470>Перезарядка (Cooldown)
+    desc_click: <#a7ff99>ЛКМ <#cccccc>- Редактировать
+    desc_gui_title: '&0Описание: '
+    desc_title: <#ffd470>Описание квеста
+    effects_activate_lore: '<#a8a8a8>Текущий: <#ffffff>{val}'
+    effects_activate_title: <#ffd470>Эффект принятия квеста
+    effects_click: <#a7ff99>ЛКМ <#cccccc>- Изменить
+    effects_click_drop: <#ed6868>Drop (Q) <#cccccc>- Удалить
+    effects_click_swap: <#d9a752>Swap (F) <#cccccc>- Вручную
+    effects_complete_lore: '<#a8a8a8>Текущий: <#ffffff>{val}'
+    effects_complete_title: <#ffd470>Эффект завершения квеста
+    effects_gui_selection_item_play: <#d9a752>Swap (F) <#cccccc>- Проиграть 
+      эффект
+    effects_gui_selection_item_title: <#ffd470>Пресет эффектов
+    effects_gui_selection_title: '&0Выбор пресета эффектов'
+    effects_gui_title: '&0Эффекты квеста: '
+    effects_lore: <#a7ff99>ЛКМ <#cccccc>- Настроить пресеты эффектов
+    effects_stage_lore: '<#a8a8a8>Текущий: <#ffffff>{val}'
+    effects_stage_title: <#ffd470>Эффект смены этапа
+    effects_title: <#ffd470>Эффекты квеста
+    engine_lore: '<#a8a8a8>Выбрано: <#ffffff>{engine}'
+    engine_title: <#ffd470>Движок квеста (Engine)
+    global_click: <#a7ff99>ЛКМ <#cccccc>- Открыть
+    global_lore:
+    - <#a8a8a8>Для квестов, которые выполняются всеми игроками вместе.
+    - <#a8a8a8>Настройка лимитов и шагов наград.
+    global_title: <#ffd470>Глобальные цели сервера
+    gui_title: '&0Редактирование: '
+    health_click: <#a7ff99>ЛКМ <#cccccc>- Выполнить проверку
+    health_lore: <#a8a8a8>Проверка конфига на наличие ошибок и пропущенных 
+      полей.
+    health_title: <#ffb366>Анализ здоровья квеста
+    icon_basehead_click: '&eSwap (F) &8- &7Ввести base-head'
+    icon_click: <#a7ff99>ЛКМ <#cccccc>- Изменить иконку
+    icon_click_left: <#a7ff99>ЛКМ <#cccccc>- Выбрать материал иконки
+    icon_click_right: <#a7ff99>ПКМ <#cccccc>- Изменить CustomModelData
+    icon_cmd: '<#a8a8a8>CustomModelData: <#ffffff>{cmd}'
+    icon_lore: '<#a8a8a8>Выбрано: <#ffffff>{icon}'
+    icon_mat: '<#a8a8a8>Материал: <#ffffff>{mat}'
+    icon_title: <#ffd470>Иконка квеста
+    id_click: <#a7ff99>ЛКМ <#cccccc>- Изменить ID
+    id_error_exists: '{prefix}<#c96a6a>✖ <#ffffff>Квест с ID {id} уже существует!'
+    id_error_invalid: '{prefix}<#c96a6a>✖ <#ffffff>Неверный формат ID!'
+    id_lore: '<#a8a8a8>Текущий ID: <#ffffff>{id}'
+    id_name: <#ffd470>ID квеста
+    id_prompt: '<#ffd470>Введите новый ID квеста (напр: my_quest):'
+    id_title: <#ffd470>ID Квеста
+    node_id_title: '<#ffd470>ID Реплики'
+    item_clone: <#d9a752>Swap (F) <#cccccc>- Клонировать строку
+    item_move_down: <#ffe999>Shift+ПКМ <#cccccc>- Опустить ниже
+    item_move_up: <#ffe999>Shift+ЛКМ <#cccccc>- Поднять выше
+    name_click: <#a7ff99>ЛКМ <#cccccc>- Изменить
+    name_lore: '<#a8a8a8>Текущее: <#ffffff>{name}'
+    name_missing: <#ed6868>Отсутствует название квеста!
+    name_prompt: '<#ffd470>Введите название квеста в чат:'
+    name_title: <#ffd470>Название квеста
+    name_title_has: <#ffd470>Название квеста
+    name_title_none: <#ed6868>Отсутствует название квеста!
+    not_specified: Не указано
+    page_lore: '<#a8a8a8>Текущая страница: <#ffffff>{page}'
+    page_prompt: '<#ffd470>Введите страницу (page, от 1):'
+    page_title: <#ffd470>Страница (Page)
+    perm_click: <#a7ff99>ЛКМ <#cccccc>- Изменить
+    perm_lore: '<#a8a8a8>Право: <#ffffff>{perm}'
+    perm_none: Не указано
+    perm_prompt: '<#ffd470>Введите право (или none):'
+    perm_title: <#ffd470>Необходимое право (Permission)
+    preview_click: <#a7ff99>ЛКМ <#cccccc>- Открыть превью
+    preview_lore: <#a8a8a8>Показать квест так, как его видит игрок в меню.
+    preview_title: <#7dd3ff>Просмотреть квест
+    req_quests_add: <#79d679>Добавить квест
+    req_quests_add_lore: <#a7ff99>ЛКМ <#cccccc>- Выбрать квест из списка.
+    req_quests_click: <#a7ff99>ЛКМ <#cccccc>- Редактировать
+    req_quests_del: <#ed6868>Drop (Q) <#cccccc>- Удалить квест
+    req_quests_edit: <#a7ff99>ЛКМ <#cccccc>- Заменить другим квестом
+    req_quests_gui_title: '&0Пред. квесты: '
+    req_quests_lore: <#a8a8a8>Квесты, которые нужно выполнить перед этим.
+    req_quests_title: <#ffd470>Требования (Предыдущие квесты)
+    req_quests_unknown: <#ffffff>Неизвестный квест ({id})
+    rew_desc_click: <#a7ff99>ЛКМ <#cccccc>- Редактировать
+    rew_desc_gui_title: '&0Описание наград: '
+    rew_desc_title: <#ffd470>Описание наград
+    rewards_click: <#a7ff99>ЛКМ <#cccccc>- Открыть настройки наград
+    rewards_gui_title: '&0Награды: '
+    rewards_lore: <#a7ff99>ЛКМ <#cccccc>- Настроить награды
+    rewards_title: <#ffd470>Награды квеста
+    rot_pool_click: <#a7ff99>ЛКМ <#cccccc>- Изменить
+    rot_pool_lore:
+    - <#a8a8a8>Квест будет выбран случайным образом из этой группы.
+    rot_pool_lore3: '<#a8a8a8>Текущий: <#ffffff>{pool}'
+    rot_pool_lore3_none: <#ed6868>Пул не указан. Квест не попадет в ротацию.
+    rot_pool_prompt: '<#ffd470>Введите название пула (или none):'
+    rot_pool_title: <#ffd470>Пул квестов (Rotation Pool)
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Ошибка сохранения файла!'
+    save_success: '{prefix}<#78b185>✔ <#ffffff>Файл квеста <#e2e8f0>{id} <#b0b8c1>успешно сохранен!'
+    slot_click:
+    - <#a7ff99>ЛКМ (+1) / ПКМ (-1)
+    - <#ffe999>Shift + ЛКМ (+10) / <#ffe999>Shift + ПКМ (-10)
+    - <#d9a752>Swap (F) <#cccccc>- Ввести вручную
+    slot_lore: '<#a8a8a8>Текущий слот: <#ffffff>{slot}'
+    slot_prompt: '<#ffd470>Введите слот (slot, от 0-54):'
+    slot_title: <#ffd470>Слот (Slot)
+    stages_click: <#a7ff99>ЛКМ <#cccccc>- Редактировать этапы и объективы
+    stages_count: '<#a8a8a8>Количество этапов: <#ffffff>{count}'
+    stages_lore: '<#a8a8a8>Количество этапов: <#ffffff>{count}'
+    stages_title: <#ffd470>Этапы (Объективы)
+    stages_title_has: <#ffd470>Этапы (Объективы)
+    stages_title_none: <#ed6868>Отсутствуют этапы квеста!
+    type_click: <#a7ff99>ЛКМ <#cccccc>- Выбрать другой тип
+    type_lore_engine: '<#a8a8a8>Движок: <#ffffff>{engine}'
+    type_lore_type: '<#a8a8a8>Тип: <#ffffff>{type}'
+    type_title: <#ffd470>Изменить тип квеста
+  msg_reward:
+    click_clone: <#d9a752>Swap (F) <#cccccc>- Клонировать
+    click_delete: <#ed6868>Drop (Q) <#cccccc>- Удалить
+    click_edit: <#a7ff99>ЛКМ <#cccccc>- Изменить сообщение
+    click_move_down: <#ffe999>Shift+ПКМ <#cccccc>- Переместить ниже
+    click_move_up: <#ffe999>Shift+ЛКМ <#cccccc>- Переместить выше
+    click_set_level: <#d9a752>1-9 <#cccccc>- Установить уровень эффекта
+    item_format: '<#79d679>Сообщение #{index}'
+    node_id_prompt: 'Введите новый ID ноды:'
+    opt_edit_prompt_sound: 'Введите Bukkit Sound (или "none"):'
+    action_console_prompt: 'Введите консольную команду (без /):'
+    action_player_prompt: 'Введите команду игрока (без /):'
+    action_raw_prompt: 'Введите сырую строку действия:'
+    cond_raw_prompt: 'Введите сырую строку условия:'
+    nodes_edit_gui_title: '&0Нода: '
+  npc_list:
+    create_click_left: <#a7ff99>ЛКМ <#cccccc>- Создать нового NPC
+    create_click_right: <#a7ff99>ПКМ <#cccccc>- Привязать существующего NPC
+    create_existing_prompt: '<#ffd470>Введите точный ID СУЩЕСТВУЮЩЕГО NPC из интеграции
+      (например: <#ffffff>1<#ffd470>):'
+    create_prompt: '<#ffd470>Введите ID нового NPC (например: <#ffffff>merchant_1<#ffd470>):'
+    delete_click: <#ed6868>Drop (Q) <#cccccc>- Удалить NPC
+    dialogue_lore: '<#a8a8a8>Диалог: <#ff99d4>{dialogue}'
+    edit_click: <#a7ff99>ЛКМ <#cccccc>- Редактировать NPC
+    id_lore: '<#a8a8a8>ID: <#ffffff>{id}'
+    old_create_prompt: '<#ffd470>Введите ID нового NPC (например: <#ffffff>merchant_1<#ffd470>):'
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Ошибка сохранения npcs.yml!'
+  npc_main:
+    default_mood_lore:
+    - '&7Текущий: <#fff9c4>{mood}'
+    - '&eКликните, чтобы изменить стандартное настроение'
+    default_mood_prompt: 'Введите настроение (напр., NEUTRAL, HAPPY, ANGRY):'
+    default_mood_title: <#ffeb3b>Стандартное настроение
+    delete_confirm_desc: <#a8a8a8>Вы действительно хотите удалить этого NPC?
+    delete_confirm_item: <#ed6868>Удалить NPC
+    delete_confirm_title: <#ed6868>Подтвердите удаление
+    delete_right_click_warn: <#ff7070>ПКМ <#cccccc>- Удалить NPC
+    dialogue_click:
+    - <#a7ff99>ЛКМ <#cccccc>- Выбрать из списка диалогов
+    - <#a7ff99>ПКМ <#cccccc>- Ввести ID в чат
+    dialogue_gui_title: '&8Выбор диалога'
+    dialogue_lore: '<#a8a8a8>Диалог: <#ffffff>{dialogue}'
+    dialogue_none_title: '&cОтвязать диалог'
+    dialogue_prompt: '<#ffd470>Введите ID диалога из dialogues.yml (или none):'
+    dialogue_select_click: '&eКликните чтобы выбрать этот диалог'
+    dialogue_title: <#ffd470>Привязанный диалог
+    error_number: Неверное число!
+    finishes_quests_lore: <#a8a8a8>Специфические квесты, которые завершает этот 
+      NPC.
+    finishes_quests_title: <#ffd470>Отдельные квесты (Finishes)
+    finishes_types_lore: <#a8a8a8>Типы квестов, которые завершает этот NPC.
+    finishes_types_title: <#ffd470>Типы квестов (Finishes)
+    head_click: <#a7ff99>ЛКМ <#cccccc>- Взять из руки или чата
+    head_lore: '<#a8a8a8>Текущая: <#ffffff>{head}'
+    head_lore_current: '<#a8a8a8>Текущая: <#ffffff>{current}'
+    head_prompt: '<#ffd470>Введите base64 текстуры или "none":'
+    head_texture_lore:
+    - '&7Текущая: <#dcedc1>{head}'
+    - '&eКликните, чтобы изменить base64 текстуры'
+    head_texture_prompt: 'Введите base64 текстуры головы или "none":'
+    head_texture_title: <#a8e6cf>Текстура Головы
+    head_title: <#ffd470>Текстура головы
+    id_click: <#a7ff99>ЛКМ <#cccccc>- Изменить ID NPC
+    id_lore: '<#a8a8a8>Текущий ID: <#ffffff>{id}'
+    id_title: <#ffd470>ID (Идентификатор)
+    node_id_title: '<#ffd470>ID Реплики'
+    linked_blocked_by_quests: <#ff5252>Невозможно, так как вы уже привязали 
+      конкретные квесты!
+    linked_blocked_by_types: <#ff5252>Невозможно, так как вы уже привязали типы 
+      квестов!
+    linked_config_error_last: '&cКвест/Тип должен хотя бы выдаваться или завершаться!
+      Чтобы удалить его - нажмите клавишу Drop (Q) в списке.'
+    linked_config_finishes: <#81c784>Завершает квест/тип
+    linked_config_finishes_lore: <#a8a8a8>Если включено, этот NPC сможет 
+      принимать выполненный квест.
+    linked_config_starts: <#a7ff99>Начинает квест/тип
+    linked_config_starts_lore: <#a8a8a8>Если включено, этот NPC сможет выдавать 
+      квест.
+    linked_config_title: '&0Настройки'
+    linked_delete_desc: Вы действительно хотите удалить {id} из списка 
+      привязанных?
+    linked_delete_item: <#ff4d4d>Подтвердите удаление
+    linked_delete_title: '&0Подтвердите удаление'
+    linked_item_click: <#a7ff99>ЛКМ <#cccccc>- Настроить
+    linked_item_drop: <#ed6868>Drop (Q) <#cccccc>- Удалить
+    linked_item_quest_name: '<#ffd470>Квест: <#ffffff>{id}'
+    linked_item_type_name: '<#ffd470>Тип: <#ffffff>{id}'
+    linked_quests_list_title: '&0Привязанные квесты'
+    linked_quests_lore: <#a8a8a8>NPC сможет выдавать или завершать указанные 
+      квесты.
+    linked_quests_title: <#ffab91>Привязать конкретные квесты
+    linked_selection_click: <#ffe999>Нажмите чтобы настроить
+    linked_selection_gui_title: '&0Привязанные Квесты/Типы'
+    linked_selection_item_title: <#ffd470>Привязанные Квесты/Типы
+    linked_selection_lore: '<#a8a8a8>Настроить квесты и типы,
+
+      <#a8a8a8>которые выдает или завершает этот NPC.'
+    linked_types_list_title: '&0Привязанные типы квестов'
+    linked_types_lore: <#a8a8a8>NPC сможет выдавать или завершать любые квесты 
+      указанных типов.
+    linked_types_title: <#90caf9>Привязать типы квестов
+    mood_click: <#a7ff99>ЛКМ / <#a7ff99>ПКМ <#cccccc>- Переключать настроение
+    mood_lore: '<#a8a8a8>Влияет на анимацию NPC.\n<#a8a8a8>Текущее: <#ffffff>{mood}'
+    mood_lore_current: '<#a8a8a8>Текущее: <#ffffff>{current}'
+    mood_prompt: '<#ffd470>Введите настроение (например NEUTRAL, HAPPY, ANGRY):'
+    mood_rule_conds: '&7Условий: &e{count}'
+    mood_rule_delete: '&cБросить (Q) &7чтобы удалить это правило'
+    mood_rule_edit_tip: '&c(Чтобы добавить/изменить, используйте npcs.yml)'
+    mood_rule_item_title: '&eПравило #{index}: &6{mood}'
+    mood_rule_priority: '&7Приоритет: &e{priority}'
+    mood_rules_add_lore: '&7Пока что сложные правила можно добавить'
+    mood_rules_add_lore2: '&7только вручную через конфиг npcs.yml.'
+    mood_rules_add_title: '&aДобавить Правило Настроения'
+    mood_rules_back: '&cНазад'
+    mood_rules_back_lore: '&7Вернуться к NPC'
+    mood_rules_gui_title: '&8Правила Настроения: &1{id}'
+    mood_rules_lore:
+    - '&7Настройка продвинутых правил'
+    - '&7на основе прогресса квестов или времени.'
+    - '&eКликните, чтобы просмотреть правила'
+    mood_rules_title: <#ffeb3b>Правила Настроений
+    mood_title: <#ffd470>Стандартное настроение
+    name_click: <#a7ff99>ЛКМ <#cccccc>- Изменить
+    name_lore: '<#a8a8a8>Текущее: '
+    name_prompt: '<#ffd470>Введите имя для NPC (напр <#d0a775>Gustav):'
+    name_title: <#ffd470>Отображаемое имя NPC
+    offset_click:
+      - '<#a7ff99>ЛКМ <#cccccc>- добавить 0.1'
+      - '<#a7ff99>ПКМ <#cccccc>- отнять 0.1'
+      - '<#ffe999>Shift+ЛКМ <#cccccc>- добавить 2.5'
+      - '<#ffe999>Shift+ПКМ <#cccccc>- отнять 2.5'
+      - '<#d9a752>Swap (F) <#cccccc>- точный ввод'
+      - '<#ed6868>Drop (Q) <#cccccc>- сбросить'
+    offset_lore:
+    - <#a8a8a8>Настройка высоты иконки над NPC.
+    - '<#a8a8a8>Текущее смещение: <#ffffff>{offset}'
+    offset_prompt: '<#ffd470>Введите число смещения голограммы (напр. 0.6):'
+    offset_title: <#ffd470>Высота голограммы (Смещение Y)
+    select_quest_title: '&0Выберите квест'
+    select_type_title: '&0Выберите тип квеста'
+    starts_quests_lore: <#a8a8a8>Специфические квесты, которые начинает этот 
+      NPC.
+    starts_quests_title: <#ffd470>Отдельные квесты (Starts)
+    starts_types_lore: <#a8a8a8>Типы квестов, которые начинает этот NPC.
+    starts_types_title: <#ffd470>Типы квестов (Starts)
+    title_click: <#a7ff99>ЛКМ <#cccccc>- Изменить
+    title_lore: '<#a8a8a8>Текущий: '
+    title_prompt: '<#ffd470>Введите заголовок меню (напр. <#1c1c1c>{npc} - Daily Chores):'
+    title_not_set: '<#ed6868>Не указано'
+    title_title: <#ffd470>Заголовок меню квестов
+    tp_lore: <#a8a8a8>Перемещает вас к NPC (если он заспавнен).
+    tp_title: <#ffd470>Телепортироваться к NPC
+    types_click: <#a7ff99>ЛКМ <#cccccc>- Редактировать список типов
+    types_lore:
+    - <#a8a8a8>Типы квестов, которые начинает этот NPC.
+    - '<#a8a8a8>Типы: <#ffffff>{types}'
+    types_more: ' <#6e6e6e>(+еще {count})'
+    types_none: Нет
+    types_title: <#ffd470>Квесты NPC (Типы)
+    validation_lore: '&7Кликните, чтобы проверить на ошибки'
+    validation_title: <#52de7d>Проверить NPC
+    voice_click: <#a7ff99>ЛКМ <#cccccc>- Изменить
+    voice_lore: '<#a8a8a8>Текущий: <#ffffff>{voice}'
+    voice_prompt: '<#ffd470>Введите тип звука (villager, none или свой звук):'
+    voice_title: <#ffd470>Звук при общении (Voice)
+  npc_voice:
+    custom_lore: <#a8a8a8>Введите ID звука Minecraft вручную.
+    custom_prompt: '<#ffd470>Введите ID звука (напр. entity.villager.trade):'
+    custom_title: <#ffd470>Кастомный звук
+    delete_right_click_warn: <#ed6868>Drop (Q) <#cccccc>- Удалить
+    dialogue_gui_title: '&0Выберите диалог для NPC'
+    dialogue_missing: <#ed6868>Диалог с таким ID отсутствует в dialogues.yml!
+    dialogue_none_title: <#ed6868>Отвязать диалог (none)
+    dialogue_select_click: <#a7ff99>ЛКМ <#cccccc>- Привязать этот диалог
+    id_click: <#a7ff99>ЛКМ <#cccccc>- Изменить ID NPC
+    id_exists: <#ed6868>NPC с ID {id} уже существует!
+    id_lore: '<#a8a8a8>Текущий ID: <#ffffff>{id}'
+    id_prompt: '<#ffd470>Введите новый ID NPC (напр: tavern_keeper):'
+    id_success: '{prefix}<#78b185>✔ <#ffffff>ID NPC успешно изменен на <#ffffff>{id}'
+    id_title: <#ffd470>ID NPC
+    node_id_title: '<#ffd470>ID Реплики'
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Ошибка сохранения npcs.yml: {msg}'
+    save_lore:
+    - <#ffd470>Есть несохраненные изменения! Нажмите для записи.
+    - <#a8a8a8>Несохраненных изменений нет.
+    select_click: <#a7ff99>ЛКМ <#cccccc>- Выбрать этот голос
+    selected: Выбрано
+    title: '&0Выбор голоса NPC'
+    types_gui_title: '&0Типы NPC: '
+    warn_unlinked: Диалог готов, но привяжите его к NPC в меню!
+  preview:
+    title: '&0Предварительный просмотр'
+  prompts:
+    enter_id: '<#ffd470>Введите новый ID квеста (напр: my_quest):'
+    enter_name: '<#ffd470>Введите новое название для квеста:'
+    enter_perm: '<#ffd470>Введите право (или none):'
+    id_exists: Квест с ID {id} уже существует!
+    saved_success: '{prefix}<#78b185>✔ <#ffffff>Изменения квеста {id} успешно сохранены в файл!'
+  rewards_menu:
+    add_item: <#79d679>Добавить предмет
+    add_item_lore: <#cccccc>Нажмите, чтобы выбрать предмет награды.
+    attr_click: <#a7ff99>ЛКМ <#cccccc>- Редактировать секцию атрибутов
+    attr_gui_title: '&0Список атрибутов'
+    attr_lore:
+    - <#cccccc>Настройка атрибутов
+    attr_title: <#f4a261>Атрибуты
+    attrs_gui: '&0Список атрибутов'
+    brd_click: <#a7ff99>ЛКМ <#cccccc>- Редактировать трансляции
+    brd_gui: '&0Broadcast сообщения'
+    brd_lore: '<#cccccc>Количество трансляций: <#ffffff>{count}'
+    brd_title: <#99ffff>Broadcast сообщения
+    chance_click: <#a7ff99>ЛКМ <#cccccc>- Редактировать секцию шанса
+    chance_gui_title: '&0Награды с шансом'
+    chance_lore:
+    - <#cccccc>Настройка вероятности наград
+    chance_title: <#ffaaaa>Шанс
+    click_del: <#ed6868>Drop (Q) <#cccccc>- Удалить
+    click_set: <#a7ff99>ЛКМ <#cccccc>- Установить значение
+    cmd_click: <#a7ff99>ЛКМ <#cccccc>- Редактировать команды
+    cmd_gui: '&0Команды награды'
+    cmd_lore: '<#cccccc>Количество команд: <#ffffff>{count}'
+    cmd_title: <#ff9999>Команды
+    confirm_del_desc: '&fВы уверены, что хотите удалить это значение?'
+    confirm_del_title: ✖ Подтверждение удаления
+    eff_click: <#a7ff99>ЛКМ <#cccccc>- Редактировать эффекты
+    eff_gui: '&0Эффекты награды'
+    eff_lore: '<#cccccc>Количество эффектов: <#ffffff>{count}'
+    eff_title: <#ff99ff>Эффекты
+    effs_title: <#b19cd9>Эффекты
+    hand_added: 'Добавлен предмет: {name} x{amount}'
+    hand_btn_lore: <#a8a8a8>Возьмите предмет в руку и нажмите сюда,
+    hand_btn_lore2: <#a8a8a8>чтобы сохранить его со всеми NBT тегами.
+    hand_btn_title: <#79d679>Добавить предмет из руки
+    hand_empty: Ваша рука пуста! Возьмите предмет в руку.
+    items_click: <#a7ff99>ЛКМ <#cccccc>- Редактировать список
+    items_gui: '&0Предметы награды'
+    items_lore: '<#cccccc>Количество предметов: <#ffffff>{count}'
+    items_title: <#99ccff>Предметы
+    money_title: <#e9c46a>Деньги
+    money_title_has: <#ffd470>Деньги (Economy)
+    money_title_none: <#a8a8a8>Деньги (Economy) [Нет]
+    msg_click: <#a7ff99>ЛКМ <#cccccc>- Редактировать сообщения
+    msg_gui: '&0Сообщения награды'
+    msg_lore: '<#cccccc>Количество сообщений: <#ffffff>{count}'
+    msg_title: <#ffff99>Личные сообщения
+    prompt_custom_key: '<#ffe999>Введите собственный ключ награды:'
+    prompt_custom_val: '<#a8a8a8>Введите значение для ключа <#ffffff>{key}<#ffe999>:'
+    prompt_money: '<#ffe999>Введите сумму денег (Vault):'
+    prompt_xp: '<#ffe999>Введите количество опыта:'
+    selector_cmd_lore: <#a7ff99>ЛКМ <#cccccc>- Создать/редактировать список 
+      команд
+    selector_cmd_title: <#ffe999>Команды (commands)
+    selector_custom_lore: <#a7ff99>ЛКМ <#cccccc>- Ввести собственный ключ 
+      вручную
+    selector_custom_title: <#ffe999>Свой ключ (Custom)
+    selector_items_lore: <#a7ff99>ЛКМ <#cccccc>- Создать/редактировать список 
+      предметов
+    selector_items_title: <#ffe999>Предметы (items)
+    selector_money_lore: <#a7ff99>ЛКМ <#cccccc>- Добавить сумму Vault
+    selector_money_title: <#ffe999>Деньги (money)
+    selector_title: '&0Выберите тип награды'
+    selector_xp_lore: <#a7ff99>ЛКМ <#cccccc>- Добавить количество опыта
+    selector_xp_title: <#ffe999>Опыт (xp)
+    silent_click: <#a7ff99>ЛКМ <#cccccc>- Переключить режим
+    silent_click_lmb: <#a7ff99>ЛКМ <#cccccc>- Переключить
+    silent_click_sub: <#a7ff99>ЛКМ <#cccccc>- Открыть настройки
+    silent_lore: '<#cccccc>Настройте, для каких наград
+
+      <#cccccc>сообщения в чате будут выключены.'
+    silent_mute: '&cКолесико - Выключить сообщения'
+    silent_off: <#cccccc>Выключено (Сообщения отображаются)
+    silent_on: <#a7ff99>Включено (Сообщения о наградах скрыты)
+    silent_title: <#ffaaaa>Настройки сообщений
+    silent_unmute: '&aКолесико - Включить сообщения'
+    val_has: '<#cccccc>Текущее значение: <#ffffff>{val}'
+    val_none: <#888888>Награда отсутствует.
+    xp_title_has: <#a7ff99>Опыт (XP)
+    xp_title_none: <#a8a8a8>Опыт (XP) [Нет]
+    xp_toggle_mode: <#d9a752>Ctrl + Drop (Q) <#cccccc>- Изменить режим 
+      (XP/Уровни)
+  rot_pool_gui:
+    custom_pool_lore: <#a8a8a8>Нажмите, чтобы ввести собственное название пула в
+      чате.
+    custom_pool_title: <#79d679>Ввести свой пул
+    pool_click: <#a7ff99>ЛКМ <#cccccc>- Выбрать этот пул
+    pool_item: '<#ffd470>Пул: <#ffffff>{pool}'
+    pool_lore: '<#a8a8a8>Квестов в пуле: <#ffffff>{count}'
+    title: '&0Выбор пула квестов'
+  silent_settings:
+    global_title: <#ffaaaa>Глобальный тихий режим
+    title: Тихий режим | {id}
+  stages_menu:
+    add_mats_title: <#79d679>Добавить этап с материалами
+    add_obj_click_lkm: <#a7ff99>ЛКМ <#cccccc>- Добавить обычный объектив
+    add_obj_click_pkm: <#a7ff99>ПКМ <#cccccc>- Добавить этап сдачи предметов
+    add_obj_lore:
+    - <#cccccc>Добавляет новый этап в квест.
+    add_obj_title: <#79d679>Добавить этап
+    click_open: <#a7ff99>ЛКМ <#cccccc>- Открыть
+    delete_confirm_msg: Вы действительно хотите удалить этап {key}?
+    delete_confirm_title: '&0Удалить этап'
+    edit_stage_title: '&0Редактирование этапа: {key}'
+    empty_lore:
+    - <#a8a8a8>Нажмите зеленый блок справа, чтобы
+    - <#a8a8a8>добавить свой первый этап.
+    empty_title: <#ed6868>Список этапов пуст
+    err_save: Ошибка сохранения файла квеста!
+    global_1stage_limit: <#cccccc>Глобальные квесты могут иметь только 1 этап!
+    info_amount: '&7Количество: <#ffffff>{amount}'
+    info_materials_count: '&7Предметов: <#ffffff>&e{count}'
+    info_npc: '&7NPC: <#ffffff>{npc}'
+    info_targets: '&7Цели: <#ffffff>{targets}'
+    info_type: '&7Тип: <#ffffff>{type}'
+    info_type_materials: '&7Тип: <#ffffff>Сдача предметов'
+    info_type_unknown: '&7Тип: &8Не установлено'
+    mats_title: '&0Материалы: {key}'
+    obj_time_format: '<#a8a8a8>Время: <#ffffff>{time}'
+    obj_title: '&0Объектив: {key}'
+    stage_click_delete: <#ed6868>Drop (Q) <#cccccc>- Удалить
+    stage_click_down: <#ffe999>Shift + ПКМ <#cccccc>- Переместить вниз ⬇
+    stage_click_duplicate: <#d9a752>Swap (F) <#cccccc>- Дублировать этап
+    stage_click_edit: <#a7ff99>ЛКМ <#cccccc>- Редактировать
+    stage_click_up: <#ffe999>Shift + ЛКМ <#cccccc>- Переместить вверх ⬆
+    stage_duplicated: Этап {key} успешно продублирован!
+    stage_item: '<#a8a8a8>Этап: <#e0e0e0>{key}'
+  title_global_settings: '&0Настройки движка: {id}'
+  title_list: '&0Список квестов ({count})'
+  title_main: '&0Редактор квеста: {id}'
+  title_materials: '&0Необходимые материалы'
+  title_objective: '&0Объектив: {id}'
+  title_rewards: '&0Награды: {id}'
+  title_stages: '&0Этапы квеста: {id}'
+quest_type_editor:
+  clone_prompt: Введите ID для копии типа (без пробелов)
+  confirm_del_desc: Вы уверены, что хотите удалить тип {id}?
+  confirm_del_gui_title: '&0Удаление типа: {id}'
+  confirm_del_title: ✖ Удаление типа
+  entity_list:
+    add_new_lore: <#a7ff99>ЛКМ <#cccccc>- Добавить новую сущность
+    click_del: <#ed6868>Drop (Q) <#cccccc>- Удалить сущность
+    click_edit: <#a7ff99>ЛКМ <#cccccc>- Изменить сущность
+  entity_selector:
+    click: <#a7ff99>ЛКМ <#cccccc>- Выбрать сущность
+    title: '&0Выберите моба/сущность'
+  error_clone: '{prefix}<#c96a6a>✖ <#ffffff>Ошибка при клонировании типа.'
+  error_clone_exists: '{prefix}<#c96a6a>✖ <#ffffff>Ошибка: Тип с таким ID уже существует!'
+  error_create: '{prefix}<#c96a6a>✖ <#ffffff>Ошибка создания файла!'
+  error_save: '{prefix}<#c96a6a>✖ <#ffffff>Ошибка сохранения файла типа:'
+  global_settings:
+    error_not_number: Введите число!
+    limit_click: <#79d679>Кликните, чтобы изменить
+    limit_lore:
+    - '<#a8a8a8>Ключ: <#ffffff>personal-limit'
+    - '<#a8a8a8>Текущее: <#ffffff>{val}'
+    limit_prompt: '<#ffd470>Введите новое значение для personal-limit:'
+    limit_title: <#ffd470>Персональный лимит
+    max_p_click: <#79d679>Кликните, чтобы изменить
+    max_p_lore:
+    - '<#a8a8a8>Ключ: <#ffffff>max-participants'
+    - '<#a8a8a8>Текущее: <#ffffff>{val}'
+    max_p_prompt: '<#ffd470>Введите новое значение для max-participants:'
+    max_p_title: <#ffd470>Максимум участников
+    min_p_click: <#79d679>Кликните, чтобы изменить
+    min_p_lore:
+    - '<#a8a8a8>Ключ: <#ffffff>min-participants'
+    - '<#a8a8a8>Текущее: <#ffffff>{val}'
+    min_p_prompt: '<#ffd470>Введите новое значение для min-participants:'
+    min_p_title: <#ffd470>Минимум участников
+    step_click: <#a7ff99>ЛКМ <#cccccc>- Изменить
+    step_lore:
+    - '<#a8a8a8>Ключ: <#ffffff>reward-step'
+    - '<#a8a8a8>Значение: <#ffffff>{val}'
+    step_prompt: '<#ffd470>Введите новое число для reward-step:'
+    step_title: <#ffd470>Шаг награды
+    title: '<#a8a8a8>Настройки движка: <#ffffff>{id}'
+  health_check:
+    desc_has_errors: <#a8a8a8>Найдены ошибки настройки!
+    desc_no_errors: <#a8a8a8>Никаких ошибок не обнаружено!
+    err_no_name: Не указано отображаемое название типа
+    err_no_pools: Для ротации не создано ни одного пула квестов
+    err_no_rotation_period: Для ротации указан нулевой интервал
+    success: '{prefix}<#78b185>✔ <#ffffff>Тип успешно настроен!'
+    title: '<#b0b8c1>=== <#6aa0c9>Состояние типа: <#e2e8f0>{id} <#b0b8c1>==='
+    title_warning: <#ed6868>Найдены проблемы ({count})
+  id_exists: Тип квеста с таким ID уже существует!
+  list:
+    clone_prompt: '<#ffd470>Введите ID для скопированного квеста:'
+    confirm_del_desc: Вы уверены, что хотите удалить квест {id}?
+    confirm_del_title: ✖ Удаление квеста
+    error_clone: '{prefix}<#c96a6a>✖ <#ffffff>Ошибка при клонировании!'
+    error_clone_exists: '{prefix}<#c96a6a>✖ <#ffffff>Квест с таким ID уже существует!'
+    error_create: '{prefix}<#c96a6a>✖ <#ffffff>Ошибка при создании квеста.'
+    filter_lore_next: <#a7ff99>ЛКМ <#cccccc>- Следующий режим
+    filter_lore_prev: <#a7ff99>ПКМ <#cccccc>- Предыдущий режим
+    filter_lore_title: '<#a8a8a8>Режимы сортировки:'
+    filter_title: <#ffd470>Фильтр / Сортировка
+    item_clone: <#d9a752>Swap (F) <#cccccc>- Клонировать квест
+    item_delete: <#ed6868>Drop (Q) <#cccccc>- Удалить квест
+    item_edit: <#a7ff99>ЛКМ <#cccccc>- Редактировать квест
+    item_engine: '<#a8a8a8>Движок: <#7dd3ff>{engine}'
+    item_type: '<#a8a8a8>Тип: <#ffffff>{type}'
+    mode_cre_new: Созданные (Сначала новые)
+    mode_cre_old: Созданные (Сначала старые)
+    mode_engine_chain: 'Фильтр: Движок CHAIN'
+    mode_engine_default: 'Фильтр: Движок DEFAULT'
+    mode_engine_global: 'Фильтр: Движок GLOBAL'
+    mode_engine_rotation: 'Фильтр: Движок ROTATION'
+    mode_id_asc: По ID (А-Я)
+    mode_id_desc: По ID (Я-А)
+    mode_issue: 'Фильтр: Требуют внимания'
+    mode_mod_new: Измененные (Сначала новые)
+    mode_mod_old: Измененные (Сначала старые)
+    mode_type: По типу квеста
+    msg_clone_success: '{prefix}<#78b185>✔ <#ffffff>Квест успешно клонирован как <#ffffff>{id}'
+    msg_del_success: '{prefix}<#78b185>✔ <#ffffff>Квест {id} <#79d679>успешно удален!'
+    search_all: '<#a8a8a8>Поиск: <#ffffff>Все'
+    search_click: <#a7ff99>ЛКМ <#cccccc>- Искать (или clear)
+    search_prompt: '<#ffd470>Введите текст для поиска квестов (или clear):'
+    search_query: '<#a8a8a8>Поиск: <#ffffff>{query}'
+  list_string_editor:
+    add_lore: <#a7ff99>ЛКМ <#cccccc>- Ввести текст.
+    add_lore_empty: <#ffe999>ПКМ <#cccccc>- Создать пустую строку
+    delete_confirm_item: Удаление строки
+    delete_confirm_msg: '<#ffd470>Вы действительно хотите удалить строку #{index}?'
+    delete_confirm_title: '&0Удаление строки'
+    item_clone: <#d9a752>Swap (F) <#cccccc>- Клонировать строку
+    item_delete: <#ed6868>Drop (Q) <#cccccc>- Удалить строку
+    item_edit: <#a7ff99>ЛКМ <#cccccc>- Редактировать строку
+    item_format: '<#ffffff>Строка #{index}'
+    item_move_down: <#ffe999>Shift+ПКМ <#cccccc>- Опустить ниже
+    item_move_up: <#ffe999>Shift+ЛКМ <#cccccc>- Поднять выше
+    prompt_add: '<#ffd470>Введите текст для новой строки:'
+    prompt_edit: 'Редактирование строки:'
+  main_menu:
+    add_lore_empty: <#ffe999>ПКМ <#cccccc>- Создать пустую строку
+    back: <#ed6868>Вернуться назад
+    btn_check_lore: <#cccccc>Запускает детальный анализ конфига в чат.
+    btn_check_title: <#ffe999>Проверить на ошибки
+    btn_preview_lore: <#cccccc>Показывает квест так, как его видят игроки.
+    btn_preview_title: <#7dd3ff>Предварительный просмотр
+    btn_save_changes: ' <#ffd470>(* Изменения)'
+    btn_save_lore_unsaved: <#ffd470>ЛКМ <#cccccc>- Сохранить изменения
+    btn_save_lore_saved: <#ffe999>Нет несохраненных изменений
+    btn_save_title: <#55ff55>Сохранить файл
+    chain_click: <#a7ff99>ЛКМ <#cccccc>- Переключить
+    chain_lore: '<#a8a8a8>Статус: {chain}'
+    chain_title: <#ffd470>Авто-выдача следующего
+    cmd_click:
+    - <#a7ff99>ЛКМ (+1) / ПКМ (-1) <#cccccc>- Изменить
+    - <#ffe999>Shift+ЛКМ (+10) / Shift+ПКМ (-10)
+    - <#d9a752>Swap (F) <#cccccc>- Ввести число
+    - <#ed6868>Drop (Q) <#cccccc>- Очистить (0)
+    cmd_lore:
+    - <#a8a8a8>Для кастомных текстур предмета.
+    - '<#a8a8a8>Текущее значение: <#ffffff>{cmd}'
+    cmd_prompt: '<#ffd470>Введите число Custom Model Data (или 0):'
+    cmd_title: <#ffd470>Модель (Custom Model Data)
+    cooldown_click:
+    - <#a7ff99>ЛКМ <#cccccc>- Установить
+    - <#ed6868>Drop (Q) <#cccccc>- Очистить
+    - <#ffe999>Shift + ЛКМ <#cccccc>- Редактировать
+    cooldown_lore: '<#a8a8a8>Время: <#ffffff>{time}'
+    cooldown_none: <#a8a8a8>Нет
+    cooldown_title: <#ffd470>Перезарядка
+    desc_click: <#a7ff99>ЛКМ <#cccccc>- Редактировать
+    desc_gui_title: 'Описание: '
+    desc_title: <#ffd470>Описание квеста
+    engine_click: <#a7ff99>ЛКМ <#cccccc>- Изменить движок
+    engine_lore: '<#a8a8a8>Выбрано: <#ffffff>{engine}'
+    engine_title: <#ffd470>Движок типа квестов
+    folder_click: <#a7ff99>ЛКМ <#cccccc>- Изменить путь
+    folder_lore: '<#a8a8a8>Путь: <#ffffff>{folder}'
+    folder_title: <#ffd470>Папка для квестов
+    global_click: <#a7ff99>ЛКМ <#cccccc>- Открыть
+    global_lore:
+    - <#a8a8a8>Для квестов, которые выполняются всеми игроками вместе.
+    - <#a8a8a8>Настройка лимитов и шагов наград.
+    global_title: <#ffd470>Глобальные цели сервера
+    gui_title: 'Редактирование: '
+    icon_basehead_click: <#d9a752>Swap (F) <#cccccc>- Изменить base-head
+    icon_click: <#a7ff99>ЛКМ <#cccccc>- Изменить иконку
+    icon_lore: '<#a8a8a8>Выбрано: <#ffffff>{icon}'
+    icon_title: <#ffd470>Иконка (Материал)
+    id_click: <#a7ff99>ЛКМ <#cccccc>- Изменить ID
+    id_error_exists: '{prefix}<#c96a6a>✖ <#ffffff>Квест с ID {id} уже существует!'
+    id_error_invalid: '{prefix}<#c96a6a>✖ <#ffffff>Неверный формат ID!'
+    id_lore: '<#a8a8a8>Текущий ID: <#ffffff>{id}'
+    id_prompt: '<#ffd470>Введите новый ID типа квестов (напр: my_type):'
+    id_title: <#ffd470>ID типа квестов
+    node_id_title: '<#ffd470>ID Реплики'
+    item_clone: <#d9a752>Swap (F) <#cccccc>- Клонировать строку
+    item_move_down: <#ffe999>Shift+ПКМ <#cccccc>- Опустить ниже
+    item_move_up: <#ffe999>Shift+ЛКМ <#cccccc>- Поднять выше
+    lore_click: <#a7ff99>ЛКМ <#cccccc>- Редактировать описание
+    lore_title: <#ffd470>Описание типа квестов
+    name_click: <#a7ff99>ЛКМ <#cccccc>- Изменить
+    name_lore: '<#a8a8a8>Текущее: <#ffffff>{name}'
+    name_prompt: '<#ffd470>Введите название квеста в чат:'
+    name_title: <#ffd470>Название типа квеста
+    name_title_has: <#ffd470>Название квеста
+    name_title_none: <#ed6868>Отсутствует название квеста!
+    page_lore: '<#a8a8a8>Текущая страница: <#ffffff>{page}'
+    page_prompt: '<#ffd470>Введите страницу (page, от 1):'
+    page_title: <#ffd470>Страница (Page)
+    perm_click: <#a7ff99>ЛКМ <#cccccc>- Изменить
+    perm_lore: '<#a8a8a8>Разрешение: <#ffffff>{perm}'
+    perm_prompt: '<#ffd470>Введите разрешение (или none):'
+    perm_title: <#ffd470>Необходимое разрешение (Permission)
+    req_quests_add: <#79d679>Добавить квест
+    req_quests_add_lore: <#a7ff99>ЛКМ <#cccccc>- Выбрать квест из списка.
+    req_quests_click: <#a7ff99>ЛКМ <#cccccc>- Редактировать
+    req_quests_del: <#ed6868>Drop (Q) <#cccccc>- Удалить квест
+    req_quests_edit: <#a7ff99>ЛКМ <#cccccc>- Заменить другим квестом
+    req_quests_gui_title: 'Пред. квесты: '
+    req_quests_lore: <#a8a8a8>Квесты, которые нужно выполнить перед этим.
+    req_quests_title: <#ffd470>Требования (Предыдущие квесты)
+    req_quests_unknown: <#ffffff>Неизвестный квест ({id})
+    rew_desc_click: <#a7ff99>ЛКМ <#cccccc>- Редактировать
+    rew_desc_gui_title: 'Описание наград: '
+    rew_desc_title: <#ffd470>Описание наград
+    rewards_lore: <#a7ff99>ЛКМ <#cccccc>- Настроить награды
+    rewards_title: <#ffd470>Награды квеста
+    rot_pool_click: <#a7ff99>ЛКМ <#cccccc>- Изменить
+    rot_pool_lore:
+    - <#a8a8a8>Квест будет выбран случайным образом из этой группы.
+    rot_pool_lore3: '<#a8a8a8>Текущий: <#ffffff>{pool}'
+    rot_pool_lore3_none: <#ed6868>Пул не указан. Квест не попадет в ротацию.
+    rot_pool_prompt: '<#ffd470>Введите название пула (или none):'
+    rot_pool_title: <#ffd470>Пул квестов (Rotation Pool)
+    rotation_click:
+    - <#a7ff99>ЛКМ <#cccccc>- Изменить интервал
+    - <#a7ff99>ПКМ <#cccccc>- Изменить время
+    - <#ffe999>Shift + ЛКМ <#cccccc>- Сбросить
+    rotation_click_new: <#a7ff99>ЛКМ <#cccccc>- Открыть настройки
+    rotation_lore:
+    - '<#a8a8a8>Интервал: <#ffffff>{interval}'
+    - '<#a8a8a8>Время сброса: <#ffffff>{time}'
+    - '<#a8a8a8>Пулы: <#ffffff>{pool}'
+    rotation_title: <#ffd470>Ротация
+    save_error: '{prefix}<#c96a6a>✖ <#ffffff>Ошибка сохранения файла!'
+    save_success: '{prefix}<#78b185>✔ <#ffffff>Файл квеста <#e2e8f0>{id} <#b0b8c1>успешно сохранен!'
+    slot_click:
+    - <#a7ff99>ЛКМ (+1) / ПКМ (-1)
+    - <#ffe999>Shift + ЛКМ (+10) / <#ffe999>Shift + ПКМ (-10)
+    - <#d9a752>Swap (F) <#cccccc>- Ввести вручную
+    slot_lore: '<#a8a8a8>Текущий слот: <#ffffff>{slot}'
+    slot_prompt: '<#ffd470>Введите слот (slot, от 0-54):'
+    slot_title: <#ffd470>Слот (Slot)
+    stages_click: <#a7ff99>ЛКМ <#cccccc>- Управлять этапами
+    stages_lore: '<#a8a8a8>Количество этапов: <#ffffff>{count}'
+    stages_title_has: <#ffd470>Этапы (Объективы)
+    stages_title_none: <#ed6868>Отсутствуют этапы квеста!
+    status_click: <#a7ff99>ЛКМ <#cccccc>- Изменить статус
+    status_desc: <#a8a8a8>Включает или выключает этот тип квестов
+    status_disabled: <#ed6868>Выключено
+    status_enabled: <#79d679>Включено
+    status_lore: '<#a8a8a8>Статус: {status}'
+    status_title: <#ffd470>Статус типа
+    type_click: <#a7ff99>ЛКМ <#cccccc>- Изменить тип
+    type_lore_engine: '<#a8a8a8>Движок: <#ffffff>{engine}'
+    type_lore_type: '<#a8a8a8>Тип: <#ffffff>{type}'
+    type_title: <#ffd470>Движок и тип квеста
+  material_list:
+    add_new_lore: <#a7ff99>ЛКМ <#cccccc>- Добавить новый предмет
+    click_del: <#ed6868>Drop (Q) <#cccccc>- Удалить предмет
+    click_edit: <#a7ff99>ЛКМ <#cccccc>- Изменить предмет
+  material_selector:
+    error_invalid: <#ed6868>Неверный материал!
+    hand: <#ffd470>Взять из руки
+    hand_error: В вашей руке нет предмета!
+    hand_lore: <#a7ff99>ЛКМ <#cccccc>- Использовать предмет из руки
+    input_chat: <#ffd470>Ввести вручную в чат
+    input_chat_lore: <#a7ff99>ЛКМ <#cccccc>- Написать код материала
+    input_chat_prompt: '<#ffd470>Введите материал (напр. DIAMOND_SWORD):'
+    item_click: <#a7ff99>ЛКМ <#cccccc>- Выбрать этот предмет
+    search: <#ffd470>Поиск материала
+    search_prompt: '<#ffd470>Введите текст для поиска (или clear):'
+    title: '&0Выберите материал / блок'
+  msg_clone_success: '{prefix}<#78b185>✔ <#ffffff>Тип успешно клонирован как <#ffffff>{id}'
+  msg_del_success: '{prefix}<#78b185>✔ <#ffffff>Тип <#ffffff>{id} <#b0b8c1>успешно удален.'
+  objective_menu:
+    del_confirm_msg: Вы действительно хотите удалить объектив {key}?
+    del_confirm_title: Удалить объектив?
+    gui_ent_list: '&0Сущности для: {key}'
+    gui_mats_list: '&0Предметы для: {key}'
+    gui_req_mats: '&0Нужные вещи'
+    gui_str_list: '&0Список {key}'
+    obj_title: '<#a8a8a8>Объектив: {color}{key}'
+    prompt_key: '<#a8a8a8>Введите значение для <#ffffff>{key}<#ffd470>:'
+    prompt_str_key: '<#a8a8a8>Введите строку-значение для <#ffffff>{key}<#ffd470>:'
+    prop_click_del: <#ed6868>Drop (Q) <#cccccc>- Удалить
+    prop_click_edit: <#a7ff99>ЛКМ <#cccccc>- Редактировать значение
+    prop_format: '<#a8a8a8>{key}: <#e0e0e0>{value}'
+    prop_num_click:
+    - <#a7ff99>ЛКМ (+1) / ПКМ (-1) <#cccccc>- Изменить значение
+    - <#ffe999>Shift + ЛКМ (+10) / <#ffe999>Shift + ПКМ (-10)
+    - <#d9a752>Swap (F) <#cccccc>- Ввести вручную
+    prop_str_click: <#a7ff99>ЛКМ <#cccccc>- Ввести строку
+    prop_str_list_click: <#a7ff99>ЛКМ <#cccccc>- Редактировать список
+    prop_title_mandatory: <#ed6868>{key}
+    prop_title_set: <#e0e0e0>{key}
+    prop_title_unset: <#a8a8a8>{key}
+    prop_true_false: <#a7ff99>ЛКМ <#cccccc>- Переключить (true/false)
+    prop_type_click: <#a7ff99>ЛКМ <#cccccc>- Выбрать тип
+    props:
+      amount: <#ffd470>Нужное количество
+      biome: <#ffd470>Биом
+      command: <#ffd470>Команда
+      dimension: <#ffd470>Измерение
+      distance: <#ffd470>Дистанция
+      entity: <#ffd470>Сущность
+      item: <#ffd470>Предмет
+      material: <#ffd470>Предмет
+      message: <#ffd470>Сообщение
+      min-distance: <#ffd470>Мин. дистанция
+      notify-interval: <#ffd470>Интервал уведомлений
+      npc: <#ffd470>NPC
+      npc-id: <#ffd470>NPC
+      radius: <#ffd470>Радиус
+      region: <#ffd470>Регион
+      required-materials: <#ffd470>Необходимые предметы
+      target-entities: <#ffd470>Нужные сущности
+      target-entity: <#ffd470>Сущность
+      target-material: <#ffd470>Предмет
+      target-materials: <#ffd470>Нужные предметы
+      type: <#ffd470>Тип объектива
+      weapon: <#ffd470>Оружие
+      world: <#ffd470>Мир
+      x: <#ffd470>Координата X
+      y: <#ffd470>Координата Y
+      z: <#ffd470>Координата Z
+    type_list: Список
+    type_prop: Значение свойства
+    type_section: Секция
+    type_value: Значение
+    val_list: '{size} элементов'
+    val_list_mats: '{size} предметов'
+    val_none: '[Нет]'
+    val_not_set: <#ed6868>Значение не установлено!
+    val_section: '[Секция] '
+  objective_selector:
+    desc:
+      ANVIL_USE: <#cccccc>Воспользоваться наковальней.
+      ASSIST_KILL: <#cccccc>Помочь убить сущность/игрока.
+      BEACON_ACTIVATE: <#cccccc>Активировать маяк.
+      BLOCK_BREAK: <#cccccc>Сломать указанные блоки.
+      BLOCK_PLACE: <#cccccc>Поставить указанные блоки.
+      BOAT_TRAVEL: <#cccccc>Проплыть на лодке.
+      BONE_MEAL_USE: <#cccccc>Использовать костную муку.
+      BOOK_EDIT: <#cccccc>Написать текст в книге.
+      BREED_ANIMALS: <#cccccc>Размножить животных.
+      BREWING: <#cccccc>Сварить зелье.
+      BURN_FUEL: <#cccccc>Сжечь топливо в печи.
+      CHANGE_DIMENSION: <#cccccc>Сменить измерение (напр. пойти в Незер).
+      CHAT_MESSAGE: <#cccccc>Написать определенное сообщение в чат.
+      CONDUIT_ACTIVATE: <#cccccc>Активировать морской источник (conduit).
+      CONSUME_ITEM: <#cccccc>Съесть или выпить предмет.
+      CROUCH: <#cccccc>Присесть определенное количество раз.
+      CROUCH_DISTANCE: <#cccccc>Пройти на корточках указанную дистанцию.
+      DEAL_DAMAGE: <#cccccc>Нанести определенное количество урона.
+      DROP_ITEM: <#cccccc>Выбросить определенный предмет.
+      DYE_ITEM: <#cccccc>Покрасить предмет.
+      ELYTRA_FLY: <#cccccc>Пролететь на элитрах.
+      EMPTY_BUCKET: <#cccccc>Вылить жидкость из ведра.
+      ENCHANT_TABLE_USE: <#cccccc>Воспользоваться столом зачаровывания.
+      ENTER_BED: <#cccccc>Лечь в кровать.
+      ENTER_REGION: <#cccccc>Войти в регион (WorldGuard).
+      ENTITY_RIDE: <#cccccc>Оседлать сущность.
+      EXECUTE_COMMAND: <#cccccc>Ввести определенную команду.
+      EXPERIENCE_ORB_PICKUP: <#cccccc>Подобрать сферу опыта.
+      FALL_DISTANCE: <#cccccc>Пролететь определенное расстояние во время 
+        падения.
+      FILL_BUCKET: <#cccccc>Набрать жидкость в ведро.
+      FILL_FUEL: <#cccccc>Положить топливо в печь.
+      GIVE_ITEM_TO_NPC: <#cccccc>Передать предмет NPC.
+      HARVEST_CROP: <#cccccc>Собрать урожай.
+      HOLD_ITEM: <#cccccc>Держать определенный предмет в руке.
+      INTERACT_BLOCK: <#cccccc>Взаимодействовать с блоком (ПКМ/ЛКМ).
+      INTERACT_ENTITY: <#cccccc>Взаимодействовать с сущностью (ПКМ).
+      ITEM_BREAK: <#cccccc>Сломать инструмент/оружие.
+      ITEM_COOK: <#cccccc>Приготовить еду.
+      ITEM_CRAFT: <#cccccc>Скрафтить предметы.
+      ITEM_ENCHANT: <#cccccc>Зачаровать предметы.
+      ITEM_FISH: <#cccccc>Поймать рыбу/предметы.
+      ITEM_RENAME: <#cccccc>Переименовать предмет.
+      ITEM_REPAIR: <#cccccc>Починить предмет на наковальне.
+      ITEM_SMELT: <#cccccc>Переплавить предметы.
+      JOIN_SERVER: <#cccccc>Зайти на сервер.
+      JUMP: <#cccccc>Подпрыгнуть определенное количество раз.
+      KILL_ENTITY: <#cccccc>Убить определенных мобов/сущностей.
+      LEAVE_REGION: <#cccccc>Покинуть регион (WorldGuard).
+      LEVEL_UP_GAIN: <#cccccc>Получить указанное количество уровней.
+      LEVEL_UP_REACH: <#cccccc>Достичь указанного уровня опыта.
+      MILK_COW: <#cccccc>Подоить корову.
+      MINECART_TRAVEL: <#cccccc>Проехать на вагонетке.
+      NPC_INTERACT: <#cccccc>Поговорить с NPC (Citizens/ZNPCs).
+      OPEN_CONTAINER: <#cccccc>Открыть контейнер (сундук и т.д.).
+      PLANT_SEED: <#cccccc>Посадить семена.
+      PLAYER_KILL: <#cccccc>Убить другого игрока.
+      PLAY_TIME: <#cccccc>Провести время в игре.
+      POTION_DRINK: <#cccccc>Выпить зелье.
+      POTION_SPLASH: <#cccccc>Бросить взрывное зелье.
+      REACH_BIOME: <#cccccc>Посетить указанный биом.
+      REACH_LOCATION: <#cccccc>Прийти на указанные координаты.
+      RECEIVE_DAMAGE_TYPE: <#cccccc>Получить урон определенного типа.
+      SHEAR_SHEEP: <#cccccc>Остричь овцу.
+      SIGN_EDIT: <#cccccc>Написать текст на табличке.
+      SLEEP_IN_BED: <#cccccc>Поспать в кровати.
+      SPRINT_DISTANCE: <#cccccc>Пробежать указанную дистанцию.
+      STRIP_LOG: <#cccccc>Обтесать бревно топором.
+      SWIM_DISTANCE: <#cccccc>Проплыть указанную дистанцию.
+      TAKE_DAMAGE: <#cccccc>Получить определенное количество урона.
+      TAME_ANIMAL: <#cccccc>Приручить животное.
+      THROW_EGG: <#cccccc>Бросить яйцо.
+      TILL_SOIL: <#cccccc>Вспахать землю мотыгой.
+      TRAVEL_DISTANCE: <#cccccc>Пройти/проехать указанную дистанцию.
+      USE_ITEM: <#cccccc>Использовать предмет (ПКМ).
+      VILLAGER_BUY_ITEM: <#cccccc>Купить предмет у крестьянина.
+      VILLAGER_SELL_ITEM: <#cccccc>Продать предмет крестьянину.
+      WAX_OFF: <#cccccc>Снять воск с меди.
+      WAX_ON: <#cccccc>Нанести воск на медь.
+      WEAR_ARMOR: <#cccccc>Надеть определенную броню.
+    item_click: <#a7ff99>ЛКМ <#cccccc>- Выбрать этот тип
+    item_enum: '<#a8a8a8>Ключ: <#ffffff>{enum}'
+    prompt_search: '<#ffd470>Введите название типа объектива (или clear):'
+    title: '&0Выберите тип объектива'
+  pool_slots_gui:
+    slot_back_lore: <#a7ff99>ПКМ <#cccccc>- Вернуться назад
+    slot_free_lore: <#a7ff99>ЛКМ <#cccccc>- Назначить этому пулу
+    slot_free_title: <#a8a8a8>Слот {slot}
+    slot_mine_lore: <#ff6b6b>ЛКМ <#cccccc>- Снять слот из пула
+    slot_mine_title: <#a7ff99>Слот {slot}
+    slot_taken_lore:
+    - '<#a8a8a8>Занято пулом: <#ffffff>{owner}'
+    - <#ffd470>ЛКМ <#cccccc>- Перехватить слот
+    slot_taken_title: <#ff6b6b>Слот {slot}
+    title: '&0Слоты пула: {pool}'
+  pools_gui:
+    add_lore: <#a7ff99>ЛКМ <#cccccc>- Создать новый пул
+    add_title: <#ffd470>Добавить пул
+    item_click:
+    - <#a7ff99>ЛКМ <#cccccc>- Редактировать слоты
+    item_click4: <#ff6b6b>Drop (Q) <#cccccc>- Удалить пул
+    item_lore:
+    - '<#a8a8a8>Количество: <#ffffff>{count}'
+    item_title: '<#ffd470>Пул: {pool}'
+    title: Пулы ротации
+  preview_title: 'Описание типа: '
+  prompts:
+    cmd: '<#ffd470>Введите команду:'
+    cooldown: '<#ffd470>Введите перезарядку:'
+    folder: '<#ffd470>Введите путь к папке с квестами:'
+    name: '<#ffd470>Введите название:'
+    new_type_id: '<#ffd470>Введите ID нового типа (например: <#ffffff>weekly<#ffd470>):'
+    pool_count: '<#ffd470>Введите количество квестов для этого пула:'
+    pool_name: '<#ffd470>Введите название пула (на английском без пробелов):'
+    rotation_interval: '<#ffd470>Введите интервал ротации:'
+    rotation_time: '<#ffd470>Введите время ротации:'
+    slot: '<#ffd470>Введите слот:'
+  rotation_gui:
+    anchor_click:
+    - <#a7ff99>ЛКМ <#cccccc>- Следующий день
+    anchor_lore:
+    - '<#a8a8a8>День: <#ffffff>{val}'
+    anchor_title: <#ffd470>День привязки
+    interval_click:
+    - <#a7ff99>ЛКМ <#cccccc>- Добавить 1 час
+    - <#a7ff99>ПКМ <#cccccc>- Отнять 1 час
+    - <#ffe999>Shift+ЛКМ <#cccccc>- Добавить 1 день
+    - <#ffe999>Shift+ПКМ <#cccccc>- Отнять 1 день
+    - <#ffd470>Swap (F) <#cccccc>- Ввести свой
+    - <#ed6868>Drop (Q) <#cccccc>- Очистить
+    interval_lore:
+    - '<#a8a8a8>Текущий: <#ffffff>{val}'
+    interval_title: <#ffd470>Интервал сброса
+    pools_click:
+    - <#a7ff99>ЛКМ <#cccccc>- Управление пулами
+    pools_lore:
+    - '<#a8a8a8>Пулы: <#ffffff>{val}'
+    pools_title: <#ffd470>Пулы квестов
+    time_click:
+    - <#a7ff99>ЛКМ <#cccccc>- Добавить 1 час
+    - <#a7ff99>ПКМ <#cccccc>- Отнять 1 час
+    - <#ffe999>Shift+ЛКМ <#cccccc>- Добавить 10 мин
+    - <#ffe999>Shift+ПКМ <#cccccc>- Отнять 10 мин
+    - <#ffd470>Swap (F) <#cccccc>- Ввести свой
+    - <#ed6868>Drop (Q) <#cccccc>- Очистить
+    time_lore:
+    - '<#a8a8a8>Текущий: <#ffffff>{val}'
+    time_title: <#ffd470>Время сброса
+    title: '&0Ротация квестов: {id}'
+  saved_success: '{prefix}<#78b185>✔ <#ffffff>Изменения типа квеста {id} успешно сохранены!'
+  select_type_click: <#a7ff99>ЛКМ <#cccccc>- Выбрать этот тип
+  title_list: '&0Список типов квестов ({count})'
+  title_main: '&0Редактор типа: {id}'
+  title_selector: '&0Выберите тип квеста'
+  type_created: '{prefix}<#78b185>✔ <#ffffff>Успешно создан новый тип: {id}'
+  type_list_click: <#a7ff99>ЛКМ <#cccccc>- Редактировать тип
+  type_list_clone: <#d9a752>Swap (F) <#cccccc>- Клонировать
+  type_list_delete: <#ff7070>Drop (Q) <#cccccc>- Удалить
+  type_list_engine: '<#a8a8a8>Движок: <#7dd3ff>{engine}'
+  type_list_folder: '<#a8a8a8>Папка: <#ffffff>{folder}'
+  type_list_quests: '<#a8a8a8>Квесты: <#ffffff>{count}'

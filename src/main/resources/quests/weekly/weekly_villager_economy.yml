@@ -1,0 +1,62 @@
+id: weekly_villager_economy
+name: <#34d399>💼 Village Trade
+icon-material: EMERALD
+
+rotation-pool: "rare"
+
+description:
+- <#cccccc>Villagers are ready to trade, but they need help.
+- <#cccccc>Make a series of trades and prepare paper,
+- <#cccccc>so artisans can keep records.
+- ""
+- "<#93c5fd>⭐ <#cccccc>Rarity: <#bfdbfe>Rare"
+rewards-description:
+- <#a7ff99>+1250 coins
+- <#ffe08a>+420 XP
+- <#7dd3ff>+Emeralds
+quest-path:
+  stage-1:
+    objective:
+      type: VILLAGER_BUY_ITEM
+      amount: 16
+      target-materials:
+      - EMERALD
+      target-entities:
+      - VILLAGER
+  stage-2:
+    objective:
+      type: ITEM_CRAFT
+      amount: 32
+      target-materials:
+      - PAPER
+  stage-3:
+    objective:
+      type: OPEN_CONTAINER
+      amount: 10
+      containers:
+      - CHEST
+      - BARREL
+rewards:
+  money:
+    amount: 1250
+    silent: false
+  xp:
+    points: 420
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: EMERALD
+      amount: 8
+      name: <#7dd3ff>Trade Emeralds
+      lore:
+      - <#cccccc>For new profitable deals.
+  effects:
+    silent: false
+    list:
+    - SPEED:0:180
+quest-effects:
+  activate: quest_activate_start
+  stage-change: quest_stage_change
+  complete: quest_complete_success
+

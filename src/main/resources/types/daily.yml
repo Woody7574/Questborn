@@ -1,0 +1,53 @@
+# ==============================================================================
+# Questborn - Quest Type: Щоденні Доручення (Daily Quests)
+# ==============================================================================
+id: daily
+folder: quests/daily
+
+display-name: "<#eac27c>⏰ Щоденні Доручення"
+gui-type-title: "&0⏰ Щоденні Доручення - ({page}/{total})"
+gui-quest-title: "&0{quest}"
+gui-transfer-title: "&0{quest}"
+
+material: BELL
+slot: 22
+
+engine: ROTATION
+
+rotation-pools:
+  common: 3
+  rare: 2
+
+rotation-slots:
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+
+reset-period: "1d"
+reset-time: "00:00"
+
+rotation-announce:
+  enabled: true
+  sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+  volume: 1.0
+  pitch: 0.5
+  chat:
+    - ""
+    - " <#eac27c>⏰ <#c4cbd2>Свіжі <#e2ba72>щоденні доручення <#c4cbd2>вже доступні!"
+    - " <#8d99ae>Відкрийте меню квестів, виконуйте завдання та забирайте нагороди."
+    - ""
+
+lore:
+  - "<#d4dadf>Свіжі виклики кожного нового дня."
+  - "<#9aa5b1>Виконуй завдання ремісників, мисливців"
+  - "<#9aa5b1>та торговців до настання опівночі."
+  - "<#eac27c>Оновлюється щодня о 00:00!"
+  - ""
+  - "<#eac27c>Сьогоднішній прогрес:"
+  - " <#98c379>✔ <#edf1f5>{completed}/{total} <#9aa5b1>виконано"
+  - ""
+  - "<#7ba2b8>▸ Натисніть, щоб відкрити"
+
+enabled: true

@@ -1,0 +1,42 @@
+id: builder_chain_10_copper_restore
+name: <#fb7185>🧽 Copper Restoration
+icon-material: STONE_AXE
+slot: 23
+page: 1
+require-quests:
+- builder_chain_09_copper_wax
+description:
+- '<#cccccc>Sometimes you need changes: repairs, rearranging, a new design.'
+- <#cccccc>Remove wax from copper blocks.
+- <#cccccc>Prep the surface for an update.
+rewards-description:
+- <#a7ff99>+520 coins
+- <#ffe08a>+180 XP
+- <#7dd3ff>+Tool
+objective:
+  type: WAX_OFF
+  amount: 24
+  target-materials:
+  - WAXED_COPPER_BLOCK
+rewards:
+  money:
+    amount: 520
+    silent: false
+  xp:
+    points: 180
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: STONE_AXE
+      amount: 1
+      name: <#7dd3ff>Restorer's Axe
+      lore:
+      - <#cccccc>For delicate work.
+      enchantments:
+      - unbreaking:2
+      flags:
+      - HIDE_ENCHANTS
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

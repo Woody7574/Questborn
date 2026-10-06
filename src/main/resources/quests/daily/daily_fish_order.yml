@@ -1,0 +1,33 @@
+id: daily_fish_order
+name: <#7dd3ff>🎣 Fish Order
+icon-material: FISHING_ROD
+
+rotation-pool: "rare"
+
+description:
+- <#cccccc>The fish market is short after the storm.
+- <#cccccc>Merchants need a fresh catch.
+- <#cccccc>Catch <#7dd3ff>6 fish.
+- ""
+- "<#93c5fd>⭐ <#cccccc>Rarity: <#bfdbfe>Rare"
+rewards-description:
+- <#a7ff99>+175 coins
+- <#ffe08a>+85 XP
+- <#7dd3ff>+3 Cooked Cod
+objective:
+  type: ITEM_FISH
+  amount: 6
+  target-materials:
+  - COD
+  - SALMON
+rewards:
+  money: 175
+  xp: 85
+  items:
+    list:
+    - material: COOKED_COD
+      amount: 3
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success
+

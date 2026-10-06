@@ -1,0 +1,33 @@
+id: daily_stone_survey
+name: <#6ee7b7>⛏ Stone Survey
+icon-material: STONE_PICKAXE
+
+rotation-pool: "common"
+
+description:
+- <#cccccc>The seekers' guild asks you to gather data
+- <#cccccc>about the rocks around the base.
+- <#cccccc>Break <#6ee7b7>64 stone/deepslate.
+- ""
+- "<#86efac>⭐ <#cccccc>Rarity: <#bbf7d0>Common"
+rewards-description:
+- <#a7ff99>+180 coins
+- <#ffe08a>+85 XP
+- <#7dd3ff>+8 Coal
+objective:
+  type: BLOCK_BREAK
+  amount: 64
+  target-materials:
+  - STONE
+  - DEEPSLATE
+rewards:
+  money: 180
+  xp: 85
+  items:
+    list:
+    - material: COAL
+      amount: 8
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success
+

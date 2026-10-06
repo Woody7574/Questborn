@@ -1,0 +1,29 @@
+id: daily_strike_training
+name: <#fb7185>🗡 Strike Training
+icon-material: DIAMOND_SWORD
+
+rotation-pool: "rare"
+
+description:
+- <#cccccc>The arena instructor tracks the fighters' progress.
+- <#cccccc>Show control and consistent damage.
+- <#cccccc>Deal <#fb7185>300 damage.
+- ""
+- "<#93c5fd>⭐ <#cccccc>Rarity: <#bfdbfe>Rare"
+rewards-description:
+- <#a7ff99>+220 coins
+- <#ffe08a>+105 XP
+- <#7dd3ff>+Strength (3 min)
+objective:
+  type: DEAL_DAMAGE
+  amount: 300
+rewards:
+  money: 220
+  xp: 105
+  effects:
+    list:
+    - INCREASE_DAMAGE:0:180
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success
+

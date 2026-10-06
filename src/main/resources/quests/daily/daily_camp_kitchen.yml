@@ -1,0 +1,33 @@
+id: daily_camp_kitchen
+name: <#fca5a5>🍖 Camp Kitchen
+icon-material: CAMPFIRE
+
+rotation-pool: "common"
+
+description:
+- <#cccccc>The patrol needs hot food.
+- <#cccccc>Prepare portions for the road.
+- <#cccccc>Cook <#fca5a5>16 meals.
+- ""
+- "<#86efac>⭐ <#cccccc>Rarity: <#bbf7d0>Common"
+rewards-description:
+- <#a7ff99>+150 coins
+- <#ffe08a>+70 XP
+- <#7dd3ff>+8 Cooked Beef
+objective:
+  type: ITEM_COOK
+  amount: 16
+  target-materials:
+  - COOKED_BEEF
+  - COOKED_PORKCHOP
+rewards:
+  money: 150
+  xp: 70
+  items:
+    list:
+    - material: COOKED_BEEF
+      amount: 8
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success
+

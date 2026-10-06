@@ -1,0 +1,32 @@
+id: daily_iron_refinery
+name: <#93c5fd>🔥 Smelting Shift
+icon-material: FURNACE
+
+rotation-pool: "rare"
+
+description:
+- <#cccccc>The forge only accepts clean ingots.
+- <#cccccc>Keep tool production running.
+- <#cccccc>Smelt <#93c5fd>24 iron ingots.
+- ""
+- "<#93c5fd>⭐ <#cccccc>Rarity: <#bfdbfe>Rare"
+rewards-description:
+- <#a7ff99>+200 coins
+- <#ffe08a>+95 XP
+- <#7dd3ff>+4 Iron Ingots
+objective:
+  type: ITEM_SMELT
+  amount: 24
+  target-materials:
+  - IRON_INGOT
+rewards:
+  money: 200
+  xp: 95
+  items:
+    list:
+    - material: IRON_INGOT
+      amount: 4
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success
+

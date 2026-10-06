@@ -1,0 +1,42 @@
+id: starter_chain_01_wood_call
+name: <#93c5fd>🌲 Call of the Forest
+icon-material: OAK_LOG
+slot: 10
+page: 1
+description:
+- <#cccccc>Every adventure starts with something simple.
+- <#cccccc>Gather basic resources - wood.
+- <#cccccc>This is your first step.
+rewards-description:
+- <#a7ff99>+150 coins
+- <#ffe08a>+60 XP
+- <#7dd3ff>+Starter food
+objective:
+  type: BLOCK_BREAK
+  amount: 16
+  target-materials:
+  - OAK_LOG
+  - SPRUCE_LOG
+  - BIRCH_LOG
+rewards:
+  money:
+    amount: 150
+    silent: false
+  xp:
+    points: 60
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: BREAD
+      amount: 8
+      name: <#7dd3ff>Starter Rations
+      lore:
+      - <#cccccc>A little strength for the road.
+  effects:
+    silent: false
+    list:
+    - SPEED:0:60
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

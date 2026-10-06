@@ -1,0 +1,25 @@
+# Heap dumps
+*.hprof
+
+# Java compiled files
+*.class
+bin/
+
+# Gradle & Build outputs
+.gradle/
+build/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Python cache & logs
+__pycache__/
+*.pyc
+
+# Generated logs & temp files
+*.log
+build_*.txt
+build_errors.txt
+build_output.txt
+scratch_*.txt

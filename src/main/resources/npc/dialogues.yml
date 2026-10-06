@@ -1,0 +1,503 @@
+dialogues:
+  # =========================================================
+  # 1. GUSTAV (gustav_dialogue) - Daily Quests (Daily)
+  # =========================================================
+  gustav_dialogue:
+    npc-name: '<#d0a775>{npc}'
+    chars-per-tick: 1
+    update-period-ticks: 1
+    nodes:
+      start:
+        # sound: ENTITY_VILLAGER_AMBIENT
+        text:
+          - '  <#c8c8c8>Welcome to my tavern, traveler!'
+          - '  <#c8c8c8>I am Gustav, keeping coziness and order in this place.'
+          - '  <#c8c8c8>Every day I receive new lists of supplies,'
+          - '  <#c8c8c8>trade errands, and city chores.'
+        options: &gustav_options
+          - text: '<#c97a7a>I don''t have any work for you.'
+            conditions:
+              - '!has_quests_assigned'
+            lore:
+              - '<#8f8f8f>Sorry, but currently all daily'
+              - '<#8f8f8f>chores in the tavern are done.'
+            material: STRUCTURE_VOID
+            action: close
+            slot: 13
+            # sound: ENTITY_VILLAGER_NO
+
+          - text: '<#7cb387>You have completed all daily chores!'
+            conditions:
+              - 'all_quests_completed'
+            lore:
+              - '<#8f8f8f>Thank you so much for all your help!'
+              - '<#8f8f8f>The tavern''s pantry is now full of supplies.'
+            material: BOOK
+            action: close
+            slot: 13
+            # sound: ENTITY_VILLAGER_NO
+
+          - text: '<#cfa76e>Come back for daily quests later...'
+            conditions:
+              - 'has_quests_on_cooldown'
+            lore:
+              - '<#8f8f8f>Come back later, the cook is still'
+              - '<#8f8f8f>preparing new shopping lists.'
+            material: CLOCK
+            action: close
+            slot: 13
+
+          - text: '<#7cb387>View daily quests'
+            conditions:
+              - 'has_available_quests'
+            lore:
+              - '<#8f8f8f>Browse available daily'
+              - '<#8f8f8f>tasks and supply lists.'
+            material: WRITABLE_BOOK
+            action: open_quest_menu
+            slot: 13
+            sound: ITEM_BOOK_PAGE_TURN
+
+          - text: '<#91c183>I brought the supplies! (Reward)'
+            conditions:
+              - 'has_reward'
+            lore:
+              - '<#8f8f8f>Hand over the collected products'
+              - '<#8f8f8f>and receive a fair reward.'
+            material: GOLD_INGOT
+            action: claim_reward
+            slot: 13
+            sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+          - text: '<#7fa8be>Hand over products and hops'
+            conditions:
+              - 'has_give_item'
+            lore:
+              - '<#8f8f8f>Transfer food and ingredients'
+              - '<#8f8f8f>for the cook and the innkeeper.'
+            material: CHEST
+            action: give_items
+            slot: 13
+
+          - text: '<#d0a775>Listen to tavern rumors...'
+            lore:
+              - '<#8f8f8f>Find out what the patrons'
+              - '<#8f8f8f>at the far tables are talking about.'
+            material: COMPASS
+            action: goto:rumor_inn
+            slot: 20
+
+          - text: '<#81a1c1>How do daily chores work?'
+            lore:
+              - '<#8f8f8f>Learn more about the system'
+              - '<#8f8f8f>of daily rotations and rewards.'
+            material: BOOKSHELF
+            action: goto:help_daily
+            slot: 22
+
+          - text: '<#c97a7a>I''ll come back later. Bye!'
+            lore:
+              - '<#8f8f8f>Say goodbye and leave the tavern'
+            material: DARK_OAK_DOOR
+            action: "message: {npc}: &fCome again, %player_name%! The tavern doors are always open!; close"
+            slot: 24
+
+      start_HAPPY:
+        sound: ENTITY_EXPERIENCE_ORB_PICKUP
+        text:
+          - '  <#7cb387>*Gustav cheerfully pours fragrant ale into cups*'
+          - '  <#7cb387>What a wonderful evening, %player_name%! The tavern is full!'
+          - '  <#7cb387>The music is playing, and daily orders are flying out.'
+          - '  <#c8c8c8>What can I treat you to or recommend today?'
+        options: *gustav_options
+
+      start_BUSY:
+        # sound: ENTITY_VILLAGER_TRADE
+        text:
+          - '  <#cfa76e>*Gustav swiftly washes wooden trays and barrels*'
+          - '  <#cfa76e>Oh, the morning shift is always the hottest...'
+          - '  <#cfa76e>I''m receiving carts of flour and vegetables from the farm.'
+          - '  <#c8c8c8>Speak quickly if you have something, or come by in the evening.'
+        options: *gustav_options
+
+      start_SAD:
+        # sound: ENTITY_VILLAGER_NO
+        text:
+          - '  <whisper><#8c9ba5>*Gustav looks sadly at the downpour outside the window*</whisper>'
+          - '  <#8c9ba5>Sigh, the roof over the corner table is leaking again...'
+          - '  <#8c9ba5>There are hardly any guests due to this severe weather.'
+          - '  <#c8c8c8>Hand over the supplies if you brought any, or come back later.'
+        options: *gustav_options
+
+      start_ANGRY:
+        # sound: ENTITY_VILLAGER_NO
+        text:
+          - '  <shout><#c97a7a>*Gustav angrily bangs a cup on the counter*</shout>'
+          - '  <#c97a7a>Those night troublemakers started a brawl again!'
+          - '  <#c97a7a>Now is not the time for idle chatter, %player_name%.'
+          - '  <#c97a7a>Come by in the morning when things calm down!'
+        options: *gustav_options
+
+      reward_ready:
+        sound: ENTITY_EXPERIENCE_ORB_PICKUP
+        text:
+          - '  <#91c183>*Gustav smiles broadly and pulls out a coin pouch*'
+          - '  <#91c183>Oh, %player_name%! The job is done perfectly!'
+          - '  <#91c183>The cook is thrilled with the fresh supplies.'
+          - '  <#c8c8c8>Take your well-earned reward!'
+        options: *gustav_options
+
+      help_daily:
+        sound: ITEM_BOOK_PAGE_TURN
+        text:
+          - '  <#81a1c1>&l[ Guide: Daily Quests ]'
+          - '  <#c8c8c8>• Every day at 00:00 the task lists are updated.'
+          - '  <#c8c8c8>• You receive a random rotation of errands.'
+          - '  <#c8c8c8>• By completing them, you earn coins, experience'
+          - '  <#c8c8c8>  and useful crafting resources.'
+        options:
+          - text: '<#d0a775>⬅ Return to Gustav'
+            lore:
+              - '<#8f8f8f>Return to the main conversation'
+            material: SPECTRAL_ARROW
+            action: "goto:start:skip"
+            slot: 22
+
+      rumor_inn:
+        sound: ENTITY_EXPERIENCE_ORB_PICKUP
+        text:
+          - '  <#d0a775>&l[ Tavern Rumors & News ]'
+          - '  <#c8c8c8>You can hear a lot of interesting things at my tables.'
+          - '  <#c8c8c8>What exactly do you wish to know about?'
+        options:
+          - text: '<#d0a775>Trade caravan in the south'
+            lore:
+              - '<#8f8f8f>Listen about the missing caravan'
+              - '<#8f8f8f>with silk and spices.'
+            material: CHEST_MINECART
+            action: goto:rumor_caravan
+            slot: 13
+
+          - text: '<#c79f67>Secret recipe of spiced ale'
+            lore:
+              - '<#8f8f8f>Ask Gustav about his'
+              - '<#8f8f8f>famous signature drink.'
+            material: POTION
+            action: goto:rumor_recipe
+            slot: 20
+
+          - text: '<#7fa8be>City gossip and guard patrol'
+            lore:
+              - '<#8f8f8f>Find out what the guards say'
+              - '<#8f8f8f>about recent events in the city.'
+            material: PAPER
+            action: goto:rumor_city
+            slot: 24
+
+          - text: '<#c97a7a>⬅ Go back'
+            lore:
+              - '<#8f8f8f>Return to the main menu'
+            material: SPECTRAL_ARROW
+            action: goto:start:skip
+            slot: 22
+
+      rumor_caravan:
+        # sound: ENTITY_VILLAGER_YES
+        text:
+          - '  <whisper><#c8c8c8>A merchant from the south told that near the swamps</whisper>'
+          - '  <#c8c8c8>raiders plundered a wagon with rare spices.'
+          - '  <#c8c8c8>If you are heading that way — be careful,'
+          - '  <#c8c8c8>but the found goods can be sold for a good price!'
+        options:
+          - text: '<#d0a775>⬅ Return to rumors'
+            lore:
+              - '<#8f8f8f>Return to the rumors menu'
+            material: SPECTRAL_ARROW
+            action: goto:rumor_inn:skip
+            slot: 22
+
+      rumor_recipe:
+        # sound: ENTITY_VILLAGER_YES
+        text:
+          - '  <whisper><#c8c8c8>The secret of my ale is not only honeycombs,</whisper>'
+          - '  <#c8c8c8>but also dried mountain mint collected at dawn.'
+          - '  <#c8c8c8>If you ever bring me an armful of such mint —'
+          - '  <#c8c8c8>I will treat you to the best cup in the Kingdom!'
+        options:
+          - text: '<#d0a775>⬅ Return to rumors'
+            lore:
+              - '<#8f8f8f>Return to the rumors menu'
+            material: SPECTRAL_ARROW
+            action: goto:rumor_inn:skip
+            slot: 22
+
+      rumor_city:
+        # sound: ENTITY_VILLAGER_YES
+        text:
+          - '  <whisper><#c8c8c8>The guards say that night patrols</whisper>'
+          - '  <#c8c8c8>increasingly see strange shadows near the old warehouses.'
+          - '  <#c8c8c8>The city hall pays a good reward to those who help'
+          - '  <#c8c8c8>maintain order and perform daily guard duties.'
+        options:
+          - text: '<#d0a775>⬅ Return to rumors'
+            lore:
+              - '<#8f8f8f>Return to the rumors menu'
+            material: SPECTRAL_ARROW
+            action: goto:rumor_inn:skip
+            slot: 22
+
+  # =========================================================
+  # 2. TORVALD (torvald_dialogue) - Weekly Quests (Weekly)
+  # =========================================================
+  torvald_dialogue:
+    npc-name: '<#9b88b3>{npc}'
+    chars-per-tick: 1
+    update-period-ticks: 1
+    nodes:
+      start:
+        # sound: ENTITY_VILLAGER_AMBIENT
+        text:
+          - '  <#c8c8c8>Welcome to the military outpost, soldier!'
+          - '  <#c8c8c8>I am Torvald, the defense commander of our sector.'
+          - '  <#c8c8c8>Here we decide the fate of large-scale weekly operations,'
+          - '  <#c8c8c8>patrols, and reconnaissance of dangerous dungeons.'
+        options: &torvald_options
+          - text: '<#c97a7a>I don''t have any work for you.'
+            conditions:
+              - '!has_quests_assigned'
+            lore:
+              - '<#8f8f8f>Currently all weekly contracts'
+              - '<#8f8f8f>in your sector are already closed.'
+            material: STRUCTURE_VOID
+            action: close
+            slot: 13
+            # sound: ENTITY_VILLAGER_NO
+
+          - text: '<#7cb387>All weekly contracts completed!'
+            conditions:
+              - 'all_quests_completed'
+            lore:
+              - '<#8f8f8f>Thank you for your brave service to the Kingdom,'
+              - '<#8f8f8f>all guard tasks for the week are completed.'
+            material: BOOK
+            action: close
+            slot: 13
+            # sound: ENTITY_VILLAGER_NO
+
+          - text: '<#cfa76e>New reports will arrive later...'
+            conditions:
+              - 'has_quests_on_cooldown'
+            lore:
+              - '<#8f8f8f>New combat reports will arrive'
+              - '<#8f8f8f>a little later, come back then.'
+            material: CLOCK
+            action: close
+            slot: 13
+
+          - text: '<#7cb387>View weekly contracts'
+            conditions:
+              - 'has_available_quests'
+            lore:
+              - '<#8f8f8f>Get weekly tasks for patrol'
+              - '<#8f8f8f>and extermination of dangerous monsters.'
+            material: WRITABLE_BOOK
+            action: open_quest_menu
+            slot: 13
+            sound: ITEM_BOOK_PAGE_TURN
+
+          - text: '<#91c183>Contract completion report'
+            conditions:
+              - 'has_reward'
+            lore:
+              - '<#8f8f8f>Report on the destruction of enemies'
+              - '<#8f8f8f>and receive a military outpost reward.'
+            material: GOLD_INGOT
+            action: claim_reward
+            slot: 13
+            sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+          - text: '<#89a1c6>Hand over battle trophies'
+            conditions:
+              - 'has_give_item'
+            lore:
+              - '<#8f8f8f>Turn in trophies and evidence'
+              - '<#8f8f8f>of weekly mission completion.'
+            material: CHEST
+            action: give_items
+            slot: 13
+
+          - text: '<#9b88b3>Learn intelligence reports...'
+            lore:
+              - '<#8f8f8f>Ask about the most dangerous'
+              - '<#8f8f8f>areas around the outpost.'
+            material: COMPASS
+            action: goto:rumor_cmd
+            slot: 20
+
+          - text: '<#81a1c1>How do weekly contracts work?'
+            lore:
+              - '<#8f8f8f>Learn about the 7-day cycle,'
+              - '<#8f8f8f>difficulty, and valuable trophies.'
+            material: BOOKSHELF
+            action: goto:help_weekly
+            slot: 22
+
+          - text: '<#c97a7a>Glory to the Crown! (Salute)'
+            lore:
+              - '<#8f8f8f>Salute and leave the headquarters'
+            material: DARK_OAK_DOOR
+            action: "message: {npc}: &fHonor and courage, warrior! Stay safe on duty!; close"
+            slot: 24
+
+      start_HAPPY:
+        sound: ENTITY_EXPERIENCE_ORB_PICKUP
+        text:
+          - '  <#7cb387>*Torvald solemnly raises a cup for victory*'
+          - '  <#7cb387>A great day, %player_name%! The enemy has retreated.'
+          - '  <#7cb387>Thanks to the weekly patrols, the borders are safe.'
+          - '  <#c8c8c8>Ready to take on a new combat mission?'
+        options: *torvald_options
+
+      start_RESPECTFUL:
+        sound: ENTITY_EXPERIENCE_ORB_PICKUP
+        text:
+          - '  <#9b88b3>*Torvald steps sharply and respectfully salutes with his sword*'
+          - '  <#9b88b3>Greetings to the glorious warrior %player_name%!'
+          - '  <#9b88b3>Your valor in the weekly contracts inspires the entire garrison.'
+          - '  <#c8c8c8>I will always find a first-class mission for you.'
+        options: *torvald_options
+
+      start_BUSY:
+        # sound: ENTITY_VILLAGER_TRADE
+        text:
+          - '  <#cfa76e>*Torvald leans intently over the tactical map*'
+          - '  <#cfa76e>Oh, sorry, soldier. Developing a deployment plan.'
+          - '  <#cfa76e>Reporters bring data every minute.'
+          - '  <#c8c8c8>Report quickly or come by a bit later.'
+        options: *torvald_options
+
+      start_SAD:
+        # sound: ENTITY_VILLAGER_NO
+        text:
+          - '  <whisper><#8c9ba5>*Torvald looks grimly at the downpour over the towers*</whisper>'
+          - '  <#8c9ba5>In this weather, we lost contact with the patrol...'
+          - '  <#8c9ba5>The rain washes away the paths, and the enemy hides in the ravines.'
+          - '  <#c8c8c8>Be extremely careful if you go on a march.'
+        options: *torvald_options
+
+      start_ANGRY:
+        # sound: ENTITY_VILLAGER_NO
+        text:
+          - '  <shout><#c97a7a>*Torvald flares up a signal torch*</shout>'
+          - '  <#c97a7a>Alarm! Undead are surrounding the southern gate!'
+          - '  <#c97a7a>Now is not the time for civilian talks, %player_name%.'
+          - '  <#c97a7a>Draw your sword and take a position on the wall!'
+        options: *torvald_options
+
+      reward_ready:
+        sound: ENTITY_EXPERIENCE_ORB_PICKUP
+        text:
+          - '  <#91c183>*Torvald solemnly hands over a certificate and reward*'
+          - '  <#91c183>Excellent report, %player_name%! Contract closed.'
+          - '  <#91c183>Command acknowledges your high training.'
+          - '  <#c8c8c8>Receive the well-deserved outpost reward!'
+        options: *torvald_options
+
+      help_weekly:
+        sound: ITEM_BOOK_PAGE_TURN
+        text:
+          - '  <#81a1c1>&l[ Guide: Weekly Contracts ]'
+          - '  <#c8c8c8>• Contracts are updated every 7 days.'
+          - '  <#c8c8c8>• They require more effort and preparation.'
+          - '  <#c8c8c8>• By completing them, you get elite rewards,'
+          - '  <#c8c8c8>  great experience and rare trophies.'
+        options:
+          - text: '<#9b88b3>⬅ Return to Torvald'
+            lore:
+              - '<#8f8f8f>Return to the main conversation'
+            material: SPECTRAL_ARROW
+            action: "goto:start:skip"
+            slot: 22
+
+      rumor_cmd:
+        sound: ENTITY_EXPERIENCE_ORB_PICKUP
+        text:
+          - '  <#9b88b3>&l[ Intelligence Reports ]'
+          - '  <#c8c8c8>My scouts monitor the sector around the clock.'
+          - '  <#c8c8c8>Which operational report interests you?'
+        options:
+          - text: '<#9b88b3>Northern ancient ruins'
+            lore:
+              - '<#8f8f8f>Report on the activity of crossbowmen'
+              - '<#8f8f8f>in the abandoned fortresses.'
+            material: CROSSBOW
+            action: goto:rumor_ruins
+            slot: 13
+
+          - text: '<#89a1c6>Mines and armored skeletons'
+            lore:
+              - '<#8f8f8f>Information about elite enemies'
+              - '<#8f8f8f>in deep dungeons.'
+            material: IRON_CHESTPLATE
+            action: goto:rumor_undead
+            slot: 20
+
+          - text: '<#7cb387>Tactical advice from the commander'
+            lore:
+              - '<#8f8f8f>Tips on shield blocking'
+              - '<#8f8f8f>and weapon preservation.'
+            material: SHIELD
+            action: goto:rumor_tactics
+            slot: 24
+
+          - text: '<#c97a7a>⬅ Go back'
+            lore:
+              - '<#8f8f8f>Return to the main menu'
+            material: SPECTRAL_ARROW
+            action: goto:start:skip
+            slot: 22
+
+      rumor_ruins:
+        # sound: ENTITY_VILLAGER_YES
+        text:
+          - '  <whisper><#c8c8c8>Sentries report that in the northern ruins</whisper>'
+          - '  <#c8c8c8>skeleton-crossbowmen have set up an ambush.</#c8c8c8>'
+          - '  <#c8c8c8>They use poisoned arrows!'
+          - '  <#c8c8c8>If you go there on a weekly patrol — take a sturdy shield.'
+        options:
+          - text: '<#9b88b3>⬅ Return to reports'
+            lore:
+              - '<#8f8f8f>Return to the intelligence menu'
+            material: SPECTRAL_ARROW
+            action: goto:rumor_cmd:skip
+            slot: 22
+
+      rumor_undead:
+        # sound: ENTITY_VILLAGER_YES
+        text:
+          - '  <whisper><#c8c8c8>In the abandoned mines to the east appeared</whisper>'
+          - '  <#c8c8c8>armored skeletons with ancient iron axes.'
+          - '  <#c8c8c8>A normal sword hardly penetrates their plate armor.'
+          - '  <#c8c8c8>I advise taking heavy warhammers or enchanted weapons!'
+        options:
+          - text: '<#9b88b3>⬅ Return to reports'
+            lore:
+              - '<#8f8f8f>Return to the intelligence menu'
+            material: SPECTRAL_ARROW
+            action: goto:rumor_cmd:skip
+            slot: 22
+
+      rumor_tactics:
+        # sound: ENTITY_VILLAGER_YES
+        text:
+          - '  <whisper><#c8c8c8>The main secret of a long battle is saving energy.</whisper>'
+          - '  <#c8c8c8>Don''t exhaust your blade on minor monsters, keep your distance.'
+          - '  <#c8c8c8>Always check armor durability before a tough'
+          - '  <#c8c8c8>weekly contract, so you don''t end up unprotected!'
+        options:
+          - text: '<#9b88b3>⬅ Return to reports'
+            lore:
+              - '<#8f8f8f>Return to the intelligence menu'
+            material: SPECTRAL_ARROW
+            action: goto:rumor_cmd:skip
+            slot: 22

@@ -1,0 +1,63 @@
+id: weekly_enchanters_workshop
+name: <#c4b5fd>✨ Enchanter's Workshop
+icon-material: ENCHANTING_TABLE
+
+rotation-pool: "epic"
+
+description:
+- <#cccccc>Arcanists have uncovered new pages of knowledge.
+- <#cccccc>Gather experience, enchant your gear,
+- <#cccccc>and secure the result with an anvil.
+- ""
+- "<#f472b6>⭐ <#cccccc>Rarity: <#fbcfe8>Epic"
+rewards-description:
+- <#a7ff99>+1300 coins
+- <#ffe08a>+3 levels +250 XP
+- <#7dd3ff>+Enchanting Kit
+quest-path:
+  stage-1:
+    objective:
+      type: EXPERIENCE_ORB_PICKUP
+      amount: 1000
+  stage-2:
+    objective:
+      type: ITEM_ENCHANT
+      amount: 3
+      target-materials:
+      - DIAMOND_SWORD
+      - DIAMOND_PICKAXE
+      - BOW
+  stage-3:
+    objective:
+      type: ANVIL_USE
+      amount: 6
+rewards:
+  money:
+    amount: 1300
+    silent: false
+  xp:
+    levels: 3
+    points: 250
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: LAPIS_LAZULI
+      amount: 24
+      name: <#7dd3ff>Enchanting Kit
+      lore:
+      - <#cccccc>Lapis for enchanting tables.
+    - material: ANVIL
+      amount: 1
+      name: <#7dd3ff>Apprentice's Anvil
+      lore:
+      - <#cccccc>Useful for repairs and renaming.
+  effects:
+    silent: false
+    list:
+    - NIGHT_VISION:0:240
+quest-effects:
+  activate: quest_activate_start
+  stage-change: quest_stage_change
+  complete: quest_complete_success
+

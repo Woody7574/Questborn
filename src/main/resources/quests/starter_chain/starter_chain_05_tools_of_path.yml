@@ -1,0 +1,58 @@
+id: starter_chain_05_tools_of_path
+name: <#7dd3ff>🛠 Tools of the Journey
+icon-material: STONE_AXE
+slot: 30
+page: 1
+require-quests:
+- starter_chain_04_furnace_rhythm
+description:
+- <#cccccc>A good tool saves time.
+- <#cccccc>Craft a basic set for mining and chopping.
+- <#cccccc>Mastery starts with discipline.
+rewards-description:
+- <#a7ff99>+260 coins
+- <#ffe08a>+110 XP
+- <#7dd3ff>+Craftsman's Belt
+quest-path:
+  stage-1:
+    objective:
+      type: ITEM_CRAFT
+      amount: 1
+      target-materials:
+      - STONE_PICKAXE
+  stage-2:
+    objective:
+      type: ITEM_CRAFT
+      amount: 1
+      target-materials:
+      - STONE_AXE
+  stage-3:
+    objective:
+      type: OPEN_CONTAINER
+      amount: 6
+      containers:
+      - CHEST
+      - BARREL
+rewards:
+  money:
+    amount: 260
+    silent: false
+  xp:
+    points: 110
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: LEATHER
+      amount: 8
+      name: <#7dd3ff>Craftsman's Belt
+      lore:
+      - <#cccccc>A small bonus for crafting.
+  effects:
+    silent: false
+    list:
+    - SPEED:0:120
+quest-effects:
+  activate: quest_activate_start
+  stage-change: quest_stage_change
+  complete: quest_complete_success

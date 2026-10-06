@@ -1,0 +1,57 @@
+# Unique ID of the quest. Should be same as file name.
+id: "global_zombies"
+page: 2
+
+# Link to the quest type category
+type: global
+
+name: "<#d9aa73>🧟 Zombie Apocalypse"
+description:
+  - "<#cccccc>A massive event across the server!"
+  - "<#cccccc>Undead hordes are coming. Unite"
+  - "<#cccccc>your forces and destroy zombies together!"
+
+icon-material: ZOMBIE_HEAD
+slot: 21
+
+# Global Settings
+max-participants: 50
+min-participants: 3
+personal-limit: 100
+reward-step: 50
+
+# Objectives
+objective:
+  type: "KILL_ENTITY"
+  amount: 1000
+  target-entities:
+    - ZOMBIE
+
+# Rewards Displayed in GUI
+rewards-description:
+  - " <#a8dbd4>+ 1x Diamond | $80 | 100 EXP <#777777>(per 50)"
+  - " <#ab9aab>+ 2x Netherite Ingot | $3000 | 2000 EXP <#777777>(final)"
+
+# Rewards (Includes guaranteed rewards and step-rewards)
+rewards:
+  money: 3000
+  xp: 2000
+  items:
+    silent: false
+    list:
+      - material: NETHERITE_INGOT
+        amount: 2
+  step-rewards:
+    money: 80
+    xp: 100
+    items:
+      silent: false
+      list:
+        - material: DIAMOND
+          amount: 1
+
+quest-effects:
+  activate: quest_activate_important
+  complete: global_contribution_max
+
+

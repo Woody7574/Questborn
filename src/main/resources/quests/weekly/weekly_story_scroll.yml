@@ -1,0 +1,56 @@
+id: weekly_story_scroll
+name: <#fbbf24>📜 Weekly Chronicle
+icon-material: WRITABLE_BOOK
+
+rotation-pool: "rare"
+
+description:
+- <#cccccc>Heroes create stories, and scribes preserve them.
+- <#cccccc>Fill a book and leave a mark for those to come,
+- <#cccccc>so the legend lives on.
+- ""
+- "<#93c5fd>⭐ <#cccccc>Rarity: <#bfdbfe>Rare"
+rewards-description:
+- <#a7ff99>+800 coins
+- <#ffe08a>+300 XP
+- <#7dd3ff>+Keepsake Scroll
+quest-path:
+  stage-1:
+    objective:
+      type: BOOK_EDIT
+      amount: 1
+      message: Questborn Chronicle
+  stage-2:
+    objective:
+      type: SIGN_EDIT
+      amount: 1
+      message: Welcome!
+  stage-3:
+    objective:
+      type: CHAT_MESSAGE
+      amount: 1
+      message: Glory to Questborn!
+rewards:
+  money:
+    amount: 800
+    silent: false
+  xp:
+    points: 300
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: WRITTEN_BOOK
+      amount: 1
+      name: <#7dd3ff>Keepsake Scroll
+      lore:
+      - <#cccccc>Keep it as a memory of the week.
+  effects:
+    silent: false
+    list:
+    - NIGHT_VISION:0:180
+quest-effects:
+  activate: quest_activate_start
+  stage-change: quest_stage_change
+  complete: quest_complete_success
+

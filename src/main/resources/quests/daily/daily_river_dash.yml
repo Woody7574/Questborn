@@ -1,0 +1,29 @@
+id: daily_river_dash
+name: <#60a5fa>🚤 River Run
+icon-material: OAK_BOAT
+
+rotation-pool: "common"
+
+description:
+- <#cccccc>Caravans travel by river — time to check the route.
+- <#cccccc>Stick to the banks and avoid obstacles.
+- <#cccccc>Travel by boat <#60a5fa>600 blocks.
+- ""
+- "<#86efac>⭐ <#cccccc>Rarity: <#bbf7d0>Common"
+rewards-description:
+- <#a7ff99>+170 coins
+- <#ffe08a>+80 XP
+- <#7dd3ff>+Water Breathing (3 min)
+objective:
+  type: BOAT_TRAVEL
+  distance: 600
+rewards:
+  money: 170
+  xp: 80
+  effects:
+    list:
+    - WATER_BREATHING:0:180
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success
+

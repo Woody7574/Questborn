@@ -1,0 +1,32 @@
+id: daily_first_enchant
+name: <#c4b5fd>✨ First Enchantment
+icon-material: ENCHANTING_TABLE
+
+rotation-pool: "rare"
+
+description:
+- <#cccccc>Guild scholars are collecting data on magic.
+- <#cccccc>Run a simple experiment.
+- <#cccccc>Enchant <#c4b5fd>1 book.
+- ""
+- "<#93c5fd>⭐ <#cccccc>Rarity: <#bfdbfe>Rare"
+rewards-description:
+- <#a7ff99>+220 coins
+- <#ffe08a>+110 XP
+- <#7dd3ff>+16 Lapis Lazuli
+objective:
+  type: ITEM_ENCHANT
+  amount: 1
+  target-materials:
+  - BOOK
+rewards:
+  money: 220
+  xp: 110
+  items:
+    list:
+    - material: LAPIS_LAZULI
+      amount: 16
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success
+

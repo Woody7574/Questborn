@@ -1,0 +1,3013 @@
+locale:
+  items:
+    "abandoned_camp_map": Mapa do opuszczonego obozowiska
+    "abandoned_campsite_map": Mapa do opuszczonego obozowiska
+    "acacia_boat": Akacjowa łódka
+    "acacia_chest_boat": Akacjowa łódka ze skrzynią
+    "allay_spawn_egg": Jajo przyzywające otuszka
+    "amethyst_shard": Odłamek ametystu
+    "ancient_city_map": Mapa do pradawnego miasta
+    "angler_pottery_shard": Odłamek ceramiki „Rybak”
+    "angler_pottery_sherd": Odłamek ceramiki „Rybak”
+    "apple": Jabłko
+    "archer_pottery_shard": Odłamek ceramiki „Łucznik”
+    "archer_pottery_sherd": Odłamek ceramiki „Łucznik”
+    "armadillo_scute": Tarczka pancernika
+    "armadillo_spawn_egg": Jajo przyzywające pancernika
+    "armor_stand": Stojak na zbroję
+    "arms_up_pottery_shard": Odłamek ceramiki „Ręce w górze”
+    "arms_up_pottery_sherd": Odłamek ceramiki „Ręce w górze”
+    "arrow": Strzała
+    "axolotl_bucket": Wiadro z aksolotlem
+    "axolotl_spawn_egg": Jajo przyzywające aksolotla
+    "baked_potato": Pieczony ziemniak
+    "bamboo_chest_raft": Bambusowa tratwa ze skrzynią
+    "bamboo_raft": Bambusowa tratwa
+    "bat_spawn_egg": Jajo przyzywające nietoperza
+    "bee_spawn_egg": Jajo przyzywające pszczołę
+    "beef": Surowa wołowina
+    "beetroot": Burak
+    "beetroot_seeds": Nasiona buraka
+    "beetroot_soup": Barszcz czerwony
+    "birch_boat": Brzozowa łódka
+    "birch_chest_boat": Brzozowa łódka ze skrzynią
+    "black_bundle": Czarna sakwa
+    "black_cushion": Czarna poduszka
+    "black_dye": Czarny barwnik
+    "black_harness": Czarna uprząż
+    "blade_pottery_shard": Odłamek ceramiki „Ostrze”
+    "blade_pottery_sherd": Odłamek ceramiki „Ostrze”
+    "blaze_powder": Płomienny proszek
+    "blaze_rod": Płomienna różdżka
+    "blaze_spawn_egg": Jajo przyzywające płomyka
+    "blue_bundle": Niebieska sakwa
+    "blue_cushion": Niebieska poduszka
+    "blue_dye": Niebieski barwnik
+    "blue_egg": Niebieskie jajko
+    "blue_harness": Niebieska uprząż
+    "bogged_spawn_egg": Jajo przyzywające bagniaka
+    "bolt_armor_trim_smithing_template": Szablon kowalski
+    "bone": Kość
+    "bone_meal": Mączka kostna
+    "book": Książka
+    "bordure_indented_banner_pattern": Wzór sztandaru — ząbkowane obramowanie
+    "bow": Łuk
+    "bowl": Miska
+    "bread": Chleb
+    "breeze_rod": Wichrowa różdżka
+    "breeze_spawn_egg": Jajo przyzywające wichrzyka
+    "brewer_pottery_shard": Odłamek ceramiki „Alchemik”
+    "brewer_pottery_sherd": Odłamek ceramiki „Alchemik”
+    "brewing_stand": Statyw alchemiczny
+    "brick": Cegła
+    "brown_bundle": Brązowa sakwa
+    "brown_cushion": Brązowa poduszka
+    "brown_dye": Brązowy barwnik
+    "brown_egg": Brązowe jajko
+    "brown_harness": Brązowa uprząż
+    "brush": Pędzel
+    "bucket": Wiadro
+    "bundle": Sakwa
+    "bundle_empty_description": Może przechowywać stos różnorakich przedmiotów
+    "buried_ancient_city_map": Mapa do zakopanego pradawnego miasta
+    "buried_mineshaft_map": Mapa do opuszczonej kopalni
+    "buried_treasure_map": Mapa do ukrytego skarbu
+    "buried_trial_chambers_map": Mapa do zakopanej komnaty prób
+    "burn_pottery_shard": Odłamek ceramiki „Płomień”
+    "burn_pottery_sherd": Odłamek ceramiki „Płomień”
+    "camel_husk_spawn_egg": Jajo przyzywające wielbłąda-posucha
+    "camel_spawn_egg": Jajo przyzywające wielbłąda
+    "carrot": Marchewka
+    "carrot_on_a_stick": Marchewka na patyku
+    "cat_spawn_egg": Jajo przyzywające kota
+    "cauldron": Kocioł
+    "cave_spider_spawn_egg": Jajo przyzywające pająka jaskiniowego
+    "chainmail_boots": Kolcze buty
+    "chainmail_chestplate": Kolczy napierśnik
+    "chainmail_helmet": Kolczy hełm
+    "chainmail_leggings": Kolcze nogawice
+    "charcoal": Węgiel drzewny
+    "cherry_boat": Wiśniowa łódka
+    "cherry_chest_boat": Wiśniowa łódka ze skrzynią
+    "chest_minecart": Wagonik ze skrzynią
+    "chicken": Surowy kurczak
+    "chicken_spawn_egg": Jajo przyzywające kurę
+    "chorus_fruit": Owoc refrenusu
+    "clay_ball": Kulka gliny
+    "clock": Zegar
+    "coal": Węgiel
+    "coast_armor_trim_smithing_template": Szablon kowalski
+    "cocoa_beans": Ziarna kakaowe
+    "cod": Surowy dorsz
+    "cod_bucket": Wiadro z dorszem
+    "cod_spawn_egg": Jajo przyzywające dorsza
+    "command_block_minecart": Wagonik z blokiem poleceń
+    "compass": Kompas
+    "cooked_beef": Pieczona wołowina
+    "cooked_chicken": Pieczony kurczak
+    "cooked_cod": Pieczony dorsz
+    "cooked_mutton": Pieczona baranina
+    "cooked_porkchop": Pieczona wieprzowina
+    "cooked_rabbit": Pieczony królik
+    "cooked_salmon": Pieczony łosoś
+    "cookie": Ciastko
+    "copper_axe": Miedziana siekiera
+    "copper_boots": Miedziane buty
+    "copper_chestplate": Miedziany napierśnik
+    "copper_golem_spawn_egg": Jajo przyzywające miedzianego golema
+    "copper_helmet": Miedziany hełm
+    "copper_hoe": Miedziana motyka
+    "copper_horse_armor": Miedziana zbroja końska
+    "copper_ingot": Sztabka miedzi
+    "copper_leggings": Miedziane nogawice
+    "copper_nautilus_armor": Miedziana zbroja łodzika
+    "copper_nugget": Bryłka miedzi
+    "copper_pickaxe": Miedziany kilof
+    "copper_shovel": Miedziana łopata
+    "copper_spear": Miedziana włócznia
+    "copper_sword": Miedziany miecz
+    "cow_spawn_egg": Jajo przyzywające krowę
+    "creaking_spawn_egg": Jajo przyzywające trzeszcza
+    "creeper_banner_pattern": Wzór sztandaru
+    "creeper_spawn_egg": Jajo przyzywające creepera
+    "crossbow": Kusza
+    "crossbow_projectile": "Pocisk:"
+    "cyan_bundle": Błękitna sakwa
+    "cyan_cushion": Błękitna poduszka
+    "cyan_dye": Błękitny barwnik
+    "cyan_harness": Błękitna uprząż
+    "danger_pottery_shard": Odłamek ceramiki „Zagrożenie”
+    "danger_pottery_sherd": Odłamek ceramiki „Zagrożenie”
+    "dark_oak_boat": Ciemnodębowa łódka
+    "dark_oak_chest_boat": Ciemnodębowa łódka ze skrzynią
+    "debug_stick": Patyk debugujący
+    "desert_pyramid_map": Mapa do piramidy na pustyni
+    "desert_village_map": Mapa do pustynnej wioski
+    "diamond": Diament
+    "diamond_axe": Diamentowa siekiera
+    "diamond_boots": Diamentowe buty
+    "diamond_chestplate": Diamentowy napierśnik
+    "diamond_helmet": Diamentowy hełm
+    "diamond_hoe": Diamentowa motyka
+    "diamond_horse_armor": Diamentowa zbroja końska
+    "diamond_leggings": Diamentowe nogawice
+    "diamond_nautilus_armor": Diamentowa zbroja łodzika
+    "diamond_pickaxe": Diamentowy kilof
+    "diamond_shovel": Diamentowa łopata
+    "diamond_spear": Diamentowa włócznia
+    "diamond_sword": Diamentowy miecz
+    "disc_fragment_5": Fragment płyty
+    "dolphin_spawn_egg": Jajo przyzywające delfina
+    "donkey_spawn_egg": Jajo przyzywające osła
+    "dragon_breath": Oddech smoka
+    "dried_kelp": Suszony wodorost
+    "drowned_spawn_egg": Jajo przyzywające utopca
+    "dune_armor_trim_smithing_template": Szablon kowalski
+    "echo_shard": Odłamek echa
+    "egg": Jajko
+    "elder_guardian_spawn_egg": Jajo przyzywające prastrażnika
+    "elytra": Elytry
+    "emerald": Szmaragd
+    "enchanted_book": Zaklęta książka
+    "enchanted_golden_apple": Zaklęte złote jabłko
+    "end_crystal": Kryształ Endu
+    "ender_dragon_spawn_egg": Jajo przyzywające smoka Endu
+    "ender_eye": Oko Endera
+    "ender_pearl": Enderperła
+    "enderman_spawn_egg": Jajo przyzywające endermana
+    "endermite_spawn_egg": Jajo przyzywające endermita
+    "evoker_spawn_egg": Jajo przyzywające przywoływacza
+    "experience_bottle": Zaklęta butelka
+    "explorer_pottery_shard": Odłamek ceramiki „Odkrywca”
+    "explorer_pottery_sherd": Odłamek ceramiki „Odkrywca”
+    "eye_armor_trim_smithing_template": Szablon kowalski
+    "feather": Pióro
+    "fermented_spider_eye": Sfermentowane oko pająka
+    "field_masoned_banner_pattern": Wzór sztandaru — mur
+    "filled_map": Mapa
+    "fire_charge": Ognista kula
+    "firework_rocket": Fajerwerk
+    "firework_star": Gwiazdka pirotechniczna
+    "firework_star_black": Czarny
+    "firework_star_blue": Niebieski
+    "firework_star_brown": Brązowy
+    "firework_star_custom_color": Własny
+    "firework_star_cyan": Błękitny
+    "firework_star_gray": Szary
+    "firework_star_green": Zielony
+    "firework_star_light_blue": Jasnoniebieski
+    "firework_star_light_gray": Jasnoszary
+    "firework_star_lime": Jasnozielony
+    "firework_star_magenta": Purpurowy
+    "firework_star_orange": Pomarańczowy
+    "firework_star_pink": Różowy
+    "firework_star_purple": Fioletowy
+    "firework_star_red": Czerwony
+    "firework_star_shape_burst": Rozproszenie
+    "firework_star_shape_creeper": Kształt creepera
+    "firework_star_shape_large_ball": Duża kula
+    "firework_star_shape_small_ball": Mała kula
+    "firework_star_shape_star": Kształt gwiazdy
+    "firework_star_white": Biały
+    "firework_star_yellow": Żółty
+    "fishing_rod": Wędka
+    "flint": Krzemień
+    "flint_and_steel": Krzesiwo
+    "flow_armor_trim_smithing_template": Szablon kowalski
+    "flow_banner_pattern": Wzór sztandaru
+    "flow_pottery_sherd": Odłamek ceramiki „Nurt”
+    "flower_banner_pattern": Wzór sztandaru
+    "flower_pot": Doniczka
+    "fox_spawn_egg": Jajo przyzywające lisa
+    "friend_pottery_shard": Odłamek ceramiki „Druh”
+    "friend_pottery_sherd": Odłamek ceramiki „Druh”
+    "frog_spawn_egg": Jajo przyzywające żabę
+    "furnace_minecart": Napędzany wagonik
+    "ghast_spawn_egg": Jajo przyzywające ghasta
+    "ghast_tear": Łza ghasta
+    "glass_bottle": Szklana butelka
+    "glistering_melon_slice": Kawałek lśniącego arbuza
+    "globe_banner_pattern": Wzór sztandaru
+    "glow_berries": Świecące jagody
+    "glow_ink_sac": Torbiel ze świecącym atramentem
+    "glow_item_frame": Świecąca ramka na przedmiot
+    "glow_squid_spawn_egg": Jajo przyzywające świecącą kałamarnicę
+    "glowstone_dust": Jasnopył
+    "goat_horn": Kozi róg
+    "goat_spawn_egg": Jajo przyzywające kozę
+    "gold_ingot": Sztabka złota
+    "gold_nugget": Bryłka złota
+    "golden_apple": Złote jabłko
+    "golden_axe": Złota siekiera
+    "golden_boots": Złote buty
+    "golden_carrot": Złota marchewka
+    "golden_chestplate": Złoty napierśnik
+    "golden_helmet": Złoty hełm
+    "golden_hoe": Złota motyka
+    "golden_horse_armor": Złota zbroja końska
+    "golden_leggings": Złote nogawice
+    "golden_nautilus_armor": Złota zbroja łodzika
+    "golden_pickaxe": Złoty kilof
+    "golden_shovel": Złota łopata
+    "golden_spear": Złota włócznia
+    "golden_sword": Złoty miecz
+    "gray_bundle": Szara sakwa
+    "gray_cushion": Szara poduszka
+    "gray_dye": Szary barwnik
+    "gray_harness": Szara uprząż
+    "green_bundle": Zielona sakwa
+    "green_cushion": Zielona poduszka
+    "green_dye": Zielony barwnik
+    "green_harness": Zielona uprząż
+    "guardian_spawn_egg": Jajo przyzywające strażnika
+    "gunpowder": Proch
+    "guster_banner_pattern": Wzór sztandaru
+    "guster_pottery_sherd": Odłamek ceramiki „Podmuch”
+    "happy_ghast_spawn_egg": Jajo przyzywające wesołego ghasta
+    "harness": Uprząż
+    "heart_of_the_sea": Serce oceanu
+    "heart_pottery_shard": Odłamek ceramiki „Serce”
+    "heart_pottery_sherd": Odłamek ceramiki „Serce”
+    "heartbreak_pottery_shard": Odłamek ceramiki „Złamane serce”
+    "heartbreak_pottery_sherd": Odłamek ceramiki „Złamane serce”
+    "hoglin_spawn_egg": Jajo przyzywające hoglina
+    "honey_bottle": Butelka miodu
+    "honeycomb": Plaster miodu
+    "hopper_minecart": Wagonik z lejem
+    "horse_spawn_egg": Jajo przyzywające konia
+    "host_armor_trim_smithing_template": Szablon kowalski
+    "howl_pottery_shard": Odłamek ceramiki „Skowyt”
+    "howl_pottery_sherd": Odłamek ceramiki „Skowyt”
+    "husk_spawn_egg": Jajo przyzywające posucha
+    "ink_sac": Torbiel z atramentem
+    "iron_axe": Żelazna siekiera
+    "iron_boots": Żelazne buty
+    "iron_chestplate": Żelazny napierśnik
+    "iron_golem_spawn_egg": Jajo przyzywające żelaznego golema
+    "iron_helmet": Żelazny hełm
+    "iron_hoe": Żelazna motyka
+    "iron_horse_armor": Żelazna zbroja końska
+    "iron_ingot": Sztabka żelaza
+    "iron_leggings": Żelazne nogawice
+    "iron_nautilus_armor": Żelazna zbroja łodzika
+    "iron_nugget": Bryłka żelaza
+    "iron_pickaxe": Żelazny kilof
+    "iron_shovel": Żelazna łopata
+    "iron_spear": Żelazna włócznia
+    "iron_sword": Żelazny miecz
+    "item_frame": Ramka na przedmiot
+    "jungle_boat": Tropikalna łódka
+    "jungle_chest_boat": Tropikalna łódka ze skrzynią
+    "jungle_explorer_map": Mapa eksploracyjna do dżungli
+    "jungle_pyramid_map": Mapa do piramidy w dżungli
+    "knowledge_book": Księga wiedzy
+    "lapis_lazuli": Lazuryt
+    "lava_bucket": Wiadro lawy
+    "lead": Lina
+    "leather": Skóra
+    "leather_boots": Skórzane buty
+    "leather_chestplate": Skórzana tunika
+    "leather_helmet": Skórzana czapka
+    "leather_horse_armor": Skórzana zbroja końska
+    "leather_leggings": Skórzane spodnie
+    "light_blue_bundle": Jasnoniebieska sakwa
+    "light_blue_cushion": Jasnoniebieska poduszka
+    "light_blue_dye": Jasnoniebieski barwnik
+    "light_blue_harness": Jasnoniebieska uprząż
+    "light_gray_bundle": Jasnoszara sakwa
+    "light_gray_cushion": Jasnoszara poduszka
+    "light_gray_dye": Jasnoszary barwnik
+    "light_gray_harness": Jasnoszara uprząż
+    "lime_bundle": Jasnozielona sakwa
+    "lime_cushion": Jasnozielona poduszka
+    "lime_dye": Jasnozielony barwnik
+    "lime_harness": Jasnozielona uprząż
+    "lingering_potion": Trwała mikstura
+    "lingering_potion_awkward": Trwała klarowna mikstura
+    "lingering_potion_fire_resistance": Trwała mikstura ognioodporności
+    "lingering_potion_harming": Trwała mikstura krzywdy
+    "lingering_potion_healing": Trwała mikstura leczenia
+    "lingering_potion_infested": Trwała mikstura zarobaczenia
+    "lingering_potion_invisibility": Trwała mikstura niewidzialności
+    "lingering_potion_leaping": Trwała mikstura skoku
+    "lingering_potion_levitation": Trwała mikstura lewitacji
+    "lingering_potion_luck": Trwała mikstura szczęścia
+    "lingering_potion_mundane": Trwała mdła mikstura
+    "lingering_potion_night_vision": Trwała mikstura noktowizji
+    "lingering_potion_oozing": Trwała mikstura zaszlamienia
+    "lingering_potion_poison": Trwała mikstura zatrucia
+    "lingering_potion_regeneration": Trwała mikstura regeneracji
+    "lingering_potion_slow_falling": Trwała mikstura powolnego opadania
+    "lingering_potion_slowness": Trwała mikstura spowolnienia
+    "lingering_potion_strength": Trwała mikstura siły
+    "lingering_potion_swiftness": Trwała mikstura szybkości
+    "lingering_potion_thick": Trwała gęsta mikstura
+    "lingering_potion_turtle_master": Trwała mikstura żółwiego mistrza
+    "lingering_potion_water": Trwała butelka wody
+    "lingering_potion_water_breathing": Trwała mikstura oddychania pod wodą
+    "lingering_potion_weakness": Trwała mikstura słabości
+    "lingering_potion_weaving": Trwała mikstura przędzenia
+    "lingering_potion_wind_charged": Trwała mikstura napowietrzenia
+    "llama_spawn_egg": Jajo przyzywające lamę
+    "lodestone_compass": Magnetytowy kompas
+    "mace": Buzdygan
+    "magenta_bundle": Purpurowa sakwa
+    "magenta_cushion": Purpurowa poduszka
+    "magenta_dye": Purpurowy barwnik
+    "magenta_harness": Purpurowa uprząż
+    "magma_cream": Magmowy krem
+    "magma_cube_spawn_egg": Jajo przyzywające kostkę magmy
+    "mangrove_boat": Namorzynowa łódka
+    "mangrove_chest_boat": Namorzynowa łódka ze skrzynią
+    "map": Pusta mapa
+    "melon_seeds": Nasiona arbuza
+    "melon_slice": Kawałek arbuza
+    "milk_bucket": Wiadro mleka
+    "minecart": Wagonik
+    "miner_pottery_shard": Odłamek ceramiki „Górnik”
+    "miner_pottery_sherd": Odłamek ceramiki „Górnik”
+    "mineshaft_map": Mapa do opuszczonej kopalni
+    "mojang_banner_pattern": Wzór sztandaru
+    "mooshroom_spawn_egg": Jajo przyzywające mooshrooma
+    "mourner_pottery_shard": Odłamek ceramiki „Żałobnik”
+    "mourner_pottery_sherd": Odłamek ceramiki „Żałobnik”
+    "mule_spawn_egg": Jajo przyzywające muła
+    "mushroom_stew": Zupa grzybowa
+    "music_disc_11": Płyta muzyczna
+    "music_disc_13": Płyta muzyczna
+    "music_disc_5": Płyta muzyczna
+    "music_disc_blocks": Płyta muzyczna
+    "music_disc_bounce": Płyta muzyczna
+    "music_disc_cat": Płyta muzyczna
+    "music_disc_chirp": Płyta muzyczna
+    "music_disc_creator": Płyta muzyczna
+    "music_disc_creator_music_box": Płyta muzyczna
+    "music_disc_far": Płyta muzyczna
+    "music_disc_lava_chicken": Płyta muzyczna
+    "music_disc_mall": Płyta muzyczna
+    "music_disc_mellohi": Płyta muzyczna
+    "music_disc_otherside": Płyta muzyczna
+    "music_disc_pigstep": Płyta muzyczna
+    "music_disc_precipice": Płyta muzyczna
+    "music_disc_relic": Płyta muzyczna
+    "music_disc_stal": Płyta muzyczna
+    "music_disc_strad": Płyta muzyczna
+    "music_disc_tears": Płyta muzyczna
+    "music_disc_wait": Płyta muzyczna
+    "music_disc_ward": Płyta muzyczna
+    "mutton": Surowa baranina
+    "name_tag": Plakietka
+    "nautilus_shell": Muszla łodzika
+    "nautilus_spawn_egg": Jajo przyzywające łodzika
+    "nether_brick": Netherowa cegła
+    "nether_star": Netherowa gwiazda
+    "nether_wart": Netherowa brodawka
+    "netherite_axe": Netherytowa siekiera
+    "netherite_boots": Netherytowe buty
+    "netherite_chestplate": Netherytowy napierśnik
+    "netherite_helmet": Netherytowy hełm
+    "netherite_hoe": Netherytowa motyka
+    "netherite_horse_armor": Netherytowa zbroja końska
+    "netherite_ingot": Sztabka netherytu
+    "netherite_leggings": Netherytowe nogawice
+    "netherite_nautilus_armor": Netherytowa zbroja łodzika
+    "netherite_pickaxe": Netherytowy kilof
+    "netherite_scrap": Odłamek netherytu
+    "netherite_shovel": Netherytowa łopata
+    "netherite_spear": Netherytowa włócznia
+    "netherite_sword": Netherytowy miecz
+    "netherite_upgrade_smithing_template": Szablon kowalski
+    "oak_boat": Dębowa łódka
+    "oak_chest_boat": Dębowa łódka ze skrzynią
+    "ocean_explorer_map": Mapa eksploracyjna do oceanu
+    "ocean_monument_map": Mapa do podwodnej świątyni
+    "ocelot_spawn_egg": Jajo przyzywające ocelota
+    "ominous_bottle": Złowieszcza butelka
+    "ominous_trial_key": Złowieszczy klucz próby
+    "orange_bundle": Pomarańczowa sakwa
+    "orange_cushion": Pomarańczowa poduszka
+    "orange_dye": Pomarańczowy barwnik
+    "orange_harness": Pomarańczowa uprząż
+    "painting": Obraz
+    "pale_oak_boat": Bladodębowa łódka
+    "pale_oak_chest_boat": Bladodębowa łódka ze skrzynią
+    "panda_spawn_egg": Jajo przyzywające pandę
+    "paper": Papier
+    "parched_spawn_egg": Jajo przyzywające oschlaka
+    "parrot_spawn_egg": Jajo przyzywające papugę
+    "phantom_membrane": Błona fantoma
+    "phantom_spawn_egg": Jajo przyzywające fantoma
+    "pig_spawn_egg": Jajo przyzywające świnię
+    "piglin_banner_pattern": Wzór sztandaru
+    "piglin_brute_spawn_egg": Jajo przyzywające piglina okrutnika
+    "piglin_spawn_egg": Jajo przyzywające piglina
+    "pillager_spawn_egg": Jajo przyzywające rozbójnika
+    "pink_bundle": Różowa sakwa
+    "pink_cushion": Różowa poduszka
+    "pink_dye": Różowy barwnik
+    "pink_harness": Różowa uprząż
+    "pitcher_plant": Dzbanecznik
+    "pitcher_pod": Strąk dzbanecznika
+    "plains_village_map": Mapa do równinnej wioski
+    "plenty_pottery_shard": Odłamek ceramiki „Dostatek”
+    "plenty_pottery_sherd": Odłamek ceramiki „Dostatek”
+    "poisonous_potato": Trujący ziemniak
+    "polar_bear_spawn_egg": Jajo przyzywające niedźwiedzia polarnego
+    "poplar_boat": Topolowa łódka
+    "poplar_chest_boat": Topolowa łódka ze skrzynią
+    "popped_chorus_fruit": Prażony owoc refrenusu
+    "porkchop": Surowa wieprzowina
+    "potato": Ziemniak
+    "potion": Mikstura
+    "potion_awkward": Klarowna mikstura
+    "potion_fire_resistance": Mikstura ognioodporności
+    "potion_harming": Mikstura krzywdy
+    "potion_healing": Mikstura leczenia
+    "potion_infested": Mikstura zarobaczenia
+    "potion_invisibility": Mikstura niewidzialności
+    "potion_leaping": Mikstura skoku
+    "potion_levitation": Mikstura lewitacji
+    "potion_luck": Mikstura szczęścia
+    "potion_mundane": Mdła mikstura
+    "potion_night_vision": Mikstura noktowizji
+    "potion_oozing": Mikstura zaszlamienia
+    "potion_poison": Mikstura zatrucia
+    "potion_regeneration": Mikstura regeneracji
+    "potion_slow_falling": Mikstura powolnego opadania
+    "potion_slowness": Mikstura spowolnienia
+    "potion_strength": Mikstura siły
+    "potion_swiftness": Mikstura szybkości
+    "potion_thick": Gęsta mikstura
+    "potion_turtle_master": Mikstura żółwiego mistrza
+    "potion_water": Butelka wody
+    "potion_water_breathing": Mikstura oddychania pod wodą
+    "potion_weakness": Mikstura słabości
+    "potion_weaving": Mikstura przędzenia
+    "potion_wind_charged": Mikstura napowietrzenia
+    "pottery_shard_archer": Odłamek ceramiki „Łucznik”
+    "pottery_shard_arms_up": Odłamek ceramiki „Ręce w górze”
+    "pottery_shard_prize": Odłamek ceramiki „Nagroda”
+    "pottery_shard_skull": Odłamek ceramiki „Czaszka”
+    "powder_snow_bucket": Wiadro sypkiego śniegu
+    "prismarine_crystals": Kryształy pryzmarynu
+    "prismarine_shard": Odłamek pryzmarynu
+    "prize_pottery_shard": Odłamek ceramiki „Nagroda”
+    "prize_pottery_sherd": Odłamek ceramiki „Nagroda”
+    "pufferfish": Rozdymka
+    "pufferfish_bucket": Wiadro z rozdymką
+    "pufferfish_spawn_egg": Jajo przyzywające rozdymkę
+    "pumpkin_pie": Placek dyniowy
+    "pumpkin_seeds": Nasiona dyni
+    "purple_bundle": Fioletowa sakwa
+    "purple_cushion": Fioletowa poduszka
+    "purple_dye": Fioletowy barwnik
+    "purple_harness": Fioletowa uprząż
+    "quartz": Netherowy kwarc
+    "rabbit": Surowy królik
+    "rabbit_foot": Królicza łapka
+    "rabbit_hide": Królicza skóra
+    "rabbit_spawn_egg": Jajo przyzywające królika
+    "rabbit_stew": Potrawka z królika
+    "raiser_armor_trim_smithing_template": Szablon kowalski
+    "ravager_spawn_egg": Jajo przyzywające dewastatora
+    "raw_copper": Ruda miedzi
+    "raw_gold": Surowe złoto
+    "raw_iron": Ruda żelaza
+    "recovery_compass": Kompas powrotny
+    "red_bundle": Czerwona sakwa
+    "red_cushion": Czerwona poduszka
+    "red_dye": Czerwony barwnik
+    "red_harness": Czerwona uprząż
+    "redstone": Sproszkowany redstone
+    "resin_brick": Żywicowa cegła
+    "resin_clump": Gruda żywicy
+    "rib_armor_trim_smithing_template": Szablon kowalski
+    "rotten_flesh": Zgniłe mięso
+    "saddle": Siodło
+    "salmon": Surowy łosoś
+    "salmon_bucket": Wiadro z łososiem
+    "salmon_spawn_egg": Jajo przyzywające łososia
+    "savanna_village_map": Mapa do sawannowej wioski
+    "scrape_pottery_sherd": Odłamek ceramiki „Skrobak”
+    "scute": Tarczka
+    "sentry_armor_trim_smithing_template": Szablon kowalski
+    "shaper_armor_trim_smithing_template": Szablon kowalski
+    "sheaf_pottery_shard": Odłamek ceramiki „Snop”
+    "sheaf_pottery_sherd": Odłamek ceramiki „Snop”
+    "shears": Nożyce
+    "sheep_spawn_egg": Jajo przyzywające owcę
+    "shelter_pottery_shard": Odłamek ceramiki „Ostoja”
+    "shelter_pottery_sherd": Odłamek ceramiki „Ostoja”
+    "shield": Tarcza
+    "shield_black": Czarna tarcza
+    "shield_blue": Niebieska tarcza
+    "shield_brown": Brązowa tarcza
+    "shield_cyan": Błękitna tarcza
+    "shield_gray": Szara tarcza
+    "shield_green": Zielona tarcza
+    "shield_light_blue": Jasnoniebieska tarcza
+    "shield_light_gray": Jasnoszara tarcza
+    "shield_lime": Jasnozielona tarcza
+    "shield_magenta": Purpurowa tarcza
+    "shield_orange": Pomarańczowa tarcza
+    "shield_pink": Różowa tarcza
+    "shield_purple": Fioletowa tarcza
+    "shield_red": Czerwona tarcza
+    "shield_white": Biała tarcza
+    "shield_yellow": Żółta tarcza
+    "shulker_shell": Skorupa shulkera
+    "shulker_spawn_egg": Jajo przyzywające shulkera
+    "sign": Tabliczka
+    "silence_armor_trim_smithing_template": Szablon kowalski
+    "silverfish_spawn_egg": Jajo przyzywające rybika cukrowego
+    "skeleton_horse_spawn_egg": Jajo przyzywające konia-szkieleta
+    "skeleton_spawn_egg": Jajo przyzywające szkieleta
+    "skull_banner_pattern": Wzór sztandaru
+    "skull_pottery_shard": Odłamek ceramiki „Czaszka”
+    "skull_pottery_sherd": Odłamek ceramiki „Czaszka”
+    "slime_ball": Kula szlamu
+    "slime_spawn_egg": Jajo przyzywające szlama
+    "smithing_template": Szablon kowalski
+    "sniffer_spawn_egg": Jajo przyzywające niuchacza
+    "snort_pottery_shard": Odłamek ceramiki „Niuch”
+    "snort_pottery_sherd": Odłamek ceramiki „Niuch”
+    "snout_armor_trim_smithing_template": Szablon kowalski
+    "snow_golem_spawn_egg": Jajo przyzywające śnieżnego golema
+    "snowball": Śnieżka
+    "snowy_village_map": Mapa do śnieżnej wioski
+    "spectral_arrow": Widmowa strzała
+    "spider_eye": Oko pająka
+    "spider_spawn_egg": Jajo przyzywające pająka
+    "spire_armor_trim_smithing_template": Szablon kowalski
+    "splash_potion": Mikstura miotana
+    "splash_potion_awkward": Miotana klarowna mikstura
+    "splash_potion_fire_resistance": Miotana mikstura ognioodporności
+    "splash_potion_harming": Miotana mikstura krzywdy
+    "splash_potion_healing": Miotana mikstura leczenia
+    "splash_potion_infested": Miotana mikstura zarobaczenia
+    "splash_potion_invisibility": Miotana mikstura niewidzialności
+    "splash_potion_leaping": Miotana mikstura skoku
+    "splash_potion_levitation": Miotana mikstura lewitacji
+    "splash_potion_luck": Miotana mikstura szczęścia
+    "splash_potion_mundane": Mdła mikstura miotana
+    "splash_potion_night_vision": Miotana mikstura noktowizji
+    "splash_potion_oozing": Miotana mikstura zaszlamienia
+    "splash_potion_poison": Miotana mikstura zatrucia
+    "splash_potion_regeneration": Miotana mikstura regeneracji
+    "splash_potion_slow_falling": Miotana mikstura powolnego opadania
+    "splash_potion_slowness": Miotana mikstura spowolnienia
+    "splash_potion_strength": Miotana mikstura siły
+    "splash_potion_swiftness": Miotana mikstura szybkości
+    "splash_potion_thick": Gęsta mikstura miotana
+    "splash_potion_turtle_master": Miotana mikstura żółwiego mistrza
+    "splash_potion_water": Miotana butelka wody
+    "splash_potion_water_breathing": Miotana mikstura oddychania pod wodą
+    "splash_potion_weakness": Miotana mikstura słabości
+    "splash_potion_weaving": Miotana mikstura przędzenia
+    "splash_potion_wind_charged": Miotana mikstura napowietrzenia
+    "spruce_boat": Świerkowa łódka
+    "spruce_chest_boat": Świerkowa łódka ze skrzynią
+    "spyglass": Luneta
+    "squid_spawn_egg": Jajo przyzywające kałamarnicę
+    "stick": Patyk
+    "stone_axe": Kamienna siekiera
+    "stone_hoe": Kamienna motyka
+    "stone_pickaxe": Kamienny kilof
+    "stone_shovel": Kamienna łopata
+    "stone_spear": Kamienna włócznia
+    "stone_sword": Kamienny miecz
+    "straw_bed": Słomiane łóżko
+    "stray_spawn_egg": Jajo przyzywające tułacza
+    "strider_spawn_egg": Jajo przyzywające magmołaza
+    "string": Nić
+    "sugar": Cukier
+    "sulfur_cube_bucket": Wiadro z kostką siarki
+    "sulfur_cube_spawn_egg": Jajo przyzywające kostkę siarki
+    "suspicious_stew": Podejrzana potrawka
+    "swamp_explorer_map": Mapa eksploracyjna do bagien
+    "swamp_hut_map": Mapa do chatki na bagnach
+    "sweet_berries": Słodkie jagody
+    "tadpole_bucket": Wiadro z kijanką
+    "tadpole_spawn_egg": Jajo przyzywające kijankę
+    "taiga_village_map": Mapa do tajgowej wioski
+    "tide_armor_trim_smithing_template": Szablon kowalski
+    "tipped_arrow": Strzała z miksturą
+    "tipped_arrow_awkward": Strzała z miksturą
+    "tipped_arrow_fire_resistance": Strzała ognioodporności
+    "tipped_arrow_harming": Strzała krzywdy
+    "tipped_arrow_healing": Strzała leczenia
+    "tipped_arrow_infested": Strzała zarobaczenia
+    "tipped_arrow_invisibility": Strzała niewidzialności
+    "tipped_arrow_leaping": Strzała skoku
+    "tipped_arrow_levitation": Strzała lewitacji
+    "tipped_arrow_luck": Strzała szczęścia
+    "tipped_arrow_mundane": Strzała z miksturą
+    "tipped_arrow_night_vision": Strzała noktowizji
+    "tipped_arrow_oozing": Strzała zaszlamienia
+    "tipped_arrow_poison": Strzała zatrucia
+    "tipped_arrow_regeneration": Strzała regeneracji
+    "tipped_arrow_slow_falling": Strzała powolnego opadania
+    "tipped_arrow_slowness": Strzała spowolnienia
+    "tipped_arrow_strength": Strzała siły
+    "tipped_arrow_swiftness": Strzała szybkości
+    "tipped_arrow_thick": Strzała z miksturą
+    "tipped_arrow_turtle_master": Strzała żółwiego mistrza
+    "tipped_arrow_water": Strzała chlapiąca
+    "tipped_arrow_water_breathing": Strzała oddychania pod wodą
+    "tipped_arrow_weakness": Strzała słabości
+    "tipped_arrow_weaving": Strzała przędzenia
+    "tipped_arrow_wind_charged": Strzała napowietrzenia
+    "tnt_minecart": Wagonik z TNT
+    "torchflower_seeds": Nasiona ognistego kwiatu
+    "totem_of_undying": Totem nieśmiertelności
+    "trader_llama_spawn_egg": Jajo przyzywające lamę handlarza
+    "trial_explorer_map": Mapa eksploracyjna do komnaty prób
+    "trial_key": Klucz próby
+    "trident": Trójząb
+    "tropical_fish": Ryba tropikalna
+    "tropical_fish_bucket": Wiadro z tropikalną rybą
+    "tropical_fish_spawn_egg": Jajo przyzywające rybę tropikalną
+    "turtle_helmet": Żółwia skorupa
+    "turtle_scute": Tarczka żółwia
+    "turtle_spawn_egg": Jajo przyzywające żółwia
+    "vex_armor_trim_smithing_template": Szablon kowalski
+    "vex_spawn_egg": Jajo przyzywające dręczyciela
+    "villager_spawn_egg": Jajo przyzywające osadnika
+    "vindicator_spawn_egg": Jajo przyzywające obrońcę
+    "wandering_trader_spawn_egg": Jajo przyzywające wędrownego handlarza
+    "ward_armor_trim_smithing_template": Szablon kowalski
+    "warden_spawn_egg": Jajo przyzywające nadzorcę
+    "warm_ocean_ruins_map": Mapa do podwodnych ruin
+    "warped_fungus_on_a_stick": Spaczony grzyb na patyku
+    "water_bucket": Wiadro wody
+    "wayfinder_armor_trim_smithing_template": Szablon kowalski
+    "wheat": Pszenica
+    "wheat_seeds": Nasiona pszenicy
+    "white_bundle": Biała sakwa
+    "white_cushion": Biała poduszka
+    "white_dye": Biały barwnik
+    "white_harness": Biała uprząż
+    "wild_armor_trim_smithing_template": Szablon kowalski
+    "wind_charge": Wietrzna kula
+    "witch_spawn_egg": Jajo przyzywające wiedźmę
+    "wither_skeleton_spawn_egg": Jajo przyzywające witherowego szkieleta
+    "wither_spawn_egg": Jajo przyzywające withera
+    "wolf_armor": Wilcza zbroja
+    "wolf_spawn_egg": Jajo przyzywające wilka
+    "wooden_axe": Drewniana siekiera
+    "wooden_hoe": Drewniana motyka
+    "wooden_pickaxe": Drewniany kilof
+    "wooden_shovel": Drewniana łopata
+    "wooden_spear": Drewniana włócznia
+    "wooden_sword": Drewniany miecz
+    "woodland_explorer_map": Mapa eksploracyjna do leśnego dworu
+    "woodland_mansion_map": Mapa do leśnego dworu
+    "writable_book": Książka z piórem
+    "written_book": Zapisana książka
+    "yellow_bundle": Żółta sakwa
+    "yellow_cushion": Żółta poduszka
+    "yellow_dye": Żółty barwnik
+    "yellow_harness": Żółta uprząż
+    "zoglin_spawn_egg": Jajo przyzywające zoglina
+    "zombie_horse_spawn_egg": Jajo przyzywające konia-zombie
+    "zombie_nautilus_spawn_egg": Jajo przyzywające łodzika-zombie
+    "zombie_spawn_egg": Jajo przyzywające zombie
+    "zombie_villager_spawn_egg": Jajo przyzywające osadnika-zombie
+    "zombified_piglin_spawn_egg": Jajo przyzywające zzombifikowanego piglina
+  blocks:
+    "acacia_button": Akacjowy przycisk
+    "acacia_door": Akacjowe drzwi
+    "acacia_fence": Akacjowy płot
+    "acacia_fence_gate": Akacjowa furtka
+    "acacia_hanging_sign": Akacjowa podwieszana tabliczka
+    "acacia_leaves": Akacjowe liście
+    "acacia_log": Akacjowy pień
+    "acacia_planks": Akacjowe deski
+    "acacia_pressure_plate": Akacjowa płytka naciskowa
+    "acacia_sapling": Sadzonka akacji
+    "acacia_shelf": Akacjowa półka
+    "acacia_sign": Akacjowa tabliczka
+    "acacia_slab": Akacjowa płyta
+    "acacia_stairs": Akacjowe schody
+    "acacia_trapdoor": Akacjowa klapa
+    "acacia_wall_hanging_sign": Akacjowa ścienna podwieszana tabliczka
+    "acacia_wall_sign": Akacjowa ścienna tabliczka
+    "acacia_wood": Akacjowe drewno
+    "activator_rail": Tory aktywacyjne
+    "air": Powietrze
+    "allium": Czosnek
+    "amethyst_block": Blok ametystu
+    "amethyst_cluster": Skupisko ametystu
+    "ancient_debris": Pradawne zgliszcza
+    "andesite": Andezyt
+    "andesite_slab": Andezytowa płyta
+    "andesite_stairs": Andezytowe schody
+    "andesite_wall": Andezytowy murek
+    "anvil": Kowadło
+    "attached_melon_stem": Przyłączona łodyga arbuza
+    "attached_pumpkin_stem": Przyłączona łodyga dyni
+    "azalea": Azalia
+    "azalea_leaves": Azaliowe liście
+    "azure_bluet": Houstonia błękitna
+    "bamboo": Bambus
+    "bamboo_block": Blok bambusu
+    "bamboo_button": Bambusowy przycisk
+    "bamboo_door": Bambusowe drzwi
+    "bamboo_fence": Bambusowy płot
+    "bamboo_fence_gate": Bambusowa furtka
+    "bamboo_hanging_sign": Bambusowa podwieszana tabliczka
+    "bamboo_mosaic": Bambusowa mozaika
+    "bamboo_mosaic_slab": Bambusowa mozaikowa płyta
+    "bamboo_mosaic_stairs": Bambusowe mozaikowe schody
+    "bamboo_planks": Bambusowe deski
+    "bamboo_pressure_plate": Bambusowa płytka naciskowa
+    "bamboo_sapling": Pęd bambusa
+    "bamboo_shelf": Bambusowa półka
+    "bamboo_sign": Bambusowa tabliczka
+    "bamboo_slab": Bambusowa płyta
+    "bamboo_stairs": Bambusowe schody
+    "bamboo_trapdoor": Bambusowa klapa
+    "bamboo_wall_hanging_sign": Bambusowa ścienna podwieszana tabliczka
+    "bamboo_wall_sign": Bambusowa ścienna tabliczka
+    "banner_base_black": Czarne tło
+    "banner_base_blue": Niebieskie tło
+    "banner_base_brown": Brązowe tło
+    "banner_base_cyan": Błękitne tło
+    "banner_base_gray": Szare tło
+    "banner_base_green": Zielone tło
+    "banner_base_light_blue": Jasnoniebieskie tło
+    "banner_base_light_gray": Jasnoszare tło
+    "banner_base_lime": Jasnozielone tło
+    "banner_base_magenta": Purpurowe tło
+    "banner_base_orange": Pomarańczowe tło
+    "banner_base_pink": Różowe tło
+    "banner_base_purple": Fioletowe tło
+    "banner_base_red": Czerwone tło
+    "banner_base_white": Białe tło
+    "banner_base_yellow": Żółte tło
+    "banner_border_black": Czarne obramowanie
+    "banner_border_blue": Niebieskie obramowanie
+    "banner_border_brown": Brązowe obramowanie
+    "banner_border_cyan": Błękitne obramowanie
+    "banner_border_gray": Szare obramowanie
+    "banner_border_green": Zielone obramowanie
+    "banner_border_light_blue": Jasnoniebieskie obramowanie
+    "banner_border_light_gray": Jasnoszare obramowanie
+    "banner_border_lime": Jasnozielone obramowanie
+    "banner_border_magenta": Purpurowe obramowanie
+    "banner_border_orange": Pomarańczowe obramowanie
+    "banner_border_pink": Różowe obramowanie
+    "banner_border_purple": Fioletowe obramowanie
+    "banner_border_red": Czerwone obramowanie
+    "banner_border_white": Białe obramowanie
+    "banner_border_yellow": Żółte obramowanie
+    "banner_bricks_black": Czarne murowane pole
+    "banner_bricks_blue": Niebieskie murowane pole
+    "banner_bricks_brown": Brązowe murowane pole
+    "banner_bricks_cyan": Błękitne murowane pole
+    "banner_bricks_gray": Szare murowane pole
+    "banner_bricks_green": Zielone murowane pole
+    "banner_bricks_light_blue": Jasnoniebieskie murowane pole
+    "banner_bricks_light_gray": Jasnoszare murowane pole
+    "banner_bricks_lime": Jasnozielone murowane pole
+    "banner_bricks_magenta": Purpurowe murowane pole
+    "banner_bricks_orange": Pomarańczowe murowane pole
+    "banner_bricks_pink": Różowe murowane pole
+    "banner_bricks_purple": Fioletowe murowane pole
+    "banner_bricks_red": Czerwone murowane pole
+    "banner_bricks_white": Białe murowane pole
+    "banner_bricks_yellow": Żółte murowane pole
+    "banner_circle_black": Czarny krąg
+    "banner_circle_blue": Niebieski krąg
+    "banner_circle_brown": Brązowy krąg
+    "banner_circle_cyan": Błękitny krąg
+    "banner_circle_gray": Szary krąg
+    "banner_circle_green": Zielony krąg
+    "banner_circle_light_blue": Jasnoniebieski krąg
+    "banner_circle_light_gray": Jasnoszary krąg
+    "banner_circle_lime": Jasnozielony krąg
+    "banner_circle_magenta": Purpurowy krąg
+    "banner_circle_orange": Pomarańczowy krąg
+    "banner_circle_pink": Różowy krąg
+    "banner_circle_purple": Fioletowy krąg
+    "banner_circle_red": Czerwony krąg
+    "banner_circle_white": Biały krąg
+    "banner_circle_yellow": Żółty krąg
+    "banner_creeper_black": Czarny wizerunek creepera
+    "banner_creeper_blue": Niebieski wizerunek creepera
+    "banner_creeper_brown": Brązowy wizerunek creepera
+    "banner_creeper_cyan": Błękitny wizerunek creepera
+    "banner_creeper_gray": Szary wizerunek creepera
+    "banner_creeper_green": Zielony wizerunek creepera
+    "banner_creeper_light_blue": Jasnoniebieski wizerunek creepera
+    "banner_creeper_light_gray": Jasnoszary wizerunek creepera
+    "banner_creeper_lime": Jasnozielony wizerunek creepera
+    "banner_creeper_magenta": Purpurowy wizerunek creepera
+    "banner_creeper_orange": Pomarańczowy wizerunek creepera
+    "banner_creeper_pink": Różowy wizerunek creepera
+    "banner_creeper_purple": Fioletowy wizerunek creepera
+    "banner_creeper_red": Czerwony wizerunek creepera
+    "banner_creeper_white": Biały wizerunek creepera
+    "banner_creeper_yellow": Żółty wizerunek creepera
+    "banner_cross_black": Czarny skośny krzyż
+    "banner_cross_blue": Niebieski skośny krzyż
+    "banner_cross_brown": Brązowy skośny krzyż
+    "banner_cross_cyan": Błękitny skośny krzyż
+    "banner_cross_gray": Szary skośny krzyż
+    "banner_cross_green": Zielony skośny krzyż
+    "banner_cross_light_blue": Jasnoniebieski skośny krzyż
+    "banner_cross_light_gray": Jasnoszary skośny krzyż
+    "banner_cross_lime": Jasnozielony skośny krzyż
+    "banner_cross_magenta": Purpurowy skośny krzyż
+    "banner_cross_orange": Pomarańczowy skośny krzyż
+    "banner_cross_pink": Różowy skośny krzyż
+    "banner_cross_purple": Fioletowy skośny krzyż
+    "banner_cross_red": Czerwony skośny krzyż
+    "banner_cross_white": Biały skośny krzyż
+    "banner_cross_yellow": Żółty skośny krzyż
+    "banner_curly_border_black": Czarne ząbkowane obramowanie
+    "banner_curly_border_blue": Niebieskie ząbkowane obramowanie
+    "banner_curly_border_brown": Brązowe ząbkowane obramowanie
+    "banner_curly_border_cyan": Błękitne ząbkowane obramowanie
+    "banner_curly_border_gray": Szare ząbkowane obramowanie
+    "banner_curly_border_green": Zielone ząbkowane obramowanie
+    "banner_curly_border_light_blue": Jasnoniebieskie ząbkowane obramowanie
+    "banner_curly_border_light_gray": Jasnoszare ząbkowane obramowanie
+    "banner_curly_border_lime": Jasnozielone ząbkowane obramowanie
+    "banner_curly_border_magenta": Purpurowe ząbkowane obramowanie
+    "banner_curly_border_orange": Pomarańczowe ząbkowane obramowanie
+    "banner_curly_border_pink": Różowe ząbkowane obramowanie
+    "banner_curly_border_purple": Fioletowe ząbkowane obramowanie
+    "banner_curly_border_red": Czerwone ząbkowane obramowanie
+    "banner_curly_border_white": Białe ząbkowane obramowanie
+    "banner_curly_border_yellow": Żółte ząbkowane obramowanie
+    "banner_diagonal_left_black": Czarna skośna lewa górna połowa
+    "banner_diagonal_left_blue": Niebieska skośna lewa górna połowa
+    "banner_diagonal_left_brown": Brązowa skośna lewa górna połowa
+    "banner_diagonal_left_cyan": Błękitna skośna lewa górna połowa
+    "banner_diagonal_left_gray": Szara skośna lewa górna połowa
+    "banner_diagonal_left_green": Zielona skośna lewa górna połowa
+    "banner_diagonal_left_light_blue": Jasnoniebieska skośna lewa górna połowa
+    "banner_diagonal_left_light_gray": Jasnoszara skośna lewa górna połowa
+    "banner_diagonal_left_lime": Jasnozielona skośna lewa górna połowa
+    "banner_diagonal_left_magenta": Purpurowa skośna lewa górna połowa
+    "banner_diagonal_left_orange": Pomarańczowa skośna lewa górna połowa
+    "banner_diagonal_left_pink": Różowa skośna lewa górna połowa
+    "banner_diagonal_left_purple": Fioletowa skośna lewa górna połowa
+    "banner_diagonal_left_red": Czerwona skośna lewa górna połowa
+    "banner_diagonal_left_white": Biała skośna lewa górna połowa
+    "banner_diagonal_left_yellow": Żółta skośna lewa górna połowa
+    "banner_diagonal_right_black": Czarna skośna prawa górna połowa
+    "banner_diagonal_right_blue": Niebieska skośna prawa górna połowa
+    "banner_diagonal_right_brown": Brązowa skośna prawa górna połowa
+    "banner_diagonal_right_cyan": Błękitna skośna prawa górna połowa
+    "banner_diagonal_right_gray": Szara skośna prawa górna połowa
+    "banner_diagonal_right_green": Zielona skośna prawa górna połowa
+    "banner_diagonal_right_light_blue": Jasnoniebieska skośna prawa górna połowa
+    "banner_diagonal_right_light_gray": Jasnoszara skośna prawa górna połowa
+    "banner_diagonal_right_lime": Jasnozielona skośna prawa górna połowa
+    "banner_diagonal_right_magenta": Purpurowa skośna prawa górna połowa
+    "banner_diagonal_right_orange": Pomarańczowa skośna prawa górna połowa
+    "banner_diagonal_right_pink": Różowa skośna prawa górna połowa
+    "banner_diagonal_right_purple": Fioletowa skośna prawa górna połowa
+    "banner_diagonal_right_red": Czerwona skośna prawa górna połowa
+    "banner_diagonal_right_white": Biała skośna prawa górna połowa
+    "banner_diagonal_right_yellow": Żółta skośna prawa górna połowa
+    "banner_diagonal_up_left_black": Czarna skośna lewa dolna połowa
+    "banner_diagonal_up_left_blue": Niebieska skośna lewa dolna połowa
+    "banner_diagonal_up_left_brown": Brązowa skośna lewa dolna połowa
+    "banner_diagonal_up_left_cyan": Błękitna skośna lewa dolna połowa
+    "banner_diagonal_up_left_gray": Szara skośna lewa dolna połowa
+    "banner_diagonal_up_left_green": Zielona skośna lewa dolna połowa
+    "banner_diagonal_up_left_light_blue": Jasnoniebieska skośna lewa dolna połowa
+    "banner_diagonal_up_left_light_gray": Jasnoszara skośna lewa dolna połowa
+    "banner_diagonal_up_left_lime": Jasnozielona skośna lewa dolna połowa
+    "banner_diagonal_up_left_magenta": Purpurowa skośna lewa dolna połowa
+    "banner_diagonal_up_left_orange": Pomarańczowa skośna lewa dolna połowa
+    "banner_diagonal_up_left_pink": Różowa skośna lewa dolna połowa
+    "banner_diagonal_up_left_purple": Fioletowa skośna lewa dolna połowa
+    "banner_diagonal_up_left_red": Czerwona skośna lewa dolna połowa
+    "banner_diagonal_up_left_white": Biała skośna lewa dolna połowa
+    "banner_diagonal_up_left_yellow": Żółta skośna lewa dolna połowa
+    "banner_diagonal_up_right_black": Czarna skośna prawa dolna połowa
+    "banner_diagonal_up_right_blue": Niebieska skośna prawa dolna połowa
+    "banner_diagonal_up_right_brown": Brązowa skośna prawa dolna połowa
+    "banner_diagonal_up_right_cyan": Błękitna skośna prawa dolna połowa
+    "banner_diagonal_up_right_gray": Szara skośna prawa dolna połowa
+    "banner_diagonal_up_right_green": Zielona skośna prawa dolna połowa
+    "banner_diagonal_up_right_light_blue": Jasnoniebieska skośna prawa dolna połowa
+    "banner_diagonal_up_right_light_gray": Jasnoszara skośna prawa dolna połowa
+    "banner_diagonal_up_right_lime": Jasnozielona skośna prawa dolna połowa
+    "banner_diagonal_up_right_magenta": Purpurowa skośna prawa dolna połowa
+    "banner_diagonal_up_right_orange": Pomarańczowa skośna prawa dolna połowa
+    "banner_diagonal_up_right_pink": Różowa skośna prawa dolna połowa
+    "banner_diagonal_up_right_purple": Fioletowa skośna prawa dolna połowa
+    "banner_diagonal_up_right_red": Czerwona skośna prawa dolna połowa
+    "banner_diagonal_up_right_white": Biała skośna prawa dolna połowa
+    "banner_diagonal_up_right_yellow": Żółta skośna prawa dolna połowa
+    "banner_flow_black": Czarny nurt
+    "banner_flow_blue": Niebieski nurt
+    "banner_flow_brown": Brązowy nurt
+    "banner_flow_cyan": Błękitny nurt
+    "banner_flow_gray": Szary nurt
+    "banner_flow_green": Zielony nurt
+    "banner_flow_light_blue": Jasnoniebieski nurt
+    "banner_flow_light_gray": Jasnoszary nurt
+    "banner_flow_lime": Jasnozielony nurt
+    "banner_flow_magenta": Purpurowy nurt
+    "banner_flow_orange": Pomarańczowy nurt
+    "banner_flow_pink": Różowy nurt
+    "banner_flow_purple": Fioletowy nurt
+    "banner_flow_red": Czerwony nurt
+    "banner_flow_white": Biały nurt
+    "banner_flow_yellow": Żółty nurt
+    "banner_flower_black": Czarny wzór kwiatu
+    "banner_flower_blue": Niebieski wzór kwiatu
+    "banner_flower_brown": Brązowy wzór kwiatu
+    "banner_flower_cyan": Błękitny wzór kwiatu
+    "banner_flower_gray": Szary wzór kwiatu
+    "banner_flower_green": Zielony wzór kwiatu
+    "banner_flower_light_blue": Jasnoniebieski wzór kwiatu
+    "banner_flower_light_gray": Jasnoszary wzór kwiatu
+    "banner_flower_lime": Jasnozielony wzór kwiatu
+    "banner_flower_magenta": Purpurowy wzór kwiatu
+    "banner_flower_orange": Pomarańczowy wzór kwiatu
+    "banner_flower_pink": Różowy wzór kwiatu
+    "banner_flower_purple": Fioletowy wzór kwiatu
+    "banner_flower_red": Czerwony wzór kwiatu
+    "banner_flower_white": Biały wzór kwiatu
+    "banner_flower_yellow": Żółty wzór kwiatu
+    "banner_globe_black": Czarny sześcian ziemski
+    "banner_globe_blue": Niebieski sześcian ziemski
+    "banner_globe_brown": Brązowy sześcian ziemski
+    "banner_globe_cyan": Błękitny sześcian ziemski
+    "banner_globe_gray": Szary sześcian ziemski
+    "banner_globe_green": Zielony sześcian ziemski
+    "banner_globe_light_blue": Jasnoniebieski sześcian ziemski
+    "banner_globe_light_gray": Jasnoszary sześcian ziemski
+    "banner_globe_lime": Jasnozielony sześcian ziemski
+    "banner_globe_magenta": Purpurowy sześcian ziemski
+    "banner_globe_orange": Pomarańczowy sześcian ziemski
+    "banner_globe_pink": Różowy sześcian ziemski
+    "banner_globe_purple": Fioletowy sześcian ziemski
+    "banner_globe_red": Czerwony sześcian ziemski
+    "banner_globe_white": Biały sześcian ziemski
+    "banner_globe_yellow": Żółty sześcian ziemski
+    "banner_gradient_black": Czarny gradient
+    "banner_gradient_blue": Niebieski gradient
+    "banner_gradient_brown": Brązowy gradient
+    "banner_gradient_cyan": Błękitny gradient
+    "banner_gradient_gray": Szary gradient
+    "banner_gradient_green": Zielony gradient
+    "banner_gradient_light_blue": Jasnoniebieski gradient
+    "banner_gradient_light_gray": Jasnoszary gradient
+    "banner_gradient_lime": Jasnozielony gradient
+    "banner_gradient_magenta": Purpurowy gradient
+    "banner_gradient_orange": Pomarańczowy gradient
+    "banner_gradient_pink": Różowy gradient
+    "banner_gradient_purple": Fioletowy gradient
+    "banner_gradient_red": Czerwony gradient
+    "banner_gradient_up_black": Czarny odwrócony gradient
+    "banner_gradient_up_blue": Niebieski odwrócony gradient
+    "banner_gradient_up_brown": Brązowy odwrócony gradient
+    "banner_gradient_up_cyan": Błękitny odwrócony gradient
+    "banner_gradient_up_gray": Szary odwrócony gradient
+    "banner_gradient_up_green": Zielony odwrócony gradient
+    "banner_gradient_up_light_blue": Jasnoniebieski odwrócony gradient
+    "banner_gradient_up_light_gray": Jasnoszary odwrócony gradient
+    "banner_gradient_up_lime": Jasnozielony odwrócony gradient
+    "banner_gradient_up_magenta": Purpurowy odwrócony gradient
+    "banner_gradient_up_orange": Pomarańczowy odwrócony gradient
+    "banner_gradient_up_pink": Różowy odwrócony gradient
+    "banner_gradient_up_purple": Fioletowy odwrócony gradient
+    "banner_gradient_up_red": Czerwony odwrócony gradient
+    "banner_gradient_up_white": Biały odwrócony gradient
+    "banner_gradient_up_yellow": Żółty odwrócony gradient
+    "banner_gradient_white": Biały gradient
+    "banner_gradient_yellow": Żółty gradient
+    "banner_guster_black": Czarny podmuch
+    "banner_guster_blue": Niebieski podmuch
+    "banner_guster_brown": Brązowy podmuch
+    "banner_guster_cyan": Błękitny podmuch
+    "banner_guster_gray": Szary podmuch
+    "banner_guster_green": Zielony podmuch
+    "banner_guster_light_blue": Jasnoniebieski podmuch
+    "banner_guster_light_gray": Jasnoszary podmuch
+    "banner_guster_lime": Jasnozielony podmuch
+    "banner_guster_magenta": Purpurowy podmuch
+    "banner_guster_orange": Pomarańczowy podmuch
+    "banner_guster_pink": Różowy podmuch
+    "banner_guster_purple": Fioletowy podmuch
+    "banner_guster_red": Czerwony podmuch
+    "banner_guster_white": Biały podmuch
+    "banner_guster_yellow": Żółty podmuch
+    "banner_half_horizontal_black": Czarna górna połowa
+    "banner_half_horizontal_blue": Niebieska górna połowa
+    "banner_half_horizontal_bottom_black": Czarna dolna połowa
+    "banner_half_horizontal_bottom_blue": Niebieska dolna połowa
+    "banner_half_horizontal_bottom_brown": Brązowa dolna połowa
+    "banner_half_horizontal_bottom_cyan": Błękitna dolna połowa
+    "banner_half_horizontal_bottom_gray": Szara dolna połowa
+    "banner_half_horizontal_bottom_green": Zielona dolna połowa
+    "banner_half_horizontal_bottom_light_blue": Jasnoniebieska dolna połowa
+    "banner_half_horizontal_bottom_light_gray": Jasnoszara dolna połowa
+    "banner_half_horizontal_bottom_lime": Jasnozielona dolna połowa
+    "banner_half_horizontal_bottom_magenta": Purpurowa dolna połowa
+    "banner_half_horizontal_bottom_orange": Pomarańczowa dolna połowa
+    "banner_half_horizontal_bottom_pink": Różowa dolna połowa
+    "banner_half_horizontal_bottom_purple": Fioletowa dolna połowa
+    "banner_half_horizontal_bottom_red": Czerwona dolna połowa
+    "banner_half_horizontal_bottom_white": Biała dolna połowa
+    "banner_half_horizontal_bottom_yellow": Żółta dolna połowa
+    "banner_half_horizontal_brown": Brązowa górna połowa
+    "banner_half_horizontal_cyan": Błękitna górna połowa
+    "banner_half_horizontal_gray": Szara górna połowa
+    "banner_half_horizontal_green": Zielona górna połowa
+    "banner_half_horizontal_light_blue": Jasnoniebieska górna połowa
+    "banner_half_horizontal_light_gray": Jasnoszara górna połowa
+    "banner_half_horizontal_lime": Jasnozielona górna połowa
+    "banner_half_horizontal_magenta": Purpurowa górna połowa
+    "banner_half_horizontal_orange": Pomarańczowa górna połowa
+    "banner_half_horizontal_pink": Różowa górna połowa
+    "banner_half_horizontal_purple": Fioletowa górna połowa
+    "banner_half_horizontal_red": Czerwona górna połowa
+    "banner_half_horizontal_white": Biała górna połowa
+    "banner_half_horizontal_yellow": Żółta górna połowa
+    "banner_half_vertical_black": Czarna lewa połowa
+    "banner_half_vertical_blue": Niebieska lewa połowa
+    "banner_half_vertical_brown": Brązowa lewa połowa
+    "banner_half_vertical_cyan": Błękitna lewa połowa
+    "banner_half_vertical_gray": Szara lewa połowa
+    "banner_half_vertical_green": Zielona lewa połowa
+    "banner_half_vertical_light_blue": Jasnoniebieska lewa połowa
+    "banner_half_vertical_light_gray": Jasnoszara lewa połowa
+    "banner_half_vertical_lime": Jasnozielona lewa połowa
+    "banner_half_vertical_magenta": Purpurowa lewa połowa
+    "banner_half_vertical_orange": Pomarańczowa lewa połowa
+    "banner_half_vertical_pink": Różowa lewa połowa
+    "banner_half_vertical_purple": Fioletowa lewa połowa
+    "banner_half_vertical_red": Czerwona lewa połowa
+    "banner_half_vertical_right_black": Czarna prawa połowa
+    "banner_half_vertical_right_blue": Niebieska prawa połowa
+    "banner_half_vertical_right_brown": Brązowa prawa połowa
+    "banner_half_vertical_right_cyan": Błękitna prawa połowa
+    "banner_half_vertical_right_gray": Szara prawa połowa
+    "banner_half_vertical_right_green": Zielona prawa połowa
+    "banner_half_vertical_right_light_blue": Jasnoniebieska prawa połowa
+    "banner_half_vertical_right_light_gray": Jasnoszara prawa połowa
+    "banner_half_vertical_right_lime": Jasnozielona prawa połowa
+    "banner_half_vertical_right_magenta": Purpurowa prawa połowa
+    "banner_half_vertical_right_orange": Pomarańczowa prawa połowa
+    "banner_half_vertical_right_pink": Różowa prawa połowa
+    "banner_half_vertical_right_purple": Fioletowa prawa połowa
+    "banner_half_vertical_right_red": Czerwona prawa połowa
+    "banner_half_vertical_right_white": Biała prawa połowa
+    "banner_half_vertical_right_yellow": Żółta prawa połowa
+    "banner_half_vertical_white": Biała lewa połowa
+    "banner_half_vertical_yellow": Żółta lewa połowa
+    "banner_mojang_black": Czarne Coś
+    "banner_mojang_blue": Niebieskie Coś
+    "banner_mojang_brown": Brązowe Coś
+    "banner_mojang_cyan": Błękitne Coś
+    "banner_mojang_gray": Szare Coś
+    "banner_mojang_green": Zielone Coś
+    "banner_mojang_light_blue": Jasnoniebieskie Coś
+    "banner_mojang_light_gray": Jasnoszare Coś
+    "banner_mojang_lime": Jasnozielone Coś
+    "banner_mojang_magenta": Purpurowe Coś
+    "banner_mojang_orange": Pomarańczowe Coś
+    "banner_mojang_pink": Różowe Coś
+    "banner_mojang_purple": Fioletowe Coś
+    "banner_mojang_red": Czerwone Coś
+    "banner_mojang_white": Białe Coś
+    "banner_mojang_yellow": Żółte Coś
+    "banner_piglin_black": Czarny ryjek
+    "banner_piglin_blue": Niebieski ryjek
+    "banner_piglin_brown": Brązowy ryjek
+    "banner_piglin_cyan": Błękitny ryjek
+    "banner_piglin_gray": Szary ryjek
+    "banner_piglin_green": Zielony ryjek
+    "banner_piglin_light_blue": Jasnoniebieski ryjek
+    "banner_piglin_light_gray": Jasnoszary ryjek
+    "banner_piglin_lime": Jasnozielony ryjek
+    "banner_piglin_magenta": Purpurowy ryjek
+    "banner_piglin_orange": Pomarańczowy ryjek
+    "banner_piglin_pink": Różowy ryjek
+    "banner_piglin_purple": Fioletowy ryjek
+    "banner_piglin_red": Czerwony ryjek
+    "banner_piglin_white": Biały ryjek
+    "banner_piglin_yellow": Żółty ryjek
+    "banner_rhombus_black": Czarny romb
+    "banner_rhombus_blue": Niebieski romb
+    "banner_rhombus_brown": Brązowy romb
+    "banner_rhombus_cyan": Błękitny romb
+    "banner_rhombus_gray": Szary romb
+    "banner_rhombus_green": Zielony romb
+    "banner_rhombus_light_blue": Jasnoniebieski romb
+    "banner_rhombus_light_gray": Jasnoszary romb
+    "banner_rhombus_lime": Jasnozielony romb
+    "banner_rhombus_magenta": Purpurowy romb
+    "banner_rhombus_orange": Pomarańczowy romb
+    "banner_rhombus_pink": Różowy romb
+    "banner_rhombus_purple": Fioletowy romb
+    "banner_rhombus_red": Czerwony romb
+    "banner_rhombus_white": Biały romb
+    "banner_rhombus_yellow": Żółty romb
+    "banner_skull_black": Czarny wzór czaszki
+    "banner_skull_blue": Niebieski wzór czaszki
+    "banner_skull_brown": Brązowy wzór czaszki
+    "banner_skull_cyan": Błękitny wzór czaszki
+    "banner_skull_gray": Szary wzór czaszki
+    "banner_skull_green": Zielony wzór czaszki
+    "banner_skull_light_blue": Jasnoniebieski wzór czaszki
+    "banner_skull_light_gray": Jasnoszary wzór czaszki
+    "banner_skull_lime": Jasnozielony wzór czaszki
+    "banner_skull_magenta": Purpurowy wzór czaszki
+    "banner_skull_orange": Pomarańczowy wzór czaszki
+    "banner_skull_pink": Różowy wzór czaszki
+    "banner_skull_purple": Fioletowy wzór czaszki
+    "banner_skull_red": Czerwony wzór czaszki
+    "banner_skull_white": Biały wzór czaszki
+    "banner_skull_yellow": Żółty wzór czaszki
+    "banner_small_stripes_black": Czarne pasy
+    "banner_small_stripes_blue": Niebieskie pasy
+    "banner_small_stripes_brown": Brązowe pasy
+    "banner_small_stripes_cyan": Błękitne pasy
+    "banner_small_stripes_gray": Szare pasy
+    "banner_small_stripes_green": Zielone pasy
+    "banner_small_stripes_light_blue": Jasnoniebieskie pasy
+    "banner_small_stripes_light_gray": Jasnoszare pasy
+    "banner_small_stripes_lime": Jasnozielone pasy
+    "banner_small_stripes_magenta": Purpurowe pasy
+    "banner_small_stripes_orange": Pomarańczowe pasy
+    "banner_small_stripes_pink": Różowe pasy
+    "banner_small_stripes_purple": Fioletowe pasy
+    "banner_small_stripes_red": Czerwone pasy
+    "banner_small_stripes_white": Białe pasy
+    "banner_small_stripes_yellow": Żółte pasy
+    "banner_square_bottom_left_black": Czarny dolny lewy narożnik
+    "banner_square_bottom_left_blue": Niebieski dolny lewy narożnik
+    "banner_square_bottom_left_brown": Brązowy dolny lewy narożnik
+    "banner_square_bottom_left_cyan": Błękitny dolny lewy narożnik
+    "banner_square_bottom_left_gray": Szary dolny lewy narożnik
+    "banner_square_bottom_left_green": Zielony dolny lewy narożnik
+    "banner_square_bottom_left_light_blue": Jasnoniebieski dolny lewy narożnik
+    "banner_square_bottom_left_light_gray": Jasnoszary dolny lewy narożnik
+    "banner_square_bottom_left_lime": Jasnozielony dolny lewy narożnik
+    "banner_square_bottom_left_magenta": Purpurowy dolny lewy narożnik
+    "banner_square_bottom_left_orange": Pomarańczowy dolny lewy narożnik
+    "banner_square_bottom_left_pink": Różowy dolny lewy narożnik
+    "banner_square_bottom_left_purple": Fioletowy dolny lewy narożnik
+    "banner_square_bottom_left_red": Czerwony dolny lewy narożnik
+    "banner_square_bottom_left_white": Biały dolny lewy narożnik
+    "banner_square_bottom_left_yellow": Żółty dolny lewy narożnik
+    "banner_square_bottom_right_black": Czarny dolny prawy narożnik
+    "banner_square_bottom_right_blue": Niebieski dolny prawy narożnik
+    "banner_square_bottom_right_brown": Brązowy dolny prawy narożnik
+    "banner_square_bottom_right_cyan": Błękitny dolny prawy narożnik
+    "banner_square_bottom_right_gray": Szary dolny prawy narożnik
+    "banner_square_bottom_right_green": Zielony dolny prawy narożnik
+    "banner_square_bottom_right_light_blue": Jasnoniebieski dolny prawy narożnik
+    "banner_square_bottom_right_light_gray": Jasnoszary dolny prawy narożnik
+    "banner_square_bottom_right_lime": Jasnozielony dolny prawy narożnik
+    "banner_square_bottom_right_magenta": Purpurowy dolny prawy narożnik
+    "banner_square_bottom_right_orange": Pomarańczowy dolny prawy narożnik
+    "banner_square_bottom_right_pink": Różowy dolny prawy narożnik
+    "banner_square_bottom_right_purple": Fioletowy dolny prawy narożnik
+    "banner_square_bottom_right_red": Czerwony dolny prawy narożnik
+    "banner_square_bottom_right_white": Biały dolny prawy narożnik
+    "banner_square_bottom_right_yellow": Żółty dolny prawy narożnik
+    "banner_square_top_left_black": Czarny górny lewy narożnik
+    "banner_square_top_left_blue": Niebieski górny lewy narożnik
+    "banner_square_top_left_brown": Brązowy górny lewy narożnik
+    "banner_square_top_left_cyan": Błękitny górny lewy narożnik
+    "banner_square_top_left_gray": Szary górny lewy narożnik
+    "banner_square_top_left_green": Zielony górny lewy narożnik
+    "banner_square_top_left_light_blue": Jasnoniebieski górny lewy narożnik
+    "banner_square_top_left_light_gray": Jasnoszary górny lewy narożnik
+    "banner_square_top_left_lime": Jasnozielony górny lewy narożnik
+    "banner_square_top_left_magenta": Purpurowy górny lewy narożnik
+    "banner_square_top_left_orange": Pomarańczowy górny lewy narożnik
+    "banner_square_top_left_pink": Różowy górny lewy narożnik
+    "banner_square_top_left_purple": Fioletowy górny lewy narożnik
+    "banner_square_top_left_red": Czerwony górny lewy narożnik
+    "banner_square_top_left_white": Biały górny lewy narożnik
+    "banner_square_top_left_yellow": Żółty górny lewy narożnik
+    "banner_square_top_right_black": Czarny górny prawy narożnik
+    "banner_square_top_right_blue": Niebieski górny prawy narożnik
+    "banner_square_top_right_brown": Brązowy górny prawy narożnik
+    "banner_square_top_right_cyan": Błękitny górny prawy narożnik
+    "banner_square_top_right_gray": Szary górny prawy narożnik
+    "banner_square_top_right_green": Zielony górny prawy narożnik
+    "banner_square_top_right_light_blue": Jasnoniebieski górny prawy narożnik
+    "banner_square_top_right_light_gray": Jasnoszary górny prawy narożnik
+    "banner_square_top_right_lime": Jasnozielony górny prawy narożnik
+    "banner_square_top_right_magenta": Purpurowy górny prawy narożnik
+    "banner_square_top_right_orange": Pomarańczowy górny prawy narożnik
+    "banner_square_top_right_pink": Różowy górny prawy narożnik
+    "banner_square_top_right_purple": Fioletowy górny prawy narożnik
+    "banner_square_top_right_red": Czerwony górny prawy narożnik
+    "banner_square_top_right_white": Biały górny prawy narożnik
+    "banner_square_top_right_yellow": Żółty górny prawy narożnik
+    "banner_straight_cross_black": Czarny krzyż
+    "banner_straight_cross_blue": Niebieski krzyż
+    "banner_straight_cross_brown": Brązowy krzyż
+    "banner_straight_cross_cyan": Błękitny krzyż
+    "banner_straight_cross_gray": Szary krzyż
+    "banner_straight_cross_green": Zielony krzyż
+    "banner_straight_cross_light_blue": Jasnoniebieski krzyż
+    "banner_straight_cross_light_gray": Jasnoszary krzyż
+    "banner_straight_cross_lime": Jasnozielony krzyż
+    "banner_straight_cross_magenta": Purpurowy krzyż
+    "banner_straight_cross_orange": Pomarańczowy krzyż
+    "banner_straight_cross_pink": Różowy krzyż
+    "banner_straight_cross_purple": Fioletowy krzyż
+    "banner_straight_cross_red": Czerwony krzyż
+    "banner_straight_cross_white": Biały krzyż
+    "banner_straight_cross_yellow": Żółty krzyż
+    "banner_stripe_bottom_black": Czarna podstawa
+    "banner_stripe_bottom_blue": Niebieska podstawa
+    "banner_stripe_bottom_brown": Brązowa podstawa
+    "banner_stripe_bottom_cyan": Błękitna podstawa
+    "banner_stripe_bottom_gray": Szara podstawa
+    "banner_stripe_bottom_green": Zielona podstawa
+    "banner_stripe_bottom_light_blue": Jasnoniebieska podstawa
+    "banner_stripe_bottom_light_gray": Jasnoszara podstawa
+    "banner_stripe_bottom_lime": Jasnozielona podstawa
+    "banner_stripe_bottom_magenta": Purpurowa podstawa
+    "banner_stripe_bottom_orange": Pomarańczowa podstawa
+    "banner_stripe_bottom_pink": Różowa podstawa
+    "banner_stripe_bottom_purple": Fioletowa podstawa
+    "banner_stripe_bottom_red": Czerwona podstawa
+    "banner_stripe_bottom_white": Biała podstawa
+    "banner_stripe_bottom_yellow": Żółta podstawa
+    "banner_stripe_center_black": Czarny słup
+    "banner_stripe_center_blue": Niebieski słup
+    "banner_stripe_center_brown": Brązowy słup
+    "banner_stripe_center_cyan": Błękitny słup
+    "banner_stripe_center_gray": Szary słup
+    "banner_stripe_center_green": Zielony słup
+    "banner_stripe_center_light_blue": Jasnoniebieski słup
+    "banner_stripe_center_light_gray": Jasnoszary słup
+    "banner_stripe_center_lime": Jasnozielony słup
+    "banner_stripe_center_magenta": Purpurowy słup
+    "banner_stripe_center_orange": Pomarańczowy słup
+    "banner_stripe_center_pink": Różowy słup
+    "banner_stripe_center_purple": Fioletowy słup
+    "banner_stripe_center_red": Czerwony słup
+    "banner_stripe_center_white": Biały słup
+    "banner_stripe_center_yellow": Żółty słup
+    "banner_stripe_downleft_black": Czarny lewy skos
+    "banner_stripe_downleft_blue": Niebieski lewy skos
+    "banner_stripe_downleft_brown": Brązowy lewy skos
+    "banner_stripe_downleft_cyan": Błękitny lewy skos
+    "banner_stripe_downleft_gray": Szary lewy skos
+    "banner_stripe_downleft_green": Zielony lewy skos
+    "banner_stripe_downleft_light_blue": Jasnoniebieski lewy skos
+    "banner_stripe_downleft_light_gray": Jasnoszary lewy skos
+    "banner_stripe_downleft_lime": Jasnozielony lewy skos
+    "banner_stripe_downleft_magenta": Purpurowy lewy skos
+    "banner_stripe_downleft_orange": Pomarańczowy lewy skos
+    "banner_stripe_downleft_pink": Różowy lewy skos
+    "banner_stripe_downleft_purple": Fioletowy lewy skos
+    "banner_stripe_downleft_red": Czerwony lewy skos
+    "banner_stripe_downleft_white": Biały lewy skos
+    "banner_stripe_downleft_yellow": Żółty lewy skos
+    "banner_stripe_downright_black": Czarny prawy skos
+    "banner_stripe_downright_blue": Niebieski prawy skos
+    "banner_stripe_downright_brown": Brązowy prawy skos
+    "banner_stripe_downright_cyan": Błękitny prawy skos
+    "banner_stripe_downright_gray": Szary prawy skos
+    "banner_stripe_downright_green": Zielony prawy skos
+    "banner_stripe_downright_light_blue": Jasnoniebieski prawy skos
+    "banner_stripe_downright_light_gray": Jasnoszary prawy skos
+    "banner_stripe_downright_lime": Jasnozielony prawy skos
+    "banner_stripe_downright_magenta": Purpurowy prawy skos
+    "banner_stripe_downright_orange": Pomarańczowy prawy skos
+    "banner_stripe_downright_pink": Różowy prawy skos
+    "banner_stripe_downright_purple": Fioletowy prawy skos
+    "banner_stripe_downright_red": Czerwony prawy skos
+    "banner_stripe_downright_white": Biały prawy skos
+    "banner_stripe_downright_yellow": Żółty prawy skos
+    "banner_stripe_left_black": Czarna lewa flanka
+    "banner_stripe_left_blue": Niebieska lewa flanka
+    "banner_stripe_left_brown": Brązowa lewa flanka
+    "banner_stripe_left_cyan": Błękitna lewa flanka
+    "banner_stripe_left_gray": Szara lewa flanka
+    "banner_stripe_left_green": Zielona lewa flanka
+    "banner_stripe_left_light_blue": Jasnoniebieska lewa flanka
+    "banner_stripe_left_light_gray": Jasnoszara lewa flanka
+    "banner_stripe_left_lime": Jasnozielona lewa flanka
+    "banner_stripe_left_magenta": Purpurowa lewa flanka
+    "banner_stripe_left_orange": Pomarańczowa lewa flanka
+    "banner_stripe_left_pink": Różowa lewa flanka
+    "banner_stripe_left_purple": Fioletowa lewa flanka
+    "banner_stripe_left_red": Czerwona lewa flanka
+    "banner_stripe_left_white": Biała lewa flanka
+    "banner_stripe_left_yellow": Żółta lewa flanka
+    "banner_stripe_middle_black": Czarny poziomy pas
+    "banner_stripe_middle_blue": Niebieski poziomy pas
+    "banner_stripe_middle_brown": Brązowy poziomy pas
+    "banner_stripe_middle_cyan": Błękitny poziomy pas
+    "banner_stripe_middle_gray": Szary poziomy pas
+    "banner_stripe_middle_green": Zielony poziomy pas
+    "banner_stripe_middle_light_blue": Jasnoniebieski poziomy pas
+    "banner_stripe_middle_light_gray": Jasnoszary poziomy pas
+    "banner_stripe_middle_lime": Jasnozielony poziomy pas
+    "banner_stripe_middle_magenta": Purpurowy poziomy pas
+    "banner_stripe_middle_orange": Pomarańczowy poziomy pas
+    "banner_stripe_middle_pink": Różowy poziomy pas
+    "banner_stripe_middle_purple": Fioletowy poziomy pas
+    "banner_stripe_middle_red": Czerwony poziomy pas
+    "banner_stripe_middle_white": Biały poziomy pas
+    "banner_stripe_middle_yellow": Żółty poziomy pas
+    "banner_stripe_right_black": Czarna prawa flanka
+    "banner_stripe_right_blue": Niebieska prawa flanka
+    "banner_stripe_right_brown": Brązowa prawa flanka
+    "banner_stripe_right_cyan": Błękitna prawa flanka
+    "banner_stripe_right_gray": Szara prawa flanka
+    "banner_stripe_right_green": Zielona prawa flanka
+    "banner_stripe_right_light_blue": Jasnoniebieska prawa flanka
+    "banner_stripe_right_light_gray": Jasnoszara prawa flanka
+    "banner_stripe_right_lime": Jasnozielona prawa flanka
+    "banner_stripe_right_magenta": Purpurowa prawa flanka
+    "banner_stripe_right_orange": Pomarańczowa prawa flanka
+    "banner_stripe_right_pink": Różowa prawa flanka
+    "banner_stripe_right_purple": Fioletowa prawa flanka
+    "banner_stripe_right_red": Czerwona prawa flanka
+    "banner_stripe_right_white": Biała prawa flanka
+    "banner_stripe_right_yellow": Żółta prawa flanka
+    "banner_stripe_top_black": Czarna głowica
+    "banner_stripe_top_blue": Niebieska głowica
+    "banner_stripe_top_brown": Brązowa głowica
+    "banner_stripe_top_cyan": Błękitna głowica
+    "banner_stripe_top_gray": Szara głowica
+    "banner_stripe_top_green": Zielona głowica
+    "banner_stripe_top_light_blue": Jasnoniebieska głowica
+    "banner_stripe_top_light_gray": Jasnoszara głowica
+    "banner_stripe_top_lime": Jasnozielona głowica
+    "banner_stripe_top_magenta": Purpurowa głowica
+    "banner_stripe_top_orange": Pomarańczowa głowica
+    "banner_stripe_top_pink": Różowa głowica
+    "banner_stripe_top_purple": Fioletowa głowica
+    "banner_stripe_top_red": Czerwona głowica
+    "banner_stripe_top_white": Biała głowica
+    "banner_stripe_top_yellow": Żółta głowica
+    "banner_triangle_bottom_black": Czarna krokiew
+    "banner_triangle_bottom_blue": Niebieska krokiew
+    "banner_triangle_bottom_brown": Brązowa krokiew
+    "banner_triangle_bottom_cyan": Błękitna krokiew
+    "banner_triangle_bottom_gray": Szara krokiew
+    "banner_triangle_bottom_green": Zielona krokiew
+    "banner_triangle_bottom_light_blue": Jasnoniebieska krokiew
+    "banner_triangle_bottom_light_gray": Jasnoszara krokiew
+    "banner_triangle_bottom_lime": Jasnozielona krokiew
+    "banner_triangle_bottom_magenta": Purpurowa krokiew
+    "banner_triangle_bottom_orange": Pomarańczowa krokiew
+    "banner_triangle_bottom_pink": Różowa krokiew
+    "banner_triangle_bottom_purple": Fioletowa krokiew
+    "banner_triangle_bottom_red": Czerwona krokiew
+    "banner_triangle_bottom_white": Biała krokiew
+    "banner_triangle_bottom_yellow": Żółta krokiew
+    "banner_triangle_top_black": Czarna odwrócona krokiew
+    "banner_triangle_top_blue": Niebieska odwrócona krokiew
+    "banner_triangle_top_brown": Brązowa odwrócona krokiew
+    "banner_triangle_top_cyan": Błękitna odwrócona krokiew
+    "banner_triangle_top_gray": Szara odwrócona krokiew
+    "banner_triangle_top_green": Zielona odwrócona krokiew
+    "banner_triangle_top_light_blue": Jasnoniebieska odwrócona krokiew
+    "banner_triangle_top_light_gray": Jasnoszara odwrócona krokiew
+    "banner_triangle_top_lime": Jasnozielona odwrócona krokiew
+    "banner_triangle_top_magenta": Purpurowa odwrócona krokiew
+    "banner_triangle_top_orange": Pomarańczowa odwrócona krokiew
+    "banner_triangle_top_pink": Różowa odwrócona krokiew
+    "banner_triangle_top_purple": Fioletowa odwrócona krokiew
+    "banner_triangle_top_red": Czerwona odwrócona krokiew
+    "banner_triangle_top_white": Biała odwrócona krokiew
+    "banner_triangle_top_yellow": Żółta odwrócona krokiew
+    "banner_triangles_bottom_black": Czarna podstawa ząbkowana
+    "banner_triangles_bottom_blue": Niebieska podstawa ząbkowana
+    "banner_triangles_bottom_brown": Brązowa podstawa ząbkowana
+    "banner_triangles_bottom_cyan": Błękitna podstawa ząbkowana
+    "banner_triangles_bottom_gray": Szara podstawa ząbkowana
+    "banner_triangles_bottom_green": Zielona podstawa ząbkowana
+    "banner_triangles_bottom_light_blue": Jasnoniebieska podstawa ząbkowana
+    "banner_triangles_bottom_light_gray": Jasnoszara podstawa ząbkowana
+    "banner_triangles_bottom_lime": Jasnozielona podstawa ząbkowana
+    "banner_triangles_bottom_magenta": Purpurowa podstawa ząbkowana
+    "banner_triangles_bottom_orange": Pomarańczowa podstawa ząbkowana
+    "banner_triangles_bottom_pink": Różowa podstawa ząbkowana
+    "banner_triangles_bottom_purple": Fioletowa podstawa ząbkowana
+    "banner_triangles_bottom_red": Czerwona podstawa ząbkowana
+    "banner_triangles_bottom_white": Biała podstawa ząbkowana
+    "banner_triangles_bottom_yellow": Żółta podstawa ząbkowana
+    "banner_triangles_top_black": Czarna głowica ząbkowana
+    "banner_triangles_top_blue": Niebieska głowica ząbkowana
+    "banner_triangles_top_brown": Brązowa głowica ząbkowana
+    "banner_triangles_top_cyan": Błękitna głowica ząbkowana
+    "banner_triangles_top_gray": Szara głowica ząbkowana
+    "banner_triangles_top_green": Zielona głowica ząbkowana
+    "banner_triangles_top_light_blue": Jasnoniebieska głowica ząbkowana
+    "banner_triangles_top_light_gray": Jasnoszara głowica ząbkowana
+    "banner_triangles_top_lime": Jasnozielona głowica ząbkowana
+    "banner_triangles_top_magenta": Purpurowa głowica ząbkowana
+    "banner_triangles_top_orange": Pomarańczowa głowica ząbkowana
+    "banner_triangles_top_pink": Różowa głowica ząbkowana
+    "banner_triangles_top_purple": Fioletowa głowica ząbkowana
+    "banner_triangles_top_red": Czerwona głowica ząbkowana
+    "banner_triangles_top_white": Biała głowica ząbkowana
+    "banner_triangles_top_yellow": Żółta głowica ząbkowana
+    "barrel": Beczka
+    "barrier": Bariera
+    "basalt": Bazalt
+    "beacon": Magiczna latarnia
+    "bedrock": Skała macierzysta
+    "bee_nest": Gniazdo pszczół
+    "beehive": Ul
+    "beetroots": Buraki
+    "bell": Dzwon
+    "big_dripleaf": Wielki spadkoliść
+    "big_dripleaf_stem": Łodyga wielkiego spadkoliścia
+    "birch_button": Brzozowy przycisk
+    "birch_door": Brzozowe drzwi
+    "birch_fence": Brzozowy płot
+    "birch_fence_gate": Brzozowa furtka
+    "birch_hanging_sign": Brzozowa podwieszana tabliczka
+    "birch_leaves": Brzozowe liście
+    "birch_log": Brzozowy pień
+    "birch_planks": Brzozowe deski
+    "birch_pressure_plate": Brzozowa płytka naciskowa
+    "birch_sapling": Sadzonka brzozy
+    "birch_shelf": Brzozowa półka
+    "birch_sign": Brzozowa tabliczka
+    "birch_slab": Brzozowa płyta
+    "birch_stairs": Brzozowe schody
+    "birch_trapdoor": Brzozowa klapa
+    "birch_wall_hanging_sign": Brzozowa ścienna podwieszana tabliczka
+    "birch_wall_sign": Brzozowa ścienna tabliczka
+    "birch_wood": Brzozowe drewno
+    "black_banner": Czarny sztandar
+    "black_bed": Czarne łóżko
+    "black_candle": Czarna świeca
+    "black_candle_cake": Ciasto z czarną świeczką
+    "black_carpet": Czarny dywan
+    "black_concrete": Czarny beton
+    "black_concrete_powder": Czarny cement
+    "black_concrete_slab": Czarna betonowa płyta
+    "black_concrete_stairs": Czarne betonowe schody
+    "black_glazed_terracotta": Czarna glazurowana terakota
+    "black_shulker_box": Czarna shulkerowa skrzynia
+    "black_stained_glass": Czarne szkło
+    "black_stained_glass_pane": Czarna szyba
+    "black_terracotta": Czarna terakota
+    "black_wool": Czarna wełna
+    "black_wool_slab": Czarna wełniana płyta
+    "black_wool_stairs": Czarne wełniane schody
+    "blackstone": Czernit
+    "blackstone_slab": Czernitowa płyta
+    "blackstone_stairs": Czernitowe schody
+    "blackstone_wall": Czernitowy murek
+    "blast_furnace": Piec hutniczy
+    "blue_banner": Niebieski sztandar
+    "blue_bed": Niebieskie łóżko
+    "blue_candle": Niebieska świeca
+    "blue_candle_cake": Ciasto z niebieską świeczką
+    "blue_carpet": Niebieski dywan
+    "blue_concrete": Niebieski beton
+    "blue_concrete_powder": Niebieski cement
+    "blue_concrete_slab": Niebieska betonowa płyta
+    "blue_concrete_stairs": Niebieskie betonowe schody
+    "blue_glazed_terracotta": Niebieska glazurowana terakota
+    "blue_ice": Niebieski lód lodowcowy
+    "blue_orchid": Niebieska orchidea
+    "blue_shulker_box": Niebieska shulkerowa skrzynia
+    "blue_stained_glass": Niebieskie szkło
+    "blue_stained_glass_pane": Niebieska szyba
+    "blue_terracotta": Niebieska terakota
+    "blue_wool": Niebieska wełna
+    "blue_wool_slab": Niebieska wełniana płyta
+    "blue_wool_stairs": Niebieskie wełniane schody
+    "bone_block": Blok kości
+    "bookshelf": Biblioteczka
+    "brain_coral": Koralowiec mózgowaty
+    "brain_coral_block": Blok koralowca mózgowatego
+    "brain_coral_fan": Wachlarz koralowca mózgowatego
+    "brain_coral_wall_fan": Wachlarz naścienny koralowca mózgowatego
+    "brewing_stand": Statyw alchemiczny
+    "brick_slab": Ceglana płyta
+    "brick_stairs": Ceglane schody
+    "brick_wall": Ceglany murek
+    "bricks": Cegły
+    "brown_banner": Brązowy sztandar
+    "brown_bed": Brązowe łóżko
+    "brown_candle": Brązowa świeca
+    "brown_candle_cake": Ciasto z brązową świeczką
+    "brown_carpet": Brązowy dywan
+    "brown_concrete": Brązowy beton
+    "brown_concrete_powder": Brązowy cement
+    "brown_concrete_slab": Brązowa betonowa płyta
+    "brown_concrete_stairs": Brązowe betonowe schody
+    "brown_glazed_terracotta": Brązowa glazurowana terakota
+    "brown_mushroom": Borowik
+    "brown_mushroom_block": Blok borowika
+    "brown_shulker_box": Brązowa shulkerowa skrzynia
+    "brown_stained_glass": Brązowe szkło
+    "brown_stained_glass_pane": Brązowa szyba
+    "brown_terracotta": Brązowa terakota
+    "brown_wool": Brązowa wełna
+    "brown_wool_slab": Brązowa wełniana płyta
+    "brown_wool_stairs": Brązowe wełniane schody
+    "bubble_column": Kolumna bąbelków
+    "bubble_coral": Koralowiec bąbelkowaty
+    "bubble_coral_block": Blok koralowca bąbelkowatego
+    "bubble_coral_fan": Wachlarz koralowca bąbelkowatego
+    "bubble_coral_wall_fan": Wachlarz naścienny koralowca bąbelkowatego
+    "budding_amethyst": Kiełkujący ametyst
+    "bush": Krzew
+    "cactus": Kaktus
+    "cactus_flower": Kwiat kaktusa
+    "cake": Ciasto
+    "calcite": Kalcyt
+    "calibrated_sculk_sensor": Skalibrowany sculkowy czujnik
+    "campfire": Ognisko
+    "candle": Świeca
+    "candle_cake": Ciasto ze świeczką
+    "carrots": Marchewki
+    "cartography_table": Stół kartograficzny
+    "carved_pumpkin": Wykrawana dynia
+    "cauldron": Kocioł
+    "cave_air": Powietrze jaskiniowe
+    "cave_vines": Jaskiniowe pnącza
+    "cave_vines_plant": Rosnące jaskiniowe pnącza
+    "chain": Łańcuch
+    "chain_command_block": Łańcuchowy blok poleceń
+    "cherry_button": Wiśniowy przycisk
+    "cherry_door": Wiśniowe drzwi
+    "cherry_fence": Wiśniowy płot
+    "cherry_fence_gate": Wiśniowa furtka
+    "cherry_hanging_sign": Wiśniowa podwieszana tabliczka
+    "cherry_leaves": Wiśniowe liście
+    "cherry_log": Wiśniowy pień
+    "cherry_planks": Wiśniowe deski
+    "cherry_pressure_plate": Wiśniowa płytka naciskowa
+    "cherry_sapling": Sadzonka wiśni
+    "cherry_shelf": Wiśniowa półka
+    "cherry_sign": Wiśniowa tabliczka
+    "cherry_slab": Wiśniowa płyta
+    "cherry_stairs": Wiśniowe schody
+    "cherry_trapdoor": Wiśniowa klapa
+    "cherry_wall_hanging_sign": Wiśniowa ścienna podwieszana tabliczka
+    "cherry_wall_sign": Wiśniowa ścienna tabliczka
+    "cherry_wood": Wiśniowe drewno
+    "chest": Skrzynia
+    "chipped_anvil": Wyszczerbione kowadło
+    "chiseled_bookshelf": Rzeźbiona biblioteczka
+    "chiseled_cinnabar": Rzeźbiony cynober
+    "chiseled_copper": Rzeźbiona miedź
+    "chiseled_deepslate": Rzeźbiony łupek
+    "chiseled_nether_bricks": Rzeźbione netherowe cegły
+    "chiseled_polished_blackstone": Rzeźbiony wypolerowany czernit
+    "chiseled_quartz_block": Rzeźbiony blok kwarcu
+    "chiseled_red_sandstone": Rzeźbiony czerwony piaskowiec
+    "chiseled_resin_bricks": Rzeźbione żywicowe cegły
+    "chiseled_sandstone": Rzeźbiony piaskowiec
+    "chiseled_stone_bricks": Rzeźbione kamienne cegły
+    "chiseled_sulfur": Rzeźbiona siarka
+    "chiseled_tuff": Rzeźbiony tuf
+    "chiseled_tuff_bricks": Rzeźbione tufowe cegły
+    "chorus_flower": Kwiat refrenusu
+    "chorus_plant": Łodyga refrenusu
+    "cinnabar": Cynober
+    "cinnabar_brick_slab": Cynobrowa ceglana płyta
+    "cinnabar_brick_stairs": Cynobrowe ceglane schody
+    "cinnabar_brick_wall": Cynobrowy ceglany murek
+    "cinnabar_bricks": Cynobrowe cegły
+    "cinnabar_slab": Cynobrowa płyta
+    "cinnabar_stairs": Cynobrowe schody
+    "cinnabar_wall": Cynobrowy murek
+    "clay": Glina
+    "closed_eyeblossom": Zamknięta okrotka
+    "coal_block": Blok węgla
+    "coal_ore": Złoże węgla
+    "coarse_dirt": Twarda ziemia
+    "cobbled_deepslate": Łupkowy bruk
+    "cobbled_deepslate_slab": Łupkowa brukowa płyta
+    "cobbled_deepslate_stairs": Łupkowe brukowe schody
+    "cobbled_deepslate_wall": Łupkowy brukowy murek
+    "cobblestone": Bruk
+    "cobblestone_slab": Brukowa płyta
+    "cobblestone_stairs": Brukowe schody
+    "cobblestone_wall": Brukowy murek
+    "cobweb": Pajęczyna
+    "cocoa": Kakao
+    "command_block": Blok poleceń
+    "comparator": Komparator redstone
+    "composter": Kompostownik
+    "conduit": Przewodnia
+    "copper_bars": Miedziane kraty
+    "copper_block": Blok miedzi
+    "copper_bulb": Miedziana lampa
+    "copper_chain": Miedziany łańcuch
+    "copper_chest": Miedziana skrzynia
+    "copper_door": Miedziane drzwi
+    "copper_golem_statue": Posąg miedzianego golema
+    "copper_grate": Miedziana krata
+    "copper_lantern": Miedziana latarnia
+    "copper_ore": Złoże miedzi
+    "copper_torch": Miedziowa pochodnia
+    "copper_trapdoor": Miedziana klapa
+    "copper_wall_torch": Ścienna miedziowa pochodnia
+    "cornflower": Chaber
+    "cracked_deepslate_bricks": Popękane łupkowe cegły
+    "cracked_deepslate_tiles": Popękane łupkowe kafelki
+    "cracked_nether_bricks": Popękane netherowe cegły
+    "cracked_polished_blackstone_bricks": Popękane wypolerowane czernitowe cegły
+    "cracked_stone_bricks": Popękane kamienne cegły
+    "crafter": Wytwarzacz
+    "crafting_table": Stół rzemieślniczy
+    "creaking_heart": Trzeszczące serce
+    "creeper_head": Głowa creepera
+    "creeper_wall_head": Ścienna głowa creepera
+    "crimson_button": Szkarłatny przycisk
+    "crimson_door": Szkarłatne drzwi
+    "crimson_fence": Szkarłatny płot
+    "crimson_fence_gate": Szkarłatna furtka
+    "crimson_fungus": Szkarłatny grzyb
+    "crimson_hanging_sign": Szkarłatna podwieszana tabliczka
+    "crimson_hyphae": Szkarłatne strzępki
+    "crimson_nylium": Szkarłatne nylium
+    "crimson_planks": Szkarłatne deski
+    "crimson_pressure_plate": Szkarłatna płytka naciskowa
+    "crimson_roots": Szkarłatne korzenie
+    "crimson_shelf": Szkarłatna półka
+    "crimson_sign": Szkarłatna tabliczka
+    "crimson_slab": Szkarłatna płyta
+    "crimson_stairs": Szkarłatne schody
+    "crimson_stem": Szkarłatny trzon
+    "crimson_trapdoor": Szkarłatna klapa
+    "crimson_wall_hanging_sign": Szkarłatna ścienna podwieszana tabliczka
+    "crimson_wall_sign": Szkarłatna ścienna tabliczka
+    "crying_obsidian": Płaczący obsydian
+    "cut_copper": Żłobiona miedź
+    "cut_copper_slab": Żłobiona miedziana płyta
+    "cut_copper_stairs": Żłobione miedziane schody
+    "cut_red_sandstone": Przycięty czerwony piaskowiec
+    "cut_red_sandstone_slab": Przycięta czerwona piaskowcowa płyta
+    "cut_sandstone": Przycięty piaskowiec
+    "cut_sandstone_slab": Przycięta piaskowcowa płyta
+    "cyan_banner": Błękitny sztandar
+    "cyan_bed": Błękitne łóżko
+    "cyan_candle": Błękitna świeca
+    "cyan_candle_cake": Ciasto z błękitną świeczką
+    "cyan_carpet": Błękitny dywan
+    "cyan_concrete": Błękitny beton
+    "cyan_concrete_powder": Błękitny cement
+    "cyan_concrete_slab": Błękitna betonowa płyta
+    "cyan_concrete_stairs": Błękitne betonowe schody
+    "cyan_glazed_terracotta": Błękitna glazurowana terakota
+    "cyan_shulker_box": Błękitna shulkerowa skrzynia
+    "cyan_stained_glass": Błękitne szkło
+    "cyan_stained_glass_pane": Błękitna szyba
+    "cyan_terracotta": Błękitna terakota
+    "cyan_wool": Błękitna wełna
+    "cyan_wool_slab": Błękitna wełniana płyta
+    "cyan_wool_stairs": Błękitne wełniane schody
+    "damaged_anvil": Uszkodzone kowadło
+    "dandelion": Mlecz
+    "dark_oak_button": Ciemnodębowy przycisk
+    "dark_oak_door": Ciemnodębowe drzwi
+    "dark_oak_fence": Ciemnodębowy płot
+    "dark_oak_fence_gate": Ciemnodębowa furtka
+    "dark_oak_hanging_sign": Ciemnodębowa podwieszana tabliczka
+    "dark_oak_leaves": Ciemnodębowe liście
+    "dark_oak_log": Ciemnodębowy pień
+    "dark_oak_planks": Ciemnodębowe deski
+    "dark_oak_pressure_plate": Ciemnodębowa płytka naciskowa
+    "dark_oak_sapling": Sadzonka ciemnego dębu
+    "dark_oak_shelf": Ciemnodębowa półka
+    "dark_oak_sign": Ciemnodębowa tabliczka
+    "dark_oak_slab": Ciemnodębowa płyta
+    "dark_oak_stairs": Ciemnodębowe schody
+    "dark_oak_trapdoor": Ciemnodębowa klapa
+    "dark_oak_wall_hanging_sign": Ciemnodębowa ścienna podwieszana tabliczka
+    "dark_oak_wall_sign": Ciemnodębowa ścienna tabliczka
+    "dark_oak_wood": Ciemnodębowe drewno
+    "dark_prismarine": Ciemny pryzmaryn
+    "dark_prismarine_slab": Ciemna pryzmarynowa płyta
+    "dark_prismarine_stairs": Ciemne pryzmarynowe schody
+    "daylight_detector": Detektor światła dziennego
+    "dead_brain_coral": Martwy koralowiec mózgowaty
+    "dead_brain_coral_block": Blok martwego koralowca mózgowatego
+    "dead_brain_coral_fan": Martwy wachlarz koralowca mózgowatego
+    "dead_brain_coral_wall_fan": Martwy wachlarz naścienny koralowca mózgowatego
+    "dead_bubble_coral": Martwy koralowiec bąbelkowy
+    "dead_bubble_coral_block": Blok martwego koralowca bąbelkowatego
+    "dead_bubble_coral_fan": Martwy wachlarz koralowca bąbelkowatego
+    "dead_bubble_coral_wall_fan": Martwy wachlarz naścienny koralowca bąbelkowatego
+    "dead_bush": Uschnięty krzak
+    "dead_fire_coral": Martwy koralowiec ognisty
+    "dead_fire_coral_block": Blok martwego koralowca ognistego
+    "dead_fire_coral_fan": Martwy wachlarz koralowca ognistego
+    "dead_fire_coral_wall_fan": Martwy wachlarz naścienny koralowca ognistego
+    "dead_horn_coral": Martwy koralowiec rogaty
+    "dead_horn_coral_block": Blok martwego koralowca rogatego
+    "dead_horn_coral_fan": Martwy wachlarz koralowca rogatego
+    "dead_horn_coral_wall_fan": Martwy wachlarz naścienny koralowca rogatego
+    "dead_tube_coral": Martwy koralowiec rurkowaty
+    "dead_tube_coral_block": Blok martwego koralowca rurkowatego
+    "dead_tube_coral_fan": Martwy wachlarz koralowca rurkowatego
+    "dead_tube_coral_wall_fan": Martwy wachlarz naścienny koralowca rurkowatego
+    "decorated_pot": Dekorowany garniec
+    "deepslate": Łupek
+    "deepslate_brick_slab": Łupkowa ceglana płyta
+    "deepslate_brick_stairs": Łupkowe ceglane schody
+    "deepslate_brick_wall": Łupkowy ceglany murek
+    "deepslate_bricks": Łupkowe cegły
+    "deepslate_coal_ore": Łupkowe złoże węgla
+    "deepslate_copper_ore": Łupkowe złoże miedzi
+    "deepslate_diamond_ore": Łupkowe złoże diamentu
+    "deepslate_emerald_ore": Łupkowe złoże szmaragdu
+    "deepslate_gold_ore": Łupkowe złoże złota
+    "deepslate_iron_ore": Łupkowe złoże żelaza
+    "deepslate_lapis_ore": Łupkowe złoże lazurytu
+    "deepslate_redstone_ore": Łupkowe złoże redstone
+    "deepslate_tile_slab": Łupkowa kafelkowa płyta
+    "deepslate_tile_stairs": Łupkowe kafelkowe schody
+    "deepslate_tile_wall": Łupkowy kafelkowy murek
+    "deepslate_tiles": Łupkowe kafelki
+    "detector_rail": Tory z czujnikiem
+    "diamond_block": Blok diamentu
+    "diamond_ore": Złoże diamentu
+    "diorite": Dioryt
+    "diorite_slab": Diorytowa płyta
+    "diorite_stairs": Diorytowe schody
+    "diorite_wall": Diorytowy murek
+    "dirt": Ziemia
+    "dirt_path": Ścieżka
+    "dispenser": Dozownik
+    "dragon_egg": Smocze jajo
+    "dragon_head": Głowa smoka
+    "dragon_wall_head": Ścienna głowa smoka
+    "dried_ghast": Wyschnięty ghast
+    "dried_kelp_block": Blok suszonych wodorostów
+    "dripstone_block": Blok nacieku
+    "dropper": Podajnik
+    "emerald_block": Blok szmaragdu
+    "emerald_ore": Złoże szmaragdu
+    "enchanting_table": Stół do zaklinania
+    "end_gateway": Brama Endu
+    "end_portal": Portal do Endu
+    "end_portal_frame": Rama portalu do Endu
+    "end_rod": Endowy słupek
+    "end_stone": Kamień Endu
+    "end_stone_brick_slab": Endowa kamienna ceglana płyta
+    "end_stone_brick_stairs": Endowe kamienne ceglane schody
+    "end_stone_brick_wall": Endowy kamienny ceglany murek
+    "end_stone_bricks": Endowe kamienne cegły
+    "ender_chest": Skrzynia Endu
+    "exposed_chiseled_copper": Zwietrzała rzeźbiona miedź
+    "exposed_copper": Zwietrzała miedź
+    "exposed_copper_bars": Zwietrzałe miedziane kraty
+    "exposed_copper_bulb": Zwietrzała miedziana lampa
+    "exposed_copper_chain": Zwietrzały miedziany łańcuch
+    "exposed_copper_chest": Zwietrzała miedziana skrzynia
+    "exposed_copper_door": Zwietrzałe miedziane drzwi
+    "exposed_copper_golem_statue": Zwietrzały posąg miedzianego golema
+    "exposed_copper_grate": Zwietrzała miedziana krata
+    "exposed_copper_lantern": Zwietrzała miedziana latarnia
+    "exposed_copper_trapdoor": Zwietrzała miedziana klapa
+    "exposed_cut_copper": Zwietrzała żłobiona miedź
+    "exposed_cut_copper_slab": Zwietrzała żłobiona miedziana płyta
+    "exposed_cut_copper_stairs": Zwietrzałe żłobione miedziane schody
+    "exposed_lightning_rod": Zwietrzały piorunochron
+    "farmland": Pole uprawne
+    "fern": Paproć
+    "fire": Ogień
+    "fire_coral": Koralowiec ognisty
+    "fire_coral_block": Blok koralowca ognistego
+    "fire_coral_fan": Wachlarz koralowca ognistego
+    "fire_coral_wall_fan": Wachlarz naścienny koralowca ognistego
+    "firefly_bush": Krzew świetlików
+    "fletching_table": Stół łuczarski
+    "flower_pot": Doniczka
+    "flowering_azalea": Kwitnąca azalia
+    "flowering_azalea_leaves": Kwitnące liście azalii
+    "frogspawn": Żabi skrzek
+    "frosted_ice": Oszroniony lód
+    "furnace": Piec
+    "gilded_blackstone": Złocony czernit
+    "glass": Szkło
+    "glass_pane": Szyba
+    "glow_lichen": Świecący porost
+    "glowstone": Jasnogłaz
+    "gold_block": Blok złota
+    "gold_ore": Złoże złota
+    "golden_dandelion": Złoty mlecz
+    "granite": Granit
+    "granite_slab": Granitowa płyta
+    "granite_stairs": Granitowe schody
+    "granite_wall": Granitowy murek
+    "grass": Trawa
+    "grass_block": Blok trawy
+    "gravel": Żwir
+    "gray_banner": Szary sztandar
+    "gray_bed": Szare łóżko
+    "gray_candle": Szara świeca
+    "gray_candle_cake": Ciasto z szarą świeczką
+    "gray_carpet": Szary dywan
+    "gray_concrete": Szary beton
+    "gray_concrete_powder": Szary cement
+    "gray_concrete_slab": Szara betonowa płyta
+    "gray_concrete_stairs": Szare betonowe schody
+    "gray_glazed_terracotta": Szara glazurowana terakota
+    "gray_shulker_box": Szara shulkerowa skrzynia
+    "gray_stained_glass": Szare szkło
+    "gray_stained_glass_pane": Szara szyba
+    "gray_terracotta": Szara terakota
+    "gray_wool": Szara wełna
+    "gray_wool_slab": Szara wełniana płyta
+    "gray_wool_stairs": Szare wełniane schody
+    "green_banner": Zielony sztandar
+    "green_bed": Zielone łóżko
+    "green_candle": Zielona świeca
+    "green_candle_cake": Ciasto z zieloną świeczką
+    "green_carpet": Zielony dywan
+    "green_concrete": Zielony beton
+    "green_concrete_powder": Zielony cement
+    "green_concrete_slab": Zielona betonowa płyta
+    "green_concrete_stairs": Zielone betonowe schody
+    "green_glazed_terracotta": Zielona glazurowana terakota
+    "green_shulker_box": Zielona shulkerowa skrzynia
+    "green_stained_glass": Zielone szkło
+    "green_stained_glass_pane": Zielona szyba
+    "green_terracotta": Zielona terakota
+    "green_wool": Zielona wełna
+    "green_wool_slab": Zielona wełniana płyta
+    "green_wool_stairs": Zielone wełniane schody
+    "grindstone": Kamień szlifierski
+    "hanging_roots": Zwisające korzenie
+    "hay_block": Snop siana
+    "heavy_core": Ciężki rdzeń
+    "heavy_weighted_pressure_plate": Ciężka wagowa płytka naciskowa
+    "honey_block": Blok miodu
+    "honeycomb_block": Blok plastra miodu
+    "hopper": Lej
+    "horn_coral": Koralowiec rogaty
+    "horn_coral_block": Blok koralowca rogatego
+    "horn_coral_fan": Wachlarz koralowca rogatego
+    "horn_coral_wall_fan": Wachlarz naścienny koralowca rogatego
+    "ice": Lód
+    "infested_chiseled_stone_bricks": Zarobaczone rzeźbione kamienne cegły
+    "infested_cobblestone": Zarobaczony bruk
+    "infested_cracked_stone_bricks": Zarobaczone popękane kamienne cegły
+    "infested_deepslate": Zarobaczony łupek
+    "infested_mossy_stone_bricks": Zarobaczone zamszone kamienne cegły
+    "infested_stone": Zarobaczony kamień
+    "infested_stone_bricks": Zarobaczone kamienne cegły
+    "iron_bars": Żelazne kraty
+    "iron_block": Blok żelaza
+    "iron_chain": Żelazny łańcuch
+    "iron_door": Żelazne drzwi
+    "iron_ore": Złoże żelaza
+    "iron_trapdoor": Żelazna klapa
+    "jack_o_lantern": Latarnia dyniowa
+    "jigsaw": Blok konstrukcyjny
+    "jukebox": Szafa grająca
+    "jungle_button": Tropikalny przycisk
+    "jungle_door": Tropikalne drzwi
+    "jungle_fence": Tropikalny płot
+    "jungle_fence_gate": Tropikalna furtka
+    "jungle_hanging_sign": Tropikalna podwieszana tabliczka
+    "jungle_leaves": Tropikalne liście
+    "jungle_log": Tropikalny pień
+    "jungle_planks": Tropikalne deski
+    "jungle_pressure_plate": Tropikalna płytka naciskowa
+    "jungle_sapling": Sadzonka tropikalna
+    "jungle_shelf": Tropikalna półka
+    "jungle_sign": Tropikalna tabliczka
+    "jungle_slab": Tropikalna płyta
+    "jungle_stairs": Tropikalne schody
+    "jungle_trapdoor": Tropikalna klapa
+    "jungle_wall_hanging_sign": Tropikalna ścienna podwieszana tabliczka
+    "jungle_wall_sign": Tropikalna ścienna tabliczka
+    "jungle_wood": Tropikalne drewno
+    "kelp": Wodorost
+    "kelp_plant": Rosnące wodorosty
+    "ladder": Drabina
+    "lantern": Latarnia
+    "lapis_block": Blok lazurytu
+    "lapis_ore": Złoże lazurytu
+    "large_amethyst_bud": Duży zarodek ametystu
+    "large_fern": Duża paproć
+    "lava": Lawa
+    "lava_cauldron": Kocioł lawy
+    "leaf_litter": Ściółka
+    "lectern": Pulpit
+    "lever": Dźwignia
+    "light": Światło
+    "light_blue_banner": Jasnoniebieski sztandar
+    "light_blue_bed": Jasnoniebieskie łóżko
+    "light_blue_candle": Jasnoniebieska świeca
+    "light_blue_candle_cake": Ciasto z jasnoniebieską świeczką
+    "light_blue_carpet": Jasnoniebieski dywan
+    "light_blue_concrete": Jasnoniebieski beton
+    "light_blue_concrete_powder": Jasnoniebieski cement
+    "light_blue_concrete_slab": Jasnoniebieska betonowa płyta
+    "light_blue_concrete_stairs": Jasnoniebieskie betonowe schody
+    "light_blue_glazed_terracotta": Jasnoniebieska glazurowana terakota
+    "light_blue_shulker_box": Jasnoniebieska shulkerowa skrzynia
+    "light_blue_stained_glass": Jasnoniebieskie szkło
+    "light_blue_stained_glass_pane": Jasnoniebieska szyba
+    "light_blue_terracotta": Jasnoniebieska terakota
+    "light_blue_wool": Jasnoniebieska wełna
+    "light_blue_wool_slab": Jasnoniebieska wełniana płyta
+    "light_blue_wool_stairs": Jasnoniebieskie wełniane schody
+    "light_gray_banner": Jasnoszary sztandar
+    "light_gray_bed": Jasnoszare łóżko
+    "light_gray_candle": Jasnoszara świeca
+    "light_gray_candle_cake": Ciasto z jasnoszarą świeczką
+    "light_gray_carpet": Jasnoszary dywan
+    "light_gray_concrete": Jasnoszary beton
+    "light_gray_concrete_powder": Jasnoszary cement
+    "light_gray_concrete_slab": Jasnoszara betonowa płyta
+    "light_gray_concrete_stairs": Jasnoszare betonowe schody
+    "light_gray_glazed_terracotta": Jasnoszara glazurowana terakota
+    "light_gray_shulker_box": Jasnoszara shulkerowa skrzynia
+    "light_gray_stained_glass": Jasnoszare szkło
+    "light_gray_stained_glass_pane": Jasnoszara szyba
+    "light_gray_terracotta": Jasnoszara terakota
+    "light_gray_wool": Jasnoszara wełna
+    "light_gray_wool_slab": Jasnoszara wełniana płyta
+    "light_gray_wool_stairs": Jasnoszare wełniane schody
+    "light_weighted_pressure_plate": Lekka wagowa płytka naciskowa
+    "lightning_rod": Piorunochron
+    "lilac": Bez
+    "lily_of_the_valley": Konwalia
+    "lily_pad": Lilia wodna
+    "lime_banner": Jasnozielony sztandar
+    "lime_bed": Jasnozielone łóżko
+    "lime_candle": Jasnozielona świeca
+    "lime_candle_cake": Ciasto z jasnozieloną świeczką
+    "lime_carpet": Jasnozielony dywan
+    "lime_concrete": Jasnozielony beton
+    "lime_concrete_powder": Jasnozielony cement
+    "lime_concrete_slab": Jasnozielona betonowa płyta
+    "lime_concrete_stairs": Jasnozielone betonowe schody
+    "lime_glazed_terracotta": Jasnozielona glazurowana terakota
+    "lime_shulker_box": Jasnozielona shulkerowa skrzynia
+    "lime_stained_glass": Jasnozielone szkło
+    "lime_stained_glass_pane": Jasnozielona szyba
+    "lime_terracotta": Jasnozielona terakota
+    "lime_wool": Jasnozielona wełna
+    "lime_wool_slab": Jasnozielona wełniana płyta
+    "lime_wool_stairs": Jasnozielone wełniane schody
+    "lodestone": Magnetyt
+    "loom": Krosno
+    "magenta_banner": Purpurowy sztandar
+    "magenta_bed": Purpurowe łóżko
+    "magenta_candle": Purpurowa świeca
+    "magenta_candle_cake": Ciasto z purpurową świeczką
+    "magenta_carpet": Purpurowy dywan
+    "magenta_concrete": Purpurowy beton
+    "magenta_concrete_powder": Purpurowy cement
+    "magenta_concrete_slab": Purpurowa betonowa płyta
+    "magenta_concrete_stairs": Purpurowe betonowe schody
+    "magenta_glazed_terracotta": Purpurowa glazurowana terakota
+    "magenta_shulker_box": Purpurowa shulkerowa skrzynia
+    "magenta_stained_glass": Purpurowe szkło
+    "magenta_stained_glass_pane": Purpurowa szyba
+    "magenta_terracotta": Purpurowa terakota
+    "magenta_wool": Purpurowa wełna
+    "magenta_wool_slab": Purpurowa wełniana płyta
+    "magenta_wool_stairs": Purpurowe wełniane schody
+    "magma_block": Blok magmy
+    "mangrove_button": Namorzynowy przycisk
+    "mangrove_door": Namorzynowe drzwi
+    "mangrove_fence": Namorzynowy płot
+    "mangrove_fence_gate": Namorzynowa furtka
+    "mangrove_hanging_sign": Namorzynowa podwieszana tabliczka
+    "mangrove_leaves": Namorzynowe liście
+    "mangrove_log": Namorzynowy pień
+    "mangrove_planks": Namorzynowe deski
+    "mangrove_pressure_plate": Namorzynowa płytka naciskowa
+    "mangrove_propagule": Siewka namorzynu
+    "mangrove_roots": Namorzynowe korzenie
+    "mangrove_shelf": Namorzynowa półka
+    "mangrove_sign": Namorzynowa tabliczka
+    "mangrove_slab": Namorzynowa płyta
+    "mangrove_stairs": Namorzynowe schody
+    "mangrove_trapdoor": Namorzynowa klapa
+    "mangrove_wall_hanging_sign": Namorzynowa ścienna podwieszana tabliczka
+    "mangrove_wall_sign": Namorzynowa ścienna tabliczka
+    "mangrove_wood": Namorzynowe drewno
+    "medium_amethyst_bud": Średni zarodek ametystu
+    "melon": Arbuz
+    "melon_stem": Łodyga arbuza
+    "moss_block": Blok mchu
+    "moss_carpet": Warstwa mchu
+    "mossy_cobblestone": Zamszony bruk
+    "mossy_cobblestone_slab": Zamszona brukowa płyta
+    "mossy_cobblestone_stairs": Zamszone brukowe schody
+    "mossy_cobblestone_wall": Zamszony brukowy murek
+    "mossy_stone_brick_slab": Zamszona kamienna ceglana płyta
+    "mossy_stone_brick_stairs": Zamszone kamienne ceglane schody
+    "mossy_stone_brick_wall": Zamszony kamienny ceglany murek
+    "mossy_stone_bricks": Zamszone kamienne cegły
+    "moving_piston": Poruszany blok
+    "mud": Błoto
+    "mud_brick_slab": Błotna ceglana płyta
+    "mud_brick_stairs": Błotne ceglane schody
+    "mud_brick_wall": Błotny ceglany murek
+    "mud_bricks": Błotne cegły
+    "muddy_mangrove_roots": Zabłocone namorzynowe korzenie
+    "mushroom_stem": Trzon grzyba
+    "mycelium": Grzybnia
+    "nether_brick_fence": Netherowy ceglany płot
+    "nether_brick_slab": Netherowa ceglana płyta
+    "nether_brick_stairs": Netherowe ceglane schody
+    "nether_brick_wall": Netherowy ceglany murek
+    "nether_bricks": Netherowe cegły
+    "nether_gold_ore": Netherowe złoże złota
+    "nether_portal": Netherowy portal
+    "nether_quartz_ore": Złoże netherowego kwarcu
+    "nether_sprouts": Netherowe kiełki
+    "nether_wart": Netherowa brodawka
+    "nether_wart_block": Blok netherowych brodawek
+    "netherite_block": Blok netherytu
+    "netherrack": Netherrack
+    "note_block": Blok dźwiękowy
+    "oak_button": Dębowy przycisk
+    "oak_door": Dębowe drzwi
+    "oak_fence": Dębowy płot
+    "oak_fence_gate": Dębowa furtka
+    "oak_hanging_sign": Dębowa podwieszana tabliczka
+    "oak_leaves": Dębowe liście
+    "oak_log": Dębowy pień
+    "oak_planks": Dębowe deski
+    "oak_pressure_plate": Dębowa płytka naciskowa
+    "oak_sapling": Sadzonka dębu
+    "oak_shelf": Dębowa półka
+    "oak_sign": Dębowa tabliczka
+    "oak_slab": Dębowa płyta
+    "oak_stairs": Dębowe schody
+    "oak_trapdoor": Dębowa klapa
+    "oak_wall_hanging_sign": Dębowa ścienna podwieszana tabliczka
+    "oak_wall_sign": Dębowa ścienna tabliczka
+    "oak_wood": Dębowe drewno
+    "observer": Detektor
+    "obsidian": Obsydian
+    "ochre_froglight": Złocista żabia lampa
+    "ominous_banner": Złowieszczy sztandar
+    "open_eyeblossom": Otwarta okrotka
+    "orange_banner": Pomarańczowy sztandar
+    "orange_bed": Pomarańczowe łóżko
+    "orange_candle": Pomarańczowa świeca
+    "orange_candle_cake": Ciasto z pomarańczową świeczką
+    "orange_carpet": Pomarańczowy dywan
+    "orange_concrete": Pomarańczowy beton
+    "orange_concrete_powder": Pomarańczowy cement
+    "orange_concrete_slab": Pomarańczowa betonowa płyta
+    "orange_concrete_stairs": Pomarańczowe betonowe schody
+    "orange_glazed_terracotta": Pomarańczowa glazurowana terakota
+    "orange_poplar_leaves": Pomarańczowe topolowe liście
+    "orange_shulker_box": Pomarańczowa shulkerowa skrzynia
+    "orange_stained_glass": Pomarańczowe szkło
+    "orange_stained_glass_pane": Pomarańczowa szyba
+    "orange_terracotta": Pomarańczowa terakota
+    "orange_tulip": Pomarańczowy tulipan
+    "orange_wool": Pomarańczowa wełna
+    "orange_wool_slab": Pomarańczowa wełniana płyta
+    "orange_wool_stairs": Pomarańczowe wełniane schody
+    "oxeye_daisy": Margaretka
+    "oxidized_chiseled_copper": Utleniona rzeźbiona miedź
+    "oxidized_copper": Utleniona miedź
+    "oxidized_copper_bars": Utlenione miedziane kraty
+    "oxidized_copper_bulb": Utleniona miedziana lampa
+    "oxidized_copper_chain": Utleniony miedziany łańcuch
+    "oxidized_copper_chest": Utleniona miedziana skrzynia
+    "oxidized_copper_door": Utlenione miedziane drzwi
+    "oxidized_copper_golem_statue": Utleniony posąg miedzianego golema
+    "oxidized_copper_grate": Utleniona miedziana krata
+    "oxidized_copper_lantern": Utleniona miedziana latarnia
+    "oxidized_copper_trapdoor": Utleniona miedziana klapa
+    "oxidized_cut_copper": Utleniona żłobiona miedź
+    "oxidized_cut_copper_slab": Utleniona żłobiona miedziana płyta
+    "oxidized_cut_copper_stairs": Utlenione żłobione miedziane schody
+    "oxidized_lightning_rod": Utleniony piorunochron
+    "packed_ice": Zbity lód
+    "packed_mud": Utwardzone błoto
+    "pale_hanging_moss": Zwisający blady mech
+    "pale_moss_block": Blok bladego mchu
+    "pale_moss_carpet": Warstwa bladego mchu
+    "pale_oak_button": Bladodębowy przycisk
+    "pale_oak_door": Bladodębowe drzwi
+    "pale_oak_fence": Bladodębowy płot
+    "pale_oak_fence_gate": Bladodębowa furtka
+    "pale_oak_hanging_sign": Bladodębowa podwieszana tabliczka
+    "pale_oak_leaves": Bladodębowe liście
+    "pale_oak_log": Bladodębowy pień
+    "pale_oak_planks": Bladodębowe deski
+    "pale_oak_pressure_plate": Bladodębowa płytka naciskowa
+    "pale_oak_sapling": Sadzonka bladego dębu
+    "pale_oak_shelf": Bladodębowa półka
+    "pale_oak_sign": Bladodębowa tabliczka
+    "pale_oak_slab": Bladodębowa płyta
+    "pale_oak_stairs": Bladodębowe schody
+    "pale_oak_trapdoor": Bladodębowa klapa
+    "pale_oak_wall_hanging_sign": Bladodębowa ścienna podwieszana tabliczka
+    "pale_oak_wall_sign": Bladodębowa ścienna tabliczka
+    "pale_oak_wood": Bladodębowe drewno
+    "pearlescent_froglight": Perłowa żabia lampa
+    "peony": Piwonia
+    "petrified_oak_slab": Skamieniała dębowa płyta
+    "piglin_head": Głowa piglina
+    "piglin_wall_head": Ścienna głowa piglina
+    "pink_banner": Różowy sztandar
+    "pink_bed": Różowe łóżko
+    "pink_candle": Różowa świeca
+    "pink_candle_cake": Ciasto z różową świeczką
+    "pink_carpet": Różowy dywan
+    "pink_concrete": Różowy beton
+    "pink_concrete_powder": Różowy cement
+    "pink_concrete_slab": Różowa betonowa płyta
+    "pink_concrete_stairs": Różowe betonowe schody
+    "pink_glazed_terracotta": Różowa glazurowana terakota
+    "pink_petals": Różowe kwiatki
+    "pink_shulker_box": Różowa shulkerowa skrzynia
+    "pink_stained_glass": Różowe szkło
+    "pink_stained_glass_pane": Różowa szyba
+    "pink_terracotta": Różowa terakota
+    "pink_tulip": Różowy tulipan
+    "pink_wool": Różowa wełna
+    "pink_wool_slab": Różowa wełniana płyta
+    "pink_wool_stairs": Różowe wełniane schody
+    "piston": Tłok
+    "piston_head": Głowica tłoka
+    "pitcher_crop": Plon dzbanecznika
+    "pitcher_plant": Dzbanecznik
+    "player_head": Głowa gracza
+    "player_wall_head": Ścienna głowa gracza
+    "podzol": Bielica
+    "pointed_dripstone": Spiczasty naciek
+    "polished_andesite": Wypolerowany andezyt
+    "polished_andesite_slab": Wypolerowana andezytowa płyta
+    "polished_andesite_stairs": Wypolerowane andezytowe schody
+    "polished_basalt": Wypolerowany bazalt
+    "polished_blackstone": Wypolerowany czernit
+    "polished_blackstone_brick_slab": Wypolerowana czernitowa ceglana płyta
+    "polished_blackstone_brick_stairs": Wypolerowane czernitowe ceglane schody
+    "polished_blackstone_brick_wall": Wypolerowany czernitowy ceglany murek
+    "polished_blackstone_bricks": Wypolerowane czernitowe cegły
+    "polished_blackstone_button": Wypolerowany czernitowy przycisk
+    "polished_blackstone_pressure_plate": Wypolerowana czernitowa płytka naciskowa
+    "polished_blackstone_slab": Wypolerowana czernitowa płyta
+    "polished_blackstone_stairs": Wypolerowane czernitowe schody
+    "polished_blackstone_wall": Wypolerowany czernitowy murek
+    "polished_cinnabar": Wypolerowany cynober
+    "polished_cinnabar_slab": Wypolerowana cynobrowa płyta
+    "polished_cinnabar_stairs": Wypolerowane cynobrowe schody
+    "polished_cinnabar_wall": Wypolerowany cynobrowy murek
+    "polished_deepslate": Wypolerowany łupek
+    "polished_deepslate_slab": Wypolerowana łupkowa płyta
+    "polished_deepslate_stairs": Wypolerowane łupkowe schody
+    "polished_deepslate_wall": Wypolerowany łupkowy murek
+    "polished_diorite": Wypolerowany dioryt
+    "polished_diorite_slab": Wypolerowana diorytowa płyta
+    "polished_diorite_stairs": Wypolerowane diorytowe schody
+    "polished_granite": Wypolerowany granit
+    "polished_granite_slab": Wypolerowana granitowa płyta
+    "polished_granite_stairs": Wypolerowane granitowe schody
+    "polished_sulfur": Wypolerowana siarka
+    "polished_sulfur_slab": Wypolerowana siarkowa płyta
+    "polished_sulfur_stairs": Wypolerowane siarkowe schody
+    "polished_sulfur_wall": Wypolerowany siarkowy murek
+    "polished_tuff": Wypolerowany tuf
+    "polished_tuff_slab": Wypolerowana tufowa płyta
+    "polished_tuff_stairs": Wypolerowane tufowe schody
+    "polished_tuff_wall": Wypolerowany tufowy murek
+    "poplar_button": Topolowy przycisk
+    "poplar_door": Topolowe drzwi
+    "poplar_fence": Topolowy płot
+    "poplar_fence_gate": Topolowa furtka
+    "poplar_hanging_sign": Topolowa podwieszana tabliczka
+    "poplar_leaves": Topolowe liście
+    "poplar_log": Topolowy pień
+    "poplar_planks": Topolowe deski
+    "poplar_pressure_plate": Topolowa płyta naciskowa
+    "poplar_sapling": Sadzonka topoli
+    "poplar_shelf": Topolowa półka
+    "poplar_sign": Topolowa tabliczka
+    "poplar_slab": Topolowa płyta
+    "poplar_stairs": Topolowe schody
+    "poplar_trapdoor": Topolowa klapa
+    "poplar_wall_hanging_sign": Topolowa ścienna podwieszana tabliczka
+    "poplar_wall_sign": Topolowa ścienna tabliczka
+    "poplar_wood": Topolowe drewno
+    "poppy": Mak
+    "potatoes": Ziemniaki
+    "potent_sulfur": Stężona siarka
+    "potted_acacia_sapling": Sadzonka akacji w doniczce
+    "potted_allium": Czosnek w doniczce
+    "potted_azalea_bush": Azalia w doniczce
+    "potted_azure_bluet": Houstonia błękitna w doniczce
+    "potted_bamboo": Bambus w doniczce
+    "potted_birch_sapling": Sadzonka brzozy w doniczce
+    "potted_blue_orchid": Niebieska orchidea w doniczce
+    "potted_brown_mushroom": Borowik w doniczce
+    "potted_cactus": Kaktus w doniczce
+    "potted_cherry_sapling": Sadzonka wiśni w doniczce
+    "potted_closed_eyeblossom": Zamknięta okrotka w doniczce
+    "potted_cornflower": Chaber w doniczce
+    "potted_crimson_fungus": Szkarłatny grzyb w doniczce
+    "potted_crimson_roots": Szkarłatne korzenie w doniczce
+    "potted_dandelion": Mlecz w doniczce
+    "potted_dark_oak_sapling": Sadzonka ciemnego dębu w doniczce
+    "potted_dead_bush": Uschnięty krzak w doniczce
+    "potted_fern": Paproć w doniczce
+    "potted_flowering_azalea_bush": Kwitnąca azalia w doniczce
+    "potted_golden_dandelion": Złoty mlecz w doniczce
+    "potted_jungle_sapling": Sadzonka tropikalna w doniczce
+    "potted_lily_of_the_valley": Konwalia w doniczce
+    "potted_mangrove_propagule": Siewka namorzynu w doniczce
+    "potted_oak_sapling": Sadzonka dębu w doniczce
+    "potted_open_eyeblossom": Otwarta okrotka w doniczce
+    "potted_orange_tulip": Pomarańczowy tulipan w doniczce
+    "potted_oxeye_daisy": Margaretka w doniczce
+    "potted_pale_oak_sapling": Sadzonka bladego dębu w doniczce
+    "potted_pink_tulip": Różowy tulipan w doniczce
+    "potted_poplar_sapling": Sadzonka topoli w doniczce
+    "potted_poppy": Mak w doniczce
+    "potted_red_mushroom": Muchomor w doniczce
+    "potted_red_tulip": Czerwony tulipan w doniczce
+    "potted_spruce_sapling": Sadzonka świerku w doniczce
+    "potted_torchflower": Ognisty kwiat w doniczce
+    "potted_warped_fungus": Spaczony grzyb w doniczce
+    "potted_warped_roots": Spaczone korzenie w doniczce
+    "potted_white_tulip": Biały tulipan w doniczce
+    "potted_wither_rose": Witherowa róża w doniczce
+    "powder_snow": Sypki śnieg
+    "powder_snow_cauldron": Kocioł sypkiego śniegu
+    "powered_rail": Zasilane tory
+    "prismarine": Pryzmaryn
+    "prismarine_brick_slab": Pryzmarynowa ceglana płyta
+    "prismarine_brick_stairs": Pryzmarynowe ceglane schody
+    "prismarine_bricks": Pryzmarynowe cegły
+    "prismarine_slab": Pryzmarynowa płyta
+    "prismarine_stairs": Pryzmarynowe schody
+    "prismarine_wall": Pryzmarynowy murek
+    "pumpkin": Dynia
+    "pumpkin_stem": Łodyga dyni
+    "purple_banner": Fioletowy sztandar
+    "purple_bed": Fioletowe łóżko
+    "purple_candle": Fioletowa świeca
+    "purple_candle_cake": Ciasto z fioletową świeczką
+    "purple_carpet": Fioletowy dywan
+    "purple_concrete": Fioletowy beton
+    "purple_concrete_powder": Fioletowy cement
+    "purple_concrete_slab": Fioletowa betonowa płyta
+    "purple_concrete_stairs": Fioletowe betonowe schody
+    "purple_glazed_terracotta": Fioletowa glazurowana terakota
+    "purple_shulker_box": Fioletowa shulkerowa skrzynia
+    "purple_stained_glass": Fioletowe szkło
+    "purple_stained_glass_pane": Fioletowa szyba
+    "purple_terracotta": Fioletowa terakota
+    "purple_wool": Fioletowa wełna
+    "purple_wool_slab": Fioletowa wełniana płyta
+    "purple_wool_stairs": Fioletowe wełniane schody
+    "purpur_block": Blok purpuru
+    "purpur_pillar": Purpurowy filar
+    "purpur_slab": Purpurowa płyta
+    "purpur_stairs": Purpurowe schody
+    "quartz_block": Blok kwarcu
+    "quartz_bricks": Kwarcowe cegły
+    "quartz_pillar": Kwarcowy filar
+    "quartz_slab": Kwarcowa płyta
+    "quartz_stairs": Kwarcowe schody
+    "rail": Tory
+    "raw_copper_block": Blok rudy miedzi
+    "raw_gold_block": Blok surowego złota
+    "raw_iron_block": Blok rudy żelaza
+    "red_banner": Czerwony sztandar
+    "red_bed": Czerwone łóżko
+    "red_candle": Czerwona świeca
+    "red_candle_cake": Ciasto z czerwoną świeczką
+    "red_carpet": Czerwony dywan
+    "red_concrete": Czerwony beton
+    "red_concrete_powder": Czerwony cement
+    "red_concrete_slab": Czerwona betonowa płyta
+    "red_concrete_stairs": Czerwone betonowe schody
+    "red_glazed_terracotta": Czerwona glazurowana terakota
+    "red_mushroom": Muchomor
+    "red_mushroom_block": Blok muchomora
+    "red_nether_brick_slab": Czerwona netherowa ceglana płyta
+    "red_nether_brick_stairs": Czerwone netherowe ceglane schody
+    "red_nether_brick_wall": Czerwony netherowy ceglany murek
+    "red_nether_bricks": Czerwone netherowe cegły
+    "red_poplar_leaves": Czerwone topolowe liście
+    "red_sand": Czerwony piasek
+    "red_sandstone": Czerwony piaskowiec
+    "red_sandstone_slab": Czerwona piaskowcowa płyta
+    "red_sandstone_stairs": Czerwone piaskowcowe schody
+    "red_sandstone_wall": Czerwony piaskowcowy murek
+    "red_shrub": Czerwony krzew
+    "red_shulker_box": Czerwona shulkerowa skrzynia
+    "red_stained_glass": Czerwone szkło
+    "red_stained_glass_pane": Czerwona szyba
+    "red_terracotta": Czerwona terakota
+    "red_tulip": Czerwony tulipan
+    "red_wool": Czerwona wełna
+    "red_wool_slab": Czerwona wełniana płyta
+    "red_wool_stairs": Czerwone wełniane schody
+    "redstone_block": Blok redstone
+    "redstone_lamp": Lampa redstone
+    "redstone_ore": Złoże redstone
+    "redstone_torch": Pochodnia redstone
+    "redstone_wall_torch": Ścienna pochodnia redstone
+    "redstone_wire": Przewód redstone
+    "reinforced_deepslate": Zbrojony łupek
+    "repeater": Przekaźnik redstone
+    "repeating_command_block": Powtarzający blok poleceń
+    "resin_block": Blok żywicy
+    "resin_brick_slab": Żywicowa ceglana płyta
+    "resin_brick_stairs": Żywicowe ceglane schody
+    "resin_brick_wall": Żywicowy ceglany murek
+    "resin_bricks": Żywicowe cegły
+    "resin_clump": Gruda żywicy
+    "respawn_anchor": Kotwica odrodzenia
+    "rooted_dirt": Zakorzeniona ziemia
+    "rose_bush": Krzew róży
+    "sand": Piasek
+    "sandstone": Piaskowiec
+    "sandstone_slab": Piaskowcowa płyta
+    "sandstone_stairs": Piaskowcowe schody
+    "sandstone_wall": Piaskowcowy murek
+    "scaffolding": Rusztowanie
+    "sculk": Sculk
+    "sculk_catalyst": Sculkowy katalizator
+    "sculk_sensor": Sculkowy czujnik
+    "sculk_shrieker": Sculkowe wrzeszczydło
+    "sculk_vein": Żyły sculku
+    "sea_lantern": Latarnia morska
+    "sea_pickle": Iskrzyłuda
+    "seagrass": Trawa morska
+    "set_spawn": Ustawiono punkt odradzania
+    "shelf_mushroom": Huba
+    "short_dry_grass": Niska sucha trawa
+    "short_grass": Niska trawa
+    "shroomlight": Światłogrzyb
+    "shulker_box": Shulkerowa skrzynia
+    "skeleton_skull": Czaszka szkieleta
+    "skeleton_wall_skull": Ścienna czaszka szkieleta
+    "slime_block": Blok szlamu
+    "small_amethyst_bud": Mały zarodek ametystu
+    "small_dripleaf": Mały spadkoliść
+    "smithing_table": Stół kowalski
+    "smoker": Wędzarka
+    "smooth_basalt": Gładki bazalt
+    "smooth_quartz": Gładki blok kwarcu
+    "smooth_quartz_slab": Gładka kwarcowa płyta
+    "smooth_quartz_stairs": Gładkie kwarcowe schody
+    "smooth_red_sandstone": Gładki czerwony piaskowiec
+    "smooth_red_sandstone_slab": Gładka czerwona piaskowcowa płyta
+    "smooth_red_sandstone_stairs": Gładkie czerwone piaskowcowe schody
+    "smooth_sandstone": Gładki piaskowiec
+    "smooth_sandstone_slab": Gładka piaskowcowa płyta
+    "smooth_sandstone_stairs": Gładkie piaskowcowe schody
+    "smooth_stone": Gładki kamień
+    "smooth_stone_slab": Gładka kamienna płyta
+    "sniffer_egg": Jajo niuchacza
+    "snow": Śnieg
+    "snow_block": Blok śniegu
+    "soul_campfire": Ognisko dusz
+    "soul_fire": Ogień dusz
+    "soul_lantern": Latarnia dusz
+    "soul_sand": Piasek dusz
+    "soul_soil": Gleba dusz
+    "soul_torch": Pochodnia dusz
+    "soul_wall_torch": Ścienna pochodnia dusz
+    "spawner": Przyzywacz potworów
+    "sponge": Gąbka
+    "spore_blossom": Pylikwiat
+    "spruce_button": Świerkowy przycisk
+    "spruce_door": Świerkowe drzwi
+    "spruce_fence": Świerkowy płot
+    "spruce_fence_gate": Świerkowa furtka
+    "spruce_hanging_sign": Świerkowa podwieszana tabliczka
+    "spruce_leaves": Świerkowe liście
+    "spruce_log": Świerkowy pień
+    "spruce_planks": Świerkowe deski
+    "spruce_pressure_plate": Świerkowa płytka naciskowa
+    "spruce_sapling": Sadzonka świerku
+    "spruce_shelf": Świerkowa półka
+    "spruce_sign": Świerkowa tabliczka
+    "spruce_slab": Świerkowa płyta
+    "spruce_stairs": Świerkowe schody
+    "spruce_trapdoor": Świerkowa klapa
+    "spruce_wall_hanging_sign": Świerkowa ścienna podwieszana tabliczka
+    "spruce_wall_sign": Świerkowa ścienna tabliczka
+    "spruce_wood": Świerkowe drewno
+    "sticky_piston": Lepki tłok
+    "stone": Kamień
+    "stone_brick_slab": Kamienna ceglana płyta
+    "stone_brick_stairs": Kamienne ceglane schody
+    "stone_brick_wall": Kamienny ceglany murek
+    "stone_bricks": Kamienne cegły
+    "stone_button": Kamienny przycisk
+    "stone_pressure_plate": Kamienna płytka naciskowa
+    "stone_slab": Kamienna płyta
+    "stone_stairs": Kamienne schody
+    "stonecutter": Przecinarka
+    "straw_bed": Słomiane łóżko
+    "stripped_acacia_log": Ociosany akacjowy pień
+    "stripped_acacia_wood": Ociosane akacjowe drewno
+    "stripped_bamboo_block": Blok ociosanego bambusu
+    "stripped_birch_log": Ociosany brzozowy pień
+    "stripped_birch_wood": Ociosane brzozowe drewno
+    "stripped_cherry_log": Ociosany wiśniowy pień
+    "stripped_cherry_wood": Ociosane wiśniowe drewno
+    "stripped_crimson_hyphae": Ociosane szkarłatne strzępki
+    "stripped_crimson_stem": Ociosany szkarłatny trzon
+    "stripped_dark_oak_log": Ociosany ciemnodębowy pień
+    "stripped_dark_oak_wood": Ociosane ciemnodębowe drewno
+    "stripped_jungle_log": Ociosany tropikalny pień
+    "stripped_jungle_wood": Ociosane tropikalne drewno
+    "stripped_mangrove_log": Ociosany namorzynowy pień
+    "stripped_mangrove_wood": Ociosane namorzynowe drewno
+    "stripped_oak_log": Ociosany dębowy pień
+    "stripped_oak_wood": Ociosane dębowe drewno
+    "stripped_pale_oak_log": Ociosany bladodębowy pień
+    "stripped_pale_oak_wood": Ociosane bladodębowe drewno
+    "stripped_poplar_log": Ociosany topolowy pień
+    "stripped_poplar_wood": Ociosane topolowe drewno
+    "stripped_spruce_log": Ociosany świerkowy pień
+    "stripped_spruce_wood": Ociosane świerkowe drewno
+    "stripped_warped_hyphae": Ociosane spaczone strzępki
+    "stripped_warped_stem": Ociosany spaczony trzon
+    "structure_block": Blok struktur
+    "structure_void": Pustka strukturalna
+    "sugar_cane": Trzcina cukrowa
+    "sulfur": Siarka
+    "sulfur_brick_slab": Siarkowa ceglana płyta
+    "sulfur_brick_stairs": Siarkowe ceglane schody
+    "sulfur_brick_wall": Siarkowy ceglany murek
+    "sulfur_bricks": Siarkowe cegły
+    "sulfur_slab": Siarkowa płyta
+    "sulfur_spike": Siarkowy kolec
+    "sulfur_stairs": Siarkowe schody
+    "sulfur_wall": Siarkowy murek
+    "sunflower": Słonecznik
+    "suspicious_gravel": Podejrzany żwir
+    "suspicious_sand": Podejrzany piasek
+    "sweet_berry_bush": Krzew słodkich jagód
+    "tall_dry_grass": Wysoka sucha trawa
+    "tall_grass": Wysoka trawa
+    "tall_seagrass": Wysoka trawa morska
+    "target": Tarcza strzelecka
+    "terracotta": Terakota
+    "test_block": Blok testowy
+    "test_instance_block": Blok instancji testowej
+    "tinted_glass": Przyciemnione szkło
+    "tnt": TNT
+    "torch": Pochodnia
+    "torchflower": Ognisty kwiat
+    "torchflower_crop": Ognisty kwiat
+    "trapped_chest": Skrzynia-pułapka
+    "trial_spawner": Przyzywacz prób
+    "tripwire": Linka
+    "tripwire_hook": Zaczep na linkę
+    "tube_coral": Koralowiec rurkowaty
+    "tube_coral_block": Blok koralowca rurkowatego
+    "tube_coral_fan": Wachlarz koralowca rurkowatego
+    "tube_coral_wall_fan": Wachlarz naścienny koralowca rurkowatego
+    "tuff": Tuf
+    "tuff_brick_slab": Tufowa ceglana płyta
+    "tuff_brick_stairs": Tufowe ceglane schody
+    "tuff_brick_wall": Tufowy ceglany murek
+    "tuff_bricks": Tufowe cegły
+    "tuff_slab": Tufowa płyta
+    "tuff_stairs": Tufowe schody
+    "tuff_wall": Tufowy murek
+    "turtle_egg": Żółwie jajko
+    "twisting_vines": Spaczone pnącza
+    "twisting_vines_plant": Rosnące spaczone pnącza
+    "vault": Skarbiec
+    "verdant_froglight": Zielenista żabia lampa
+    "vine": Pnącza
+    "void_air": Próżniowe powietrze
+    "wall_torch": Ścienna pochodnia
+    "warped_button": Spaczony przycisk
+    "warped_door": Spaczone drzwi
+    "warped_fence": Spaczony płot
+    "warped_fence_gate": Spaczona furtka
+    "warped_fungus": Spaczony grzyb
+    "warped_hanging_sign": Spaczona podwieszana tabliczka
+    "warped_hyphae": Spaczone strzępki
+    "warped_nylium": Spaczone nylium
+    "warped_planks": Spaczone deski
+    "warped_pressure_plate": Spaczona płytka naciskowa
+    "warped_roots": Spaczone korzenie
+    "warped_shelf": Spaczona półka
+    "warped_sign": Spaczona tabliczka
+    "warped_slab": Spaczona płyta
+    "warped_stairs": Spaczone schody
+    "warped_stem": Spaczony trzon
+    "warped_trapdoor": Spaczona klapa
+    "warped_wall_hanging_sign": Spaczona ścienna podwieszana tabliczka
+    "warped_wall_sign": Spaczona ścienna tabliczka
+    "warped_wart_block": Blok spaczonych brodawek
+    "water": Woda
+    "water_cauldron": Kocioł wody
+    "waxed_chiseled_copper": Woskowana rzeźbiona miedź
+    "waxed_copper_bars": Woskowane miedziane kraty
+    "waxed_copper_block": Woskowany blok miedzi
+    "waxed_copper_bulb": Woskowana miedziana lampa
+    "waxed_copper_chain": Woskowany miedziany łańcuch
+    "waxed_copper_chest": Woskowana miedziana skrzynia
+    "waxed_copper_door": Woskowane miedziane drzwi
+    "waxed_copper_golem_statue": Woskowany posąg miedzianego golema
+    "waxed_copper_grate": Woskowana miedziana krata
+    "waxed_copper_lantern": Woskowana miedziana latarnia
+    "waxed_copper_trapdoor": Woskowana miedziana klapa
+    "waxed_cut_copper": Woskowana żłobiona miedź
+    "waxed_cut_copper_slab": Woskowana żłobiona miedziana płyta
+    "waxed_cut_copper_stairs": Woskowane żłobione miedziane schody
+    "waxed_exposed_chiseled_copper": Woskowana zwietrzała rzeźbiona miedź
+    "waxed_exposed_copper": Woskowana zwietrzała miedź
+    "waxed_exposed_copper_bars": Woskowane zwietrzałe miedziane kraty
+    "waxed_exposed_copper_bulb": Woskowana zwietrzała miedziana lampa
+    "waxed_exposed_copper_chain": Woskowany zwietrzały miedziany łańcuch
+    "waxed_exposed_copper_chest": Woskowana zwietrzała miedziana skrzynia
+    "waxed_exposed_copper_door": Woskowane zwietrzałe miedziane drzwi
+    "waxed_exposed_copper_golem_statue": Woskowany zwietrzały posąg miedzianego golema
+    "waxed_exposed_copper_grate": Woskowana zwietrzała miedziana krata
+    "waxed_exposed_copper_lantern": Woskowana zwietrzała miedziana latarnia
+    "waxed_exposed_copper_trapdoor": Woskowana zwietrzała miedziana klapa
+    "waxed_exposed_cut_copper": Woskowana zwietrzała żłobiona miedź
+    "waxed_exposed_cut_copper_slab": Woskowana zwietrzała żłobiona miedziana płyta
+    "waxed_exposed_cut_copper_stairs": Woskowane zwietrzałe żłobione miedziane schody
+    "waxed_exposed_lightning_rod": Woskowany zwietrzały piorunochron
+    "waxed_lightning_rod": Woskowany piorunochron
+    "waxed_oxidized_chiseled_copper": Woskowana utleniona rzeźbiona miedź
+    "waxed_oxidized_copper": Woskowana utleniona miedź
+    "waxed_oxidized_copper_bars": Woskowane utlenione miedziane kraty
+    "waxed_oxidized_copper_bulb": Woskowana utleniona miedziana lampa
+    "waxed_oxidized_copper_chain": Woskowany utleniony miedziany łańcuch
+    "waxed_oxidized_copper_chest": Woskowana utleniona miedziana skrzynia
+    "waxed_oxidized_copper_door": Woskowane utlenione miedziane drzwi
+    "waxed_oxidized_copper_golem_statue": Woskowany utleniony posąg miedzianego golema
+    "waxed_oxidized_copper_grate": Woskowana utleniona miedziana krata
+    "waxed_oxidized_copper_lantern": Woskowana utleniona miedziana latarnia
+    "waxed_oxidized_copper_trapdoor": Woskowana utleniona miedziana klapa
+    "waxed_oxidized_cut_copper": Woskowana utleniona żłobiona miedź
+    "waxed_oxidized_cut_copper_slab": Woskowana utleniona żłobiona miedziana płyta
+    "waxed_oxidized_cut_copper_stairs": Woskowane utlenione żłobione miedziane schody
+    "waxed_oxidized_lightning_rod": Woskowany utleniony piorunochron
+    "waxed_weathered_chiseled_copper": Woskowana zaśniedziała rzeźbiona miedź
+    "waxed_weathered_copper": Woskowana zaśniedziała miedź
+    "waxed_weathered_copper_bars": Woskowane zaśniedziałe miedziane kraty
+    "waxed_weathered_copper_bulb": Woskowana zaśniedziała miedziana lampa
+    "waxed_weathered_copper_chain": Woskowany zaśniedziały miedziany łańcuch
+    "waxed_weathered_copper_chest": Woskowana zaśniedziała miedziana skrzynia
+    "waxed_weathered_copper_door": Woskowane zaśniedziałe miedziane drzwi
+    "waxed_weathered_copper_golem_statue": Woskowany zaśniedziały posąg miedzianego
+    "waxed_weathered_copper_grate": Woskowana zaśniedziała miedziana krata
+    "waxed_weathered_copper_lantern": Woskowana zaśniedziała miedziana latarnia
+    "waxed_weathered_copper_trapdoor": Woskowana zaśniedziała miedziana klapa
+    "waxed_weathered_cut_copper": Woskowana zaśniedziała żłobiona miedź
+    "waxed_weathered_cut_copper_slab": Woskowana zaśniedziała żłobiona miedziana płyta
+    "waxed_weathered_cut_copper_stairs": Woskowane zaśniedziałe żłobione miedziane schody
+    "waxed_weathered_lightning_rod": Woskowany zaśniedziały piorunochron
+    "weathered_chiseled_copper": Zaśniedziała rzeźbiona miedź
+    "weathered_copper": Zaśniedziała miedź
+    "weathered_copper_bars": Zaśniedziałe miedziane kraty
+    "weathered_copper_bulb": Zaśniedziała miedziana lampa
+    "weathered_copper_chain": Zaśniedziały miedziany łańcuch
+    "weathered_copper_chest": Zaśniedziała miedziana skrzynia
+    "weathered_copper_door": Zaśniedziałe miedziane drzwi
+    "weathered_copper_golem_statue": Zaśniedziały posąg miedzianego golema
+    "weathered_copper_grate": Zaśniedziała miedziana krata
+    "weathered_copper_lantern": Zaśniedziała miedziana latarnia
+    "weathered_copper_trapdoor": Zaśniedziała miedziana klapa
+    "weathered_cut_copper": Zaśniedziała żłobiona miedź
+    "weathered_cut_copper_slab": Zaśniedziała żłobiona miedziana płyta
+    "weathered_cut_copper_stairs": Zaśniedziałe żłobione miedziane schody
+    "weathered_lightning_rod": Zaśniedziały piorunochron
+    "weeping_vines": Płaczące pnącza
+    "weeping_vines_plant": Rosnące płaczące pnącza
+    "wet_sponge": Mokra gąbka
+    "wheat": Pszenica
+    "white_banner": Biały sztandar
+    "white_bed": Białe łóżko
+    "white_candle": Biała świeca
+    "white_candle_cake": Ciasto z białą świeczką
+    "white_carpet": Biały dywan
+    "white_concrete": Biały beton
+    "white_concrete_powder": Biały cement
+    "white_concrete_slab": Biała betonowa płyta
+    "white_concrete_stairs": Białe betonowe schody
+    "white_glazed_terracotta": Biała glazurowana terakota
+    "white_shulker_box": Biała shulkerowa skrzynia
+    "white_stained_glass": Białe szkło
+    "white_stained_glass_pane": Biała szyba
+    "white_terracotta": Biała terakota
+    "white_tulip": Biały tulipan
+    "white_wool": Biała wełna
+    "white_wool_slab": Biała wełniana płyta
+    "white_wool_stairs": Białe wełniane schody
+    "wildflowers": Polne kwiaty
+    "wither_rose": Witherowa róża
+    "wither_skeleton_skull": Czaszka witherowego szkieleta
+    "wither_skeleton_wall_skull": Ścienna czaszka witherowego szkieleta
+    "yellow_banner": Żółty sztandar
+    "yellow_bed": Żółte łóżko
+    "yellow_candle": Żółta świeca
+    "yellow_candle_cake": Ciasto z żółtą świeczką
+    "yellow_carpet": Żółty dywan
+    "yellow_concrete": Żółty beton
+    "yellow_concrete_powder": Żółty cement
+    "yellow_concrete_slab": Żółta betonowa płyta
+    "yellow_concrete_stairs": Żółte betonowe schody
+    "yellow_glazed_terracotta": Żółta glazurowana terakota
+    "yellow_poplar_leaves": Żółte topolowe liście
+    "yellow_shulker_box": Żółta shulkerowa skrzynia
+    "yellow_stained_glass": Żółte szkło
+    "yellow_stained_glass_pane": Żółta szyba
+    "yellow_terracotta": Żółta terakota
+    "yellow_wool": Żółta wełna
+    "yellow_wool_slab": Żółta wełniana płyta
+    "yellow_wool_stairs": Żółte wełniane schody
+    "zombie_head": Głowa zombie
+    "zombie_wall_head": Ścienna głowa zombie
+  entities:
+    "acacia_boat": Akacjowa łódka
+    "acacia_chest_boat": Akacjowa łódka ze skrzynią
+    "allay": Otuszek
+    "area_effect_cloud": Obłok mikstury
+    "armadillo": Pancernik
+    "armor_stand": Stojak na zbroję
+    "arrow": Strzała
+    "axolotl": Aksolotl
+    "bamboo_chest_raft": Bambusowa tratwa ze skrzynią
+    "bamboo_raft": Bambusowa tratwa
+    "bat": Nietoperz
+    "bee": Pszczoła
+    "birch_boat": Brzozowa łódka
+    "birch_chest_boat": Brzozowa łódka ze skrzynią
+    "blaze": Płomyk
+    "block_display": Wyświetlacz bloku
+    "boat": Łódka
+    "bogged": Bagniak
+    "breeze": Wichrzyk
+    "breeze_wind_charge": Wietrzna kula
+    "camel": Wielbłąd
+    "camel_husk": Wielbłąd-posuch
+    "cat": Kot
+    "cave_spider": Pająk jaskiniowy
+    "cherry_boat": Wiśniowa łódka
+    "cherry_chest_boat": Wiśniowa łódka ze skrzynią
+    "chest_boat": Łódka ze skrzynią
+    "chest_minecart": Wagonik ze skrzynią
+    "chicken": Kura
+    "cod": Dorsz
+    "command_block_minecart": Wagonik z blokiem poleceń
+    "copper_golem": Miedziany golem
+    "cow": Krowa
+    "creaking": Trzeszcz
+    "creaking_transient": Trzeszcz
+    "creeper": Creeper
+    "cushion": Poduszka
+    "dark_oak_boat": Ciemnodębowa łódka
+    "dark_oak_chest_boat": Ciemnodębowa łódka ze skrzynią
+    "dolphin": Delfin
+    "donkey": Osioł
+    "dragon_fireball": Smocza kula ognia
+    "drowned": Utopiec
+    "egg": Rzucone jajko
+    "elder_guardian": Prastrażnik
+    "end_crystal": Kryształ Endu
+    "ender_dragon": Smok Endu
+    "ender_pearl": Rzucona enderperła
+    "enderman": Enderman
+    "endermite": Endermit
+    "evoker": Przywoływacz
+    "evoker_fangs": Szczęki przywoływacza
+    "experience_bottle": Rzucona zaklęta butelka
+    "experience_orb": Kula doświadczenia
+    "eye_of_ender": Oko Endera
+    "falling_block": Spadający blok
+    "fireball": Kula ognia
+    "firework_rocket": Fajerwerk
+    "fishing_bobber": Spławik
+    "fox": Lis
+    "frog": Żaba
+    "furnace_minecart": Napędzany wagonik
+    "ghast": Ghast
+    "giant": Olbrzym
+    "glow_item_frame": Świecąca ramka na przedmiot
+    "glow_squid": Świecąca kałamarnica
+    "goat": Koza
+    "guardian": Strażnik
+    "happy_ghast": Wesoły ghast
+    "hoglin": Hoglin
+    "hopper_minecart": Wagonik z lejem
+    "horse": Koń
+    "husk": Posuch
+    "illusioner": Iluzjoner
+    "interaction": Interakcja
+    "iron_golem": Żelazny golem
+    "item": Przedmiot
+    "item_display": Wyświetlacz przedmiotu
+    "item_frame": Ramka na przedmiot
+    "jungle_boat": Tropikalna łódka
+    "jungle_chest_boat": Tropikalna łódka ze skrzynią
+    "killer_bunny": Zabójczy królik
+    "leash_knot": Węzeł smyczy
+    "lightning_bolt": Piorun
+    "lingering_potion": Trwała miotana mikstura
+    "llama": Lama
+    "llama_spit": Ślina lamy
+    "magma_cube": Kostka magmy
+    "mangrove_boat": Namorzynowa łódka
+    "mangrove_chest_boat": Namorzynowa łódka ze skrzynią
+    "mannequin": Manekin
+    "marker": Znacznik
+    "minecart": Wagonik
+    "mooshroom": Mooshroom
+    "mule": Muł
+    "nautilus": Łodzik
+    "oak_boat": Dębowa łódka
+    "oak_chest_boat": Dębowa łódka ze skrzynią
+    "ocelot": Ocelot
+    "ominous_item_spawner": Złowieszczy przywoływacz przedmiotów
+    "painting": Obraz
+    "pale_oak_boat": Bladodębowa łódka
+    "pale_oak_chest_boat": Bladodębowa łódka ze skrzynią
+    "panda": Panda
+    "parched": Oschlak
+    "parrot": Papuga
+    "phantom": Fantom
+    "pig": Świnia
+    "piglin": Piglin
+    "piglin_brute": Piglin okrutnik
+    "pillager": Rozbójnik
+    "player": Gracz
+    "polar_bear": Niedźwiedź polarny
+    "poplar_boat": Topolowa łódka
+    "poplar_chest_boat": Topolowa łódka ze skrzynią
+    "potion": Mikstura
+    "pufferfish": Rozdymka
+    "rabbit": Królik
+    "ravager": Dewastator
+    "salmon": Łosoś
+    "sheep": Owca
+    "shulker": Shulker
+    "shulker_bullet": Pocisk shulkera
+    "silverfish": Rybik cukrowy
+    "skeleton": Szkielet
+    "skeleton_horse": Koń-szkielet
+    "slime": Szlam
+    "small_fireball": Mała kula ognia
+    "sniffer": Niuchacz
+    "snow_golem": Śnieżny golem
+    "snowball": Śnieżka
+    "spawner_minecart": Wagonik z przyzywaczem potworów
+    "spectral_arrow": Widmowa strzała
+    "spider": Pająk
+    "splash_potion": Mikstura miotana
+    "spruce_boat": Świerkowa łódka
+    "spruce_chest_boat": Świerkowa łódka ze skrzynią
+    "squid": Kałamarnica
+    "stray": Tułacz
+    "strider": Magmołaz
+    "sulfur_cube": Kostka siarki
+    "tadpole": Kijanka
+    "text_display": Wyświetlacz tekstu
+    "tnt": Uzbrojone TNT
+    "tnt_minecart": Wagonik z TNT
+    "trader_llama": Lama handlarza
+    "trident": Trójząb
+    "tropical_fish": Ryba tropikalna
+    "tropical_fish_predefined_0": Amfiprion
+    "tropical_fish_predefined_1": Pokolec czarny
+    "tropical_fish_predefined_10": Idolek mauretański
+    "tropical_fish_predefined_11": Chetonik ozdobny
+    "tropical_fish_predefined_12": Skarus
+    "tropical_fish_predefined_13": Nefrytek królewski
+    "tropical_fish_predefined_14": Pielęgnica czerwona
+    "tropical_fish_predefined_15": Ślizg czerwonousty
+    "tropical_fish_predefined_16": Beryks czerwony
+    "tropical_fish_predefined_17": Wiciak
+    "tropical_fish_predefined_18": Błazenek pomidorowy
+    "tropical_fish_predefined_19": Rogata rozbójnica
+    "tropical_fish_predefined_2": Pokolec turkusowy
+    "tropical_fish_predefined_20": Skarus żółtopłetwy
+    "tropical_fish_predefined_21": Pokolec żółty
+    "tropical_fish_predefined_3": Chetonik
+    "tropical_fish_predefined_4": Pielęgnica
+    "tropical_fish_predefined_5": Błazenek
+    "tropical_fish_predefined_6": Bojownik wspaniały
+    "tropical_fish_predefined_7": Diademica
+    "tropical_fish_predefined_8": Beryks królewski
+    "tropical_fish_predefined_9": Barwena
+    "tropical_fish_type_betty": Bojownik
+    "tropical_fish_type_blockfish": Blokówka
+    "tropical_fish_type_brinely": Słonka
+    "tropical_fish_type_clayfish": Glinka
+    "tropical_fish_type_dasher": Śmigacz
+    "tropical_fish_type_flopper": Chlupek
+    "tropical_fish_type_glitter": Błyszczka
+    "tropical_fish_type_kob": Kulbak
+    "tropical_fish_type_snooper": Węszyk
+    "tropical_fish_type_spotty": Plamnica
+    "tropical_fish_type_stripey": Prężynka
+    "tropical_fish_type_sunstreak": Złotynka
+    "turtle": Żółw
+    "vex": Dręczyciel
+    "villager": Osadnik
+    "villager_armorer": Płatnerz
+    "villager_butcher": Rzeźnik
+    "villager_cartographer": Kartograf
+    "villager_cleric": Kapłan
+    "villager_farmer": Rolnik
+    "villager_fisherman": Rybak
+    "villager_fletcher": Łuczarz
+    "villager_leatherworker": Rymarz
+    "villager_librarian": Bibliotekarz
+    "villager_mason": Kamieniarz
+    "villager_nitwit": Głupiec
+    "villager_none": Osadnik
+    "villager_shepherd": Pasterz
+    "villager_toolsmith": Narzędziarz
+    "villager_weaponsmith": Zbrojmistrz
+    "vindicator": Obrońca
+    "wandering_trader": Wędrowny handlarz
+    "warden": Nadzorca
+    "wind_charge": Wietrzna kula
+    "witch": Wiedźma
+    "wither": Wither
+    "wither_skeleton": Witherowy szkielet
+    "wither_skull": Czaszka withera
+    "wolf": Wilk
+    "zoglin": Zoglin
+    "zombie": Zombie
+    "zombie_horse": Koń-zombie
+    "zombie_nautilus": Łodzik-zombie
+    "zombie_villager": Osadnik-zombie
+    "zombified_piglin": Zzombifikowany piglin
+  enchantments:
+    "aqua_affinity": Wydajność pod wodą
+    "bane_of_arthropods": Zmora stawonogów
+    "binding_curse": Klątwa uwiązania
+    "blast_protection": Ochrona przed wybuchem
+    "breach": Przedarcie
+    "channeling": Porażenie
+    "density": Masywność
+    "depth_strider": Głębinowy wędrowiec
+    "efficiency": Wydajność
+    "feather_falling": Łagodny upadek
+    "fire_aspect": Zaklęty ogień
+    "fire_protection": Ochrona przed ogniem
+    "flame": Płomień
+    "fortune": Szczęście
+    "frost_walker": Mroźny piechur
+    "impaling": Przebicie
+    "infinity": Nieskończoność
+    "knockback": Odrzut
+    "looting": Grabież
+    "loyalty": Lojalność
+    "luck_of_the_sea": Morska fortuna
+    "lunge": Pchnięcie
+    "lure": Przynęta
+    "mending": Naprawa
+    "multishot": Wielostrzał
+    "piercing": Przeszycie
+    "power": Moc
+    "projectile_protection": Ochrona przed pociskami
+    "protection": Ochrona
+    "punch": Uderzenie
+    "quick_charge": Szybkie ładowanie
+    "respiration": Oddychanie
+    "riptide": Torpeda
+    "sharpness": Ostrość
+    "silk_touch": Jedwabny dotyk
+    "smite": Pogromca nieumarłych
+    "soul_speed": Prędkość dusz
+    "sweeping": Szerokie ostrze
+    "sweeping_edge": Szerokie ostrze
+    "swift_sneak": Przemykanie
+    "thorns": Ciernie
+    "unbreaking": Niezniszczalność
+    "vanishing_curse": Klątwa znikania
+    "wind_burst": Wicher
+    "unknown": Nieznane zaklęcie
+    "any": Dowolne zaklęcie
+  biomes:
+    "badlands": Badlandy
+    "bamboo_jungle": Las bambusowy
+    "basalt_deltas": Bazaltowe delty
+    "beach": Plaża
+    "birch_forest": Las brzozowy
+    "cherry_grove": Wiśniowy gaj
+    "cold_ocean": Zimny ocean
+    "crimson_forest": Szkarłatny las
+    "dappled_forest": Pstrokaty las
+    "dark_forest": Gęsty las
+    "deep_cold_ocean": Głęboki zimny ocean
+    "deep_dark": Mroczna głębia
+    "deep_frozen_ocean": Głęboki zamarznięty ocean
+    "deep_lukewarm_ocean": Głęboki letni ocean
+    "deep_ocean": Głęboki ocean
+    "desert": Pustynia
+    "dripstone_caves": Jaskinie naciekowe
+    "end_barrens": Pustkowia Endu
+    "end_highlands": Wyżyny Endu
+    "end_midlands": Śródziemie Endu
+    "eroded_badlands": Zerodowane badlandy
+    "flower_forest": Kwiecisty las
+    "forest": Lasy
+    "frozen_ocean": Zamarznięty ocean
+    "frozen_peaks": Mroźne szczyty
+    "frozen_river": Zamarznięta rzeka
+    "grove": Bór górski
+    "ice_spikes": Lodowe kolce
+    "jagged_peaks": Ostre szczyty
+    "jungle": Dżungla
+    "lukewarm_ocean": Letni ocean
+    "lush_caves": Bujne jaskinie
+    "mangrove_swamp": Las namorzynowy
+    "meadow": Górska łąka
+    "mushroom_fields": Pola grzybowe
+    "nether_wastes": Netherowe pustkowia
+    "ocean": Ocean
+    "old_growth_birch_forest": Starodrzew brzozowy
+    "old_growth_pine_taiga": Starodrzew sosnowy
+    "old_growth_spruce_taiga": Starodrzew świerkowy
+    "pale_garden": Blady ogród
+    "plains": Równiny
+    "river": Rzeka
+    "savanna": Sawanna
+    "savanna_plateau": Płaskowyż sawanny
+    "small_end_islands": Małe wyspy Endu
+    "snowy_beach": Zaśnieżona plaża
+    "snowy_plains": Śnieżne równiny
+    "snowy_slopes": Śnieżne zbocza
+    "snowy_taiga": Zaśnieżona tajga
+    "soul_sand_valley": Dolina dusz
+    "sparse_jungle": Przerzedzona dżungla
+    "stony_peaks": Skaliste szczyty
+    "stony_shore": Skaliste wybrzeże
+    "sulfur_caves": Jaskinie siarkowe
+    "sunflower_plains": Słonecznikowe równiny
+    "swamp": Bagna
+    "taiga": Tajga
+    "the_end": End
+    "the_void": Pustka
+    "warm_ocean": Ciepły ocean
+    "warped_forest": Spaczony las
+    "windswept_forest": Wyżynny las
+    "windswept_gravelly_hills": Żwirowe wyżyny
+    "windswept_hills": Wyżyny
+    "windswept_savanna": Wyżynna sawanna
+    "wooded_badlands": Zalesione badlandy
+    "unknown": Nieznany biom
+    "any": Dowolny biom

@@ -1,0 +1,1671 @@
+common_editor:
+  buttons:
+    add: <#79d679>қосу
+    add_item: <#79d679>Элементті қосу
+    add_item_lore:
+    - <#a8a8a8>Таңдау үшін басыңыз
+    - Жіберу үшін <#a8a8a8>материалы.
+    add_new: <#79d679>Жаңасын жасау
+    add_new_lore: <#a7ff99>LMB <#cccccc>- жаңасын жасау
+    back: <#ed6868>Артқа
+    back_lore: <#a8a8a8>Алдыңғы мәзірге оралу.
+    cancel: <#ed6868>Бас тарту
+    cancel_lore: <#a8a8a8>Кері оралу үшін басыңыз.
+    confirm: <#79d679>растау
+    confirm_lore: <#a8a8a8>Әрекетті орындау үшін басыңыз.
+    delete: <#ed6868>Жою
+    empty_list: <#ed6868>тізімі бос
+    empty_list_lore: <#a8a8a8>Элементті қосу үшін оң жақтағы жасыл блокты басыңыз.
+    next_page: <#ffd470>Келесі бет
+    prev_page: <#ffd470>Алдыңғы бет
+    return: <#ed6868>қайтару
+    save: <#79d679>Өзгерістерді сақтау
+    save_lore: <#a8a8a8>Барлық параметрлерді файлға сақтаңыз.
+    save_unsaved: <#ffd470>* Өзгерістерді сақтау
+    save_unsaved_lore: <#ffb366>⚠ Сақталмаған өзгертулер бар!
+    search: <#ffd470>іздеу
+  days:
+    friday: жұма
+    monday: дүйсенбі
+    saturday: сенбі
+    sunday: жексенбі
+    thursday: бейсенбі
+    tuesday: сейсенбі
+    unknown: Белгісіз
+    wednesday: сәрсенбі
+  input:
+    cancel_instruction: <#8a8a8a>Чатта мәтін жазу. Бас тарту үшін <#c96a6a>cancel енгізіңіз
+    cancelled: Енгізу тоқтатылды.
+    cancelled_cmd: Енгізу тоқтатылды (пәрмен бойынша).
+    edit_current: '<#ffc499>✎ [Ағымдағы мәтінді өңдеу]'
+    enter_number_error: Нөмірді енгізіңіз!
+    enter_text: '<#ffd470>Чатқа жаңа мәтін енгізіңіз:'
+  item_list:
+    click_delete: <#ed6868>Drop (Q) <#cccccc>- Жою
+    click_modify1: <#a7ff99>LMB (+1) / RMB (-1) <#cccccc>- соманы өзгерту
+    click_modify2: <#ffe999>Shift + LMB (+10) /<#ffe999>Shift + RMB (-10)
+    click_modify3: <#d9a752>Swap (F) <#cccccc>- соманы қолмен енгізіңіз
+    delete_confirm_msg: '<#ffd470>#{index} элементін шынымен жойғыңыз келе ме?'
+    delete_confirm_title: Элементті жою
+    empty_lore:
+    - <#a8a8a8>Бункерді немесе жасыл блокты басыңыз,
+    - Бірінші элементті қосу үшін <#a8a8a8>.
+    empty_title: <#ed6868>тізімі бос
+    item_amount: '<#a8a8a8>сомасы: <#ffffff>{amount}'
+  main_selector:
+    dialogue_click: <#79d679>Диалогтар тізімін ашу үшін басыңыз
+    dialogue_lore:
+    - <#a8a8a8>Интерактивті тармақтарды өңдеу
+    - Диалогтардың, жауап нұсқаларының және әрекеттердің <#a8a8a8>.
+    dialogue_title: <#ff99d4>диалогтар редакторы
+    npc_click: <#79d679>NPC тізімін ашу үшін басыңыз
+    npc_lore:
+    - <#a8a8a8>NPC-ге квест байланыстыру конфигурациясы,
+    - <#a8a8a8>көңіл-күй ережелері (Көңіл-күй) және дауыстық дыбыстар.
+    npc_title: <#a7ff99>NPC редакторы
+    quest_click: <#79d679>Квесттер тізімін ашу үшін басыңыз
+    quest_lore:
+    - <#a8a8a8>жасау, жою және егжей-тегжейлі
+    - Тапсырмалардың, кезеңдердің және марапаттардың <#a8a8a8>конфигурациясы.
+    quest_title: <#7dd3ff>Quests редакторы
+    title: '&0✎ Questborn редакторы'
+    type_click: <#79d679>Түрлер тізімін ашу үшін басыңыз
+    type_lore:
+    - <#a8a8a8>типті файлдарды басқару (<#ffffff>_type.yml <#a8a8a8>).
+    - <#a8a8a8>Атауларды, белгішелерді, суытуды өзгерту және
+    - <#a8a8a8>қозғалтқыш режимдері (ӘДІПТІ, ТІЗБЕК, АЙНАЛУ, ЖАҢАЛЫҚ).
+    type_title: <#ffd470>Quest Types редакторы
+  none: <#cccccc>Жоқ
+  prefix: <#ad8ae6><bold>редакторы </bold><#8a8a8a>•<reset>
+  prompts:
+    preset_id: Алдын ала орнатылған идентификатор
+  search:
+    click: <#a7ff99>LMB <#cccccc>- Іздеу
+    none: <#cccccc>Жоқ
+    query: '<#cccccc>сұрауы: <#ffffff>{query}'
+  selection_menu:
+    item_click: <#a7ff99>LMB <#cccccc>- таңдауды ауыстырып-қосқыш
+    item_id: '<#a8a8a8>идентификаторы: <#ffffff>{id}'
+    item_status: '<#a8a8a8>күйі: {status}'
+    prompt_search: '<#ffd470>Іздеу сұрауын енгізіңіз (немесе өшіріңіз):'
+    search_all: Барлығы
+    search_click: <#a7ff99>LMB <#cccccc>- Іздеу (немесе тазалау)
+    search_lore: '<#a8a8a8>Іздеу: <#ffffff>{query}'
+    status_selected: <#55ff55>таңдалды ✔
+    status_unselected: <#ff5555>Таңдалмаған
+    title: '&0Элементті таңдаңыз'
+  state_none: <#cccccc>өшірілген
+  states:
+    disabled: <#ed6868>өшірілген
+    enabled: <#79d679>қосылған
+  symbols:
+    error: '<#c96a6a>✖'
+    prompt: '<#6aa0c9>✏'
+    success: '{prefix}<#78b185>✔<#ffffff>'
+    warning: '<#d9a752>⚠'
+  unsaved_modal:
+    discard_exit: <#ed6868>Өзгерістерді алып тастап, шығыңыз
+    discard_exit_lore: <#a8a8a8>Барлық сақталмаған өзгертулерді файлға жазбай жояды.
+    info_lore: <#a8a8a8>Төменде әрекетті таңдаңыз.
+    info_title: <#ffd470>Сақталмаған өзгерістер
+    return_editor: <#d69a38>Өңдеуге оралу
+    return_editor_lore: <#a8a8a8>Редактор мәзіріне оралыңыз.
+    save_exit: <#79d679>Сақтау және шығыңыз
+    save_exit_lore: <#a8a8a8>Файлға барлық өзгерістерді жазады және редакторды жабады.
+    title: '&0✎ Сақталмаған өзгертулер'
+dialogue_editor:
+  delete_confirm_desc: '{id} диалогын шынымен жойғыңыз келе ме?'
+  delete_confirm_title: '&0Жоюды растау'
+  delete_confirm_item: '<#ed6868>Жоюды растау'
+  deleted_success: '{prefix}<#78b185>✔<#ffffff>диалогы жойылды!'
+  clone_prompt: '<#ffd470>Диалог көшірмесі үшін идентификаторды енгізіңіз:'
+  error_clone_exists: '{prefix}<#c96a6a>✖<#ffffff>Бұл идентификатормен диалог бұрыннан бар!'
+  msg_clone_success: '{prefix}<#78b185>✔<#ffffff>диалогы {id} ретінде сәтті құрастырылды/көшірілді!'
+  error_clone_failed: '{prefix}<#c96a6a>✖<#ffffff>Диалогты көшіру қатесі!'
+  id_exists: Бұл идентификатормен диалог бұрыннан бар!
+  saved_success: '{prefix}<#78b185>✔<#ffffff>диалогы {id} өзгерістері сәтті сақталды!'
+  title_list: '&0диалогтар тізімі ({count})'
+  title_main: '&0Диалог редакторы: {id}'
+npc_editor:
+  teleported: '<#a7ff99>✔ NPC-ге сәтті телепортталды!'
+  location_not_found: '{prefix}<#c96a6a>✖<#ffffff>NPC орны табылмады! Ол ұрықталды ма?'
+  no_integration: '{prefix}<#c96a6a>✖<#ffffff>NPC біріктіру плагині табылмады!'
+  delete_confirm_desc: NPC {id} жою керек екеніне сенімдісіз бе?
+  delete_confirm_item: <#ff4d4d>Жоюды растау
+  delete_confirm_title: '&0Жоюды растау'
+  deleted_success: '{prefix}<#78b185>✔<#ffffff>NPC жойылды!'
+  dialogue_gui_title: '&8Диалогты таңдаңыз'
+  dialogue_none_title: '&cАғымдағы диалогты жою'
+  dialogue_select_click: '&eОсы диалогты таңдау үшін басыңыз'
+  id_exists: Бұл идентификаторы бар NPC бұрыннан бар!
+  id_exists_use_right_click: Бар NPC конфигурациялау қажет болса, LMB орнына RMB пайдаланыңыз.
+  saved_success: '{prefix}<#78b185>✔<#ffffff>NPC {id} өзгерістері сәтті сақталды!'
+  title_list: '&0NPC тізімі ({count})'
+  title_main: '&0NPC конфигурациясы: {id}'
+quest_editor:
+  add_property:
+    amount: Сома
+    biome: Биома
+    chance: Мүмкіндік
+    command: Пәрмен
+    custom_click: <#a7ff99>LMB <#cccccc>- таңдаңыз
+    custom_lore:
+    - <#a8a8a8>Сипат кілтін чат арқылы қолмен енгізіңіз
+    custom_prompt: '<#ffd470>Сипат атауын енгізіңіз (мысалы, материал):'
+    custom_title: <#ffd470>пайдаланушы сипаты
+    distance: Қашықтық
+    entities: Субъектілер / Мобтар
+    item_click: <#a7ff99>LMB <#cccccc>- Сипат қосыңыз
+    item_lore: '<#a8a8a8>кілті: <#ffffff>{key}'
+    item_title: <#ffd470>{name}
+    materials: Блоктар / Элементтер
+    message: Хабарлама
+    region: Аймақ
+    title: <#6e6e6e>Жаңа сипат
+    world: Әлем
+  attribute_reward:
+    add_lore: <#a8a8a8>Жаңа атрибут қосу үшін басыңыз.
+    add_title: <#ffd470>Төлсипат қосу
+    click_delete: <#ed6868>Drop (Q) <#cccccc>- атрибутты жою
+    click_edit: <#d9a752>Swap (F) <#cccccc>- қолмен енгізу
+    click_modify1: <#a7ff99>LMB (+0,5) / RMB (-0,5) <#cccccc>- Мәнді өзгерту
+    click_modify2: <#ffe999>Shift + LMB (+5,0) /<#ffe999>Shift + RMB (-5,0)
+    confirm_del_desc: '{attr} жою керек екеніне сенімдісіз бе?'
+    confirm_del_item: ✖ Атрибутты жою
+    confirm_del_title: '&0Жою төлсипаты'
+    prompt_val: '<#ffd470>Төлсипаттың сандық мәнін енгізіңіз (мысалы: 2.0 немесе -1.5):'
+  attribute_selector:
+    click_select: <#a7ff99>LMB <#cccccc>- осы төлсипатты таңдаңыз
+    desc:
+      AIR_DRAG_MODIFIER: <#cccccc>Ауа кедергісі модификаторы (ұшу кезінде баяулау).
+      ARMOR: <#cccccc>негізгі құрыш ұпайларының саны.
+      ARMOR_TOUGHNESS: <#cccccc>Құрыштың беріктігі (ауыр соққылардан қорғау).
+      ATTACK_DAMAGE: <#cccccc>Негізгі қарсыластық шабуылдардан келтірілген залал.
+      ATTACK_KNOCKBACK: <#cccccc>Шабуыл кезінде кері соққы күші.
+      ATTACK_SPEED: <#cccccc>Шабуыл жылдамдығы (секундына соққылар).
+      BELOW_NAME_DISTANCE: <#cccccc>Атаудың астындағы мәтіннің көріну ауқымы.
+      BLOCK_BREAK_SPEED: <#cccccc>Блокты бұзу жылдамдығының мультипликаторы.
+      BLOCK_INTERACTION_RANGE: <#cccccc>Ойыншының блоктармен әрекеттесу ауқымы.
+      BOUNCINESS: <#cccccc>серпінділігі.
+      BURNING_TIME: <#cccccc>Өртте жану уақытының көбейткіші.
+      CAMERA_DISTANCE: <#cccccc>Камера қашықтығы.
+      ENTITY_INTERACTION_RANGE: <#cccccc>Ойыншының басқа нысандармен әрекеттесу ауқымы.
+      EXPLOSION_KNOCKBACK_RESISTANCE: <#cccccc>Жарылысқа кері қарсылық.
+      FALL_DAMAGE_MULTIPLIER: <#cccccc>құлау зақымының мультипликаторы.
+      FLYING_SPEED: <#cccccc>Entity ұшу жылдамдығы.
+      FOLLOW_RANGE: <#cccccc>Топтар ойыншыны байқайтын диапазон.
+      FRICTION_MODIFIER: <#cccccc>Friction модификаторы.
+      GENERIC_ARMOR: <#cccccc>негізгі құрыш ұпайларының саны.
+      GENERIC_ARMOR_TOUGHNESS: <#cccccc>Құрыштың беріктігі (ауыр соққылардан қорғау).
+      GENERIC_ATTACK_DAMAGE: <#cccccc>Негізгі қарсыластық шабуылдардан келтірілген залал.
+      GENERIC_ATTACK_KNOCKBACK: <#cccccc>Шабуыл кезінде кері соққы күші.
+      GENERIC_ATTACK_SPEED: <#cccccc>Шабуыл жылдамдығы (секундына соққылар).
+      GENERIC_BURNING_TIME: <#cccccc>Өртте жану уақытының көбейткіші.
+      GENERIC_EXPLOSION_KNOCKBACK_RESISTANCE: <#cccccc>Жарылысқа кері қарсылық.
+      GENERIC_FALL_DAMAGE_MULTIPLIER: <#cccccc>құлау зақымының мультипликаторы.
+      GENERIC_FLYING_SPEED: <#cccccc>Entity ұшу жылдамдығы.
+      GENERIC_FOLLOW_RANGE: <#cccccc>Топтар ойыншыны байқайтын диапазон.
+      GENERIC_GRAVITY: <#cccccc>Нысанға әсер ететін ауырлық күші.
+      GENERIC_JUMP_STRENGTH: <#cccccc>нысанының қалыпты секіру күші.
+      GENERIC_KNOCKBACK_RESISTANCE: <#cccccc>соққыға төзімділік (1,0 = 100% қорғаныс).
+      GENERIC_LUCK: <#cccccc>Luck (олжа мен балық аулауға әсер етеді).
+      GENERIC_MAX_HEALTH: <#cccccc>Максималды денсаулық (1,0 = жарты жүрек).
+      GENERIC_MOVEMENT_EFFICIENCY: <#cccccc>Күрделі блоктардағы қозғалыс тиімділігі.
+      GENERIC_MOVEMENT_SPEED: <#cccccc>Нысан қозғалысы жылдамдығы.
+      GENERIC_OXYGEN_BONUS: <#cccccc>Су астында оттегін тұтынбау мүмкіндігі.
+      GENERIC_SAFE_FALL_DISTANCE: <#cccccc>Қауіпсіз құлау қашықтығы (блокпен).
+      GENERIC_SCALE: <#cccccc>Нысан масштабы мен өлшемі (1,0 = әдепкі).
+      GENERIC_STEP_HEIGHT: <#cccccc>Автоматты қадам биіктігі (секірусіз).
+      GENERIC_WATER_MOVEMENT_EFFICIENCY: <#cccccc>Су астындағы қозғалыс тиімділігі.
+      GRAVITY: <#cccccc>Нысанға әсер ететін ауырлық күші.
+      HORSE_JUMP_STRENGTH: <#cccccc>Атпен секіру күші.
+      JUMP_STRENGTH: <#cccccc>нысанының қалыпты секіру күші.
+      KNOCKBACK_RESISTANCE: <#cccccc>соққыға төзімділік (1,0 = 100% қорғаныс).
+      LUCK: <#cccccc>Luck (олжа мен балық аулауға әсер етеді).
+      MAX_ABSORPTION: <#cccccc>Максималды зақымдануды сіңіру (Қосымша жүректер).
+      MAX_HEALTH: <#cccccc>Максималды денсаулық (1,0 = жарты жүрек).
+      MINING_EFFICIENCY: <#cccccc>Жалпы тау-кен тиімділігі.
+      MOVEMENT_EFFICIENCY: <#cccccc>Күрделі блоктардағы қозғалыс тиімділігі.
+      MOVEMENT_SPEED: <#cccccc>Нысан қозғалысы жылдамдығы.
+      NAME_TAG_DISTANCE: <#cccccc>Атау тегінің көріну ауқымы.
+      OXYGEN_BONUS: <#cccccc>Су астында оттегін тұтынбау мүмкіндігі.
+      PLAYER_BLOCK_BREAK_SPEED: <#cccccc>Блокты бұзу жылдамдығының мультипликаторы.
+      PLAYER_BLOCK_INTERACTION_RANGE: <#cccccc>Ойыншының блоктармен әрекеттесу ауқымы.
+      PLAYER_ENTITY_INTERACTION_RANGE: <#cccccc>Ойыншының басқа нысандармен әрекеттесу ауқымы.
+      PLAYER_MINING_EFFICIENCY: <#cccccc>Жалпы тау-кен тиімділігі.
+      PLAYER_SNEAKING_SPEED: <#cccccc>Жылдамдық мультипликаторы (Shift).
+      PLAYER_SUBMERGED_MINING_SPEED: <#cccccc>Су астындағы тау-кен өндіру жылдамдығының мультипликаторы.
+      PLAYER_SWEEPING_DAMAGE_RATIO: <#cccccc>Қылышпен шабуылдың зақымдануының мультипликаторы.
+      SAFE_FALL_DISTANCE: <#cccccc>Қауіпсіз құлау қашықтығы (блокпен).
+      SCALE: <#cccccc>Нысан масштабы мен өлшемі (1,0 = әдепкі).
+      SNEAKING_SPEED: <#cccccc>Жылдамдық мультипликаторы (Shift).
+      SPAWN_REINFORCEMENTS: <#cccccc>Зомбилердің басқа зомбилерді көмекке шақыру мүмкіндігі.
+      STEP_HEIGHT: <#cccccc>Автоматты қадам биіктігі (секірусіз).
+      SUBMERGED_MINING_SPEED: <#cccccc>Су астындағы тау-кен өндіру жылдамдығының мультипликаторы.
+      SWEEPING_DAMAGE_RATIO: <#cccccc>Қылышпен шабуылдың зақымдануының мультипликаторы.
+      TEMPT_RANGE: <#cccccc>Mob тағаммен қызықты диапазон.
+      WATER_MOVEMENT_EFFICIENCY: <#cccccc>Су астындағы қозғалыс тиімділігі.
+      WAYPOINT_RECEIVE_RANGE: <#cccccc>жол нүктесін қабылдау ауқымы.
+      WAYPOINT_TRANSMIT_RANGE: <#cccccc>жол нүктесін жіберу ауқымы.
+      ZOMBIE_SPAWN_REINFORCEMENTS: <#cccccc>Зомбилердің басқа зомбилерді көмекке шақыру мүмкіндігі.
+    title: '&0төлсипатын таңдау'
+  brd_reward:
+    click_clone: <#d9a752>Swap (F) <#cccccc>- Клондау
+    click_delete: <#ed6868>Drop (Q) <#cccccc>- Жою
+    click_edit: <#a7ff99>LMB <#cccccc>- Таратылымды өзгерту
+    click_move_down: <#ffe999>Shift+RMB <#cccccc>- төмен жылжытыңыз
+    click_move_up: <#ffe999>Shift+LMB <#cccccc>- жоғары жылжытыңыз
+    click_set_level: <#d9a752>1-9 <#cccccc>- әсер деңгейін орнату
+    item_format: '<#79d679>таратылымы №{index}'
+  chance_reward:
+    add_lore: <#a8a8a8>Жаңа мүмкіндік қосу үшін басыңыз.
+    add_title: <#ffd470>Мүмкіндік қосу
+    click_delete: <#ed6868>Drop (Q) <#cccccc>- мүмкіндікті жою
+    click_edit_chance: <#d9a752>Swap (F) <#cccccc>- мүмкіндікті қолмен енгізіңіз
+    click_open_rewards: <#a7ff99>LMB <#cccccc>- Ашық сыйлықтар
+    confirm_del_desc: '<#ffd470>#{attr} мүмкіндігін жою керек пе?'
+    item_title: Мүмкіндік
+    prompt_val: '<#ffd470>Пайыздық мүмкіндікті енгізіңіз (мысалы, 50,0):'
+    rewards_gui_title: 'Мүмкіндік үшін сыйақылар #{attr}'
+  cmd_reward:
+    add_lore: <#a8a8a8>Жаңа пәрменді қосу үшін басыңыз.
+    add_title: <#ffd470>Қосу пәрмені
+    click_clone: <#d9a752>Swap (F) <#cccccc>- Көшірме
+    click_delete: <#ed6868>Drop (Q) <#cccccc>- Жою
+    click_edit: <#a7ff99>LMB <#cccccc>- Пәрменді өзгерту
+    click_move_down: <#ffe999>Shift+RMB <#cccccc>- төмен жылжытыңыз
+    click_move_up: <#ffe999>Shift+LMB <#cccccc>- жоғары жылжытыңыз
+    click_toggle_sender: <#a7ff99>RMB <#cccccc>- Жіберушіні таңдаңыз
+    item_format: '<#ffd470>пәрмені №{index}'
+    prompt_add:
+    - '<#ffd470>Пәрмен мәтінін енгізіңіз:'
+    - '<#a8a8a8>(ойыншы аты%player%түрі үшін)'
+    prompt_edit:
+    - '<#ffd470>Жаңа пәрмен мәтінін енгізіңіз:'
+    - '<#a8a8a8>(ойыншы аты%player%түрі үшін)'
+    sender_console: <#ffd470>консоль ретінде
+    sender_console_lore:
+    - '<#a8a8a8>пәрмені сервер консолі арқылы орындалады.'
+    - ''
+    - '<#a7ff99>Таңдау үшін басыңыз.'
+    sender_gui_title: '&0Жіберушіні таңдау'
+    sender_none: <#ed6868>Тегті тазалау
+    sender_none_lore:
+    - '<#a8a8a8>Пәрмен тегін өшіру.'
+    - ''
+    - '<#a8a8a8>(әдепкі бойынша Консольге баламалы)'
+    - ''
+    - '<#a7ff99>Таңдау үшін басыңыз.'
+    sender_player: <#ffd470>ойыншы ретінде
+    sender_player_lore:
+    - '<#a8a8a8>пәрмені орындалатын сияқты'
+    - ''
+    - '<#a8a8a8>оны ойыншы енгізді.'
+    - ''
+    - '<#a7ff99>Таңдау үшін басыңыз.'
+    sender_silent_console: <#ffd470>консоль ретінде (үнсіз)
+    sender_silent_console_lore:
+    - '<#a8a8a8>пәрмені консоль арқылы орындалады,'
+    - ''
+    - '<#a8a8a8>бірақ нәтиже журналға жазылмайды.'
+    - ''
+    - '<#a7ff99>Таңдау үшін басыңыз.'
+    sender_silent_player: <#ffd470>ойыншы ретінде (үнсіз)
+    sender_silent_player_lore:
+    - '<#a8a8a8>пәрменін ойыншы орындайды,'
+    - ''
+    - '<#a8a8a8>бірақ нәтиже чатқа шығарылмайды.'
+    - ''
+    - '<#a7ff99>Таңдау үшін басыңыз.'
+  dialogue_list:
+    create_default_text: '<#c8c8c8>Сәлем, саяхатшы!'
+    create_prompt: '<#ffd470>Жаңа диалог идентификаторын енгізіңіз (мысалы: <#ffffff>tavern_dialogue <#ffd470>):'
+    edit_click: <#a7ff99>LMB <#cccccc>- Диалогты өңдеу
+    clone_click: '<#d9a752>Swap (F) <#cccccc>- Клондау диалогы'
+    delete_click: <#ed6868>Drop (Q) <#cccccc>- диалогты жою
+    id_click: <#a7ff99>LMB <#cccccc>- диалог идентификаторын өзгерту
+    id_exists: '{id} идентификаторы бар <#ed6868>диалогы бұрыннан бар!'
+    id_lore: '<#a8a8a8>идентификаторы: <#ffffff>{id}'
+    id_prompt: '<#ffd470>Жаңа диалог идентификаторын енгізіңіз (мысалы: tavern_talk):'
+    id_success: '{prefix}<#78b185>✔<#ffffff>диалог идентификаторы <#ffffff>{id} болып сәтті өзгертілді'
+    id_title: <#ffd470>диалогының идентификаторы
+    node_id_title: '<#ffd470>реплика идентификаторы'
+    name_click: <#a7ff99>LMB <#cccccc>- Атын өзгерту
+    name_lore: '<#a8a8a8>Ағымдағы атауы:'
+    name_prompt: '<#ffd470>Диалогқа NPC атын енгізіңіз (мысалы,<#d0a775>{npc}):'
+    name_title: Диалогтағы <#ffd470>NPC атауы
+    nodes_lore: '<#a8a8a8>көшірмелері: <#7dd3ff>{count}'
+    save_error: '{prefix}<#c96a6a>✖<#ffffff>dialogues.yml сақтау қатесі!'
+  dialogue_main:
+    action_back_lore: <#a8a8a8>Жауап редакторына оралу
+    action_back_title: <#ed6868>Артқа
+    action_builder_back_lore: <#a8a8a8>Actions Builder дегенге оралу
+    action_builder_select_node: '&0Мақсатты репликаны таңдаңыз'
+    action_builder_title: '<#6e6e6e>әрекеттерін құрастырушы: <#6aa0c9>жауап №{index}'
+    action_close_lore: <#a8a8a8>NPC-мен сөйлесуді аяқтау.
+    action_close_title: <#ed6868>Жабу диалогы <#a8a8a8>(жабу)
+    action_console_cmd_lore:
+    - <#a8a8a8>Пәрменді консоль ретінде орындау.
+    - <#a8a8a8>Ойыншы аты үшін%player%пайдаланыңыз.
+    action_console_cmd_title: '<#7dd3ff>Консоль пәрмені <#a8a8a8>(консоль: <cmd>)'
+    action_create_lore: <#a8a8a8>Жаңа көшірме жасайды және оған әрекетті байланыстырады.
+    action_create_title: <#55ff55>Көшірме жасау және байланыстыру
+    action_current_title: <#ffd470>Ағымдағы әрекет
+
+    action_current_selected: '<#a8a8a8>таңдалды:'
+
+    action_current_lore:
+
+    - ''
+
+    - '<#a8a8a8>Бұл әрекет болады'
+
+    - '<#a8a8a8>ойыншы болған кезде орындалады'
+
+    - '<#a8a8a8>осы жауапты таңдайды.'
+    action_custom_lore: <#a8a8a8>Шикі әрекет жолын қолмен енгізіңіз.
+    action_custom_title: <#ffd470>теңшелетін әрекет жолы
+    action_finish_quest_lore: <#a8a8a8>Көрсетілген тапсырманы басу арқылы аяқтайды.
+    action_finish_quest_title: '<#79d679><#a8a8a8>тапсырмасын аяқтаңыз (квест: аяқтау: <id>)'
+    action_goto_lore: <#a8a8a8>Басқа диалог түйініне өту.
+    action_goto_title: '<#79d679><#a8a8a8>түйініне өту (диалог: <node>)'
+    action_node_link_lore: Бұл жолды байланыстыру үшін <#a7ff99>LMB <#a8a8a8>
+    action_node_link_title: <#ffd470>{key}
+    action_player_cmd_lore: <#a8a8a8>Ойнатқышты пәрменді орындауға мәжбүрлеу.
+    action_player_cmd_title: '<#7dd3ff>Ойнатқыш командасы <#a8a8a8>(ойнатқыш: <cmd>)'
+    action_start_quest_lore: <#a8a8a8>Көрсетілген квестті басқанда бастайды.
+    action_start_quest_title: '<#79d679>Бастау квесті <#a8a8a8>(квест:бастау: <id>)'
+    add_lore_empty: <#a7ff99>RMB <#cccccc>- бос жолды жасаңыз
+    cond_clear: Барлық шарттарды жою үшін <#ffe999>RMB <#a8a8a8>
+    cond_current_title: <#ffd470>ағымдағы шарттары
+    cond_gui_title: '&0шарттары: Жауап №{num}-'
+    cond_none: <#ed6868>Шарттар жоқ. Жауап әрқашан көрінеді.
+    cond_perm_lore: '<#a8a8a8>Мысалы, рұқсат: my.perm'
+    cond_perm_prompt: 'Рұқсат енгізіңіз:'
+    cond_perm_title: <#79d679>Рұқсат талап етеді (Рұқсат)
+    cond_quest_lore: '<#a8a8a8>Мысалы, квест_күйі: <id>:АЯҚТАЛДЫ'
+    cond_quest_prompt: 'Қажетті күйді енгізіңіз (ACTIVE/COMPLETED/NOT_STARTED):'
+    cond_quest_title: <#79d679>Квест күйін талап етеді
+    cond_raw_lore: <#a8a8a8>Шартты қолмен енгізіңіз.
+    cond_raw_prompt: 'Шарт жолын енгізіңіз:'
+    cond_raw_title: <#ffd470>теңшелетін шарт жолы
+    cpt_click:
+    - <#a7ff99>LMB <#cccccc>- 1 таңба қосыңыз
+    - <#a7ff99>RMB <#cccccc>- 1 таңбаны алып тастаңыз
+    - <#ffe999>Shift+LMB <#cccccc>- 10 таңба қосыңыз
+    - <#ffe999>Shift+RMB <#cccccc>- 10 таңбаны жою
+    - <#d9a752>Swap (F) <#cccccc>- қолмен енгізу
+    cpt_lore:
+    - <#a8a8a8>Мәтінді шығару жылдамдығы (әр белгіге таңба).
+    - '<#a8a8a8>Ағымы: <#ffffff>{cpt} таңбалары'
+    cpt_prompt: '<#ffd470>Әр белгі үшін таңба санын енгізіңіз (мысалы, 1-5):'
+    cpt_title: <#ffd470>Мәтінді шығару жылдамдығы
+    delete_right_click_warn: Жою үшін <#ffe999>RMB пайдаланыңыз!
+    dialogue_tutorial_lore:
+    - <#a8a8a8>Оқулықты оқу үшін басыңыз
+    dialogue_tutorial_title: '&0нұсқаулығы: Диалогты қалай құруға болады?'
+    dialogue_tutorial_item_title: '<#ffd470>нұсқаулығы: Диалогты қалай құруға болады?'
+    dialogue_validator_lore:
+    - '<#cccccc>Чатта егжей-тегжейлі диалогтық талдауды бастайды.'
+    dialogue_validator_title: '<#ffe999>Қателерді тексеріңіз'
+    id_click: <#a7ff99>LMB <#cccccc>- ID өзгерту
+    id_exists: Бұл идентификатормен диалог бұрыннан бар!
+    id_lore: '<#a8a8a8>ағымдағы идентификаторы: <#ffffff>{id}'
+    id_prompt: '<#ffd470>Жаңа диалог идентификаторын енгізіңіз:'
+    id_success: '{prefix}<#78b185>✔<#ffffff>диалог идентификаторы <#ffffff>{id} болып сәтті өзгертілді'
+    id_title: <#ffd470>диалогының идентификаторы
+    node_id_title: '<#ffd470>түйінінің идентификаторы'
+    item_clone: <#d9a752>Swap (F) <#cccccc>- Clone желісі
+    item_move_down: <#ffe999>Shift+RMB <#cccccc>- төмен жылжытыңыз
+    item_move_up: <#ffe999>Shift+LMB <#cccccc>- жоғары жылжытыңыз
+    keys_list: '<#a8a8a8>талаптары: <#ffffff>{keys}'
+    keys_more: '<#6e6e6e>(+ көбірек {count})'
+    keys_none: '<#a8a8a8>пернелері: <#ffffff>жоқ'
+    name_click: <#a7ff99>LMB <#cccccc>- NPC атауын өзгерту
+    name_lore: '<#a8a8a8>Ағымдағы атауы: <#ffffff>{name}'
+    name_prompt: '<#ffd470>Әңгімелесу кезінде көрінетін NPC атын енгізіңіз:'
+    name_title: Диалогтағы <#a8a8a8>NPC атауы
+    node_opts_click: Жауаптарды өзгерту үшін <#a7ff99>LMB <#a8a8a8>
+    node_opts_lore:
+    - '<#a8a8a8>Ағымдағы жауаптар: <#ffd470>{count}'
+    node_opts_title: <#ffd470>ойнатқышы жауап береді
+    node_quick_reply_lore: <#a8a8a8>автоматты түрде жаңа жауапты жасайды және оны жаңа түйінмен байланыстырады.
+    node_quick_reply_text: <#6e6e6e>[Жалғастыру...]
+    node_quick_reply_title: <#55ff55>жылдам жауап
+    node_sound_click: Дыбысты өзгерту үшін <#a7ff99>LMB <#a8a8a8>
+    node_sound_lore:
+    - '<#a8a8a8>Ағымы: <#ffffff>{sound}'
+    node_sound_title: <#ffd470>Шығу дыбысы
+    node_text_click: NPC мәтінін өзгерту үшін <#a7ff99>LMB <#a8a8a8>
+    node_text_lore:
+    - '<#a8a8a8>NPC былай дейді:'
+    node_text_more: '<#a8a8a8>... және тағы {count}.'
+    node_text_title: <#ffd470>NPC мәтіні
+    nodes_add_default_text: '<#c8c8c8>Сәлем, саяхатшы!'
+    nodes_add_lore: <#a8a8a8>Жаңа диалог түйінін жасайды (мысалы, бастау, таңдау_1)
+    nodes_add_prompt: '<#ffd470>Жаңа түйіннің атын енгізіңіз (мысалы, бастау немесе түйін_2):'
+    nodes_add_success: '{prefix}<#78b185>✔<#ffffff>Жаңа түйін жасалды: <#ffffff>{node}<#a8a8a8>'
+    nodes_add_title: <#55ff55>Жаңа түйін қосу
+    nodes_click: <#a7ff99>LMB <#cccccc>- Түйін тізімдері мен мәтіндерді ашыңыз
+    nodes_del_confirm_desc: '{node} түйінін шынымен жойғыңыз келе ме?'
+    nodes_del_confirm_title: '&0Түйін жою'
+    nodes_del_success: '{prefix}<#78b185>✔<#ffffff>түйіні <#ffffff>{node}<#a8a8a8>жойылды!'
+    nodes_edit_gui_title: '&0түйін мәтіні:'
+    nodes_gui_title: '&0түйіндері:'
+    node_gui_title: '&0түйіні:'
+    nodes_item_click:
+    - <#a7ff99>LMB <#cccccc>- Түйінді өңдеу
+    - <#ed6868>Drop (Q) <#cccccc>- Түйінді жою
+    nodes_item_normal: '<#a8a8a8>түйіні: <#ffffff>{node}'
+    nodes_item_start: <#7eb87e>[Бастау] бастау
+    nodes_lines: '<#a8a8a8>Жолдар саны: <#ffffff>{count}'
+    nodes_lore:
+    - '<#a8a8a8>Жалпы түйіндер: <#ffffff>{count}'
+    nodes_text: '<#a8a8a8>мәтіні:'
+    nodes_text_more: '<#6e6e6e>... (+қосымша {count} жолдары)'
+    nodes_title: <#ffd470>диалог түйіндері (түйіндер)
+    opt_action_lore:
+    - '<#a8a8a8>Ағымдағы әрекет:'
+    - <#ffffff>{action}
+    - Action Builder ашу үшін <#a7ff99>LMB <#a8a8a8>
+    opt_action_title: <#79d679>Action Builder
+    opt_back_lore: <#a8a8a8>Жауаптар тізіміне оралу
+    opt_conds_lore:
+    - '<#a8a8a8>шарттары: <#ffd470>{count}'
+    - Шарттарды өзгерту үшін <#a7ff99>LMB <#a8a8a8>
+    opt_conds_title: <#ffd470>Дисплей шарттары
+    opt_create_node_lore: <#a8a8a8>автоматты түрде жаңа түйін жасайды және осы жауапты оған байланыстырады.
+    opt_create_node_title: <#55ff55>Түйінді жасау және байланыстыру
+    opt_edit_cond_title: '<#6e6e6e>шарттары (жауап №{num}-)'
+    opt_action_gui_title: '&0әрекеттері: #{num}-'
+    opt_edit_current: '<#a8a8a8>Ағымы: <#ffffff>{current}'
+    opt_edit_gui_title: '&0жауап №{num}-'
+    opt_edit_lore_title: '<#6e6e6e>Lore (жауап №{num}-)'
+    opt_edit_prompt_mat: 'Материал атауын енгізіңіз (Bukkit Material):'
+    opt_edit_prompt_mat_invalid: <#ed6868>Жарамсыз материал!
+    opt_edit_prompt_slot: 'Слот нөмірін енгізіңіз (немесе -1):'
+    opt_edit_prompt_sound: 'Дыбыс атауын (Bukkit Sound) немесе «жоқ» енгізіңіз:'
+    opt_edit_prompt_text: 'Ойыншының жауап мәтінін енгізіңіз:'
+    opt_linked_action_lore: '<#a8a8a8>Әрекетті орындайды: <#ffffff>{action}'
+    opt_linked_close_lore: '<#a8a8a8>келесіге әкеледі: <#ffffff>Диалогты жабу'
+    opt_linked_node_lore: '<#a8a8a8>келесіге әкеледі: <#ffffff>түйіні {node}'
+    opt_linked_node_missing_lore: '<#ed6868>келесіге әкеледі: {node} түйіні (табылмады!)'
+    opt_list_action: '<#a8a8a8>әрекеті: <#79d679>{action}'
+    opt_list_add_lore: <#a8a8a8>Жаңа жауап жасау үшін басыңыз.
+    opt_list_add_title: <#79d679>Жауап қосу
+    opt_list_click:
+    - <#a7ff99>LMB <#a8a8a8>өңдеу үшін
+    - <#ed6868>Drop (Q) Жою үшін <#a8a8a8>
+    opt_list_del_desc: '<#a8a8a8><#a8a8a8>#{index} жауабын шынымен жойғыңыз келе ме?'
+    opt_list_del_title: <#ed6868>Жауапты жою керек пе?
+    opt_list_del_gui_title: '&0Жауапты жою керек пе?'
+    opt_list_gui_title: '&0жауаптары:'
+    opt_list_item_title: '<#ffd470>жауап №{index}'
+    opt_list_slot: '<#a8a8a8>ұясы: <#ffd470>{slot}'
+    opt_list_text: '<#a8a8a8>мәтіні: <#ffffff>{text}'
+    opt_material_lore:
+    - '<#a8a8a8>Ағымы: <#ffffff>{material}'
+    - Атын енгізу үшін <#a7ff99>LMB <#a8a8a8>
+    - <#7dd3ff>Орнату үшін <#a8a8a8>элементін (Q) тастаңыз
+    opt_material_title: <#ffd470>жауап белгішесі (материал)
+    opt_reply_lore_lore:
+    - '<#a8a8a8>желілері: <#ffd470>{count}'
+    - <#a7ff99>LMB <#a8a8a8>білімдерін өзгерту үшін
+    opt_reply_lore_title: <#ffd470>Жауап сипаттамасы (Оқу)
+    opt_reply_text_lore:
+    - '<#a8a8a8>Ағымы: <#ffffff>{text}'
+    - Мәтінді өзгерту үшін <#a7ff99>LMB <#a8a8a8>
+    opt_reply_text_title: <#ffd470>Жауап мәтіні
+    opt_slot_lore:
+    - '<#a8a8a8>Ағымы: <#ffd470>{slot}'
+    - <#a8a8a8>Автоматты орналастыру үшін -1 жиынтығы.
+    - <#a7ff99>LMB <#a8a8a8>- +1
+    - <#ffe999>RMB <#a8a8a8>-1
+    - <#ed6868>Drop (Q) Чатқа кіру үшін <#a8a8a8>
+    opt_slot_title: <#ffd470>түгендеу ұясы
+    opt_sound_lore:
+    - '<#a8a8a8>Ағымы: <#ffffff>{sound}'
+    - Дыбысты өзгерту үшін <#a7ff99>LMB <#a8a8a8>
+    opt_sound_title: <#ffd470>Басу дыбысы
+    save_error: '{prefix}<#c96a6a>✖<#ffffff>dialogues.yml сақтау қатесі!'
+    tutorial_footer: '<#6e6e6e>=============================='
+    tutorial_header: '<#6e6e6e>===<#7dd3ff>Диалогтарды құру жолы <#6e6e6e>==='
+    tutorial_step1_title: '<#ffd470>1-қадам: Диалогты бастау'
+    tutorial_step1_lore:
+    - '<#a8a8a8>Әрбір диалогтың бастапқы нүктесі болуы керек.'
+    - '<#a8a8a8><#a7ff99>«Диалог түйіндері»<#a8a8a8>түймесін басып, жасаңыз'
+    - '<#a8a8a8>идентификаторы бар бірінші түйін <#a7ff99>«бастау»<#a8a8a8>.'
+    - '<#a8a8a8>Бұл жерде NPC сөйлесуді бастайды.'
+    tutorial_step2_title: '<#ffd470>2-қадам: түйін мәтіні'
+    tutorial_step2_lore:
+    - '<#a8a8a8>Түйінді жасағаннан кейін оны басыңыз.'
+    - '<#a8a8a8>NPC сөйлейтін мәтінді орнатыңыз.'
+    - '<#a8a8a8>Түс кодтарын және'
+    - '<#a8a8a8>толтырғыштары (мысалы,<#a7ff99>{player}<#a8a8a8>).'
+    tutorial_step3_title: '<#ffd470>3-қадам: Жауап опциялары'
+    tutorial_step3_lore:
+    - '<#a8a8a8>Диалогты интерактивті ету үшін қосыңыз'
+    - 'Ойнатқыш үшін <#a7ff99>жауап опциялары <#a8a8a8>.'
+    - '<#a8a8a8>Түйін параметрлеріне өтіңіз және'
+    - '<#a8a8a8>бірнеше ықтимал жауаптарды жасайды.'
+    tutorial_step4_title: '<#ffd470>4-қадам: Сілтемелер мен ауысулар'
+    tutorial_step4_lore:
+    - '<#a8a8a8>Әрбір ойыншының жауабы мынаған әкелуі керек'
+    - '<#a8a8a8>басқа NPC түйінін таңдаңыз немесе диалогты аяқтаңыз.'
+    - '<#a8a8a8>Әрбір жауапты идентификаторға байланыстырыңыз'
+    - '<#a8a8a8>келесі түйін.'
+    tutorial_step5_title: '<#ffd470>5-қадам: Шарттар (шарттар)'
+    tutorial_step5_lore:
+    - '<#a8a8a8>Кейбір жауаптарды ойнатқыштан жасыруға болады.'
+    - '<#a8a8a8>Жауап параметрлерінде көрсетуге болады'
+    - '<#a8a8a8>талаптары: рұқсаттың болуы (рұқсат)'
+    - '<#a8a8a8>немесе белгілі бір квест күйі.'
+    tutorial_step6_title: '<#ffd470>6-қадам: Әрекеттер (әрекеттер)'
+    tutorial_step6_lore:
+    - '<#a8a8a8>Жауапты таңдау белгілі бір оқиғаларды тудыруы мүмкін.'
+    - '<#a8a8a8>Келесі түйінге өтуден басқа,'
+    - '<#a8a8a8>сіз квестті автоматты түрде бастауға немесе тапсыруға болады,'
+    - '<#a8a8a8>немесе ойнатқыш/консоль атынан пәрменді орындаңыз.'
+    tutorial_step7_title: '<#ffd470>7-қадам: Диалогты тексеру құралы'
+    tutorial_step7_lore:
+    - '<#a8a8a8>Диалог дайын болғанда, міндетті түрде пайдаланыңыз'
+    - '<#a7ff99>Validator <#a8a8a8>редактордың негізгі мәзірінде.'
+    - '<#a8a8a8>Ол сіздің диалогыңызды тексереді'
+    - '<#a8a8a8>сынған сілтемелер және қол жетімсіз түйіндер.'
+    update_period_click:
+    - <#a7ff99>LMB <#cccccc>- 1 белгіні қойыңыз
+    - <#a7ff99>RMB <#cccccc>- 1 белгіні алып тастаңыз
+    - <#ffe999>Shift+LMB <#cccccc>- 10 белгіні қосыңыз
+    - <#ffe999>Shift+RMB <#cccccc>- 10 белгіні алып тастаңыз
+    - <#d9a752>Swap (F) <#cccccc>- қолмен енгізу
+    update_period_lore:
+    - <#a8a8a8>Мәтін қаншалықты жиі жаңартылады (белгілермен).
+    - '<#a8a8a8>Ағымы: <#7dd3ff>{ticks} кенелері'
+    update_period_prompt: '<#ffd470>Белгілердің санын енгізіңіз (1-100):'
+    update_period_title: <#ffd470>Мәтінді жаңарту жылдамдығы
+    validator_dead_link: 'Жауап беру {node}{target} жоқ түйініне әкеледі! (жауап #{index})'
+    validator_footer: '<#c8beaa>Қысқаша мазмұны: <#b0b8c1>{errors} қателері,<#c4b5b5>{warnings} ескертулері.'
+    validator_header: '<#b0b8c1>===<#6aa0c9>Диалог күйі: <#e2e8f0>{id}<#b0b8c1>==='
+    validator_links_ok: 'Диалог толығымен дайын және ешқандай мәселе жоқ!'
+    validator_start_missing: '«Бастау» бастапқы түйіні жоқ!'
+    voice_click: <#a7ff99>LMB <#cccccc>- Дауыс түрін өзгерту
+    voice_lore: '<#a8a8a8>дауысы: <#ffffff>{voice}'
+    voice_prompt: '<#ffd470>Дыбыс түрін енгізіңіз (ауылдық, жоқ немесе пайдаланушы):'
+    voice_title: <#ffd470>диалогының дауыстық дыбысы
+    opt_reply_text_click: '<#a8a8a8>Мәтінді өңдеу үшін басыңыз'
+    opt_reply_lore_click: '<#a8a8a8>Білімді өңдеу үшін басыңыз'
+    opt_material_click: '<#a8a8a8>Белгішені өңдеу үшін басыңыз'
+    opt_sound_click: '<#a8a8a8>Дыбысты өңдеу үшін басыңыз'
+    opt_action_click: '<#a8a8a8>Әрекеттерді өңдеу үшін басыңыз'
+    opt_conds_click: '<#a8a8a8>Шарттарды өңдеу үшін басыңыз'
+    action_player_prompt: '&aОйыншы ретінде орындау үшін пәрменді енгізіңіз:'
+    action_console_prompt: '&aКонсольден орындау үшін пәрменді енгізіңіз:'
+  eff_reward:
+    add_lore: <#a7ff99>LMB <#cccccc>- әсерді таңдаңыз
+    click_add_10s: <#ffe999>Shift+LMB <#cccccc>- 10 сек қосыңыз
+    click_add_1s: <#a7ff99>LMB <#cccccc>- 1 сек қосыңыз
+    click_custom_dur: <#d9a752>Swap (F) <#cccccc>- реттелетін ұзақтықты енгізіңіз
+    click_delete: <#ed6868>Drop (Q) <#cccccc>- Жою
+    click_edit: <#a7ff99>LMB <#cccccc>- Өңдеу эффектісі
+    click_move_down: <#ffe999>Shift+RMB <#cccccc>- төмен жылжытыңыз
+    click_move_up: <#ffe999>Shift+LMB <#cccccc>- жоғары жылжытыңыз
+    click_remove_10s: <#ffe999>Shift+RMB <#cccccc>- 10 сек шегеріңіз
+    click_remove_1s: <#a7ff99>RMB <#cccccc>- 1 сек шегеріңіз
+    click_set_level: <#d9a752>1-9 <#cccccc>- әсер деңгейін орнату
+    descriptions:
+      ABSORPTION: <#cccccc>Қосымша алтын жүректерді береді.
+      BAD_OMEN: <#cccccc>Ауылға кіргенде рейд жасайды.
+      BLINDNESS: <#cccccc>Ойнатқыштың көрінуін нашарлатады.
+      BREATH_OF_THE_NAUTILUS: <#cccccc>Судың тыныс алуын қамтамасыз етеді (өткізгіш).
+      CONDUIT_POWER: <#cccccc>Судың тыныс алуын, көруін және асығуын береді.
+      CONFUSION: <#cccccc>Бас айналу әсерін тудырады.
+      DAMAGE_RESISTANCE: <#cccccc>Кіріс зақымдануды азайтады.
+      DARKNESS: <#cccccc>Ойыншының көруін қараңғы етеді.
+      DOLPHINS_GRACE: <#cccccc>Жүзу жылдамдығын арттырады.
+      FAST_DIGGING: <#cccccc>өндіру жылдамдығын арттырады.
+      FIRE_RESISTANCE: <#cccccc>От пен лаваға қарсы иммунитет береді.
+      GLOWING: <#cccccc>Ойыншының сұлбасын ерекшелейді.
+      HARM: <#cccccc>дереу зақымдайды.
+      HEAL: <#cccccc>денсаулықты бірден қалпына келтіреді.
+      HEALTH_BOOST: <#cccccc>Қосымша денсаулық жүректерін қосады.
+      HERO_OF_THE_VILLAGE: Ауыл тұрғындарынан <#cccccc>жеңілдіктері.
+      HUNGER: <#cccccc>аштықты тезірек жояды.
+      INCREASE_DAMAGE: <#cccccc>жекпе-жек залалын арттырады.
+      INFESTED: <#cccccc>Зақымданған кезде күміс балықты уылдырық шашады.
+      INVISIBILITY: <#cccccc>Ойнатқышты көрінбейтін етеді.
+      JUMP: <#cccccc>Секіру биіктігін арттырады.
+      LEVITATION: <#cccccc>Ойнатқыштың жоғары қарай жүзуіне себепші болады.
+      LUCK: <#cccccc>Сәттілікті арттырады.
+      NIGHT_VISION: <#cccccc>Қараңғыда көруге мүмкіндік береді.
+      OOZING: <#cccccc>Өлгеннен кейін шламдарды шығарады.
+      POISON: <#cccccc>Бірте-бірте зақым келтіреді (өлтіруге болмайды).
+      RAID_OMEN: <#cccccc>Ауылға жақындағанда рейд жасайды.
+      REGENERATION: <#cccccc>Біртіндеп денсаулықты қалпына келтіреді.
+      SATURATION: <#cccccc>аштықты бірден қалпына келтіреді.
+      SLOW: <#cccccc>Қозғалыс жылдамдығын төмендетеді.
+      SLOW_DIGGING: <#cccccc>Майнинг жылдамдығын төмендетеді.
+      SLOW_FALLING: <#cccccc>Құлау жылдамдығын баяулатады.
+      SPEED: <#cccccc>Қозғалыс жылдамдығын арттырады.
+      TRIAL_OMEN: <#cccccc>сынақ қиындығын арттырады.
+      UNLUCK: <#cccccc>Сәттілікті төмендетеді.
+      WATER_BREATHING: <#cccccc>су астында тыныс алуға мүмкіндік береді.
+      WEAKNESS: <#cccccc>келтірілген зиянды азайтады.
+      WEAVING: <#cccccc>Өлгеннен кейін өрмек торын шығарады.
+      WIND_CHARGED: <#cccccc>Өлім кезінде желді тудырады.
+      WITHER: <#cccccc>Бірте-бірте зақым келтіреді (өлтіруі мүмкін).
+    duration_format: '<#8a8a8a>ұзақтығы: <#55e655>{secs} сек <#555555>({time})'
+    duration_format_raw: '<#8a8a8a>Ұзақтығы: <#55e655>{dur} сек'
+    item_format: '<#79d679>әсері №{index}'
+    level_format: '<#8a8a8a>күші (деңгейі): <#55e6e6>{level}'
+    prompt_add: '<#8a8a8a>Әсерді <#ed6868>EFFECT:LEVEL:TIME <#8a8a8a>пішімінде енгізіңіз (мысалы, SPEED:1:200):'
+    prompt_dur: '<#8a8a8a>Әсер ұзақтығын секундпен енгізіңіз:'
+    prompt_edit: '<#8a8a8a>Жаңа әсер пішімін енгізіңіз <#ed6868>EFFECT:LEVEL:TIME <#8a8a8a>:'
+    selector_title: Әсерді таңдаңыз
+    type_format: '<#8a8a8a>әсер түрі: <#e6e655>{type}'
+  entity_selector:
+    click: <#a7ff99>LMB <#cccccc>- нысанды таңдаңыз
+    title: '&0Топты/объектіні таңдаңыз'
+  global_settings:
+    error_not_number: Нөмірді енгізіңіз!
+    limit_click: <#79d679>Өзгерту үшін басыңыз
+    limit_lore:
+    - '<#a8a8a8>кілті: <#ffffff>жеке шегі'
+    - '<#a8a8a8>Ағымы: <#ffffff>{val}'
+    limit_prompt: '<#ffd470>Жеке шектеу үшін жаңа мәнді енгізіңіз:'
+    limit_title: <#ffd470>Жеке шектеу
+    max_p_click: <#79d679>Өзгерту үшін басыңыз
+    max_p_lore:
+    - '<#a8a8a8>Key: <#ffffff>max-participants'
+    - '<#a8a8a8>Ағымы: <#ffffff>{val}'
+    max_p_prompt: '<#ffd470>Ең көп қатысушылар үшін жаңа мән енгізіңіз:'
+    max_p_title: <#ffd470>Maximum participants
+    min_p_click: <#79d679>Өзгерту үшін басыңыз
+    min_p_lore:
+    - '<#a8a8a8>Key: <#ffffff>min-participants'
+    - '<#a8a8a8>Ағымы: <#ffffff>{val}'
+    min_p_prompt: '<#ffd470>Ең аз қатысушылар үшін жаңа мәнді енгізіңіз:'
+    min_p_title: <#ffd470>Ең аз қатысушылар
+    step_click: <#a7ff99>LMB <#cccccc>- Өзгерту
+    step_lore:
+    - '<#a8a8a8>кілті: <#ffffff>марапаттау қадамы'
+    - '<#a8a8a8>мәні: <#ffffff>{val}'
+    step_prompt: '<#ffd470>Марапаттау қадамы үшін жаңа нөмірді енгізіңіз:'
+    step_title: <#ffd470>марапаттау қадамы
+    title: '&0Қозғалтқыш параметрлері: {id}'
+  health_check:
+    err_missing_name: Квест аты (аты) жоқ
+    err_missing_stages: Жетіспейтін кезеңдер/кезеңдер
+    err_no_name: Квест аты (аты) жоқ
+    err_no_stages: Жетіспейтін кезеңдер (кезеңдер)
+    header: '=== Квест денсаулық талдауы: {id}==='
+    success: '{prefix}<#78b185>✔<#ffffff>Квест толығымен дайын және ешқандай проблемалары жоқ!'
+    summary: 'Қысқаша мазмұны: {errors} қателері,{warnings} ескертулері.'
+    title: '<#b0b8c1>===<#6aa0c9>Квест жағдайы: <#e2e8f0>{id}<#b0b8c1>==='
+    warn_missing_mandatory_prop: '{stage} кезеңі : ''{prop}'' міндетті сипаты жоқ'
+    warn_no_rewards: Квестте марапаттар (сыйлықтар) жоқ
+    warn_npc_not_found: '{prefix}<#d9a752>⚠<#ffffff>кезеңі {stage}: NPC ''{npc}'' npcs.yml ішінде табылмады'
+    warn_obj_prop: 'Ескерту: нысан қасиеті'
+    warn_objective_missing_prop: 'Мақсат: ''{prop}'' қажетті сипаты жоқ'
+    warn_stage_empty: Сахна бос
+    warn_stage_npc: NPC сатысы конфигурацияланбаған
+    warn_stage_prop: Кезең жарамсыз сипатқа ие
+    warn_unconfigured_stage: '{stage} кезеңі: мақсат немесе материалдар конфигурацияланбаған'
+  list:
+    clone_prompt: '<#ffd470>Көшірілген квест үшін идентификаторды енгізіңіз:'
+    confirm_del_desc: '{id} квестін шынымен жойғыңыз келе ме?'
+    confirm_del_title: ✖ Квестті жою
+    error_clone: '{prefix}<#c96a6a>✖<#ffffff>Клондау кезінде қате!'
+    error_clone_exists: '{prefix}<#c96a6a>✖<#ffffff>Бұл идентификаторы бар квест бұрыннан бар!'
+    error_create: '{prefix}<#c96a6a>✖ Квест жасау кезінде <#ffffff>қатесі.'
+    filter_lore_next: <#a7ff99>LMB <#cccccc>- Келесі режим
+    filter_lore_prev: <#a7ff99>RMB <#cccccc>- Алдыңғы режим
+    filter_lore_title: '<#a8a8a8>сұрыптау режимдері:'
+    filter_title: <#ffd470>сүзгісі / сұрыптау
+    item_clone: <#d9a752>Swap (F) <#cccccc>- Клондық квест
+    item_delete: <#ed6868>Drop (Q) <#cccccc>- Квестті жою
+    item_edit: <#a7ff99>LMB <#cccccc>- Квестті өңдеу
+    item_engine: '<#a8a8a8>қозғалтқышы: <#7dd3ff>{engine}'
+    item_type: '<#a8a8a8>түрі: <#ffffff>{type}'
+    mode_cre_new: Жасалған (ең жаңасы бірінші)
+    mode_cre_old: Жасалған (ең ескісі бірінші)
+    mode_engine_chain: 'Сүзгі: CHAIN ​​Engine'
+    mode_engine_default: 'Сүзгі: Әдепкі қозғалтқыш'
+    mode_engine_global: 'Сүзгі: GLOBAL қозғалтқышы'
+    mode_engine_rotation: 'Сүзгі: ROTATION қозғалтқышы'
+    mode_id_asc: ID бойынша (A-Z)
+    mode_id_desc: ID бойынша (Z-A)
+    mode_issue: 'Сүзгі: назар аудару керек'
+    mode_mod_new: Өзгертілген (ең жаңасы бірінші)
+    mode_mod_old: Өзгертілген (ең ескісі бірінші)
+    mode_type: Квест түрі бойынша
+    msg_clone_success: '{prefix}<#78b185>✔<#ffffff>Quest <#ffffff>{id} ретінде сәтті клондалады'
+    msg_del_success: '{prefix}<#78b185>✔<#ffffff>Quest {id}<#79d679>сәтті жойылды!'
+    search_all: '<#a8a8a8>Іздеу: <#ffffff>Барлығы'
+    search_click: <#a7ff99>LMB <#cccccc>- Іздеу (немесе тазалау)
+    search_prompt: '<#ffd470>Квесттерді іздеу үшін мәтінді енгізіңіз (немесе өшіріңіз):'
+    search_query: '<#a8a8a8>Іздеу: <#ffffff>{query}'
+  list_string_editor:
+    add_lore: <#a7ff99>LMB <#cccccc>- мәтінді енгізіңіз.
+    add_lore_empty: <#a7ff99>RMB <#cccccc>- бос жолды жасаңыз
+    delete_confirm_item: Жолды жою
+    delete_confirm_msg: '<#ffd470>#{index} жолын шынымен жойғыңыз келе ме?'
+    delete_confirm_title: '&0Жолды жою'
+    item_clone: <#d9a752>Swap (F) <#cccccc>- Clone желісі
+    item_delete: <#ed6868>Drop (Q) <#cccccc>- жолды жою
+    item_edit: <#a7ff99>LMB <#cccccc>- Жолды өңдеу
+    item_format: '<#ffffff>сызығы №{index}'
+    item_move_down: <#ffe999>Shift+RMB <#cccccc>- төмен жылжытыңыз
+    item_move_up: <#ffe999>Shift+LMB <#cccccc>- жоғары жылжытыңыз
+    prompt_add: '<#ffd470>Жаңа жолға мәтінді енгізіңіз:'
+    prompt_edit: 'Өңдеу жолы:'
+  main_menu:
+    add_lore_empty: <#ffe999>RMB <#cccccc>- бос жолды жасаңыз
+    back: <#ed6868>Кері оралу
+    btn_check_lore: <#cccccc>Чатта егжей-тегжейлі конфигурация талдауын іске қосады.
+    btn_check_title: <#ffe999>Қателерді тексеріңіз
+    btn_preview_lore: <#cccccc>Ойыншылар көргендей квест көрсетеді.
+    btn_preview_title: <#7dd3ff>алдын ала қарау
+    btn_save_changes: '<#ffd470>(* Өзгерістер)'
+    btn_save_lore_unsaved: <#ffd470>LMB <#cccccc>- өзгертулерді сақтау
+    btn_save_lore_saved: <#ffe999>Сақталмаған өзгертулер жоқ
+    btn_save_title: <#55ff55>Файлды сақтау
+    cmd_lore:
+    - <#a8a8a8>Теңшелетін элемент текстуралары үшін.
+    - '<#a8a8a8>Ағымдағы мән: <#ffffff>{cmd}'
+    cmd_prompt: '<#ffd470>Пайдаланушы үлгі деректерінің нөмірін енгізіңіз (немесе 0):'
+    cmd_title: <#ffd470>үлгісі (арнайы үлгі деректері)
+    cooldown_click: <#a7ff99>LMB (+1) / RMB (-1) /<#d9a752>Swap (F) <#cccccc>- қолмен
+    cooldown_lore: '<#a8a8a8>салқындату уақыты: <#ffffff>{time}<#a8a8a8>({secs} с)'
+    cooldown_none: Салқындату жоқ
+    cooldown_title: <#ffd470>салқындату
+    desc_click: <#a7ff99>LMB <#cccccc>- Өңдеу
+    desc_gui_title: '&0Сипаттама:'
+    desc_title: <#ffd470>Quest сипаттамасы
+    effects_activate_lore: '<#a8a8a8>Ағымы: <#ffffff>{val}'
+    effects_activate_title: <#ffd470>Quest қабылдау әсері
+    effects_click: <#a7ff99>LMB <#cccccc>- Өзгерту
+    effects_click_drop: <#ed6868>Drop (Q) <#cccccc>- Жою
+    effects_click_swap: <#d9a752>Swap (F) <#cccccc>- Қолмен
+    effects_complete_lore: '<#a8a8a8>Ағымы: <#ffffff>{val}'
+    effects_complete_title: <#ffd470>Quest толық әсері
+    effects_gui_selection_item_play: <#d9a752>Swap (F) <#cccccc>- Ойнату әсері
+    effects_gui_selection_item_title: <#ffd470>әсері алдын ала орнатылған
+    effects_gui_selection_title: '&0Алдын ала орнатылған әсерді таңдаңыз'
+    effects_gui_title: '&0Quest әсерлері:'
+    effects_lore: <#a7ff99>LMB <#cccccc>- әсер алдын ала орнатуларды конфигурациялау
+    effects_stage_lore: '<#a8a8a8>Ағымы: <#ffffff>{val}'
+    effects_stage_title: <#ffd470>Кезеңді өзгерту әсері
+    effects_title: <#ffd470>Quest әсерлері
+    engine_lore: '<#a8a8a8>таңдалды: <#ffffff>{engine}'
+    engine_title: <#ffd470>Quest Engine
+    global_click: <#a7ff99>LMB <#cccccc>- Ашық
+    global_lore:
+    - <#a8a8a8>Барлық ойыншылар бірге орындаған тапсырмалар үшін.
+    - <#a8a8a8>Шектер мен марапаттау қадамдарын орнату.
+    global_title: <#ffd470>серверінің ғаламдық мақсаттары
+    gui_title: '&0өңдеу:'
+    health_click: <#a7ff99>LMB <#cccccc>- тексеруді іске қосыңыз
+    health_lore: <#a8a8a8>Конфигурацияда қателер мен жетіспейтін өрістерді тексереді.
+    health_title: <#ffb366>Quest денсаулық талдауы
+    icon_basehead_click: '&eSwap (F) &8-&7Негізгі басты енгізіңіз'
+    icon_click: <#a7ff99>LMB <#cccccc>- белгішені өзгерту
+    icon_click_left: <#a7ff99>LMB <#cccccc>- белгіше материалын таңдаңыз
+    icon_click_right: <#a7ff99>RMB <#cccccc>- CustomModelData өзгерту
+    icon_cmd: '<#a8a8a8>CustomModelData: <#ffffff>{cmd}'
+    icon_lore: '<#a8a8a8>таңдалды: <#ffffff>{icon}'
+    icon_mat: '<#a8a8a8>материалы: <#ffffff>{mat}'
+    icon_title: <#ffd470>Quest белгішесі
+    id_click: <#a7ff99>LMB <#cccccc>- ID өзгерту
+    id_error_exists: '{prefix}<#c96a6a>✖{id} идентификаторы бар <#ffffff>квесті бұрыннан бар!'
+    id_error_invalid: '{prefix}<#c96a6a>✖<#ffffff>ID пішімі жарамсыз!'
+    id_lore: '<#a8a8a8>ағымдағы идентификаторы: <#ffffff>{id}'
+    id_name: <#ffd470>Quest ID
+    id_prompt: '<#ffd470>Жаңа квест идентификаторын енгізіңіз (мысалы, my_quest):'
+    id_title: <#ffd470>Quest ID
+    node_id_title: '<#ffd470>түйінінің идентификаторы'
+    item_clone: <#d9a752>Swap (F) <#cccccc>- Clone желісі
+    item_move_down: <#ffe999>Shift+RMB <#cccccc>- төмен жылжытыңыз
+    item_move_up: <#ffe999>Shift+LMB <#cccccc>- жоғары жылжытыңыз
+    name_click: <#a7ff99>LMB <#cccccc>- Өзгерту
+    name_lore: '<#a8a8a8>Ағымы: <#ffffff>{name}'
+    name_missing: <#ed6868>Quest атауы жоқ!
+    name_prompt: '<#ffd470>Чатта квест атауын енгізіңіз:'
+    name_title: <#ffd470>Quest атауы
+    name_title_has: <#ffd470>Quest атауы
+    name_title_none: <#ed6868>Quest атауы жоқ!
+    not_specified: Белгіленген жоқ
+    page_lore: '<#a8a8a8>Ағымдағы бет: <#ffffff>{page}'
+    page_prompt: '<#ffd470>Бетті енгізіңіз (бет, 1-ден):'
+    page_title: <#ffd470>беті
+    perm_click: <#a7ff99>LMB <#cccccc>- Өзгерту
+    perm_lore: '<#a8a8a8>рұқсаты: <#ffffff>{perm}'
+    perm_none: Белгіленген жоқ
+    perm_prompt: '<#ffd470>Рұқсат енгізіңіз (немесе жоқ):'
+    perm_title: <#ffd470>Қажетті рұқсат
+    preview_click: <#a7ff99>LMB <#cccccc>- алдын ала қарауды ашу
+    preview_lore: <#a8a8a8>Квестті ойыншы мәзірден көргендей көрсетіңіз.
+    preview_title: <#7dd3ff>алдын ала қарау квесті
+    req_quests_add: <#79d679>Квест қосу
+    req_quests_add_lore: <#a7ff99>LMB <#cccccc>- тізімнен тапсырманы таңдаңыз.
+    req_quests_click: <#a7ff99>LMB <#cccccc>- Өңдеу
+    req_quests_del: <#ed6868>Drop (Q) <#cccccc>- Квестті жою
+    req_quests_edit: <#a7ff99>LMB <#cccccc>- басқа квестпен ауыстырыңыз
+    req_quests_gui_title: '&0Алдыңғы. квесттер:'
+    req_quests_lore: Бұған дейін орындалуы керек <#a8a8a8>тапсырмалары.
+    req_quests_title: <#ffd470>талаптары (алдыңғы квесттер)
+    req_quests_unknown: <#ffffff>Белгісіз квест ({id})
+    rew_desc_click: <#a7ff99>LMB <#cccccc>- Өңдеу
+    rew_desc_gui_title: '&0сыйақыларының сипаттамасы:'
+    rew_desc_title: <#ffd470>Rewards сипаттамасы
+    rewards_click: <#a7ff99>LMB <#cccccc>- Сыйақы параметрлерін ашыңыз
+    rewards_gui_title: '&0сыйақылары:'
+    rewards_lore: <#a7ff99>LMB <#cccccc>- Сыйақыларды конфигурациялаңыз
+    rewards_title: <#ffd470>Quest марапаттары
+    rot_pool_click: <#a7ff99>LMB <#cccccc>- Өзгерту
+    rot_pool_lore:
+    - <#a8a8a8>Квест осы пулдан кездейсоқ таңдалады.
+    rot_pool_lore3: '<#a8a8a8>Ағымы: <#ffffff>{pool}'
+    rot_pool_lore3_none: <#ed6868>пулы көрсетілмеген. Квест айналымда болмайды.
+    rot_pool_prompt: '<#ffd470>Пул атын енгізіңіз (немесе жоқ):'
+    rot_pool_title: <#ffd470>квест пулы (айналдыру пулы)
+    save_error: '{prefix}<#c96a6a>✖<#ffffff>Файлды сақтау қатесі!'
+    save_success: '{prefix}<#78b185>✔<#ffffff>Quest файлы <#e2e8f0>{id}<#b0b8c1>сәтті сақталды!'
+    slot_click:
+    - <#a7ff99>LMB (+1) / RMB (-1)
+    - <#ffe999>Shift + LMB (+10) /<#ffe999>Shift + RMB (-10)
+    - <#d9a752>Swap (F) <#cccccc>- қолмен енгізу
+    slot_lore: '<#a8a8a8>Ағымдағы ұя: <#ffffff>{slot}'
+    slot_prompt: '<#ffd470>Слотты енгізіңіз (слот, 0-54):'
+    slot_title: <#ffd470>ұясы
+    stages_click: <#a7ff99>LMB <#cccccc>- кезеңдер мен мақсаттарды өңдеу
+    stages_count: '<#a8a8a8>Кезең саны: <#ffffff>{count}'
+    stages_lore: '<#a8a8a8>Кезең саны: <#ffffff>{count}'
+    stages_title: <#ffd470>кезеңдері (мақсаттары)
+    stages_title_has: <#ffd470>кезеңдері (мақсаттары)
+    stages_title_none: <#ed6868>Квест кезеңдері жоқ!
+    type_click: <#a7ff99>LMB <#cccccc>- басқа түрді таңдаңыз
+    type_lore_engine: '<#a8a8a8>қозғалтқышы: <#ffffff>{engine}'
+    type_lore_type: '<#a8a8a8>түрі: <#ffffff>{type}'
+    type_title: <#ffd470>Квест түрін өзгерту
+  msg_reward:
+    click_clone: <#d9a752>Swap (F) <#cccccc>- Клондау
+    click_delete: <#ed6868>Drop (Q) <#cccccc>- Жою
+    click_edit: <#a7ff99>LMB <#cccccc>- Хабарламаны өңдеу
+    click_move_down: <#ffe999>Shift+RMB <#cccccc>- төмен жылжытыңыз
+    click_move_up: <#ffe999>Shift+LMB <#cccccc>- жоғары жылжытыңыз
+    click_set_level: <#d9a752>1-9 <#cccccc>- әсер деңгейін орнату
+    item_format: '<#79d679>хабарламасы №{index}'
+    node_id_prompt: 'Жаңа түйін идентификаторын енгізіңіз:'
+    opt_edit_prompt_sound: 'Bukkit Sound (немесе «жоқ») енгізіңіз:'
+    action_console_prompt: 'Консоль пәрменін енгізіңіз (/ жоқ):'
+    action_player_prompt: 'Ойнатқыш пәрменін енгізіңіз (/ жоқ):'
+    action_raw_prompt: 'Шикі әрекет жолын енгізіңіз:'
+    cond_raw_prompt: 'Шикі күй жолын енгізіңіз:'
+    nodes_edit_gui_title: '&0түйіні:'
+  npc_list:
+    create_click_left: <#a7ff99>LMB <#cccccc>- Жаңа NPC жасаңыз
+    create_click_right: <#a7ff99>RMB <#cccccc>- бар NPC байланыстыру
+    create_existing_prompt: '<#ffd470>Интеграциядан БАР NPC нақты идентификаторын енгізіңіз (мысалы,<#ffffff>1 <#ffd470>):'
+    create_prompt: '<#ffd470>Жаңа NPC идентификаторын енгізіңіз (мысалы,<#ffffff>merchant_1 <#ffd470>):'
+    delete_click: <#ed6868>Drop (Q) <#cccccc>- NPC жою
+    dialogue_lore: '<#a8a8a8>диалогы: <#ff99d4>{dialogue}'
+    edit_click: <#a7ff99>LMB <#cccccc>- NPC өңдеу
+    id_lore: '<#a8a8a8>идентификаторы: <#ffffff>{id}'
+    old_create_prompt: '<#ffd470>Жаңа NPC идентификаторын енгізіңіз (мысалы,<#ffffff>merchant_1 <#ffd470>):'
+    save_error: '{prefix}<#c96a6a>✖<#ffffff>npcs.yml файлын сақтау қатесі!'
+  npc_main:
+    default_mood_lore:
+    - '&7Ағымы: <#fff9c4>{mood}'
+    - '&eӘдепкі көңіл-күйді өзгерту үшін басыңыз'
+    default_mood_prompt: 'Көңіл-күйді енгізіңіз (мысалы, БЕЙТРАЛ, БАҚЫТТЫ, АШЫҚТЫ):'
+    default_mood_title: <#ffeb3b>әдепкі көңіл-күй
+    delete_confirm_desc: <#a8a8a8>Осы NPC-ні шынымен жойғыңыз келе ме?
+    delete_confirm_item: <#ed6868>NPC жою
+    delete_confirm_title: <#ed6868>Жоюды растау
+    delete_right_click_warn: <#ff7070>RMB <#cccccc>- NPC жою
+    dialogue_click:
+    - <#a7ff99>LMB <#cccccc>- диалог тізімінен таңдаңыз
+    - <#a7ff99>RMB <#cccccc>- чатта идентификаторды енгізіңіз
+    dialogue_gui_title: '&8диалогын таңдау'
+    dialogue_lore: '<#a8a8a8>диалогы: <#ffffff>{dialogue}'
+    dialogue_none_title: '&cБайланысты жою диалогы'
+    dialogue_prompt: '<#ffd470>dialogues.yml сайтынан диалог идентификаторын енгізіңіз (немесе жоқ):'
+    dialogue_select_click: '&eОсы диалогты таңдау үшін басыңыз'
+    dialogue_title: <#ffd470>байланысты диалог
+    error_number: Жарамсыз нөмір!
+    finishes_quests_lore: <#a8a8a8>Осы NPC аяқтайтын арнайы квесттер.
+    finishes_quests_title: <#ffd470>арнайы тапсырмалары (аяқтаулар)
+    finishes_types_lore: Осы NPC аяқтайтын <#a8a8a8>Quest түрлері.
+    finishes_types_title: <#ffd470>квест түрлері (аяқтаулар)
+    head_click: <#a7ff99>LMB <#cccccc>- Қолдан немесе чаттан алыңыз
+    head_lore: '<#a8a8a8>Ағымы: <#ffffff>{head}'
+    head_lore_current: '<#a8a8a8>Ағымы: <#ffffff>{current}'
+    head_prompt: '<#ffd470>base64 текстурасын немесе «жоқ» енгізіңіз:'
+    head_texture_lore:
+    - '&7Ағымы: <#dcedc1>{head}'
+    - '&ebase64 құрылымын өзгерту үшін басыңыз'
+    head_texture_prompt: 'base64 бас құрылымын немесе «жоқ» енгізіңіз:'
+    head_texture_title: <#a8e6cf>бас құрылымы
+    head_title: <#ffd470>бас құрылымы
+    id_click: <#a7ff99>LMB <#cccccc>- NPC идентификаторын өзгерту
+    id_lore: '<#a8a8a8>ағымдағы идентификаторы: <#ffffff>{id}'
+    id_title: <#ffd470>идентификаторы (идентификатор)
+    node_id_title: '<#ffd470>түйінінің идентификаторы'
+    linked_blocked_by_quests: <#ff5252>Мүмкін емес, өйткені сіз белгілі бір тапсырмаларды орындап қойғансыз!
+    linked_blocked_by_types: <#ff5252>Мүмкін емес, өйткені сіз квест түрлерін байлап қойғансыз!
+    linked_config_error_last: '&cQuest/Type кем дегенде берілуі немесе аяқталуы керек! Оны жою үшін - тізімдегі Drop (Q) пернесін басыңыз.'
+    linked_config_finishes: <#81c784>Квест/түрді аяқтайды
+    linked_config_finishes_lore: <#a8a8a8>Қосылған болса, бұл NPC аяқталған квестті қабылдай алады.
+    linked_config_starts: <#a7ff99>Квест/түрді бастайды
+    linked_config_starts_lore: <#a8a8a8>Егер қосылса, бұл NPC квест бере алады.
+    linked_config_title: '&0параметрлері'
+    linked_delete_desc: Сіз байланыстырылған тізімнен {id} өшіргіңіз келетініне сенімдісіз бе?
+    linked_delete_item: <#ff4d4d>Жоюды растау
+    linked_delete_title: '&0Жоюды растау'
+    linked_item_click: <#a7ff99>LMB <#cccccc>- Конфигурациялау
+    linked_item_drop: <#ed6868>Drop (Q) <#cccccc>- Жою
+    linked_item_quest_name: '<#ffd470>тапсырмасы: <#ffffff>{id}'
+    linked_item_type_name: '<#ffd470>түрі: <#ffffff>{id}'
+    linked_quests_list_title: '&0байланысты тапсырмалар'
+    linked_quests_lore: <#a8a8a8>NPC көрсетілген тапсырмаларды бере алады немесе аяқтай алады.
+    linked_quests_title: <#ffab91>Арнайы тапсырмаларды байланыстыру
+    linked_selection_click: <#ffe999>Конфигурациялау үшін басыңыз
+    linked_selection_gui_title: '&0байланысты тапсырмалар/түрлері'
+    linked_selection_item_title: <#ffd470>байланысты тапсырмалар/түрлері
+    linked_selection_lore: "<#a8a8a8>Квесттер мен түрлерін конфигурациялау,\n Бұл NPC беретін немесе аяқтайтын <#a8a8a8>."
+    linked_types_list_title: '&0байланысты квест түрлері'
+    linked_types_lore: <#a8a8a8>NPC көрсетілген түрлердің кез келген квестін бере алады немесе аяқтай алады.
+    linked_types_title: <#90caf9>Байланыстырушы квест түрлері
+    mood_click: <#a7ff99>LMB /<#a7ff99>RMB <#cccccc>- көңіл-күйді ауыстырып-қосқыш
+    mood_lore: '<#a8a8a8>NPC анимациясына әсер етеді.\n <#a8a8a8>Ағымдағы: <#ffffff>{mood}'
+    mood_lore_current: '<#a8a8a8>Ағымы: <#ffffff>{current}'
+    mood_prompt: '<#ffd470>Көңіл-күйді енгізіңіз (мысалы, БЕЙТРАЛ, БАҚЫТТЫ, АШЫЛЫ):'
+    mood_rule_conds: '&7шарттары: &e {count}'
+    mood_rule_delete: 'Бұл ережені жою үшін &cDrop (Q) &7'
+    mood_rule_edit_tip: '&c(қосу/өзгерту үшін npcs.yml пайдаланыңыз)'
+    mood_rule_item_title: '&eережесі №{index}: &6 {mood}'
+    mood_rule_priority: '&7басымдылығы: &e {priority}'
+    mood_rules_add_lore: '&7Әзірге күрделі ережелерді қосуға болады'
+    mood_rules_add_lore2: '&7тек npcs.yml конфигурациясы арқылы қолмен.'
+    mood_rules_add_title: '&aКөңіл-күй ережесін қосу'
+    mood_rules_back: '&cАртқа'
+    mood_rules_back_lore: '&7NPC-ге оралыңыз'
+    mood_rules_gui_title: '&8көңіл-күй ережелері: &1 {id}'
+    mood_rules_lore:
+    - '&7Қосымша ережелерді конфигурациялау'
+    - 'Квест барысына немесе уақытқа негізделген &7.'
+    - '&eЕрежелерді көру үшін басыңыз'
+    mood_rules_title: <#ffeb3b>көңіл-күй ережелері
+    mood_title: <#ffd470>Әдепкі көңіл-күй
+    name_click: <#a7ff99>LMB <#cccccc>- Өзгерту
+    name_lore: '<#a8a8a8>ағымдағы:'
+    name_prompt: '<#ffd470>NPC атын енгізіңіз (мысалы,<#d0a775>Gustav):'
+    name_title: <#ffd470>NPC дисплей атауы
+    offset_click:
+    - '<#a7ff99>LMB <#cccccc>- 0,1 қосыңыз'
+    - '<#a7ff99>RMB <#cccccc>- 0,1 шегеріңіз'
+    - '<#ffe999>Shift+LMB <#cccccc>- 2,5 қосыңыз'
+    - '<#ffe999>Shift+RMB <#cccccc>- 2.5 шегеріңіз'
+    - '<#d9a752>Swap (F) <#cccccc>- дәл енгізу'
+    - '<#ed6868>Drop (Q) <#cccccc>- қалпына келтіру'
+    offset_lore:
+    - <#a8a8a8>NPC үстіндегі белгіше биіктігін конфигурациялау.
+    - '<#a8a8a8>Ағымдағы ауытқу: <#ffffff>{offset}'
+    offset_prompt: '<#ffd470>Голограмма офсеттік нөмірін енгізіңіз (мысалы, 0,6):'
+    offset_title: <#ffd470>Голограмма биіктігі (Y ығысуы)
+    select_quest_title: '&0Квест таңдау'
+    select_type_title: '&0Квест түрін таңдаңыз'
+    starts_quests_lore: <#a8a8a8>Осы NPC іске қосатын арнайы квесттер.
+    starts_quests_title: <#ffd470>арнайы квесттері (Бастаулар)
+    starts_types_lore: Бұл NPC басталатын <#a8a8a8>Quest түрлері.
+    starts_types_title: <#ffd470>квест түрлері (Бастау)
+    title_click: <#a7ff99>LMB <#cccccc>- Өзгерту
+    title_lore: '<#a8a8a8>ағымдағы:'
+    title_prompt: '<#ffd470>Мәзір тақырыбын енгізіңіз (мысалы,<#1c1c1c>{npc}- Күнделікті тапсырмалар):'
+    title_not_set: '<#ed6868>Орнатылмаған'
+    title_title: <#ffd470>Quest мәзірінің атауы
+    tp_lore: <#a8a8a8>сізді NPC-ге телепортациялайды (егер пайда болса).
+    tp_title: NPC-ге <#ffd470>телепорты
+    types_click: <#a7ff99>LMB <#cccccc>- Түрлер тізімін өңдеу
+    types_lore:
+    - Бұл NPC басталатын <#a8a8a8>Quest түрлері.
+    - '<#a8a8a8>түрлері: <#ffffff>{types}'
+    types_more: '<#6e6e6e>(+{count} көбірек)'
+    types_none: Жоқ
+    types_title: <#ffd470>NPC тапсырмалары (түрлері)
+    validation_lore: '&7Қателерді тексеру үшін басыңыз'
+    validation_title: <#52de7d>растау NPC
+    voice_click: <#a7ff99>LMB <#cccccc>- Өзгерту
+    voice_lore: '<#a8a8a8>Ағымы: <#ffffff>{voice}'
+    voice_prompt: '<#ffd470>Дыбыс түрін енгізіңіз (ауылдық, жоқ немесе реттелетін дыбыс):'
+    voice_title: <#ffd470>өзара әрекеттесу дыбысы (дауыс)
+  npc_voice:
+    custom_lore: <#a8a8a8>Minecraft дыбыс идентификаторын қолмен енгізіңіз.
+    custom_prompt: '<#ffd470>Дыбыс идентификаторын енгізіңіз (мысалы, entity.villager.trade):'
+    custom_title: <#ffd470>реттелетін дыбыс
+    delete_right_click_warn: <#ed6868>Drop (Q) <#cccccc>- Жою
+    dialogue_gui_title: '&0NPC үшін диалогты таңдаңыз'
+    dialogue_missing: Dialogues.yml файлында осы идентификаторы бар <#ed6868>диалогы жоқ!
+    dialogue_none_title: <#ed6868>ажырату диалогы (жоқ)
+    dialogue_select_click: <#a7ff99>LMB <#cccccc>- Осы диалогты байланыстырыңыз
+    id_click: <#a7ff99>LMB <#cccccc>- NPC идентификаторын өзгерту
+    id_exists: '{id} идентификаторы бар <#ed6868>NPC бұрыннан бар!'
+    id_lore: '<#a8a8a8>ағымдағы идентификаторы: <#ffffff>{id}'
+    id_prompt: '<#ffd470>Жаңа NPC идентификаторын енгізіңіз (мысалы, tavern_keeper):'
+    id_success: '{prefix}<#78b185>✔<#ffffff>NPC идентификаторы <#ffffff>{id} болып сәтті өзгертілді'
+    id_title: <#ffd470>ID NPC
+    node_id_title: '<#ffd470>түйінінің идентификаторы'
+    save_error: '{prefix}<#c96a6a>✖<#ffffff>npcs.yml файлын сақтау қатесі: {msg}'
+    save_lore:
+    - <#ffd470>Сақталмаған өзгертулер бар! Сақтау үшін басыңыз.
+    - <#a8a8a8>Сақталмаған өзгерістер жоқ.
+    select_click: <#a7ff99>LMB <#cccccc>- осы дауысты таңдаңыз
+    selected: Таңдалған
+    title: '&0NPC дауысын таңдаңыз'
+    types_gui_title: '&0NPC түрлері:'
+    warn_unlinked: Диалог дайын, бірақ оны мәзірдегі NPC-ге байланыстырыңыз!
+  preview:
+    title: '&0алдын ала қарау'
+  prompts:
+    enter_id: '<#ffd470>Жаңа квест идентификаторын енгізіңіз (мысалы, my_quest):'
+    enter_name: '<#ffd470>Квест үшін жаңа атау енгізіңіз:'
+    enter_perm: '<#ffd470>Рұқсат енгізіңіз (немесе жоқ):'
+    id_exists: '{id} идентификаторы бар квест бұрыннан бар!'
+    saved_success: '{prefix}<#78b185>✔<#ffffff>{id} квестіне жасалған өзгерістер файлға сәтті сақталды!'
+  rewards_menu:
+    add_item: <#79d679>Элементті қосу
+    add_item_lore: <#cccccc>Сыйлық элементін таңдау үшін басыңыз.
+    attr_click: <#a7ff99>LMB <#cccccc>- Атрибуттарды өңдеу бөлімі
+    attr_gui_title: '&0атрибуттар тізімі'
+    attr_lore:
+    - <#cccccc>атрибуттары параметрлері
+    attr_title: <#f4a261>атрибуттары
+    attrs_gui: '&0атрибуттар тізімі'
+    brd_click: <#a7ff99>LMB <#cccccc>- Таратылымдарды өңдеу
+    brd_gui: '&0хабарлары'
+    brd_lore: '<#cccccc>Таратылымдар саны: <#ffffff>{count}'
+    brd_title: <#99ffff>хабарлары
+    chance_click: <#a7ff99>LMB <#cccccc>- Мүмкіндік бөлімін өңдеу
+    chance_gui_title: 'Мүмкіндікпен &0марапаттары'
+    chance_lore:
+    - <#cccccc>сыйақы ықтималдығының параметрлері
+    chance_title: <#ffaaaa>мүмкіндігі
+    click_del: <#ed6868>Drop (Q) <#cccccc>- Жою
+    click_set: <#a7ff99>LMB <#cccccc>- Мәнді орнату
+    cmd_click: <#a7ff99>LMB <#cccccc>- пәрмендерді өңдеу
+    cmd_gui: '&0марапаттау командалары'
+    cmd_lore: '<#cccccc>Пәрмендер саны: <#ffffff>{count}'
+    cmd_title: <#ff9999>пәрмендері
+    confirm_del_desc: '&fБұл мәнді жойғыңыз келетініне сенімдісіз бе?'
+    confirm_del_title: ✖ Жоюды растаңыз
+    eff_click: <#a7ff99>LMB <#cccccc>- әсерлерді өңдеу
+    eff_gui: '&0марапат эффектілері'
+    eff_lore: '<#cccccc>әсерлерінің саны: <#ffffff>{count}'
+    eff_title: <#ff99ff>әсерлері
+    effs_title: <#b19cd9>әсерлері
+    hand_added: 'Қосылған элемент: {name} x {amount}'
+    hand_btn_lore: <#a8a8a8>Қолыңызға бір затты алып, осы жерді басыңыз,
+    hand_btn_lore2: Оны барлық NBT тегтерімен сақтау үшін <#a8a8a8>.
+    hand_btn_title: <#79d679>Қолдан элемент қосыңыз
+    hand_empty: Сіздің қолыңыз бос! Қолыңызға бір зат алыңыз.
+    items_click: <#a7ff99>LMB <#cccccc>- Тізімді өңдеу
+    items_gui: '&0сыйақы элементтері'
+    items_lore: '<#cccccc>Элементтер саны: <#ffffff>{count}'
+    items_title: <#99ccff>элементтері
+    money_title: <#e9c46a>ақшасы
+    money_title_has: <#ffd470>ақшасы (экономика)
+    money_title_none: <#a8a8a8>Money (Экономика) [Жоқ]
+    msg_click: <#a7ff99>LMB <#cccccc>- Хабарламаларды өңдеу
+    msg_gui: '&0марапаттау хабарламалары'
+    msg_lore: '<#cccccc>Хабарламалар саны: <#ffffff>{count}'
+    msg_title: <#ffff99>жеке хабарлары
+    prompt_custom_key: '<#ffe999>Теңшелетін сыйлық кілтін енгізіңіз:'
+    prompt_custom_val: '<#a8a8a8><#ffffff>{key}<#ffe999>кілтінің мәнін енгізіңіз:'
+    prompt_money: '<#ffe999>Ақша сомасын енгізіңіз (қойма):'
+    prompt_xp: '<#ffe999>Тәжірибе көлемін енгізіңіз:'
+    selector_cmd_lore: <#a7ff99>LMB <#cccccc>- пәрмендер тізімін жасау/өңдеу
+    selector_cmd_title: <#ffe999>пәрмендері (пәрмендері)
+    selector_custom_lore: <#a7ff99>LMB <#cccccc>- пайдаланушы кілтін қолмен енгізіңіз
+    selector_custom_title: <#ffe999>пайдаланушы кілті (арнаулы)
+    selector_items_lore: <#a7ff99>LMB <#cccccc>- Элементтер тізімін жасау/өңдеу
+    selector_items_title: <#ffe999>элементтері (элементтер)
+    selector_money_lore: <#a7ff99>LMB <#cccccc>- қойма сомасын қосыңыз
+    selector_money_title: <#ffe999>ақша (ақша)
+    selector_title: '&0Сыйақы түрін таңдаңыз'
+    selector_xp_lore: <#a7ff99>LMB <#cccccc>- тәжірибе көлемін қосыңыз
+    selector_xp_title: <#ffe999>тәжірибесі (xp)
+    silent_click: <#a7ff99>LMB <#cccccc>- ауысу режимі
+    silent_click_lmb: <#a7ff99>LMB <#cccccc>- ауыстырып қосқыш
+    silent_click_sub: <#a7ff99>LMB <#cccccc>- Параметрлерді ашыңыз
+    silent_lore: '<#cccccc>Қай сыйақы үшін конфигурациялаңыз <#cccccc>чат хабарлары өшіріледі.'
+    silent_mute: '&cтінтуір дөңгелегі - хабарларды өшіру'
+    silent_off: <#cccccc>өшірілген (Хабарлар көрсетіледі)
+    silent_on: <#a7ff99>қосылған (сыйлық хабарлары жасырылған)
+    silent_title: <#ffaaaa>хабарлама параметрлері
+    silent_unmute: '&aтінтуір дөңгелегі - хабарларды қосу'
+    val_has: '<#cccccc>Ағымдағы мән: <#ffffff>{val}'
+    val_none: <#888888>Сыйақы жоқ.
+    xp_title_has: <#a7ff99>тәжірибесі (XP)
+    xp_title_none: <#a8a8a8>тәжірибесі (XP) [Жоқ]
+    xp_toggle_mode: <#d9a752>Ctrl + Drop (Q) <#cccccc>- Режимді өзгерту (XP/Деңгейлер)
+  rot_pool_gui:
+    custom_pool_lore: <#a8a8a8>Чатта теңшелетін пул атауын енгізу үшін басыңыз.
+    custom_pool_title: <#79d679>Теңшелетін пулды енгізіңіз
+    pool_click: <#a7ff99>LMB <#cccccc>- осы пулды таңдаңыз
+    pool_item: '<#ffd470>пулы: <#ffffff>{pool}'
+    pool_lore: 'Пулдағы <#a8a8a8>тапсырмалары: <#ffffff>{count}'
+    title: '&0квест пулын таңдау'
+  silent_settings:
+    global_title: <#ffaaaa>жаһандық үнсіз режимі
+    title: Үнсіз режим |{id}
+  stages_menu:
+    add_mats_title: <#79d679>Материалдық кезеңді қосыңыз
+    add_obj_click_lkm: <#a7ff99>LMB <#cccccc>- тұрақты мақсат қосыңыз
+    add_obj_click_pkm: <#a7ff99>RMB <#cccccc>- Элементті жеткізу кезеңін қосыңыз
+    add_obj_lore:
+    - <#cccccc>Квестке жаңа кезең қосады.
+    add_obj_title: <#79d679>қосу кезеңі
+    click_open: <#a7ff99>LMB <#cccccc>- Ашық
+    delete_confirm_msg: '{key} кезеңін шынымен жойғыңыз келе ме?'
+    delete_confirm_title: '&0Жою кезеңі'
+    edit_stage_title: '&0Өңдеу кезеңі: {key}'
+    empty_lore:
+    - <#a8a8a8>Оң жақтағы жасыл блокты басыңыз
+    - <#a8a8a8>бірінші кезеңіңізді қосыңыз.
+    empty_title: <#ed6868>кезеңдері тізімі бос
+    err_save: Квест файлын сақтау қатесі!
+    global_1stage_limit: <#cccccc>жаһандық квестінде тек 1 кезең болуы мүмкін!
+    info_amount: '&7сомасы: <#ffffff>{amount}'
+    info_materials_count: '&7элементтері: <#ffffff>&e {count}'
+    info_npc: '&7NPC: <#ffffff>{npc}'
+    info_targets: '&7мақсаттары: <#ffffff>{targets}'
+    info_type: '&7түрі: <#ffffff>{type}'
+    info_type_materials: '&7түрі: <#ffffff>Элементін жеткізу'
+    info_type_unknown: '&7түрі: &8орнатылмаған'
+    mats_title: '&0материалдары: {key}'
+    obj_time_format: '<#a8a8a8>уақыты: <#ffffff>{time}'
+    obj_title: '&0Мақсаты: {key}'
+    stage_click_delete: <#ed6868>Drop (Q) <#cccccc>- Жою
+    stage_click_down: <#ffe999>Shift + RMB <#cccccc>- төмен жылжытыңыз ⬇
+    stage_click_duplicate: <#d9a752>Swap (F) <#cccccc>- Қайталанатын кезең
+    stage_click_edit: <#a7ff99>LMB <#cccccc>- Өңдеу
+    stage_click_up: <#ffe999>Shift + LMB <#cccccc>- Жоғары жылжыту ⬆
+    stage_duplicated: '{key} кезеңі сәтті көшірілді!'
+    stage_item: '<#a8a8a8>кезеңі: <#e0e0e0>{key}'
+  title_global_settings: '&0қозғалтқышының параметрлері: {id}'
+  title_list: '&0тапсырмалар тізімі ({count})'
+  title_main: '&0Quest редакторы: {id}'
+  title_materials: '&0Қажетті материалдар'
+  title_objective: '&0Мақсаты: {id}'
+  title_rewards: '&0сыйақылары: {id}'
+  title_stages: '&0квест кезеңдері: {id}'
+quest_type_editor:
+  clone_prompt: Көшіру түрі үшін идентификаторды енгізіңіз (бос орынсыз)
+  confirm_del_desc: '{id} түрін шынымен жойғыңыз келе ме?'
+  confirm_del_gui_title: '&0Жою түрі: {id}'
+  confirm_del_title: ✖ Түрді жою
+  entity_list:
+    add_new_lore: <#a7ff99>LMB <#cccccc>- жаңа нысанды қосыңыз
+    click_del: <#ed6868>Drop (Q) <#cccccc>- нысанды жою
+    click_edit: <#a7ff99>LMB <#cccccc>- нысанды өзгерту
+  entity_selector:
+    click: <#a7ff99>LMB <#cccccc>- нысанды таңдау
+    title: '&0Топты/нысанды таңдаңыз'
+  error_clone: '{prefix}<#c96a6a>✖<#ffffff>Клондау түрі қатесі.'
+  error_clone_exists: '{prefix}<#c96a6a>✖<#ffffff>қатесі: осы идентификатормен теру бұрыннан бар!'
+  error_create: '{prefix}<#c96a6a>✖<#ffffff>Файлды жасау қатесі!'
+  error_save: '{prefix}<#c96a6a>✖<#ffffff>Файл түрін сақтау қатесі:'
+  global_settings:
+    error_not_number: Нөмірді енгізіңіз!
+    limit_click: <#79d679>Өзгерту үшін басыңыз
+    limit_lore:
+    - '<#a8a8a8>кілті: <#ffffff>жеке шегі'
+    - '<#a8a8a8>Ағымы: <#ffffff>{val}'
+    limit_prompt: '<#ffd470>Жеке шектеу үшін жаңа мәнді енгізіңіз:'
+    limit_title: <#ffd470>жеке шегі
+    max_p_click: <#79d679>Өзгерту үшін басыңыз
+    max_p_lore:
+    - '<#a8a8a8>кілті: <#ffffff>максималды қатысушылары'
+    - '<#a8a8a8>Ағымы: <#ffffff>{val}'
+    max_p_prompt: '<#ffd470>Ең көп қатысушылар үшін жаңа мән енгізіңіз:'
+    max_p_title: <#ffd470>максималды қатысушылары
+    min_p_click: <#79d679>Өзгерту үшін басыңыз
+    min_p_lore:
+    - '<#a8a8a8>кілті: <#ffffff>мин қатысушылары'
+    - '<#a8a8a8>Ағымы: <#ffffff>{val}'
+    min_p_prompt: '<#ffd470>Ең аз қатысушылар үшін жаңа мәнді енгізіңіз:'
+    min_p_title: <#ffd470>минималды қатысушылары
+    step_click: <#a7ff99>LMB <#cccccc>- Өзгерту
+    step_lore:
+    - '<#a8a8a8>кілті: <#ffffff>марапаттау қадамы'
+    - '<#a8a8a8>мәні: <#ffffff>{val}'
+    step_prompt: '<#ffd470>Марапаттау қадамы үшін жаңа нөмірді енгізіңіз:'
+    step_title: <#ffd470>марапаттау қадамы
+    title: '<#a8a8a8>қозғалтқышының параметрлері: <#ffffff>{id}'
+  health_check:
+    desc_has_errors: <#a8a8a8>конфигурациясында қателер табылды!
+    desc_no_errors: <#a8a8a8>Қателер табылмады!
+    err_no_name: Көрсетілетін түр атауы орнатылмаған
+    err_no_pools: Айналу үшін квест пулдары жасалмаған
+    err_no_rotation_period: Айналу үшін көрсетілген нөлдік интервал
+    success: '{prefix}<#78b185>✔<#ffffff>түрі сәтті конфигурацияланды!'
+    title: '<#b0b8c1>===<#6aa0c9>Түр күйі: <#e2e8f0>{id}<#b0b8c1>==='
+    title_warning: <#ed6868>мәселелері табылды ({count})
+  id_exists: Бұл идентификаторы бар квест түрі бұрыннан бар!
+  list:
+    clone_prompt: '<#ffd470>Көшірілген квест үшін идентификаторды енгізіңіз:'
+    confirm_del_desc: '{id} квестін шынымен жойғыңыз келе ме?'
+    confirm_del_title: ✖ Квестті жою
+    error_clone: '{prefix}<#c96a6a>✖<#ffffff>Клондау қатесі!'
+    error_clone_exists: '{prefix}<#c96a6a>✖ Бұл идентификаторы бар <#ffffff>квесті бұрыннан бар!'
+    error_create: '{prefix}<#c96a6a>✖<#ffffff>Квест жасау қатесі.'
+    filter_lore_next: <#a7ff99>LMB <#cccccc>- Келесі режим
+    filter_lore_prev: <#a7ff99>RMB <#cccccc>- Алдыңғы режим
+    filter_lore_title: '<#a8a8a8>сұрыптау режимдері:'
+    filter_title: <#ffd470>сүзгісі / сұрыптау
+    item_clone: <#d9a752>Swap (F) <#cccccc>- Клондық квест
+    item_delete: <#ed6868>Drop (Q) <#cccccc>- Квестті жою
+    item_edit: <#a7ff99>LMB <#cccccc>- Квестті өңдеу
+    item_engine: '<#a8a8a8>қозғалтқышы: <#7dd3ff>{engine}'
+    item_type: '<#a8a8a8>түрі: <#ffffff>{type}'
+    mode_cre_new: Жасалған (ең жаңасы бірінші)
+    mode_cre_old: Жасалған (ең ескісі бірінші)
+    mode_engine_chain: 'Сүзгі: CHAIN ​​қозғалтқышы'
+    mode_engine_default: 'Сүзгі: Әдепкі қозғалтқыш'
+    mode_engine_global: 'Сүзгі: GLOBAL қозғалтқышы'
+    mode_engine_rotation: 'Сүзгі: ROTATION қозғалтқышы'
+    mode_id_asc: ID бойынша (A-Z)
+    mode_id_desc: ID бойынша (Z-A)
+    mode_issue: 'Сүзгі: назар аудару керек'
+    mode_mod_new: Өзгертілген (ең жаңасы бірінші)
+    mode_mod_old: Өзгертілген (ең ескісі бірінші)
+    mode_type: Квест түрі бойынша
+    msg_clone_success: '{prefix}<#78b185>✔<#ffffff>Quest <#ffffff>{id} ретінде сәтті клондалады'
+    msg_del_success: '{prefix}<#78b185>✔<#ffffff>Quest {id}<#79d679>сәтті жойылды!'
+    search_all: '<#a8a8a8>Іздеу: <#ffffff>Барлығы'
+    search_click: <#a7ff99>LMB <#cccccc>- Іздеу (немесе тазалау)
+    search_prompt: '<#ffd470>Квесттерді іздеу үшін мәтінді енгізіңіз (немесе өшіріңіз):'
+    search_query: '<#a8a8a8>Іздеу: <#ffffff>{query}'
+  list_string_editor:
+    add_lore: <#a7ff99>LMB <#cccccc>- мәтінді енгізіңіз.
+    add_lore_empty: <#a7ff99>RMB <#cccccc>- бос жолды жасаңыз
+    delete_confirm_item: Жолды жою
+    delete_confirm_msg: '<#ffd470>#{index} жолын шынымен жойғыңыз келе ме?'
+    delete_confirm_title: '&0Жолды жою'
+    item_clone: <#d9a752>Swap (F) <#cccccc>- Жолды клондау
+    item_delete: <#ed6868>Drop (Q) <#cccccc>- жолды жою
+    item_edit: <#a7ff99>LMB <#cccccc>- жолды өңдеу
+    item_format: '<#ffffff>жолы #{index}'
+    item_move_down: <#ffe999>Shift+RMB <#cccccc>- төмен жылжытыңыз
+    item_move_up: <#ffe999>Shift+LMB <#cccccc>- жоғары жылжытыңыз
+    prompt_add: '<#ffd470>Жаңа жол үшін мәтінді енгізіңіз:'
+    prompt_edit: 'Өңдеу жолы:'
+  main_menu:
+    add_lore_empty: <#a7ff99>RMB <#cccccc>- бос жолды жасаңыз
+    back: <#ed6868>Кері оралу
+    btn_check_lore: <#cccccc>Чатта егжей-тегжейлі конфигурация талдауын іске қосады.
+    btn_check_title: <#ffe999>Қателерді тексеріңіз
+    btn_preview_lore: <#cccccc>Ойыншылар көргендей квест көрсетеді.
+    btn_preview_title: <#7dd3ff>алдын ала қарау
+    btn_save_changes: '<#ffd470>(* Өзгерістер)'
+    btn_save_lore_unsaved: <#ffd470>LMB <#cccccc>- өзгертулерді сақтау
+    btn_save_lore_saved: <#ffe999>Сақталмаған өзгертулер жоқ
+    btn_save_title: <#55ff55>Файлды сақтау
+    chain_click: <#a7ff99>LMB <#cccccc>- ауыстырып қосқыш
+    chain_lore: '<#a8a8a8>күйі: {chain}'
+    chain_title: <#ffd470>Келесі автоматты түрде беру
+    cmd_click:
+    - <#a7ff99>LMB (+1) / RMB (-1) <#cccccc>- Өзгерту
+    - <#ffe999>Shift+LMB (+10) / Shift+RMB (-10)
+    - <#d9a752>Swap (F) <#cccccc>- нөмірді енгізіңіз
+    - <#ed6868>Drop (Q) <#cccccc>- Таза (0)
+    cmd_lore:
+    - <#a8a8a8>Теңшелетін элемент текстуралары үшін.
+    - '<#a8a8a8>Ағымдағы мән: <#ffffff>{cmd}'
+    cmd_prompt: '<#ffd470>Пайдаланушы үлгі деректерінің нөмірін енгізіңіз (немесе 0):'
+    cmd_title: <#ffd470>үлгісі (арнайы үлгі деректері)
+    cooldown_click:
+    - <#a7ff99>LMB <#cccccc>- Орнату
+    - <#ed6868>Drop (Q) <#cccccc>- Таза
+    - <#ffe999>Shift + LMB <#cccccc>- Өңдеу
+    cooldown_lore: '<#a8a8a8>уақыты: <#ffffff>{time}'
+    cooldown_none: <#a8a8a8>Жоқ
+    cooldown_title: <#ffd470>салқындату
+    desc_click: <#a7ff99>LMB <#cccccc>- Өңдеу
+    desc_gui_title: 'Сипаттама:'
+    desc_title: <#ffd470>Quest сипаттамасы
+    engine_click: <#a7ff99>LMB <#cccccc>- қозғалтқышты өзгерту
+    engine_lore: '<#a8a8a8>таңдалды: <#ffffff>{engine}'
+    engine_title: <#ffd470>Quest типті қозғалтқыш
+    folder_click: <#a7ff99>LMB <#cccccc>- жолды өзгерту
+    folder_lore: '<#a8a8a8>жолы: <#ffffff>{folder}'
+    folder_title: Квесттерге арналған <#ffd470>қалтасы
+    global_click: <#a7ff99>LMB <#cccccc>- Ашық
+    global_lore:
+    - <#a8a8a8>Барлық ойыншылар бірге орындаған тапсырмалар үшін.
+    - <#a8a8a8>шектеулері мен марапат қадамдарының параметрлері.
+    global_title: <#ffd470>жаһандық сервер мақсаттары
+    gui_title: 'Өңдеу:'
+    icon_basehead_click: <#d9a752>Swap (F) <#cccccc>- Негізгі-басты өзгерту
+    icon_click: <#a7ff99>LMB <#cccccc>- белгішені өзгерту
+    icon_lore: '<#a8a8a8>таңдалды: <#ffffff>{icon}'
+    icon_title: <#ffd470>белгішесі (материал)
+    id_click: <#a7ff99>LMB <#cccccc>- ID өзгерту
+    id_error_exists: '{prefix}<#c96a6a>✖{id} идентификаторы бар <#ffffff>квесті бұрыннан бар!'
+    id_error_invalid: '{prefix}<#c96a6a>✖<#ffffff>ID пішімі жарамсыз!'
+    id_lore: '<#a8a8a8>ағымдағы идентификаторы: <#ffffff>{id}'
+    id_prompt: '<#ffd470>Жаңа квест түрінің идентификаторын енгізіңіз (мысалы, менің_түрім):'
+    id_title: <#ffd470>Quest түрінің идентификаторы
+    node_id_title: '<#ffd470>түйінінің идентификаторы'
+    item_clone: <#d9a752>Swap (F) <#cccccc>- Жолды клондау
+    item_move_down: <#ffe999>Shift+RMB <#cccccc>- төмен жылжытыңыз
+    item_move_up: <#ffe999>Shift+LMB <#cccccc>- жоғары жылжытыңыз
+    lore_click: <#a7ff99>LMB <#cccccc>- Сипаттаманы өңдеу
+    lore_title: <#ffd470>Quest түрінің сипаттамасы
+    name_click: <#a7ff99>LMB <#cccccc>- Өзгерту
+    name_lore: '<#a8a8a8>Ағымы: <#ffffff>{name}'
+    name_prompt: '<#ffd470>Чатта квест атауын енгізіңіз:'
+    name_title: <#ffd470>Quest түрінің атауы
+    name_title_has: <#ffd470>Quest атауы
+    name_title_none: <#ed6868>Квест атауы жоқ!
+    page_lore: '<#a8a8a8>Ағымдағы бет: <#ffffff>{page}'
+    page_prompt: '<#ffd470>Бетті енгізіңіз (бет, 1-ден):'
+    page_title: <#ffd470>беті
+    perm_click: <#a7ff99>LMB <#cccccc>- Өзгерту
+    perm_lore: '<#a8a8a8>рұқсаты: <#ffffff>{perm}'
+    perm_prompt: '<#ffd470>Рұқсат енгізіңіз (немесе жоқ):'
+    perm_title: <#ffd470>Қажетті рұқсат
+    req_quests_add: <#79d679>Квест қосу
+    req_quests_add_lore: <#a7ff99>LMB <#cccccc>- тізімнен тапсырманы таңдаңыз.
+    req_quests_click: <#a7ff99>LMB <#cccccc>- Өңдеу
+    req_quests_del: <#ed6868>Drop (Q) <#cccccc>- Квестті жою
+    req_quests_edit: <#a7ff99>LMB <#cccccc>- басқа квестпен ауыстырыңыз
+    req_quests_gui_title: 'Сұраныс квесттер:'
+    req_quests_lore: Бұған дейін орындалуы керек <#a8a8a8>тапсырмалары.
+    req_quests_title: <#ffd470>талаптары (алдыңғы квесттер)
+    req_quests_unknown: <#ffffff>Белгісіз квест ({id})
+    rew_desc_click: <#a7ff99>LMB <#cccccc>- Өңдеу
+    rew_desc_gui_title: 'Сыйлықтар сипаттамасы:'
+    rew_desc_title: <#ffd470>Rewards сипаттамасы
+    rewards_lore: <#a7ff99>LMB <#cccccc>- Сыйақыларды конфигурациялаңыз
+    rewards_title: <#ffd470>Quest марапаттары
+    rot_pool_click: <#a7ff99>LMB <#cccccc>- Өзгерту
+    rot_pool_lore:
+    - <#a8a8a8>Квест осы топтан кездейсоқ таңдалады.
+    rot_pool_lore3: '<#a8a8a8>Ағымы: <#ffffff>{pool}'
+    rot_pool_lore3_none: <#ed6868>пулы көрсетілмеген. Квест айналымда болмайды.
+    rot_pool_prompt: '<#ffd470>Пул атын енгізіңіз (немесе жоқ):'
+    rot_pool_title: <#ffd470>айналу пулы
+    rotation_click:
+    - <#a7ff99>LMB <#cccccc>- аралық өзгерту
+    - <#a7ff99>RMB <#cccccc>- Уақытты өзгерту
+    - <#ffe999>Shift + LMB <#cccccc>- Қалпына келтіру
+    rotation_click_new: <#a7ff99>LMB <#cccccc>- Параметрлерді ашыңыз
+    rotation_lore:
+    - '<#a8a8a8>аралығы: <#ffffff>{interval}'
+    - '<#a8a8a8>Қалпына келтіру уақыты: <#ffffff>{time}'
+    - '<#a8a8a8>пулдары: <#ffffff>{pool}'
+    rotation_title: <#ffd470>айналуы
+    save_error: '{prefix}<#c96a6a>✖<#ffffff>Файлды сақтау қатесі!'
+    save_success: '{prefix}<#78b185>✔<#ffffff>Quest файлы <#e2e8f0>{id}<#b0b8c1>сәтті сақталды!'
+    slot_click:
+    - <#a7ff99>LMB (+1) / RMB (-1)
+    - <#ffe999>Shift + LMB (+10) /<#ffe999>Shift + RMB (-10)
+    - <#d9a752>Swap (F) <#cccccc>- қолмен енгізу
+    slot_lore: '<#a8a8a8>Ағымдағы ұя: <#ffffff>{slot}'
+    slot_prompt: '<#ffd470>Слотты енгізіңіз (слот, 0-54):'
+    slot_title: <#ffd470>ұясы
+    stages_click: <#a7ff99>LMB <#cccccc>- кезеңдерді басқару
+    stages_lore: '<#a8a8a8>Кезеңдер саны: <#ffffff>{count}'
+    stages_title_has: <#ffd470>кезеңдері (мақсаттары)
+    stages_title_none: <#ed6868>Квест кезеңдері жоқ!
+    status_click: <#a7ff99>LMB <#cccccc>- Күйді өзгерту
+    status_desc: <#a8a8a8>Бұл квест түрін қосады немесе өшіреді
+    status_disabled: <#ed6868>өшірілген
+    status_enabled: <#79d679>қосылған
+    status_lore: '<#a8a8a8>күйі: {status}'
+    status_title: <#ffd470>түрінің күйі
+    type_click: <#a7ff99>LMB <#cccccc>- Түрді өзгерту
+    type_lore_engine: '<#a8a8a8>қозғалтқышы: <#ffffff>{engine}'
+    type_lore_type: '<#a8a8a8>түрі: <#ffffff>{type}'
+    type_title: <#ffd470>Quest қозғалтқышы және түрі
+  material_list:
+    add_new_lore: <#a7ff99>LMB <#cccccc>- жаңа элемент қосыңыз
+    click_del: <#ed6868>Drop (Q) <#cccccc>- Элементті жою
+    click_edit: <#a7ff99>LMB <#cccccc>- Элементті өңдеу
+  material_selector:
+    error_invalid: <#ed6868>Жарамсыз материал!
+    hand: <#ffd470>Қолдан алыңыз
+    hand_error: Сіздің қолыңызда ештеңе жоқ!
+    hand_lore: <#a7ff99>LMB <#cccccc>- Қолдан алынған элементті пайдаланыңыз
+    input_chat: <#ffd470>Чатқа қолмен енгізіңіз
+    input_chat_lore: <#a7ff99>LMB <#cccccc>- Материалдық кодты жазыңыз
+    input_chat_prompt: '<#ffd470>Материалды енгізіңіз (мысалы, DIAMOND_SWORD):'
+    item_click: <#a7ff99>LMB <#cccccc>- осы элементті таңдаңыз
+    search: <#ffd470>Материалды іздеу
+    search_prompt: '<#ffd470>Іздеу үшін мәтінді енгізіңіз (немесе өшіріңіз):'
+    title: '&0Материалды/блокты таңдаңыз'
+  msg_clone_success: '{prefix}<#78b185>✔<#ffffff>түрі <#ffffff>{id} ретінде сәтті клондалады'
+  msg_del_success: '{prefix}<#78b185>✔<#ffffff><#ffffff>{id}<#b0b8c1>түрі сәтті жойылды.'
+  objective_menu:
+    del_confirm_msg: Сіз шынымен объективті {key} жоюды қалайсыз ба?
+    del_confirm_title: Мақсатты жою керек пе?
+    gui_ent_list: '&0нысандары: {key}'
+    gui_mats_list: '&0элементтері: {key}'
+    gui_req_mats: '&0Қажетті элементтер'
+    gui_str_list: '&0тізімі {key}'
+    obj_title: '<#a8a8a8>Мақсаты: {color}{key}'
+    prompt_key: '<#a8a8a8><#ffffff>{key}<#ffd470>мәнін енгізіңіз:'
+    prompt_str_key: '<#a8a8a8><#ffffff>{key}<#ffd470>үшін жол мәнін енгізіңіз:'
+    prop_click_del: <#ed6868>Drop (Q) <#cccccc>- Жою
+    prop_click_edit: <#a7ff99>LMB <#cccccc>- Мәнді өңдеу
+    prop_format: '<#a8a8a8>{key}: <#e0e0e0>{value}'
+    prop_num_click:
+    - <#a7ff99>LMB (+1) / RMB (-1) <#cccccc>- Мәнді өзгерту
+    - <#ffe999>Shift + LMB (+10) /<#ffe999>Shift + RMB (-10)
+    - <#d9a752>Swap (F) <#cccccc>- қолмен енгізу
+    prop_str_click: <#a7ff99>LMB <#cccccc>- жолды енгізіңіз
+    prop_str_list_click: <#a7ff99>LMB <#cccccc>- Тізімді өңдеу
+    prop_title_mandatory: <#ed6868>{key}
+    prop_title_set: <#e0e0e0>{key}
+    prop_title_unset: <#a8a8a8>{key}
+    prop_true_false: <#a7ff99>LMB <#cccccc>- қосқыш (шын/жалған)
+    prop_type_click: <#a7ff99>LMB <#cccccc>- Түрді таңдаңыз
+    props:
+      amount: <#ffd470>Қажетті сома
+      biome: <#ffd470>биомасы
+      command: <#ffd470>пәрмені
+      dimension: <#ffd470>өлшемі
+      distance: <#ffd470>қашықтығы
+      entity: <#ffd470>нысаны
+      item: <#ffd470>элементі
+      material: <#ffd470>элементі
+      message: <#ffd470>хабарламасы
+      min-distance: <#ffd470>Мин. қашықтық
+      notify-interval: <#ffd470>Хабарландыру аралығы
+      npc: <#ffd470>NPC
+      npc-id: <#ffd470>NPC
+      radius: <#ffd470>радиусы
+      region: <#ffd470>аймағы
+      required-materials: <#ffd470>Қажетті элементтер
+      target-entities: <#ffd470>Мақсатты нысандар
+      target-entity: <#ffd470>нысаны
+      target-material: <#ffd470>элементі
+      target-materials: <#ffd470>Мақсатты элементтері
+      type: <#ffd470>Мақсат түрі
+      weapon: <#ffd470>қаруы
+      world: <#ffd470>әлемі
+      x: <#ffd470>X координаты
+      y: <#ffd470>Y координаты
+      z: <#ffd470>Z координаты
+    type_list: Тізім
+    type_prop: Меншік құны
+    type_section: Бөлім
+    type_value: Мән
+    val_list: '{size} элементтері'
+    val_list_mats: '{size} элементтері'
+    val_none: '[Жоқ]'
+    val_not_set: <#ed6868>мәні орнатылмаған!
+    val_section: '[Бөлім]'
+  objective_selector:
+    desc:
+      ANVIL_USE: <#cccccc>Анвильді пайдаланыңыз.
+      ASSIST_KILL: <#cccccc>Субъектіні/ойыншыны өлтіруге көмектесу.
+      BEACON_ACTIVATE: <#cccccc>Маякты іске қосыңыз.
+      BLOCK_BREAK: <#cccccc>Белгіленген блоктарды бұзу.
+      BLOCK_PLACE: <#cccccc>Көрсетілген блоктарды орналастырыңыз.
+      BOAT_TRAVEL: <#cccccc>Қайықпен саяхат.
+      BONE_MEAL_USE: <#cccccc>Сүйек ұнын пайдаланыңыз.
+      BOOK_EDIT: <#cccccc>Кітапқа мәтін жазу.
+      BREED_ANIMALS: <#cccccc>Жануарлардың тұқымы.
+      BREWING: <#cccccc>Қайнату сусындары.
+      BURN_FUEL: <#cccccc>Пеште отынды жағу.
+      CHANGE_DIMENSION: <#cccccc>Өлшемді өзгерту (мысалы, Nether параметріне өту).
+      CHAT_MESSAGE: <#cccccc>Чатта белгілі бір хабарлама жазыңыз.
+      CONDUIT_ACTIVATE: <#cccccc>Құбырды іске қосыңыз.
+      CONSUME_ITEM: <#cccccc>Бір нәрсені жеу немесе ішу.
+      CROUCH: <#cccccc>Белгілі бір рет еңкейіңіз.
+      CROUCH_DISTANCE: <#cccccc>Еңкейген кезде белгілі бір қашықтықты жүріңіз.
+      DEAL_DAMAGE: <#cccccc>Белгілі бір мөлшерде зиян келтіріңіз.
+      DROP_ITEM: <#cccccc>Белгілі бір элементті тастаңыз.
+      DYE_ITEM: <#cccccc>Элементті бояу.
+      ELYTRA_FLY: <#cccccc>Элитрамен ұшу.
+      EMPTY_BUCKET: <#cccccc>Шелекті босатыңыз.
+      ENCHANT_TABLE_USE: <#cccccc>Сиқырлы үстелді пайдаланыңыз.
+      ENTER_BED: <#cccccc>Төсек енгізіңіз.
+      ENTER_REGION: <#cccccc>Аймақты енгізіңіз (WorldGuard).
+      ENTITY_RIDE: <#cccccc>Нысанға міну.
+      EXECUTE_COMMAND: <#cccccc>Арнайы пәрменді орындаңыз.
+      EXPERIENCE_ORB_PICKUP: <#cccccc>Тәжірибе шарын алыңыз.
+      FALL_DISTANCE: <#cccccc>Белгіленген қашықтыққа құлау.
+      FILL_BUCKET: <#cccccc>Шелек толтырыңыз.
+      FILL_FUEL: <#cccccc>Отынды пешке салыңыз.
+      GIVE_ITEM_TO_NPC: <#cccccc>NPC-ге элемент беріңіз.
+      HARVEST_CROP: <#cccccc>Егін жинау.
+      HOLD_ITEM: <#cccccc>Белгілі бір элементті қолыңызда ұстаңыз.
+      INTERACT_BLOCK: <#cccccc>Блокпен әрекеттесу (RMB/LMB).
+      INTERACT_ENTITY: <#cccccc>Нысанмен әрекеттесу (RMB).
+      ITEM_BREAK: <#cccccc>Құралды/қаруды сындыру.
+      ITEM_COOK: <#cccccc>Тамақты пісіріңіз.
+      ITEM_CRAFT: <#cccccc>Craft элементтері.
+      ITEM_ENCHANT: <#cccccc>Enchant элементтері.
+      ITEM_FISH: <#cccccc>Балықты/заттарды аулаңыз.
+      ITEM_RENAME: <#cccccc>Элементтің атын өзгерту.
+      ITEM_REPAIR: <#cccccc>Анвилдегі элементті жөндеңіз.
+      ITEM_SMELT: <#cccccc>Smelt элементтері.
+      JOIN_SERVER: <#cccccc>Серверге қосылыңыз.
+      JUMP: <#cccccc>Белгілі бір рет секіріңіз.
+      KILL_ENTITY: <#cccccc>Арнайы топтарды/объектілерді өлтіріңіз.
+      LEAVE_REGION: <#cccccc>Аймақтан шығу (WorldGuard).
+      LEVEL_UP_GAIN: <#cccccc>Көрсетілген деңгейлер санын алыңыз.
+      LEVEL_UP_REACH: <#cccccc>Белгіленген тәжірибе деңгейіне жету.
+      MILK_COW: <#cccccc>Сиырды сауу.
+      MINECART_TRAVEL: <#cccccc>Минакартада саяхат.
+      NPC_INTERACT: <#cccccc>NPC-мен сөйлесіңіз (азаматтар/ZNPC).
+      OPEN_CONTAINER: <#cccccc>Контейнерді ашыңыз (сандық, т.б.).
+      PLANT_SEED: <#cccccc>Өсімдік тұқымдары.
+      PLAYER_KILL: <#cccccc>Басқа ойыншыны өлтіріңіз.
+      PLAY_TIME: <#cccccc>Ойында уақыт өткізіңіз.
+      POTION_DRINK: <#cccccc>Сусын ішіңіз.
+      POTION_SPLASH: <#cccccc>Шашыратуға арналған сусынды лақтырыңыз.
+      REACH_BIOME: <#cccccc>Белгіленген биомаға барыңыз.
+      REACH_LOCATION: <#cccccc>Көрсетілген координаттарға жету.
+      RECEIVE_DAMAGE_TYPE: <#cccccc>Белгілі бір түрдегі зақымдарды алу.
+      SHEAR_SHEEP: <#cccccc>Қой қырқу.
+      SIGN_EDIT: <#cccccc>Белгіге мәтін жазыңыз.
+      SLEEP_IN_BED: <#cccccc>Төсекте ұйықтау.
+      SPRINT_DISTANCE: <#cccccc>Белгіленген қашықтықты спринт.
+      STRIP_LOG: <#cccccc>Бөренені балтамен кесіңіз.
+      SWIM_DISTANCE: <#cccccc>Белгіленген қашықтықты жүзіңіз.
+      TAKE_DAMAGE: <#cccccc>Зақымның белгілі бір мөлшерін алыңыз.
+      TAME_ANIMAL: <#cccccc>Жануарды қолға үйрету.
+      THROW_EGG: <#cccccc>Жұмыртқаны лақтырыңыз.
+      TILL_SOIL: <#cccccc>Топырақты кетменмен өңдеңіз.
+      TRAVEL_DISTANCE: <#cccccc>Белгіленген қашықтыққа саяхат.
+      USE_ITEM: <#cccccc>Элементті (RMB) пайдаланыңыз.
+      VILLAGER_BUY_ITEM: <#cccccc>Ауыл тұрғынынан зат сатып алыңыз.
+      VILLAGER_SELL_ITEM: <#cccccc>Ауыл тұрғынына зат сатыңыз.
+      WAX_OFF: <#cccccc>Мыстан балауызды сүртіңіз.
+      WAX_ON: <#cccccc>Мысқа балауыз жағыңыз.
+      WEAR_ARMOR: <#cccccc>Арнайы қару-жарақпен жабдықтаңыз.
+    item_click: <#a7ff99>LMB <#cccccc>- осы түрді таңдаңыз
+    item_enum: '<#a8a8a8>кілті: <#ffffff>{enum}'
+    prompt_search: '<#ffd470>Мақсат түрінің атын енгізіңіз (немесе таза):'
+    title: '&0Мақсат түрін таңдаңыз'
+  pool_slots_gui:
+    slot_back_lore: <#a7ff99>RMB <#cccccc>- Артқа оралу
+    slot_free_lore: <#a7ff99>LMB <#cccccc>- осы пулға тағайындау
+    slot_free_title: <#a8a8a8>ұясы {slot}
+    slot_mine_lore: <#ff6b6b>LMB <#cccccc>- пулдан ұяшықты алып тастаңыз
+    slot_mine_title: <#a7ff99>ұясы {slot}
+    slot_taken_lore:
+    - '<#a8a8a8>Пул арқылы алынған: <#ffffff>{owner}'
+    - <#ffd470>LMB <#cccccc>- қайта анықтау ұяшығы
+    slot_taken_title: <#ff6b6b>ұясы {slot}
+    title: '&0Пул слоттары: {pool}'
+  pools_gui:
+    add_lore: <#a7ff99>LMB <#cccccc>- Жаңа пул жасау
+    add_title: <#ffd470>Пул қосу
+    item_click:
+    - <#a7ff99>LMB <#cccccc>- слоттарды өңдеу
+    item_click4: <#ff6b6b>Drop (Q) <#cccccc>- пулды жою
+    item_lore:
+    - '<#a8a8a8>сомасы: <#ffffff>{count}'
+    item_title: '<#ffd470>пулы: {pool}'
+    title: Айналмалы бассейндер
+  preview_title: 'Түр сипаттамасы:'
+  prompts:
+    cmd: '<#ffd470>Пәрменді енгізіңіз:'
+    cooldown: '<#ffd470>Суытуды енгізіңіз:'
+    folder: '<#ffd470>Квесттер қалтасына жолды енгізіңіз:'
+    name: '<#ffd470>Атын енгізіңіз:'
+    new_type_id: '<#ffd470>Жаңа түр идентификаторын енгізіңіз (мысалы,<#ffffff>апта сайынғы <#ffd470>):'
+    pool_count: '<#ffd470>Осы пулға арналған квесттер санын енгізіңіз:'
+    pool_name: '<#ffd470>Пул атын енгізіңіз (ағылшын тілінде бос орынсыз):'
+    rotation_interval: '<#ffd470>Айналу аралығын енгізіңіз:'
+    rotation_time: '<#ffd470>Айналу уақытын енгізіңіз:'
+    slot: '<#ffd470>Слотты енгізіңіз:'
+  rotation_gui:
+    anchor_click:
+    - <#a7ff99>LMB <#cccccc>- Келесі күні
+    anchor_lore:
+    - '<#a8a8a8>күні: <#ffffff>{val}'
+    anchor_title: <#ffd470>Анкерлік күні
+    interval_click:
+    - <#a7ff99>LMB <#cccccc>- 1 сағат қосыңыз
+    - <#a7ff99>RMB <#cccccc>- 1 сағатты шегеріңіз
+    - <#ffe999>Shift+LMB <#cccccc>- 1 күн қосыңыз
+    - <#ffe999>Shift+RMB <#cccccc>- 1 күнді шегеріңіз
+    - <#ffd470>Swap (F) <#cccccc>- қолмен енгізу
+    - <#ed6868>Drop (Q) <#cccccc>- Таза
+    interval_lore:
+    - '<#a8a8a8>Ағымы: <#ffffff>{val}'
+    interval_title: <#ffd470>Қалпына келтіру аралығы
+    pools_click:
+    - <#a7ff99>LMB <#cccccc>- пулдарды басқару
+    pools_lore:
+    - '<#a8a8a8>пулдары: <#ffffff>{val}'
+    pools_title: <#ffd470>Quest пулдары
+    time_click:
+    - <#a7ff99>LMB <#cccccc>- 1 сағат қосыңыз
+    - <#a7ff99>RMB <#cccccc>- 1 сағатты шегеріңіз
+    - <#ffe999>Shift+LMB <#cccccc>- 10 мин қосыңыз
+    - <#ffe999>Shift+RMB <#cccccc>- 10 мин шегеріңіз
+    - <#ffd470>Swap (F) <#cccccc>- қолмен енгізу
+    - <#ed6868>Drop (Q) <#cccccc>- Таза
+    time_lore:
+    - '<#a8a8a8>Ағымы: <#ffffff>{val}'
+    time_title: <#ffd470>Қалпына келтіру уақыты
+    title: '&0Квестінің айналуы: {id}'
+  saved_success: '{prefix}<#78b185>✔<#ffffff>{id} квест түріне өзгертулер сәтті сақталды!'
+  select_type_click: <#a7ff99>LMB <#cccccc>- осы түрді таңдаңыз
+  title_list: '&0Квест түрлерінің тізімі ({count})'
+  title_main: '&0Түрі редакторы: {id}'
+  title_selector: '&0Квест түрін таңдаңыз'
+  type_created: '{prefix}<#78b185>✔<#ffffff>Жаңа түрі сәтті жасалды: {id}'
+  type_list_click: <#a7ff99>LMB <#cccccc>- Түрді өңдеу
+  type_list_clone: <#d9a752>Swap (F) <#cccccc>- Клондау
+  type_list_delete: <#ff7070>Drop (Q) <#cccccc>- Жою
+  type_list_engine: '<#a8a8a8>қозғалтқышы: <#7dd3ff>{engine}'
+  type_list_folder: '<#a8a8a8>қалтасы: <#ffffff>{folder}'
+  type_list_quests: '<#a8a8a8>тапсырмалары: <#ffffff>{count}'

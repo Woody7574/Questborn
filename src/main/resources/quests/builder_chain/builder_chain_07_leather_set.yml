@@ -1,0 +1,53 @@
+id: builder_chain_07_leather_set
+name: <#f472b6>🎨 A Canvas for Color
+icon-material: LEATHER_CHESTPLATE
+slot: 12
+page: 1
+require-quests:
+- builder_chain_06_stone_palette
+description:
+- <#cccccc>Leather armor is like a blank canvas.
+- <#cccccc>Prepare a set for dyeing.
+- <#cccccc>Style is part of your brand.
+rewards-description:
+- <#a7ff99>+300 coins
+- <#ffe08a>+110 XP
+- <#7dd3ff>+Leather set
+objective:
+  type: ITEM_CRAFT
+  amount: 1
+  target-materials:
+  - LEATHER_CHESTPLATE
+rewards:
+  money:
+    amount: 300
+    silent: false
+  xp:
+    points: 110
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: LEATHER_HELMET
+      amount: 1
+      name: <#7dd3ff>Leather Hood
+      lore:
+      - <#cccccc>Ready for dye.
+    - material: LEATHER_CHESTPLATE
+      amount: 1
+      name: <#7dd3ff>Leather Vest
+      lore:
+      - <#cccccc>Ready for dye.
+    - material: LEATHER_LEGGINGS
+      amount: 1
+      name: <#7dd3ff>Leather Pants
+      lore:
+      - <#cccccc>Ready for dye.
+    - material: LEATHER_BOOTS
+      amount: 1
+      name: <#7dd3ff>Leather Boots
+      lore:
+      - <#cccccc>Ready for dye.
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

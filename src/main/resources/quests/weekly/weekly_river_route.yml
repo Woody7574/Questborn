@@ -1,0 +1,59 @@
+id: weekly_river_route
+name: <#60a5fa>🚤 River Route
+icon-material: OAK_BOAT
+
+rotation-pool: "rare"
+
+description:
+- <#cccccc>River supply lines need to be restored.
+- <#cccccc>Follow the route by boat and catch some fish,
+- <#cccccc>then give some to the locals.
+- ""
+- "<#93c5fd>⭐ <#cccccc>Rarity: <#bfdbfe>Rare"
+rewards-description:
+- <#a7ff99>+900 coins
+- <#ffe08a>+320 XP
+- <#7dd3ff>+Fisherman's Kit
+quest-path:
+  stage-1:
+    objective:
+      type: BOAT_TRAVEL
+      distance: 3000
+  stage-2:
+    objective:
+      type: ITEM_FISH
+      amount: 24
+      target-materials:
+      - COD
+      - SALMON
+  stage-3:
+    required-materials:
+    - COD:16
+rewards:
+  money:
+    amount: 900
+    silent: false
+  xp:
+    points: 320
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: FISHING_ROD
+      amount: 1
+      name: <#7dd3ff>Provisioner's Rod
+      lore:
+      - <#cccccc>Proven by water and time.
+      enchantments:
+      - lure:2
+      flags:
+      - HIDE_ENCHANTS
+  effects:
+    silent: false
+    list:
+    - WATER_BREATHING:0:180
+quest-effects:
+  activate: quest_activate_start
+  stage-change: quest_stage_change
+  complete: quest_complete_success
+

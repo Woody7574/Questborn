@@ -1,0 +1,41 @@
+id: builder_chain_11_garden_corner
+name: <#22c55e>🌿 A Green Corner
+icon-material: WHEAT_SEEDS
+slot: 32
+page: 1
+require-quests:
+- builder_chain_10_copper_restore
+description:
+- <#cccccc>Living details make a base cozier.
+- <#cccccc>Plant seeds or saplings near your house.
+- <#cccccc>Let it grow.
+rewards-description:
+- <#a7ff99>+380 coins
+- <#ffe08a>+140 XP
+- <#7dd3ff>+Bone meal
+objective:
+  type: PLANT_SEED
+  amount: 24
+  target-materials:
+  - WHEAT_SEEDS
+  - OAK_SAPLING
+  - SPRUCE_SAPLING
+  - BIRCH_SAPLING
+rewards:
+  money:
+    amount: 380
+    silent: false
+  xp:
+    points: 140
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: BONE_MEAL
+      amount: 24
+      name: <#7dd3ff>Growth Booster
+      lore:
+      - <#cccccc>For gardens and decor.
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

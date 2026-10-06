@@ -1,0 +1,40 @@
+id: starter_chain_09_patrol
+name: <#f87171>⚔ Outskirts Patrol
+icon-material: IRON_SWORD
+slot: 14
+page: 1
+require-quests:
+- starter_chain_08_armor_ready
+description:
+- <#cccccc>Time to prove your combat readiness.
+- <#cccccc>Clear the area of common threats.
+- <#cccccc>The settlement will be safer.
+rewards-description:
+- <#a7ff99>+520 coins
+- <#ffe08a>+200 XP
+- <#7dd3ff>+Arrows
+objective:
+  type: KILL_ENTITY
+  amount: 18
+  target-entities:
+  - ZOMBIE
+  - SKELETON
+  - SPIDER
+rewards:
+  money:
+    amount: 520
+    silent: false
+  xp:
+    points: 200
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: ARROW
+      amount: 48
+      name: <#7dd3ff>Ammo Supply
+      lore:
+      - <#cccccc>For a bow or a crossbow.
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

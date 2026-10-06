@@ -1,0 +1,30 @@
+id: daily_ninja_training
+name: <#a855f7>🥷 Ninja Training
+icon-material: BLACK_DYE
+
+rotation-pool: "common"
+
+description:
+- <#cccccc>A true ninja must master the art of stealth.
+- <#cccccc>Sneak past the guards to prove your worth.
+- <#cccccc>Sneak <#a855f7>150 blocks.
+- ""
+- "<#86efac>⭐ <#cccccc>Rarity: <#bbf7d0>Common"
+rewards-description:
+- <#a7ff99>+150 coins
+- <#ffe08a>+80 XP
+- <#7dd3ff>+2 Invisibility Potions
+objective:
+  type: CROUCH_DISTANCE
+  distance: 150
+rewards:
+  money: 150
+  xp: 80
+  items:
+    list:
+    - material: POTION
+      amount: 2
+      potion-type: INVISIBILITY
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

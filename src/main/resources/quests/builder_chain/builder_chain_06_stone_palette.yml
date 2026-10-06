@@ -1,0 +1,40 @@
+id: builder_chain_06_stone_palette
+name: <#94a3b8>🧩 Stone Palette
+icon-material: STONE_BRICKS
+slot: 21
+page: 1
+require-quests:
+- builder_chain_05_light_design
+description:
+- <#cccccc>Stone adds solidity and structure.
+- <#cccccc>Lay a foundation of stone bricks.
+- <#cccccc>Keep the masonry rhythm.
+rewards-description:
+- <#a7ff99>+380 coins
+- <#ffe08a>+140 XP
+- <#7dd3ff>+Decor blocks
+objective:
+  type: BLOCK_PLACE
+  amount: 160
+  target-materials:
+  - STONE_BRICKS
+  - COBBLESTONE
+  - ANDESITE
+rewards:
+  money:
+    amount: 380
+    silent: false
+  xp:
+    points: 140
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: STONE_BRICKS
+      amount: 64
+      name: <#7dd3ff>Decor Bricks
+      lore:
+      - <#cccccc>For arches and details.
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

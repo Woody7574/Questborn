@@ -1,0 +1,29 @@
+id: daily_calm_night
+name: <#a78bfa>🌙 Calm Night
+icon-material: RED_BED
+
+rotation-pool: "common"
+
+description:
+- <#cccccc>Even heroes need rest.
+- <#cccccc>Recover your strength to be effective tomorrow.
+- <#cccccc>Sleep <#a78bfa>one night in a bed.
+- ""
+- "<#86efac>⭐ <#cccccc>Rarity: <#bbf7d0>Common"
+rewards-description:
+- <#a7ff99>+90 coins
+- <#ffe08a>+40 XP
+- <#7dd3ff>+Night Vision (10 min)
+objective:
+  type: SLEEP_IN_BED
+  amount: 1
+rewards:
+  money: 90
+  xp: 40
+  effects:
+    list:
+    - NIGHT_VISION:0:600
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success
+

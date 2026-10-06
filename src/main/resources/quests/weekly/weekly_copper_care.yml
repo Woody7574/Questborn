@@ -1,0 +1,68 @@
+id: weekly_copper_care
+name: <#f59e0b>🧱 Copper Care
+icon-material: HONEYCOMB
+
+rotation-pool: "epic"
+
+description:
+- <#cccccc>Copper builds age quickly without maintenance.
+- <#cccccc>Wax it, then scrape it off for repairs,
+- <#cccccc>and place a few blocks to reinforce the structure.
+- ""
+- "<#f472b6>⭐ <#cccccc>Rarity: <#fbcfe8>Epic"
+rewards-description:
+- <#a7ff99>+1050 coins
+- <#ffe08a>+360 XP
+- <#7dd3ff>+Copper Master's Kit
+quest-path:
+  stage-1:
+    objective:
+      type: WAX_ON
+      amount: 32
+      target-materials:
+      - COPPER_BLOCK
+  stage-2:
+    objective:
+      type: WAX_OFF
+      amount: 32
+      target-materials:
+      - WAXED_COPPER_BLOCK
+  stage-3:
+    objective:
+      type: BLOCK_PLACE
+      amount: 32
+      target-materials:
+      - COPPER_BLOCK
+rewards:
+  money:
+    amount: 1050
+    silent: false
+  xp:
+    points: 360
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: HONEYCOMB
+      amount: 12
+      name: <#7dd3ff>Copper Wax
+      lore:
+      - <#cccccc>It'll come in handy again.
+    - material: STONE_AXE
+      amount: 1
+      name: <#7dd3ff>Restorer's Axe
+      lore:
+      - <#cccccc>For delicate work.
+      enchantments:
+      - unbreaking:2
+      flags:
+      - HIDE_ENCHANTS
+  effects:
+    silent: false
+    list:
+    - SPEED:0:150
+quest-effects:
+  activate: quest_activate_start
+  stage-change: quest_stage_change
+  complete: quest_complete_success
+

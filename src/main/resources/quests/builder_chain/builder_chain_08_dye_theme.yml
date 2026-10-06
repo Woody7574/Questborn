@@ -1,0 +1,50 @@
+id: builder_chain_08_dye_theme
+name: <#c4b5fd>🧪 Dye Palette
+icon-material: CYAN_DYE
+slot: 13
+page: 1
+require-quests:
+- builder_chain_07_leather_set
+description:
+- <#cccccc>Colors create a recognizable style.
+- <#cccccc>Dye parts of your leather armor.
+- <#cccccc>Pick your theme.
+rewards-description:
+- <#a7ff99>+420 coins
+- <#ffe08a>+150 XP
+- <#7dd3ff>+Dye kit
+objective:
+  type: DYE_ITEM
+  amount: 4
+  target-materials:
+  - LEATHER_HELMET
+  - LEATHER_CHESTPLATE
+  - LEATHER_LEGGINGS
+  - LEATHER_BOOTS
+rewards:
+  money:
+    amount: 420
+    silent: false
+  xp:
+    points: 150
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: CYAN_DYE
+      amount: 8
+      name: <#7dd3ff>Cyan Dye
+      lore:
+      - <#cccccc>For accents.
+    - material: WHITE_DYE
+      amount: 8
+      name: <#7dd3ff>White Dye
+      lore:
+      - <#cccccc>For contrast.
+  effects:
+    silent: false
+    list:
+    - SPEED:0:90
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

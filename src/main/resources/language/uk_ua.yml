@@ -1,0 +1,482 @@
+prefix: <#e9c46a><bold>Questborn</bold> <#8a8a8a>• <reset>
+hud:
+  actionbar:
+    complete-message: <#99ff9d>Квест {quest_name} <#99ff9d>виконано!
+commands:
+  no-permission: '{prefix}<#e07a5f>У вас немає прав для цієї дії.'
+  finish-global:
+    not-global: '{prefix}<#cccccc>Квест <#ffffff>{quest} <#cccccc>не є глобальним
+      квестом.'
+    not-active: '{prefix}<#cccccc>Глобальний квест <#ffffff>{quest} <#cccccc>не активований
+      або вже завершений.'
+    success: '{prefix}<#97e673>Глобальний квест <#ffffff>{quest} <#97e673>було примусово
+      завершено!'
+  reset-global:
+    not-global: '{prefix}<#cccccc>Квест <#ffffff>{quest} <#cccccc>не є глобальним
+      квестом.'
+    success: '{prefix}<#97e673>Глобальний квест <#ffffff>{quest} <#97e673>було повністю
+      скинуто. Прогрес очищено, а перезарядка у онлайн гравців анульована.'
+  npc-only: '{prefix}<#e07a5f>Ця команда недоступна для консолі.'
+  reload:
+    done: '{prefix}<#97e673>Всі конфігурації плагіну успішно перезавантажено!'
+  help:
+    header: <#7dd3ff><strikethrough>----</strikethrough><#ffffff> Довідка команд Questborn
+      <#7dd3ff><strikethrough>----</strikethrough>
+    footer: <#7dd3ff>Сторінка {page} з {total_pages} <#a3a3a3>({total_results} команд)
+    hover-no-perm: <#a7ff99>Натисніть, щоб вставити в чат
+    hover-with-perm: '<#a7ff99>Натисніть, щоб вставити в чат
+
+      <#ffcc66>Дозвіл: <#ffffff>{permission}'
+  effect:
+    list-header: <#7dd3ff><strikethrough>----</strikethrough><#ffffff> Доступні ефекти
+      <#7dd3ff><strikethrough>----</strikethrough>
+    list-footer: <#7dd3ff>Сторінка {page} з {total_pages} <#a3a3a3>({total_results}
+      ефектів)
+    no-effects: '{prefix}<#cccccc>Ефекти відсутні.'
+    not-found: '{prefix}<#e07a5f>Ефект <#ffffff>{effect}<#e07a5f> не знайдено.'
+    success-self: '{prefix}<#97e673>Ви відтворили ефект <#ffffff>{effect}<#97e673>
+      на собі.'
+    success-other: '{prefix}<#97e673>Ви відтворили ефект <#ffffff>{effect}<#97e673>
+      на гравцеві <#ffffff>{player}<#97e673>.'
+    received: '{prefix}<#97e673>На вас відтворили ефект <#ffffff>{effect}<#97e673>.'
+  npc:
+    usage-header: <#7dd3ff><strikethrough>----</strikethrough> <#ffffff>Команди NPC
+      <#7dd3ff><strikethrough>----</strikethrough>
+    help:
+      dialogue: '  <#97e673>/quest npc dialogue <#a3a3a3><npcId> <dialogueId> <#888888>-
+        Прив''язати діалог до NPC'
+      displayname: '  <#97e673>/quest npc displayname <#a3a3a3><npcId> <name> <#888888>-
+        Змінити ім''я NPC'
+      gui-title: '  <#97e673>/quest npc gui-title <#a3a3a3><npcId> <title> <#888888>-
+        Заголовок GUI NPC'
+      indicator: '  <#97e673>/quest npc indicator <#a3a3a3><npcId> <offset> <#888888>-
+        Висота індикатора'
+      info: '  <#97e673>/quest npc info <#a3a3a3>[npcId] <#cccccc>- Інформація про
+        NPC'
+      link: '  <#97e673>/quest npc link <#a3a3a3><category> <type> <id> <#888888>-
+        Прив''язати квест до NPC'
+      remove: '  <#97e673>/quest npc remove <#a3a3a3><npcId> <#cccccc>- Видалити NPC'
+      unlink: '  <#97e673>/quest npc unlink <#a3a3a3><category> <type> <id> <#888888>-
+        Відв''язати квест від NPC'
+      voice: '  <#97e673>/quest npc voice <#a3a3a3><npcId> <voice> <#cccccc>- Встановити
+        голос NPC'
+    list-header: <#7dd3ff>&m----<#ffffff> Налаштовані NPC <#7dd3ff>&m----
+    list-empty: '{prefix}<#cccccc>Немає налаштованих NPC.'
+    list-item: <#cccccc>- <#ffffff>{npc}
+    remove-success: '{prefix}<#97e673>Конфігурацію NPC <#ffffff>{npc}<#97e673> успішно
+      видалено'
+    gui-title-set: '{prefix}<#97e673>Встановлено заголовок меню для NPC <#ffffff>{npc}<#97e673>:
+      <#ffffff>{title}'
+    displayname-set: '{prefix}<#97e673>Ім''я для NPC <#ffffff>{npc}<#97e673> встановлено
+      на: <#ffffff>{name}'
+    displayname-removed: '{prefix}<#97e673>Ім''я для NPC <#ffffff>{npc}<#97e673> видалено'
+    info:
+      header: '<#7dd3ff>&m----<#ffffff> Інфо NPC: {npc} <#7dd3ff>&m----'
+      title: '<#cccccc>Заголовок: <#ffffff>{title}'
+      dialogue: '<#cccccc>Діалог: <#ffffff>{dialogue}'
+      indicator: '<#cccccc>Зсув індикатора: <#ffffff>{offset}'
+    dialogue-removed: '{prefix}<#97e673>Діалог видалено у NPC <#ffffff>{npc}'
+    dialogue-not-found: '{prefix}<#e07a5f>Діалог не знайдено: <#ffffff>{dialogue}'
+    dialogue-set: '{prefix}<#97e673>Для NPC <#ffffff>{npc}<#97e673> встановлено діалог
+      <#ffffff>{dialogue}'
+    indicator-set: '{prefix}<#97e673>Зміщення індикатора для NPC <#ffffff>{npc}<#97e673>
+      встановлено на <#ffffff>{offset}'
+    voice-set: '{prefix}<#97e673>Голос друкування для NPC <#ffffff>{npc}<#97e673>
+      встановлено на <#ffffff>{voice}'
+    voice-removed: '{prefix}<#97e673>Голос друкування видалено у NPC <#ffffff>{npc}'
+    console-must-specify-id: '{prefix}<#e07a5f>Консоль повинна вказати ID NPC.'
+    not-looking-at-npc: '{prefix}<#e07a5f>Не вдалося ідентифікувати NPC. Будь ласка,
+      подивіться на NPC або вкажіть ID.'
+    link-pending: '{prefix}<#97e673>Будь ласка, натисніть ПКМ по NPC, щоб прив''язати
+      його.'
+    unlink-pending: '{prefix}<#e07a5f>Будь ласка, натисніть ПКМ по NPC, щоб відв''язати
+      його.'
+    bind-success: '{prefix}<#97e673>Успішно прив''язано <#ffffff>{target}<#97e673>'
+    unbind-success: '{prefix}<#e07a5f>Успішно відв''язано <#ffffff>{target}<#e07a5f>
+      від NPC <#ffffff>{npc}'
+  activate:
+    success: '{prefix}<#97e673>Квест <#ffffff>{quest}<#97e673> активовано для гравця
+      <#ffffff>{player}.'
+    fail: '{prefix}<#e07a5f>Не вдалося активувати квест <#ffffff>{quest}<#e07a5f>.'
+  details:
+    no-active-quest: '{prefix}<#cccccc>У вас немає активного квесту.'
+  deactivate:
+    no-active: '{prefix}<#cccccc>У гравця немає активного квесту.'
+    success: '{prefix}<#97e673>Активний квест гравця <#ffffff>{player}<#97e673> деактивовано.'
+  finish:
+    no-active: '{prefix}<#cccccc>У гравця немає активного квесту.'
+    success: '{prefix}<#97e673>Квест гравця <#ffffff>{player}<#97e673> завершено.'
+    stage:
+      success: '{prefix}<#97e673>Примусово завершено етап квесту для гравця <#ffffff>{player}.'
+      no-stages: '{prefix}<#cccccc>У цього квесту немає етапів або не вдалося завершити
+        етап.'
+  open:
+    opened: '{prefix}<#97e673>Меню <#ffffff>{menu}<#97e673> відкрито для гравця <#ffffff>{player}.'
+  reset:
+    cooldown-success: '{prefix}<#97e673>Час відновлення квесту <#ffffff>{quest}<#97e673>
+      скинуто для гравця <#ffffff>{player}<#97e673>.'
+    history-success: '{prefix}<#97e673>Історію виконання квесту <#ffffff>{quest}<#97e673>
+      скинуто для гравця <#ffffff>{player}<#97e673>.'
+    reward-success: '{prefix}<#97e673>Статус нагороди квесту <#ffffff>{quest}<#97e673>
+      скинуто для гравця <#ffffff>{player}<#97e673>.'
+    rotation-success: '{prefix}<#97e673>Дані ротації для типу <#ffffff>{type}<#97e673>
+      скинуто для гравця <#ffffff>{player}<#97e673>.'
+    quest-success: '{prefix}<#97e673>Всі дані квесту <#ffffff>{quest}<#97e673> скинуто
+      для гравця <#ffffff>{player}<#97e673>.'
+    type-success: '{prefix}<#97e673>Всі дані для типу квестів <#ffffff>{type}<#97e673>
+      скинуто для гравця <#ffffff>{player}<#97e673>.'
+    top-success: '{prefix}<#97e673>Дані топу для типу <#ffffff>{type}<#97e673> скинуто для гравця <#ffffff>{player}<#97e673>.'
+    top-success-all: '{prefix}<#97e673>Скидання топу завершено! Змінено <#ffffff>{count}<#97e673> гравців.'
+    top-start: '{prefix}<#97e673>Початок скидання топу для типу <#ffffff>{type}<#97e673>...'
+
+  errors:
+    console-specify-player: '{prefix}<#e07a5f>Консоль повинна вказати гравця.'
+    quest-wrong-type: '{prefix}<#e07a5f>Квест <#ffffff>{quest}<#e07a5f> не належить
+      до типу <#ffffff>{type}<#e07a5f>.'
+    unknown-command: '{prefix}<#e07a5f>Невідома команда. Введіть /quest help'
+    invalid-syntax: '{prefix}<#e07a5f>Невірний синтаксис! Використовуйте: <#97e673>{command}
+      <#a3a3a3>{syntax}'
+    quest-not-found: '{prefix}<#e07a5f>Квест <#ffffff>{quest}<#e07a5f> не існує.'
+    player-not-found: '{prefix}<#e07a5f>Гравця з іменем <#ffffff>{player}<#e07a5f>
+      не знайдено!'
+    top-reset-error: '{prefix}<#e07a5f>Помилка скидання топу: {error}'
+
+  global:
+    usage-header: <#7dd3ff><strikethrough>----</strikethrough> <#ffffff>Глобальні
+      квести <#7dd3ff><strikethrough>----</strikethrough>
+    help:
+      finish: '  <#97e673>/quest finish global <#a3a3a3><questId> <#cccccc>- Примусово
+        завершити глобальний квест'
+      reset: '  <#97e673>/quest reset global <#a3a3a3><questId> <#cccccc>- Скинути
+        прогрес глобального квесту'
+      top: '  <#97e673>/quest top <#a3a3a3>[questId] <#cccccc>- Топ учасників глобального
+        квесту'
+gui:
+  type:
+    locked-message: <#ff5555>Ви не відповідаєте вимогам для доступу до цього типу
+      квестів.
+  quest_details:
+    info:
+      your-contribution: <#ffe999>Ваш внесок
+      progress:
+        title: <#ffe999>Прогрес
+        bar: '{bar} <#cccccc>{percent}%'
+        value: <#cccccc>({current} / {target})
+      required-items: '<#cccccc>Потрібні предмети:'
+      min-participants: '<#5bcbb5>👥 <#cccccc>Мінімально учасників: <#ffe699>{min}'
+      awaiting-transfer: <#ffe999>❖ Потрібно віддати предмети
+      items-transferred: <#99ffd4>✓ Предмети віддано
+    status:
+      cooldown: '<#ff9999>Відновлення: <#ffffff>{time}'
+      awaiting-transfer: <#ffe999>❖ Потрібно віддати предмети
+      locked: <#ff5555>Заблоковано
+    required_items: '<#cccccc>Необхідні предмети:'
+    transfer:
+      required-items: '<#cccccc>Потрібні предмети:'
+      transfer-not-active:
+        title: <#cccccc>Квест не активний
+        lore:
+        - <#cccccc>Спочатку активуйте квест,
+        - <#cccccc>щоб здати ресурси
+      transfer-already-transferred:
+        title: <#cccccc>Ресурси вже здано
+        lore:
+        - <#cccccc>Ви вже здали ці ресурси
+      transfer-locked:
+        title: <#cccccc>Віддати всі предмети
+        lore:
+        - <#cccccc>Передавання предметів заблоковано
+    objective_title: '&eОпис завдання'
+    rewards_title: '&eНагороди'
+  quest_list:
+    global-progress: <#ad99ff>Глобальний прогрес
+    global-participants: '<#cccccc>Учасники: <#ffffff>{current} / {max}'
+    global-participants-no-max: '<#cccccc>Учасники: <#ffffff>{current}'
+    global-participants-min: '<#cccccc>Учасники: <#ffffff>{current} / {max} <#888888>(Мін.
+      {min})'
+    global-participants-no-max-min: '<#cccccc>Учасники: <#ffffff>{current} <#888888>(Мін.
+      {min})'
+    global-contribution: '<#cccccc>Ваш внесок: <#ffffff>{current} / {max}'
+    global-contribution-no-max: '<#cccccc>Ваш внесок: <#ffffff>{current}'
+    rewards-header: '<#ffe999>Нагороди:'
+    status:
+      tracked-suffix: ' &8| &bВідстежується'
+      completed-onetime: '<#99ffd4>Статус: <#cccccc>Виконано (одноразово)'
+      active: '<#99ffd4>Статус: <#a7ff99>Активний'
+      waiting-participants: '<#99ffd4>Статус: <#cccccc>Очікування учасників <#777777>({current}/{min})'
+      cooldown: '<#ff9999>Статус: <#cccccc>Відновлення &7({time})'
+      rotation-cooldown: '<#ff9999>Статус: <#cccccc>До оновлення &7({time})'
+      available: '<#99ffd4>Статус: <#cccccc>Доступний'
+      reward-pending: '<#99ffd4>Статус: <#a7ff99>Очікує нагороди'
+      locked: '<#ff9999>Статус: <#cccccc>Заблоковано'
+    chain:
+      required-quests: '<#cccccc>Необхідні завдання:'
+    cooldown-time: '<#ff9999>Час відновлення: <#cccccc>{time}'
+    rotation-cooldown-time: '<#ff9999>До оновлення: <#cccccc>{time}'
+    open-details: <#a7ff99>ЛКМ <#cccccc>- Деталі / активація
+    activate-quest-quick: <#a7ff99>Swap (F) <#cccccc>- Активувати квест
+    activate-quest-quick-replace: <#ffaa00>Swap (F) <#cccccc>- Замінити активний квест
+    cancel-quest-quick: <#ff6666>Drop (Q) <#cccccc>- Скасувати квест
+    claim-reward: <#ffe999>ПКМ <#cccccc>- Забрати нагороду
+    track-quest: <#ffe999>ПКМ <#cccccc>- Відстежувати квест
+    stages: '<#cccccc>Етапів: <#ffffff>{count}'
+    stage: <#cccccc>Етап {current}/{total}
+  delivery:
+    items-dropped: '{prefix}<#ff9999>У вас не вистачило місця в інвентарі, предмети
+      викинуті на землю.'
+quests:
+  objectives:
+    header: <#ffe999>Деталі завдання
+    none: <#777777>Немає детального опису
+    npc-interact: '<#cccccc>Поговоріть з:'
+    give-item-to-npc: '<#cccccc>Принесіть:'
+    block_break: '<#cccccc>Зламати блоки:'
+    block_place: '<#cccccc>Поставити блоки:'
+    item_craft: '<#cccccc>Створити предмет:'
+    item_smelt: '<#cccccc>Переплавити:'
+    item_cook: '<#cccccc>Приготувати:'
+    item_fish: '<#cccccc>Спіймати рибу:'
+    item_enchant: '<#cccccc>Зачарувати:'
+    consume_item: '<#cccccc>Спожити предмет:'
+    brewing: '<#cccccc>Приготувати зілля:'
+    use_item: '<#cccccc>Використати предмет:'
+    kill: '<#cccccc>Вбити мобів:'
+    damage: '<#cccccc>Завдати шкоди: <#ffe999>{amount}'
+    take-damage: '<#cccccc>Отримати шкоду: <#ffe999>{amount}'
+    travel: <#cccccc>Подолати <#ffe999>{blocks} <#cccccc>блоків
+    location: '<#cccccc>Досягти координат:'
+    reach-biome: '<#cccccc>Відвідати біом: <#ffe999>{biome} <#cccccc>{amount} разів'
+    enter-region: '<#cccccc>Увійти в регіон: <#ffe999>{region}'
+    leave-region: '<#cccccc>Залишити регіон: <#ffe999>{region}'
+    chat: '<#cccccc>Надіслати повідомлення: <#ffe999>{text}'
+    command: '<#cccccc>Виконати команду: <#ffe999>{cmd}'
+    level-up-reach: <#cccccc>Досягти рівня <#ffe999>{levels}
+    level-up-gain: <#cccccc>Отримати <#ffe999>{levels} <#cccccc>рівнів
+    interact-block: '<#cccccc>Взаємодіяти з блоком:'
+    interact-entity: '<#cccccc>Взаємодіяти з істотою:'
+    fill-bucket: '<#cccccc>Наповнити відро:'
+    empty-bucket: '<#cccccc>Спорожнити відро:'
+    till-soil: '<#cccccc>Обробити грунт:'
+    plant-seed: '<#cccccc>Посадити насіння:'
+    harvest-crop: '<#cccccc>Зібрати врожай:'
+    bone-meal-use: '<#cccccc>Використати кісткове борошно:'
+    strip-log: '<#cccccc>Обтисати колоду:'
+    wax-off: '<#cccccc>Зняти віск:'
+    wax-on: '<#cccccc>Нанести віск:'
+    item-repair: '<#cccccc>Поліпшити предмет:'
+    item-rename: '<#cccccc>Перейменувати предмет:'
+    new-name: '<#cccccc>Нова назва: <#ffe999>{name}'
+    item-break: '<#cccccc>Зламати інструмент:'
+    dye-item: '<#cccccc>Пофарбувати предмет:'
+    fill-fuel: '<#cccccc>Заправити:'
+    burn-fuel: '<#cccccc>Спалити паливо:'
+    villager-sell-item: '<#cccccc>Продати селянину:'
+    villager-buy-item: '<#cccccc>Купити у селянина:'
+    enchant-table-use: '<#cccccc>Використати чародійський стіл:'
+    anvil-use: '<#cccccc>Використати ковадло:'
+    tame-animal: '<#cccccc>Приручити тварину:'
+    breed-animals: '<#cccccc>Розводити тварин:'
+    milk-cow: '<#cccccc>Подоїти корову:'
+    shear-sheep: '<#cccccc>Постригти:'
+    entity-ride: '<#cccccc>Їхати на істоті:'
+    throw-egg: '<#cccccc>Кинути яйце:'
+    experience-orb-pickup: '<#cccccc>Зібрати досвід: <#ffe999>{amount}'
+    player-kill: '<#cccccc>Вбити гравців: <#ffe999>{amount}'
+    assist-kill: '<#cccccc>Допомогти у вбивствах: <#ffe999>{amount}'
+    min-damage: '<#cccccc>Мінімальна шкода: <#ffe999>{damage}'
+    sleep-in-bed: '<#cccccc>Поспати в ліжку: <#ffe999>{amount} <#cccccc>разів'
+    enter-bed: '<#cccccc>Поспати в ліжку: <#ffe999>{amount}'
+    change-dimension: '<#cccccc>Змінити вимір:'
+    dimension: '<#cccccc>Вимір: <#ffe999>{dimension}'
+    fall-distance: '<#cccccc>Пролетіти в падінні: <#ffe999>{blocks} <#cccccc>блоків'
+    min-height: '<#cccccc>Мін. висота: <#ffe999>{height}'
+    boat-travel: <#cccccc>Проплисти на човні <#ffe999>{blocks} блоків
+    minecart-travel: <#cccccc>Проїхати на вагонетці <#ffe999>{blocks} <#cccccc>блоків
+    elytra-fly: <#cccccc>Полетіти на елітрах <#ffe999>{amount} блоків
+    jump: '<#cccccc>Стрибнути: <#ffe999>{jumps} <#cccccc>разів'
+    crouch: '<#cccccc>Присісти: <#ffe999>{crouches} <#cccccc>разів'
+    sprint-distance: '<#cccccc>Пробігти: <#ffe999>{blocks} <#cccccc>блоків'
+    crouch-distance: '<#cccccc>Прокрастися: <#ffe999>{blocks} <#cccccc>блоків'
+    swim-distance: '<#cccccc>Проплисти: <#ffe999>{blocks} <#cccccc>блоків'
+    potion-splash: '<#cccccc>Розплескати зілля:'
+    potion-drink: '<#cccccc>Випити зілля:'
+    beacon-activate: '<#cccccc>Активувати маяк: <#ffe999>{amount} <#cccccc>разів'
+    conduit-activate: '<#cccccc>Активувати провідник: <#ffe999>{amount} <#cccccc>разів'
+    join-server: '<#cccccc>Приєднатися до сервера: <#ffe999>{amount} <#cccccc>разів'
+    play-time: '<#cccccc>Час гри: <#ffe999>{time}'
+    hold-item: '<#cccccc>Тримати предмет:'
+    hold-time: '<#cccccc>Тримати протягом: <#ffe999>{time}'
+    drop-item: <#cccccc>Викинути предмет
+    open-container: <#cccccc>Відкрити контейнер <#ffe999>{amount} <#cccccc>разів
+    container-type: '<#cccccc>Тип контейнера: <#ffe999>{type}'
+    sign:
+      edit: '<#cccccc>Редагувати знак: <#ffe999>{amount} <#cccccc>разів'
+      message: <#cccccc>Потрібно написати <#ffe999>{message}
+    book:
+      edit: '<#cccccc>Редагувати книгу: <#ffe999>{amount} <#cccccc>разів'
+      message: <#cccccc>Потрібно написати <#ffe999>{message}
+    receive-damage-type: '<#cccccc>Отримати шкоду: <#ffe999>{damage}'
+    damage-cause:
+      any: <#cccccc>Від <#ffe999>Будь-чого
+      contact: <#cccccc>Від <#ffe999>Контакт
+      entity_attack: <#cccccc>Від <#ffe999>Атаки істоти
+      projectile: <#cccccc>Від <#ffe999>Снаряда
+      suffocation: <#cccccc>Від <#ffe999>Задухи
+      fall: <#cccccc>Від <#ffe999>Падіння
+      fire: <#cccccc>Від <#ffe999>Вогню
+      fire_tick: <#cccccc>Від <#ffe999>Вогняного ушкодження
+      lava: <#cccccc>Від <#ffe999>Лави
+      drowning: <#cccccc>Від <#ffe999>Потоплення
+      block_explosion: <#cccccc>Від <#ffe999>Вибуху блоку
+      entity_explosion: <#cccccc>Від <#ffe999>Вибуху істоти
+      void: <#cccccc>Від <#ffe999>Пустоти
+      lightning: <#cccccc>Від <#ffe999>Блискавки
+      suicide: <#cccccc>Від <#ffe999>Самогубства
+      starvation: <#cccccc>Від <#ffe999>Голоду
+      poison: <#cccccc>Від <#ffe999>Отрути
+      magic: <#cccccc>Від <#ffe999>Магії
+      wither: <#cccccc>Від <#ffe999>Візера
+      falling_block: <#cccccc>Від <#ffe999>Падаючого блоку
+      thorns: <#cccccc>Від <#ffe999>Шипів
+      dragon_breath: <#cccccc>Від <#ffe999>Драконячого подиху
+      fly_into_wall: <#cccccc>Від <#ffe999>Польоту в стіну
+      hot_floor: <#cccccc>Від <#ffe999>Гарячої підлоги
+      cramming: <#cccccc>Від <#ffe999>Скупчення
+      dryout: <#cccccc>Від <#ffe999>Висушення
+      freeze: <#cccccc>Від <#ffe999>Замерзання
+      sonic_boom: <#cccccc>Від <#ffe999>Звукового удару
+      unknown: <#cccccc>Від <#ffe999>Невідомо
+    wear-armor: '<#cccccc>Надіти броню:'
+  global:
+    not_enough_participants: '<#ffdd66>⚠ <#cccccc>Глобальний квест <#ffe999>{quest}
+      <#cccccc>потребує щонайменше <#ffe999>{min} <#cccccc>учасників <#cccccc>(зараз:
+      <#ffe999>{current}<#cccccc>)!'
+    cancel_blocked_contributed: <#ffdd66>⚠ <#cccccc>Ви вже зробили внесок у цей глобальний
+      квест і не можете його скасувати!
+    rejoin_cooldown: <#cc4444>❌ <#cccccc>Зачекайте <#ffe999>{time} <#cccccc>перед
+      повторною активацією цього глобального квесту!
+    max_contribution: <#97e673>✨ Чудова робота! <#cccccc>Ви досягли максимального
+      особистого внеску в глобальному квесті <#ffe699>{quest}<#cccccc>. Дякуємо за
+      допомогу!
+    personal:
+      join: '<#5bcbb5>+ <#cccccc>Ви приєднались до квесту <#ffe999>{quest}'
+      join-waiting: '<#5bcbb5>+ <#cccccc>Ви приєднались до черги на активацію квесту <#ffe999>{quest} <#888888>(Ще потрібно: <#ffe999>{remaining}<#888888>)'
+      leave: '<#e07a5f>- <#cccccc>Ви покинули участь в квесті <#ffe999>{quest}<#cccccc>!'
+      leave-waiting: '<#e07a5f>- <#cccccc>Ви покинули чергу на активацію квесту <#ffe999>{quest}<#cccccc>!'
+    broadcast:
+      join: <#5bcbb5>+ <#cccccc>Гравець <#ffe999>{player} <#cccccc>приєднується до
+        виконання <#ffe999>{quest}
+      join-waiting: '<#5bcbb5>+ <#cccccc>Гравець <#ffe999>{player} <#cccccc>приєднується
+        до виконання <#ffe999>{quest} <#888888>(Ще потрібно: <#ffe999>{remaining}<#888888>)'
+      leave: <#e07a5f>- <#cccccc>Гравець <#ffe999>{player} <#cccccc>більше не є учасником
+        <#ffe999>{quest}
+      start:
+      - ' '
+      - <#5bcbb5>⚡ Глобальний квест <#ffe699>{quest} <#5bcbb5>активовано!
+      - ' '
+      header:
+      - ' '
+      - <#e8b830>Глобальний квест завершено!
+      - '  <#c0c0c0>“{quest}<#c0c0c0>”'
+      - ' '
+      - '<#fcd244>⭐ Найкращі герої:'
+      top-entry: ' <#fcd244>{rank}. <#cccccc>{player} <#888888>- <#fcd244>{contribution}
+        <#888888>({percent}%)'
+      footer:
+      - ' '
+      - '<#5bcbb5>👥 <#cccccc>Всього учасників: <#5bcbb5>{participants}'
+      - '<#78d169>⏳ <#cccccc>Час виконання: <#78d169>{time}'
+      your-contribution: '<#b894e6>⭐ <#cccccc>Ваш особистий внесок: <#b894e6>{amount}'
+      time-unknown: невідомо
+  background:
+    complete: '{prefix}<#97e673>Квест <#ffffff>{quest} <#97e673>успішно виконаний
+      у фоні!'
+    stage_complete: '{prefix}<#97e673>Етап <#ffffff>{stage} <#97e673>квесту <#ffffff>{quest}
+      <#97e673>виконаний у фоні!'
+  activate:
+    success:
+    - '{prefix}<#97e673>Ви активували квест <#ffffff>{quest}'
+    - ''
+    - '{objective_details}'
+    - ''
+    - '{clickable_details}'
+  chain:
+    auto-activated: '{prefix}<#97e673>Автоматично розпочато квест <#ffffff>{quest}'
+  reward:
+    waiting-gui: '{prefix}<#97e673>Нагорода за квест очікує вас!'
+    waiting-npc: '{prefix}<#97e673>Заберіть нагороду у <#ffffff>{npc}<#97e673>!'
+  stage:
+    complete: '{prefix}<#97e673>Квест <#ffffff>{quest}<#97e673>. Етап <#ffffff>{stage}
+      <#97e673>завершено!'
+    new:
+    - '{prefix}<#97e673>В наступному етапі вам потрібно:'
+    - ''
+    - '{objective_details}'
+    - ''
+    - '{clickable_details}'
+  transfer:
+    success: '{prefix}<#97e673>Ви успішно здали ресурси!'
+  types:
+    general:
+      unknown: Невідомо
+    blocks:
+      any: Будь-який блок
+      unknown: Невідомий блок
+    entities:
+      any: Будь-яка сутність
+      unknown: Невідома сутність
+    fluids:
+      any: Будь-яка рідина
+      unknown: Невідома рідина
+    items:
+      any: Будь-який предмет
+      any_fuel: Будь-яке паливо
+      unknown: Невідомий предмет
+    villagers:
+      any: Будь-який житель
+      unknown: Невідомий житель
+chat:
+  clickable: <#e6c18a>[Більше інформації]
+  hover: <#cccccc>Натисніть для перегляду деталей квесту
+rewards:
+  money:
+    invalid: '{prefix}<#e07a5f>Неправильне значення грошової винагороди.'
+    added: <#e9c46a>+ <#ffffff>{amount} <#e9c46a>монет
+  items:
+    received: <#97e673>Ви отримали предмети як нагороду за квест!
+    dropped: <#e07a5f>Деякі предмети не помістилися в інвентар і випали поруч!
+  xp:
+    levels: <#7dd3ff>+ <#ffffff>{amount} <#7dd3ff>рівнів досвіду
+    points: <#7dd3ff>+ <#ffffff>{amount} <#7dd3ff>очок досвіду
+    invalid: '{prefix}<#e07a5f>Некоректна кількість досвіду.'
+  attribute:
+    added: <#f4a261>Атрибут <#ffffff>{attribute} <#f4a261>збільшено на <#ffffff>{value}
+  effect:
+    added: <#b19cd9>Отримано ефект <#ffffff>{effect} <#b19cd9>рівня <#ffffff>{amplifier}
+      <#b19cd9>на <#ffffff>{duration}
+system:
+  time:
+    year: р
+    years: р
+    month: міс
+    months: міс
+    day: д
+    days: д
+    hour: год
+    hours: год
+    minute: хв
+    minutes: хв
+    second: сек
+    seconds: сек
+    format:
+      year-month: '{y}{y_unit} {m}{m_unit}'
+      month-day: '{m}{m_unit} {d}{d_unit}'
+      day-hour: '{d}{d_unit} {h}{h_unit}'
+      hour-minute: '{h}{h_unit} {min}{min_unit}'
+      minute-second: '{min}{min_unit} {s}{s_unit}'
+      only-second: '{s}{s_unit}'
+  update:
+    available:
+    - '{prefix}<#cccccc>Доступна нова версія <#ffffff>{plugin}<#cccccc>!'
+    - '{prefix}<#cccccc>Поточна: <#ffffff>{current} <#cccccc>| Остання: <#ffffff>{latest}'
+    - '{prefix}<#cccccc>Завантажити: <#ffffff>{url}'

@@ -1,0 +1,34 @@
+id: daily_night_patrol
+name: <#f87171>⚔ Night Patrol
+icon-material: IRON_SWORD
+
+rotation-pool: "rare"
+
+description:
+- <#cccccc>Darkness draws monsters toward settlements.
+- <#cccccc>Clear the outskirts of threats.
+- <#cccccc>Kill <#f87171>12 hostile creatures.
+- ""
+- "<#93c5fd>⭐ <#cccccc>Rarity: <#bfdbfe>Rare"
+rewards-description:
+- <#a7ff99>+230 coins
+- <#ffe08a>+110 XP
+- <#7dd3ff>+16 Arrows
+objective:
+  type: KILL_ENTITY
+  amount: 12
+  target-entities:
+  - ZOMBIE
+  - SKELETON
+  - SPIDER
+rewards:
+  money: 230
+  xp: 110
+  items:
+    list:
+    - material: ARROW
+      amount: 16
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success
+

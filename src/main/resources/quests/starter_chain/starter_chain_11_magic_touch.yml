@@ -1,0 +1,44 @@
+id: starter_chain_11_magic_touch
+name: <#a78bfa>✨ A Touch of Magic
+icon-material: ENCHANTING_TABLE
+slot: 32
+page: 1
+require-quests:
+- starter_chain_10_first_deal
+description:
+- <#cccccc>Magic empowers even simple things.
+- <#cccccc>Enchant any useful item.
+- <#cccccc>May luck be on your side.
+rewards-description:
+- <#a7ff99>+800 coins
+- <#ffe08a>+260 XP
+- <#7dd3ff>+Lapis Lazuli
+objective:
+  type: ITEM_ENCHANT
+  amount: 1
+  target-materials:
+  - IRON_SWORD
+  - IRON_PICKAXE
+  - BOW
+rewards:
+  money:
+    amount: 800
+    silent: false
+  xp:
+    points: 260
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: LAPIS_LAZULI
+      amount: 24
+      name: <#7dd3ff>Arcanist's Lapis
+      lore:
+      - <#cccccc>You're always short at the enchanting table.
+  effects:
+    silent: false
+    list:
+    - NIGHT_VISION:0:120
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success

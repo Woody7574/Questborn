@@ -1,0 +1,45 @@
+id: "global_cookies"
+
+name: "<#d4a373>🌾 Cookies for All"
+description:
+  - "<#cccccc>Winter is coming, and we need"
+  - "<#cccccc>food supplies! Bake sweet cookies"
+  - "<#cccccc>in your kitchens to help everyone."
+
+icon-material: COOKIE
+slot: 20
+
+max-participants: 0
+min-participants: 2
+personal-limit: 100
+reward-step: 10
+
+quest-path:
+  stage-1:
+    required-materials:
+    - COOKIE:1000
+
+rewards-description:
+  - " <#a8dbd4>+ 1x Emerald | $50 | 50 EXP <#777777>(per 100)"
+  - " <#d4a373>+ 1x Villager Spawn Egg | $1500 | 1000 EXP <#777777>(final)"
+
+rewards:
+  money: 1500
+  xp: 1000
+  items:
+    silent: false
+    list:
+      - material: VILLAGER_SPAWN_EGG
+        amount: 1
+  step-rewards:
+    money: 50
+    xp: 50
+    items:
+      silent: false
+      list:
+        - material: EMERALD
+          amount: 1
+
+quest-effects:
+  activate: quest_activate_important
+  complete: global_contribution_max

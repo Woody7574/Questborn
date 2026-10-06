@@ -1,0 +1,33 @@
+id: daily_wheat_harvest
+name: <#fde68a>🍞 Harvest Run
+icon-material: HAY_BLOCK
+
+rotation-pool: "common"
+
+description:
+- <#cccccc>The guild warehouse emptied after the caravan.
+- <#cccccc>Fresh supplies are needed.
+- <#cccccc>Harvest <#fde68a>32 crops.
+- ""
+- "<#86efac>⭐ <#cccccc>Rarity: <#bbf7d0>Common"
+rewards-description:
+- <#a7ff99>+170 coins
+- <#ffe08a>+80 XP
+- <#7dd3ff>+3 Golden Carrots
+objective:
+  type: HARVEST_CROP
+  amount: 32
+  target-materials:
+  - WHEAT
+  - BEETROOT
+rewards:
+  money: 170
+  xp: 80
+  items:
+    list:
+    - material: GOLDEN_CARROT
+      amount: 3
+quest-effects:
+  activate: quest_activate_start
+  complete: quest_complete_success
+

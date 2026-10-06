@@ -1,0 +1,30 @@
+# ==============================================================================
+# Questborn - Quest Type: Шлях Новачка (Starter Chain)
+# ==============================================================================
+id: starter_chain
+folder: quests/starter_chain
+
+display-name: "<#72c7b5>🧭 Шлях Новачка"
+gui-type-title: "&0🧭 Шлях Новачка - ({page}/{total})"
+gui-quest-title: "&0{quest}"
+gui-transfer-title: "&0{quest}"
+
+material: CAMPFIRE
+slot: 20
+
+engine: CHAIN
+auto-activate-next: true
+cooldown-seconds: 0
+
+lore:
+  - "<#d4dadf>Твій перший провідник у незвідані землі."
+  - "<#9aa5b1>Опануй захист територій, торгівлю ринку,"
+  - "<#9aa5b1>унікальні навички та таємниці виживання."
+  - "<#72c7b5>Пройди шлях від первістка до легенди!"
+  - ""
+  - "<#72c7b5>Прогрес ланцюга:"
+  - " <#98c379>✔ <#edf1f5>{completed}/{total} <#9aa5b1>виконано"
+  - ""
+  - "<#7ba2b8>▸ Натисніть, щоб відкрити"
+
+enabled: true

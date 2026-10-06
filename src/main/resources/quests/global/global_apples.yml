@@ -1,0 +1,45 @@
+id: "global_apples"
+
+name: "<#e56b6f>🍎 Apple Harvest"
+description:
+  - "<#cccccc>The server is preparing for a grand"
+  - "<#cccccc>apple festival! Gather apples"
+  - "<#cccccc>from the trees to support the event."
+
+icon-material: APPLE
+slot: 21
+
+max-participants: 0
+min-participants: 2
+personal-limit: 100
+reward-step: 10
+
+quest-path:
+  stage-1:
+    required-materials:
+    - APPLE:1000
+
+rewards-description:
+  - " <#a8dbd4>+ 1x Golden Apple | $50 | 50 EXP <#777777>(per 100)"
+  - " <#e56b6f>+ 1x Ench. Golden Apple | $1500 | 1000 EXP <#777777>(final)"
+
+rewards:
+  money: 1500
+  xp: 1000
+  items:
+    silent: false
+    list:
+      - material: ENCHANTED_GOLDEN_APPLE
+        amount: 1
+  step-rewards:
+    money: 50
+    xp: 50
+    items:
+      silent: false
+      list:
+        - material: GOLDEN_APPLE
+          amount: 1
+
+quest-effects:
+  activate: quest_activate_important
+  complete: global_contribution_max

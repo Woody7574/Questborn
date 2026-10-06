@@ -1,0 +1,531 @@
+# Questborn - Advanced Effects Configuration
+# Full customization system for quest effects
+
+presets:
+  # ===========================================
+  # QUEST ACTIVATION EFFECTS
+  # ===========================================
+  quest_activate_start:
+    spawn-firework: false
+    particles:
+      - type: "ENCHANT"
+        count: 30
+        offset-x: 0.8
+        offset-y: 1.2
+        offset-z: 0.8
+        speed: 0.15
+      - type: "VILLAGER_HAPPY"
+        count: 20
+        offset-x: 0.5
+        offset-y: 1.5
+        offset-z: 0.5
+        speed: 0.1
+    sounds:
+      - type: "BLOCK_NOTE_BLOCK_PLING"
+        volume: 0.5
+        pitch: 1.3
+      - type: "BLOCK_BELL_USE"
+        volume: 0.3
+        pitch: 1.1
+        delay: 10
+    title:
+      main: "<#66BB6A>Quest Activated"
+      subtitle: "<#A5D6A7>Check your quest journal"
+      fade-in: 10
+      stay: 70
+      fade-out: 15
+    floating-text:
+      enabled: false
+      text: "<#FFCA28>New Quest"
+      offset-y: 2.2
+      duration: 80
+      animation: "FLOAT"
+
+  quest_activate_important:
+    spawn-firework: false
+    particles:
+      - type: "END_ROD"
+        count: 25
+        offset-x: 1.0
+        offset-y: 1.8
+        offset-z: 1.0
+        speed: 0.12
+      - type: "DRAGON_BREATH"
+        count: 15
+        offset-x: 0.7
+        offset-y: 1.0
+        offset-z: 0.7
+        speed: 0.08
+        data:
+          roll: 0.7
+    sounds:
+      - type: "BLOCK_ENCHANTMENT_TABLE_USE"
+        volume: 0.4
+        pitch: 1.0
+      - type: "ENTITY_EXPERIENCE_ORB_PICKUP"
+        volume: 0.5
+        pitch: 1.2
+        delay: 5
+    title:
+      main: "<#42A5F5>Important Mission"
+      subtitle: "<#90CAF9>Adventure awaits you"
+      fade-in: 12
+      stay: 80
+      fade-out: 18
+    bossbar:
+      enabled: true
+      title: "<#42A5F5>New Quest Activated"
+      color: "BLUE"
+      style: "SEGMENTED_6"
+      progress: 1.0
+      duration: 100
+
+  quest_activate_npc:
+    spawn-firework: false
+    particles:
+      - type: "ENCHANT"
+        count: 20
+        offset-x: 0.8
+        offset-y: 1.2
+        offset-z: 0.8
+        speed: 0.1
+      - type: "VILLAGER_HAPPY"
+        count: 15
+        offset-x: 0.5
+        offset-y: 1.5
+        offset-z: 0.5
+        speed: 0.05
+    sounds:
+      - type: "BLOCK_NOTE_BLOCK_PLING"
+        volume: 0.3
+        pitch: 1.2
+    title:
+      main: "<#81C784>Quest Received"
+      subtitle: "<#C8E6C9>Check your journal"
+      fade-in: 10
+      stay: 60
+      fade-out: 15
+    bossbar:
+      enabled: false
+
+  # ===========================================
+  # QUEST STAGE EFFECTS
+  # ===========================================
+
+  quest_stage_change:
+    spawn-firework: false
+    particles:
+      - type: "VILLAGER_HAPPY"
+        count: 15
+        offset-x: 0.5
+        offset-y: 2.0
+        offset-z: 0.5
+        speed: 0.1
+      - type: "FIREWORKS_SPARK"
+        count: 10
+        offset-x: 0.5
+        offset-y: 1.5
+        offset-z: 0.5
+        speed: 0.05
+    sounds:
+      - type: "BLOCK_AMETHYST_BLOCK_CHIME"
+        volume: 0.5
+        pitch: 1.2
+      - type: "ENTITY_EXPERIENCE_ORB_PICKUP"
+        volume: 0.3
+        pitch: 1.2
+        delay: 5
+    title:
+      main: "<#AED581>Stage Complete"
+      subtitle: "<#DCEDC8>New objective unlocked"
+      fade-in: 5
+      stay: 40
+      fade-out: 10
+    bossbar:
+      enabled: false
+
+  quest_stage_change_magic:
+    particles:
+      - type: "SPELL_WITCH"
+        count: 20
+        offset-x: 0.6
+        offset-y: 1.8
+        offset-z: 0.6
+        speed: 0.12
+      - type: "DRAGON_BREATH"
+        count: 10
+        offset-x: 0.8
+        offset-y: 1.2
+        offset-z: 0.8
+        speed: 0.08
+    sounds:
+      - type: "BLOCK_ENCHANTMENT_TABLE_USE"
+        volume: 0.5
+        pitch: 1.1
+      - type: "ENTITY_ILLUSIONER_MIRROR_MOVE"
+        volume: 0.3
+        pitch: 1.2
+        delay: 5
+    title:
+      main: "<#BA68C8>Stage Complete"
+      subtitle: "<#E1BEE7>Secrets revealed..."
+      fade-in: 7
+      stay: 45
+      fade-out: 12
+    bossbar:
+      enabled: false
+
+  quest_stage_change_golden:
+    particles:
+      - type: "TOTEM_OF_UNDYING"
+        count: 15
+        offset-x: 0.7
+        offset-y: 1.5
+        offset-z: 0.7
+        speed: 0.15
+      - type: "WAX_ON"
+        count: 12
+        offset-x: 1.0
+        offset-y: 1.3
+        offset-z: 1.0
+        speed: 0.2
+    sounds:
+      - type: "BLOCK_BELL_USE"
+        volume: 0.4
+        pitch: 1.2
+      - type: "BLOCK_NOTE_BLOCK_CHIME"
+        volume: 0.5
+        pitch: 1.2
+        delay: 4
+    title:
+      main: "<#FFD54F>Stage Complete"
+      subtitle: "<#FFF59D>Progress made!"
+      fade-in: 6
+      stay: 50
+      fade-out: 10
+    bossbar:
+      enabled: false
+
+  quest_stage_change_npc:
+    spawn-firework: false
+    particles:
+      - type: "VILLAGER_HAPPY"
+        count: 10
+        offset-x: 0.5
+        offset-y: 2.0
+        offset-z: 0.5
+        speed: 0.05
+    sounds:
+      - type: "BLOCK_AMETHYST_BLOCK_CHIME"
+        volume: 0.3
+        pitch: 1.2
+    title:
+      main: "<#90CAF9>Stage Complete"
+      subtitle: "<#BBDEFB>New objective unlocked"
+      fade-in: 5
+      stay: 35
+      fade-out: 10
+    bossbar:
+      enabled: false
+
+  # ===========================================
+  # QUEST COMPLETION EFFECTS
+  # ===========================================
+
+  quest_complete_success:
+    spawn-firework: false
+    firework-type: "BALL"
+    firework-colors: ["100,221,100", "255,241,118"]
+    firework-fade-colors: ["255,183,77"]
+    firework-flicker: true
+    firework-trail: false
+    firework-power: 1
+    particles:
+      - type: "FIREWORKS_SPARK"
+        count: 60
+        offset-x: 1.2
+        offset-y: 1.5
+        offset-z: 1.2
+        speed: 0.25
+      - type: "HEART"
+        count: 15
+        offset-x: 0.8
+        offset-y: 2.0
+        offset-z: 0.8
+        speed: 0.15
+      - type: "HAPPY_VILLAGER"
+        count: 25
+        offset-x: 1.0
+        offset-y: 1.0
+        offset-z: 1.0
+        speed: 0.1
+    sounds:
+      - type: "ENTITY_PLAYER_LEVELUP"
+        volume: 0.5
+        pitch: 1.2
+      - type: "UI_TOAST_CHALLENGE_COMPLETE"
+        volume: 0.5
+        pitch: 1.0
+        delay: 15
+    title:
+      main: "<#FFB74D>Quest Complete"
+      subtitle: "<#FFE082>Reward awaits you"
+      fade-in: 10
+      stay: 85
+      fade-out: 20
+    bossbar:
+      enabled: true
+      title: "<#66BB6A>Mission completed successfully!"
+      color: "GREEN"
+      style: "SOLID"
+      progress: 1.0
+      duration: 120
+    floating-text:
+      enabled: false
+      text: "<#FF8A65>Success!"
+      offset-y: 2.5
+      duration: 100
+      animation: "RISE"
+
+  quest_complete_epic:
+    spawn-firework: true
+    firework-type: "STAR"
+    firework-colors: ["186,104,200", "79,195,247", "255,213,79"]
+    firework-fade-colors: ["240,98,146", "171,71,188"]
+    firework-flicker: true
+    firework-trail: true
+    firework-power: 2
+    particles:
+      - type: "TOTEM_OF_UNDYING"
+        count: 20
+        offset-x: 1.0
+        offset-y: 1.5
+        offset-z: 1.0
+        speed: 0.3
+      - type: "GLOW"
+        count: 50
+        offset-x: 1.5
+        offset-y: 2.0
+        offset-z: 1.5
+        speed: 0.2
+      - type: "DRAGON_BREATH"
+        count: 30
+        offset-x: 1.2
+        offset-y: 1.0
+        offset-z: 1.2
+        speed: 0.15
+        data:
+          roll: 0.8
+      - type: "END_ROD"
+        count: 35
+        offset-x: 0.9
+        offset-y: 1.8
+        offset-z: 0.9
+        speed: 0.1
+    sounds:
+      - type: "ITEM_TOTEM_USE"
+        volume: 0.5
+        pitch: 1.0
+      - type: "ENTITY_ENDER_DRAGON_GROWL"
+        volume: 0.3
+        pitch: 1.2
+        delay: 20
+      - type: "UI_TOAST_CHALLENGE_COMPLETE"
+        volume: 0.5
+        pitch: 0.8
+        delay: 35
+    title:
+      main: "<#BA68C8>EPIC VICTORY"
+      subtitle: "<#E1BEE7>You've achieved something incredible!"
+      fade-in: 15
+      stay: 100
+      fade-out: 25
+    bossbar:
+      enabled: true
+      title: "<#AB47BC>Epic Success!"
+      color: "PURPLE"
+      style: "SEGMENTED_10"
+      progress: 1.0
+      duration: 140
+    floating-text:
+      enabled: false
+      text: "<#7E57C2>EPIC"
+      offset-y: 3.0
+      duration: 120
+      animation: "SPIN"
+
+  quest_complete_npc:
+    spawn-firework: false
+    particles:
+      - type: "HAPPY_VILLAGER"
+        count: 20
+        offset-x: 1.0
+        offset-y: 1.0
+        offset-z: 1.0
+        speed: 0.05
+      - type: "FIREWORKS_SPARK"
+        count: 15
+        offset-x: 0.8
+        offset-y: 1.5
+        offset-z: 0.8
+        speed: 0.1
+    sounds:
+      - type: "ENTITY_PLAYER_LEVELUP"
+        volume: 0.3
+        pitch: 1.0
+    title:
+      main: "<#FFCC80>Quest Complete"
+      subtitle: "<#FFE082>Thank you for your help!"
+      fade-in: 10
+      stay: 70
+      fade-out: 15
+    bossbar:
+      enabled: false
+
+  global_contribution_max:
+    spawn-firework: true
+    firework-type: "BURST"
+    firework-colors: ["91,203,181", "232,184,48"]
+    firework-fade-colors: ["255,255,255"]
+    firework-flicker: true
+    firework-trail: true
+    firework-power: 1
+    particles:
+      - type: "TOTEM_OF_UNDYING"
+        count: 30
+        offset-x: 1.0
+        offset-y: 1.5
+        offset-z: 1.0
+        speed: 0.2
+      - type: "GLOW"
+        count: 40
+        offset-x: 1.2
+        offset-y: 2.0
+        offset-z: 1.2
+        speed: 0.15
+      - type: "HAPPY_VILLAGER"
+        count: 20
+        offset-x: 0.8
+        offset-y: 1.0
+        offset-z: 0.8
+        speed: 0.1
+    sounds:
+      - type: "ENTITY_PLAYER_LEVELUP"
+        volume: 0.5
+        pitch: 0.8
+      - type: "ENTITY_FIREWORK_ROCKET_TWINKLE"
+        volume: 0.4
+        pitch: 1.0
+        delay: 5
+    title:
+      main: "<#5bcbb5>Contribution Maxed!"
+      subtitle: "<#cccccc>You've done your part!"
+      fade-in: 10
+      stay: 60
+      fade-out: 15
+    bossbar:
+      enabled: false
+
+  # ===========================================
+  # SPECIAL QUEST EFFECTS
+  # ===========================================
+
+  quest_activate_mystery:
+    spawn-firework: false
+    particles:
+      - type: "PORTAL"
+        count: 40
+        offset-x: 1.0
+        offset-y: 1.5
+        offset-z: 1.0
+        speed: 0.1
+      - type: "SPELL_WITCH"
+        count: 25
+        offset-x: 0.8
+        offset-y: 1.2
+        offset-z: 0.8
+        speed: 0.08
+      - type: "ENCHANT"
+        count: 20
+        offset-x: 0.6
+        offset-y: 2.0
+        offset-z: 0.6
+        speed: 0.12
+    sounds:
+      - type: "ENTITY_ILLUSIONER_PREPARE_MIRROR"
+        volume: 0.3
+        pitch: 1.2
+      - type: "BLOCK_ENCHANTMENT_TABLE_USE"
+        volume: 0.4
+        pitch: 0.9
+        delay: 15
+    title:
+      main: "<#9575CD>Mysterious Quest"
+      subtitle: "<#D1C4E9>Something strange is happening..."
+      fade-in: 12
+      stay: 75
+      fade-out: 18
+    floating-text:
+      enabled: false
+      text: "<#673AB7>Mystery"
+      offset-y: 2.3
+      duration: 90
+      animation: "PULSE"
+
+  quest_complete_reward:
+    spawn-firework: true
+    firework-type: "BALL_LARGE"
+    firework-colors: ["255,213,79", "224,224,224", "255,183,77"]
+    firework-fade-colors: ["255,255,255"]
+    firework-flicker: true
+    firework-trail: true
+    firework-power: 1
+    particles:
+      - type: "NOTE"
+        count: 35
+        offset-x: 1.2
+        offset-y: 1.8
+        offset-z: 1.2
+        speed: 0.2
+        data:
+          note: 18
+      - type: "DUST"
+        count: 45
+        offset-x: 1.0
+        offset-y: 1.0
+        offset-z: 1.0
+        speed: 0.25
+        data:
+          color: "255,213,79"
+          size: 1.3
+      - type: "WAX_ON"
+        count: 20
+        offset-x: 0.7
+        offset-y: 1.5
+        offset-z: 0.7
+        speed: 0.15
+    sounds:
+      - type: "ENTITY_EXPERIENCE_ORB_PICKUP"
+        volume: 0.5
+        pitch: 1.2
+      - type: "BLOCK_CHEST_OPEN"
+        volume: 0.5
+        pitch: 1.3
+        delay: 10
+      - type: "BLOCK_NOTE_BLOCK_CHIME"
+        volume: 0.4
+        pitch: 1.2
+        delay: 25
+    title:
+      main: "<#FFD54F>REWARD"
+      subtitle: "<#FFF59D>Treasures await you!"
+      fade-in: 10
+      stay: 80
+      fade-out: 20
+    bossbar:
+      enabled: true
+      title: "<#FFCA28>Reward received!"
+      color: "YELLOW"
+      style: "SEGMENTED_12"
+      progress: 1.0
+      duration: 110

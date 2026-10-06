@@ -1,0 +1,412 @@
+# ------------------------------
+#   LANGUAGE & SYSTEM
+# ------------------------------
+
+# Available languages: en_us, uk_ua, de_de, es_es, fr_fr, pt_br, pl_pl, ru_ru, kk_kz, tr_tr
+language: en_us
+
+# Dimension Localizations
+# Used to display localized world names in quest objective details.
+# Any custom world name or environment type can be added here.
+worlds:
+  world: "Overworld"
+  world_nether: "Nether"
+  world_the_end: "The End"
+  #spawn: "Spawn"
+
+# Update Checker
+# Checks for updates on plugin startup
+update-check:
+  notify-console: true
+  notify-admin: true
+
+# Metrics / bStats
+# Sends anonymous statistics to bStats.org to help the developer see how many servers use the plugin.
+metrics:
+  enabled: true
+
+
+# ------------------------------
+#   STORAGE
+# ------------------------------
+
+storage:
+  # Storage backend to use for player data.
+  # Options:
+  #   H2 - H2 file-based database (fast alternative to SQLite, recommended default)
+  #   YAML  - Individual YAML files per player (legacy)
+  #   MYSQL - MySQL / MariaDB database (recommended for networks with multiple servers)
+  #   POSTGRESQL - PostgreSQL database (alternative to MySQL)
+  #   SQLITE - SQLite file-based database (good middle-ground for single servers)
+  #   MONGODB - MongoDB via official driver (requires internet or local server)
+  type: H2
+
+  # MySQL / MariaDB settings (used only when type: mysql)
+  mysql:
+    host: localhost
+    port: 3306
+    database: questborn
+    username: root
+    password: ""
+    # Connection pool size
+    pool-size: 5
+    # Connection timeout in milliseconds
+    connection-timeout: 30000
+    # Use SSL for connection
+    use-ssl: false
+
+  # PostgreSQL settings (used only when type: postgresql)
+  postgresql:
+    host: localhost
+    port: 5432
+    database: questborn
+    username: postgres
+    password: ""
+    # Connection pool size
+    pool-size: 5
+    # Use SSL for connection
+    use-ssl: false
+
+  # MongoDB settings (used only when type: mongodb)
+  mongodb:
+    uri: "mongodb://localhost:27017"
+    database: questborn
+    collection: player_data
+    # Timeouts in milliseconds
+    connect-timeout: 5000
+    read-timeout: 5000
+
+  # SQLite settings (used only when type: sqlite)
+  # The database file is located in the plugin's data folder.
+  sqlite:
+    file: questborn.db
+
+
+# ------------------------------
+#   GAMEPLAY & MECHANICS
+# ------------------------------
+
+gameplay:
+  # Tracking mode for multiple active quests:
+  # STRICT_FOCUS - Only the currently tracked quest receives progress (others are frozen)
+  # BACKGROUND_PROGRESS - All active quests receive progress in the background
+  quest-tracking-mode: "BACKGROUND_PROGRESS"
+
+  # Allowed game modes for quest progress
+  # Options: SURVIVAL, CREATIVE, ADVENTURE, SPECTATOR
+  allowed-gamemodes:
+    - SURVIVAL
+    - ADVENTURE
+
+  # Whether mobs spawned from spawners should count towards KILL_ENTITY quests
+  allow-spawner-kills: false
+
+  # Quest Rotation (Pools) settings:
+  # If true, all players will receive the exact same quests from NPCs on the same day (shared community experience).
+  # If false, quests from pools are generated uniquely for each player (prevents resource monopolies).
+  sync-rotation: false
+
+  # Global quest settings
+  global-quests:
+    # Mode for canceling active global quests:
+    # ALLOW_WITH_CONTRIBUTION_RETAINED - Players can cancel global quests anytime. Their contribution remains in the global goal, but they forfeit completion rewards.
+    # BLOCK_IF_CONTRIBUTED - Players cannot cancel global quests if they have already made a contribution (> 0).
+    cancel-mode: "ALLOW_WITH_CONTRIBUTION_RETAINED"
+    # Anti-spam cooldown in seconds before a player can re-activate a global quest after canceling or replacing it (0 to disable)
+    rejoin-cooldown-seconds: 900
+
+delays:
+  # Delay in ticks before proceeding to the next stage when 100% progress is reached (20 ticks = 1 second)
+  stage-complete: 30
+  # Delay in ticks before displaying the quest completion and rewards (20 ticks = 1 second)
+  quest-complete: 30
+  # Delay in ticks before automatically activating the next quest in a chain (20 ticks = 1 second)
+  auto-activate-next: 60
+
+activation:
+  # BLOCK    - Prevent new quest activation while another quest is active
+  # REPLACE  - Automatically cancel current quest and activate new one
+  # CHANGE / CONFIRM  - Request player confirmation before replacing current quest
+  conflict-mode: "CHANGE"
+
+rewards:
+  # If true, rewards are automatically given upon quest completion (bypassing NPC claim).
+  # If false, player must claim rewards (via NPC interaction or GUI).
+  auto-claim: false
+
+  # Format for displaying money rewards in chat and menus.
+  # Example: "#,##0.##" will format "1000.50" as "1,000.5", and "130.0" as "130".
+  money-format: "#,##0.##"
+
+# ------------------------------
+#   INTEGRATIONS
+# ------------------------------
+
+integration:
+  # NPC Integration Settings
+  npc:
+    enabled: false
+    # Which NPC plugin to use? 
+    # Options: CITIZENS, FANCYNPCS
+    plugin: FANCYNPCS
+    # Mode of interaction: MIXED, NPC_ONLY, MENU_ONLY
+    mode: MIXED
+    # Button to interact with NPC: RIGHT, LEFT, ANY
+    interaction-button: RIGHT
+
+  # ItemsAdder Integration (Custom Items & Blocks)
+  itemsadder:
+    enabled: false
+
+  # CraftEngine Integration (Custom Items & Blocks)
+  craftengine:
+    enabled: false
+
+  # SkinsRestorer Integration (Skins in GUI)
+  skinsrestorer:
+    enabled: true
+
+  # Vault Integration (Economy Rewards & Requirements)
+  vault:
+    enabled: true
+
+  # WorldGuard Integration (Region Requirements)
+  worldguard:
+    enabled: true
+
+  # PlaceholderAPI Integration (Placeholders for other plugins)
+  placeholderapi:
+    enabled: true
+
+
+# ------------------------------
+#   VISUALS - WORLD
+# ------------------------------
+
+npc-indicators:
+  enabled: true
+  hide-on-moods: ["BUSY", "SAD", "ANGRY"]
+  view-distance: 20.0     # Distance to see indicators
+  offset-y: 0.6           # Height above NPC head
+  icons:
+    available: "<#ffcc66>&l▽"
+    in-progress: "<#a8ff80>&l▽"
+    completed: "<#00ff94>&l✔"
+    cooldown: "<#ff9e80>⌚"
+    locked: "<#ff6666>&l🔒"
+    reward-available: "<#a7ff99>&l🎁"
+    objective: "<#7dd3ff>⛨"
+
+
+# ------------------------------
+#   VISUALS - HUD
+# ------------------------------
+
+# Top System Settings
+top:
+  # Update interval for the leaderboard cache
+  # In ticks (20 ticks = 1 second)
+  # Default: 6000 (5 minutes)
+  update-interval-ticks: 6000
+
+# Progress Bar Settings (Used by BossBar, Scoreboard, ActionBar)
+progress-bar:
+  length: 10
+  filled-symbol: "■"
+  current-symbol: "■"
+  empty-symbol: "■"
+  filled-color: "&a"
+  current-color: "&e"
+  empty-color: "&7"
+
+# BossBar Settings
+bossbar:
+  enabled: true
+  
+  # Title format
+  # Supports placeholders: {quest_name}, {progress}, {target}, {stage}, {total_stages}
+  title: "&e{quest_name} &7[{progress}/{target}]"
+  
+  # BossBar style
+  # Colors: BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW, AUTO
+  # AUTO - Color is determined by the quest name's formatting
+  color: AUTO
+
+  # Display modes:
+  # ON_PROGRESS_CHANGE  - Show only when quest progress changes
+  # STATIC              - Display continuously during active quest
+  mode: "STATIC"
+
+  # Update interval for STATIC mode
+  # In ticks (20 ticks = 1 second)
+  update-interval-ticks: 10
+  
+  # Styles: SOLID, SEGMENTED_6, SEGMENTED_10, SEGMENTED_12, SEGMENTED_20
+  style: SOLID
+
+# Scoreboard Settings
+scoreboard:
+  enabled: true
+
+  # Display modes:
+  # ON_PROGRESS_CHANGE  - Show only when quest progress changes
+  # STATIC              - Display continuously during active quest
+  mode: "STATIC"
+
+  # Whether scores (red numbers) on server versions 1.20.3 or newer should be hidden
+  hide-scores: true
+
+  # Update interval for STATIC mode
+  # In ticks (20 ticks = 1 second)
+  update-interval-ticks: 10
+
+  # Time to keep Scoreboard visible in ON_PROGRESS_CHANGE mode
+  # In ticks (20 ticks = 1 second)
+  hide-delay-ticks: 60
+  
+  # Scoreboard title
+  title: "&6&lQUESTBORN"
+  
+  # Scoreboard lines
+  # Supports placeholders: {quest_name}, {progress}, {target}, {stage}, {total_stages}, {progressbar}
+  lines:
+    - "&7&m------------------"
+    - "&fQuest:"
+    - "{quest_name}"
+    - ""
+    - "&fStage:"
+    - "&e{stage}/{total_stages}"
+    - ""
+    - "{objective_details}"
+    - ""
+    - "&fProgress:"
+    - "{progressbar} &f{progress}&7/&f{target}"
+    - "&7&m------------------"
+
+# Action Bar Settings
+actionbar:
+  enabled: true
+
+  # Display modes:
+  # ON_PROGRESS_CHANGE  - Show only when quest progress changes
+  # STATIC              - Display continuously during active quest
+  mode: "STATIC"
+
+  # Update interval for STATIC mode
+  # In ticks (20 ticks = 1 second)
+  update-interval-ticks: 10
+
+  # Formats
+  formats:
+    stage: "{quest_name}&7: &f{progress}&7/&f{target} &7| &fStage: {stage}/{total_stages} {progressbar}"
+    default: "{quest_name}&7: &f{progress}&7/&f{target} {progressbar}"
+    materials: "{quest_name}&7: &fDeliver items &7| &fStage: {stage}/{total_stages}"
+    legacy-materials: "{quest_name}&7: &fDeliver items"
+
+  # Disable action bar for quest types with frequent updates
+  disabled-for-types:
+    - ELYTRA_FLY
+
+
+# ------------------------------
+#   VISUALS - GUI & CHAT
+# ------------------------------
+
+gui:
+  # Enable or disable quick actions via swap/drop keys in GUI (F/Q)
+  quick-actions-enabled: true
+
+  # Hide quests and quest types in the /quest command if they are bound to an NPC
+  hide-npc-bound-quests: false
+  # Center quests in NPC quest list menu. If false, uses their defined slots or sequential.
+  center-npc-quests: false
+
+  # Center quest types in NPC type selection menu. If false, uses defined slots or sequential.
+  center-npc-types: false
+
+  quest-list:
+    # Display the list of rewards in the quest list GUI
+    show-rewards: false
+
+  transfer:
+    # Formatting for items in the transfer GUI lore
+    # {item} = Item name, {current} = Amount in inventory, {required} = Amount required
+    item-format: "<#707070>[<#cc5555>✖<#707070>] <#cccccc>{item} <#808080>(<#cc5555>{current} <#707070>/ <#808080>{required}<#808080>)"
+    item-format-complete: "<#707070>[<#55cc55>✔<#707070>] <#cccccc>{item} <#808080>(<#55cc55>{current} <#707070>/ <#808080>{required}<#808080>)"
+
+  # Quest details display formatting
+  details:
+    lore-format:
+      blocks: "<#a8ff80> ▪ {value}"                 # {value} = localized block name
+      entities: "<#8280ff> ▪ {value}"               # {raw} = EntityType, {value} = localized name
+      items: "<#b3ff66> ▪ {value}"                  # {value} = localized item name
+      location: "<#ffa666> ▪ <#ffe0b3>{value}"      # {value} = X:150 Y:70 Z:-20
+      fluids: "<#55aaff> ▪ {value}"                 # Fluid/mob related objectives
+      cause: "<#ff7777> ▪ {value}"                  # Teleport/damage cause (objective dependent)
+      time: "<#cc66ff> ▪ {value}"                   # Time-based objectives (e.g., PLAY_TIME, HOLD_ITEM)
+      default: "<#44ff44> ▪ {value}"                # Fallback formatting
+
+  # Quest details progress bar
+  progress-bar:
+    enabled: true
+
+chat:
+  # Show detailed info (objectives, clickable link) in activation/stage messages
+  show-details: true
+
+
+# ------------------------------
+#   AUDIO
+# ------------------------------
+
+sounds:
+  # GUI interaction sound
+  gui-click:
+    sound: "UI_BUTTON_CLICK"
+    volume: 0.4
+    pitch: 1.1
+
+  # Sound played to all online players when a global quest starts
+  global-quest-start:
+    sound: "ITEM_GOAT_HORN_SOUND_0"
+    volume: 0.8
+    pitch: 1.0
+
+  # Sound played to all participants when a global quest completes
+  global-quest-complete:
+    sound: "BLOCK_END_PORTAL_SPAWN"
+    volume: 0.7
+    pitch: 0.7
+
+
+# ------------------------------
+#   OPTIMIZATION
+# ------------------------------
+
+optimization:
+  # Distance-based quest optimization
+  distance-quests:
+    enabled: true
+    min-save-blocks: 1  # Save only whole blocks (no partial progress)
+
+  # Movement handling optimization
+  move-handling:
+    cooldown-ms: 50      # Process movement every 50ms (20 times per second)
+    min-move-distance: 0.2  # Minimum movement distance to process
+
+  # Auto-save configuration
+  auto-save:
+    enabled: true
+    interval-seconds: 600          # Auto-save interval for players in seconds (10 mins)
+    global-interval-seconds: 900   # Auto-save interval for global quests in seconds (15 mins)
+
+  # Debug logging
+  debug:
+    auto-save-log: false   # Enable/disable auto-save logging in console
+
+# ------------------------------
+#   LOGS
+# ------------------------------
+
+logs:
+  enabled: false   # Enable/disable gameplay events logging to logs/YYYY-MM-DD.log

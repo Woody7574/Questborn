@@ -1,0 +1,3013 @@
+locale:
+  items:
+    "abandoned_camp_map": Mapa de Acampamento Abandonado
+    "abandoned_campsite_map": Mapa de Acampamento Abandonado
+    "acacia_boat": Bote de Acácia
+    "acacia_chest_boat": Bote de Acácia com Baú
+    "allay_spawn_egg": Ovo Gerador de Allay
+    "amethyst_shard": Fragmento de Ametista
+    "ancient_city_map": Mapa de Cidade Ancestral
+    "angler_pottery_shard": Óstraco de Pesca
+    "angler_pottery_sherd": Óstraco de Pesca
+    "apple": Maçã
+    "archer_pottery_shard": Óstraco de Arco
+    "archer_pottery_sherd": Óstraco de Arco
+    "armadillo_scute": Escama de Tatu
+    "armadillo_spawn_egg": Ovo Gerador de Tatu
+    "armor_stand": Suporte de Armaduras
+    "arms_up_pottery_shard": Óstraco de Figura
+    "arms_up_pottery_sherd": Óstraco de Figura
+    "arrow": Flecha
+    "axolotl_bucket": Balde com Axolote
+    "axolotl_spawn_egg": Ovo Gerador de Axolote
+    "baked_potato": Batata Assada
+    "bamboo_chest_raft": Jangada de Bambu com Baú
+    "bamboo_raft": Jangada de Bambu
+    "bat_spawn_egg": Ovo Gerador de Morcego
+    "bee_spawn_egg": Ovo Gerador de Abelha
+    "beef": Bife Cru
+    "beetroot": Beterraba
+    "beetroot_seeds": Sementes de Beterraba
+    "beetroot_soup": Ensopado de Beterraba
+    "birch_boat": Bote de Bétula
+    "birch_chest_boat": Bote de Bétula com Baú
+    "black_bundle": Trouxa Preta
+    "black_cushion": Almofada Preta
+    "black_dye": Corante Preto
+    "black_harness": Arreio Preto
+    "blade_pottery_shard": Óstraco de Espada
+    "blade_pottery_sherd": Óstraco de Espada
+    "blaze_powder": Pó de Blaze
+    "blaze_rod": Vara de Blaze
+    "blaze_spawn_egg": Ovo Gerador de Blaze
+    "blue_bundle": Trouxa Azul
+    "blue_cushion": Almofada Azul
+    "blue_dye": Corante Azul
+    "blue_egg": Ovo Azul
+    "blue_harness": Arreio Azul
+    "bogged_spawn_egg": Ovo Gerador de Pantanoso
+    "bolt_armor_trim_smithing_template": Molde de Ferraria
+    "bone": Osso
+    "bone_meal": Farinha de Osso
+    "book": Livro
+    "bordure_indented_banner_pattern": Figura para Estandarte de Bordadura Dentada
+    "bow": Arco
+    "bowl": Tigela
+    "bread": Pão
+    "breeze_rod": Vara de Vórtice
+    "breeze_spawn_egg": Ovo Gerador de Vórtice
+    "brewer_pottery_shard": Óstraco de Poção
+    "brewer_pottery_sherd": Óstraco de Poção
+    "brewing_stand": Suporte de Poções
+    "brick": Tijolo
+    "brown_bundle": Trouxa Marrom
+    "brown_cushion": Almofada Marrom
+    "brown_dye": Corante Marrom
+    "brown_egg": Ovo Marrom
+    "brown_harness": Arreio Marrom
+    "brush": Pincel
+    "bucket": Balde
+    "bundle": Trouxa
+    "bundle_empty_description": Pode carregar um conjunto diverso de itens
+    "buried_ancient_city_map": Mapa de Cidade Ancestral Subterrânea
+    "buried_mineshaft_map": Mapa de Mina Abandonada Subterrânea
+    "buried_treasure_map": Mapa de Tesouro Enterrado
+    "buried_trial_chambers_map": Mapa de Câmara do Desafio Subterrânea
+    "burn_pottery_shard": Óstraco de Fogo
+    "burn_pottery_sherd": Óstraco de Fogo
+    "camel_husk_spawn_egg": Ovo Gerador de Camelo-Múmia
+    "camel_spawn_egg": Ovo Gerador de Camelo
+    "carrot": Cenoura
+    "carrot_on_a_stick": Vara com Cenoura
+    "cat_spawn_egg": Ovo Gerador de Gato
+    "cauldron": Caldeirão
+    "cave_spider_spawn_egg": Ovo Gerador de Aranha das Cavernas
+    "chainmail_boots": Botas de Malha
+    "chainmail_chestplate": Peitoral de Malha
+    "chainmail_helmet": Capacete de Malha
+    "chainmail_leggings": Calças de Malha
+    "charcoal": Carvão Vegetal
+    "cherry_boat": Bote de Cerejeira
+    "cherry_chest_boat": Bote de Cerejeira com Baú
+    "chest_minecart": Carrinho de Mina com Baú
+    "chicken": Frango Cru
+    "chicken_spawn_egg": Ovo Gerador de Galinha
+    "chorus_fruit": Fruta do Coro
+    "clay_ball": Bola de Argila
+    "clock": Relógio
+    "coal": Carvão
+    "coast_armor_trim_smithing_template": Molde de Ferraria
+    "cocoa_beans": Sementes de Cacau
+    "cod": Bacalhau Cru
+    "cod_bucket": Balde com Bacalhau
+    "cod_spawn_egg": Ovo Gerador de Bacalhau
+    "command_block_minecart": Carrinho de Mina com Bloco de Comando
+    "compass": Bússola
+    "cooked_beef": Filé
+    "cooked_chicken": Frango Assado
+    "cooked_cod": Bacalhau Assado
+    "cooked_mutton": Carneiro Assado
+    "cooked_porkchop": Costeleta de Porco Assada
+    "cooked_rabbit": Coelho Assado
+    "cooked_salmon": Salmão Assado
+    "cookie": Biscoito
+    "copper_axe": Machado de Cobre
+    "copper_boots": Botas de Cobre
+    "copper_chestplate": Peitoral de Cobre
+    "copper_golem_spawn_egg": Ovo Gerador de Golem de Cobre
+    "copper_helmet": Capacete de Cobre
+    "copper_hoe": Enxada de Cobre
+    "copper_horse_armor": Armadura de Cobre para Cavalo
+    "copper_ingot": Lingote de Cobre
+    "copper_leggings": Calças de Cobre
+    "copper_nautilus_armor": Armadura de Cobre para Náutilo
+    "copper_nugget": Pepita de Cobre
+    "copper_pickaxe": Picareta de Cobre
+    "copper_shovel": Pá de Cobre
+    "copper_spear": Lança de Cobre
+    "copper_sword": Espada de Cobre
+    "cow_spawn_egg": Ovo Gerador de Vaca
+    "creaking_spawn_egg": Ovo Gerador de Rangente
+    "creeper_banner_pattern": Figura para Estandarte
+    "creeper_spawn_egg": Ovo Gerador de Creeper
+    "crossbow": Besta
+    "crossbow_projectile": "Projétil:"
+    "cyan_bundle": Trouxa Ciano
+    "cyan_cushion": Almofada Ciano
+    "cyan_dye": Corante Ciano
+    "cyan_harness": Arreio Ciano
+    "danger_pottery_shard": Óstraco de Creeper
+    "danger_pottery_sherd": Óstraco de Creeper
+    "dark_oak_boat": Bote de Carvalho Escuro
+    "dark_oak_chest_boat": Bote de Carvalho Escuro com Baú
+    "debug_stick": Graveto de Depuração
+    "desert_pyramid_map": Mapa de Pirâmide do Deserto
+    "desert_village_map": Mapa de Vila do Deserto
+    "diamond": Diamante
+    "diamond_axe": Machado de Diamante
+    "diamond_boots": Botas de Diamante
+    "diamond_chestplate": Peitoral de Diamante
+    "diamond_helmet": Capacete de Diamante
+    "diamond_hoe": Enxada de Diamante
+    "diamond_horse_armor": Armadura de Diamante para Cavalo
+    "diamond_leggings": Calças de Diamante
+    "diamond_nautilus_armor": Armadura de Diamante para Náutilo
+    "diamond_pickaxe": Picareta de Diamante
+    "diamond_shovel": Pá de Diamante
+    "diamond_spear": Lança de Diamante
+    "diamond_sword": Espada de Diamante
+    "disc_fragment_5": Fragmento de Disco
+    "dolphin_spawn_egg": Ovo Gerador de Golfinho
+    "donkey_spawn_egg": Ovo Gerador de Burro
+    "dragon_breath": Bafo do Dragão
+    "dried_kelp": Algas Secas
+    "drowned_spawn_egg": Ovo Gerador de Afogado
+    "dune_armor_trim_smithing_template": Molde de Ferraria
+    "echo_shard": Fragmento de Eco
+    "egg": Ovo
+    "elder_guardian_spawn_egg": Ovo Gerador de Guardião-Mestre
+    "elytra": Élitros
+    "emerald": Esmeralda
+    "enchanted_book": Livro Encantado
+    "enchanted_golden_apple": Maçã Dourada Encantada
+    "end_crystal": Cristal do End
+    "ender_dragon_spawn_egg": Ovo Gerador do Dragão Ender
+    "ender_eye": Olho de Ender
+    "ender_pearl": Pérola de Ender
+    "enderman_spawn_egg": Ovo Gerador de Enderman
+    "endermite_spawn_egg": Ovo Gerador de Endermite
+    "evoker_spawn_egg": Ovo Gerador de Invocador
+    "experience_bottle": Frasco de Experiência
+    "explorer_pottery_shard": Óstraco de Mapa
+    "explorer_pottery_sherd": Óstraco de Mapa
+    "eye_armor_trim_smithing_template": Molde de Ferraria
+    "feather": Pena
+    "fermented_spider_eye": Olho de Aranha Fermentado
+    "field_masoned_banner_pattern": Figura para Estandarte de Muro
+    "filled_map": Mapa
+    "fire_charge": Bola de Fogo
+    "firework_rocket": Fogo de Artifício
+    "firework_star": Estrela de Fogo de Artifício
+    "firework_star_black": preta
+    "firework_star_blue": azul
+    "firework_star_brown": marrom
+    "firework_star_custom_color": personalizada
+    "firework_star_cyan": ciano
+    "firework_star_gray": cinza
+    "firework_star_green": verde
+    "firework_star_light_blue": azul-clara
+    "firework_star_light_gray": cinza-clara
+    "firework_star_lime": verde-limão
+    "firework_star_magenta": magenta
+    "firework_star_orange": laranja
+    "firework_star_pink": rosa
+    "firework_star_purple": roxa
+    "firework_star_red": vermelha
+    "firework_star_shape_burst": Estouro
+    "firework_star_shape_creeper": Formato de Creeper
+    "firework_star_shape_large_ball": Esfera grande
+    "firework_star_shape_small_ball": Esfera pequena
+    "firework_star_shape_star": Formato de estrela
+    "firework_star_white": branca
+    "firework_star_yellow": amarela
+    "fishing_rod": Vara de Pesca
+    "flint": Sílex
+    "flint_and_steel": Pederneira
+    "flow_armor_trim_smithing_template": Molde de Ferraria
+    "flow_banner_pattern": Figura para Estandarte
+    "flow_pottery_sherd": Óstraco de Fluxo
+    "flower_banner_pattern": Figura para Estandarte
+    "flower_pot": Vaso
+    "fox_spawn_egg": Ovo Gerador de Raposa
+    "friend_pottery_shard": Óstraco de Amigo
+    "friend_pottery_sherd": Óstraco de Amigo
+    "frog_spawn_egg": Ovo Gerador de Sapo
+    "furnace_minecart": Carrinho de Mina com Fornalha
+    "ghast_spawn_egg": Ovo Gerador de Ghast
+    "ghast_tear": Lágrima de Ghast
+    "glass_bottle": Frasco de Vidro
+    "glistering_melon_slice": Fatia de Melancia Reluzente
+    "globe_banner_pattern": Figura para Estandarte
+    "glow_berries": Bagas Brilhantes
+    "glow_ink_sac": Bolsa de Tinta Brilhante
+    "glow_item_frame": Moldura Brilhante
+    "glow_squid_spawn_egg": Ovo Gerador de Lula-Brilhante
+    "glowstone_dust": Pó de Pedra Luminosa
+    "goat_horn": Chifre de Cabra
+    "goat_spawn_egg": Ovo Gerador de Cabra
+    "gold_ingot": Lingote de Ouro
+    "gold_nugget": Pepita de Ouro
+    "golden_apple": Maçã Dourada
+    "golden_axe": Machado de Ouro
+    "golden_boots": Botas de Ouro
+    "golden_carrot": Cenoura Dourada
+    "golden_chestplate": Peitoral de Ouro
+    "golden_helmet": Capacete de Ouro
+    "golden_hoe": Enxada de Ouro
+    "golden_horse_armor": Armadura de Ouro para Cavalo
+    "golden_leggings": Calças de Ouro
+    "golden_nautilus_armor": Armadura de Ouro para Náutilo
+    "golden_pickaxe": Picareta de Ouro
+    "golden_shovel": Pá de Ouro
+    "golden_spear": Lança de Ouro
+    "golden_sword": Espada de Ouro
+    "gray_bundle": Trouxa Cinza
+    "gray_cushion": Almofada Cinza
+    "gray_dye": Corante Cinza
+    "gray_harness": Arreio Cinza
+    "green_bundle": Trouxa Verde
+    "green_cushion": Almofada Verde
+    "green_dye": Corante Verde
+    "green_harness": Arreio Verde
+    "guardian_spawn_egg": Ovo Gerador de Guardião
+    "gunpowder": Pólvora
+    "guster_banner_pattern": Figura para Estandarte
+    "guster_pottery_sherd": Óstraco de Vórtice
+    "happy_ghast_spawn_egg": Ovo Gerador de Ghast Feliz
+    "harness": Arreio
+    "heart_of_the_sea": Coração do Mar
+    "heart_pottery_shard": Óstraco de Coração
+    "heart_pottery_sherd": Óstraco de Coração
+    "heartbreak_pottery_shard": Óstraco de Coração Partido
+    "heartbreak_pottery_sherd": Óstraco de Coração Partido
+    "hoglin_spawn_egg": Ovo Gerador de Hoglin
+    "honey_bottle": Frasco de Mel
+    "honeycomb": Favo de Mel
+    "hopper_minecart": Carrinho de Mina com Funil
+    "horse_spawn_egg": Ovo Gerador de Cavalo
+    "host_armor_trim_smithing_template": Molde de Ferraria
+    "howl_pottery_shard": Óstraco de Lobo
+    "howl_pottery_sherd": Óstraco de Lobo
+    "husk_spawn_egg": Ovo Gerador de Zumbi-Múmia
+    "ink_sac": Bolsa de Tinta
+    "iron_axe": Machado de Ferro
+    "iron_boots": Botas de Ferro
+    "iron_chestplate": Peitoral de Ferro
+    "iron_golem_spawn_egg": Ovo Gerador de Golem de Ferro
+    "iron_helmet": Capacete de Ferro
+    "iron_hoe": Enxada de Ferro
+    "iron_horse_armor": Armadura de Ferro para Cavalo
+    "iron_ingot": Lingote de Ferro
+    "iron_leggings": Calças de Ferro
+    "iron_nautilus_armor": Armadura de Ferro para Náutilo
+    "iron_nugget": Pepita de Ferro
+    "iron_pickaxe": Picareta de Ferro
+    "iron_shovel": Pá de Ferro
+    "iron_spear": Lança de Ferro
+    "iron_sword": Espada de Ferro
+    "item_frame": Moldura
+    "jungle_boat": Bote da Selva
+    "jungle_chest_boat": Bote da Selva com Baú
+    "jungle_explorer_map": Mapa de Exploração da Selva
+    "jungle_pyramid_map": Mapa de Pirâmide da Selva
+    "knowledge_book": Enciclopédia
+    "lapis_lazuli": Lápis-Lazúli
+    "lava_bucket": Balde de Lava
+    "lead": Laço
+    "leather": Couro
+    "leather_boots": Botas de Couro
+    "leather_chestplate": Túnica de Couro
+    "leather_helmet": Capuz de Couro
+    "leather_horse_armor": Armadura de Couro para Cavalo
+    "leather_leggings": Calças de Couro
+    "light_blue_bundle": Trouxa Azul-Clara
+    "light_blue_cushion": Almofada Azul-Clara
+    "light_blue_dye": Corante Azul-Claro
+    "light_blue_harness": Arreio Azul-Claro
+    "light_gray_bundle": Trouxa Cinza-Clara
+    "light_gray_cushion": Almofada Cinza-Clara
+    "light_gray_dye": Corante Cinza-Claro
+    "light_gray_harness": Arreio Cinza-Claro
+    "lime_bundle": Trouxa Verde-Limão
+    "lime_cushion": Almofada Verde-Limão
+    "lime_dye": Corante Verde-Limão
+    "lime_harness": Arreio Verde-Limão
+    "lingering_potion": Poção Prolongada
+    "lingering_potion_awkward": Poção Prolongada Estranha
+    "lingering_potion_fire_resistance": Poção Prolongada de Resistência ao Fogo
+    "lingering_potion_harming": Poção Prolongada de Dano
+    "lingering_potion_healing": Poção Prolongada de Cura
+    "lingering_potion_infested": Poção Prolongada de Infestação
+    "lingering_potion_invisibility": Poção Prolongada de Invisibilidade
+    "lingering_potion_leaping": Poção Prolongada de Salto
+    "lingering_potion_levitation": Poção Prolongada de Levitação
+    "lingering_potion_luck": Poção Prolongada de Sorte
+    "lingering_potion_mundane": Poção Prolongada Comum
+    "lingering_potion_night_vision": Poção Prolongada de Visão Noturna
+    "lingering_potion_oozing": Poção Prolongada Pegajosa
+    "lingering_potion_poison": Poção Prolongada de Veneno
+    "lingering_potion_regeneration": Poção Prolongada de Regeneração
+    "lingering_potion_slow_falling": Poção Prolongada de Queda Lenta
+    "lingering_potion_slowness": Poção Prolongada de Lentidão
+    "lingering_potion_strength": Poção Prolongada de Força
+    "lingering_potion_swiftness": Poção Prolongada de Agilidade
+    "lingering_potion_thick": Poção Prolongada Espessa
+    "lingering_potion_turtle_master": Poção Prolongada do Mestre-Tartaruga
+    "lingering_potion_water": Frasco de Água Prolongado
+    "lingering_potion_water_breathing": Poção Prolongada de Respiração Aquática
+    "lingering_potion_weakness": Poção Prolongada de Fraqueza
+    "lingering_potion_weaving": Poção Prolongada de Tecitura
+    "lingering_potion_wind_charged": Poção Prolongada de Ventania
+    "llama_spawn_egg": Ovo Gerador de Lhama
+    "lodestone_compass": Bússola Magnetizada
+    "mace": Maça
+    "magenta_bundle": Trouxa Magenta
+    "magenta_cushion": Almofada Magenta
+    "magenta_dye": Corante Magenta
+    "magenta_harness": Arreio Magenta
+    "magma_cream": Creme de Magma
+    "magma_cube_spawn_egg": Ovo Gerador de Cubo de Magma
+    "mangrove_boat": Bote de Mangue
+    "mangrove_chest_boat": Bote de Mangue com Baú
+    "map": Mapa em Branco
+    "melon_seeds": Sementes de Melancia
+    "melon_slice": Fatia de Melancia
+    "milk_bucket": Balde de Leite
+    "minecart": Carrinho de Mina
+    "miner_pottery_shard": Óstraco de Picareta
+    "miner_pottery_sherd": Óstraco de Picareta
+    "mineshaft_map": Mapa de Mina Abandonada
+    "mojang_banner_pattern": Figura para Estandarte
+    "mooshroom_spawn_egg": Ovo Gerador de Mooshroom
+    "mourner_pottery_shard": Óstraco de Defensor
+    "mourner_pottery_sherd": Óstraco de Defensor
+    "mule_spawn_egg": Ovo Gerador de Mula
+    "mushroom_stew": Ensopado de Cogumelos
+    "music_disc_11": Disco Musical
+    "music_disc_13": Disco Musical
+    "music_disc_5": Disco Musical
+    "music_disc_blocks": Disco Musical
+    "music_disc_bounce": Disco Musical
+    "music_disc_cat": Disco Musical
+    "music_disc_chirp": Disco Musical
+    "music_disc_creator": Disco Musical
+    "music_disc_creator_music_box": Disco Musical
+    "music_disc_far": Disco Musical
+    "music_disc_lava_chicken": Disco Musical
+    "music_disc_mall": Disco Musical
+    "music_disc_mellohi": Disco Musical
+    "music_disc_otherside": Disco Musical
+    "music_disc_pigstep": Disco Musical
+    "music_disc_precipice": Disco Musical
+    "music_disc_relic": Disco Musical
+    "music_disc_stal": Disco Musical
+    "music_disc_strad": Disco Musical
+    "music_disc_tears": Disco Musical
+    "music_disc_wait": Disco Musical
+    "music_disc_ward": Disco Musical
+    "mutton": Carneiro Cru
+    "name_tag": Etiqueta
+    "nautilus_shell": Concha de Náutilo
+    "nautilus_spawn_egg": Ovo Gerador de Náutilo
+    "nether_brick": Tijolo do Nether
+    "nether_star": Estrela do Nether
+    "nether_wart": Fungo do Nether
+    "netherite_axe": Machado de Netherita
+    "netherite_boots": Botas de Netherita
+    "netherite_chestplate": Peitoral de Netherita
+    "netherite_helmet": Capacete de Netherita
+    "netherite_hoe": Enxada de Netherita
+    "netherite_horse_armor": Armadura de Netherita para Cavalo
+    "netherite_ingot": Lingote de Netherita
+    "netherite_leggings": Calças de Netherita
+    "netherite_nautilus_armor": Armadura de Netherita para Náutilo
+    "netherite_pickaxe": Picareta de Netherita
+    "netherite_scrap": Fragmentos de Netherita
+    "netherite_shovel": Pá de Netherita
+    "netherite_spear": Lança de Netherita
+    "netherite_sword": Espada de Netherita
+    "netherite_upgrade_smithing_template": Molde de Ferraria
+    "oak_boat": Bote de Carvalho
+    "oak_chest_boat": Bote de Carvalho com Baú
+    "ocean_explorer_map": Mapa de Exploração do Oceano
+    "ocean_monument_map": Mapa de Monumento do Oceano
+    "ocelot_spawn_egg": Ovo Gerador de Jaguatirica
+    "ominous_bottle": Frasco Sombrio
+    "ominous_trial_key": Chave Sombria do Desafio
+    "orange_bundle": Trouxa Laranja
+    "orange_cushion": Almofada Laranja
+    "orange_dye": Corante Laranja
+    "orange_harness": Arreio Laranja
+    "painting": Quadro
+    "pale_oak_boat": Bote de Carvalho Pálido
+    "pale_oak_chest_boat": Bote de Carvalho Pálido com Baú
+    "panda_spawn_egg": Ovo Gerador de Panda
+    "paper": Papel
+    "parched_spawn_egg": Ovo Gerador de Ressecado
+    "parrot_spawn_egg": Ovo Gerador de Papagaio
+    "phantom_membrane": Membrana de Espectro
+    "phantom_spawn_egg": Ovo Gerador de Espectro
+    "pig_spawn_egg": Ovo Gerador de Porco
+    "piglin_banner_pattern": Figura para Estandarte
+    "piglin_brute_spawn_egg": Ovo Gerador de Piglin Bárbaro
+    "piglin_spawn_egg": Ovo Gerador de Piglin
+    "pillager_spawn_egg": Ovo Gerador de Saqueador
+    "pink_bundle": Trouxa Rosa
+    "pink_cushion": Almofada Rosa
+    "pink_dye": Corante Rosa
+    "pink_harness": Arreio Rosa
+    "pitcher_plant": Planta Ancestral
+    "pitcher_pod": Vagem de Planta Ancestral
+    "plains_village_map": Mapa de Vila da Planície
+    "plenty_pottery_shard": Óstraco de Baú
+    "plenty_pottery_sherd": Óstraco de Baú
+    "poisonous_potato": Batata Venenosa
+    "polar_bear_spawn_egg": Ovo Gerador de Urso-Polar
+    "poplar_boat": Bote de Álamo
+    "poplar_chest_boat": Bote de Álamo com Baú
+    "popped_chorus_fruit": Fruta do Coro Cozida
+    "porkchop": Costeleta de Porco Crua
+    "potato": Batata
+    "potion": Poção
+    "potion_awkward": Poção Estranha
+    "potion_fire_resistance": Poção de Resistência ao Fogo
+    "potion_harming": Poção de Dano
+    "potion_healing": Poção de Cura
+    "potion_infested": Poção de Infestação
+    "potion_invisibility": Poção de Invisibilidade
+    "potion_leaping": Poção de Salto
+    "potion_levitation": Poção de Levitação
+    "potion_luck": Poção de Sorte
+    "potion_mundane": Poção Comum
+    "potion_night_vision": Poção de Visão Noturna
+    "potion_oozing": Poção Pegajosa
+    "potion_poison": Poção de Veneno
+    "potion_regeneration": Poção de Regeneração
+    "potion_slow_falling": Poção de Queda Lenta
+    "potion_slowness": Poção de Lentidão
+    "potion_strength": Poção de Força
+    "potion_swiftness": Poção de Agilidade
+    "potion_thick": Poção Espessa
+    "potion_turtle_master": Poção do Mestre-Tartaruga
+    "potion_water": Frasco de Água
+    "potion_water_breathing": Poção de Respiração Aquática
+    "potion_weakness": Poção de Fraqueza
+    "potion_weaving": Poção de Tecitura
+    "potion_wind_charged": Poção de Ventania
+    "pottery_shard_archer": Óstraco de Arco
+    "pottery_shard_arms_up": Óstraco de Figura
+    "pottery_shard_prize": Óstraco de Joia
+    "pottery_shard_skull": Óstraco de Caveira
+    "powder_snow_bucket": Balde de Neve Fofa
+    "prismarine_crystals": Cristais de Prismarinho
+    "prismarine_shard": Pedaço de Prismarinho
+    "prize_pottery_shard": Óstraco de Joia
+    "prize_pottery_sherd": Óstraco de Joia
+    "pufferfish": Baiacu
+    "pufferfish_bucket": Balde com Baiacu
+    "pufferfish_spawn_egg": Ovo Gerador de Baiacu
+    "pumpkin_pie": Torta de Abóbora
+    "pumpkin_seeds": Sementes de Abóbora
+    "purple_bundle": Trouxa Roxa
+    "purple_cushion": Almofada Roxa
+    "purple_dye": Corante Roxo
+    "purple_harness": Arreio Roxo
+    "quartz": Quartzo do Nether
+    "rabbit": Coelho Cru
+    "rabbit_foot": Pé de Coelho
+    "rabbit_hide": Pele de Coelho
+    "rabbit_spawn_egg": Ovo Gerador de Coelho
+    "rabbit_stew": Ensopado de Coelho
+    "raiser_armor_trim_smithing_template": Molde de Ferraria
+    "ravager_spawn_egg": Ovo Gerador de Devastador
+    "raw_copper": Cobre Bruto
+    "raw_gold": Ouro Bruto
+    "raw_iron": Ferro Bruto
+    "recovery_compass": Bússola de Retomada
+    "red_bundle": Trouxa Vermelha
+    "red_cushion": Almofada Vermelha
+    "red_dye": Corante Vermelho
+    "red_harness": Arreio Vermelho
+    "redstone": Pó de Redstone
+    "resin_brick": Tijolo de Resina
+    "resin_clump": Agregado de Resina
+    "rib_armor_trim_smithing_template": Molde de Ferraria
+    "rotten_flesh": Carne Podre
+    "saddle": Sela
+    "salmon": Salmão Cru
+    "salmon_bucket": Balde com Salmão
+    "salmon_spawn_egg": Ovo Gerador de Salmão
+    "savanna_village_map": Mapa de Vila da Savana
+    "scrape_pottery_sherd": Óstraco de Machado
+    "scute": Escama
+    "sentry_armor_trim_smithing_template": Molde de Ferraria
+    "shaper_armor_trim_smithing_template": Molde de Ferraria
+    "sheaf_pottery_shard": Óstraco de Trigo
+    "sheaf_pottery_sherd": Óstraco de Trigo
+    "shears": Tesoura
+    "sheep_spawn_egg": Ovo Gerador de Ovelha
+    "shelter_pottery_shard": Óstraco de Árvore
+    "shelter_pottery_sherd": Óstraco de Árvore
+    "shield": Escudo
+    "shield_black": Escudo Preto
+    "shield_blue": Escudo Azul
+    "shield_brown": Escudo Marrom
+    "shield_cyan": Escudo Ciano
+    "shield_gray": Escudo Cinza
+    "shield_green": Escudo Verde
+    "shield_light_blue": Escudo Azul-Claro
+    "shield_light_gray": Escudo Cinza-Claro
+    "shield_lime": Escudo Verde-Limão
+    "shield_magenta": Escudo Magenta
+    "shield_orange": Escudo Laranja
+    "shield_pink": Escudo Rosa
+    "shield_purple": Escudo Roxo
+    "shield_red": Escudo Vermelho
+    "shield_white": Escudo Branco
+    "shield_yellow": Escudo Amarelo
+    "shulker_shell": Casco de Shulker
+    "shulker_spawn_egg": Ovo Gerador de Shulker
+    "sign": Placa
+    "silence_armor_trim_smithing_template": Molde de Ferraria
+    "silverfish_spawn_egg": Ovo Gerador de Traça
+    "skeleton_horse_spawn_egg": Ovo Gerador de Cavalo-Esqueleto
+    "skeleton_spawn_egg": Ovo Gerador de Esqueleto
+    "skull_banner_pattern": Figura para Estandarte
+    "skull_pottery_shard": Óstraco de Caveira
+    "skull_pottery_sherd": Óstraco de Caveira
+    "slime_ball": Bola de Slime
+    "slime_spawn_egg": Ovo Gerador de Slime
+    "smithing_template": Molde de Ferraria
+    "sniffer_spawn_egg": Ovo Gerador de Farejador
+    "snort_pottery_shard": Óstraco de Farejador
+    "snort_pottery_sherd": Óstraco de Farejador
+    "snout_armor_trim_smithing_template": Molde de Ferraria
+    "snow_golem_spawn_egg": Ovo Gerador de Golem de Neve
+    "snowball": Bola de Neve
+    "snowy_village_map": Mapa de Vila da Planície Nevada
+    "spectral_arrow": Flecha Espectral
+    "spider_eye": Olho de Aranha
+    "spider_spawn_egg": Ovo Gerador de Aranha
+    "spire_armor_trim_smithing_template": Molde de Ferraria
+    "splash_potion": Poção Arremessável
+    "splash_potion_awkward": Poção Arremessável Estranha
+    "splash_potion_fire_resistance": Poção Arremessável de Resistência ao Fogo
+    "splash_potion_harming": Poção Arremessável de Dano
+    "splash_potion_healing": Poção Arremessável de Cura
+    "splash_potion_infested": Poção Arremessável de Infestação
+    "splash_potion_invisibility": Poção Arremessável de Invisibilidade
+    "splash_potion_leaping": Poção Arremessável de Salto
+    "splash_potion_levitation": Poção Arremessável de Levitação
+    "splash_potion_luck": Poção Arremessável de Sorte
+    "splash_potion_mundane": Poção Arremessável Comum
+    "splash_potion_night_vision": Poção Arremessável de Visão Noturna
+    "splash_potion_oozing": Poção Arremessável Pegajosa
+    "splash_potion_poison": Poção Arremessável de Veneno
+    "splash_potion_regeneration": Poção Arremessável de Regeneração
+    "splash_potion_slow_falling": Poção Arremessável de Queda Lenta
+    "splash_potion_slowness": Poção Arremessável de Lentidão
+    "splash_potion_strength": Poção Arremessável de Força
+    "splash_potion_swiftness": Poção Arremessável de Agilidade
+    "splash_potion_thick": Poção Arremessável Espessa
+    "splash_potion_turtle_master": Poção Arremessável do Mestre-Tartaruga
+    "splash_potion_water": Frasco de Água Arremessável
+    "splash_potion_water_breathing": Poção Arremessável de Respiração Aquática
+    "splash_potion_weakness": Poção Arremessável de Fraqueza
+    "splash_potion_weaving": Poção Arremessável de Tecitura
+    "splash_potion_wind_charged": Poção Arremessável de Ventania
+    "spruce_boat": Bote de Abeto
+    "spruce_chest_boat": Bote de Abeto com Baú
+    "spyglass": Luneta
+    "squid_spawn_egg": Ovo Gerador de Lula
+    "stick": Graveto
+    "stone_axe": Machado de Pedra
+    "stone_hoe": Enxada de Pedra
+    "stone_pickaxe": Picareta de Pedra
+    "stone_shovel": Pá de Pedra
+    "stone_spear": Lança de Pedra
+    "stone_sword": Espada de Pedra
+    "straw_bed": Cama de Palha
+    "stray_spawn_egg": Ovo Gerador de Errante
+    "strider_spawn_egg": Ovo Gerador de Lavagante
+    "string": Linha
+    "sugar": Açúcar
+    "sulfur_cube_bucket": Balde com Cubo de Enxofre
+    "sulfur_cube_spawn_egg": Ovo Gerador de Cubo de Enxofre
+    "suspicious_stew": Ensopado Suspeito
+    "swamp_explorer_map": Mapa de Exploração do Pântano
+    "swamp_hut_map": Mapa de Cabana do Pântano
+    "sweet_berries": Bagas Doces
+    "tadpole_bucket": Balde com Girino
+    "tadpole_spawn_egg": Ovo Gerador de Girino
+    "taiga_village_map": Mapa de Vila da Taiga
+    "tide_armor_trim_smithing_template": Molde de Ferraria
+    "tipped_arrow": Flecha com Efeito
+    "tipped_arrow_awkward": Flecha com Efeito
+    "tipped_arrow_fire_resistance": Flecha de Resistência ao Fogo
+    "tipped_arrow_harming": Flecha de Dano
+    "tipped_arrow_healing": Flecha de Cura
+    "tipped_arrow_infested": Flecha de Infestação
+    "tipped_arrow_invisibility": Flecha de Invisibilidade
+    "tipped_arrow_leaping": Flecha de Salto
+    "tipped_arrow_levitation": Flecha de Levitação
+    "tipped_arrow_luck": Flecha de Sorte
+    "tipped_arrow_mundane": Flecha com Efeito
+    "tipped_arrow_night_vision": Flecha de Visão Noturna
+    "tipped_arrow_oozing": Flecha Pegajosa
+    "tipped_arrow_poison": Flecha de Veneno
+    "tipped_arrow_regeneration": Flecha de Regeneração
+    "tipped_arrow_slow_falling": Flecha de Queda Lenta
+    "tipped_arrow_slowness": Flecha de Lentidão
+    "tipped_arrow_strength": Flecha de Força
+    "tipped_arrow_swiftness": Flecha de Agilidade
+    "tipped_arrow_thick": Flecha com Efeito
+    "tipped_arrow_turtle_master": Flecha do Mestre-Tartaruga
+    "tipped_arrow_water": Flecha sem Efeito
+    "tipped_arrow_water_breathing": Flecha de Respiração Aquática
+    "tipped_arrow_weakness": Flecha de Fraqueza
+    "tipped_arrow_weaving": Flecha de Tecitura
+    "tipped_arrow_wind_charged": Flecha de Ventania
+    "tnt_minecart": Carrinho de Mina com TNT
+    "torchflower_seeds": Sementes de Plantocha
+    "totem_of_undying": Totem da Imortalidade
+    "trader_llama_spawn_egg": Ovo Gerador de Lhama do Vendedor
+    "trial_explorer_map": Mapa de Exploração de Desafios
+    "trial_key": Chave do Desafio
+    "trident": Tridente
+    "tropical_fish": Peixe Tropical
+    "tropical_fish_bucket": Balde com Peixe Tropical
+    "tropical_fish_spawn_egg": Ovo Gerador de Peixe Tropical
+    "turtle_helmet": Casco de Tartaruga
+    "turtle_scute": Escama de Tartaruga
+    "turtle_spawn_egg": Ovo Gerador de Tartaruga
+    "vex_armor_trim_smithing_template": Molde de Ferraria
+    "vex_spawn_egg": Ovo Gerador de Vex
+    "villager_spawn_egg": Ovo Gerador de Aldeão
+    "vindicator_spawn_egg": Ovo Gerador de Vingador
+    "wandering_trader_spawn_egg": Ovo Gerador de Vendedor Ambulante
+    "ward_armor_trim_smithing_template": Molde de Ferraria
+    "warden_spawn_egg": Ovo Gerador de Defensor
+    "warm_ocean_ruins_map": Mapa de Ruínas Oceânicas Quentes
+    "warped_fungus_on_a_stick": Vara com Fungo Distorcido
+    "water_bucket": Balde de Água
+    "wayfinder_armor_trim_smithing_template": Molde de Ferraria
+    "wheat": Trigo
+    "wheat_seeds": Sementes de Trigo
+    "white_bundle": Trouxa Branca
+    "white_cushion": Almofada Branca
+    "white_dye": Corante Branco
+    "white_harness": Arreio Branco
+    "wild_armor_trim_smithing_template": Molde de Ferraria
+    "wind_charge": Projétil de Vento
+    "witch_spawn_egg": Ovo Gerador de Bruxa
+    "wither_skeleton_spawn_egg": Ovo Gerador de Esqueleto Wither
+    "wither_spawn_egg": Ovo Gerador do Wither
+    "wolf_armor": Armadura de Lobo
+    "wolf_spawn_egg": Ovo Gerador de Lobo
+    "wooden_axe": Machado de Madeira
+    "wooden_hoe": Enxada de Madeira
+    "wooden_pickaxe": Picareta de Madeira
+    "wooden_shovel": Pá de Madeira
+    "wooden_spear": Lança de Madeira
+    "wooden_sword": Espada de Madeira
+    "woodland_explorer_map": Mapa de Exploração da Floresta
+    "woodland_mansion_map": Mapa de Mansão da Floresta
+    "writable_book": Livro e Pena
+    "written_book": Livro Escrito
+    "yellow_bundle": Trouxa Amarela
+    "yellow_cushion": Almofada Amarela
+    "yellow_dye": Corante Amarelo
+    "yellow_harness": Arreio Amarelo
+    "zoglin_spawn_egg": Ovo Gerador de Zoglin
+    "zombie_horse_spawn_egg": Ovo Gerador de Cavalo-Zumbi
+    "zombie_nautilus_spawn_egg": Ovo Gerador de Náutilo-Zumbi
+    "zombie_spawn_egg": Ovo Gerador de Zumbi
+    "zombie_villager_spawn_egg": Ovo Gerador de Aldeão Zumbi
+    "zombified_piglin_spawn_egg": Ovo Gerador de Piglin-Zumbi
+  blocks:
+    "acacia_button": Botão de Acácia
+    "acacia_door": Porta de Acácia
+    "acacia_fence": Cerca de Acácia
+    "acacia_fence_gate": Portão de Acácia
+    "acacia_hanging_sign": Placa Suspensa de Acácia
+    "acacia_leaves": Folhas de Acácia
+    "acacia_log": Tronco de Acácia
+    "acacia_planks": Tábuas de Acácia
+    "acacia_pressure_plate": Placa de Pressão de Acácia
+    "acacia_sapling": Muda de Acácia
+    "acacia_shelf": Estante de Acácia
+    "acacia_sign": Placa de Acácia
+    "acacia_slab": Laje de Acácia
+    "acacia_stairs": Escadas de Acácia
+    "acacia_trapdoor": Alçapão de Acácia
+    "acacia_wall_hanging_sign": Placa Suspensa de Acácia de Parede
+    "acacia_wall_sign": Placa de Acácia de Parede
+    "acacia_wood": Madeira de Acácia
+    "activator_rail": Trilho Ativador
+    "air": Ar
+    "allium": Alho-Silvestre
+    "amethyst_block": Bloco de Ametista
+    "amethyst_cluster": Agregado de Ametista
+    "ancient_debris": Detritos Ancestrais
+    "andesite": Andesito
+    "andesite_slab": Laje de Andesito
+    "andesite_stairs": Escadas de Andesito
+    "andesite_wall": Muro de Andesito
+    "anvil": Bigorna
+    "attached_melon_stem": Caule de Melancia Unido
+    "attached_pumpkin_stem": Caule de Abóbora Unido
+    "azalea": Azaleia
+    "azalea_leaves": Folhas de Azaleia
+    "azure_bluet": Flor-Silvestre-Azul
+    "bamboo": Bambu
+    "bamboo_block": Bloco de Bambu
+    "bamboo_button": Botão de Bambu
+    "bamboo_door": Porta de Bambu
+    "bamboo_fence": Cerca de Bambu
+    "bamboo_fence_gate": Portão de Bambu
+    "bamboo_hanging_sign": Placa Suspensa de Bambu
+    "bamboo_mosaic": Mosaico de Bambu
+    "bamboo_mosaic_slab": Laje de Mosaico de Bambu
+    "bamboo_mosaic_stairs": Escadas de Mosaico de Bambu
+    "bamboo_planks": Tábuas de Bambu
+    "bamboo_pressure_plate": Placa de Pressão de Bambu
+    "bamboo_sapling": Muda de Bambu
+    "bamboo_shelf": Estante de Bambu
+    "bamboo_sign": Placa de Bambu
+    "bamboo_slab": Laje de Bambu
+    "bamboo_stairs": Escadas de Bambu
+    "bamboo_trapdoor": Alçapão de Bambu
+    "bamboo_wall_hanging_sign": Placa Suspensa de Bambu de Parede
+    "bamboo_wall_sign": Placa de Bambu de Parede
+    "banner_base_black": Campo Preto
+    "banner_base_blue": Campo Azul
+    "banner_base_brown": Campo Marrom
+    "banner_base_cyan": Campo Ciano
+    "banner_base_gray": Campo Cinza
+    "banner_base_green": Campo Verde
+    "banner_base_light_blue": Campo Azul-Claro
+    "banner_base_light_gray": Campo Cinza-Claro
+    "banner_base_lime": Campo Verde-Limão
+    "banner_base_magenta": Campo Magenta
+    "banner_base_orange": Campo Laranja
+    "banner_base_pink": Campo Rosa
+    "banner_base_purple": Campo Roxo
+    "banner_base_red": Campo Vermelho
+    "banner_base_white": Campo Branco
+    "banner_base_yellow": Campo Amarelo
+    "banner_border_black": Bordadura Preta
+    "banner_border_blue": Bordadura Azul
+    "banner_border_brown": Bordadura Marrom
+    "banner_border_cyan": Bordadura Ciano
+    "banner_border_gray": Bordadura Cinza
+    "banner_border_green": Bordadura Verde
+    "banner_border_light_blue": Bordadura Azul-Clara
+    "banner_border_light_gray": Bordadura Cinza-Clara
+    "banner_border_lime": Bordadura Verde-Limão
+    "banner_border_magenta": Bordadura Magenta
+    "banner_border_orange": Bordadura Laranja
+    "banner_border_pink": Bordadura Rosa
+    "banner_border_purple": Bordadura Roxa
+    "banner_border_red": Bordadura Vermelha
+    "banner_border_white": Bordadura Branca
+    "banner_border_yellow": Bordadura Amarela
+    "banner_bricks_black": Muro Preto
+    "banner_bricks_blue": Muro Azul
+    "banner_bricks_brown": Muro Marrom
+    "banner_bricks_cyan": Muro Ciano
+    "banner_bricks_gray": Muro Cinza
+    "banner_bricks_green": Muro Verde
+    "banner_bricks_light_blue": Muro Azul-Claro
+    "banner_bricks_light_gray": Muro Cinza-Claro
+    "banner_bricks_lime": Muro Verde-Limão
+    "banner_bricks_magenta": Muro Magenta
+    "banner_bricks_orange": Muro Laranja
+    "banner_bricks_pink": Muro Rosa
+    "banner_bricks_purple": Muro Roxo
+    "banner_bricks_red": Muro Vermelho
+    "banner_bricks_white": Muro Branco
+    "banner_bricks_yellow": Muro Amarelo
+    "banner_circle_black": Besante Preto
+    "banner_circle_blue": Besante Azul
+    "banner_circle_brown": Besante Marrom
+    "banner_circle_cyan": Besante Ciano
+    "banner_circle_gray": Besante Cinza
+    "banner_circle_green": Besante Verde
+    "banner_circle_light_blue": Besante Azul-Claro
+    "banner_circle_light_gray": Besante Cinza-Claro
+    "banner_circle_lime": Besante Verde-Limão
+    "banner_circle_magenta": Besante Magenta
+    "banner_circle_orange": Besante Laranja
+    "banner_circle_pink": Besante Rosa
+    "banner_circle_purple": Besante Roxo
+    "banner_circle_red": Besante Vermelho
+    "banner_circle_white": Besante Branco
+    "banner_circle_yellow": Besante Amarelo
+    "banner_creeper_black": Figura de Creeper Preto
+    "banner_creeper_blue": Figura de Creeper Azul
+    "banner_creeper_brown": Figura de Creeper Marrom
+    "banner_creeper_cyan": Figura de Creeper Ciano
+    "banner_creeper_gray": Figura de Creeper Cinza
+    "banner_creeper_green": Figura de Creeper Verde
+    "banner_creeper_light_blue": Figura de Creeper Azul-Claro
+    "banner_creeper_light_gray": Figura de Creeper Cinza-Claro
+    "banner_creeper_lime": Figura de Creeper Verde-Limão
+    "banner_creeper_magenta": Figura de Creeper Magenta
+    "banner_creeper_orange": Figura de Creeper Laranja
+    "banner_creeper_pink": Figura de Creeper Rosa
+    "banner_creeper_purple": Figura de Creeper Roxo
+    "banner_creeper_red": Figura de Creeper Vermelho
+    "banner_creeper_white": Figura de Creeper Branco
+    "banner_creeper_yellow": Figura de Creeper Amarelo
+    "banner_cross_black": Aspa Preta
+    "banner_cross_blue": Aspa Azul
+    "banner_cross_brown": Aspa Marrom
+    "banner_cross_cyan": Aspa Ciano
+    "banner_cross_gray": Aspa Cinza
+    "banner_cross_green": Aspa Verde
+    "banner_cross_light_blue": Aspa Azul-Clara
+    "banner_cross_light_gray": Aspa Cinza-Clara
+    "banner_cross_lime": Aspa Verde-Limão
+    "banner_cross_magenta": Aspa Magenta
+    "banner_cross_orange": Aspa Laranja
+    "banner_cross_pink": Aspa Rosa
+    "banner_cross_purple": Aspa Roxa
+    "banner_cross_red": Aspa Vermelha
+    "banner_cross_white": Aspa Branca
+    "banner_cross_yellow": Aspa Amarela
+    "banner_curly_border_black": Bordadura Dentada Preta
+    "banner_curly_border_blue": Bordadura Dentada Azul
+    "banner_curly_border_brown": Bordadura Dentada Marrom
+    "banner_curly_border_cyan": Bordadura Dentada Ciano
+    "banner_curly_border_gray": Bordadura Dentada Cinza
+    "banner_curly_border_green": Bordadura Dentada Verde
+    "banner_curly_border_light_blue": Bordadura Dentada Azul-Clara
+    "banner_curly_border_light_gray": Bordadura Dentada Cinza-Clara
+    "banner_curly_border_lime": Bordadura Dentada Verde-Limão
+    "banner_curly_border_magenta": Bordadura Dentada Magenta
+    "banner_curly_border_orange": Bordadura Dentada Laranja
+    "banner_curly_border_pink": Bordadura Dentada Rosa
+    "banner_curly_border_purple": Bordadura Dentada Roxa
+    "banner_curly_border_red": Bordadura Dentada Vermelha
+    "banner_curly_border_white": Bordadura Dentada Branca
+    "banner_curly_border_yellow": Bordadura Dentada Amarela
+    "banner_diagonal_left_black": Talhado Preto
+    "banner_diagonal_left_blue": Talhado Azul
+    "banner_diagonal_left_brown": Talhado Marrom
+    "banner_diagonal_left_cyan": Talhado Ciano
+    "banner_diagonal_left_gray": Talhado Cinza
+    "banner_diagonal_left_green": Talhado Verde
+    "banner_diagonal_left_light_blue": Talhado Azul-Claro
+    "banner_diagonal_left_light_gray": Talhado Cinza-Claro
+    "banner_diagonal_left_lime": Talhado Verde-Limão
+    "banner_diagonal_left_magenta": Talhado Magenta
+    "banner_diagonal_left_orange": Talhado Laranja
+    "banner_diagonal_left_pink": Talhado Rosa
+    "banner_diagonal_left_purple": Talhado Roxo
+    "banner_diagonal_left_red": Talhado Vermelho
+    "banner_diagonal_left_white": Talhado Branco
+    "banner_diagonal_left_yellow": Talhado Amarelo
+    "banner_diagonal_right_black": Fendido Preto
+    "banner_diagonal_right_blue": Fendido Azul
+    "banner_diagonal_right_brown": Fendido Marrom
+    "banner_diagonal_right_cyan": Fendido Ciano
+    "banner_diagonal_right_gray": Fendido Cinza
+    "banner_diagonal_right_green": Fendido Verde
+    "banner_diagonal_right_light_blue": Fendido Azul-Claro
+    "banner_diagonal_right_light_gray": Fendido Cinza-Claro
+    "banner_diagonal_right_lime": Fendido Verde-Limão
+    "banner_diagonal_right_magenta": Fendido Magenta
+    "banner_diagonal_right_orange": Fendido Laranja
+    "banner_diagonal_right_pink": Fendido Rosa
+    "banner_diagonal_right_purple": Fendido Roxo
+    "banner_diagonal_right_red": Fendido Vermelho
+    "banner_diagonal_right_white": Fendido Branco
+    "banner_diagonal_right_yellow": Fendido Amarelo
+    "banner_diagonal_up_left_black": Fendido Preto Invertido
+    "banner_diagonal_up_left_blue": Fendido Azul Invertido
+    "banner_diagonal_up_left_brown": Fendido Marrom Invertido
+    "banner_diagonal_up_left_cyan": Fendido Ciano Invertido
+    "banner_diagonal_up_left_gray": Fendido Cinza Invertido
+    "banner_diagonal_up_left_green": Fendido Verde Invertido
+    "banner_diagonal_up_left_light_blue": Fendido Azul-Claro Invertido
+    "banner_diagonal_up_left_light_gray": Fendido Cinza-Claro Invertido
+    "banner_diagonal_up_left_lime": Fendido Verde-Limão Invertido
+    "banner_diagonal_up_left_magenta": Fendido Magenta Invertido
+    "banner_diagonal_up_left_orange": Fendido Laranja Invertido
+    "banner_diagonal_up_left_pink": Fendido Rosa Invertido
+    "banner_diagonal_up_left_purple": Fendido Roxo Invertido
+    "banner_diagonal_up_left_red": Fendido Vermelho Invertido
+    "banner_diagonal_up_left_white": Fendido Branco Invertido
+    "banner_diagonal_up_left_yellow": Fendido Amarelo Invertido
+    "banner_diagonal_up_right_black": Talhado Preto Invertido
+    "banner_diagonal_up_right_blue": Talhado Azul Invertido
+    "banner_diagonal_up_right_brown": Talhado Marrom Invertido
+    "banner_diagonal_up_right_cyan": Talhado Ciano Invertido
+    "banner_diagonal_up_right_gray": Talhado Cinza Invertido
+    "banner_diagonal_up_right_green": Talhado Verde Invertido
+    "banner_diagonal_up_right_light_blue": Talhado Azul-Claro Invertido
+    "banner_diagonal_up_right_light_gray": Talhado Cinza-Claro Invertido
+    "banner_diagonal_up_right_lime": Talhado Verde-Limão Invertido
+    "banner_diagonal_up_right_magenta": Talhado Magenta Invertido
+    "banner_diagonal_up_right_orange": Talhado Laranja Invertido
+    "banner_diagonal_up_right_pink": Talhado Rosa Invertido
+    "banner_diagonal_up_right_purple": Talhado Roxo Invertido
+    "banner_diagonal_up_right_red": Talhado Vermelho Invertido
+    "banner_diagonal_up_right_white": Talhado Branco Invertido
+    "banner_diagonal_up_right_yellow": Talhado Amarelo Invertido
+    "banner_flow_black": Espiral Preta
+    "banner_flow_blue": Espiral Azul
+    "banner_flow_brown": Espiral Marrom
+    "banner_flow_cyan": Espiral Ciano
+    "banner_flow_gray": Espiral Cinza
+    "banner_flow_green": Espiral Verde
+    "banner_flow_light_blue": Espiral Azul-Clara
+    "banner_flow_light_gray": Espiral Cinza-Clara
+    "banner_flow_lime": Espiral Verde-Limão
+    "banner_flow_magenta": Espiral Magenta
+    "banner_flow_orange": Espiral Laranja
+    "banner_flow_pink": Espiral Rosa
+    "banner_flow_purple": Espiral Roxa
+    "banner_flow_red": Espiral Vermelha
+    "banner_flow_white": Espiral Branca
+    "banner_flow_yellow": Espiral Amarela
+    "banner_flower_black": Figura Preta de Flor
+    "banner_flower_blue": Figura Azul de Flor
+    "banner_flower_brown": Figura Marrom de Flor
+    "banner_flower_cyan": Figura Ciano de Flor
+    "banner_flower_gray": Figura Cinza de Flor
+    "banner_flower_green": Figura Verde de Flor
+    "banner_flower_light_blue": Figura Azul-Clara de Flor
+    "banner_flower_light_gray": Figura Cinza-Clara de Flor
+    "banner_flower_lime": Figura Verde-Limão de Flor
+    "banner_flower_magenta": Figura Magenta de Flor
+    "banner_flower_orange": Figura Laranja de Flor
+    "banner_flower_pink": Figura Rosa de Flor
+    "banner_flower_purple": Figura Roxa de Flor
+    "banner_flower_red": Figura Vermelha de Flor
+    "banner_flower_white": Figura Branca de Flor
+    "banner_flower_yellow": Figura Amarela de Flor
+    "banner_globe_black": Globo Preto
+    "banner_globe_blue": Globo Azul
+    "banner_globe_brown": Globo Marrom
+    "banner_globe_cyan": Globo Ciano
+    "banner_globe_gray": Globo Cinza
+    "banner_globe_green": Globo Verde
+    "banner_globe_light_blue": Globo Azul-Claro
+    "banner_globe_light_gray": Globo Cinza-Claro
+    "banner_globe_lime": Globo Verde-Limão
+    "banner_globe_magenta": Globo Magenta
+    "banner_globe_orange": Globo Laranja
+    "banner_globe_pink": Globo Rosa
+    "banner_globe_purple": Globo Roxo
+    "banner_globe_red": Globo Vermelho
+    "banner_globe_white": Globo Branco
+    "banner_globe_yellow": Globo Amarelo
+    "banner_gradient_black": Gradiente Preto
+    "banner_gradient_blue": Gradiente Azul
+    "banner_gradient_brown": Gradiente Marrom
+    "banner_gradient_cyan": Gradiente Ciano
+    "banner_gradient_gray": Gradiente Cinza
+    "banner_gradient_green": Gradiente Verde
+    "banner_gradient_light_blue": Gradiente Azul-Claro
+    "banner_gradient_light_gray": Gradiente Cinza-Claro
+    "banner_gradient_lime": Gradiente Verde-Limão
+    "banner_gradient_magenta": Gradiente Magenta
+    "banner_gradient_orange": Gradiente Laranja
+    "banner_gradient_pink": Gradiente Rosa
+    "banner_gradient_purple": Gradiente Roxo
+    "banner_gradient_red": Gradiente Vermelho
+    "banner_gradient_up_black": Gradiente Preto na Base
+    "banner_gradient_up_blue": Gradiente Azul na Base
+    "banner_gradient_up_brown": Gradiente Marrom na Base
+    "banner_gradient_up_cyan": Gradiente Ciano na Base
+    "banner_gradient_up_gray": Gradiente Cinza na Base
+    "banner_gradient_up_green": Gradiente Verde na Base
+    "banner_gradient_up_light_blue": Gradiente Azul-Claro na Base
+    "banner_gradient_up_light_gray": Gradiente Cinza-Claro na Base
+    "banner_gradient_up_lime": Gradiente Verde-Limão na Base
+    "banner_gradient_up_magenta": Gradiente Magenta na Base
+    "banner_gradient_up_orange": Gradiente Laranja na Base
+    "banner_gradient_up_pink": Gradiente Rosa na Base
+    "banner_gradient_up_purple": Gradiente Roxo na Base
+    "banner_gradient_up_red": Gradiente Vermelho na Base
+    "banner_gradient_up_white": Gradiente Branco na Base
+    "banner_gradient_up_yellow": Gradiente Amarelo na Base
+    "banner_gradient_white": Gradiente Branco
+    "banner_gradient_yellow": Gradiente Amarelo
+    "banner_guster_black": Vórtice Preto
+    "banner_guster_blue": Vórtice Azul
+    "banner_guster_brown": Vórtice Marrom
+    "banner_guster_cyan": Vórtice Ciano
+    "banner_guster_gray": Vórtice Cinza
+    "banner_guster_green": Vórtice Verde
+    "banner_guster_light_blue": Vórtice Azul-Claro
+    "banner_guster_light_gray": Vórtice Cinza-Claro
+    "banner_guster_lime": Vórtice Verde-Limão
+    "banner_guster_magenta": Vórtice Magenta
+    "banner_guster_orange": Vórtice Laranja
+    "banner_guster_pink": Vórtice Rosa
+    "banner_guster_purple": Vórtice Roxo
+    "banner_guster_red": Vórtice Vermelho
+    "banner_guster_white": Vórtice Branco
+    "banner_guster_yellow": Vórtice Amarelo
+    "banner_half_horizontal_black": Cortado Preto
+    "banner_half_horizontal_blue": Cortado Azul
+    "banner_half_horizontal_bottom_black": Cortado Preto Invertido
+    "banner_half_horizontal_bottom_blue": Cortado Azul Invertido
+    "banner_half_horizontal_bottom_brown": Cortado Marrom Invertido
+    "banner_half_horizontal_bottom_cyan": Cortado Ciano Invertido
+    "banner_half_horizontal_bottom_gray": Cortado Cinza Invertido
+    "banner_half_horizontal_bottom_green": Cortado Verde Invertido
+    "banner_half_horizontal_bottom_light_blue": Cortado Azul-Claro Invertido
+    "banner_half_horizontal_bottom_light_gray": Cortado Cinza-Claro Invertido
+    "banner_half_horizontal_bottom_lime": Cortado Verde-Limão Invertido
+    "banner_half_horizontal_bottom_magenta": Cortado Magenta Invertido
+    "banner_half_horizontal_bottom_orange": Cortado Laranja Invertido
+    "banner_half_horizontal_bottom_pink": Cortado Rosa Invertido
+    "banner_half_horizontal_bottom_purple": Cortado Roxo Invertido
+    "banner_half_horizontal_bottom_red": Cortado Vermelho Invertido
+    "banner_half_horizontal_bottom_white": Cortado Branco Invertido
+    "banner_half_horizontal_bottom_yellow": Cortado Amarelo Invertido
+    "banner_half_horizontal_brown": Cortado Marrom
+    "banner_half_horizontal_cyan": Cortado Ciano
+    "banner_half_horizontal_gray": Cortado Cinza
+    "banner_half_horizontal_green": Cortado Verde
+    "banner_half_horizontal_light_blue": Cortado Azul-Claro
+    "banner_half_horizontal_light_gray": Cortado Cinza-Claro
+    "banner_half_horizontal_lime": Cortado Verde-Limão
+    "banner_half_horizontal_magenta": Cortado Magenta
+    "banner_half_horizontal_orange": Cortado Laranja
+    "banner_half_horizontal_pink": Cortado Rosa
+    "banner_half_horizontal_purple": Cortado Roxo
+    "banner_half_horizontal_red": Cortado Vermelho
+    "banner_half_horizontal_white": Cortado Branco
+    "banner_half_horizontal_yellow": Cortado Amarelo
+    "banner_half_vertical_black": Partido Preto
+    "banner_half_vertical_blue": Partido Azul
+    "banner_half_vertical_brown": Partido Marrom
+    "banner_half_vertical_cyan": Partido Ciano
+    "banner_half_vertical_gray": Partido Cinza
+    "banner_half_vertical_green": Partido Verde
+    "banner_half_vertical_light_blue": Partido Azul-Claro
+    "banner_half_vertical_light_gray": Partido Cinza-Claro
+    "banner_half_vertical_lime": Partido Verde-Limão
+    "banner_half_vertical_magenta": Partido Magenta
+    "banner_half_vertical_orange": Partido Laranja
+    "banner_half_vertical_pink": Partido Rosa
+    "banner_half_vertical_purple": Partido Roxo
+    "banner_half_vertical_red": Partido Vermelho
+    "banner_half_vertical_right_black": Partido Preto Invertido
+    "banner_half_vertical_right_blue": Partido Azul Invertido
+    "banner_half_vertical_right_brown": Partido Marrom Invertido
+    "banner_half_vertical_right_cyan": Partido Ciano Invertido
+    "banner_half_vertical_right_gray": Partido Cinza Invertido
+    "banner_half_vertical_right_green": Partido Verde Invertido
+    "banner_half_vertical_right_light_blue": Partido Azul-Claro Invertido
+    "banner_half_vertical_right_light_gray": Partido Cinza-Claro Invertido
+    "banner_half_vertical_right_lime": Partido Verde-Limão Invertido
+    "banner_half_vertical_right_magenta": Partido Magenta Invertido
+    "banner_half_vertical_right_orange": Partido Laranja Invertido
+    "banner_half_vertical_right_pink": Partido Rosa Invertido
+    "banner_half_vertical_right_purple": Partido Roxo Invertido
+    "banner_half_vertical_right_red": Partido Vermelho Invertido
+    "banner_half_vertical_right_white": Partido Branco Invertido
+    "banner_half_vertical_right_yellow": Partido Amarelo Invertido
+    "banner_half_vertical_white": Partido Branco
+    "banner_half_vertical_yellow": Partido Amarelo
+    "banner_mojang_black": Emblema Preto
+    "banner_mojang_blue": Emblema Azul
+    "banner_mojang_brown": Emblema Marrom
+    "banner_mojang_cyan": Emblema Ciano
+    "banner_mojang_gray": Emblema Cinza
+    "banner_mojang_green": Emblema Verde
+    "banner_mojang_light_blue": Emblema Azul-Claro
+    "banner_mojang_light_gray": Emblema Cinza-Claro
+    "banner_mojang_lime": Emblema Verde-Limão
+    "banner_mojang_magenta": Emblema Magenta
+    "banner_mojang_orange": Emblema Laranja
+    "banner_mojang_pink": Emblema Rosa
+    "banner_mojang_purple": Emblema Roxo
+    "banner_mojang_red": Emblema Vermelho
+    "banner_mojang_white": Emblema Branco
+    "banner_mojang_yellow": Emblema Amarelo
+    "banner_piglin_black": Focinho Preto
+    "banner_piglin_blue": Focinho Azul
+    "banner_piglin_brown": Focinho Marrom
+    "banner_piglin_cyan": Focinho Ciano
+    "banner_piglin_gray": Focinho Cinza
+    "banner_piglin_green": Focinho Verde
+    "banner_piglin_light_blue": Focinho Azul-Claro
+    "banner_piglin_light_gray": Focinho Cinza-Claro
+    "banner_piglin_lime": Focinho Verde-Limão
+    "banner_piglin_magenta": Focinho Magenta
+    "banner_piglin_orange": Focinho Laranja
+    "banner_piglin_pink": Focinho Rosa
+    "banner_piglin_purple": Focinho Roxo
+    "banner_piglin_red": Focinho Vermelho
+    "banner_piglin_white": Focinho Branco
+    "banner_piglin_yellow": Focinho Amarelo
+    "banner_rhombus_black": Losango Preto
+    "banner_rhombus_blue": Losango Azul
+    "banner_rhombus_brown": Losango Marrom
+    "banner_rhombus_cyan": Losango Ciano
+    "banner_rhombus_gray": Losango Cinza
+    "banner_rhombus_green": Losango Verde
+    "banner_rhombus_light_blue": Losango Azul-Claro
+    "banner_rhombus_light_gray": Losango Cinza-Claro
+    "banner_rhombus_lime": Losango Verde-Limão
+    "banner_rhombus_magenta": Losango Magenta
+    "banner_rhombus_orange": Losango Laranja
+    "banner_rhombus_pink": Losango Rosa
+    "banner_rhombus_purple": Losango Roxo
+    "banner_rhombus_red": Losango Vermelho
+    "banner_rhombus_white": Losango Branco
+    "banner_rhombus_yellow": Losango Amarelo
+    "banner_skull_black": Figura Preta de Caveira
+    "banner_skull_blue": Figura Azul de Caveira
+    "banner_skull_brown": Figura Marrom de Caveira
+    "banner_skull_cyan": Figura Ciano de Caveira
+    "banner_skull_gray": Figura Cinza de Caveira
+    "banner_skull_green": Figura Verde de Caveira
+    "banner_skull_light_blue": Figura Azul-Clara de Caveira
+    "banner_skull_light_gray": Figura Cinza-Clara de Caveira
+    "banner_skull_lime": Figura Verde-Limão de Caveira
+    "banner_skull_magenta": Figura Magenta de Caveira
+    "banner_skull_orange": Figura Laranja de Caveira
+    "banner_skull_pink": Figura Rosa de Caveira
+    "banner_skull_purple": Figura Roxa de Caveira
+    "banner_skull_red": Figura Vermelha de Caveira
+    "banner_skull_white": Figura Branca de Caveira
+    "banner_skull_yellow": Figura Amarela de Caveira
+    "banner_small_stripes_black": Palado Preto
+    "banner_small_stripes_blue": Palado Azul
+    "banner_small_stripes_brown": Palado Marrom
+    "banner_small_stripes_cyan": Palado Ciano
+    "banner_small_stripes_gray": Palado Cinza
+    "banner_small_stripes_green": Palado Verde
+    "banner_small_stripes_light_blue": Palado Azul-Claro
+    "banner_small_stripes_light_gray": Palado Cinza-Claro
+    "banner_small_stripes_lime": Palado Verde-Limão
+    "banner_small_stripes_magenta": Palado Magenta
+    "banner_small_stripes_orange": Palado Laranja
+    "banner_small_stripes_pink": Palado Rosa
+    "banner_small_stripes_purple": Palado Roxo
+    "banner_small_stripes_red": Palado Vermelho
+    "banner_small_stripes_white": Palado Branco
+    "banner_small_stripes_yellow": Palado Amarelo
+    "banner_square_bottom_left_black": Cantão Preto na Ponta Dextra
+    "banner_square_bottom_left_blue": Cantão Azul na Ponta Dextra
+    "banner_square_bottom_left_brown": Cantão Marrom na Ponta Dextra
+    "banner_square_bottom_left_cyan": Cantão Ciano na Ponta Dextra
+    "banner_square_bottom_left_gray": Cantão Cinza na Ponta Dextra
+    "banner_square_bottom_left_green": Cantão Verde na Ponta Dextra
+    "banner_square_bottom_left_light_blue": Cantão Azul-Claro na Ponta Dextra
+    "banner_square_bottom_left_light_gray": Cantão Cinza-Claro na Ponta Dextra
+    "banner_square_bottom_left_lime": Cantão Verde-Limão na Ponta Dextra
+    "banner_square_bottom_left_magenta": Cantão Magenta na Ponta Dextra
+    "banner_square_bottom_left_orange": Cantão Laranja na Ponta Dextra
+    "banner_square_bottom_left_pink": Cantão Rosa na Ponta Dextra
+    "banner_square_bottom_left_purple": Cantão Roxo na Ponta Dextra
+    "banner_square_bottom_left_red": Cantão Vermelho na Ponta Dextra
+    "banner_square_bottom_left_white": Cantão Branco na Ponta Dextra
+    "banner_square_bottom_left_yellow": Cantão Amarelo na Ponta Dextra
+    "banner_square_bottom_right_black": Cantão Preto na Ponta Sinistra
+    "banner_square_bottom_right_blue": Cantão Azul na Ponta Sinistra
+    "banner_square_bottom_right_brown": Cantão Marrom na Ponta Sinistra
+    "banner_square_bottom_right_cyan": Cantão Ciano na Ponta Sinistra
+    "banner_square_bottom_right_gray": Cantão Cinza na Ponta Sinistra
+    "banner_square_bottom_right_green": Cantão Verde na Ponta Sinistra
+    "banner_square_bottom_right_light_blue": Cantão Azul-Claro na Ponta Sinistra
+    "banner_square_bottom_right_light_gray": Cantão Cinza-Claro na Ponta Sinistra
+    "banner_square_bottom_right_lime": Cantão Verde-Limão na Ponta Sinistra
+    "banner_square_bottom_right_magenta": Cantão Magenta na Ponta Sinistra
+    "banner_square_bottom_right_orange": Cantão Laranja na Ponta Sinistra
+    "banner_square_bottom_right_pink": Cantão Rosa na Ponta Sinistra
+    "banner_square_bottom_right_purple": Cantão Roxo na Ponta Sinistra
+    "banner_square_bottom_right_red": Cantão Vermelho na Ponta Sinistra
+    "banner_square_bottom_right_white": Cantão Branco na Ponta Sinistra
+    "banner_square_bottom_right_yellow": Cantão Amarelo na Ponta Sinistra
+    "banner_square_top_left_black": Cantão Preto no Chefe Dextro
+    "banner_square_top_left_blue": Cantão Azul no Chefe Dextro
+    "banner_square_top_left_brown": Cantão Marrom no Chefe Dextro
+    "banner_square_top_left_cyan": Cantão Ciano no Chefe Dextro
+    "banner_square_top_left_gray": Cantão Cinza no Chefe Dextro
+    "banner_square_top_left_green": Cantão Verde no Chefe Dextro
+    "banner_square_top_left_light_blue": Cantão Azul-Claro no Chefe Dextro
+    "banner_square_top_left_light_gray": Cantão Cinza-Claro no Chefe Dextro
+    "banner_square_top_left_lime": Cantão Verde-Limão no Chefe Dextro
+    "banner_square_top_left_magenta": Cantão Magenta no Chefe Dextro
+    "banner_square_top_left_orange": Cantão Laranja no Chefe Dextro
+    "banner_square_top_left_pink": Cantão Rosa no Chefe Dextro
+    "banner_square_top_left_purple": Cantão Roxo no Chefe Dextro
+    "banner_square_top_left_red": Cantão Vermelho no Chefe Dextro
+    "banner_square_top_left_white": Cantão Branco no Chefe Dextro
+    "banner_square_top_left_yellow": Cantão Amarelo no Chefe Dextro
+    "banner_square_top_right_black": Cantão Preto no Chefe Sinistro
+    "banner_square_top_right_blue": Cantão Azul no Chefe Sinistro
+    "banner_square_top_right_brown": Cantão Marrom no Chefe Sinistro
+    "banner_square_top_right_cyan": Cantão Ciano no Chefe Sinistro
+    "banner_square_top_right_gray": Cantão Cinza no Chefe Sinistro
+    "banner_square_top_right_green": Cantão Verde no Chefe Sinistro
+    "banner_square_top_right_light_blue": Cantão Azul-Claro no Chefe Sinistro
+    "banner_square_top_right_light_gray": Cantão Cinza-Claro no Chefe Sinistro
+    "banner_square_top_right_lime": Cantão Verde-Limão no Chefe Sinistro
+    "banner_square_top_right_magenta": Cantão Magenta no Chefe Sinistro
+    "banner_square_top_right_orange": Cantão Laranja no Chefe Sinistro
+    "banner_square_top_right_pink": Cantão Rosa no Chefe Sinistro
+    "banner_square_top_right_purple": Cantão Roxo no Chefe Sinistro
+    "banner_square_top_right_red": Cantão Vermelho no Chefe Sinistro
+    "banner_square_top_right_white": Cantão Branco no Chefe Sinistro
+    "banner_square_top_right_yellow": Cantão Amarelo no Chefe Sinistro
+    "banner_straight_cross_black": Cruz Preta
+    "banner_straight_cross_blue": Cruz Azul
+    "banner_straight_cross_brown": Cruz Marrom
+    "banner_straight_cross_cyan": Cruz Ciano
+    "banner_straight_cross_gray": Cruz Cinza
+    "banner_straight_cross_green": Cruz Verde
+    "banner_straight_cross_light_blue": Cruz Azul-Clara
+    "banner_straight_cross_light_gray": Cruz Cinza-Clara
+    "banner_straight_cross_lime": Cruz Verde-Limão
+    "banner_straight_cross_magenta": Cruz Magenta
+    "banner_straight_cross_orange": Cruz Laranja
+    "banner_straight_cross_pink": Cruz Rosa
+    "banner_straight_cross_purple": Cruz Roxa
+    "banner_straight_cross_red": Cruz Vermelha
+    "banner_straight_cross_white": Cruz Branca
+    "banner_straight_cross_yellow": Cruz Amarela
+    "banner_stripe_bottom_black": Base Preta
+    "banner_stripe_bottom_blue": Base Azul
+    "banner_stripe_bottom_brown": Base Marrom
+    "banner_stripe_bottom_cyan": Base Ciano
+    "banner_stripe_bottom_gray": Base Cinza
+    "banner_stripe_bottom_green": Base Verde
+    "banner_stripe_bottom_light_blue": Base Azul-Clara
+    "banner_stripe_bottom_light_gray": Base Cinza-Clara
+    "banner_stripe_bottom_lime": Base Verde-Limão
+    "banner_stripe_bottom_magenta": Base Magenta
+    "banner_stripe_bottom_orange": Base Laranja
+    "banner_stripe_bottom_pink": Base Rosa
+    "banner_stripe_bottom_purple": Base Roxa
+    "banner_stripe_bottom_red": Base Vermelha
+    "banner_stripe_bottom_white": Base Branca
+    "banner_stripe_bottom_yellow": Base Amarela
+    "banner_stripe_center_black": Pala Preta
+    "banner_stripe_center_blue": Pala Azul
+    "banner_stripe_center_brown": Pala Marrom
+    "banner_stripe_center_cyan": Pala Ciano
+    "banner_stripe_center_gray": Pala Cinza
+    "banner_stripe_center_green": Pala Verde
+    "banner_stripe_center_light_blue": Pala Azul-Clara
+    "banner_stripe_center_light_gray": Pala Cinza-Clara
+    "banner_stripe_center_lime": Pala Verde-Limão
+    "banner_stripe_center_magenta": Pala Magenta
+    "banner_stripe_center_orange": Pala Laranja
+    "banner_stripe_center_pink": Pala Rosa
+    "banner_stripe_center_purple": Pala Roxa
+    "banner_stripe_center_red": Pala Vermelha
+    "banner_stripe_center_white": Pala Branca
+    "banner_stripe_center_yellow": Pala Amarela
+    "banner_stripe_downleft_black": Banda Sinistra Preta
+    "banner_stripe_downleft_blue": Banda Sinistra Azul
+    "banner_stripe_downleft_brown": Banda Sinistra Marrom
+    "banner_stripe_downleft_cyan": Banda Sinistra Ciano
+    "banner_stripe_downleft_gray": Banda Sinistra Cinza
+    "banner_stripe_downleft_green": Banda Sinistra Verde
+    "banner_stripe_downleft_light_blue": Banda Sinistra Azul-Clara
+    "banner_stripe_downleft_light_gray": Banda Sinistra Cinza-Clara
+    "banner_stripe_downleft_lime": Banda Sinistra Verde-Limão
+    "banner_stripe_downleft_magenta": Banda Sinistra Magenta
+    "banner_stripe_downleft_orange": Banda Sinistra Laranja
+    "banner_stripe_downleft_pink": Banda Sinistra Rosa
+    "banner_stripe_downleft_purple": Banda Sinistra Roxa
+    "banner_stripe_downleft_red": Banda Sinistra Vermelha
+    "banner_stripe_downleft_white": Banda Sinistra Branca
+    "banner_stripe_downleft_yellow": Banda Sinistra Amarela
+    "banner_stripe_downright_black": Banda Preta
+    "banner_stripe_downright_blue": Banda Azul
+    "banner_stripe_downright_brown": Banda Marrom
+    "banner_stripe_downright_cyan": Banda Ciano
+    "banner_stripe_downright_gray": Banda Cinza
+    "banner_stripe_downright_green": Banda Verde
+    "banner_stripe_downright_light_blue": Banda Azul-Clara
+    "banner_stripe_downright_light_gray": Banda Cinza-Clara
+    "banner_stripe_downright_lime": Banda Verde-Limão
+    "banner_stripe_downright_magenta": Banda Magenta
+    "banner_stripe_downright_orange": Banda Laranja
+    "banner_stripe_downright_pink": Banda Rosa
+    "banner_stripe_downright_purple": Banda Roxa
+    "banner_stripe_downright_red": Banda Vermelha
+    "banner_stripe_downright_white": Banda Branca
+    "banner_stripe_downright_yellow": Banda Amarela
+    "banner_stripe_left_black": Pala Dextra Preta
+    "banner_stripe_left_blue": Pala Dextra Azul
+    "banner_stripe_left_brown": Pala Dextra Marrom
+    "banner_stripe_left_cyan": Pala Dextra Ciano
+    "banner_stripe_left_gray": Pala Dextra Cinza
+    "banner_stripe_left_green": Pala Dextra Verde
+    "banner_stripe_left_light_blue": Pala Dextra Azul-Clara
+    "banner_stripe_left_light_gray": Pala Dextra Cinza-Clara
+    "banner_stripe_left_lime": Pala Dextra Verde-Limão
+    "banner_stripe_left_magenta": Pala Dextra Magenta
+    "banner_stripe_left_orange": Pala Dextra Laranja
+    "banner_stripe_left_pink": Pala Dextra Rosa
+    "banner_stripe_left_purple": Pala Dextra Roxa
+    "banner_stripe_left_red": Pala Dextra Vermelha
+    "banner_stripe_left_white": Pala Dextra Branca
+    "banner_stripe_left_yellow": Pala Dextra Amarela
+    "banner_stripe_middle_black": Faixa Preta
+    "banner_stripe_middle_blue": Faixa Azul
+    "banner_stripe_middle_brown": Faixa Marrom
+    "banner_stripe_middle_cyan": Faixa Ciano
+    "banner_stripe_middle_gray": Faixa Cinza
+    "banner_stripe_middle_green": Faixa Verde
+    "banner_stripe_middle_light_blue": Faixa Azul-Clara
+    "banner_stripe_middle_light_gray": Faixa Cinza-Clara
+    "banner_stripe_middle_lime": Faixa Verde-Limão
+    "banner_stripe_middle_magenta": Faixa Magenta
+    "banner_stripe_middle_orange": Faixa Laranja
+    "banner_stripe_middle_pink": Faixa Rosa
+    "banner_stripe_middle_purple": Faixa Roxa
+    "banner_stripe_middle_red": Faixa Vermelha
+    "banner_stripe_middle_white": Faixa Branca
+    "banner_stripe_middle_yellow": Faixa Amarela
+    "banner_stripe_right_black": Pala Sinistra Preta
+    "banner_stripe_right_blue": Pala Sinistra Azul
+    "banner_stripe_right_brown": Pala Sinistra Marrom
+    "banner_stripe_right_cyan": Pala Sinistra Ciano
+    "banner_stripe_right_gray": Pala Sinistra Cinza
+    "banner_stripe_right_green": Pala Sinistra Verde
+    "banner_stripe_right_light_blue": Pala Sinistra Azul-Clara
+    "banner_stripe_right_light_gray": Pala Sinistra Cinza-Clara
+    "banner_stripe_right_lime": Pala Sinistra Verde-Limão
+    "banner_stripe_right_magenta": Pala Sinistra Magenta
+    "banner_stripe_right_orange": Pala Sinistra Laranja
+    "banner_stripe_right_pink": Pala Sinistra Rosa
+    "banner_stripe_right_purple": Pala Sinistra Roxa
+    "banner_stripe_right_red": Pala Sinistra Vermelha
+    "banner_stripe_right_white": Pala Sinistra Branca
+    "banner_stripe_right_yellow": Pala Sinistra Amarela
+    "banner_stripe_top_black": Chefe Preto
+    "banner_stripe_top_blue": Chefe Azul
+    "banner_stripe_top_brown": Chefe Marrom
+    "banner_stripe_top_cyan": Chefe Ciano
+    "banner_stripe_top_gray": Chefe Cinza
+    "banner_stripe_top_green": Chefe Verde
+    "banner_stripe_top_light_blue": Chefe Azul-Claro
+    "banner_stripe_top_light_gray": Chefe Cinza-Claro
+    "banner_stripe_top_lime": Chefe Verde-Limão
+    "banner_stripe_top_magenta": Chefe Magenta
+    "banner_stripe_top_orange": Chefe Laranja
+    "banner_stripe_top_pink": Chefe Rosa
+    "banner_stripe_top_purple": Chefe Roxo
+    "banner_stripe_top_red": Chefe Vermelho
+    "banner_stripe_top_white": Chefe Branco
+    "banner_stripe_top_yellow": Chefe Amarelo
+    "banner_triangle_bottom_black": Asna Preta
+    "banner_triangle_bottom_blue": Asna Azul
+    "banner_triangle_bottom_brown": Asna Marrom
+    "banner_triangle_bottom_cyan": Asna Ciano
+    "banner_triangle_bottom_gray": Asna Cinza
+    "banner_triangle_bottom_green": Asna Verde
+    "banner_triangle_bottom_light_blue": Asna Azul-Clara
+    "banner_triangle_bottom_light_gray": Asna Cinza-Clara
+    "banner_triangle_bottom_lime": Asna Verde-Limão
+    "banner_triangle_bottom_magenta": Asna Magenta
+    "banner_triangle_bottom_orange": Asna Laranja
+    "banner_triangle_bottom_pink": Asna Rosa
+    "banner_triangle_bottom_purple": Asna Roxa
+    "banner_triangle_bottom_red": Asna Vermelha
+    "banner_triangle_bottom_white": Asna Branca
+    "banner_triangle_bottom_yellow": Asna Amarela
+    "banner_triangle_top_black": Asna Preta Invertida
+    "banner_triangle_top_blue": Asna Azul Invertida
+    "banner_triangle_top_brown": Asna Marrom Invertida
+    "banner_triangle_top_cyan": Asna Ciano Invertida
+    "banner_triangle_top_gray": Asna Cinza Invertida
+    "banner_triangle_top_green": Asna Verde Invertida
+    "banner_triangle_top_light_blue": Asna Azul-Clara Invertida
+    "banner_triangle_top_light_gray": Asna Cinza-Clara Invertida
+    "banner_triangle_top_lime": Asna Verde-Limão Invertida
+    "banner_triangle_top_magenta": Asna Magenta Invertida
+    "banner_triangle_top_orange": Asna Laranja Invertida
+    "banner_triangle_top_pink": Asna Rosa Invertida
+    "banner_triangle_top_purple": Asna Roxa Invertida
+    "banner_triangle_top_red": Asna Vermelha Invertida
+    "banner_triangle_top_white": Asna Branca Invertida
+    "banner_triangle_top_yellow": Asna Amarela Invertida
+    "banner_triangles_bottom_black": Dentado Preto na Base
+    "banner_triangles_bottom_blue": Dentado Azul na Base
+    "banner_triangles_bottom_brown": Dentado Marrom na Base
+    "banner_triangles_bottom_cyan": Dentado Ciano na Base
+    "banner_triangles_bottom_gray": Dentado Cinza na Base
+    "banner_triangles_bottom_green": Dentado Verde na Base
+    "banner_triangles_bottom_light_blue": Dentado Azul-Claro na Base
+    "banner_triangles_bottom_light_gray": Dentado Cinza-Claro na Base
+    "banner_triangles_bottom_lime": Dentado Verde-Limão na Base
+    "banner_triangles_bottom_magenta": Dentado Magenta na Base
+    "banner_triangles_bottom_orange": Dentado Laranja na Base
+    "banner_triangles_bottom_pink": Dentado Rosa na Base
+    "banner_triangles_bottom_purple": Dentado Roxo na Base
+    "banner_triangles_bottom_red": Dentado Vermelho na Base
+    "banner_triangles_bottom_white": Dentado Branco na Base
+    "banner_triangles_bottom_yellow": Dentado Amarelo na Base
+    "banner_triangles_top_black": Dentado Preto no Chefe
+    "banner_triangles_top_blue": Dentado Azul no Chefe
+    "banner_triangles_top_brown": Dentado Marrom no Chefe
+    "banner_triangles_top_cyan": Dentado Ciano no Chefe
+    "banner_triangles_top_gray": Dentado Cinza no Chefe
+    "banner_triangles_top_green": Dentado Verde no Chefe
+    "banner_triangles_top_light_blue": Dentado Azul-Claro no Chefe
+    "banner_triangles_top_light_gray": Dentado Cinza-Claro no Chefe
+    "banner_triangles_top_lime": Dentado Verde-Limão no Chefe
+    "banner_triangles_top_magenta": Dentado Magenta no Chefe
+    "banner_triangles_top_orange": Dentado Laranja no Chefe
+    "banner_triangles_top_pink": Dentado Rosa no Chefe
+    "banner_triangles_top_purple": Dentado Roxo no Chefe
+    "banner_triangles_top_red": Dentado Vermelho no Chefe
+    "banner_triangles_top_white": Dentado Branco no Chefe
+    "banner_triangles_top_yellow": Dentado Amarelo no Chefe
+    "barrel": Barril
+    "barrier": Barreira
+    "basalt": Basalto
+    "beacon": Sinalizador
+    "bedrock": Rocha Matriz
+    "bee_nest": Colmeia
+    "beehive": Colmeia Artificial
+    "beetroots": Beterrabas
+    "bell": Sino
+    "big_dripleaf": Plantaforma Grande
+    "big_dripleaf_stem": Caule de Plantaforma Grande
+    "birch_button": Botão de Bétula
+    "birch_door": Porta de Bétula
+    "birch_fence": Cerca de Bétula
+    "birch_fence_gate": Portão de Bétula
+    "birch_hanging_sign": Placa Suspensa de Bétula
+    "birch_leaves": Folhas de Bétula
+    "birch_log": Tronco de Bétula
+    "birch_planks": Tábuas de Bétula
+    "birch_pressure_plate": Placa de Pressão de Bétula
+    "birch_sapling": Muda de Bétula
+    "birch_shelf": Estante de Bétula
+    "birch_sign": Placa de Bétula
+    "birch_slab": Laje de Bétula
+    "birch_stairs": Escadas de Bétula
+    "birch_trapdoor": Alçapão de Bétula
+    "birch_wall_hanging_sign": Placa Suspensa de Bétula de Parede
+    "birch_wall_sign": Placa de Bétula de Parede
+    "birch_wood": Madeira de Bétula
+    "black_banner": Estandarte Preto
+    "black_bed": Cama Preta
+    "black_candle": Vela Preta
+    "black_candle_cake": Bolo com Vela Preta
+    "black_carpet": Tapete Preto
+    "black_concrete": Concreto Preto
+    "black_concrete_powder": Cimento Preto
+    "black_concrete_slab": Laje de Concreto Preto
+    "black_concrete_stairs": Escadas de Concreto Preto
+    "black_glazed_terracotta": Azulejo Preto
+    "black_shulker_box": Caixa de Shulker Preta
+    "black_stained_glass": Vidro Preto
+    "black_stained_glass_pane": Vidraça Preta
+    "black_terracotta": Terracota Preta
+    "black_wool": Lã Preta
+    "black_wool_slab": Laje de Lã Preta
+    "black_wool_stairs": Escadas de Lã Preta
+    "blackstone": Pedra-Negra
+    "blackstone_slab": Laje de Pedra-Negra
+    "blackstone_stairs": Escadas de Pedra-Negra
+    "blackstone_wall": Muro de Pedra-Negra
+    "blast_furnace": Alto-Forno
+    "blue_banner": Estandarte Azul
+    "blue_bed": Cama Azul
+    "blue_candle": Vela Azul
+    "blue_candle_cake": Bolo com Vela Azul
+    "blue_carpet": Tapete Azul
+    "blue_concrete": Concreto Azul
+    "blue_concrete_powder": Cimento Azul
+    "blue_concrete_slab": Laje de Concreto Azul
+    "blue_concrete_stairs": Escadas de Concreto Azul
+    "blue_glazed_terracotta": Azulejo Azul
+    "blue_ice": Gelo Azul
+    "blue_orchid": Orquídea-Azul
+    "blue_shulker_box": Caixa de Shulker Azul
+    "blue_stained_glass": Vidro Azul
+    "blue_stained_glass_pane": Vidraça Azul
+    "blue_terracotta": Terracota Azul
+    "blue_wool": Lã Azul
+    "blue_wool_slab": Laje de Lã Azul
+    "blue_wool_stairs": Escadas de Lã Azul
+    "bone_block": Bloco de Ossos
+    "bookshelf": Estante de Livros
+    "brain_coral": Coral-de-Cérebro
+    "brain_coral_block": Bloco de Coral-de-Cérebro
+    "brain_coral_fan": Gorgônia-de-Cérebro
+    "brain_coral_wall_fan": Gorgônia-de-Cérebro de Parede
+    "brewing_stand": Suporte de Poções
+    "brick_slab": Laje de Tijolos
+    "brick_stairs": Escadas de Tijolos
+    "brick_wall": Muro de Tijolos
+    "bricks": Tijolos
+    "brown_banner": Estandarte Marrom
+    "brown_bed": Cama Marrom
+    "brown_candle": Vela Marrom
+    "brown_candle_cake": Bolo com Vela Marrom
+    "brown_carpet": Tapete Marrom
+    "brown_concrete": Concreto Marrom
+    "brown_concrete_powder": Cimento Marrom
+    "brown_concrete_slab": Laje de Concreto Marrom
+    "brown_concrete_stairs": Escadas de Concreto Marrom
+    "brown_glazed_terracotta": Azulejo Marrom
+    "brown_mushroom": Cogumelo Marrom
+    "brown_mushroom_block": Bloco de Cogumelo Marrom
+    "brown_shulker_box": Caixa de Shulker Marrom
+    "brown_stained_glass": Vidro Marrom
+    "brown_stained_glass_pane": Vidraça Marrom
+    "brown_terracotta": Terracota Marrom
+    "brown_wool": Lã Marrom
+    "brown_wool_slab": Laje de Lã Marrom
+    "brown_wool_stairs": Escadas de Lã Marrom
+    "bubble_column": Coluna de Bolhas
+    "bubble_coral": Coral-de-Bolha
+    "bubble_coral_block": Bloco de Coral-de-Bolha
+    "bubble_coral_fan": Gorgônia-de-Bolha
+    "bubble_coral_wall_fan": Gorgônia-de-Bolha de Parede
+    "budding_amethyst": Drusa de Ametista
+    "bush": Arbusto
+    "cactus": Cacto
+    "cactus_flower": Flor de Cacto
+    "cake": Bolo
+    "calcite": Calcita
+    "calibrated_sculk_sensor": Sensor de Sculk Calibrado
+    "campfire": Fogueira
+    "candle": Vela
+    "candle_cake": Bolo com Vela
+    "carrots": Cenouras
+    "cartography_table": Bancada de Cartografia
+    "carved_pumpkin": Abóbora Esculpida
+    "cauldron": Caldeirão
+    "cave_air": Ar da Caverna
+    "cave_vines": Trepadeiras das Cavernas
+    "cave_vines_plant": Planta de Trepadeiras das Cavernas
+    "chain": Corrente
+    "chain_command_block": Bloco de Comando em Cadeia
+    "cherry_button": Botão de Cerejeira
+    "cherry_door": Porta de Cerejeira
+    "cherry_fence": Cerca de Cerejeira
+    "cherry_fence_gate": Portão de Cerejeira
+    "cherry_hanging_sign": Placa Suspensa de Cerejeira
+    "cherry_leaves": Folhas de Cerejeira
+    "cherry_log": Tronco de Cerejeira
+    "cherry_planks": Tábuas de Cerejeira
+    "cherry_pressure_plate": Placa de Pressão de Cerejeira
+    "cherry_sapling": Muda de Cerejeira
+    "cherry_shelf": Estante de Cerejeira
+    "cherry_sign": Placa de Cerejeira
+    "cherry_slab": Laje de Cerejeira
+    "cherry_stairs": Escadas de Cerejeira
+    "cherry_trapdoor": Alçapão de Cerejeira
+    "cherry_wall_hanging_sign": Placa Suspensa de Cerejeira de Parede
+    "cherry_wall_sign": Placa de Cerejeira de Parede
+    "cherry_wood": Madeira de Cerejeira
+    "chest": Baú
+    "chipped_anvil": Bigorna Rachada
+    "chiseled_bookshelf": Porta-Livros
+    "chiseled_cinnabar": Cinábrio Talhado
+    "chiseled_copper": Cobre Talhado
+    "chiseled_deepslate": Ardosiabissal Talhada
+    "chiseled_nether_bricks": Tijolos do Nether Talhados
+    "chiseled_polished_blackstone": Pedra-Negra Polida Talhada
+    "chiseled_quartz_block": Bloco de Quartzo Talhado
+    "chiseled_red_sandstone": Arenito Vermelho Talhado
+    "chiseled_resin_bricks": Tijolos de Resina Talhados
+    "chiseled_sandstone": Arenito Talhado
+    "chiseled_stone_bricks": Tijolos de Pedra Talhados
+    "chiseled_sulfur": Enxofre Talhado
+    "chiseled_tuff": Tufo Talhado
+    "chiseled_tuff_bricks": Tijolos de Tufo Talhados
+    "chorus_flower": Flor do Coro
+    "chorus_plant": Planta do Coro
+    "cinnabar": Cinábrio
+    "cinnabar_brick_slab": Laje de Tijolos de Cinábrio
+    "cinnabar_brick_stairs": Escadas de Tijolos de Cinábrio
+    "cinnabar_brick_wall": Muro de Tijolos de Cinábrio
+    "cinnabar_bricks": Tijolos de Cinábrio
+    "cinnabar_slab": Laje de Cinábrio
+    "cinnabar_stairs": Escadas de Cinábrio
+    "cinnabar_wall": Muro de Cinábrio
+    "clay": Argila
+    "closed_eyeblossom": Olhoquídea Fechada
+    "coal_block": Bloco de Carvão
+    "coal_ore": Minério de Carvão
+    "coarse_dirt": Terra Infértil
+    "cobbled_deepslate": Pedregulho de Ardosiabissal
+    "cobbled_deepslate_slab": Laje de Pedregulho de Ardosiabissal
+    "cobbled_deepslate_stairs": Escadas de Pedregulho de Ardosiabissal
+    "cobbled_deepslate_wall": Muro de Pedregulho de Ardosiabissal
+    "cobblestone": Pedregulho
+    "cobblestone_slab": Laje de Pedregulho
+    "cobblestone_stairs": Escadas de Pedregulho
+    "cobblestone_wall": Muro de Pedregulho
+    "cobweb": Teia de Aranha
+    "cocoa": Cacau
+    "command_block": Bloco de Comando
+    "comparator": Comparador de Redstone
+    "composter": Composteira
+    "conduit": Conduto
+    "copper_bars": Barras de Cobre
+    "copper_block": Bloco de Cobre
+    "copper_bulb": Lâmpada de Cobre
+    "copper_chain": Corrente de Cobre
+    "copper_chest": Baú de Cobre
+    "copper_door": Porta de Cobre
+    "copper_golem_statue": Estátua de Golem de Cobre
+    "copper_grate": Grade de Cobre
+    "copper_lantern": Lampião de Cobre
+    "copper_ore": Minério de Cobre
+    "copper_torch": Tocha de Cobre
+    "copper_trapdoor": Alçapão de Cobre
+    "copper_wall_torch": Tocha de Cobre de Parede
+    "cornflower": Centáurea
+    "cracked_deepslate_bricks": Tijolos de Ardosiabissal Rachados
+    "cracked_deepslate_tiles": Ladrilhos de Ardosiabissal Rachados
+    "cracked_nether_bricks": Tijolos do Nether Rachados
+    "cracked_polished_blackstone_bricks": Tijolos de Pedra-Negra Polida Rachados
+    "cracked_stone_bricks": Tijolos de Pedra Rachados
+    "crafter": Bancada Automática
+    "crafting_table": Bancada de Trabalho
+    "creaking_heart": Coração de Rangente
+    "creeper_head": Cabeça de Creeper
+    "creeper_wall_head": Cabeça de Creeper de Parede
+    "crimson_button": Botão Carmesim
+    "crimson_door": Porta Carmesim
+    "crimson_fence": Cerca Carmesim
+    "crimson_fence_gate": Portão Carmesim
+    "crimson_fungus": Fungo Carmesim
+    "crimson_hanging_sign": Placa Suspensa Carmesim
+    "crimson_hyphae": Hifas Carmesim
+    "crimson_nylium": Nicélio Carmesim
+    "crimson_planks": Tábuas Carmesim
+    "crimson_pressure_plate": Placa de Pressão Carmesim
+    "crimson_roots": Raízes Carmesim
+    "crimson_shelf": Estante Carmesim
+    "crimson_sign": Placa Carmesim
+    "crimson_slab": Laje Carmesim
+    "crimson_stairs": Escadas Carmesim
+    "crimson_stem": Caule Carmesim
+    "crimson_trapdoor": Alçapão Carmesim
+    "crimson_wall_hanging_sign": Placa Suspensa Carmesim de Parede
+    "crimson_wall_sign": Placa Carmesim de Parede
+    "crying_obsidian": Obsidiana Chorona
+    "cut_copper": Cobre Lapidado
+    "cut_copper_slab": Laje de Cobre Lapidado
+    "cut_copper_stairs": Escadas de Cobre Lapidado
+    "cut_red_sandstone": Arenito Vermelho Lapidado
+    "cut_red_sandstone_slab": Laje de Arenito Vermelho Lapidado
+    "cut_sandstone": Arenito Lapidado
+    "cut_sandstone_slab": Laje de Arenito Lapidado
+    "cyan_banner": Estandarte Ciano
+    "cyan_bed": Cama Ciano
+    "cyan_candle": Vela Ciano
+    "cyan_candle_cake": Bolo com Vela Ciano
+    "cyan_carpet": Tapete Ciano
+    "cyan_concrete": Concreto Ciano
+    "cyan_concrete_powder": Cimento Ciano
+    "cyan_concrete_slab": Laje de Concreto Ciano
+    "cyan_concrete_stairs": Escadas de Concreto Ciano
+    "cyan_glazed_terracotta": Azulejo Ciano
+    "cyan_shulker_box": Caixa de Shulker Ciano
+    "cyan_stained_glass": Vidro Ciano
+    "cyan_stained_glass_pane": Vidraça Ciano
+    "cyan_terracotta": Terracota Ciano
+    "cyan_wool": Lã Ciano
+    "cyan_wool_slab": Laje de Lã Ciano
+    "cyan_wool_stairs": Escadas de Lã Ciano
+    "damaged_anvil": Bigorna Danificada
+    "dandelion": Dente-de-Leão
+    "dark_oak_button": Botão de Carvalho Escuro
+    "dark_oak_door": Porta de Carvalho Escuro
+    "dark_oak_fence": Cerca de Carvalho Escuro
+    "dark_oak_fence_gate": Portão de Carvalho Escuro
+    "dark_oak_hanging_sign": Placa Suspensa de Carvalho Escuro
+    "dark_oak_leaves": Folhas de Carvalho Escuro
+    "dark_oak_log": Tronco de Carvalho Escuro
+    "dark_oak_planks": Tábuas de Carvalho Escuro
+    "dark_oak_pressure_plate": Placa de Pressão de Carvalho Escuro
+    "dark_oak_sapling": Muda de Carvalho Escuro
+    "dark_oak_shelf": Estante de Carvalho Escuro
+    "dark_oak_sign": Placa de Carvalho Escuro
+    "dark_oak_slab": Laje de Carvalho Escuro
+    "dark_oak_stairs": Escadas de Carvalho Escuro
+    "dark_oak_trapdoor": Alçapão de Carvalho Escuro
+    "dark_oak_wall_hanging_sign": Placa Suspensa de Carvalho Escuro de Parede
+    "dark_oak_wall_sign": Placa de Carvalho Escuro de Parede
+    "dark_oak_wood": Madeira de Carvalho Escuro
+    "dark_prismarine": Prismarinho Escuro
+    "dark_prismarine_slab": Laje de Prismarinho Escuro
+    "dark_prismarine_stairs": Escadas de Prismarinho Escuro
+    "daylight_detector": Detector de Luz Solar
+    "dead_brain_coral": Coral-de-Cérebro Morto
+    "dead_brain_coral_block": Bloco de Coral-de-Cérebro Morto
+    "dead_brain_coral_fan": Gorgônia-de-Cérebro Morta
+    "dead_brain_coral_wall_fan": Gorgônia-de-Cérebro Morta de Parede
+    "dead_bubble_coral": Coral-de-Bolha Morto
+    "dead_bubble_coral_block": Bloco de Coral-de-Bolha Morto
+    "dead_bubble_coral_fan": Gorgônia-de-Bolha Morta
+    "dead_bubble_coral_wall_fan": Gorgônia-de-Bolha Morta de Parede
+    "dead_bush": Arbusto Morto
+    "dead_fire_coral": Coral-de-Fogo Morto
+    "dead_fire_coral_block": Bloco de Coral-de-Fogo Morto
+    "dead_fire_coral_fan": Gorgônia-de-Fogo Morta
+    "dead_fire_coral_wall_fan": Gorgônia-de-Fogo Morta de Parede
+    "dead_horn_coral": Coral-de-Chifre Morto
+    "dead_horn_coral_block": Bloco de Coral-de-Chifre Morto
+    "dead_horn_coral_fan": Gorgônia-de-Chifre Morta
+    "dead_horn_coral_wall_fan": Gorgônia-de-Chifre Morta de Parede
+    "dead_tube_coral": Coral-de-Tubo Morto
+    "dead_tube_coral_block": Bloco de Coral-de-Tubo Morto
+    "dead_tube_coral_fan": Gorgônia-de-Tubo Morta
+    "dead_tube_coral_wall_fan": Gorgônia-de-Tubo Morta de Parede
+    "decorated_pot": Vaso Decorado
+    "deepslate": Ardosiabissal
+    "deepslate_brick_slab": Laje de Tijolos de Ardosiabissal
+    "deepslate_brick_stairs": Escadas de Tijolos de Ardosiabissal
+    "deepslate_brick_wall": Muro de Tijolos de Ardosiabissal
+    "deepslate_bricks": Tijolos de Ardosiabissal
+    "deepslate_coal_ore": Minério de Carvão de Ardosiabissal
+    "deepslate_copper_ore": Minério de Cobre de Ardosiabissal
+    "deepslate_diamond_ore": Minério de Diamante de Ardosiabissal
+    "deepslate_emerald_ore": Minério de Esmeralda de Ardosiabissal
+    "deepslate_gold_ore": Minério de Ouro de Ardosiabissal
+    "deepslate_iron_ore": Minério de Ferro de Ardosiabissal
+    "deepslate_lapis_ore": Minério de Lápis-Lazúli de Ardosiabissal
+    "deepslate_redstone_ore": Minério de Redstone de Ardosiabissal
+    "deepslate_tile_slab": Laje de Ladrilhos de Ardosiabissal
+    "deepslate_tile_stairs": Escadas de Ladrilhos de Ardosiabissal
+    "deepslate_tile_wall": Muro de Ladrilhos de Ardosiabissal
+    "deepslate_tiles": Ladrilhos de Ardosiabissal
+    "detector_rail": Trilho Detector
+    "diamond_block": Bloco de Diamante
+    "diamond_ore": Minério de Diamante
+    "diorite": Diorito
+    "diorite_slab": Laje de Diorito
+    "diorite_stairs": Escadas de Diorito
+    "diorite_wall": Muro de Diorito
+    "dirt": Terra
+    "dirt_path": Caminho de Terra
+    "dispenser": Ejetor
+    "dragon_egg": Ovo do Dragão
+    "dragon_head": Cabeça do Dragão
+    "dragon_wall_head": Cabeça do Dragão de Parede
+    "dried_ghast": Ghast Seco
+    "dried_kelp_block": Bloco de Algas Secas
+    "dripstone_block": Bloco de Espeleotema
+    "dropper": Liberador
+    "emerald_block": Bloco de Esmeralda
+    "emerald_ore": Minério de Esmeralda
+    "enchanting_table": Mesa de Encantamentos
+    "end_gateway": Passagem do End
+    "end_portal": Portal do End
+    "end_portal_frame": Moldura do Portal do End
+    "end_rod": Vara do End
+    "end_stone": Pedra do End
+    "end_stone_brick_slab": Laje de Tijolos de Pedra do End
+    "end_stone_brick_stairs": Escadas de Tijolos de Pedra do End
+    "end_stone_brick_wall": Muro de Tijolos de Pedra do End
+    "end_stone_bricks": Tijolos de Pedra do End
+    "ender_chest": Baú de Ender
+    "exposed_chiseled_copper": Cobre Talhado Exposto
+    "exposed_copper": Cobre Exposto
+    "exposed_copper_bars": Barras de Cobre Exposto
+    "exposed_copper_bulb": Lâmpada de Cobre Exposto
+    "exposed_copper_chain": Corrente de Cobre Exposto
+    "exposed_copper_chest": Baú de Cobre Exposto
+    "exposed_copper_door": Porta de Cobre Exposto
+    "exposed_copper_golem_statue": Estátua de Golem de Cobre Exposto
+    "exposed_copper_grate": Grade de Cobre Exposto
+    "exposed_copper_lantern": Lampião de Cobre Exposto
+    "exposed_copper_trapdoor": Alçapão de Cobre Exposto
+    "exposed_cut_copper": Cobre Lapidado Exposto
+    "exposed_cut_copper_slab": Laje de Cobre Lapidado Exposto
+    "exposed_cut_copper_stairs": Escadas de Cobre Lapidado Exposto
+    "exposed_lightning_rod": Para-Raios Exposto
+    "farmland": Terra Arada
+    "fern": Samambaia
+    "fire": Fogo
+    "fire_coral": Coral-de-Fogo
+    "fire_coral_block": Bloco de Coral-de-Fogo
+    "fire_coral_fan": Gorgônia-de-Fogo
+    "fire_coral_wall_fan": Gorgônia-de-Fogo de Parede
+    "firefly_bush": Arbusto-Vaga-Lume
+    "fletching_table": Bancada de Arco e Flecha
+    "flower_pot": Vaso de Flores
+    "flowering_azalea": Azaleia Florescente
+    "flowering_azalea_leaves": Folhas de Azaleia Florescente
+    "frogspawn": Ovos de Sapo
+    "frosted_ice": Gelo Fosco
+    "furnace": Fornalha
+    "gilded_blackstone": Pedra-Negra Dourada
+    "glass": Vidro
+    "glass_pane": Vidraça
+    "glow_lichen": Líquen Brilhante
+    "glowstone": Pedra Luminosa
+    "gold_block": Bloco de Ouro
+    "gold_ore": Minério de Ouro
+    "golden_dandelion": Dente-de-Leão Dourado
+    "granite": Granito
+    "granite_slab": Laje de Granito
+    "granite_stairs": Escadas de Granito
+    "granite_wall": Muro de Granito
+    "grass": Grama
+    "grass_block": Bloco de Grama
+    "gravel": Cascalho
+    "gray_banner": Estandarte Cinza
+    "gray_bed": Cama Cinza
+    "gray_candle": Vela Cinza
+    "gray_candle_cake": Bolo com Vela Cinza
+    "gray_carpet": Tapete Cinza
+    "gray_concrete": Concreto Cinza
+    "gray_concrete_powder": Cimento Cinza
+    "gray_concrete_slab": Laje de Concreto Cinza
+    "gray_concrete_stairs": Escadas de Concreto Cinza
+    "gray_glazed_terracotta": Azulejo Cinza
+    "gray_shulker_box": Caixa de Shulker Cinza
+    "gray_stained_glass": Vidro Cinza
+    "gray_stained_glass_pane": Vidraça Cinza
+    "gray_terracotta": Terracota Cinza
+    "gray_wool": Lã Cinza
+    "gray_wool_slab": Laje de Lã Cinza
+    "gray_wool_stairs": Escadas de Lã Cinza
+    "green_banner": Estandarte Verde
+    "green_bed": Cama Verde
+    "green_candle": Vela Verde
+    "green_candle_cake": Bolo com Vela Verde
+    "green_carpet": Tapete Verde
+    "green_concrete": Concreto Verde
+    "green_concrete_powder": Cimento Verde
+    "green_concrete_slab": Laje de Concreto Verde
+    "green_concrete_stairs": Escadas de Concreto Verde
+    "green_glazed_terracotta": Azulejo Verde
+    "green_shulker_box": Caixa de Shulker Verde
+    "green_stained_glass": Vidro Verde
+    "green_stained_glass_pane": Vidraça Verde
+    "green_terracotta": Terracota Verde
+    "green_wool": Lã Verde
+    "green_wool_slab": Laje de Lã Verde
+    "green_wool_stairs": Escadas de Lã Verde
+    "grindstone": Rebolo
+    "hanging_roots": Raízes Suspensas
+    "hay_block": Fardo de Feno
+    "heavy_core": Núcleo Pesado
+    "heavy_weighted_pressure_plate": Placa de Pressão de Pesagem Pesada
+    "honey_block": Bloco de Mel
+    "honeycomb_block": Bloco de Favo de Mel
+    "hopper": Funil
+    "horn_coral": Coral-de-Chifre
+    "horn_coral_block": Bloco de Coral-de-Chifre
+    "horn_coral_fan": Gorgônia-de-Chifre
+    "horn_coral_wall_fan": Gorgônia-de-Chifre de Parede
+    "ice": Gelo
+    "infested_chiseled_stone_bricks": Tijolos de Pedra Talhados Infestados
+    "infested_cobblestone": Pedregulho Infestado
+    "infested_cracked_stone_bricks": Tijolos de Pedra Rachados Infestados
+    "infested_deepslate": Ardosiabissal Infestada
+    "infested_mossy_stone_bricks": Tijolos de Pedra Musgosos Infestados
+    "infested_stone": Pedra Infestada
+    "infested_stone_bricks": Tijolos de Pedra Infestados
+    "iron_bars": Barras de Ferro
+    "iron_block": Bloco de Ferro
+    "iron_chain": Corrente de Ferro
+    "iron_door": Porta de Ferro
+    "iron_ore": Minério de Ferro
+    "iron_trapdoor": Alçapão de Ferro
+    "jack_o_lantern": Abóbora de Halloween
+    "jigsaw": Bloco-Quebra-Cabeça
+    "jukebox": Toca-Discos
+    "jungle_button": Botão da Selva
+    "jungle_door": Porta da Selva
+    "jungle_fence": Cerca da Selva
+    "jungle_fence_gate": Portão da Selva
+    "jungle_hanging_sign": Placa Suspensa da Selva
+    "jungle_leaves": Folhas da Selva
+    "jungle_log": Tronco da Selva
+    "jungle_planks": Tábuas da Selva
+    "jungle_pressure_plate": Placa de Pressão da Selva
+    "jungle_sapling": Muda da Selva
+    "jungle_shelf": Estante da Selva
+    "jungle_sign": Placa da Selva
+    "jungle_slab": Laje da Selva
+    "jungle_stairs": Escadas da Selva
+    "jungle_trapdoor": Alçapão da Selva
+    "jungle_wall_hanging_sign": Placa Suspensa da Selva de Parede
+    "jungle_wall_sign": Placa da Selva de Parede
+    "jungle_wood": Madeira da Selva
+    "kelp": Alga
+    "kelp_plant": Talo de Alga
+    "ladder": Escada de Mão
+    "lantern": Lampião
+    "lapis_block": Bloco de Lápis-Lazúli
+    "lapis_ore": Minério de Lápis-Lazúli
+    "large_amethyst_bud": Cristal de Ametista Grande
+    "large_fern": Samambaia Grande
+    "lava": Lava
+    "lava_cauldron": Caldeirão de Lava
+    "leaf_litter": Serrapilheira
+    "lectern": Atril
+    "lever": Alavanca
+    "light": Luz
+    "light_blue_banner": Estandarte Azul-Claro
+    "light_blue_bed": Cama Azul-Clara
+    "light_blue_candle": Vela Azul-Clara
+    "light_blue_candle_cake": Bolo com Vela Azul-Clara
+    "light_blue_carpet": Tapete Azul-Claro
+    "light_blue_concrete": Concreto Azul-Claro
+    "light_blue_concrete_powder": Cimento Azul-Claro
+    "light_blue_concrete_slab": Laje de Concreto Azul-Claro
+    "light_blue_concrete_stairs": Escadas de Concreto Azul-Claro
+    "light_blue_glazed_terracotta": Azulejo Azul-Claro
+    "light_blue_shulker_box": Caixa de Shulker Azul-Clara
+    "light_blue_stained_glass": Vidro Azul-Claro
+    "light_blue_stained_glass_pane": Vidraça Azul-Clara
+    "light_blue_terracotta": Terracota Azul-Clara
+    "light_blue_wool": Lã Azul-Clara
+    "light_blue_wool_slab": Laje de Lã Azul-Clara
+    "light_blue_wool_stairs": Escadas de Lã Azul-Clara
+    "light_gray_banner": Estandarte Cinza-Claro
+    "light_gray_bed": Cama Cinza-Clara
+    "light_gray_candle": Vela Cinza-Clara
+    "light_gray_candle_cake": Bolo com Vela Cinza-Clara
+    "light_gray_carpet": Tapete Cinza-Claro
+    "light_gray_concrete": Concreto Cinza-Claro
+    "light_gray_concrete_powder": Cimento Cinza-Claro
+    "light_gray_concrete_slab": Laje de Concreto Cinza-Claro
+    "light_gray_concrete_stairs": Escadas de Concreto Cinza-Claro
+    "light_gray_glazed_terracotta": Azulejo Cinza-Claro
+    "light_gray_shulker_box": Caixa de Shulker Cinza-Clara
+    "light_gray_stained_glass": Vidro Cinza-Claro
+    "light_gray_stained_glass_pane": Vidraça Cinza-Clara
+    "light_gray_terracotta": Terracota Cinza-Clara
+    "light_gray_wool": Lã Cinza-Clara
+    "light_gray_wool_slab": Laje de Lã Cinza-Clara
+    "light_gray_wool_stairs": Escadas de Lã Cinza-Clara
+    "light_weighted_pressure_plate": Placa de Pressão de Pesagem Leve
+    "lightning_rod": Para-Raios
+    "lilac": Lilás
+    "lily_of_the_valley": Lírio-do-Vale
+    "lily_pad": Vitória-Régia
+    "lime_banner": Estandarte Verde-Limão
+    "lime_bed": Cama Verde-Limão
+    "lime_candle": Vela Verde-Limão
+    "lime_candle_cake": Bolo com Vela Verde-Limão
+    "lime_carpet": Tapete Verde-Limão
+    "lime_concrete": Concreto Verde-Limão
+    "lime_concrete_powder": Cimento Verde-Limão
+    "lime_concrete_slab": Laje de Concreto Verde-Limão
+    "lime_concrete_stairs": Escadas de Concreto Verde-Limão
+    "lime_glazed_terracotta": Azulejo Verde-Limão
+    "lime_shulker_box": Caixa de Shulker Verde-Limão
+    "lime_stained_glass": Vidro Verde-Limão
+    "lime_stained_glass_pane": Vidraça Verde-Limão
+    "lime_terracotta": Terracota Verde-Limão
+    "lime_wool": Lã Verde-Limão
+    "lime_wool_slab": Laje de Lã Verde-Limão
+    "lime_wool_stairs": Escadas de Lã Verde-Limão
+    "lodestone": Magnetita
+    "loom": Tear
+    "magenta_banner": Estandarte Magenta
+    "magenta_bed": Cama Magenta
+    "magenta_candle": Vela Magenta
+    "magenta_candle_cake": Bolo com Vela Magenta
+    "magenta_carpet": Tapete Magenta
+    "magenta_concrete": Concreto Magenta
+    "magenta_concrete_powder": Cimento Magenta
+    "magenta_concrete_slab": Laje de Concreto Magenta
+    "magenta_concrete_stairs": Escadas de Concreto Magenta
+    "magenta_glazed_terracotta": Azulejo Magenta
+    "magenta_shulker_box": Caixa de Shulker Magenta
+    "magenta_stained_glass": Vidro Magenta
+    "magenta_stained_glass_pane": Vidraça Magenta
+    "magenta_terracotta": Terracota Magenta
+    "magenta_wool": Lã Magenta
+    "magenta_wool_slab": Laje de Lã Magenta
+    "magenta_wool_stairs": Escadas de Lã Magenta
+    "magma_block": Bloco de Magma
+    "mangrove_button": Botão de Mangue
+    "mangrove_door": Porta de Mangue
+    "mangrove_fence": Cerca de Mangue
+    "mangrove_fence_gate": Portão de Mangue
+    "mangrove_hanging_sign": Placa Suspensa de Mangue
+    "mangrove_leaves": Folhas de Mangue
+    "mangrove_log": Tronco de Mangue
+    "mangrove_planks": Tábuas de Mangue
+    "mangrove_pressure_plate": Placa de Pressão de Mangue
+    "mangrove_propagule": Propágulo de Mangue
+    "mangrove_roots": Raízes de Mangue
+    "mangrove_shelf": Estante de Mangue
+    "mangrove_sign": Placa de Mangue
+    "mangrove_slab": Laje de Mangue
+    "mangrove_stairs": Escadas de Mangue
+    "mangrove_trapdoor": Alçapão de Mangue
+    "mangrove_wall_hanging_sign": Placa Suspensa de Mangue de Parede
+    "mangrove_wall_sign": Placa de Mangue de Parede
+    "mangrove_wood": Madeira de Mangue
+    "medium_amethyst_bud": Cristal de Ametista Médio
+    "melon": Melancia
+    "melon_stem": Caule de Melancia
+    "moss_block": Bloco de Musgo
+    "moss_carpet": Tapete de Musgo
+    "mossy_cobblestone": Pedregulho Musgoso
+    "mossy_cobblestone_slab": Laje de Pedregulho Musgoso
+    "mossy_cobblestone_stairs": Escadas de Pedregulho Musgoso
+    "mossy_cobblestone_wall": Muro de Pedregulho Musgoso
+    "mossy_stone_brick_slab": Laje de Tijolos de Pedra Musgosos
+    "mossy_stone_brick_stairs": Escadas de Tijolos de Pedra Musgosos
+    "mossy_stone_brick_wall": Muro de Tijolos de Pedra Musgosos
+    "mossy_stone_bricks": Tijolos de Pedra Musgosos
+    "moving_piston": Pistão em Movimento
+    "mud": Barro
+    "mud_brick_slab": Laje de Tijolos de Barro
+    "mud_brick_stairs": Escadas de Tijolos de Barro
+    "mud_brick_wall": Muro de Tijolos de Barro
+    "mud_bricks": Tijolos de Barro
+    "muddy_mangrove_roots": Raízes Barrentas de Mangue
+    "mushroom_stem": Caule de Cogumelo
+    "mycelium": Micélio
+    "nether_brick_fence": Cerca de Tijolos do Nether
+    "nether_brick_slab": Laje de Tijolos do Nether
+    "nether_brick_stairs": Escadas de Tijolos do Nether
+    "nether_brick_wall": Muro de Tijolos do Nether
+    "nether_bricks": Tijolos do Nether
+    "nether_gold_ore": Minério de Ouro do Nether
+    "nether_portal": Portal do Nether
+    "nether_quartz_ore": Minério de Quartzo do Nether
+    "nether_sprouts": Brotos do Nether
+    "nether_wart": Fungo do Nether
+    "nether_wart_block": Bloco de Fungos do Nether
+    "netherite_block": Bloco de Netherita
+    "netherrack": Netherrack
+    "note_block": Bloco Musical
+    "oak_button": Botão de Carvalho
+    "oak_door": Porta de Carvalho
+    "oak_fence": Cerca de Carvalho
+    "oak_fence_gate": Portão de Carvalho
+    "oak_hanging_sign": Placa Suspensa de Carvalho
+    "oak_leaves": Folhas de Carvalho
+    "oak_log": Tronco de Carvalho
+    "oak_planks": Tábuas de Carvalho
+    "oak_pressure_plate": Placa de Pressão de Carvalho
+    "oak_sapling": Muda de Carvalho
+    "oak_shelf": Estante de Carvalho
+    "oak_sign": Placa de Carvalho
+    "oak_slab": Laje de Carvalho
+    "oak_stairs": Escadas de Carvalho
+    "oak_trapdoor": Alçapão de Carvalho
+    "oak_wall_hanging_sign": Placa Suspensa de Carvalho de Parede
+    "oak_wall_sign": Placa de Carvalho de Parede
+    "oak_wood": Madeira de Carvalho
+    "observer": Observador
+    "obsidian": Obsidiana
+    "ochre_froglight": Anfibrilho Ocre
+    "ominous_banner": Estandarte Ameaçador
+    "open_eyeblossom": Olhoquídea Aberta
+    "orange_banner": Estandarte Laranja
+    "orange_bed": Cama Laranja
+    "orange_candle": Vela Laranja
+    "orange_candle_cake": Bolo com Vela Laranja
+    "orange_carpet": Tapete Laranja
+    "orange_concrete": Concreto Laranja
+    "orange_concrete_powder": Cimento Laranja
+    "orange_concrete_slab": Laje de Concreto Laranja
+    "orange_concrete_stairs": Escadas de Concreto Laranja
+    "orange_glazed_terracotta": Azulejo Laranja
+    "orange_poplar_leaves": Folhas de Álamo Laranjas
+    "orange_shulker_box": Caixa de Shulker Laranja
+    "orange_stained_glass": Vidro Laranja
+    "orange_stained_glass_pane": Vidraça Laranja
+    "orange_terracotta": Terracota Laranja
+    "orange_tulip": Tulipa Laranja
+    "orange_wool": Lã Laranja
+    "orange_wool_slab": Laje de Lã Laranja
+    "orange_wool_stairs": Escadas de Lã Laranja
+    "oxeye_daisy": Margarida
+    "oxidized_chiseled_copper": Cobre Talhado Oxidado
+    "oxidized_copper": Cobre Oxidado
+    "oxidized_copper_bars": Barras de Cobre Oxidado
+    "oxidized_copper_bulb": Lâmpada de Cobre Oxidado
+    "oxidized_copper_chain": Corrente de Cobre Oxidado
+    "oxidized_copper_chest": Baú de Cobre Oxidado
+    "oxidized_copper_door": Porta de Cobre Oxidado
+    "oxidized_copper_golem_statue": Estátua de Golem de Cobre Oxidado
+    "oxidized_copper_grate": Grade de Cobre Oxidado
+    "oxidized_copper_lantern": Lampião de Cobre Oxidado
+    "oxidized_copper_trapdoor": Alçapão de Cobre Oxidado
+    "oxidized_cut_copper": Cobre Lapidado Oxidado
+    "oxidized_cut_copper_slab": Laje de Cobre Lapidado Oxidado
+    "oxidized_cut_copper_stairs": Escadas de Cobre Lapidado Oxidado
+    "oxidized_lightning_rod": Para-Raios Oxidado
+    "packed_ice": Gelo Compactado
+    "packed_mud": Barro Seco
+    "pale_hanging_moss": Musgo Pálido Suspenso
+    "pale_moss_block": Bloco de Musgo Pálido
+    "pale_moss_carpet": Tapete de Musgo Pálido
+    "pale_oak_button": Botão de Carvalho Pálido
+    "pale_oak_door": Porta de Carvalho Pálido
+    "pale_oak_fence": Cerca de Carvalho Pálido
+    "pale_oak_fence_gate": Portão de Carvalho Pálido
+    "pale_oak_hanging_sign": Placa Suspensa de Carvalho Pálido
+    "pale_oak_leaves": Folhas de Carvalho Pálido
+    "pale_oak_log": Tronco de Carvalho Pálido
+    "pale_oak_planks": Tábuas de Carvalho Pálido
+    "pale_oak_pressure_plate": Placa de Pressão de Carvalho Pálido
+    "pale_oak_sapling": Muda de Carvalho Pálido
+    "pale_oak_shelf": Estante de Carvalho Pálido
+    "pale_oak_sign": Placa de Carvalho Pálido
+    "pale_oak_slab": Laje de Carvalho Pálido
+    "pale_oak_stairs": Escadas de Carvalho Pálido
+    "pale_oak_trapdoor": Alçapão de Carvalho Pálido
+    "pale_oak_wall_hanging_sign": Placa Suspensa de Carvalho Pálido de Parede
+    "pale_oak_wall_sign": Placa de Carvalho Pálido de Parede
+    "pale_oak_wood": Madeira de Carvalho Pálido
+    "pearlescent_froglight": Anfibrilho Perolado
+    "peony": Peônia
+    "petrified_oak_slab": Laje de Carvalho Petrificado
+    "piglin_head": Cabeça de Piglin
+    "piglin_wall_head": Cabeça de Piglin de Parede
+    "pink_banner": Estandarte Rosa
+    "pink_bed": Cama Rosa
+    "pink_candle": Vela Rosa
+    "pink_candle_cake": Bolo com Vela Rosa
+    "pink_carpet": Tapete Rosa
+    "pink_concrete": Concreto Rosa
+    "pink_concrete_powder": Cimento Rosa
+    "pink_concrete_slab": Laje de Concreto Rosa
+    "pink_concrete_stairs": Escadas de Concreto Rosa
+    "pink_glazed_terracotta": Azulejo Rosa
+    "pink_petals": Pétalas Rosas
+    "pink_shulker_box": Caixa de Shulker Rosa
+    "pink_stained_glass": Vidro Rosa
+    "pink_stained_glass_pane": Vidraça Rosa
+    "pink_terracotta": Terracota Rosa
+    "pink_tulip": Tulipa Rosa
+    "pink_wool": Lã Rosa
+    "pink_wool_slab": Laje de Lã Rosa
+    "pink_wool_stairs": Escadas de Lã Rosa
+    "piston": Pistão
+    "piston_head": Cabeça de Pistão
+    "pitcher_crop": Plantio de Planta Ancestral
+    "pitcher_plant": Planta Ancestral
+    "player_head": Cabeça de Jogador
+    "player_wall_head": Cabeça de Jogador de Parede
+    "podzol": Podzol
+    "pointed_dripstone": Espeleotema Pontiagudo
+    "polished_andesite": Andesito Polido
+    "polished_andesite_slab": Laje de Andesito Polido
+    "polished_andesite_stairs": Escadas de Andesito Polido
+    "polished_basalt": Basalto Polido
+    "polished_blackstone": Pedra-Negra Polida
+    "polished_blackstone_brick_slab": Laje de Tijolos de Pedra-Negra Polida
+    "polished_blackstone_brick_stairs": Escadas de Tijolos de Pedra-Negra Polida
+    "polished_blackstone_brick_wall": Muro de Tijolos de Pedra-Negra Polida
+    "polished_blackstone_bricks": Tijolos de Pedra-Negra Polida
+    "polished_blackstone_button": Botão de Pedra-Negra Polida
+    "polished_blackstone_pressure_plate": Placa de Pressão de Pedra-Negra Polida
+    "polished_blackstone_slab": Laje de Pedra-Negra Polida
+    "polished_blackstone_stairs": Escadas de Pedra-Negra Polida
+    "polished_blackstone_wall": Muro de Pedra-Negra Polida
+    "polished_cinnabar": Cinábrio Polido
+    "polished_cinnabar_slab": Laje de Cinábrio Polido
+    "polished_cinnabar_stairs": Escadas de Cinábrio Polido
+    "polished_cinnabar_wall": Muro de Cinábrio Polido
+    "polished_deepslate": Ardosiabissal Polida
+    "polished_deepslate_slab": Laje de Ardosiabissal Polida
+    "polished_deepslate_stairs": Escadas de Ardosiabissal Polida
+    "polished_deepslate_wall": Muro de Ardosiabissal Polida
+    "polished_diorite": Diorito Polido
+    "polished_diorite_slab": Laje de Diorito Polido
+    "polished_diorite_stairs": Escadas de Diorito Polido
+    "polished_granite": Granito Polido
+    "polished_granite_slab": Laje de Granito Polido
+    "polished_granite_stairs": Escadas de Granito Polido
+    "polished_sulfur": Enxofre Polido
+    "polished_sulfur_slab": Laje de Enxofre Polido
+    "polished_sulfur_stairs": Escadas de Enxofre Polido
+    "polished_sulfur_wall": Muro de Enxofre Polido
+    "polished_tuff": Tufo Polido
+    "polished_tuff_slab": Laje de Tufo Polido
+    "polished_tuff_stairs": Escadas de Tufo Polido
+    "polished_tuff_wall": Muro de Tufo Polido
+    "poplar_button": Botão de Álamo
+    "poplar_door": Porta de Álamo
+    "poplar_fence": Cerca de Álamo
+    "poplar_fence_gate": Portão de Álamo
+    "poplar_hanging_sign": Placa Suspensa de Álamo
+    "poplar_leaves": Folhas de Álamo
+    "poplar_log": Tronco de Álamo
+    "poplar_planks": Tábuas de Álamo
+    "poplar_pressure_plate": Placa de Pressão de Álamo
+    "poplar_sapling": Muda de Álamo
+    "poplar_shelf": Prateleira de Álamo
+    "poplar_sign": Placa de Álamo
+    "poplar_slab": Laje de Álamo
+    "poplar_stairs": Escadas de Álamo
+    "poplar_trapdoor": Alçapão de Álamo
+    "poplar_wall_hanging_sign": Placa Suspensa de Álamo de Parede
+    "poplar_wall_sign": Placa de Álamo de Parede
+    "poplar_wood": Madeira de Álamo
+    "poppy": Papoula
+    "potatoes": Batatas
+    "potent_sulfur": Enxofre Potente
+    "potted_acacia_sapling": Muda de Acácia Envasada
+    "potted_allium": Alho-Silvestre Envasado
+    "potted_azalea_bush": Azaleia Envasada
+    "potted_azure_bluet": Flor-Silvestre-Azul Envasada
+    "potted_bamboo": Bambu Envasado
+    "potted_birch_sapling": Muda de Bétula Envasada
+    "potted_blue_orchid": Orquídea-Azul Envasada
+    "potted_brown_mushroom": Cogumelo Marrom Envasado
+    "potted_cactus": Cacto Envasado
+    "potted_cherry_sapling": Muda de Cerejeira Envasada
+    "potted_closed_eyeblossom": Olhoquídea Fechada Envasada
+    "potted_cornflower": Centáurea Envasada
+    "potted_crimson_fungus": Fungo Carmesim Envasado
+    "potted_crimson_roots": Raízes Carmesim Envasadas
+    "potted_dandelion": Dente-de-Leão Envasado
+    "potted_dark_oak_sapling": Muda de Carvalho Escuro Envasada
+    "potted_dead_bush": Arbusto Morto Envasado
+    "potted_fern": Samambaia Envasada
+    "potted_flowering_azalea_bush": Azaleia Florescente Envasada
+    "potted_golden_dandelion": Dente-de-Leão Dourado Envasado
+    "potted_jungle_sapling": Muda da Selva Envasada
+    "potted_lily_of_the_valley": Lírio-do-Vale Envasado
+    "potted_mangrove_propagule": Propágulo de Mangue Envasado
+    "potted_oak_sapling": Muda de Carvalho Envasada
+    "potted_open_eyeblossom": Olhoquídea Aberta Envasada
+    "potted_orange_tulip": Tulipa Laranja Envasada
+    "potted_oxeye_daisy": Margarida Envasada
+    "potted_pale_oak_sapling": Muda de Carvalho Pálido Envasada
+    "potted_pink_tulip": Tulipa Rosa Envasada
+    "potted_poplar_sapling": Muda de Álamo Envasada
+    "potted_poppy": Papoula Envasada
+    "potted_red_mushroom": Cogumelo Vermelho Envasado
+    "potted_red_tulip": Tulipa Vermelha Envasada
+    "potted_spruce_sapling": Muda de Abeto Envasada
+    "potted_torchflower": Plantocha Envasada
+    "potted_warped_fungus": Fungo Distorcido Envasado
+    "potted_warped_roots": Raízes Distorcidas Envasadas
+    "potted_white_tulip": Tulipa Branca Envasada
+    "potted_wither_rose": Rosa do Wither Envasada
+    "powder_snow": Neve Fofa
+    "powder_snow_cauldron": Caldeirão de Neve Fofa
+    "powered_rail": Trilho Elétrico
+    "prismarine": Prismarinho
+    "prismarine_brick_slab": Laje de Tijolos de Prismarinho
+    "prismarine_brick_stairs": Escadas de Tijolos de Prismarinho
+    "prismarine_bricks": Tijolos de Prismarinho
+    "prismarine_slab": Laje de Prismarinho
+    "prismarine_stairs": Escadas de Prismarinho
+    "prismarine_wall": Muro de Prismarinho
+    "pumpkin": Abóbora
+    "pumpkin_stem": Caule de Abóbora
+    "purple_banner": Estandarte Roxo
+    "purple_bed": Cama Roxa
+    "purple_candle": Vela Roxa
+    "purple_candle_cake": Bolo com Vela Roxa
+    "purple_carpet": Tapete Roxo
+    "purple_concrete": Concreto Roxo
+    "purple_concrete_powder": Cimento Roxo
+    "purple_concrete_slab": Laje de Concreto Roxo
+    "purple_concrete_stairs": Escadas de Concreto Roxo
+    "purple_glazed_terracotta": Azulejo Roxo
+    "purple_shulker_box": Caixa de Shulker Roxa
+    "purple_stained_glass": Vidro Roxo
+    "purple_stained_glass_pane": Vidraça Roxa
+    "purple_terracotta": Terracota Roxa
+    "purple_wool": Lã Roxa
+    "purple_wool_slab": Laje de Lã Roxa
+    "purple_wool_stairs": Escadas de Lã Roxa
+    "purpur_block": Bloco de Púrpura
+    "purpur_pillar": Pilar de Púrpura
+    "purpur_slab": Laje de Púrpura
+    "purpur_stairs": Escadas de Púrpura
+    "quartz_block": Bloco de Quartzo
+    "quartz_bricks": Tijolos de Quartzo
+    "quartz_pillar": Pilar de Quartzo
+    "quartz_slab": Laje de Quartzo
+    "quartz_stairs": Escadas de Quartzo
+    "rail": Trilho
+    "raw_copper_block": Bloco de Cobre Bruto
+    "raw_gold_block": Bloco de Ouro Bruto
+    "raw_iron_block": Bloco de Ferro Bruto
+    "red_banner": Estandarte Vermelho
+    "red_bed": Cama Vermelha
+    "red_candle": Vela Vermelha
+    "red_candle_cake": Bolo com Vela Vermelha
+    "red_carpet": Tapete Vermelho
+    "red_concrete": Concreto Vermelho
+    "red_concrete_powder": Cimento Vermelho
+    "red_concrete_slab": Laje de Concreto Vermelho
+    "red_concrete_stairs": Escadas de Concreto Vermelho
+    "red_glazed_terracotta": Azulejo Vermelho
+    "red_mushroom": Cogumelo Vermelho
+    "red_mushroom_block": Bloco de Cogumelo Vermelho
+    "red_nether_brick_slab": Laje de Tijolos Vermelhos do Nether
+    "red_nether_brick_stairs": Escadas de Tijolos Vermelhos do Nether
+    "red_nether_brick_wall": Muro de Tijolos Vermelhos do Nether
+    "red_nether_bricks": Tijolos Vermelhos do Nether
+    "red_poplar_leaves": Folhas de Álamo Vermelhas
+    "red_sand": Areia Vermelha
+    "red_sandstone": Arenito Vermelho
+    "red_sandstone_slab": Laje de Arenito Vermelho
+    "red_sandstone_stairs": Escadas de Arenito Vermelho
+    "red_sandstone_wall": Muro de Arenito Vermelho
+    "red_shrub": Arbusto Vermelho
+    "red_shulker_box": Caixa de Shulker Vermelha
+    "red_stained_glass": Vidro Vermelho
+    "red_stained_glass_pane": Vidraça Vermelha
+    "red_terracotta": Terracota Vermelha
+    "red_tulip": Tulipa Vermelha
+    "red_wool": Lã Vermelha
+    "red_wool_slab": Laje de Lã Vermelha
+    "red_wool_stairs": Escadas de Lã Vermelha
+    "redstone_block": Bloco de Redstone
+    "redstone_lamp": Lâmpada de Redstone
+    "redstone_ore": Minério de Redstone
+    "redstone_torch": Tocha de Redstone
+    "redstone_wall_torch": Tocha de Redstone de Parede
+    "redstone_wire": Cabo de Redstone
+    "reinforced_deepslate": Ardosiabissal Reforçada
+    "repeater": Repetidor de Redstone
+    "repeating_command_block": Bloco de Comando em Repetição
+    "resin_block": Bloco de Resina
+    "resin_brick_slab": Laje de Tijolos de Resina
+    "resin_brick_stairs": Escadas de Tijolos de Resina
+    "resin_brick_wall": Muro de Tijolos de Resina
+    "resin_bricks": Tijolos de Resina
+    "resin_clump": Agregado de Resina
+    "respawn_anchor": Âncora de Renascimento
+    "rooted_dirt": Terra Enraizada
+    "rose_bush": Roseira
+    "sand": Areia
+    "sandstone": Arenito
+    "sandstone_slab": Laje de Arenito
+    "sandstone_stairs": Escadas de Arenito
+    "sandstone_wall": Muro de Arenito
+    "scaffolding": Andaime
+    "sculk": Sculk
+    "sculk_catalyst": Catalisador de Sculk
+    "sculk_sensor": Sensor de Sculk
+    "sculk_shrieker": Emissor de Sculk
+    "sculk_vein": Veio de Sculk
+    "sea_lantern": Lanterna Marinha
+    "sea_pickle": Pepino-do-Mar
+    "seagrass": Erva Marinha
+    "set_spawn": Ponto de renascimento definido
+    "shelf_mushroom": Políporo
+    "short_dry_grass": Grama Seca Baixa
+    "short_grass": Grama Baixa
+    "shroomlight": Cogubrilho
+    "shulker_box": Caixa de Shulker
+    "skeleton_skull": Crânio de Esqueleto
+    "skeleton_wall_skull": Crânio de Esqueleto de Parede
+    "slime_block": Bloco de Slime
+    "small_amethyst_bud": Cristal de Ametista Pequeno
+    "small_dripleaf": Plantaforma Pequena
+    "smithing_table": Bancada de Ferraria
+    "smoker": Defumador
+    "smooth_basalt": Basalto Liso
+    "smooth_quartz": Bloco de Quartzo Liso
+    "smooth_quartz_slab": Laje de Quartzo Liso
+    "smooth_quartz_stairs": Escadas de Quartzo Liso
+    "smooth_red_sandstone": Arenito Vermelho Liso
+    "smooth_red_sandstone_slab": Laje de Arenito Vermelho Liso
+    "smooth_red_sandstone_stairs": Escadas de Arenito Vermelho Liso
+    "smooth_sandstone": Arenito Liso
+    "smooth_sandstone_slab": Laje de Arenito Liso
+    "smooth_sandstone_stairs": Escadas de Arenito Liso
+    "smooth_stone": Pedra Lisa
+    "smooth_stone_slab": Laje de Pedra Lisa
+    "sniffer_egg": Ovo de Farejador
+    "snow": Neve
+    "snow_block": Bloco de Neve
+    "soul_campfire": Fogueira das Almas
+    "soul_fire": Fogo das Almas
+    "soul_lantern": Lampião das Almas
+    "soul_sand": Areia das Almas
+    "soul_soil": Terra das Almas
+    "soul_torch": Tocha das Almas
+    "soul_wall_torch": Tocha das Almas de Parede
+    "spawner": Gerador de Criaturas
+    "sponge": Esponja
+    "spore_blossom": Flor de Esporos
+    "spruce_button": Botão de Abeto
+    "spruce_door": Porta de Abeto
+    "spruce_fence": Cerca de Abeto
+    "spruce_fence_gate": Portão de Abeto
+    "spruce_hanging_sign": Placa Suspensa de Abeto
+    "spruce_leaves": Folhas de Abeto
+    "spruce_log": Tronco de Abeto
+    "spruce_planks": Tábuas de Abeto
+    "spruce_pressure_plate": Placa de Pressão de Abeto
+    "spruce_sapling": Muda de Abeto
+    "spruce_shelf": Estante de Abeto
+    "spruce_sign": Placa de Abeto
+    "spruce_slab": Laje de Abeto
+    "spruce_stairs": Escadas de Abeto
+    "spruce_trapdoor": Alçapão de Abeto
+    "spruce_wall_hanging_sign": Placa Suspensa de Abeto de Parede
+    "spruce_wall_sign": Placa de Abeto de Parede
+    "spruce_wood": Madeira de Abeto
+    "sticky_piston": Pistão Grudento
+    "stone": Pedra
+    "stone_brick_slab": Laje de Tijolos de Pedra
+    "stone_brick_stairs": Escadas de Tijolos de Pedra
+    "stone_brick_wall": Muro de Tijolos de Pedra
+    "stone_bricks": Tijolos de Pedra
+    "stone_button": Botão de Pedra
+    "stone_pressure_plate": Placa de Pressão de Pedra
+    "stone_slab": Laje de Pedra
+    "stone_stairs": Escadas de Pedra
+    "stonecutter": Cortador de Pedras
+    "straw_bed": Cama de Palha
+    "stripped_acacia_log": Tronco de Acácia Descascado
+    "stripped_acacia_wood": Madeira de Acácia Descascada
+    "stripped_bamboo_block": Bloco de Bambu Descascado
+    "stripped_birch_log": Tronco de Bétula Descascado
+    "stripped_birch_wood": Madeira de Bétula Descascada
+    "stripped_cherry_log": Tronco de Cerejeira Descascado
+    "stripped_cherry_wood": Madeira de Cerejeira Descascada
+    "stripped_crimson_hyphae": Hifas Carmesim Descascadas
+    "stripped_crimson_stem": Caule Carmesim Descascado
+    "stripped_dark_oak_log": Tronco de Carvalho Escuro Descascado
+    "stripped_dark_oak_wood": Madeira de Carvalho Escuro Descascada
+    "stripped_jungle_log": Tronco da Selva Descascado
+    "stripped_jungle_wood": Madeira da Selva Descascada
+    "stripped_mangrove_log": Tronco de Mangue Descascado
+    "stripped_mangrove_wood": Madeira de Mangue Descascada
+    "stripped_oak_log": Tronco de Carvalho Descascado
+    "stripped_oak_wood": Madeira de Carvalho Descascada
+    "stripped_pale_oak_log": Tronco de Carvalho Pálido Descascado
+    "stripped_pale_oak_wood": Madeira de Carvalho Pálido Descascada
+    "stripped_poplar_log": Tronco de Álamo Descascado
+    "stripped_poplar_wood": Madeira de Álamo Descascada
+    "stripped_spruce_log": Tronco de Abeto Descascado
+    "stripped_spruce_wood": Madeira de Abeto Descascada
+    "stripped_warped_hyphae": Hifas Distorcidas Descascadas
+    "stripped_warped_stem": Caule Distorcido Descascado
+    "structure_block": Gerador de Estruturas
+    "structure_void": Vazio Estrutural
+    "sugar_cane": Cana-de-Açúcar
+    "sulfur": Enxofre
+    "sulfur_brick_slab": Laje de Tijolos de Enxofre
+    "sulfur_brick_stairs": Escadas de Tijolos de Enxofre
+    "sulfur_brick_wall": Muro de Tijolos de Enxofre
+    "sulfur_bricks": Tijolos de Enxofre
+    "sulfur_slab": Laje de Enxofre
+    "sulfur_spike": Espeleotema de Enxofre
+    "sulfur_stairs": Escadas de Enxofre
+    "sulfur_wall": Muro de Enxofre
+    "sunflower": Girassol
+    "suspicious_gravel": Cascalho Suspeito
+    "suspicious_sand": Areia Suspeita
+    "sweet_berry_bush": Arbusto de Bagas Doces
+    "tall_dry_grass": Grama Seca Alta
+    "tall_grass": Grama Alta
+    "tall_seagrass": Erva Marinha Alta
+    "target": Alvo
+    "terracotta": Terracota
+    "test_block": Bloco de Teste
+    "test_instance_block": Bloco de Instância de Teste
+    "tinted_glass": Vidro Fosco
+    "tnt": TNT
+    "torch": Tocha
+    "torchflower": Plantocha
+    "torchflower_crop": Plantio de Plantocha
+    "trapped_chest": Baú com Armadilha
+    "trial_spawner": Gerador do Desafio
+    "tripwire": Fio de Armadilha
+    "tripwire_hook": Gancho de Armadilha
+    "tube_coral": Coral-de-Tubo
+    "tube_coral_block": Bloco de Coral-de-Tubo
+    "tube_coral_fan": Gorgônia-de-Tubo
+    "tube_coral_wall_fan": Gorgônia-de-Tubo de Parede
+    "tuff": Tufo
+    "tuff_brick_slab": Laje de Tijolos de Tufo
+    "tuff_brick_stairs": Escadas de Tijolos de Tufo
+    "tuff_brick_wall": Muro de Tijolos de Tufo
+    "tuff_bricks": Tijolos de Tufo
+    "tuff_slab": Laje de Tufo
+    "tuff_stairs": Escadas de Tufo
+    "tuff_wall": Muro de Tufo
+    "turtle_egg": Ovo de Tartaruga
+    "twisting_vines": Trepadeiras Retorcidas
+    "twisting_vines_plant": Planta de Trepadeiras Retorcidas
+    "vault": Cofre
+    "verdant_froglight": Anfibrilho Verdejante
+    "vine": Trepadeiras
+    "void_air": Ar do Vazio
+    "wall_torch": Tocha de Parede
+    "warped_button": Botão Distorcido
+    "warped_door": Porta Distorcida
+    "warped_fence": Cerca Distorcida
+    "warped_fence_gate": Portão Distorcido
+    "warped_fungus": Fungo Distorcido
+    "warped_hanging_sign": Placa Suspensa Distorcida
+    "warped_hyphae": Hifas Distorcidas
+    "warped_nylium": Nicélio Distorcido
+    "warped_planks": Tábuas Distorcidas
+    "warped_pressure_plate": Placa de Pressão Distorcida
+    "warped_roots": Raízes Distorcidas
+    "warped_shelf": Estante Distorcida
+    "warped_sign": Placa Distorcida
+    "warped_slab": Laje Distorcida
+    "warped_stairs": Escadas Distorcidas
+    "warped_stem": Caule Distorcido
+    "warped_trapdoor": Alçapão Distorcido
+    "warped_wall_hanging_sign": Placa Suspensa Distorcida de Parede
+    "warped_wall_sign": Placa Distorcida de Parede
+    "warped_wart_block": Bloco de Fungos Distorcidos
+    "water": Água
+    "water_cauldron": Caldeirão de Água
+    "waxed_chiseled_copper": Cobre Talhado Encerado
+    "waxed_copper_bars": Barras de Cobre Encerado
+    "waxed_copper_block": Bloco de Cobre Encerado
+    "waxed_copper_bulb": Lâmpada de Cobre Encerado
+    "waxed_copper_chain": Corrente de Cobre Encerado
+    "waxed_copper_chest": Baú de Cobre Encerado
+    "waxed_copper_door": Porta de Cobre Encerado
+    "waxed_copper_golem_statue": Estátua de Golem de Cobre Encerado
+    "waxed_copper_grate": Grade de Cobre Encerado
+    "waxed_copper_lantern": Lampião de Cobre Encerado
+    "waxed_copper_trapdoor": Alçapão de Cobre Encerado
+    "waxed_cut_copper": Cobre Lapidado Encerado
+    "waxed_cut_copper_slab": Laje de Cobre Lapidado Encerado
+    "waxed_cut_copper_stairs": Escadas de Cobre Lapidado Encerado
+    "waxed_exposed_chiseled_copper": Cobre Talhado Exposto Encerado
+    "waxed_exposed_copper": Cobre Exposto Encerado
+    "waxed_exposed_copper_bars": Barras de Cobre Exposto Encerado
+    "waxed_exposed_copper_bulb": Lâmpada de Cobre Exposto Encerado
+    "waxed_exposed_copper_chain": Corrente de Cobre Exposto Encerado
+    "waxed_exposed_copper_chest": Baú de Cobre Exposto Encerado
+    "waxed_exposed_copper_door": Porta de Cobre Exposto Encerado
+    "waxed_exposed_copper_golem_statue": Estátua de Golem de Cobre Exposto Encerado
+    "waxed_exposed_copper_grate": Grade de Cobre Exposto Encerado
+    "waxed_exposed_copper_lantern": Lampião de Cobre Exposto Encerado
+    "waxed_exposed_copper_trapdoor": Alçapão de Cobre Exposto Encerado
+    "waxed_exposed_cut_copper": Cobre Lapidado Exposto Encerado
+    "waxed_exposed_cut_copper_slab": Laje de Cobre Lapidado Exposto Encerado
+    "waxed_exposed_cut_copper_stairs": Escadas de Cobre Lapidado Exposto Encerado
+    "waxed_exposed_lightning_rod": Para-Raios Exposto Encerado
+    "waxed_lightning_rod": Para-Raios Encerado
+    "waxed_oxidized_chiseled_copper": Cobre Talhado Oxidado Encerado
+    "waxed_oxidized_copper": Cobre Oxidado Encerado
+    "waxed_oxidized_copper_bars": Barras de Cobre Oxidado Encerado
+    "waxed_oxidized_copper_bulb": Lâmpada de Cobre Oxidado Encerado
+    "waxed_oxidized_copper_chain": Corrente de Cobre Oxidado Encerado
+    "waxed_oxidized_copper_chest": Baú de Cobre Oxidado Encerado
+    "waxed_oxidized_copper_door": Porta de Cobre Oxidado Encerado
+    "waxed_oxidized_copper_golem_statue": Estátua de Golem de Cobre Oxidado Encerado
+    "waxed_oxidized_copper_grate": Grade de Cobre Oxidado Encerado
+    "waxed_oxidized_copper_lantern": Lampião de Cobre Oxidado Encerado
+    "waxed_oxidized_copper_trapdoor": Alçapão de Cobre Oxidado Encerado
+    "waxed_oxidized_cut_copper": Cobre Lapidado Oxidado Encerado
+    "waxed_oxidized_cut_copper_slab": Laje de Cobre Lapidado Oxidado Encerado
+    "waxed_oxidized_cut_copper_stairs": Escadas de Cobre Lapidado Oxidado Encerado
+    "waxed_oxidized_lightning_rod": Para-Raios Oxidado Encerado
+    "waxed_weathered_chiseled_copper": Cobre Talhado Desgastado Encerado
+    "waxed_weathered_copper": Cobre Desgastado Encerado
+    "waxed_weathered_copper_bars": Barras de Cobre Desgastado Encerado
+    "waxed_weathered_copper_bulb": Lâmpada de Cobre Desgastado Encerado
+    "waxed_weathered_copper_chain": Corrente de Cobre Desgastado Encerado
+    "waxed_weathered_copper_chest": Baú de Cobre Desgastado Encerado
+    "waxed_weathered_copper_door": Porta de Cobre Desgastado Encerado
+    "waxed_weathered_copper_golem_statue": Estátua de Golem de Cobre Desgastado Encerado
+    "waxed_weathered_copper_grate": Grade de Cobre Desgastado Encerado
+    "waxed_weathered_copper_lantern": Lampião de Cobre Desgastado Encerado
+    "waxed_weathered_copper_trapdoor": Alçapão de Cobre Desgastado Encerado
+    "waxed_weathered_cut_copper": Cobre Lapidado Desgastado Encerado
+    "waxed_weathered_cut_copper_slab": Laje de Cobre Lapidado Desgastado Encerado
+    "waxed_weathered_cut_copper_stairs": Escadas de Cobre Lapidado Desgastado Encerado
+    "waxed_weathered_lightning_rod": Para-Raios Desgastado Encerado
+    "weathered_chiseled_copper": Cobre Talhado Desgastado
+    "weathered_copper": Cobre Desgastado
+    "weathered_copper_bars": Barras de Cobre Desgastado
+    "weathered_copper_bulb": Lâmpada de Cobre Desgastado
+    "weathered_copper_chain": Corrente de Cobre Desgastado
+    "weathered_copper_chest": Baú de Cobre Desgastado
+    "weathered_copper_door": Porta de Cobre Desgastado
+    "weathered_copper_golem_statue": Estátua de Golem de Cobre Desgastado
+    "weathered_copper_grate": Grade de Cobre Desgastado
+    "weathered_copper_lantern": Lampião de Cobre Desgastado
+    "weathered_copper_trapdoor": Alçapão de Cobre Desgastado
+    "weathered_cut_copper": Cobre Lapidado Desgastado
+    "weathered_cut_copper_slab": Laje de Cobre Lapidado Desgastado
+    "weathered_cut_copper_stairs": Escadas de Cobre Lapidado Desgastado
+    "weathered_lightning_rod": Para-Raios Desgastado
+    "weeping_vines": Trepadeiras Choronas
+    "weeping_vines_plant": Planta de Trepadeiras Choronas
+    "wet_sponge": Esponja Úmida
+    "wheat": Plantio de Trigo
+    "white_banner": Estandarte Branco
+    "white_bed": Cama Branca
+    "white_candle": Vela Branca
+    "white_candle_cake": Bolo com Vela Branca
+    "white_carpet": Tapete Branco
+    "white_concrete": Concreto Branco
+    "white_concrete_powder": Cimento Branco
+    "white_concrete_slab": Laje de Concreto Branco
+    "white_concrete_stairs": Escadas de Concreto Branco
+    "white_glazed_terracotta": Azulejo Branco
+    "white_shulker_box": Caixa de Shulker Branca
+    "white_stained_glass": Vidro Branco
+    "white_stained_glass_pane": Vidraça Branca
+    "white_terracotta": Terracota Branca
+    "white_tulip": Tulipa Branca
+    "white_wool": Lã Branca
+    "white_wool_slab": Laje de Lã Branca
+    "white_wool_stairs": Escadas de Lã Branca
+    "wildflowers": Flores-do-Campo
+    "wither_rose": Rosa do Wither
+    "wither_skeleton_skull": Crânio de Esqueleto Wither
+    "wither_skeleton_wall_skull": Crânio de Esqueleto Wither de Parede
+    "yellow_banner": Estandarte Amarelo
+    "yellow_bed": Cama Amarela
+    "yellow_candle": Vela Amarela
+    "yellow_candle_cake": Bolo com Vela Amarela
+    "yellow_carpet": Tapete Amarelo
+    "yellow_concrete": Concreto Amarelo
+    "yellow_concrete_powder": Cimento Amarelo
+    "yellow_concrete_slab": Laje de Concreto Amarelo
+    "yellow_concrete_stairs": Escadas de Concreto Amarelo
+    "yellow_glazed_terracotta": Azulejo Amarelo
+    "yellow_poplar_leaves": Folhas de Álamo Amarelas
+    "yellow_shulker_box": Caixa de Shulker Amarela
+    "yellow_stained_glass": Vidro Amarelo
+    "yellow_stained_glass_pane": Vidraça Amarela
+    "yellow_terracotta": Terracota Amarela
+    "yellow_wool": Lã Amarela
+    "yellow_wool_slab": Laje de Lã Amarela
+    "yellow_wool_stairs": Escadas de Lã Amarela
+    "zombie_head": Cabeça de Zumbi
+    "zombie_wall_head": Cabeça de Zumbi de Parede
+  entities:
+    "acacia_boat": Bote de Acácia
+    "acacia_chest_boat": Bote de Acácia com Baú
+    "allay": Allay
+    "area_effect_cloud": Nuvem de Efeito de Área
+    "armadillo": Tatu
+    "armor_stand": Suporte de Armaduras
+    "arrow": Flecha
+    "axolotl": Axolote
+    "bamboo_chest_raft": Jangada de Bambu com Baú
+    "bamboo_raft": Jangada de Bambu
+    "bat": Morcego
+    "bee": Abelha
+    "birch_boat": Bote de Bétula
+    "birch_chest_boat": Bote de Bétula com Baú
+    "blaze": Blaze
+    "block_display": Entidade-Bloco
+    "boat": Bote
+    "bogged": Pantanoso
+    "breeze": Vórtice
+    "breeze_wind_charge": Projétil de Vento
+    "camel": Camelo
+    "camel_husk": Camelo-Múmia
+    "cat": Gato
+    "cave_spider": Aranha das Cavernas
+    "cherry_boat": Bote de Cerejeira
+    "cherry_chest_boat": Bote de Cerejeira com Baú
+    "chest_boat": Bote com Baú
+    "chest_minecart": Carrinho de Mina com Baú
+    "chicken": Galinha
+    "cod": Bacalhau
+    "command_block_minecart": Carrinho de Mina com Bloco de Comando
+    "copper_golem": Golem de Cobre
+    "cow": Vaca
+    "creaking": Rangente
+    "creaking_transient": Rangente
+    "creeper": Creeper
+    "cushion": Almofada
+    "dark_oak_boat": Bote de Carvalho Escuro
+    "dark_oak_chest_boat": Bote de Carvalho Escuro com Baú
+    "dolphin": Golfinho
+    "donkey": Burro
+    "dragon_fireball": Bola de Fogo do Dragão
+    "drowned": Afogado
+    "egg": Ovo Lançado
+    "elder_guardian": Guardião-Mestre
+    "end_crystal": Cristal do End
+    "ender_dragon": Dragão Ender
+    "ender_pearl": Pérola de Ender Lançada
+    "enderman": Enderman
+    "endermite": Endermite
+    "evoker": Invocador
+    "evoker_fangs": Presas de Invocador
+    "experience_bottle": Frasco de Experiência Lançado
+    "experience_orb": Esfera de Experiência
+    "eye_of_ender": Olho de Ender
+    "falling_block": Bloco em Queda
+    "fireball": Bola de Fogo
+    "firework_rocket": Fogo de Artifício
+    "fishing_bobber": Boia de Pesca
+    "fox": Raposa
+    "frog": Sapo
+    "furnace_minecart": Carrinho de Mina com Fornalha
+    "ghast": Ghast
+    "giant": Gigante
+    "glow_item_frame": Moldura de Item Brilhante
+    "glow_squid": Lula-Brilhante
+    "goat": Cabra
+    "guardian": Guardião
+    "happy_ghast": Ghast Feliz
+    "hoglin": Hoglin
+    "hopper_minecart": Carrinho de Mina com Funil
+    "horse": Cavalo
+    "husk": Zumbi-Múmia
+    "illusioner": Ilusionista
+    "interaction": Entidade-Interação
+    "iron_golem": Golem de Ferro
+    "item": Item
+    "item_display": Entidade-Item
+    "item_frame": Moldura de Item
+    "jungle_boat": Bote da Selva
+    "jungle_chest_boat": Bote da Selva com Baú
+    "killer_bunny": Coelho Assassino
+    "leash_knot": Nó de Laço
+    "lightning_bolt": Relâmpago
+    "lingering_potion": Poção Prolongada
+    "llama": Lhama
+    "llama_spit": Cuspe de Lhama
+    "magma_cube": Cubo de Magma
+    "mangrove_boat": Bote de Mangue
+    "mangrove_chest_boat": Bote de Mangue com Baú
+    "mannequin": Manequim
+    "marker": Marcador
+    "minecart": Carrinho de Mina
+    "mooshroom": Mooshroom
+    "mule": Mula
+    "nautilus": Náutilo
+    "oak_boat": Bote de Carvalho
+    "oak_chest_boat": Bote de Carvalho com Baú
+    "ocelot": Jaguatirica
+    "ominous_item_spawner": Gerador de Item Sombrio
+    "painting": Quadro
+    "pale_oak_boat": Bote de Carvalho Pálido
+    "pale_oak_chest_boat": Bote de Carvalho Pálido com Baú
+    "panda": Panda
+    "parched": Ressecado
+    "parrot": Papagaio
+    "phantom": Espectro
+    "pig": Porco
+    "piglin": Piglin
+    "piglin_brute": Piglin Bárbaro
+    "pillager": Saqueador
+    "player": Jogador
+    "polar_bear": Urso-Polar
+    "poplar_boat": Bote de Álamo
+    "poplar_chest_boat": Bote de Álamo com Baú
+    "potion": Poção
+    "pufferfish": Baiacu
+    "rabbit": Coelho
+    "ravager": Devastador
+    "salmon": Salmão
+    "sheep": Ovelha
+    "shulker": Shulker
+    "shulker_bullet": Projétil de Shulker
+    "silverfish": Traça
+    "skeleton": Esqueleto
+    "skeleton_horse": Cavalo-Esqueleto
+    "slime": Slime
+    "small_fireball": Bola de Fogo Pequena
+    "sniffer": Farejador
+    "snow_golem": Golem de Neve
+    "snowball": Bola de Neve
+    "spawner_minecart": Carrinho de Mina com Gerador de Criaturas
+    "spectral_arrow": Flecha Espectral
+    "spider": Aranha
+    "splash_potion": Poção Arremessável
+    "spruce_boat": Bote de Abeto
+    "spruce_chest_boat": Bote de Abeto com Baú
+    "squid": Lula
+    "stray": Errante
+    "strider": Lavagante
+    "sulfur_cube": Cubo de Enxofre
+    "tadpole": Girino
+    "text_display": Entidade-Texto
+    "tnt": TNT Acionada
+    "tnt_minecart": Carrinho de Mina com TNT
+    "trader_llama": Lhama do Vendedor
+    "trident": Tridente
+    "tropical_fish": Peixe Tropical
+    "tropical_fish_predefined_0": Anêmona
+    "tropical_fish_predefined_1": Cirurgião-Negro
+    "tropical_fish_predefined_10": Ídolo-Mouro
+    "tropical_fish_predefined_11": Peixe-Borboleta-Ornado
+    "tropical_fish_predefined_12": Peixe-Papagaio
+    "tropical_fish_predefined_13": Peixe-Anjo-Rainha
+    "tropical_fish_predefined_14": Ciclídeo Vermelho
+    "tropical_fish_predefined_15": Peixe-Serpente-Vermelho
+    "tropical_fish_predefined_16": Pargo Vermelho
+    "tropical_fish_predefined_17": Barbudo
+    "tropical_fish_predefined_18": Peixe-Palhaço-Tomate
+    "tropical_fish_predefined_19": Peixe-Porco
+    "tropical_fish_predefined_2": Cirurgião-Azul
+    "tropical_fish_predefined_20": Peixe-Papagaio-da-Cauda-Amarela
+    "tropical_fish_predefined_21": Cirurgião-Amarelo
+    "tropical_fish_predefined_3": Peixe-Borboleta
+    "tropical_fish_predefined_4": Ciclídeo
+    "tropical_fish_predefined_5": Peixe-Palhaço
+    "tropical_fish_predefined_6": Peixe-de-Briga-Siamês
+    "tropical_fish_predefined_7": Royal-Gramma-Falso
+    "tropical_fish_predefined_8": Pargo-Imperador-Vermelho
+    "tropical_fish_predefined_9": Salmonete
+    "tropical_fish_type_betty": Betta
+    "tropical_fish_type_blockfish": Peixe-Bloco
+    "tropical_fish_type_brinely": Salgado
+    "tropical_fish_type_clayfish": Peixe-Argila
+    "tropical_fish_type_dasher": Listrado
+    "tropical_fish_type_flopper": Roliço
+    "tropical_fish_type_glitter": Faísca
+    "tropical_fish_type_kob": Austral
+    "tropical_fish_type_snooper": Recife
+    "tropical_fish_type_spotty": Malhado
+    "tropical_fish_type_stripey": Estriado
+    "tropical_fish_type_sunstreak": Raio-de-Sol
+    "turtle": Tartaruga
+    "vex": Vex
+    "villager": Aldeão
+    "villager_armorer": Armadureiro
+    "villager_butcher": Açougueiro
+    "villager_cartographer": Cartógrafo
+    "villager_cleric": Clérigo
+    "villager_farmer": Agricultor
+    "villager_fisherman": Pescador
+    "villager_fletcher": Flecheiro
+    "villager_leatherworker": Coureiro
+    "villager_librarian": Bibliotecário
+    "villager_mason": Pedreiro
+    "villager_nitwit": Palerma
+    "villager_none": Aldeão
+    "villager_shepherd": Pastor
+    "villager_toolsmith": Ferramenteiro
+    "villager_weaponsmith": Armeiro
+    "vindicator": Vingador
+    "wandering_trader": Vendedor Ambulante
+    "warden": Defensor
+    "wind_charge": Projétil de Vento
+    "witch": Bruxa
+    "wither": Wither
+    "wither_skeleton": Esqueleto Wither
+    "wither_skull": Crânio do Wither
+    "wolf": Lobo
+    "zoglin": Zoglin
+    "zombie": Zumbi
+    "zombie_horse": Cavalo-Zumbi
+    "zombie_nautilus": Náutilo-Zumbi
+    "zombie_villager": Aldeão Zumbi
+    "zombified_piglin": Piglin-Zumbi
+  enchantments:
+    "aqua_affinity": Afinidade Aquática
+    "bane_of_arthropods": Ruína dos Artrópodes
+    "binding_curse": Maldição do Ligamento
+    "blast_protection": Proteção contra Explosões
+    "breach": Ruptura
+    "channeling": Condutividade
+    "density": Densidade
+    "depth_strider": Passos Profundos
+    "efficiency": Eficiência
+    "feather_falling": Peso-Pena
+    "fire_aspect": Aspecto Flamejante
+    "fire_protection": Proteção contra Fogo
+    "flame": Chama
+    "fortune": Fortuna
+    "frost_walker": Passos Gelados
+    "impaling": Empalamento
+    "infinity": Infinidade
+    "knockback": Repulsão
+    "looting": Saque
+    "loyalty": Lealdade
+    "luck_of_the_sea": Sorte do Mar
+    "lunge": Estocada
+    "lure": Isca
+    "mending": Remendo
+    "multishot": Rajada
+    "piercing": Perfuração
+    "power": Força
+    "projectile_protection": Proteção contra Projéteis
+    "protection": Proteção
+    "punch": Impacto
+    "quick_charge": Carga Rápida
+    "respiration": Respiração
+    "riptide": Correnteza
+    "sharpness": Afiação
+    "silk_touch": Toque Suave
+    "smite": Julgamento
+    "soul_speed": Velocidade das Almas
+    "sweeping": Alcance
+    "sweeping_edge": Alcance
+    "swift_sneak": Passos Furtivos
+    "thorns": Espinhos
+    "unbreaking": Inquebrável
+    "vanishing_curse": Maldição do Desaparecimento
+    "wind_burst": Rajada de Vento
+    "unknown": Encantamento desconhecido
+    "any": Qualquer encantamento
+  biomes:
+    "badlands": Terras áridas
+    "bamboo_jungle": Selva de bambu
+    "basalt_deltas": Deltas de basalto
+    "beach": Praia
+    "birch_forest": Floresta de bétulas
+    "cherry_grove": Cerejal
+    "cold_ocean": Oceano frio
+    "crimson_forest": Floresta carmesim
+    "dappled_forest": Floresta salpicada
+    "dark_forest": Floresta escura
+    "deep_cold_ocean": Oceano frio profundo
+    "deep_dark": Profundezas sombrias
+    "deep_frozen_ocean": Oceano congelado profundo
+    "deep_lukewarm_ocean": Oceano morno profundo
+    "deep_ocean": Oceano profundo
+    "desert": Deserto
+    "dripstone_caves": Cavernas de espeleotemas
+    "end_barrens": Zona árida do End
+    "end_highlands": Planaltos do End
+    "end_midlands": Zona média do End
+    "eroded_badlands": Terras áridas erodidas
+    "flower_forest": Floresta de flores
+    "forest": Floresta
+    "frozen_ocean": Oceano congelado
+    "frozen_peaks": Picos congelados
+    "frozen_river": Rio congelado
+    "grove": Bosque
+    "ice_spikes": Picos de gelo
+    "jagged_peaks": Picos pontiagudos
+    "jungle": Selva
+    "lukewarm_ocean": Oceano morno
+    "lush_caves": Cavernas verdejantes
+    "mangrove_swamp": Manguezal
+    "meadow": Pradaria
+    "mushroom_fields": Campos de cogumelos
+    "nether_wastes": Ruínas do Nether
+    "ocean": Oceano
+    "old_growth_birch_forest": Floresta de bétulas antigas
+    "old_growth_pine_taiga": Taiga de pinheiros antigos
+    "old_growth_spruce_taiga": Taiga de abetos antigos
+    "pale_garden": Jardim pálido
+    "plains": Planícies
+    "river": Rio
+    "savanna": Savana
+    "savanna_plateau": Planalto de savana
+    "small_end_islands": Ilhas pequenas do End
+    "snowy_beach": Praia nevada
+    "snowy_plains": Planícies nevadas
+    "snowy_slopes": Encostas nevadas
+    "snowy_taiga": Taiga nevada
+    "soul_sand_valley": Vale das almas
+    "sparse_jungle": Margem de selva
+    "stony_peaks": Picos rochosos
+    "stony_shore": Costa rochosa
+    "sulfur_caves": Cavernas de enxofre
+    "sunflower_plains": Planícies de girassóis
+    "swamp": Pântano
+    "taiga": Taiga
+    "the_end": O End
+    "the_void": O vazio
+    "warm_ocean": Oceano quente
+    "warped_forest": Floresta distorcida
+    "windswept_forest": Floresta das ventanias
+    "windswept_gravelly_hills": Colinas de cascalho das ventanias
+    "windswept_hills": Colinas das ventanias
+    "windswept_savanna": Savana das ventanias
+    "wooded_badlands": Terras áridas florestadas
+    "unknown": Bioma desconhecido
+    "any": Qualquer bioma

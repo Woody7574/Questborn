@@ -1,0 +1,47 @@
+id: "global_mining"
+page: 2
+
+name: "<#a8dbd4>⛏ Diamond Rush"
+description:
+  - "<#cccccc>Deep underground, new diamond"
+  - "<#cccccc>deposits were found! Miners, quickly"
+  - "<#cccccc>grab your pickaxes and go to the mines!"
+
+icon-material: DIAMOND_PICKAXE
+slot: 22
+
+max-participants: 0
+personal-limit: 100
+reward-step: 10
+
+objective:
+  type: "BLOCK_BREAK"
+  amount: 2500
+  target-materials:
+    - DIAMOND_ORE
+    - DEEPSLATE_DIAMOND_ORE
+
+rewards-description:
+  - " <#a2d9a2>+ 5x Exp. Bottle | $150 | 150 EXP <#777777>(per 10)"
+  - " <#f0c589>+ 1x Beacon | $5000 | 2500 EXP <#777777>(final)"
+
+rewards:
+  money: 5000
+  xp: 2500
+  items:
+    silent: false
+    list:
+      - material: BEACON
+        amount: 1
+  step-rewards:
+    money: 150
+    xp: 150
+    items:
+      silent: false
+      list:
+        - material: EXPERIENCE_BOTTLE
+          amount: 5
+
+quest-effects:
+  activate: quest_activate_important
+  complete: global_contribution_max

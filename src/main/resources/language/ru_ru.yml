@@ -1,0 +1,475 @@
+prefix: <#e9c46a><bold>Questborn</bold> <#8a8a8a>• <reset>
+hud:
+  actionbar:
+    complete-message: <#99ff9d>Квест {quest_name} <#99ff9d>выполнен!
+commands:
+  no-permission: '{prefix}<#e07a5f>У вас нет прав для этого действия.'
+  finish-global:
+    not-global: '{prefix}<#e07a5f>Квест <#ffffff>{quest} <#e07a5f>не является глобальным
+      квестом.'
+    not-active: '{prefix}<#cccccc>Глобальный квест <#ffffff>{quest} <#cccccc>не активирован
+      или уже завершен.'
+    success: '{prefix}<#97e673>Глобальный квест <#ffffff>{quest} <#97e673>был принудительно
+      завершен!'
+  reset-global:
+    not-global: '{prefix}<#e07a5f>Квест <#ffffff>{quest} <#e07a5f>не является глобальным
+      квестом.'
+    success: '{prefix}<#97e673>Глобальный квест <#ffffff>{quest} <#97e673>был полностью
+      сброшен. Прогресс очищен, а перезарядка у онлайн игроков обнулена.'
+  npc-only: '{prefix}<#cccccc>Эта команда недоступна.'
+  reload:
+    done: '{prefix}<#97e673>Все конфигурации плагина успешно перезагружены!'
+  help:
+    header: <#7dd3ff><strikethrough>----</strikethrough><#ffffff> Помощь по командам
+      Questborn <#7dd3ff><strikethrough>----</strikethrough>
+    footer: <#7dd3ff>Страница {page} из {total_pages} <#a3a3a3>({total_results} команд)
+    hover-no-perm: <#a7ff99>Нажмите, чтобы вставить в чат
+    hover-with-perm: '<#a7ff99>Нажмите, чтобы вставить в чат
+
+      <#ffcc66>Право: <#ffffff>{permission}'
+  effect:
+    list-header: <#7dd3ff><strikethrough>----</strikethrough><#ffffff> Доступные эффекты
+      <#7dd3ff><strikethrough>----</strikethrough>
+    list-footer: <#7dd3ff>Страница {page} из {total_pages} <#a3a3a3>({total_results}
+      эффектов)
+    no-effects: '{prefix}<#cccccc>Эффекты отсутствуют.'
+    not-found: '{prefix}<#e07a5f>Эффект <#ffffff>{effect}<#e07a5f> не найден.'
+    success-self: '{prefix}<#97e673>Вы воспроизвели эффект <#ffffff>{effect}<#97e673>
+      на себе.'
+    success-other: '{prefix}<#97e673>Вы воспроизвели эффект <#ffffff>{effect}<#97e673>
+      на игроке <#ffffff>{player}<#97e673>.'
+    received: '{prefix}<#97e673>На вас воспроизвели эффект <#ffffff>{effect}<#97e673>.'
+  npc:
+    usage-header: <#7dd3ff><strikethrough>----</strikethrough> <#ffffff>Команды NPC
+      <#7dd3ff><strikethrough>----</strikethrough>
+    help:
+      dialogue: '  <#97e673>/quest npc dialogue <#a3a3a3><npcId> <dialogueId> <#cccccc>-
+        Привязать диалог к NPC'
+      displayname: '  <#97e673>/quest npc displayname <#a3a3a3><npcId> <name> <#cccccc>-
+        Изменить имя NPC'
+      gui-title: '  <#97e673>/quest npc gui-title <#a3a3a3><npcId> <title> <#cccccc>-
+        Заголовок GUI NPC'
+      indicator: '  <#97e673>/quest npc indicator <#a3a3a3><npcId> <offset> <#cccccc>-
+        Высота индикатора'
+      info: '  <#97e673>/quest npc info <#a3a3a3>[npcId] <#cccccc>- Информация о NPC'
+      link: '  <#97e673>/quest npc link <#a3a3a3><category> <type> <id> <#cccccc>-
+        Привязать квест к NPC'
+      remove: '  <#97e673>/quest npc remove <#a3a3a3><npcId> <#cccccc>- Удалить NPC'
+      unlink: '  <#97e673>/quest npc unlink <#a3a3a3><category> <type> <id> <#cccccc>-
+        Отвязать квест от NPC'
+      voice: '  <#97e673>/quest npc voice <#a3a3a3><npcId> <voice> <#cccccc>- Установить
+        голос NPC'
+    list-header: <#7dd3ff>&m----<#ffffff> Настроенные NPC <#7dd3ff>&m----
+    list-empty: '{prefix}<#cccccc>Нет настроенных NPC.'
+    list-item: '{prefix}<#97e673>- <#ffffff>{npc}'
+    remove-success: '{prefix}<#97e673>Конфигурация NPC <#ffffff>{npc}<#97e673> успешно
+      удалена'
+    gui-title-set: '{prefix}<#97e673>Установлен заголовок меню для NPC <#ffffff>{npc}<#97e673>:
+      <#ffffff>{title}'
+    displayname-set: '{prefix}<#97e673>Имя для NPC <#ffffff>{npc}<#97e673> установлено
+      на: <#ffffff>{name}'
+    displayname-removed: '{prefix}<#97e673>Имя для NPC <#ffffff>{npc}<#97e673> удалено'
+    info:
+      header: '<#7dd3ff>&m----<#ffffff> Инфо NPC: {npc} <#7dd3ff>&m----'
+      title: '{prefix}<#cccccc>Заголовок: <#ffffff>{title}'
+      dialogue: '{prefix}<#cccccc>Диалог: <#ffffff>{dialogue}'
+      indicator: '{prefix}<#cccccc>Смещение индикатора: <#ffffff>{offset}'
+    dialogue-removed: '{prefix}<#97e673>Диалог удален у NPC <#ffffff>{npc}'
+    dialogue-not-found: '{prefix}<#e07a5f>Диалог не найден: <#ffffff>{dialogue}'
+    dialogue-set: '{prefix}<#97e673>Для NPC <#ffffff>{npc}<#97e673> установлен диалог
+      <#ffffff>{dialogue}'
+    indicator-set: '{prefix}<#97e673>Смещение индикатора для NPC <#ffffff>{npc}<#97e673>
+      установлено на <#ffffff>{offset}'
+    voice-set: '{prefix}<#97e673>Голос печати для NPC <#ffffff>{npc}<#97e673> установлен
+      на <#ffffff>{voice}'
+    voice-removed: '{prefix}<#97e673>Голос печати удален у NPC <#ffffff>{npc}'
+    console-must-specify-id: '{prefix}<#e07a5f>Консоль должна указать ID NPC.'
+    not-looking-at-npc: '{prefix}<#e07a5f>Не удалось идентифицировать NPC. Пожалуйста,
+      посмотрите на NPC или укажите ID.'
+    link-pending: '{prefix}<#97e673>Пожалуйста, нажмите ПКМ по NPC, чтобы привязать
+      его.'
+    unlink-pending: '{prefix}<#e07a5f>Пожалуйста, нажмите ПКМ по NPC, чтобы отвязать
+      его.'
+    bind-success: '{prefix}<#97e673>Успешно привязано <#ffffff>{target}<#97e673> к'
+    unbind-success: '{prefix}<#e07a5f>Успешно отвязано <#ffffff>{target}<#e07a5f>
+      от NPC <#ffffff>{npc}'
+  activate:
+    success: '{prefix}<#97e673>Квест <#ffffff>{quest}<#97e673> активирован для игрока
+      <#ffffff>{player}.'
+    fail: '{prefix}<#e07a5f>Не удалось активировать квест <#ffffff>{quest}<#e07a5f>.'
+  details:
+    no-active-quest: '{prefix}<#cccccc>У вас нет активного квеста.'
+  deactivate:
+    no-active: '{prefix}<#cccccc>У игрока нет активного квеста.'
+    success: '{prefix}<#97e673>Активный квест игрока <#ffffff>{player}<#97e673> деактивирован.'
+  finish:
+    no-active: '{prefix}<#cccccc>У игрока нет активного квеста.'
+    success: '{prefix}<#97e673>Квест игрока <#ffffff>{player}<#97e673> завершён.'
+    stage:
+      success: '{prefix}<#97e673>Этап квеста для игрока <#ffffff>{player}<#97e673>
+        принудительно завершён.'
+      no-stages: '{prefix}<#cccccc>У этого квеста нет этапов или этап не удалось завершить.'
+  open:
+    opened: '{prefix}<#97e673>Меню <#ffffff>{menu}<#97e673> открыто для игрока <#ffffff>{player}.'
+  reset:
+    cooldown-success: '{prefix}<#97e673>Кулдаун квеста <#ffffff>{quest}<#97e673> сброшен
+      для игрока <#ffffff>{player}<#97e673>.'
+    history-success: '{prefix}<#97e673>История выполнения квеста <#ffffff>{quest}<#97e673>
+      сброшена для игрока <#ffffff>{player}<#97e673>.'
+    reward-success: '{prefix}<#97e673>Статус награды квеста <#ffffff>{quest}<#97e673>
+      сброшен для игрока <#ffffff>{player}<#97e673>.'
+    rotation-success: '{prefix}<#97e673>Данные ротации для типа <#ffffff>{type}<#97e673>
+      сброшены для игрока <#ffffff>{player}<#97e673>.'
+    quest-success: '{prefix}<#97e673>Все данные квеста <#ffffff>{quest}<#97e673> сброшены
+      для игрока <#ffffff>{player}<#97e673>.'
+    type-success: '{prefix}<#97e673>Все данные для типа квестов <#ffffff>{type}<#97e673>
+      сброшены для игрока <#ffffff>{player}<#97e673>.'
+    top-success: '{prefix}<#97e673>Данные топа для типа <#ffffff>{type}<#97e673> сброшены для игрока <#ffffff>{player}<#97e673>.'
+    top-success-all: '{prefix}<#97e673>Сброс топа завершен! Изменено <#ffffff>{count}<#97e673> игроков.'
+    top-start: '{prefix}<#97e673>Начало сброса топа для типа <#ffffff>{type}<#97e673>...'
+
+  errors:
+    console-specify-player: '{prefix}<#e07a5f>Консоль должна указать игрока.'
+    quest-wrong-type: '{prefix}<#e07a5f>Квест <#ffffff>{quest}<#e07a5f> не принадлежит к типу <#ffffff>{type}<#e07a5f>.'
+    unknown-command: '{prefix}<#e07a5f>Неизвестная команда. Введите /quest help'
+    invalid-syntax: '{prefix}<#e07a5f>Неверный синтаксис! Использование: <#97e673>{command}
+      <#a3a3a3>{syntax}'
+    quest-not-found: '{prefix}<#e07a5f>Квест <#ffffff>{quest}<#e07a5f> не существует.'
+    player-not-found: '{prefix}<#e07a5f>Игрок с именем <#ffffff>{player}<#e07a5f>
+      не найден!'
+    top-reset-error: '{prefix}<#e07a5f>Ошибка сброса топа: {error}'
+
+  global:
+    usage-header: <#7dd3ff><strikethrough>----</strikethrough> <#ffffff>Глобальные
+      квесты <#7dd3ff><strikethrough>----</strikethrough>
+    help:
+      finish: '  <#97e673>/quest finish global <#a3a3a3><questId> <#cccccc>- Принудительно
+        завершить глобальный квест'
+      reset: '  <#97e673>/quest reset global <#a3a3a3><questId> <#cccccc>- Сбросить
+        прогресс глобального квеста'
+      top: '  <#97e673>/quest top <#a3a3a3>[questId] <#cccccc>- Топ участников глобального
+        квеста'
+gui:
+  type:
+    locked-message: <#ff5555>Вы не соответствуете требованиям для этого типа квестов.
+  quest_details:
+    info:
+      your-contribution: <#ffe999>Ваш вклад
+      progress:
+        title: <#ffe999>Прогресс
+        bar: '{bar} <#cccccc>{percent}%'
+        value: <#cccccc>({current} / {target})
+      required-items: '<#cccccc>Требуемые предметы:'
+      awaiting-transfer: <#ffe999>❖ Нужно сдать ресурс
+      items-transferred: <#99ffd4>✓ Ресурс сдан
+    status:
+      cooldown: '<#ff9999>Перезарядка: <#ffffff>{time}'
+      awaiting-transfer: '#ffe999>❖ Нужно сдать ресурс'
+      locked: <#ff9999>Заблокирован
+    required_items: '<#cccccc>Необходимые предметы:'
+    transfer:
+      required-items: '<#cccccc>Требуемые предметы:'
+      transfer-not-active:
+        title: <#cccccc>Квест не активен
+        lore:
+        - <#cccccc>Сначала активируйте квест,
+        - <#cccccc>чтобы сдать предметы
+      transfer-already-transferred:
+        title: <#cccccc>Ресурс уже сдан
+        lore:
+        - <#cccccc>Вы уже сдали предметы
+      transfer-locked:
+        title: <#cccccc>Сдать ресурс
+        lore:
+        - <#cccccc>Сдача предметов заблокирована
+    objective_title: '&eОпис завдання'
+    rewards_title: '&eНаграды'
+  quest_list:
+    global-progress: <#ad99ff>Глобальный прогресс
+    global-participants: '<#cccccc>Участники: <#ffffff>{current} / {max}'
+    global-participants-no-max: '<#cccccc>Участники: <#ffffff>{current}'
+    global-participants-min: '<#cccccc>Участники: <#ffffff>{current} / {max} <#888888>(Мин.
+      {min})'
+    global-participants-no-max-min: '<#cccccc>Участники: <#ffffff>{current} <#888888>(Мин.
+      {min})'
+    global-contribution: '<#cccccc>Ваш вклад: <#ffffff>{current} / {max}'
+    global-contribution-no-max: '<#cccccc>Ваш вклад: <#ffffff>{current}'
+    rewards-header: '<#ffe999>Награды:'
+    status:
+      tracked-suffix: ' &8| &bОтслеживается'
+      completed-onetime: '<#99ffd4>Статус: <#cccccc>Выполнен (одноразовый)'
+      active: '<#99ffd4>Статус: <#a7ff99>Активен'
+      waiting-participants: '<#99ffd4>Статус: <#cccccc>Ожидание участников <#777777>({current}/{min})'
+      cooldown: '<#ff9999>Статус: <#cccccc>Перезарядка &7({time})'
+      rotation-cooldown: '<#ff9999>Статус: <#cccccc>До следующей ротации &7({time})'
+      available: '<#99ffd4>Статус: <#cccccc>Доступен'
+      reward-pending: '<#99ffd4>Статус: <#a7ff99>Награда ожидает'
+      locked: '<#ff9999>Статус: <#cccccc>Заблокирован'
+    chain:
+      required-quests: '<#cccccc>Требуемые квесты:'
+    cooldown-time: '<#ff9999>Перезарядка: <#cccccc>{time}'
+    rotation-cooldown-time: '<#ff9999>До следующей ротации: <#cccccc>{time}'
+    open-details: <#a7ff99>ЛКМ <#cccccc>- Детали / активация
+    activate-quest-quick: <#a7ff99>Swap (F) <#cccccc>- Активировать квест
+    activate-quest-quick-replace: <#ffaa00>Swap (F) <#cccccc>- Заменить активный квест
+    cancel-quest-quick: <#ff6666>Drop (Q) <#cccccc>- Отменить квест
+    claim-reward: <#ffe999>ПКМ <#cccccc>- Забрать награду
+    track-quest: <#ffe999>ПКМ <#cccccc>- Отслеживать квест
+    stages: '<#cccccc>Этапы: <#ffffff>{count}'
+    stage: <#cccccc>Этап {current}/{total}
+  delivery:
+    items-dropped: '{prefix}<#ff9999>Ваш инвентарь был полон; предметы выпали на землю.'
+quests:
+  objectives:
+    header: <#ffe999>Детали задания
+    none: <#777777>Нет подробного описания
+    npc-interact: '<#cccccc>Поговорите с:'
+    give-item-to-npc: '<#cccccc>Принесите:'
+    block_break: '<#cccccc>Сломать блоки:'
+    block_place: '<#cccccc>Разместить блоки:'
+    item_craft: '<#cccccc>Скрафтить предмет:'
+    item_smelt: '<#cccccc>Переплавить:'
+    item_cook: '<#cccccc>Приготовить:'
+    item_fish: '<#cccccc>Поймать рыбу:'
+    item_enchant: '<#cccccc>Зачаровать:'
+    consume_item: '<#cccccc>Использовать предмет:'
+    brewing: '<#cccccc>Сварить зелье:'
+    use_item: '<#cccccc>Использовать предмет:'
+    kill: '<#cccccc>Убить мобов:'
+    damage: '<#cccccc>Нанести урон: <#ffe999>{amount}'
+    take-damage: '<#cccccc>Получить урон: <#ffe999>{amount}'
+    travel: <#cccccc>Пройти <#ffe999>{blocks} <#cccccc>блоков
+    location: '<#cccccc>Достичь координат:'
+    reach-biome: '<#cccccc>Посетить биом: <#ffe999>{biome} <#cccccc>{amount} раз'
+    enter-region: '<#cccccc>Войти в регион: <#ffe999>{region}'
+    leave-region: '<#cccccc>Покинуть регион: <#ffe999>{region}'
+    chat: '<#cccccc>Отправить сообщение: <#ffe999>{text}'
+    command: '<#cccccc>Выполнить команду: <#ffe999>{cmd}'
+    level-up-reach: <#cccccc>Достичь уровня <#ffe999>{levels}
+    level-up-gain: <#cccccc>Получить <#ffe999>{levels} <#cccccc>уровней
+    interact-block: '<#cccccc>Взаимодействовать с блоком:'
+    interact-entity: '<#cccccc>Взаимодействовать с сущностью:'
+    fill-bucket: '<#cccccc>Наполнить ведро:'
+    empty-bucket: '<#cccccc>Опустошить ведро:'
+    till-soil: '<#cccccc>Вспахать землю:'
+    plant-seed: '<#cccccc>Посадить семя:'
+    harvest-crop: '<#cccccc>Собрать урожай:'
+    bone-meal-use: '<#cccccc>Использовать костную муку:'
+    strip-log: '<#cccccc>Окорять бревно:'
+    wax-off: '<#cccccc>Снять воск:'
+    wax-on: '<#cccccc>Нанести воск:'
+    item-repair: '<#cccccc>Починить предмет:'
+    item-rename: '<#cccccc>Переименовать предмет:'
+    new-name: '<#cccccc>Новое имя: <#ffe999>{name}'
+    item-break: '<#cccccc>Сломать инструмент:'
+    dye-item: '<#cccccc>Окрасить предмет:'
+    fill-fuel: '<#cccccc>Заправить топливо:'
+    burn-fuel: '<#cccccc>Сжечь топливо:'
+    villager-sell-item: '<#cccccc>Продать жителю:'
+    villager-buy-item: '<#cccccc>Купить у жителя:'
+    enchant-table-use: '<#cccccc>Использовать стол зачарования:'
+    anvil-use: '<#cccccc>Использовать наковальню:'
+    tame-animal: '<#cccccc>Приручить животное:'
+    breed-animals: '<#cccccc>Разводить животных:'
+    milk-cow: '<#cccccc>Подоить корову:'
+    shear-sheep: '<#cccccc>Подстричь овцу:'
+    entity-ride: '<#cccccc>Ездить на сущности:'
+    throw-egg: '<#cccccc>Бросить яйцо:'
+    experience-orb-pickup: '<#cccccc>Собрать опыт: <#ffe999>{amount}'
+    player-kill: '<#cccccc>Убить игроков: <#ffe999>{amount}'
+    assist-kill: '<#cccccc>Помочь в убийствах: <#ffe999>{amount}'
+    min-damage: '<#cccccc>Минимальный урон: <#ffe999>{damage}'
+    sleep-in-bed: '<#cccccc>Спать в кровати: <#ffe999>{amount} <#cccccc>раз'
+    enter-bed: '<#cccccc>Лечь в кровать: <#ffe999>{amount}'
+    change-dimension: '<#cccccc>Сменить измерение:'
+    dimension: '<#cccccc>Измерение: <#ffe999>{dimension}'
+    fall-distance: '<#cccccc>Пролететь в падении: <#ffe999>{blocks} <#cccccc>блоков'
+    min-height: '<#cccccc>Мин. высота: <#ffe999>{height}'
+    boat-travel: <#cccccc>Проплыть <#ffe999>{blocks} блоков <#cccccc>на лодке
+    minecart-travel: <#cccccc>Проехать <#ffe999>{blocks} <#cccccc>блоков на вагонетке
+    elytra-fly: <#cccccc>Пролететь <#ffe999>{amount} блоков на элитрах
+    jump: '<#cccccc>Прыгнуть: <#ffe999>{jumps}<#cccccc>раз'
+    crouch: '<#cccccc>Присесть: <#ffe999>{crouches} <#cccccc>раз'
+    sprint-distance: '<#cccccc>Пробежать: <#ffe999>{blocks} <#cccccc>блоков'
+    crouch-distance: '<#cccccc>Прокрасться: <#ffe999>{blocks} <#cccccc>блоков'
+    swim-distance: '<#cccccc>Проплыть: <#ffe999>{blocks} <#cccccc>блоков'
+    potion-splash: '<#cccccc>Бросить зелье:'
+    potion-drink: '<#cccccc>Выпить зелье:'
+    beacon-activate: '<#cccccc>Активировать маяк: <#ffe999>{amount} <#cccccc>раз'
+    conduit-activate: '<#cccccc>Активировать проводник: <#ffe999>{amount} <#cccccc>раз'
+    join-server: '<#cccccc>Зайти на сервер: <#ffe999>{amount} <#cccccc>раз'
+    play-time: '<#cccccc>Время игры: <#ffe999>{time}'
+    hold-item: '<#cccccc>Держать предмет:'
+    hold-time: '<#cccccc>Держать в течение: <#ffe999>{time}'
+    drop-item: <#cccccc>Выбросить предмет
+    open-container: <#cccccc>Открыть контейнер <#ffe999>{amount} <#cccccc>раз
+    container-type: '<#cccccc>Тип контейнера: <#ffe999>{type}'
+    sign:
+      edit: '<#cccccc>Редактировать табличку: <#ffe999>{amount} <#cccccc>раз'
+      message: '<#cccccc>Нужно написать: <#ffe999>{message}'
+    book:
+      edit: '<#cccccc>Редактировать книгу: <#ffe999>{amount} <#cccccc>раз'
+      message: '<#cccccc>Нужно написать: <#ffe999>{message}'
+    receive-damage-type: '<#cccccc>Получить урон: <#ffe999>{damage}'
+    damage-cause:
+      any: <#cccccc>От <#ffe999>чего угодно
+      contact: <#cccccc>От <#ffe999>контакта
+      entity_attack: <#cccccc>От <#ffe999>атаки сущности
+      projectile: <#cccccc>От <#ffe999>снаряда
+      suffocation: <#cccccc>От <#ffe999>удушья
+      fall: <#cccccc>От <#ffe999>падения
+      fire: <#cccccc>От <#ffe999>огня
+      fire_tick: <#cccccc>От <#ffe999>горения
+      lava: <#cccccc>От <#ffe999>лавы
+      drowning: <#cccccc>От <#ffe999>утопления
+      block_explosion: <#cccccc>От <#ffe999>взрыва блока
+      entity_explosion: <#cccccc>От <#ffe999>взрыва сущности
+      void: <#cccccc>От <#ffe999>пустоты
+      lightning: <#cccccc>От <#ffe999>молнии
+      suicide: <#cccccc>От <#ffe999>самоубийства
+      starvation: <#cccccc>От <#ffe999>голода
+      poison: <#cccccc>От <#ffe999>яда
+      magic: <#cccccc>От <#ffe999>магии
+      wither: <#cccccc>От <#ffe999>визера
+      falling_block: <#cccccc>От <#ffe999>падающего блока
+      thorns: <#cccccc>От <#ffe999>шипов
+      dragon_breath: <#cccccc>От <#ffe999>дыхания дракона
+      fly_into_wall: <#cccccc>От <#ffe999>столкновения со стеной
+      hot_floor: <#cccccc>От <#ffe999>горячего пола
+      cramming: <#cccccc>От <#ffe999>давки
+      dryout: <#cccccc>От <#ffe999>высыхания
+      freeze: <#cccccc>От <#ffe999>заморозки
+      sonic_boom: <#cccccc>От <#ffe999>звукового удара
+      unknown: <#cccccc>От <#ffe999>неизвестного
+    wear-armor: '<#cccccc>Надеть броню:'
+  global:
+    not_enough_participants: '<#ffdd66>⚠ <#cccccc>Глобальный квест <#ffe999>{quest}
+      <#cccccc>требует минимум <#ffe999>{min} <#cccccc>участников <#cccccc>(сейчас:
+      <#ffe999>{current}<#cccccc>)!'
+    cancel_blocked_contributed: <#ffdd66>⚠ <#cccccc>Вы уже внесли вклад в этот глобальный
+      квест и не можете его отменить!
+    rejoin_cooldown: <#cc4444>❌ <#cccccc>Подождите <#ffe999>{time} <#cccccc>перед
+      повторной активацией этого глобального квеста!
+    max_contribution: <#97e673>✨ Отличная работа! <#cccccc>Вы достигли максимального
+      личного вклада в глобальном квесте <#ffe699>{quest}<#cccccc>. Спасибо за помощь!
+    personal:
+      join: '<#5bcbb5>+ <#cccccc>Вы присоединились к квесту <#ffe999>{quest}'
+      join-waiting: '<#5bcbb5>+ <#cccccc>Вы присоединились к очереди на активацию квеста <#ffe999>{quest} <#888888>(Еще нужно: <#ffe999>{remaining}<#888888>)'
+      leave: '<#e07a5f>- <#cccccc>Вы покинули участие в квесте <#ffe999>{quest}<#cccccc>!'
+      leave-waiting: '<#e07a5f>- <#cccccc>Вы покинули очередь на активацию квеста <#ffe999>{quest}<#cccccc>!'
+    broadcast:
+      join: <#5bcbb5>+ <#cccccc>Игрок <#ffe999>{player} <#cccccc>присоединяется к
+        выполнению <#ffe999>{quest}
+      join-waiting: '<#5bcbb5>+ <#cccccc>Игрок <#ffe999>{player} <#cccccc>присоединяется
+        к выполнению <#ffe999>{quest} <#888888>(Еще требуется: <#ffe999>{remaining}<#888888>)'
+      leave: <#e07a5f>- <#cccccc>Игрок <#ffe999>{player} <#cccccc>больше не участвует
+        в <#ffe999>{quest}
+      start:
+      - ' '
+      - <#5bcbb5>⚡ Глобальный квест <#ffe999>{quest} <#5bcbb5>активирован!
+      - ' '
+      header:
+      - ' '
+      - <#e8b830>Глобальный квест завершен!
+      - '  <#c0c0c0>“{quest}<#c0c0c0>”'
+      - ' '
+      - '<#fcd244>⭐ Лучшие герои:'
+      top-entry: ' <#fcd244>{rank}. <#cccccc>{player} <#888888>- <#fcd244>{contribution}
+        <#888888>({percent}%)'
+      footer:
+      - ' '
+      - '<#5bcbb5>👥 <#cccccc>Всего участников: <#5bcbb5>{participants}'
+      - '<#78d169>⏳ <#cccccc>Время выполнения: <#78d169>{time}'
+      your-contribution: '<#b894e6>⭐ <#cccccc>Ваш личный вклад: <#b894e6>{amount}'
+      time-unknown: неизвестно
+  background:
+    complete: '{prefix}<#97e673>Квест <#ffffff>{quest} <#97e673>успешно выполнен в
+      фоне!'
+    stage_complete: '{prefix}<#97e673>Этап <#ffffff>{stage} <#97e673>квеста <#ffffff>{quest}
+      <#97e673>выполнен в фоне!'
+  activate:
+    success:
+    - <#a7ff99>Вы активировали квест {quest}
+    - ''
+    - '{objective_details}'
+    - ''
+    - '{clickable_details}'
+  chain:
+    auto-activated: <#a7ff99>Квест <#ffffff>{quest} автоматически запущен
+  reward:
+    waiting-gui: '{prefix}<#97e673>Награда за квест ждёт вас!'
+    waiting-npc: '{prefix}<#97e673>Заберите награду у <#ffffff>{npc}<#97e673>!'
+  stage:
+    complete: '{quest} <#ffcc80>Этап &f{stage} <#ffcc80>завершён!'
+    new:
+    - '<#98b37d>На следующем этапе нужно:'
+    - ''
+    - '{objective_details}'
+    - ''
+    - '{clickable_details}'
+  transfer:
+    success: '{prefix}<#97e673>Предметы для стадии успешно переданы!'
+  types:
+    general:
+      unknown: Неизвестно
+    blocks:
+      any: Любой блок
+      unknown: Неизвестный блок
+    entities:
+      any: Любое существо
+      unknown: Неизвестное существо
+    fluids:
+      any: Любая жидкость
+      unknown: Неизвестная жидкость
+    items:
+      any: Любой предмет
+      any_fuel: Любое топливо
+      unknown: Неизвестный предмет
+    villagers:
+      any: Любой житель
+      unknown: Неизвестный житель
+chat:
+  clickable: <#e6c18a>[Больше информации]
+  hover: <#cccccc>Нажмите для просмотра деталей квеста
+rewards:
+  money:
+    invalid: '{prefix}<#e07a5f>Неверное значение денежной награды.'
+    added: <#e9c46a>+ <#ffffff>{amount} <#e9c46a> монет
+  items:
+    received: <#97e673>Вы получили предметы в качестве награды за квест!
+    dropped: <#e07a5f>Некоторые предметы не поместились в инвентарь и выпали рядом!
+  xp:
+    levels: <#7dd3ff>+ <#ffffff>{amount} <#7dd3ff> уровней опыта
+    points: <#7dd3ff>+ <#ffffff>{amount} <#7dd3ff> очков опыта
+    invalid: '{prefix}<#e07a5f>Некорректное количество опыта.'
+  attribute:
+    added: <#f4a261>Атрибут <#ffffff>{attribute} <#f4a261> увеличен на <#ffffff>{value}
+  effect:
+    added: <#b19cd9>Получен эффект <#ffffff>{effect} <#b19cd9>уровня <#ffffff>{amplifier}
+      <#b19cd9>на <#ffffff>{duration}
+system:
+  time:
+    year: г
+    years: г
+    month: мес
+    months: мес
+    day: д
+    days: д
+    hour: ч
+    hours: ч
+    minute: мин
+    minutes: мин
+    second: сек
+    seconds: сек
+    format:
+      year-month: '{y}{y_unit} {m}{m_unit}'
+      month-day: '{m}{m_unit} {d}{d_unit}'
+      day-hour: '{d}{d_unit} {h}{h_unit}'
+      hour-minute: '{h}{h_unit} {min}{min_unit}'
+      minute-second: '{min}{min_unit} {s}{s_unit}'
+      only-second: '{s}{s_unit}'
+  update:
+    available:
+    - <#ffe999>Доступна новая версия {plugin}!
+    - '{prefix}<#cccccc>Текущая: <#ffffff>{current} <#cccccc>| Последняя: <#ffffff>{latest}'
+    - '{prefix}<#cccccc>Скачать: <#7dd3ff>{url}'

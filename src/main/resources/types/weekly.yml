@@ -1,0 +1,54 @@
+# ==============================================================================
+# Questborn - Quest Type: Щотижневі Випробування (Weekly Challenges)
+# ==============================================================================
+id: weekly
+folder: quests/weekly
+
+display-name: "<#e0976a>📜 Щотижневі Випробування"
+gui-type-title: "&0📜 Щотижневі Випробування - ({page}/{total})"
+gui-quest-title: "&0{quest}"
+gui-transfer-title: "&0{quest}"
+
+material: TARGET
+slot: 24
+
+engine: ROTATION
+
+rotation-pools:
+  rare: 3
+  epic: 2
+
+rotation-slots:
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+
+reset-period: "7d"
+reset-time: "00:00"
+reset-anchor-day: 1
+
+rotation-announce:
+  enabled: true
+  sound: "ENTITY_PLAYER_LEVELUP"
+  volume: 0.8
+  pitch: 0.8
+  chat:
+    - ""
+    - " <#e0976a>📜 <#c4cbd2>Розпочався новий тиждень! Доступні <#e8a57c>щотижневі випробування<#c4cbd2>!"
+    - " <#8d99ae>Виконуйте масштабні завдання та здобувайте рідкісні скарби."
+    - ""
+
+lore:
+  - "<#d4dadf>Масштабні подвиги для витривалих героїв."
+  - "<#9aa5b1>Складні випробування, що вимагають часу,"
+  - "<#9aa5b1>майстерності та спільних зусиль."
+  - "<#e0976a>Оновлення щопонеділка о 00:00!"
+  - ""
+  - "<#e0976a>Тижневий прогрес:"
+  - " <#98c379>✔ <#edf1f5>{completed}/{total} <#9aa5b1>виконано"
+  - ""
+  - "<#7ba2b8>▸ Натисніть, щоб відкрити"
+
+enabled: true

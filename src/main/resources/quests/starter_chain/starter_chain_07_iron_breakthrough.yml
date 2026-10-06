@@ -1,0 +1,59 @@
+id: starter_chain_07_iron_breakthrough
+name: <#94a3b8>⛓ Iron Breakthrough
+icon-material: IRON_ORE
+slot: 12
+page: 1
+require-quests:
+- starter_chain_06_good_night
+description:
+- <#cccccc>Iron is your first real power spike.
+- <#cccccc>Mine ore, smelt it, and craft a tool.
+- <#cccccc>You're not a newbie anymore.
+rewards-description:
+- <#a7ff99>+420 coins
+- <#ffe08a>+160 XP
+- <#7dd3ff>+Iron tool
+quest-path:
+  stage-1:
+    objective:
+      type: BLOCK_BREAK
+      amount: 16
+      target-materials:
+      - IRON_ORE
+      - DEEPSLATE_IRON_ORE
+  stage-2:
+    objective:
+      type: ITEM_SMELT
+      amount: 16
+      target-materials:
+      - IRON_INGOT
+  stage-3:
+    objective:
+      type: ITEM_CRAFT
+      amount: 1
+      target-materials:
+      - IRON_PICKAXE
+rewards:
+  money:
+    amount: 420
+    silent: false
+  xp:
+    points: 160
+    silent: false
+  items:
+    silent: false
+    list:
+    - material: IRON_PICKAXE
+      amount: 1
+      name: <#7dd3ff>Diligence Pickaxe
+      lore:
+      - <#cccccc>Lasts longer than a normal one.
+      enchantments:
+      - unbreaking:2
+      - efficiency:1
+      flags:
+      - HIDE_ENCHANTS
+quest-effects:
+  activate: quest_activate_start
+  stage-change: quest_stage_change
+  complete: quest_complete_success
